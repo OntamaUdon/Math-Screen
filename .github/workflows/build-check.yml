@@ -12,11 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Verify problem answers
         run: |
-          python3 -m pip install --quiet sympy
-          python3 tools/build_problems.py
-          git diff --exit-code -- mathscreen/Resources/problems.json
+          python -m pip install --quiet sympy
+          python tools/build_problems.py
+          git diff --exit-code -- mathscreen/Resources/problems.json preview/problems.js
 
       - name: Install XcodeGen
         run: brew install xcodegen
