@@ -1,0 +1,118 @@
+# XcodeGen 設定ファイル。`xcodegen generate` で mathscreen.xcodeproj を生成する。
+# Mac が無くても GitHub Actions (.github/workflows/testflight.yml) で生成・ビルドされる。
+name: mathscreen
+options:
+  bundleIdPrefix: com.mathscreen
+  deploymentTarget:
+    iOS: "17.4"
+  createIntermediateGroups: true
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: ""          # CI では DEVELOPMENT_TEAM=<Team ID> で上書き
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+targets:
+  mathscreen:
+    type: application
+    platform: iOS
+    sources:
+      - path: mathscreen
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mathscreen.mathscreen
+        PRODUCT_NAME: mathscreen
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_ENTITLEMENTS: mathscreen/mathscreen.entitlements
+    info:
+      path: mathscreen/Info.plist
+      properties:
+        CFBundleDisplayName: mathscreen
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIUserInterfaceStyle: Light
+        ITSAppUsesNonExemptEncryption: false
+        NSFamilyControlsUsageDescription: 指定したアプリの利用時間を見守り、使いすぎたときに数学の問題を出すために使います。
+    dependencies:
+      - target: MonitorExtension
+      - target: ShieldConfigurationExtension
+      - target: ShieldActionExtension
+
+  MonitorExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: MonitorExtension
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mathscreen.mathscreen.monitor
+        CODE_SIGN_ENTITLEMENTS: MonitorExtension/MonitorExtension.entitlements
+    info:
+      path: MonitorExtension/Info.plist
+      properties:
+        CFBundleDisplayName: mathscreen Monitor
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).DeviceActivityMonitorExtension
+
+  ShieldConfigurationExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: ShieldConfigurationExtension
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mathscreen.mathscreen.shieldconfig
+        CODE_SIGN_ENTITLEMENTS: ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements
+    info:
+      path: ShieldConfigurationExtension/Info.plist
+      properties:
+        CFBundleDisplayName: mathscreen Shield
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldConfigurationExtension
+
+  ShieldActionExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: ShieldActionExtension
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mathscreen.mathscreen.shieldaction
+        CODE_SIGN_ENTITLEMENTS: ShieldActionExtension/ShieldActionExtension.entitlements
+    info:
+      path: ShieldActionExtension/Info.plist
+      properties:
+        CFBundleDisplayName: mathscreen Shield Action
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettings.shield-action-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldActionExtension
+
+schemes:
+  mathscreen:
+    build:
+      targets:
+        mathscreen: all
+    run:
+      config: Debug
+    archive:
+      config: Release

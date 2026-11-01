@@ -1,0 +1,16 @@
+# Xcode (project は XcodeGen で生成)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+# 生成される Info.plist
+mathscreen/Info.plist
+MonitorExtension/Info.plist
+ShieldConfigurationExtension/Info.plist
+ShieldActionExtension/Info.plist
+# misc
+.DS_Store
+__pycache__/

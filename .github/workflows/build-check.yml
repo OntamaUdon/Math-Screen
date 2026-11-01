@@ -1,0 +1,36 @@
+# push のたびに、署名なしでシミュレータ向けにビルドしてコンパイルエラーがないか確認する。
+name: Build check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify problem answers
+        run: |
+          python3 -m pip install --quiet sympy
+          python3 tools/build_problems.py
+          git diff --exit-code -- mathscreen/Resources/problems.json
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen generate
+
+      - name: Build (simulator, unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project mathscreen.xcodeproj \
+            -scheme mathscreen \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO | tee build.log | grep -E "error:|warning: .*\.swift|BUILD (SUCCEEDED|FAILED)" || true
+          grep -q "BUILD SUCCEEDED" build.log
