@@ -85,14 +85,16 @@
 
 ## 6. ビルドして TestFlight で受け取る
 
-1. GitHub の **Actions** タブ → **TestFlight** → **Run workflow**
-   - Family Controls の配布許可が **まだ** → `screen_time` のチェックを外す
-   - 許可 **済み** → チェックを入れたまま
-2. 10〜20 分ほどで完了。App Store Connect の **TestFlight** タブにビルドが表示されます（処理にさらに数分〜30分）
-3. TestFlight → **内部テスト** にグループを作り、自分を追加
-4. iPhone に **TestFlight** アプリを入れて、届いた招待からインストール
+このリポジトリには作業ブランチしかなく、標準ブランチに TestFlight のワークフローがないため、Actions の「Run workflow」ボタンは出ません。次のどちらかで実行します。
 
-> `Run workflow` ボタンは、ワークフローのファイルがデフォルトブランチにあるときだけ表示されます。
+- **A. 失敗した実行をやり直す（自分でできる）**：Actions タブ → **TestFlight** → 一覧の実行 → 右上の **Re-run all jobs**。Secrets を登録したあとは、これで新しい値が使われます。
+- **B. Claude に頼む**：コミットメッセージに `[testflight]` を含めて push します。`[ui-only]` も含めると、スクリーンタイム機能(Family Controls)を外した版になります。
+
+Family Controls の配布用許可が **まだ** のときは、`[ui-only]` の版（B）にします。A のやり直しは完全版なので、許可がないと署名で失敗します。
+
+1. 10〜20 分ほどで完了。App Store Connect の **TestFlight** タブにビルドが表示されます（処理にさらに数分〜30分）
+2. TestFlight → **内部テスト** にグループを作り、自分を追加
+3. iPhone に **TestFlight** アプリを入れて、届いた招待からインストール
 
 ---
 
