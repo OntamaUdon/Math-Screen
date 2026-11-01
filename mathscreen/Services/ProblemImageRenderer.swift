@@ -1,7 +1,7 @@
 import UIKit
 import WebKit
 
-/// 問題文（LaTeX 混じり）を KaTeX で描いて、透明背景の PNG にする。
+/// 問題文（LaTeX 混じり）を KaTeX で描いて、白い背景・角丸の PNG にする。
 /// 問題を追加しても自動で画像になる。ブロック画面は文字しか出せないため、アイコン欄にこの画像を入れる。
 @MainActor
 final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
@@ -24,9 +24,9 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
 
         let config = WKWebViewConfiguration()
         let web = WKWebView(frame: CGRect(x: -5000, y: 0, width: width, height: 400), configuration: config)
-        web.isOpaque = false
-        web.backgroundColor = .clear
-        web.scrollView.backgroundColor = .clear
+        web.isOpaque = true
+        web.backgroundColor = .white
+        web.scrollView.backgroundColor = .white
         web.navigationDelegate = self
         window.addSubview(web)                       // 画面の外に置く（描画のためウィンドウに載せる必要がある）
         defer { web.removeFromSuperview() }
@@ -39,6 +39,8 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
 
         // 2. 描画して、フォントの読み込みを待ち、高さを測る
         let script = """
+        document.body.style.background = '#FFFFFF';       // 数式の背景は白
+        document.getElementById('m').style.padding = '16px 18px';
         render(src, size, color);
         await document.fonts.ready;
         return Math.ceil(document.getElementById('m').getBoundingClientRect().height);
@@ -49,14 +51,15 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
                 contentWorld: .page),
               let height = (result as? NSNumber)?.doubleValue, height > 0 else { return false }
 
-        web.frame = CGRect(x: -5000, y: 0, width: width, height: CGFloat(height) + 8)
+        web.frame = CGRect(x: -5000, y: 0, width: width, height: CGFloat(height))
         try? await Task.sleep(nanoseconds: 150_000_000)   // レイアウトが落ち着くのを待つ
 
         // 3. 画像にして保存
         let snap = WKSnapshotConfiguration()
         snap.rect = web.bounds
         snap.snapshotWidth = NSNumber(value: Double(width) * 2)
-        guard let image = try? await web.takeSnapshot(configuration: snap), let png = image.pngData() else { return false }
+        guard let shot = try? await web.takeSnapshot(configuration: snap),
+              let png = Self.roundedCorners(shot, radius: 20).pngData() else { return false }
         ProblemImageStore.save(png, forID: problem.id)
         return true
     }
@@ -72,6 +75,17 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
         Task { @MainActor in
             loadContinuation?.resume()
             loadContinuation = nil
+        }
+    }
+
+    /// 白いカードに見えるよう、角を丸くする（角の外側は透明）。
+    private static func roundedCorners(_ image: UIImage, radius: CGFloat) -> UIImage {
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = image.scale
+        format.opaque = false
+        return UIGraphicsImageRenderer(size: image.size, format: format).image { _ in
+            UIBezierPath(roundedRect: CGRect(origin: .zero, size: image.size), cornerRadius: radius).addClip()
+            image.draw(at: .zero)
         }
     }
 
