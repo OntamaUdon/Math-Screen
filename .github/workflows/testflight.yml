@@ -78,7 +78,7 @@ jobs:
             CURRENT_PROJECT_VERSION="${{ github.run_number }}" | tee archive.log | grep -E "error:|ARCHIVE (SUCCEEDED|FAILED)" || true
           grep -q "ARCHIVE SUCCEEDED" archive.log
 
-      - name: Upload to TestFlight
+      - name: Export IPA
         run: |
           cat > "$RUNNER_TEMP/ExportOptions.plist" <<PLIST
           <?xml version="1.0" encoding="UTF-8"?>
@@ -86,7 +86,7 @@ jobs:
           <plist version="1.0">
           <dict>
             <key>method</key><string>app-store-connect</string>
-            <key>destination</key><string>upload</string>
+            <key>destination</key><string>export</string>
             <key>teamID</key><string>${TEAM_ID}</string>
             <key>signingStyle</key><string>manual</string>
             <key>signingCertificate</key><string>Apple Distribution</string>
@@ -104,10 +104,18 @@ jobs:
           xcodebuild -exportArchive \
             -archivePath "$RUNNER_TEMP/mathscreen.xcarchive" \
             -exportPath "$RUNNER_TEMP/export" \
-            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist" \
-            -authenticationKeyPath "$KEY_PATH" \
-            -authenticationKeyID "$ASC_KEY_ID" \
-            -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist"
+          ls -la "$RUNNER_TEMP/export"
+
+      - name: Upload to TestFlight
+        # Xcode のアップロードは API キーの認証で失敗したため、Apple の altool で送る。
+        run: |
+          mkdir -p ~/private_keys
+          cp "$KEY_PATH" ~/private_keys/AuthKey_${ASC_KEY_ID}.p8
+          IPA=$(ls "$RUNNER_TEMP"/export/*.ipa | head -1)
+          xcrun altool --upload-app -f "$IPA" --type ios \
+            --apiKey "$ASC_KEY_ID" --apiIssuer "$ASC_ISSUER_ID" 2>&1 | tee upload.log
+          grep -q "No errors uploading" upload.log
 
       - name: Clean up signing (delete temporary certificate and profiles)
         if: always()
