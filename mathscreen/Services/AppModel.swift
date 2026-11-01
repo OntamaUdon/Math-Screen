@@ -36,7 +36,10 @@ final class AppModel {
     // MARK: 次に出す問題
     /// ブロック画面に表示する問題を、まだ決まっていなければ決めておく。
     func ensurePendingProblem() {
-        guard SharedStore.pendingProblemID.flatMap({ id in ProblemBank.all.first { $0.id == id } }) == nil else { return }
+        guard SharedStore.pendingProblemID.flatMap({ id in ProblemBank.all.first { $0.id == id } }) == nil else {
+            prepareImage()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
+            return
+        }
         setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties))
     }
 
@@ -46,6 +49,14 @@ final class AppModel {
 
     func setPendingProblem(_ problem: Problem?) {
         SharedStore.setPendingProblem(id: problem?.id, body: problem?.plain)
+        ProblemImageStore.prune(keeping: problem?.id)
+        prepareImage()
+    }
+
+    /// 次に出す問題を LaTeX の画像にしておく（ブロック画面のアイコン欄に使う）。
+    private func prepareImage() {
+        guard let problem = pendingProblem else { return }
+        Task { await ProblemImageRenderer.shared.ensureImage(for: problem) }
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }

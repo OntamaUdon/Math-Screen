@@ -32,7 +32,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
-            icon: Self.blankIcon,
+            icon: ProblemImageStore.image(forID: SharedStore.pendingProblemID) ?? Self.blankIcon,   // LaTeX で描いた問題の画像
             title: ShieldConfiguration.Label(text: "問題", color: ink),
             subtitle: ShieldConfiguration.Label(text: problem, color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
@@ -41,6 +41,6 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         )
     }
 
-    /// アイコンを出さないための透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
+    /// 問題の画像がまだないときの、透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
     private static let blankIcon: UIImage = UIGraphicsImageRenderer(size: CGSize(width: 1, height: 1)).image { _ in }
 }

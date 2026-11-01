@@ -20,7 +20,8 @@
   var el = document.getElementById('m');
   function report() {
     var h = Math.ceil(el.getBoundingClientRect().height);
-    window.webkit.messageHandlers.height.postMessage(h);
+    var w = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.height;
+    if (w) w.postMessage(h);   // 画像化のときはハンドラなし
   }
   // src: LaTeX 混じりの文（$...$ が数式）。size: px。color: CSS 色。
   function render(src, size, color) {
