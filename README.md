@@ -8,6 +8,9 @@
 - 画面プレビュー（ブラウザで確認できるモック）：[`preview/index.html`](preview/index.html)
 - Mac なしで TestFlight に配信する手順：[`docs/SETUP.md`](docs/SETUP.md)
 
+## TestFlight に送る
+手順は [`docs/SETUP.md`](docs/SETUP.md)。コミットメッセージに `[testflight]` を含めて push すると、ビルドして TestFlight に送る（`[ui-only]` も含めると、スクリーンタイム機能を外した版）。
+
 ## 使い方
 
 1. 「見守るアプリ」の ＋ で、対象のアプリと時間（例：Instagram を 15 分）を設定
