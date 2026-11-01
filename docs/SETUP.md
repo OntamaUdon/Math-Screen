@@ -86,6 +86,14 @@ TestFlight や App Store で、ロック機能を使うために必要な Apple 
 | `ASC_ISSUER_ID` | Issuer ID |
 | `ASC_PRIVATE_KEY` | .p8 ファイルの中身をそのまま貼り付け（`-----BEGIN PRIVATE KEY-----` から `-----END PRIVATE KEY-----` まで） |
 
+### 5-2. アプリ用パスワード（API キーでアップロードが拒否されたとき）
+API キーの認証が「Cannot verify client's JWT headers」で拒否されることがある。その場合は、Apple ID のアプリ用パスワードを使う。
+
+1. [account.apple.com](https://account.apple.com) →「サインインとセキュリティ」→「アプリ用パスワード」で新しく作る（表示は1回だけ）
+2. GitHub の Secrets に `APPLE_ID`（Apple ID のメール）と `APPLE_APP_PASSWORD`（そのパスワード）を登録する
+
+この2つがあれば、アップロードにはこちらが使われる（なければ API キー）。
+
 ## 6. ビルドして TestFlight で受け取る
 
 このリポジトリには作業ブランチしかなく、標準ブランチに TestFlight のワークフローがないため、Actions の「Run workflow」ボタンは出ません。次のどちらかで実行します。
