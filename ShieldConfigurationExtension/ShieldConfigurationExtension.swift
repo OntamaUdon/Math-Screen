@@ -27,7 +27,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
 
         // タイトル = 「問題」、説明 = 問題文
-        let problem = SharedStore.pendingProblemBody ?? "mathscreen を開いて問題を解いてください。"
+        let problem = SharedStore.pendingProblemBody ?? "解くロックを開いて問題を解いてください。"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,

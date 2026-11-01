@@ -37,7 +37,7 @@ targets:
     info:
       path: mathscreen/Info.plist
       properties:
-        CFBundleDisplayName: mathscreen
+        CFBundleDisplayName: 解くロック
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen:

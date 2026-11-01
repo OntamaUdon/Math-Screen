@@ -23,7 +23,7 @@ final class ShieldActionExtension: ShieldActionDelegate {
         switch action {
         case .primaryButtonPressed:
             ChallengeNotification.send(
-                title: "mathscreen：問題が届きました",
+                title: "解くロック：問題が届きました",
                 body: "タップして問題を解こう。正解すると再開できます。"
             ) {
                 completionHandler(.close)

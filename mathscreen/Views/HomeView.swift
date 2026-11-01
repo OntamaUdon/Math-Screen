@@ -6,7 +6,7 @@ struct HomeView: View {
     @State private var editing: GuardRule?
 
     var body: some View {
-        Screen(title: "mathscreen") {
+        Screen(title: "解くロック") {
             weekCard
             if model.isLocked { lockedCard }
             todayCard

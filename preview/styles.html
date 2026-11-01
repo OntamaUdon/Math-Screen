@@ -1,4 +1,4 @@
-<title>mathscreen Style Studies</title>
+<title>解くロック Style Studies</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&family=Klee+One:wght@400;600&family=DotGothic16&display=swap">
@@ -222,7 +222,7 @@ section.style{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;ali
 
 <div class="wrap">
   <header class="top">
-    <h1>mathscreen デザインスタイル比較</h1>
+    <h1>解くロック デザインスタイル比較</h1>
     <p>同じ2画面（ホームと、ロック解除の問題画面）を6つのスタイルで描いたモックです。気に入ったものを1つ選ぶか、「AのこれとBのこれ」のように組み合わせを指定してください。</p>
     <nav class="jump" aria-label="スタイル一覧" id="jump"></nav>
   </header>
@@ -278,7 +278,7 @@ function home(st){
   const rules = `<div class="sec">見守るアプリ</div><div class="rules">
     <div class="card rule"><span class="ri">IG</span><span class="rm"><b>Instagram</b><small>15分ごとに1問</small></span><i class="tg"></i></div>
     <div class="card rule"><span class="ri">YT</span><span class="rm"><b>YouTube</b><small>30分ごとに1問</small></span><i class="tg off"></i></div></div>`;
-  const head = `<div class="hd"><div class="ttl">mathscreen</div><div class="sub">今日も、考える時間に。</div></div>`;
+  const head = `<div class="hd"><div class="ttl">解くロック</div><div class="sub">今日も、考える時間に。</div></div>`;
   let body;
   if(st==="iso") body = head + isoHero() + lock + rules;
   else if(st==="bau") body = head + bauHero() + lock + stats + rules;

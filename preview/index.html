@@ -1,4 +1,4 @@
-<title>mathscreen UI Preview</title>
+<title>解くロック UI Preview</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
@@ -128,7 +128,7 @@ h1{font-size:27px;font-weight:800;margin:6px 0 0}
   </div></div>
 
   <aside class="side">
-    <h2>mathscreen の画面プレビュー</h2>
+    <h2>解くロック の画面プレビュー</h2>
     <p>iOS アプリの見た目と流れを、ブラウザで触って確かめるためのモックです。問題は実際にアプリへ入っている 60 問から出ます。</p>
     <div class="card">
       <span class="label">ロックから解除までの流れ</span>
@@ -199,7 +199,7 @@ function pick(cats,diffs,exclude){
 function homeView(){
   const t=S.today;
   return `<div class="col">
-    <h1>mathscreen</h1>
+    <h1>解くロック</h1>
     ${isoChart(S.week.map(w=>w[1]),DAYS,"この7日間の正解数")}
     ${S.locked?`<div class="card coral col" style="gap:10px">
       <b style="font-size:16px">制限中</b>
@@ -290,7 +290,7 @@ function render(){
       <button class="p1" data-act="shieldSolve">問題を解く</button></div>`);
   }
   if(S.overlay==="banner"){
-    $("#screen").insertAdjacentHTML("beforeend",`<button class="banner" data-act="openNotif"><span class="app">√</span><span><b>mathscreen：問題が届きました</b><span>タップして問題を解こう。正解すると再開できます。</span></span></button>`);
+    $("#screen").insertAdjacentHTML("beforeend",`<button class="banner" data-act="openNotif"><span class="app">√</span><span><b>解くロック：問題が届きました</b><span>タップして問題を解こう。正解すると再開できます。</span></span></button>`);
   }
 }
 

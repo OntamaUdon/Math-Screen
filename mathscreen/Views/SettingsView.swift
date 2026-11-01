@@ -64,7 +64,7 @@ struct SettingsView: View {
                     .disabled(!model.isLocked)
             }
 
-            Text("mathscreen \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
+            Text("解くロック \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
                 .font(Theme.font(12)).foregroundStyle(Theme.inkFaint)
                 .frame(maxWidth: .infinity)
         }
