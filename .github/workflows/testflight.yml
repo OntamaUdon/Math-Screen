@@ -3,10 +3,10 @@
 name: TestFlight
 
 on:
-  # タグ「testflight-*」を push しても実行できる（標準ブランチに無くても動く）。
-  # タグ名に ui-only を含めると、スクリーンタイム機能(Family Controls)を外した版になる。例: testflight-ui-only-1
+  # コミットメッセージに [testflight] を含めて push すると実行される（標準ブランチに無くても動く）。
+  # [ui-only] も含めると、スクリーンタイム機能(Family Controls)を外した版になる。
   push:
-    tags: ["testflight-*"]
+    branches: ["claude/**"]
   workflow_dispatch:
     inputs:
       screen_time:
@@ -16,6 +16,7 @@ on:
 
 jobs:
   testflight:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[testflight]') }}
     runs-on: macos-15
     env:
       TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
@@ -39,7 +40,7 @@ jobs:
           echo "KEY_PATH=$RUNNER_TEMP/keys/AuthKey.p8" >> "$GITHUB_ENV"
 
       - name: Remove Family Controls entitlement (UI only build)
-        if: ${{ (github.event_name == 'workflow_dispatch' && !inputs.screen_time) || contains(github.ref_name, 'ui-only') }}
+        if: ${{ (github.event_name == 'workflow_dispatch' && !inputs.screen_time) || contains(github.event.head_commit.message, '[ui-only]') }}
         run: |
           for f in mathscreen/mathscreen.entitlements MonitorExtension/MonitorExtension.entitlements \
                    ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements \
