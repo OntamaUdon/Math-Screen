@@ -45,7 +45,7 @@ final class AppModel {
     }
 
     func setPendingProblem(_ problem: Problem?) {
-        SharedStore.setPendingProblem(id: problem?.id, body: problem?.body)
+        SharedStore.setPendingProblem(id: problem?.id, body: problem?.plain)
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }

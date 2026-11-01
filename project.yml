@@ -22,6 +22,10 @@ targets:
     platform: iOS
     sources:
       - path: mathscreen
+        excludes:
+          - Resources/katex          # 下でフォルダ参照として同梱する
+      - path: mathscreen/Resources/katex
+        type: folder                 # KaTeX 一式。fonts/ の階層を保つ
       - path: Shared
     settings:
       base:

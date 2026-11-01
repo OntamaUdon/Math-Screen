@@ -2,6 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="katex/katex.min.css">
 <style>
 /* Layout: one iPhone-sized isometric screen on a quiet stage, demo controls beside it (stacked on phones). */
 :root{
@@ -52,6 +53,7 @@ h1{font-size:27px;font-weight:800;margin:6px 0 0}
   margin:0 2px 2px 0;box-shadow:1px 1px 0 var(--sd),2px 2px 0 var(--sd)}
 .tag.on{--top:var(--teal);--sd:var(--teal-deep);color:#fff;box-shadow:1px 1px 0 var(--sd),2px 2px 0 var(--sd),3px 3px 0 var(--sd)}
 .textlink{font-size:13px;font-weight:800;color:var(--ink-faint);text-align:center;padding:6px}
+.katex{font-size:1.08em}
 .hero svg{display:block;width:100%;height:auto}
 
 .stats3{display:grid;grid-template-columns:repeat(3,1fr)}
@@ -142,6 +144,8 @@ h1{font-size:27px;font-weight:800;margin:6px 0 0}
   </aside>
 </div>
 
+<script src="katex/katex.min.js"></script>
+<script src="katex/auto-render.min.js"></script>
 <script src="problems.js"></script>
 <script>
 const P = window.PROBLEMS || [];
@@ -277,11 +281,12 @@ function render(){
   const v=$("#view"), full=S.overlay==="challenge";
   v.innerHTML = full ? challengeView() : ({home:homeView,practice:practiceView,stats:statsView,settings:settingsView})[S.tab]();
   v.classList.toggle("full",full);
+  if(window.renderMathInElement) renderMathInElement(v,{delimiters:[{left:"$$",right:"$$",display:true},{left:"$",right:"$",display:false}],throwOnError:false});
   $("#tabs").hidden = full;
   document.querySelectorAll(".shield,.banner").forEach(e=>e.remove());
   if(S.overlay==="shield"){
-    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><h2>Instagram の時間になりました</h2>
-      <p class="q">${esc(S.pending.body)}</p>
+    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><h2>問題</h2>
+      <p class="q">${esc(S.pending.plain)}</p>
       <button class="p1" data-act="shieldSolve">問題を解く</button></div>`);
   }
   if(S.overlay==="banner"){

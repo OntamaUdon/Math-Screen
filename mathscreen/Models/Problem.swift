@@ -5,7 +5,8 @@ struct Problem: Codable, Identifiable, Hashable {
     let category: String
     let difficulty: Int
     let title: String
-    let body: String
+    let body: String       // LaTeX 混じり（$...$ が数式）。アプリ内の問題画面で KaTeX 表示
+    let plain: String      // 文字だけの問題文。iOS のブロック画面は文字しか出せないのでこちらを使う
     let answer: Int
     let explanation: String
 

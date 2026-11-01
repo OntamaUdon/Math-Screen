@@ -205,6 +205,17 @@ add("c15", C, 3, "サイクロイドの長さ", "曲線 x = t − sin t、y = 1 
     lambda: sp.integrate(2*sp.sin(t/2), (t, 0, 2*sp.pi)),
     "(dx/dt)² + (dy/dt)² = 2 − 2cos t = 4sin²(t/2)。長さは 2sin(t/2) を t = 0 から 2π まで積分して [−4cos(t/2)] = 4 − (−4) = 8。")
 
+# ── LaTeX 版を body / explanation に、従来の文字だけの文を plain に ──
+import re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from problems_tex import TEX
+assert set(TEX) == {p["id"] for p in P}, "problems_tex.py と問題の id が一致しません"
+for p in P:
+    tex_body, tex_expl = TEX[p["id"]]
+    plain = re.sub(r"([A-Za-z]{1,2})\u20d7", r"ベクトル\1", p["body"])   # 結合文字の矢印は表示が崩れるため
+    p["plain"] = plain
+    p["body"], p["explanation"] = tex_body, tex_expl
+
 assert len(P) == 60 and len({p["id"] for p in P}) == 60
 for c in ["junior", "math1a", "math2b", "math3c"]:
     for d in (1, 2, 3):
