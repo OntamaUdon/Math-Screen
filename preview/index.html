@@ -91,13 +91,11 @@ h1{font-size:27px;font-weight:800;margin:6px 0 0}
 .result .ok{font-size:19px;font-weight:800;color:var(--teal-deep)}
 .result p{margin:0;line-height:1.75;font-size:14.5px}
 
-.shield{position:absolute;inset:0;z-index:8;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:40px 30px;text-align:center}
-.shield .fx{font-size:40px;font-weight:800;color:var(--teal-deep);font-style:italic}
+.shield{--light-green:#DDF4E2;--shield-soft:#4A6257;position:absolute;inset:0;z-index:8;background:var(--light-green);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:40px 30px;text-align:center}
 .shield h2{margin:0;font-size:21px;font-weight:800}
-.shield p{margin:0;font-size:13.5px;line-height:1.7;color:var(--ink-soft)}
-.shield .p1{margin-top:22px;background:var(--teal);color:#fff;border-radius:14px;padding:14px;width:100%;font-weight:800;font-size:16px}
-.shield .p2{color:var(--ink-soft);font-weight:800;padding:10px}
-.shield .os{position:absolute;top:56px;font-size:11px;letter-spacing:.08em;color:var(--ink-faint);font-weight:800}
+.shield p{margin:0;font-size:13.5px;line-height:1.7;color:var(--shield-soft)}
+.shield .q{font-size:14.5px;color:var(--ink);margin-top:6px}
+.shield .p1{margin-top:22px;background:var(--teal-deep);color:#fff;border-radius:14px;padding:14px;width:100%;font-weight:800;font-size:16px}
 .banner{position:absolute;top:44px;left:12px;right:12px;z-index:9;background:rgba(255,255,255,.97);border:1px solid var(--line);border-radius:18px;
   padding:12px 14px;display:flex;gap:12px;align-items:center;text-align:left;animation:drop .3s ease-out}
 @keyframes drop{from{transform:translateY(-110px)}}
@@ -282,9 +280,9 @@ function render(){
   $("#tabs").hidden = full;
   document.querySelectorAll(".shield,.banner").forEach(e=>e.remove());
   if(S.overlay==="shield"){
-    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><span class="os">INSTAGRAM</span><div class="fx">ƒ(x)</div><h2>1問解いて再開</h2>
-      <p>Instagram の利用時間が上限に達しました。<br>「問題を解く」→ 届いた通知をタップ → 正解で再開できます。</p>
-      <button class="p1" data-act="shieldSolve">問題を解く</button><button class="p2" data-act="shieldClose">閉じる</button></div>`);
+    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><h2>1問解いて再開</h2>
+      <p>Instagram の時間になりました</p><p class="q">${esc(S.pending.body)}</p>
+      <button class="p1" data-act="shieldSolve">問題を解く</button></div>`);
   }
   if(S.overlay==="banner"){
     $("#screen").insertAdjacentHTML("beforeend",`<button class="banner" data-act="openNotif"><span class="app">√</span><span><b>mathscreen：問題が届きました</b><span>タップして問題を解こう。正解すると再開できます。</span></span></button>`);
@@ -292,14 +290,14 @@ function render(){
 }
 
 function newSolver(problem){ S.solver={problem,input:"",attempts:0,wrong:false,solved:false,shake:false}; }
-function openChallenge(){ S.overlay="challenge"; S.solvedCount=0; newSolver(pick(S.cats,S.diffs)); $("#view").scrollTop=0; }
+function openChallenge(){ S.overlay="challenge"; S.solvedCount=0; newSolver(S.pending||pick(S.cats,S.diffs)); $("#view").scrollTop=0; }
 function practiceCats(){ return S.practice.cat?new Set([S.practice.cat]):new Set(Object.keys(CAT)); }
 function practiceDiffs(){ return S.practice.diff?new Set([S.practice.diff]):new Set([1,2,3]); }
 
 document.addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return;
   const d=b.dataset;
-  if(b.id==="simulate"){ S.locked=true; S.today.triggers++; S.tab="home"; S.overlay="shield"; }
+  if(b.id==="simulate"){ S.pending=pick(S.cats,S.diffs); S.locked=true; S.today.triggers++; S.tab="home"; S.overlay="shield"; }
   else if(d.tab){ S.tab=d.tab; S.overlay=null; if(d.tab!=="practice"){ S.practice.problem=null; S.solver=null; } }
   else if(d.rule){ const r=S.rules.find(r=>r.id==d.rule); r.on=!r.on; }
   else if(d.key!==undefined && S.solver){

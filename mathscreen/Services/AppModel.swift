@@ -30,6 +30,22 @@ final class AppModel {
         bestStreak = SharedStore.bestStreak
         hasOnboarded = SharedStore.hasOnboarded
         authorization = AuthorizationCenter.shared.authorizationStatus
+        ensurePendingProblem()
+    }
+
+    // MARK: 次に出す問題
+    /// ブロック画面に表示する問題を、まだ決まっていなければ決めておく。
+    func ensurePendingProblem() {
+        guard SharedStore.pendingProblemID.flatMap({ id in ProblemBank.all.first { $0.id == id } }) == nil else { return }
+        setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties))
+    }
+
+    var pendingProblem: Problem? {
+        SharedStore.pendingProblemID.flatMap { id in ProblemBank.all.first { $0.id == id } }
+    }
+
+    func setPendingProblem(_ problem: Problem?) {
+        SharedStore.setPendingProblem(id: problem?.id, body: problem?.body)
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }
@@ -119,12 +135,18 @@ final class AppModel {
             if let rule = rules.first(where: { $0.id == id }) { restartMonitoring(rule) }
         }
         UNUserNotificationCenter.current().removeDeliveredNotifications(withIdentifiers: [ChallengeNotification.identifier])
+        // 次のロックでは別の問題を出す
+        setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties,
+                                           excluding: SharedStore.pendingProblemID))
     }
 
     // MARK: 設定
     func updateSettings(_ s: ChallengeSettings) {
         settings = s
         SharedStore.settings = s
+        if let p = pendingProblem, !(s.categories.contains(p.category) && s.difficulties.contains(p.difficulty)) {
+            setPendingProblem(ProblemBank.pick(categories: s.categories, difficulties: s.difficulties))
+        }
     }
 
     // MARK: 集計

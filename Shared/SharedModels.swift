@@ -59,6 +59,8 @@ enum SharedStore {
         static let bestStreak = "bestStreak"
         static let recent = "recentProblemIDs"
         static let onboarded = "hasOnboarded"
+        static let pendingID = "pendingProblemID"
+        static let pendingBody = "pendingProblemBody"
     }
 
     // MARK: ルール
@@ -132,6 +134,15 @@ enum SharedStore {
     static var recentProblemIDs: [String] {
         get { d.stringArray(forKey: Key.recent) ?? [] }
         set { d.set(Array(newValue.suffix(30)), forKey: Key.recent) }
+    }
+
+    // MARK: 次に出す問題（ブロック画面に表示し、通知から開いた問題画面でも同じものを出す）
+    static var pendingProblemID: String? { d.string(forKey: Key.pendingID) }
+    static var pendingProblemBody: String? { d.string(forKey: Key.pendingBody) }
+
+    static func setPendingProblem(id: String?, body: String?) {
+        d.set(id, forKey: Key.pendingID)
+        d.set(body, forKey: Key.pendingBody)
     }
 
     static var hasOnboarded: Bool {

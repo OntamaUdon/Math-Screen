@@ -88,6 +88,11 @@ struct ChallengeView: View {
     }
 
     private func next() {
+        // 最初の1問は、ブロック画面に表示していた問題
+        if problem == nil, solvedCount == 0, let pending = model.pendingProblem {
+            problem = pending
+            return
+        }
         let s = model.settings
         problem = ProblemBank.pick(categories: s.categories, difficulties: s.difficulties, excluding: problem?.id)
     }

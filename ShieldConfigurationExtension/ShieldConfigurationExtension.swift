@@ -20,25 +20,31 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         make(name: webDomain.domain)
     }
 
+    /// ライトグリーンの背景に、タイトル・説明1行・問題文だけを出す（アイコンと「閉じる」は出さない）。
     private func make(name: String?) -> ShieldConfiguration {
         let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
-        let soft = UIColor(red: 0.420, green: 0.439, blue: 0.533, alpha: 1)       // #6B7088
-        let teal = UIColor(red: 0.235, green: 0.773, blue: 0.710, alpha: 1)       // #3CC5B5
-        let background = UIColor(red: 0.933, green: 0.945, blue: 0.969, alpha: 1) // #EEF1F7
+        let soft = UIColor(red: 0.290, green: 0.384, blue: 0.341, alpha: 1)       // #4A6257
+        let tealDeep = UIColor(red: 0.149, green: 0.588, blue: 0.541, alpha: 1)   // #26968A
+        let lightGreen = UIColor(red: 0.867, green: 0.957, blue: 0.886, alpha: 1) // #DDF4E2
         let target = name ?? "このアプリ"
 
+        var subtitle = "\(target) の時間になりました"
+        if let problem = SharedStore.pendingProblemBody {
+            subtitle += "\n\n" + problem
+        }
+
         return ShieldConfiguration(
-            backgroundBlurStyle: .systemUltraThinMaterialLight,
-            backgroundColor: background,
-            icon: UIImage(systemName: "function"),
+            backgroundBlurStyle: nil,
+            backgroundColor: lightGreen,
+            icon: Self.blankIcon,
             title: ShieldConfiguration.Label(text: "1問解いて再開", color: ink),
-            subtitle: ShieldConfiguration.Label(
-                text: "\(target) の利用時間が上限に達しました。\n「問題を解く」→ 届いた通知をタップ → 正解で再開できます。",
-                color: soft
-            ),
+            subtitle: ShieldConfiguration.Label(text: subtitle, color: soft),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: .white),
-            primaryButtonBackgroundColor: teal,
-            secondaryButtonLabel: ShieldConfiguration.Label(text: "閉じる", color: soft)
+            primaryButtonBackgroundColor: tealDeep,
+            secondaryButtonLabel: nil
         )
     }
+
+    /// アイコンを出さないための透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
+    private static let blankIcon: UIImage = UIGraphicsImageRenderer(size: CGSize(width: 1, height: 1)).image { _ in }
 }
