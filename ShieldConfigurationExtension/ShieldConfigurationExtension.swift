@@ -21,10 +21,10 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
     }
 
     private func make(name: String?) -> ShieldConfiguration {
-        let ink = UIColor(red: 0.149, green: 0.149, blue: 0.165, alpha: 1)       // #26262A
-        let soft = UIColor(red: 0.431, green: 0.431, blue: 0.455, alpha: 1)      // #6E6E74
-        let mintDeep = UIColor(red: 0.247, green: 0.561, blue: 0.431, alpha: 1)  // #3F8F6E
-        let background = UIColor(red: 0.953, green: 0.953, blue: 0.945, alpha: 1) // #F3F3F1
+        let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
+        let soft = UIColor(red: 0.420, green: 0.439, blue: 0.533, alpha: 1)       // #6B7088
+        let teal = UIColor(red: 0.235, green: 0.773, blue: 0.710, alpha: 1)       // #3CC5B5
+        let background = UIColor(red: 0.933, green: 0.945, blue: 0.969, alpha: 1) // #EEF1F7
         let target = name ?? "このアプリ"
 
         return ShieldConfiguration(
@@ -37,7 +37,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
                 color: soft
             ),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: .white),
-            primaryButtonBackgroundColor: mintDeep,
+            primaryButtonBackgroundColor: teal,
             secondaryButtonLabel: ShieldConfiguration.Label(text: "閉じる", color: soft)
         )
     }

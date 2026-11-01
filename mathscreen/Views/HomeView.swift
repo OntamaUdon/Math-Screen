@@ -7,6 +7,7 @@ struct HomeView: View {
 
     var body: some View {
         Screen(title: "mathscreen") {
+            weekCard
             if model.isLocked { lockedCard }
             todayCard
             rulesSection
@@ -16,16 +17,22 @@ struct HomeView: View {
         }
     }
 
+    private var weekCard: some View {
+        let week = model.lastWeek
+        return IsoBarChart(values: week.map(\.stats.correct), labels: week.map(\.label), caption: "この7日間の正解数")
+            .padding(.vertical, 4)
+    }
+
     private var lockedCard: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: 10) {
             Label("制限中", systemImage: "lock.fill")
-                .font(Theme.font(17, .bold)).foregroundStyle(Theme.ink)
+                .font(Theme.font(17, .heavy)).foregroundStyle(.white)
             Text(model.lockedRules.map(\.name).joined(separator: "・") + " がロックされています。")
-                .font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
+                .font(Theme.font(14)).foregroundStyle(.white.opacity(0.9))
             Button("問題を解く") { model.showChallenge = true }
-                .buttonStyle(.primary)
+                .buttonStyle(.secondary)
         }
-        .card()
+        .card(top: Theme.coral, side: Theme.coralDeep)
     }
 
     private var todayCard: some View {
@@ -53,7 +60,7 @@ struct HomeView: View {
                 } label: {
                     Label("追加", systemImage: "plus")
                         .font(Theme.font(14, .semibold))
-                        .foregroundStyle(Theme.mintDeep)
+                        .foregroundStyle(Theme.tealDeep)
                 }
             }
 
@@ -79,8 +86,7 @@ struct HomeView: View {
                             .onTapGesture { editing = rule }
                     }
                 }
-                .background(Theme.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-                .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous).stroke(Theme.line, lineWidth: 1))
+                .card(padding: 0)
             }
         }
     }
@@ -110,7 +116,7 @@ struct RuleRow: View {
                 HStack(spacing: 6) {
                     Text(rule.name).font(Theme.font(16, .semibold)).foregroundStyle(Theme.ink)
                     if locked {
-                        Image(systemName: "lock.fill").font(.system(size: 12)).foregroundStyle(Theme.mintDeep)
+                        Image(systemName: "lock.fill").font(.system(size: 12)).foregroundStyle(Theme.tealDeep)
                     }
                 }
                 HStack(spacing: 4) {
@@ -124,7 +130,7 @@ struct RuleRow: View {
             Spacer()
             Toggle("", isOn: Binding(get: { rule.isEnabled }, set: onToggle))
                 .labelsHidden()
-                .tint(Theme.mintDeep)
+                .tint(Theme.tealDeep)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 14)

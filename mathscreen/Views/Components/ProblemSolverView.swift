@@ -79,7 +79,7 @@ struct ProblemSolverView: View {
         VStack(alignment: .leading, spacing: 12) {
             Label("正解　答えは \(problem.answer)", systemImage: "checkmark.circle.fill")
                 .font(Theme.font(20, .bold))
-                .foregroundStyle(Theme.mintDeep)
+                .foregroundStyle(Theme.tealDeep)
             SectionLabel("解説")
             Text(problem.explanation)
                 .font(Theme.font(16))

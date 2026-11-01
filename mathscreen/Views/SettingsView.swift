@@ -43,13 +43,13 @@ struct SettingsView: View {
                     Text("アクセス").font(Theme.font(16)).foregroundStyle(Theme.ink)
                     Spacer()
                     Text(authLabel).font(Theme.font(15, .semibold))
-                        .foregroundStyle(model.authorization == .approved ? Theme.mintDeep : Theme.danger)
+                        .foregroundStyle(model.authorization == .approved ? Theme.tealDeep : Theme.danger)
                 }
                 .padding(.horizontal, 18).padding(.vertical, 14)
                 if model.authorization != .approved {
                     Divider()
                     Button("許可する") { Task { await model.requestAuthorization() } }
-                        .font(Theme.font(16, .semibold)).foregroundStyle(Theme.mintDeep)
+                        .font(Theme.font(16, .semibold)).foregroundStyle(Theme.tealDeep)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.horizontal, 18).padding(.vertical, 14)
                 }
@@ -98,7 +98,7 @@ struct SettingsView: View {
         Toggle(isOn: Binding(get: { isOn }, set: set)) {
             Text(title).font(Theme.font(16)).foregroundStyle(Theme.ink)
         }
-        .tint(Theme.mintDeep)
+        .tint(Theme.tealDeep)
         .padding(.horizontal, 18).padding(.vertical, 10)
     }
 }

@@ -19,16 +19,16 @@ struct OnboardingView: View {
             let s = steps[page]
             Image(systemName: s.icon)
                 .font(.system(size: 34, weight: .medium))
-                .foregroundStyle(Theme.mintDeep)
+                .foregroundStyle(.white)
                 .frame(width: 72, height: 72)
-                .background(Theme.mint, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                .background(Slab(top: Theme.teal, side: Theme.tealDeep, depth: 7, radius: 14))
             Text(s.title).font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
             Text(s.text).font(Theme.font(16)).foregroundStyle(Theme.inkSoft)
                 .lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
             HStack(spacing: 6) {
                 ForEach(0..<steps.count, id: \.self) { i in
-                    Capsule().fill(i == page ? Theme.mintDeep : Theme.line)
+                    Capsule().fill(i == page ? Theme.tealDeep : Theme.line)
                         .frame(width: i == page ? 20 : 8, height: 6)
                 }
             }
@@ -52,6 +52,6 @@ struct OnboardingView: View {
         }
         .padding(.horizontal, 28)
         .padding(.bottom, 24)
-        .background(Theme.background)
+        .isoBackground()
     }
 }

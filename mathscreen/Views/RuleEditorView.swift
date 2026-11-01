@@ -92,7 +92,7 @@ struct RuleEditorView: View {
             .padding(.horizontal, 20)
             .padding(.bottom, 40)
         }
-        .background(Theme.background)
+        .isoBackground()
         .familyActivityPicker(isPresented: $showPicker, selection: $rule.selection)
         .confirmationDialog("このルールを削除しますか？", isPresented: $confirmDelete, titleVisibility: .visible) {
             Button("削除", role: .destructive) {

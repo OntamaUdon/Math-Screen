@@ -42,7 +42,7 @@ struct ChallengeView: View {
             .padding(.bottom, 32)
         }
         .scrollIndicators(.hidden)
-        .background(Theme.background)
+        .isoBackground()
         .onAppear { if problem == nil { next() } }
         .confirmationDialog("緊急解除しますか？", isPresented: $confirmEmergency, titleVisibility: .visible) {
             Button("解除する", role: .destructive) {

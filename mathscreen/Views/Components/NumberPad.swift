@@ -15,7 +15,7 @@ struct NumberPad: View {
                         Button { tap(key) } label: {
                             if key == "⌫" { Image(systemName: "delete.left") } else { Text(key) }
                         }
-                        .buttonStyle(FlatButtonStyle(kind: key == "±" || key == "⌫" ? .quiet : .secondary, large: true))
+                        .buttonStyle(IsoButtonStyle(kind: key == "±" || key == "⌫" ? .quiet : .secondary, large: true))
                     }
                 }
             }

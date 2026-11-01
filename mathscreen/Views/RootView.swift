@@ -31,7 +31,7 @@ struct MainTabView: View {
             StatsView().tabItem { Label("記録", systemImage: "chart.bar") }
             SettingsView().tabItem { Label("設定", systemImage: "gearshape") }
         }
-        .tint(Theme.mintDeep)
+        .tint(Theme.tealDeep)
     }
 }
 
@@ -57,6 +57,6 @@ struct Screen<Content: View>: View {
             .padding(.bottom, 32)
         }
         .scrollIndicators(.hidden)
-        .background(Theme.background)
+        .isoBackground()
     }
 }

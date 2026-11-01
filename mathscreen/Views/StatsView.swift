@@ -36,42 +36,13 @@ struct StatsView: View {
 
     private var weekChart: some View {
         let week = model.lastWeek
-        let maxValue = max(1, week.map { max($0.stats.triggers, $0.stats.correct) }.max() ?? 1)
-        return VStack(alignment: .leading, spacing: 14) {
-            HStack {
-                Text("この7日間").font(Theme.font(15, .semibold)).foregroundStyle(Theme.ink)
-                Spacer()
-                legend("発動", Theme.inkFaint)
-                legend("正解", Theme.mintDeep)
-            }
-            HStack(alignment: .bottom, spacing: 8) {
-                ForEach(Array(week.enumerated()), id: \.offset) { _, day in
-                    VStack(spacing: 6) {
-                        HStack(alignment: .bottom, spacing: 3) {
-                            bar(day.stats.triggers, maxValue, Theme.inkFaint.opacity(0.6))
-                            bar(day.stats.correct, maxValue, Theme.mintDeep)
-                        }
-                        .frame(height: 110, alignment: .bottom)
-                        Text(day.label).font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
-                    }
-                    .frame(maxWidth: .infinity)
-                }
-            }
+        return VStack(alignment: .leading, spacing: 10) {
+            Text("この7日間").font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
+            IsoBarChart(values: week.map(\.stats.correct), labels: week.map(\.label), caption: "正解数（コーラルが今日）")
+            Text("発動 \(week.reduce(0) { $0 + $1.stats.triggers }) 回 ・ 正解 \(week.reduce(0) { $0 + $1.stats.correct }) 問")
+                .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
         }
         .card()
-    }
-
-    private func bar(_ v: Int, _ maxValue: Int, _ color: Color) -> some View {
-        RoundedRectangle(cornerRadius: 3, style: .continuous)
-            .fill(v == 0 ? Theme.sunken : color)
-            .frame(width: 8, height: max(4, CGFloat(v) / CGFloat(maxValue) * 110))
-    }
-
-    private func legend(_ text: String, _ color: Color) -> some View {
-        HStack(spacing: 4) {
-            RoundedRectangle(cornerRadius: 2).fill(color).frame(width: 8, height: 8)
-            Text(text).font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
-        }
     }
 
     private func row(_ title: String, _ value: String) -> some View {
