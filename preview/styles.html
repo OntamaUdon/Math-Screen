@@ -1,0 +1,306 @@
+<title>mathscreen Style Studies</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&family=Klee+One:wght@400;600&family=DotGothic16&display=swap">
+<style>
+/* Layout: a gallery page; each style is a band with its name and two phone mocks (home + problem) side by side, wrapping on phones. */
+:root{
+  --page:#EFEFEC; --page-ink:#222226; --page-soft:#6A6A70; --page-line:#DADAD5;
+  --f-ui:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--page-ink);font-family:var(--f-ui);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:default}
+.wrap{max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:56px}
+header.top{display:flex;flex-direction:column;gap:14px;max-width:62ch}
+header.top h1{margin:0;font-size:clamp(26px,4vw,38px);font-weight:800;text-wrap:balance}
+header.top p{margin:0;color:var(--page-soft);line-height:1.75}
+.jump{display:flex;flex-wrap:wrap;gap:8px}
+.jump a{font-size:13px;font-weight:700;color:var(--page-ink);text-decoration:none;padding:7px 12px;border:1px solid var(--page-line);border-radius:999px;background:#fff}
+.jump a:focus-visible{outline:2px solid var(--page-ink);outline-offset:2px}
+section.style{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:start;padding-top:40px;border-top:1px solid var(--page-line)}
+.about{display:flex;flex-direction:column;gap:10px;max-width:40ch;min-width:0}
+.about .no{font-size:12px;font-weight:800;letter-spacing:.12em;color:var(--page-soft)}
+.about h2{margin:0;font-size:26px;font-weight:800}
+.about p{margin:0;line-height:1.75;color:var(--page-soft);font-size:14.5px}
+.about ul{margin:4px 0 0;padding-left:1.1em;line-height:1.8;font-size:13.5px}
+.phones{display:flex;gap:22px;flex-wrap:wrap}
+@media (max-width:900px){section.style{grid-template-columns:1fr}}
+
+/* ---------- phone shell (shared) ---------- */
+.phone{width:290px;max-width:100%;height:600px;border-radius:40px;padding:9px;background:#18181B;flex:none}
+.scr{position:relative;height:100%;border-radius:32px;overflow:hidden;display:flex;flex-direction:column;gap:12px;padding:38px 16px 0}
+.scr .sb{position:absolute;top:12px;left:24px;right:24px;display:flex;justify-content:space-between;font-size:11px;font-weight:700}
+.hd .ttl{font-size:22px;line-height:1.2}
+.hd .sub{font-size:11.5px;margin-top:2px}
+.lock{display:flex;flex-direction:column;gap:6px;padding:14px}
+.lock .lt{font-size:14px}
+.lock .ld{font-size:11.5px}
+.btn{display:block;width:100%;text-align:center;padding:10px;font-size:13.5px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{text-align:center;padding:9px 4px}
+.stat b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.stat span{font-size:10px}
+.sec{font-size:13px}
+.rules{display:flex;flex-direction:column;gap:8px}
+.rule{display:flex;align-items:center;gap:10px;padding:9px 12px}
+.rule .ri{width:28px;height:28px;display:grid;place-items:center;font-size:10px;flex:none}
+.rule .rm{flex:1;min-width:0;display:flex;flex-direction:column}
+.rule .rm b{font-size:13px}
+.rule .rm small{font-size:10.5px}
+.tg{width:34px;height:20px;border-radius:10px;position:relative;flex:none}
+.tg::after{content:"";position:absolute;top:2px;left:16px;width:16px;height:16px;border-radius:50%;background:#fff}
+.tg.off::after{left:2px}
+.tabbar{margin-top:auto;display:grid;grid-template-columns:repeat(4,1fr);padding:8px 0 16px;font-size:9.5px;text-align:center}
+.tabbar span{display:flex;flex-direction:column;align-items:center;gap:3px}
+.tabbar i{width:16px;height:16px;display:block;border-radius:4px}
+.ph{display:flex;justify-content:space-between;align-items:flex-start}
+.ph .pt{font-size:18px}
+.ph .pp{font-size:11px;margin-top:2px}
+.prob{padding:13px;display:flex;flex-direction:column;gap:7px}
+.prob .pm{font-size:10px}
+.prob .pb{font-size:14px;line-height:1.65}
+.ans{height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 14px}
+.ans b{font-size:24px}
+.ans span{font-size:10.5px}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.key{height:38px;display:grid;place-items:center;font-size:17px}
+.hero{flex:none}
+.hero svg{display:block;width:100%;height:auto}
+
+/* ---------- 1. Isometric ---------- */
+.st-iso .scr{background:#EEF1F7;color:#23263A;font-family:"M PLUS Rounded 1c",sans-serif;
+  background-image:linear-gradient(30deg,rgba(35,38,58,.045) 1px,transparent 1px),linear-gradient(150deg,rgba(35,38,58,.045) 1px,transparent 1px);background-size:22px 12.7px}
+.st-iso .hd .ttl{font-weight:800}
+.st-iso .hd .sub,.st-iso .rule small,.st-iso .stat span,.st-iso .pm,.st-iso .pp{color:#6B7088}
+.st-iso .card{background:#FFFFFF;border-radius:6px;box-shadow:1px 1px 0 #CBD1E1,2px 2px 0 #CBD1E1,3px 3px 0 #CBD1E1,4px 4px 0 #CBD1E1,5px 5px 0 #CBD1E1,6px 6px 0 #CBD1E1}
+.st-iso .lock{background:#FF7A59;color:#fff;box-shadow:1px 1px 0 #D2553A,2px 2px 0 #D2553A,3px 3px 0 #D2553A,4px 4px 0 #D2553A,5px 5px 0 #D2553A,6px 6px 0 #D2553A}
+.st-iso .lock .lt{font-weight:800}
+.st-iso .btn{background:#fff;color:#23263A;border-radius:6px;font-weight:800;box-shadow:1px 1px 0 #C7CCDA,2px 2px 0 #C7CCDA,3px 3px 0 #C7CCDA,4px 4px 0 #C7CCDA}
+.st-iso .btn.go{background:#3CC5B5;color:#fff;box-shadow:1px 1px 0 #26968A,2px 2px 0 #26968A,3px 3px 0 #26968A,4px 4px 0 #26968A}
+.st-iso .stat b,.st-iso .sec,.st-iso .ph .pt{font-weight:800}
+.st-iso .ri{background:#E3E7F2;border-radius:6px;font-weight:800}
+.st-iso .tg{background:#3CC5B5}.st-iso .tg.off{background:#CBD1E1}
+.st-iso .tabbar{background:#fff;margin-inline:-16px;padding-inline:8px;border-top:1px solid #DDE1EC;color:#9AA0B5}
+.st-iso .tabbar i{background:#DDE1EC;transform:rotate(45deg) scale(.75)}
+.st-iso .tabbar .on{color:#23263A}.st-iso .tabbar .on i{background:#3CC5B5}
+.st-iso .ans{background:#fff;border-radius:6px;box-shadow:inset 3px 3px 0 #DDE1EC}
+.st-iso .ans span{color:#D2553A;font-weight:800}
+.st-iso .key{background:#fff;border-radius:6px;font-weight:800;box-shadow:1px 1px 0 #C7CCDA,2px 2px 0 #C7CCDA,3px 3px 0 #C7CCDA,4px 4px 0 #C7CCDA}
+.st-iso .key.alt{background:#E3E7F2}
+
+/* ---------- 2. Neo-brutalism ---------- */
+.st-brut .scr{background:#FFF1C9;color:#111;font-family:"Zen Kaku Gothic New",sans-serif}
+.st-brut .hd .ttl,.st-brut .ph .pt{font-family:"Dela Gothic One",sans-serif;font-size:24px;letter-spacing:.01em}
+.st-brut .hd .sub,.st-brut .pp{font-weight:700}
+.st-brut .card,.st-brut .btn,.st-brut .key,.st-brut .ans,.st-brut .stat,.st-brut .rule{border:2.5px solid #111;box-shadow:4px 4px 0 #111;border-radius:10px;background:#fff}
+.st-brut .lock{background:#FF6FB1}
+.st-brut .lock .lt{font-family:"Dela Gothic One",sans-serif;font-size:16px}
+.st-brut .btn{background:#FFD23F;font-weight:900}
+.st-brut .btn.go{background:#7BE0B1}
+.st-brut .stat:nth-child(1){background:#FF9B71}.st-brut .stat:nth-child(2){background:#7BE0B1}.st-brut .stat:nth-child(3){background:#8DB7FF}
+.st-brut .stat b{font-family:"Dela Gothic One",sans-serif}
+.st-brut .stat span,.st-brut .sec{font-weight:900}
+.st-brut .rules{gap:10px}
+.st-brut .rule .ri{border:2px solid #111;border-radius:8px;background:#FFD23F;font-weight:900}
+.st-brut .rule:nth-child(2) .ri{background:#8DB7FF}
+.st-brut .tg{background:#111}.st-brut .tg.off{background:#fff;border:2px solid #111}.st-brut .tg.off::after{background:#111;top:0;left:0}
+.st-brut .tabbar{border-top:2.5px solid #111;margin-inline:-16px;background:#fff;font-weight:900}
+.st-brut .tabbar i{border:2px solid #111;background:#fff}.st-brut .tabbar .on i{background:#FF6FB1}
+.st-brut .prob{background:#fff}
+.st-brut .pm{font-weight:900}
+.st-brut .pb{font-weight:700}
+.st-brut .ans{background:#fff;box-shadow:inset 3px 3px 0 rgba(0,0,0,.12),4px 4px 0 #111}
+.st-brut .ans b{font-family:"Dela Gothic One",sans-serif}
+.st-brut .ans span{background:#FF5A5A;color:#fff;padding:2px 6px;border:2px solid #111;font-weight:900}
+.st-brut .key{font-family:"Dela Gothic One",sans-serif;box-shadow:3px 3px 0 #111}
+.st-brut .key.alt{background:#8DB7FF}
+
+/* ---------- 3. Glassmorphism ---------- */
+.st-glass .scr{color:#1C2433;font-family:"Zen Kaku Gothic New",sans-serif;
+  background:radial-gradient(180px 180px at 15% 12%,#FFB59E,transparent 70%),radial-gradient(220px 220px at 95% 40%,#8FE3C8,transparent 70%),radial-gradient(220px 200px at 20% 90%,#9EC9FF,transparent 70%),#F4EFE9}
+.st-glass .hd .ttl,.st-glass .ph .pt{font-weight:900}
+.st-glass .hd .sub,.st-glass small,.st-glass .stat span,.st-glass .pm,.st-glass .pp{color:rgba(28,36,51,.62)}
+.st-glass .card,.st-glass .key,.st-glass .ans,.st-glass .stat{background:rgba(255,255,255,.42);border:1px solid rgba(255,255,255,.75);border-radius:16px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(28,36,51,.08)}
+.st-glass .lock{background:rgba(255,255,255,.55)}
+.st-glass .lock .lt{font-weight:900}
+.st-glass .btn{background:#1C2433;color:#fff;border-radius:12px;font-weight:700}
+.st-glass .btn.go{background:#1C2433}
+.st-glass .stat b,.st-glass .sec{font-weight:900}
+.st-glass .ri{background:rgba(255,255,255,.7);border-radius:9px;font-weight:700}
+.st-glass .tg{background:#1C2433}.st-glass .tg.off{background:rgba(28,36,51,.18)}
+.st-glass .tabbar{margin:auto -6px 10px;border-radius:22px;background:rgba(255,255,255,.5);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.8);padding:8px 0;color:rgba(28,36,51,.5)}
+.st-glass .tabbar i{background:rgba(28,36,51,.18);border-radius:50%}.st-glass .tabbar .on{color:#1C2433}.st-glass .tabbar .on i{background:#1C2433}
+.st-glass .ans span{color:#C2453A;font-weight:700}
+.st-glass .key{border-radius:12px;font-weight:700}
+.st-glass .key.alt{background:rgba(255,255,255,.2)}
+
+/* ---------- 4. Graph-paper notebook ---------- */
+.st-note .scr{background:#FBFAF4;color:#2B2F3A;font-family:"Klee One",serif;
+  background-image:linear-gradient(#DCE6F2 1px,transparent 1px),linear-gradient(90deg,#DCE6F2 1px,transparent 1px);background-size:14px 14px}
+.st-note .hd .ttl,.st-note .ph .pt{font-weight:600;font-size:24px}
+.st-note .hd .ttl::after{content:"";display:block;width:120px;height:6px;margin-top:-4px;background:rgba(124,207,170,.55);border-radius:3px}
+.st-note .hd .sub,.st-note small,.st-note .stat span,.st-note .pm,.st-note .pp{color:#6A6F7C}
+.st-note .card{background:#fff;border:1.5px solid #2B2F3A;border-radius:255px 12px 225px 12px/12px 225px 12px 255px}
+.st-note .lock{background:#FFF4B8;border:none;border-radius:2px;transform:rotate(-1.2deg);box-shadow:0 6px 10px rgba(0,0,0,.08);position:relative}
+.st-note .lock::before{content:"";position:absolute;top:-8px;left:50%;width:56px;height:16px;margin-left:-28px;background:rgba(160,200,230,.6);transform:rotate(3deg)}
+.st-note .lock .lt{font-weight:600;font-size:15px}
+.st-note .btn{border:1.5px solid #2B2F3A;border-radius:12px 225px 12px 255px/255px 12px 225px 12px;background:#fff;font-weight:600}
+.st-note .btn.go{background:#7CCFAA}
+.st-note .stats{gap:6px}
+.st-note .stat{border:none;background:none}
+.st-note .stat b{font-size:24px;font-weight:600;display:inline-block;padding:0 6px;border:1.5px solid #2B2F3A;border-radius:50%}
+.st-note .sec{font-weight:600;font-size:14px}
+.st-note .rule{border-bottom:1.5px dashed #9AA3B5;padding-inline:4px}
+.st-note .ri{border:1.5px solid #2B2F3A;border-radius:50%;font-weight:600}
+.st-note .tg{background:#7CCFAA;border:1.5px solid #2B2F3A}.st-note .tg.off{background:#fff}.st-note .tg::after{background:#2B2F3A;top:1px;width:14px;height:14px}
+.st-note .tabbar{border-top:1.5px solid #2B2F3A;margin-inline:-16px;background:#FBFAF4;color:#8A8F9C}
+.st-note .tabbar i{border:1.5px solid currentColor;border-radius:50%}.st-note .tabbar .on{color:#2B2F3A}.st-note .tabbar .on i{background:#7CCFAA}
+.st-note .pb{font-size:15px}
+.st-note .ans{border-bottom:2px solid #2B2F3A;border-radius:0;padding-inline:4px}
+.st-note .ans span{color:#D64040;font-weight:600;font-size:13px;transform:rotate(-4deg)}
+.st-note .ans b{font-weight:600;color:#2B5BA8}
+.st-note .key{border:1.5px solid #2B2F3A;border-radius:50%;width:38px;margin:auto;font-weight:600}
+.st-note .key.alt{background:#EEF3F9}
+
+/* ---------- 5. Retro calculator / LCD pixel ---------- */
+.st-pix .scr{background:#C9C4B6;color:#0F2A12;font-family:"DotGothic16",monospace}
+.st-pix .lcd{background:#9EB65A;border:3px solid #3C4733;border-radius:6px;padding:10px;box-shadow:inset 3px 3px 0 rgba(0,0,0,.18);display:flex;flex-direction:column;gap:8px}
+.st-pix .hd .ttl,.st-pix .ph .pt{font-size:20px;letter-spacing:.04em}
+.st-pix .hd .sub,.st-pix small,.st-pix .pm,.st-pix .pp,.st-pix .stat span{color:#2F4A22}
+.st-pix .card{background:transparent;border:2px dashed #2F4A22}
+.st-pix .lock{border:2px solid #0F2A12;animation:blink 1.2s steps(2) infinite}
+@keyframes blink{50%{border-color:transparent}}
+.st-pix .btn{background:#E2553E;color:#FFF7E8;border-radius:4px;box-shadow:0 3px 0 #8E2B1C;letter-spacing:.06em}
+.st-pix .btn.go{background:#2F4A22;box-shadow:0 3px 0 #13240C}
+.st-pix .stat{background:#B8CF6E;border:2px solid #2F4A22}
+.st-pix .ri{background:#0F2A12;color:#9EB65A}
+.st-pix .tg{background:#0F2A12;border-radius:0}.st-pix .tg::after{border-radius:0;background:#9EB65A}.st-pix .tg.off{background:#7C8F45}
+.st-pix .rule{border-bottom:2px dotted #2F4A22;padding-inline:2px}
+.st-pix .tabbar{margin-inline:-16px;background:#A9A393;border-top:3px solid #8A8476;color:#4D493F}
+.st-pix .tabbar i{background:#8A8476;border-radius:0}.st-pix .tabbar .on{color:#0F2A12}.st-pix .tabbar .on i{background:#E2553E}
+.st-pix .ans{border:2px solid #0F2A12;background:#B8CF6E}
+.st-pix .ans b{font-size:26px}
+.st-pix .ans span{background:#0F2A12;color:#9EB65A;padding:1px 5px}
+.st-pix .key{background:#EDE8DA;border-radius:5px;box-shadow:0 3px 0 #8A8476;color:#2A2A2A}
+.st-pix .key.alt{background:#5A5A5A;color:#EDE8DA;box-shadow:0 3px 0 #2A2A2A}
+
+/* ---------- 6. Bauhaus ---------- */
+.st-bau .scr{background:#F1ECE2;color:#141414;font-family:"Zen Kaku Gothic New",sans-serif}
+.st-bau .hd .ttl,.st-bau .ph .pt{font-weight:900;font-size:24px;letter-spacing:-.01em}
+.st-bau .hd .sub,.st-bau small,.st-bau .pm,.st-bau .pp{color:#5C574F;font-weight:700}
+.st-bau .card{background:#fff;border-radius:0}
+.st-bau .lock{background:#2452A6;color:#fff;border-radius:0 0 0 48px}
+.st-bau .lock .lt{font-weight:900;font-size:16px}
+.st-bau .btn{background:#F2B705;color:#141414;border-radius:999px;font-weight:900}
+.st-bau .btn.go{background:#D93A2B;color:#fff}
+.st-bau .stat{color:#fff;aspect-ratio:1;display:flex;flex-direction:column;justify-content:center;padding:0}
+.st-bau .stat:nth-child(1){background:#D93A2B;border-radius:50%}
+.st-bau .stat:nth-child(2){background:#2452A6}
+.st-bau .stat:nth-child(3){background:#F2B705;color:#141414;clip-path:polygon(50% 0,100% 100%,0 100%);padding-top:22px}
+.st-bau .stat b{font-weight:900;font-size:22px}
+.st-bau .stat span{font-weight:700}
+.st-bau .sec{font-weight:900;font-size:14px;border-bottom:3px solid #141414;padding-bottom:4px}
+.st-bau .rule{border-bottom:1px solid #141414;padding-inline:0}
+.st-bau .ri{background:#141414;color:#fff;border-radius:50% 50% 0 0;font-weight:900}
+.st-bau .rule:nth-child(2) .ri{background:#D93A2B;border-radius:0}
+.st-bau .tg{background:#141414;border-radius:0}.st-bau .tg::after{border-radius:0;background:#F2B705}.st-bau .tg.off{background:#C9C2B4}.st-bau .tg.off::after{background:#fff}
+.st-bau .tabbar{margin-inline:-16px;background:#141414;color:#8C877E;font-weight:700}
+.st-bau .tabbar i{background:#55514A;border-radius:50%}.st-bau .tabbar .on{color:#fff}.st-bau .tabbar .on i{background:#F2B705;border-radius:0}
+.st-bau .prob{border-left:10px solid #D93A2B}
+.st-bau .pb{font-weight:700}
+.st-bau .ans{background:#fff;border:3px solid #141414}
+.st-bau .ans b{font-weight:900}
+.st-bau .ans span{color:#D93A2B;font-weight:900}
+.st-bau .key{background:#fff;border-radius:50%;width:40px;height:40px;margin:auto;font-weight:900}
+.st-bau .key.alt{background:#141414;color:#fff;border-radius:0}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>mathscreen デザインスタイル比較</h1>
+    <p>同じ2画面（ホームと、ロック解除の問題画面）を6つのスタイルで描いたモックです。気に入ったものを1つ選ぶか、「AのこれとBのこれ」のように組み合わせを指定してください。</p>
+    <nav class="jump" aria-label="スタイル一覧" id="jump"></nav>
+  </header>
+  <div id="list" style="display:flex;flex-direction:column;gap:56px"></div>
+</div>
+
+<script>
+const STYLES = [
+  {id:"iso", name:"アイソメトリック", desc:"斜め上から見た立体のブロックで構成。「積み上げる」「考える時間を貯める」イメージを図で見せられます。",
+   points:["今週の正解数を立体の棒グラフで表示","カードやキーに斜めの厚みを付けて押せる感じを出す","色は白・グレーに、コーラルとティールの2色"]},
+  {id:"brut", name:"ネオブルータリズム", desc:"太い黒線とずらした黒い影、はっきりした原色。にぎやかで勢いがあり、SNS で目立ちます。",
+   points:["要素ごとに色を変えるポップな見た目","見出しは太い筆文字風の書体","情報量が多い画面ではうるさくなりやすい"]},
+  {id:"glass", name:"グラスモーフィズム", desc:"にじんだ色の上に、すりガラスのカードを重ねる。やわらかく、iOS になじみます。",
+   points:["背景の色で雰囲気を出し、部品は半透明","落ち着いていて長く見ても疲れにくい","前回の「シンプル」に近く、個性は控えめ"]},
+  {id:"note", name:"方眼ノート", desc:"数学のノートに手書きした雰囲気。問題を解く行為と見た目が一致します。",
+   points:["方眼の背景、手書き風の書体、付箋とマスキングテープ","「不正解」は赤ペン、答えは青ペン","数式が多い問題文とも相性が良い"]},
+  {id:"pix", name:"レトロ電卓", desc:"昔の電卓や携帯ゲーム機の液晶画面。ドット文字で、ゲームっぽさが出ます。",
+   points:["緑の液晶に黒いドット文字","キーは電卓のボタン","制限中の表示は点滅"]},
+  {id:"bau", name:"バウハウス", desc:"円・四角・三角と赤青黄の原色。幾何学がテーマなので、数学のアプリと意味がつながります。",
+   points:["今日の数字を ○ □ △ の図形に入れる","キーは丸、記号キーは四角","大胆だが、要素の並びは整然としている"]},
+];
+
+const SB = '<div class="sb"><span>9:41</span><span>5G ▮▮▮</span></div>';
+const TABS = '<nav class="tabbar"><span class="on"><i></i>ホーム</span><span><i></i>練習</span><span><i></i>記録</span><span><i></i>設定</span></nav>';
+const KEYS = ["7","8","9","4","5","6","1","2","3","±","0","⌫"];
+
+/* isometric bar chart of this week's correct answers, drawn with real 30° projection */
+function isoHero(){
+  const s=19, c=Math.cos(Math.PI/6), ox=62, oy=40;
+  const P=(x,y,z)=>[(ox+(x-y)*c*s).toFixed(1),(oy+(x+y)*0.5*s-z*s).toFixed(1)].join(",");
+  const poly=(pts,fill)=>`<polygon points="${pts.map(p=>P(...p)).join(" ")}" fill="${fill}"/>`;
+  const box=(x,y,z,w,d,h,col)=>
+    poly([[x,y+d,z],[x+w,y+d,z],[x+w,y+d,z+h],[x,y+d,z+h]],col[1])+
+    poly([[x+w,y,z],[x+w,y+d,z],[x+w,y+d,z+h],[x+w,y,z+h]],col[2])+
+    poly([[x,y,z+h],[x+w,y,z+h],[x+w,y+d,z+h],[x,y+d,z+h]],col[0]);
+  const week=[2,3,1,4,3,2,5], teal=["#7FE0D3","#3CC5B5","#26968A"], base=["#FFFFFF","#DDE1EC","#C7CCDA"], coral=["#FFB29D","#FF7A59","#D2553A"];
+  let g=box(-0.2,-0.6,0,8.2,1.6,0.25,base);
+  week.forEach((v,i)=>{ g+=box(i*1.15+0.1,-0.3,0.25,0.8,0.8,v*0.42,i===6?coral:teal); });
+  const [tx,ty]=P(6*1.15+0.5,0.1,0.25+5*0.42).split(",");
+  return `<div class="hero"><svg viewBox="0 0 258 140" role="img" aria-label="今週の正解数を表す立体の棒グラフ">${g}
+    <text x="${tx}" y="${(+ty-8)}" text-anchor="middle" font-size="11" font-weight="800" fill="#23263A">今日 5問</text>
+    <text x="6" y="134" font-size="10" font-weight="800" fill="#6B7088">今週の正解</text></svg></div>`;
+}
+function bauHero(){
+  return `<div class="hero"><svg viewBox="0 0 258 46" aria-hidden="true"><rect width="258" height="46" fill="#F1ECE2"/>
+    <circle cx="23" cy="23" r="23" fill="#D93A2B"/><rect x="54" y="0" width="46" height="46" fill="#2452A6"/>
+    <polygon points="108,46 131,0 154,46" fill="#F2B705"/><path d="M162 46a46 46 0 0 1 92 0z" fill="#141414"/></svg></div>`;
+}
+
+function home(st){
+  const lock = `<div class="card lock"><div class="lt">制限中</div><div class="ld">Instagram ・ 15分たちました</div><button class="btn">問題を解く</button></div>`;
+  const stats = `<div class="stats"><div class="card stat"><b>2</b><span>発動</span></div><div class="card stat"><b>5</b><span>正解</span></div><div class="card stat"><b>3</b><span>連続</span></div></div>`;
+  const rules = `<div class="sec">見守るアプリ</div><div class="rules">
+    <div class="card rule"><span class="ri">IG</span><span class="rm"><b>Instagram</b><small>15分ごとに1問</small></span><i class="tg"></i></div>
+    <div class="card rule"><span class="ri">YT</span><span class="rm"><b>YouTube</b><small>30分ごとに1問</small></span><i class="tg off"></i></div></div>`;
+  const head = `<div class="hd"><div class="ttl">mathscreen</div><div class="sub">今日も、考える時間に。</div></div>`;
+  let body;
+  if(st==="iso") body = head + isoHero() + lock + rules;
+  else if(st==="bau") body = head + bauHero() + lock + stats + rules;
+  else if(st==="pix") body = `<div class="lcd">${head}${stats}</div>` + lock + rules;
+  else body = head + lock + stats + rules;
+  return `<div class="phone st-${st}" role="img" aria-label="ホーム画面"><div class="scr">${SB}${body}${TABS}</div></div>`;
+}
+
+function problem(st){
+  const head = `<div class="ph"><div><div class="pt">1問解いて再開</div><div class="pp">Instagram ・ 正解 0 / 1</div></div></div>`;
+  const card = `<div class="card prob"><div class="pm">中学数学 ・ 中級 ・ 三平方の定理</div><div class="pb">直角三角形の斜辺が 13、他の1辺が 5 のとき、残りの辺の長さを答えよ。</div></div>`;
+  const ans = `<div class="ans"><b>12</b><span>${st==="note"?"もう一度！":"不正解"}</span></div>`;
+  const pad = `<div class="pad">${KEYS.map(k=>`<div class="key ${k==="±"||k==="⌫"?"alt":""}">${k}</div>`).join("")}</div>`;
+  const btn = `<button class="btn go">こたえる</button>`;
+  const body = st==="pix" ? `${head}<div class="lcd">${card}${ans}</div>${pad}${btn}` : head+card+ans+pad+btn;
+  return `<div class="phone st-${st}" role="img" aria-label="問題画面"><div class="scr" style="padding-bottom:16px">${SB}${body}</div></div>`;
+}
+
+document.getElementById("jump").innerHTML = STYLES.map((s,i)=>`<a href="#${s.id}">${i+1}. ${s.name}</a>`).join("");
+document.getElementById("list").innerHTML = STYLES.map((s,i)=>`
+  <section class="style" id="${s.id}">
+    <div class="about"><span class="no">STYLE ${i+1}</span><h2>${s.name}</h2><p>${s.desc}</p><ul>${s.points.map(p=>`<li>${p}</li>`).join("")}</ul></div>
+    <div class="phones">${home(s.id)}${problem(s.id)}</div>
+  </section>`).join("");
+</script>
