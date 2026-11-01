@@ -7,7 +7,7 @@ struct PracticeView: View {
     @State private var problem: Problem?
 
     var body: some View {
-        ClayScreen(title: "練習", subtitle: "\(ProblemBank.all.count) 問から自由に挑戦") {
+        Screen(title: "練習", subtitle: "\(ProblemBank.all.count) 問から自由に挑戦") {
             if let problem {
                 ProblemSolverView(
                     problem: problem,
@@ -17,8 +17,8 @@ struct PracticeView: View {
                     onContinue: { next() }
                 )
                 .id(problem.id)
-                Button("条件を変える") { withAnimation { self.problem = nil } }
-                    .font(Clay.font(14, .semibold)).foregroundStyle(Clay.inkSoft)
+                Button("条件を変える") { self.problem = nil }
+                    .font(Theme.font(14, .semibold)).foregroundStyle(Theme.inkSoft)
                     .frame(maxWidth: .infinity)
             } else {
                 filters
@@ -27,23 +27,16 @@ struct PracticeView: View {
     }
 
     private var filters: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            Text("分野").font(Clay.font(14, .semibold)).foregroundStyle(Clay.inkSoft)
-            FlowChips(items: [nil] + ProblemCategory.allCases.map { Optional($0) }, selection: $category,
-                      label: { $0?.label ?? "すべて" }, color: { $0?.color ?? Clay.lavender })
-            Text("難易度").font(Clay.font(14, .semibold)).foregroundStyle(Clay.inkSoft)
-            FlowChips(items: [nil] + Difficulty.allCases.map { Optional($0) }, selection: $difficulty,
-                      label: { $0?.label ?? "すべて" }, color: { _ in Clay.butter })
-            Button {
-                withAnimation { next() }
-            } label: {
-                Label("はじめる", systemImage: "play.fill")
-            }
-            .buttonStyle(.clay(Clay.mint))
-            .padding(.top, 6)
+        VStack(alignment: .leading, spacing: 16) {
+            SectionLabel("分野")
+            TagPicker(items: [nil] + ProblemCategory.allCases.map { Optional($0) }, selection: $category) { $0?.label ?? "すべて" }
+            SectionLabel("難易度")
+            TagPicker(items: [nil] + Difficulty.allCases.map { Optional($0) }, selection: $difficulty) { $0?.label ?? "すべて" }
+            Button("はじめる") { next() }
+                .buttonStyle(.primary)
+                .padding(.top, 4)
         }
-        .padding(20)
-        .clay()
+        .card()
     }
 
     private func next() {
@@ -53,21 +46,17 @@ struct PracticeView: View {
     }
 }
 
-/// 単一選択のチップ列。
-struct FlowChips<T: Hashable>: View {
+/// 単一選択のタグ列。
+struct TagPicker<T: Hashable>: View {
     var items: [T]
     @Binding var selection: T
     var label: (T) -> String
-    var color: (T) -> Color
 
     var body: some View {
-        LazyVGrid(columns: [GridItem(.adaptive(minimum: 92), spacing: 10)], alignment: .leading, spacing: 10) {
+        LazyVGrid(columns: [GridItem(.adaptive(minimum: 88), spacing: 8)], alignment: .leading, spacing: 8) {
             ForEach(items, id: \.self) { item in
-                Button {
-                    withAnimation(.spring(response: 0.3)) { selection = item }
-                } label: {
-                    ClayChip(text: label(item), color: color(item), isOn: selection == item)
-                        .frame(maxWidth: .infinity)
+                Button { selection = item } label: {
+                    Tag(text: label(item), isOn: selection == item).frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.plain)
             }

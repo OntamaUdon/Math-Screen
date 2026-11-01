@@ -21,23 +21,23 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
     }
 
     private func make(name: String?) -> ShieldConfiguration {
-        let ink = UIColor(red: 0.18, green: 0.18, blue: 0.20, alpha: 1)
-        let soft = UIColor(red: 0.46, green: 0.45, blue: 0.49, alpha: 1)
-        let lavender = UIColor(red: 0.62, green: 0.57, blue: 0.84, alpha: 1)
-        let background = UIColor(red: 0.914, green: 0.906, blue: 0.890, alpha: 1)
+        let ink = UIColor(red: 0.149, green: 0.149, blue: 0.165, alpha: 1)       // #26262A
+        let soft = UIColor(red: 0.431, green: 0.431, blue: 0.455, alpha: 1)      // #6E6E74
+        let mintDeep = UIColor(red: 0.247, green: 0.561, blue: 0.431, alpha: 1)  // #3F8F6E
+        let background = UIColor(red: 0.953, green: 0.953, blue: 0.945, alpha: 1) // #F3F3F1
         let target = name ?? "このアプリ"
 
         return ShieldConfiguration(
             backgroundBlurStyle: .systemUltraThinMaterialLight,
             backgroundColor: background,
             icon: UIImage(systemName: "function"),
-            title: ShieldConfiguration.Label(text: "ひと休み、1問だけ。", color: ink),
+            title: ShieldConfiguration.Label(text: "1問解いて再開", color: ink),
             subtitle: ShieldConfiguration.Label(
                 text: "\(target) の利用時間が上限に達しました。\n「問題を解く」→ 届いた通知をタップ → 正解で再開できます。",
                 color: soft
             ),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: .white),
-            primaryButtonBackgroundColor: lavender,
+            primaryButtonBackgroundColor: mintDeep,
             secondaryButtonLabel: ShieldConfiguration.Label(text: "閉じる", color: soft)
         )
     }

@@ -15,93 +15,82 @@ struct ProblemSolverView: View {
     @State private var input = ""
     @State private var attempts = 0
     @State private var solved = false
-    @State private var wrongShake = 0
+    @State private var wrongCount = 0
     @State private var showWrong = false
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 16) {
             problemCard
             if solved {
-                resultCard.transition(.scale(scale: 0.9).combined(with: .opacity))
+                resultCard.transition(.opacity)
             } else {
                 answerField
                 NumberPad(text: $input, onSubmit: submit)
                 if attempts >= 3, let onSkip {
                     Button("別の問題にする", action: onSkip)
-                        .font(Clay.font(14, .semibold))
-                        .foregroundStyle(Clay.inkSoft)
+                        .font(Theme.font(14, .semibold))
+                        .foregroundStyle(Theme.inkSoft)
                 }
             }
         }
-        .animation(.spring(response: 0.4, dampingFraction: 0.75), value: solved)
+        .animation(.easeOut(duration: 0.2), value: solved)
         .sensoryFeedback(.success, trigger: solved)
-        .sensoryFeedback(.error, trigger: wrongShake)
+        .sensoryFeedback(.error, trigger: wrongCount)
     }
 
     private var problemCard: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            HStack(spacing: 8) {
-                ClayChip(text: problem.categoryInfo.label, color: problem.categoryInfo.color)
-                ClayChip(text: "\(problem.difficultyInfo.label) \(problem.difficultyInfo.dots)", color: Clay.butter)
-                Spacer()
-            }
-            Text(problem.title)
-                .font(Clay.font(15, .semibold))
-                .foregroundStyle(Clay.inkSoft)
+        VStack(alignment: .leading, spacing: 12) {
+            Text("\(problem.categoryInfo.label) ・ \(problem.difficultyInfo.label) ・ \(problem.title)")
+                .font(Theme.font(13, .semibold))
+                .foregroundStyle(Theme.inkSoft)
             Text(problem.body)
-                .font(Clay.font(20, .medium))
-                .foregroundStyle(Clay.ink)
+                .font(Theme.font(19, .medium))
+                .foregroundStyle(Theme.ink)
                 .lineSpacing(6)
                 .fixedSize(horizontal: false, vertical: true)
-            Text("答えは整数で入力してください")
-                .font(Clay.font(12))
-                .foregroundStyle(Clay.inkFaint)
+            Text("答えは整数で入力")
+                .font(Theme.font(12))
+                .foregroundStyle(Theme.inkFaint)
         }
-        .padding(22)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .clay()
+        .card()
     }
 
     private var answerField: some View {
         HStack {
             Text(input.isEmpty ? "?" : input.replacingOccurrences(of: "-", with: "−"))
-                .font(Clay.font(34, .bold))
-                .foregroundStyle(input.isEmpty ? Clay.inkFaint : Clay.ink)
-                .contentTransition(.numericText())
+                .font(Theme.font(32, .bold))
+                .foregroundStyle(input.isEmpty ? Theme.inkFaint : Theme.ink)
             Spacer()
             if showWrong {
-                Label("ちがうみたい", systemImage: "xmark")
-                    .font(Clay.font(14, .semibold))
-                    .foregroundStyle(Clay.peachDeep)
-                    .transition(.opacity)
+                Text("不正解")
+                    .font(Theme.font(14, .semibold))
+                    .foregroundStyle(Theme.danger)
             }
         }
-        .padding(.horizontal, 22)
-        .frame(height: 72)
-        .clayWell(radius: 22)
-        .modifier(Shake(animatableData: CGFloat(wrongShake)))
+        .padding(.horizontal, 20)
+        .frame(height: 68)
+        .well()
+        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous)
+            .stroke(showWrong ? Theme.danger : .clear, lineWidth: 1.5))
+        .modifier(Shake(animatableData: CGFloat(wrongCount)))
     }
 
     private var resultCard: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            HStack(spacing: 10) {
-                Image(systemName: "checkmark.seal.fill").font(.system(size: 28)).foregroundStyle(Clay.mintDeep)
-                Text("正解！ 答えは \(problem.answer)")
-                    .font(Clay.font(22, .bold)).foregroundStyle(Clay.ink)
-            }
-            Text("解説").font(Clay.font(13, .semibold)).foregroundStyle(Clay.inkSoft)
+        VStack(alignment: .leading, spacing: 12) {
+            Label("正解　答えは \(problem.answer)", systemImage: "checkmark.circle.fill")
+                .font(Theme.font(20, .bold))
+                .foregroundStyle(Theme.mintDeep)
+            SectionLabel("解説")
             Text(problem.explanation)
-                .font(Clay.font(16))
-                .foregroundStyle(Clay.ink)
+                .font(Theme.font(16))
+                .foregroundStyle(Theme.ink)
                 .lineSpacing(5)
                 .fixedSize(horizontal: false, vertical: true)
             Button(continueLabel, action: onContinue)
-                .buttonStyle(.clay(Clay.mint))
+                .buttonStyle(.primary)
                 .padding(.top, 6)
         }
-        .padding(22)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .clay(Clay.surface)
+        .card()
     }
 
     private func submit() {
@@ -113,7 +102,8 @@ struct ProblemSolverView: View {
             solved = true
             onCorrect(attempts)
         } else {
-            withAnimation(.default) { wrongShake += 1; showWrong = true }
+            withAnimation(.default) { wrongCount += 1 }
+            showWrong = true
             input = ""
         }
     }
@@ -122,6 +112,6 @@ struct ProblemSolverView: View {
 struct Shake: GeometryEffect {
     var animatableData: CGFloat
     func effectValue(size: CGSize) -> ProjectionTransform {
-        ProjectionTransform(CGAffineTransform(translationX: 10 * sin(animatableData * .pi * 4), y: 0))
+        ProjectionTransform(CGAffineTransform(translationX: 8 * sin(animatableData * .pi * 4), y: 0))
     }
 }

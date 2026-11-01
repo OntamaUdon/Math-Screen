@@ -25,15 +25,6 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .math3c: "数学III・C"
         }
     }
-
-    var color: Color {
-        switch self {
-        case .junior: Clay.mint
-        case .math1a: Clay.sky
-        case .math2b: Clay.lavender
-        case .math3c: Clay.peach
-        }
-    }
 }
 
 enum Difficulty: Int, CaseIterable, Identifiable {

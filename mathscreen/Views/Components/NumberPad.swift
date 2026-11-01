@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// 整数入力用のクレイ風テンキー。
+/// 整数入力用のテンキー。
 struct NumberPad: View {
     @Binding var text: String
     var onSubmit: () -> Void
@@ -8,28 +8,22 @@ struct NumberPad: View {
     private let rows: [[String]] = [["7", "8", "9"], ["4", "5", "6"], ["1", "2", "3"], ["±", "0", "⌫"]]
 
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 10) {
             ForEach(rows, id: \.self) { row in
-                HStack(spacing: 12) {
+                HStack(spacing: 10) {
                     ForEach(row, id: \.self) { key in
                         Button { tap(key) } label: {
-                            Group {
-                                if key == "⌫" { Image(systemName: "delete.left") } else { Text(key) }
-                            }
-                            .font(Clay.font(24, .semibold))
-                            .frame(maxWidth: .infinity, minHeight: 54)
+                            if key == "⌫" { Image(systemName: "delete.left") } else { Text(key) }
                         }
-                        .buttonStyle(ClayButtonStyle(color: key == "±" || key == "⌫" ? Clay.sunken : Clay.surface,
-                                                     radius: 18))
+                        .buttonStyle(FlatButtonStyle(kind: key == "±" || key == "⌫" ? .quiet : .secondary, large: true))
                     }
                 }
             }
-            Button(action: onSubmit) {
-                Label("こたえる", systemImage: "checkmark")
-            }
-            .buttonStyle(.clay(Clay.lavender))
-            .disabled(Int(text) == nil)
-            .opacity(Int(text) == nil ? 0.55 : 1)
+            Button("こたえる", action: onSubmit)
+                .buttonStyle(.primary)
+                .disabled(Int(text) == nil)
+                .opacity(Int(text) == nil ? 0.5 : 1)
+                .padding(.top, 4)
         }
         .sensoryFeedback(.selection, trigger: text)
     }
@@ -39,7 +33,7 @@ struct NumberPad: View {
         case "⌫":
             if !text.isEmpty { text.removeLast() }
         case "±":
-            if text.hasPrefix("−") || text.hasPrefix("-") { text.removeFirst() } else { text = "-" + text }
+            if text.hasPrefix("-") { text.removeFirst() } else { text = "-" + text }
         default:
             let digits = text.filter(\.isNumber)
             guard digits.count < 9 else { return }

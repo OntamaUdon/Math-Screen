@@ -9,42 +9,40 @@ struct ChallengeView: View {
     @State private var confirmEmergency = false
 
     var body: some View {
-        ZStack {
-            ClayBackdrop()
-            ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                    header
-                    if !model.isLocked {
-                        notLockedCard
-                    } else if let problem {
-                        ProblemSolverView(
-                            problem: problem,
-                            onCorrect: { _ in solvedCount += 1 },
-                            onSkip: { next() },
-                            continueLabel: solvedCount >= model.settings.requiredCorrect ? "解除してアプリに戻る" : "次の問題へ",
-                            onContinue: {
-                                if solvedCount >= model.settings.requiredCorrect {
-                                    model.completeChallenge()
-                                    dismiss()
-                                } else {
-                                    next()
-                                }
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                header
+                if !model.isLocked {
+                    notLockedCard
+                } else if let problem {
+                    ProblemSolverView(
+                        problem: problem,
+                        onCorrect: { _ in solvedCount += 1 },
+                        onSkip: { next() },
+                        continueLabel: solvedCount >= model.settings.requiredCorrect ? "解除してアプリに戻る" : "次の問題へ",
+                        onContinue: {
+                            if solvedCount >= model.settings.requiredCorrect {
+                                model.completeChallenge()
+                                dismiss()
+                            } else {
+                                next()
                             }
-                        )
-                        .id(problem.id)
+                        }
+                    )
+                    .id(problem.id)
 
-                        Button("緊急解除") { confirmEmergency = true }
-                            .font(Clay.font(13, .semibold))
-                            .foregroundStyle(Clay.inkFaint)
-                            .frame(maxWidth: .infinity)
-                            .padding(.top, 8)
-                    }
+                    Button("緊急解除") { confirmEmergency = true }
+                        .font(Theme.font(13, .semibold))
+                        .foregroundStyle(Theme.inkFaint)
+                        .frame(maxWidth: .infinity)
+                        .padding(.top, 4)
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 40)
             }
-            .scrollIndicators(.hidden)
+            .padding(.horizontal, 20)
+            .padding(.bottom, 32)
         }
+        .scrollIndicators(.hidden)
+        .background(Theme.background)
         .onAppear { if problem == nil { next() } }
         .confirmationDialog("緊急解除しますか？", isPresented: $confirmEmergency, titleVisibility: .visible) {
             Button("解除する", role: .destructive) {
@@ -59,22 +57,19 @@ struct ChallengeView: View {
     private var header: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 4) {
-                Text("ひと休み、1問だけ。").font(Clay.font(26, .bold)).foregroundStyle(Clay.ink)
+                Text("1問解いて再開").font(Theme.font(24, .bold)).foregroundStyle(Theme.ink)
                 if model.isLocked {
-                    Text(lockedNames + " を再開するには正解してね")
-                        .font(Clay.font(14)).foregroundStyle(Clay.inkSoft)
-                    Text("正解 \(solvedCount) / \(model.settings.requiredCorrect)")
-                        .font(Clay.font(13, .semibold)).foregroundStyle(Clay.lavenderDeep)
-                        .padding(.top, 2)
+                    Text("\(lockedNames) ・ 正解 \(solvedCount) / \(model.settings.requiredCorrect)")
+                        .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
                 }
             }
             Spacer()
             Button { dismiss() } label: {
-                Image(systemName: "xmark").font(.system(size: 15, weight: .bold)).foregroundStyle(Clay.inkSoft)
-                    .frame(width: 40, height: 40)
-                    .clay(Clay.surface, radius: 20, depth: 6)
+                Image(systemName: "xmark").font(.system(size: 14, weight: .semibold)).foregroundStyle(Theme.inkSoft)
+                    .frame(width: 36, height: 36)
+                    .background(Theme.sunken, in: Circle())
             }
-            .buttonStyle(.plain)
+            .accessibilityLabel("閉じる")
         }
         .padding(.top, 20)
     }
@@ -85,14 +80,11 @@ struct ChallengeView: View {
     }
 
     private var notLockedCard: some View {
-        VStack(spacing: 14) {
-            Image(systemName: "lock.open.fill").font(.system(size: 34)).foregroundStyle(Clay.mintDeep)
-            Text("いまは制限されていません").font(Clay.font(18, .semibold)).foregroundStyle(Clay.ink)
-            Button("閉じる") { dismiss() }.buttonStyle(.clay(Clay.mint))
+        VStack(alignment: .leading, spacing: 14) {
+            Text("いまは制限されていません").font(Theme.font(17, .semibold)).foregroundStyle(Theme.ink)
+            Button("閉じる") { dismiss() }.buttonStyle(.secondary)
         }
-        .padding(26)
-        .frame(maxWidth: .infinity)
-        .clay()
+        .card()
     }
 
     private func next() {
