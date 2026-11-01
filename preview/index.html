@@ -280,8 +280,8 @@ function render(){
   $("#tabs").hidden = full;
   document.querySelectorAll(".shield,.banner").forEach(e=>e.remove());
   if(S.overlay==="shield"){
-    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><h2>1問解いて再開</h2>
-      <p>Instagram の時間になりました</p><p class="q">${esc(S.pending.body)}</p>
+    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><h2>Instagram の時間になりました</h2>
+      <p class="q">${esc(S.pending.body)}</p>
       <button class="p1" data-act="shieldSolve">問題を解く</button></div>`);
   }
   if(S.overlay==="banner"){

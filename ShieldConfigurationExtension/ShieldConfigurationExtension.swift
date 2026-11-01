@@ -27,17 +27,15 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
         let target = name ?? "このアプリ"
 
-        var subtitle = "\(target) の時間になりました"
-        if let problem = SharedStore.pendingProblemBody {
-            subtitle += "\n\n" + problem
-        }
+        // タイトル = 「◯◯ の時間になりました」、説明 = 問題文
+        let problem = SharedStore.pendingProblemBody ?? "mathscreen を開いて問題を解いてください。"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
             icon: Self.blankIcon,
-            title: ShieldConfiguration.Label(text: "1問解いて再開", color: ink),
-            subtitle: ShieldConfiguration.Label(text: subtitle, color: ink),
+            title: ShieldConfiguration.Label(text: "\(target) の時間になりました", color: ink),
+            subtitle: ShieldConfiguration.Label(text: problem, color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
