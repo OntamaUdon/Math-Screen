@@ -346,7 +346,7 @@
     "category": "math2b",
     "difficulty": 2,
     "title": "Σの計算",
-    "body": "Σ_{k=1}^{10} k² の値を答えよ。",
+    "body": "1² + 2² + 3² + … + 10² の値を答えよ。",
     "answer": 385,
     "explanation": "Σk² = n(n + 1)(2n + 1)/6 = 10·11·21/6 = 385。"
   },
@@ -391,9 +391,9 @@
     "category": "math2b",
     "difficulty": 3,
     "title": "ベクトルの大きさ",
-    "body": "|a⃗| = 3、|b⃗| = 4、a⃗·b⃗ = 6 のとき、|2a⃗ − b⃗| を a√b（b は平方因子をもたない）で表す。a + b を答えよ。",
+    "body": "|a⃗| = 3、|b⃗| = 4、a⃗·b⃗ = 6 のとき、|2a⃗ − b⃗| を p√q（q は平方因子をもたない自然数）で表す。p + q を答えよ。",
     "answer": 9,
-    "explanation": "|2a⃗ − b⃗|² = 4·9 − 4·6 + 16 = 28 より |2a⃗ − b⃗| = 2√7。a + b = 9。"
+    "explanation": "|2a⃗ − b⃗|² = 4·9 − 4·6 + 16 = 28 より |2a⃗ − b⃗| = 2√7。p + q = 9。"
   },
   {
     "id": "b15",
@@ -409,7 +409,7 @@
     "category": "math3c",
     "difficulty": 1,
     "title": "数列の極限",
-    "body": "lim_{n→∞} (3n² + 1)/(n² + 2n) の値を答えよ。",
+    "body": "n → ∞ のとき、(3n² + 1)/(n² + 2n) の極限値を答えよ。",
     "answer": 3,
     "explanation": "分母分子を n² で割ると (3 + 1/n²)/(1 + 2/n) → 3。"
   },
@@ -427,7 +427,7 @@
     "category": "math3c",
     "difficulty": 1,
     "title": "三角関数の極限",
-    "body": "lim_{x→0} (sin 5x)/x の値を答えよ。",
+    "body": "x → 0 のとき、(sin 5x)/x の極限値を答えよ。",
     "answer": 5,
     "explanation": "(sin 5x)/(5x) × 5 → 1 × 5 = 5。"
   },
@@ -454,7 +454,7 @@
     "category": "math3c",
     "difficulty": 2,
     "title": "無限等比級数",
-    "body": "無限級数 Σ_{n=1}^{∞} (2/3)ⁿ の和を答えよ。",
+    "body": "無限級数 2/3 + (2/3)² + (2/3)³ + … の和を答えよ。",
     "answer": 2,
     "explanation": "初項 2/3、公比 2/3 なので (2/3) ÷ (1 − 2/3) = 2。"
   },
@@ -490,7 +490,7 @@
     "category": "math3c",
     "difficulty": 2,
     "title": "関数の極限",
-    "body": "lim_{x→0} (1 − cos x)/x² を既約分数 a/b で表す。a + b を答えよ。",
+    "body": "x → 0 のとき、(1 − cos x)/x² の極限値を既約分数 a/b で表す。a + b を答えよ。",
     "answer": 3,
     "explanation": "(1 − cos x)/x² = sin²x / {x²(1 + cos x)} → 1/2。a + b = 3。"
   },
@@ -508,7 +508,7 @@
     "category": "math3c",
     "difficulty": 3,
     "title": "sin³x の積分",
-    "body": "定積分 ∫₀^{π/2} sin³x dx を既約分数 a/b で表す。a + b を答えよ。",
+    "body": "sin³x を 0 から π/2 まで積分した値（定積分）を既約分数 a/b で表す。a + b を答えよ。",
     "answer": 5,
     "explanation": "sin³x = sin x (1 − cos²x)。cos x = u と置くと ∫₀¹ (1 − u²) du = 2/3。a + b = 5。"
   },
@@ -537,6 +537,6 @@
     "title": "サイクロイドの長さ",
     "body": "曲線 x = t − sin t、y = 1 − cos t（0 ≦ t ≦ 2π）の長さを答えよ。",
     "answer": 8,
-    "explanation": "(dx/dt)² + (dy/dt)² = 2 − 2cos t = 4sin²(t/2)。長さ = ∫₀²ᵖ 2sin(t/2) dt = [−4cos(t/2)]₀²ᵖ = 8。"
+    "explanation": "(dx/dt)² + (dy/dt)² = 2 − 2cos t = 4sin²(t/2)。長さは 2sin(t/2) を t = 0 から 2π まで積分して [−4cos(t/2)] = 4 − (−4) = 8。"
   }
 ]

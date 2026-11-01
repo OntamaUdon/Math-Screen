@@ -1,0 +1,354 @@
+<title>mathscreen UI Preview</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: a single iPhone-sized clay device on a soft stage, with demo controls beside it (stacked on phones). */
+:root{
+  --stage:#DEDBD5; --bg:#E9E7E3; --surface:#F3F1EE; --sunken:#E2DFDA;
+  --ink:#2E2D33; --ink-soft:#75737B; --ink-faint:#A6A3A9; --shadow:#B9B4AC;
+  --lavender:#CFC8EC; --mint:#C3E6D6; --peach:#F4D2C3; --sky:#C7DCF0; --butter:#F1E4B5;
+  --lavender-deep:#8E84C6; --mint-deep:#5FA387; --peach-deep:#D27E62;
+  --font:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Arial Rounded MT Bold",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--stage);color:var(--ink);font-family:var(--font);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px}
+button{font-family:inherit;color:inherit;cursor:pointer;border:0;background:none}
+[hidden]{display:none!important}
+button:focus-visible{outline:3px solid var(--lavender-deep);outline-offset:3px}
+.stage{display:flex;gap:40px;justify-content:center;align-items:flex-start;flex-wrap:wrap;max-width:1080px;margin:0 auto}
+
+/* clay primitives */
+.clay{background:var(--c,var(--surface));border-radius:var(--r,28px);
+  box-shadow:10px 14px 24px rgba(160,152,142,.45),-8px -8px 20px rgba(255,255,255,.85),
+    inset 5px 6px 8px rgba(255,255,255,.7),inset -5px -6px 10px rgba(0,0,0,.07)}
+.well{background:var(--sunken);border-radius:var(--r,20px);
+  box-shadow:inset 4px 5px 8px rgba(185,180,172,.85),inset -4px -4px 8px rgba(255,255,255,.9)}
+.btn{--r:22px;display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:15px 18px;
+  font-size:16px;font-weight:700;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:scale(.97);box-shadow:3px 4px 8px rgba(160,152,142,.45),-3px -3px 8px rgba(255,255,255,.85),inset 3px 3px 6px rgba(255,255,255,.6),inset -3px -3px 6px rgba(0,0,0,.08)}
+.btn[disabled]{opacity:.5;cursor:default}
+.chip{--r:14px;display:inline-block;padding:6px 12px;font-size:12.5px;font-weight:700;white-space:nowrap}
+.chip.off{--c:var(--surface);color:var(--ink-soft);box-shadow:3px 4px 8px rgba(160,152,142,.35),-3px -3px 8px rgba(255,255,255,.8)}
+
+/* device */
+.device{width:390px;max-width:100%;height:800px;max-height:calc(100vh - 48px);min-height:640px;border-radius:52px;padding:12px;
+  background:#D4D0C9;box-shadow:24px 30px 60px rgba(120,112,102,.35),-14px -14px 40px rgba(255,255,255,.7),inset 2px 2px 4px rgba(255,255,255,.6)}
+.screen{position:relative;height:100%;border-radius:42px;overflow:hidden;background:var(--bg)}
+.screen::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(260px 260px at 10% 6%,rgba(207,200,236,.65),transparent 70%),
+    radial-gradient(240px 240px at 95% 55%,rgba(195,230,214,.55),transparent 70%),
+    radial-gradient(240px 240px at 8% 98%,rgba(244,210,195,.5),transparent 70%)}
+.status{position:relative;z-index:2;display:flex;justify-content:space-between;padding:14px 28px 0;font-size:13px;font-weight:700}
+.view{position:absolute;inset:40px 0 0;overflow-y:auto;padding:8px 20px 120px;scrollbar-width:none}
+.view::-webkit-scrollbar{display:none}
+.col{display:flex;flex-direction:column;gap:20px}
+h1{font-size:28px;font-weight:800;margin:6px 0 0;letter-spacing:.01em}
+.sub{font-size:13.5px;color:var(--ink-soft);margin:2px 0 0}
+.label{font-size:13px;font-weight:700;color:var(--ink-soft)}
+.card{padding:20px}
+.row{display:flex;gap:12px;align-items:center}
+.bubbles{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.bubble{--r:22px;padding:14px 4px;text-align:center}
+.bubble b{display:block;font-size:26px;font-variant-numeric:tabular-nums}
+.bubble span{font-size:11.5px;font-weight:700;color:rgba(46,45,51,.65)}
+.rule{display:flex;align-items:center;gap:14px;padding:14px 16px}
+.rule .ico{--r:50%;width:48px;height:48px;display:grid;place-items:center;font-size:20px;flex:none}
+.rule .meta{flex:1;min-width:0}
+.rule .name{font-weight:700;font-size:16px}
+.rule .desc{font-size:12.5px;color:var(--ink-soft)}
+.toggle{width:50px;height:30px;border-radius:15px;position:relative;flex:none}
+.toggle::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:var(--surface);
+  box-shadow:2px 3px 5px rgba(0,0,0,.15);transition:left .2s}
+.toggle[aria-checked="true"]{background:var(--mint-deep)}
+.toggle[aria-checked="true"]::after{left:23px}
+.toggle[aria-checked="false"]{background:var(--sunken);box-shadow:inset 2px 2px 4px rgba(0,0,0,.12)}
+.plus{--r:22px;--c:var(--mint);width:44px;height:44px;font-size:24px;font-weight:700;display:grid;place-items:center}
+
+/* tab bar */
+.tabs{position:absolute;left:16px;right:16px;bottom:16px;z-index:5;--r:30px;padding:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tab{border-radius:20px;padding:9px 0;font-size:10.5px;font-weight:700;color:var(--ink-faint);display:flex;flex-direction:column;align-items:center;gap:2px}
+.tab svg{width:20px;height:20px}
+.tab.on{color:var(--ink);background:var(--tc);box-shadow:4px 5px 10px rgba(160,152,142,.4),-3px -3px 8px rgba(255,255,255,.8),inset 3px 3px 5px rgba(255,255,255,.6),inset -3px -3px 6px rgba(0,0,0,.06)}
+
+/* problem */
+.prob{padding:22px;display:flex;flex-direction:column;gap:12px}
+.prob .t{font-size:14px;font-weight:700;color:var(--ink-soft)}
+.prob .b{font-size:18.5px;font-weight:500;line-height:1.65}
+.prob .h{font-size:11.5px;color:var(--ink-faint)}
+.answer{--r:22px;height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 22px}
+.answer b{font-size:32px;font-variant-numeric:tabular-nums}
+.answer .q{color:var(--ink-faint)}
+.wrong{font-size:13px;font-weight:700;color:var(--peach-deep)}
+.shake{animation:shake .4s}
+@keyframes shake{20%{transform:translateX(-9px)}40%{transform:translateX(9px)}60%{transform:translateX(-6px)}80%{transform:translateX(5px)}}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.key{--r:18px;height:54px;font-size:22px;font-weight:700}
+.key.alt{--c:var(--sunken)}
+.result{padding:22px;display:flex;flex-direction:column;gap:12px;animation:pop .35s ease-out}
+@keyframes pop{from{transform:scale(.92);opacity:.4}}
+.result .ok{font-size:21px;font-weight:800;display:flex;gap:10px;align-items:center}
+.result p{margin:0;line-height:1.7;font-size:15px}
+.link{font-size:13px;font-weight:700;color:var(--ink-faint);text-align:center;padding:6px}
+
+/* shield (iOS block screen mock) */
+.shield{position:absolute;inset:0;z-index:8;background:rgba(233,231,227,.92);backdrop-filter:blur(14px);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 30px;text-align:center}
+.shield .fx{font-size:46px;font-weight:800;color:var(--ink);font-style:italic}
+.shield h2{margin:0;font-size:22px;font-weight:800}
+.shield p{margin:0;font-size:13.5px;line-height:1.7;color:var(--ink-soft)}
+.shield .p1{margin-top:22px;background:#9E91D6;color:#fff;border-radius:14px;padding:14px;width:100%;font-weight:700;font-size:16px}
+.shield .p2{color:var(--ink-soft);font-weight:700;padding:10px}
+.shield .os{position:absolute;top:56px;font-size:11px;letter-spacing:.08em;color:var(--ink-faint);font-weight:700}
+
+/* notification banner */
+.banner{position:absolute;top:44px;left:12px;right:12px;z-index:9;--r:22px;padding:12px 14px;display:flex;gap:12px;align-items:center;text-align:left;
+  animation:drop .45s cubic-bezier(.2,1.3,.4,1)}
+@keyframes drop{from{transform:translateY(-120px)}}
+.banner .app{width:38px;height:38px;border-radius:10px;background:var(--lavender);display:grid;place-items:center;font-weight:800;flex:none}
+.banner b{font-size:13.5px;display:block}
+.banner span{font-size:12.5px;color:var(--ink-soft)}
+
+/* stats */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.big{--r:24px;padding:16px 18px}
+.big b{font-size:30px;font-variant-numeric:tabular-nums}
+.big small{font-size:13px;font-weight:700;color:rgba(46,45,51,.6);margin-left:2px}
+.big div{font-size:12.5px;font-weight:700;color:rgba(46,45,51,.65)}
+.chart{--r:20px;padding:14px 10px 10px;display:grid;grid-template-columns:repeat(7,1fr);align-items:end;height:160px;gap:4px}
+.day{display:flex;flex-direction:column;align-items:center;gap:6px;height:100%;justify-content:flex-end}
+.bars{display:flex;gap:3px;align-items:flex-end;height:110px}
+.bars i{width:9px;border-radius:5px;display:block;box-shadow:1px 2px 3px rgba(160,152,142,.6)}
+.day span{font-size:11px;font-weight:700;color:var(--ink-soft)}
+.legend{display:flex;gap:10px;font-size:11.5px;color:var(--ink-soft)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+
+/* settings */
+.set-row{display:flex;align-items:center;gap:12px;font-size:15px;padding:4px 0}
+.dot{width:14px;height:14px;border-radius:50%;flex:none}
+.set-row .grow{flex:1}
+
+/* side panel */
+.side{flex:1 1 300px;max-width:400px;display:flex;flex-direction:column;gap:18px;padding-top:24px}
+.side h2{font-size:30px;font-weight:800;margin:0;text-wrap:balance}
+.side p{margin:0;line-height:1.75;color:var(--ink-soft);font-size:14.5px}
+.flow{--r:24px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;--c:var(--bg)}
+.flow ol{margin:0;padding-left:1.3em;line-height:1.9;font-size:14px}
+.note{font-size:12.5px;color:var(--ink-faint)}
+@media (max-width:760px){.side{padding-top:0;order:-1}.device{height:760px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="stage">
+  <div class="device"><div class="screen" id="screen">
+    <div class="status"><span id="clock">9:41</span><span>●●● 5G</span></div>
+    <div class="view" id="view"></div>
+    <nav class="tabs clay" id="tabs"></nav>
+  </div></div>
+
+  <aside class="side">
+    <h2>mathscreen の画面プレビュー</h2>
+    <p>iOS アプリの見た目と流れを、ブラウザで触って確かめるためのモックです。問題は実際にアプリへ入っている 60 問から出ます。</p>
+    <div class="clay flow">
+      <span class="label">ロックから解除までの流れ</span>
+      <ol>
+        <li>下のボタンで「Instagram を 15 分使った」状態にする</li>
+        <li>iOS のブロック画面で「問題を解く」</li>
+        <li>届いた通知をタップ</li>
+        <li>整数で答えて正解すると解除</li>
+      </ol>
+    </div>
+    <button class="clay btn" style="--c:var(--peach)" id="simulate">Instagram を 15 分使う</button>
+    <p class="note">このページはデザイン確認用です。本物のアプリの制限はかかりません。</p>
+  </aside>
+</div>
+
+<script src="problems.js"></script>
+<script>
+const P = window.PROBLEMS || [];
+const CAT = {junior:["中学数学","var(--mint)"],math1a:["数学I・A","var(--sky)"],math2b:["数学II・B","var(--lavender)"],math3c:["数学III・C","var(--peach)"]};
+const DIFF = {1:"初級 ●○○",2:"中級 ●●○",3:"上級 ●●●"};
+const ICON = {
+  home:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 2.5 11h2.5v9h5.5v-6h3v6H19v-9h2.5z"/></svg>',
+  practice:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 17.3V21h3.7L17.8 9.9l-3.7-3.7zM20.7 7a1 1 0 0 0 0-1.4l-2.3-2.3a1 1 0 0 0-1.4 0l-1.8 1.8 3.7 3.7z"/></svg>',
+  stats:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="4" y="11" width="4" height="9" rx="2"/><rect x="10" y="5" width="4" height="15" rx="2"/><rect x="16" y="14" width="4" height="6" rx="2"/></svg>',
+  settings:'<svg viewBox="0 0 24 24" fill="currentColor"><rect x="3" y="6" width="18" height="2.4" rx="1.2"/><rect x="3" y="15.6" width="18" height="2.4" rx="1.2"/><circle cx="8" cy="7.2" r="3"/><circle cx="16" cy="16.8" r="3"/></svg>'
+};
+const TABS = [["home","ホーム","var(--lavender)"],["practice","練習","var(--mint)"],["stats","記録","var(--sky)"],["settings","設定","var(--peach)"]];
+
+const S = {
+  tab:"home", locked:false, overlay:null,
+  rules:[{id:1,name:"Instagram",emoji:"📷",min:15,on:true},{id:2,name:"YouTube",emoji:"▶",min:30,on:true},{id:3,name:"X",emoji:"✕",min:20,on:false}],
+  today:{triggers:2,correct:3,attempts:4}, streak:3, best:7,
+  week:[[1,2],[3,3],[0,1],[2,4],[4,3],[1,2],[2,3]],
+  cats:new Set(["junior","math1a","math2b","math3c"]), diffs:new Set([1,2,3]), required:1,
+  practice:{cat:null,diff:null,problem:null},
+  solver:null, solvedCount:0
+};
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function pick(cats,diffs,exclude){
+  let pool = P.filter(p=>cats.has(p.category)&&diffs.has(p.difficulty)&&p.id!==exclude);
+  if(!pool.length) pool = P;
+  return pool[Math.floor(Math.random()*pool.length)];
+}
+
+function renderTabs(){
+  $("#tabs").innerHTML = TABS.map(([k,l,c])=>`<button class="tab ${S.tab===k?"on":""}" style="--tc:${c}" data-tab="${k}">${ICON[k]}${l}</button>`).join("");
+}
+
+function homeView(){
+  const t=S.today;
+  return `<div class="col">
+    <div><h1>mathscreen</h1><p class="sub">スマホを使いすぎる時間を、考える時間に。</p></div>
+    ${S.locked?`<div class="clay card col" style="--c:var(--lavender);gap:12px">
+      <div class="row" style="font-size:20px;font-weight:800">🔒 制限中</div>
+      <div style="font-size:14.5px">Instagram がロックされています。1問解いて再開しよう。</div>
+      <button class="clay btn" data-act="challenge">問題を解く</button></div>`:""}
+    <div class="clay card col" style="gap:14px"><span class="label">今日</span>
+      <div class="bubbles">
+        <div class="clay bubble" style="--c:var(--peach)"><b>${t.triggers}</b><span>発動</span></div>
+        <div class="clay bubble" style="--c:var(--mint)"><b>${t.correct}</b><span>正解</span></div>
+        <div class="clay bubble" style="--c:var(--butter)"><b>${S.streak}</b><span>連続正解</span></div>
+      </div></div>
+    <div class="row" style="justify-content:space-between"><span style="font-size:20px;font-weight:800">見守るアプリ</span><button class="clay plus" aria-label="ルールを追加">+</button></div>
+    ${S.rules.map(r=>{const lk=S.locked&&r.id===1;return `<div class="clay rule">
+      <div class="clay ico" style="--c:${lk?"var(--lavender)":"var(--sky)"}">${lk?"🔒":r.emoji}</div>
+      <div class="meta"><div class="name">${r.name}</div><div class="desc">${r.min}分ごとに1問</div></div>
+      <button class="toggle" role="switch" aria-label="${r.name}" aria-checked="${r.on}" data-rule="${r.id}"></button></div>`}).join("")}
+  </div>`;
+}
+
+function solverHTML(ctx){
+  const v=S.solver, p=v.problem, [cl,cc]=CAT[p.category];
+  const top=`<div class="clay prob">
+      <div class="row" style="gap:8px;flex-wrap:wrap"><span class="clay chip" style="--c:${cc}">${cl}</span><span class="clay chip" style="--c:var(--butter)">${DIFF[p.difficulty]}</span></div>
+      <div class="t">${esc(p.title)}</div><div class="b">${esc(p.body)}</div><div class="h">答えは整数で入力してください</div></div>`;
+  if(v.solved){
+    const last = ctx==="challenge" && S.solvedCount>=S.required;
+    return top+`<div class="clay result"><div class="ok"><span style="color:var(--mint-deep)">✔</span>正解！ 答えは ${p.answer}</div>
+      <span class="label">解説</span><p>${esc(p.explanation)}</p>
+      <button class="clay btn" style="--c:var(--mint)" data-act="${ctx==="challenge"?(last?"finish":"next"):"next"}">${ctx==="challenge"?(last?"解除してアプリに戻る":"次の問題へ"):"次の問題へ"}</button></div>`;
+  }
+  const keys=["7","8","9","4","5","6","1","2","3","±","0","⌫"];
+  return top+`<div class="well answer ${v.shake?"shake":""}"><b class="${v.input?"":"q"}">${v.input?esc(v.input.replace("-","−")):"?"}</b>${v.wrong?'<span class="wrong">✕ ちがうみたい</span>':""}</div>
+    <div class="pad">${keys.map(k=>`<button class="clay key ${k==="±"||k==="⌫"?"alt":""}" data-key="${k}">${k}</button>`).join("")}</div>
+    <button class="clay btn" style="--c:var(--lavender)" data-act="submit" ${/^-?\d+$/.test(v.input)?"":"disabled"}>✓ こたえる</button>
+    ${v.attempts>=3?'<button class="link" data-act="skip">別の問題にする</button>':""}`;
+}
+
+function challengeView(){
+  return `<div class="col">
+    <div class="row" style="justify-content:space-between;align-items:flex-start">
+      <div><h1 style="font-size:24px">ひと休み、1問だけ。</h1><p class="sub">Instagram を再開するには正解してね</p>
+      <p class="sub" style="color:var(--lavender-deep);font-weight:700">正解 ${S.solvedCount} / ${S.required}</p></div>
+      <button class="clay" style="--r:20px;width:40px;height:40px;font-weight:800;color:var(--ink-soft)" data-act="close" aria-label="閉じる">✕</button>
+    </div>
+    ${solverHTML("challenge")}
+    <button class="link" data-act="emergency">緊急解除</button>
+  </div>`;
+}
+
+function practiceView(){
+  const pr=S.practice;
+  if(S.solver && pr.problem) return `<div class="col"><div><h1>練習</h1><p class="sub">${P.length} 問から自由に挑戦</p></div>${solverHTML("practice")}<button class="link" data-act="filters">条件を変える</button></div>`;
+  const chips=(items,cur,key,color)=>`<div style="display:flex;flex-wrap:wrap;gap:10px">${items.map(([v,l,c])=>`<button class="clay chip ${cur===v?"":"off"}" style="--c:${c||color}" data-${key}="${v??""}">${l}</button>`).join("")}</div>`;
+  return `<div class="col"><div><h1>練習</h1><p class="sub">${P.length} 問から自由に挑戦</p></div>
+    <div class="clay card col" style="gap:16px">
+      <span class="label">分野</span>${chips([[null,"すべて","var(--lavender)"],...Object.entries(CAT).map(([k,[l,c]])=>[k,l,c])],pr.cat,"cat")}
+      <span class="label">難易度</span>${chips([[null,"すべて"],[1,"初級"],[2,"中級"],[3,"上級"]],pr.diff,"diff","var(--butter)")}
+      <button class="clay btn" style="--c:var(--mint)" data-act="start">▶ はじめる</button>
+    </div></div>`;
+}
+
+function statsView(){
+  const t=S.today, acc=Math.round(t.correct/Math.max(1,t.attempts)*100);
+  const days=["月","火","水","木","金","土","日"], mx=Math.max(...S.week.flat(),1);
+  const big=(v,u,l,c)=>`<div class="clay big" style="--c:${c}"><b>${v}</b><small>${u}</small><div>${l}</div></div>`;
+  return `<div class="col"><div><h1>記録</h1><p class="sub">どれだけ考える時間に変えられたか</p></div>
+    <div class="grid2">${big(18,"回","制限の発動","var(--peach)")}${big(41+t.correct-3,"問","累計正解","var(--mint)")}${big(acc,"%","正答率","var(--sky)")}${big(5,"日","連続正解日数","var(--butter)")}${big(S.streak,"問","いまの連続正解","var(--lavender)")}${big(S.best,"問","最高連続正解","var(--surface)")}</div>
+    <div class="clay card col" style="gap:14px">
+      <div class="row" style="justify-content:space-between"><b>この7日間</b><span class="legend"><span><i style="background:var(--peach)"></i>発動</span><span><i style="background:var(--mint)"></i>正解</span></span></div>
+      <div class="well chart">${S.week.map(([a,b],i)=>`<div class="day"><div class="bars"><i style="height:${Math.max(6,a/mx*110)}px;background:var(--peach)"></i><i style="height:${Math.max(6,b/mx*110)}px;background:var(--mint)"></i></div><span>${days[i]}</span></div>`).join("")}</div>
+    </div></div>`;
+}
+
+function settingsView(){
+  const cnt=P.filter(p=>S.cats.has(p.category)&&S.diffs.has(p.difficulty)).length;
+  const row=(label,color,on,attr)=>`<div class="set-row"><span class="dot" style="background:${color}"></span><span class="grow">${label}</span><button class="toggle" role="switch" aria-label="${label}" aria-checked="${on}" ${attr}></button></div>`;
+  return `<div class="col"><div><h1>設定</h1></div>
+    <div class="clay card col" style="gap:10px"><b>出題する分野</b>${Object.entries(CAT).map(([k,[l,c]])=>row(l,c,S.cats.has(k),`data-setcat="${k}"`)).join("")}</div>
+    <div class="clay card col" style="gap:10px"><b>難易度</b>${[1,2,3].map(d=>row(DIFF[d],"var(--butter)",S.diffs.has(d),`data-setdiff="${d}"`)).join("")}
+      <span class="sub">出題対象：${cnt} 問</span></div>
+    <div class="clay card col" style="gap:12px"><b>解除に必要な正解数</b><div class="grid2" style="grid-template-columns:repeat(3,1fr)">${[1,2,3].map(n=>`<button class="clay chip ${S.required===n?"":"off"}" style="--c:var(--lavender)" data-req="${n}">${n}問</button>`).join("")}</div></div>
+    <div class="clay card col" style="gap:12px"><b>もしものとき</b><span class="sub">制限中でも電話・メッセージなど iOS の基本機能は使えます。どうしても必要なときは、問題を解かずに解除できます（記録に残ります）。</span>
+      <button class="clay btn" style="--c:var(--peach)" data-act="emergency" ${S.locked?"":"disabled"}>緊急解除</button></div>
+  </div>`;
+}
+
+function render(){
+  renderTabs();
+  const v=$("#view");
+  v.innerHTML = S.overlay==="challenge" ? challengeView() :
+    ({home:homeView,practice:practiceView,stats:statsView,settings:settingsView})[S.tab]();
+  $("#tabs").hidden = S.overlay==="challenge";
+  document.querySelectorAll(".shield,.banner").forEach(e=>e.remove());
+  if(S.overlay==="shield"){
+    $("#screen").insertAdjacentHTML("beforeend",`<div class="shield"><span class="os">INSTAGRAM</span><div class="fx">ƒ(x)</div><h2>ひと休み、1問だけ。</h2>
+      <p>Instagram の利用時間が上限に達しました。<br>「問題を解く」→ 届いた通知をタップ → 正解で再開できます。</p>
+      <button class="p1" data-act="shieldSolve">問題を解く</button><button class="p2" data-act="shieldClose">閉じる</button></div>`);
+  }
+  if(S.overlay==="banner"){
+    $("#screen").insertAdjacentHTML("beforeend",`<button class="clay banner" data-act="openNotif"><span class="app">√</span><span><b>mathscreen：問題が届きました</b><span>タップして問題を解こう。正解すると再開できます。</span></span></button>`);
+  }
+}
+
+function newSolver(problem){ S.solver={problem,input:"",attempts:0,wrong:false,solved:false,shake:false}; }
+function openChallenge(){ S.overlay="challenge"; S.solvedCount=0; newSolver(pick(S.cats,S.diffs)); $("#view").scrollTop=0; }
+
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  const d=b.dataset;
+  if(d.tab){ S.tab=d.tab; S.overlay=null; if(d.tab!=="practice") S.practice.problem=null; }
+  else if(d.rule){ const r=S.rules.find(r=>r.id==d.rule); r.on=!r.on; }
+  else if(d.key!==undefined && S.solver){
+    const v=S.solver; v.wrong=false; v.shake=false;
+    if(d.key==="⌫") v.input=v.input.slice(0,-1);
+    else if(d.key==="±") v.input=v.input.startsWith("-")?v.input.slice(1):"-"+v.input;
+    else if(v.input.replace("-","").length<9) v.input=(v.input==="0"?"":v.input==="-0"?"-":v.input)+d.key;
+  }
+  else if(d.cat!==undefined){ S.practice.cat=d.cat||null; }
+  else if(d.diff!==undefined){ S.practice.diff=d.diff?+d.diff:null; }
+  else if(d.setcat){ const s=S.cats; s.has(d.setcat)?(s.size>1&&s.delete(d.setcat)):s.add(d.setcat); }
+  else if(d.setdiff){ const s=S.diffs,n=+d.setdiff; s.has(n)?(s.size>1&&s.delete(n)):s.add(n); }
+  else if(d.req){ S.required=+d.req; }
+  else switch(d.act){
+    case "submit":{ const v=S.solver; v.attempts++; S.today.attempts++;
+      if(+v.input===v.problem.answer){ v.solved=true; S.today.correct++; S.streak++; S.best=Math.max(S.best,S.streak); if(S.overlay==="challenge") S.solvedCount++; }
+      else { v.wrong=true; v.shake=true; v.input=""; S.streak=0; } break; }
+    case "skip": newSolver(pick(S.overlay==="challenge"?S.cats:practiceCats(),S.overlay==="challenge"?S.diffs:practiceDiffs(),S.solver.problem.id)); break;
+    case "next":
+      if(S.overlay==="challenge") newSolver(pick(S.cats,S.diffs,S.solver.problem.id));
+      else { S.practice.problem=pick(practiceCats(),practiceDiffs(),S.practice.problem?.id); newSolver(S.practice.problem); }
+      $("#view").scrollTop=0; break;
+    case "start": S.practice.problem=pick(practiceCats(),practiceDiffs()); newSolver(S.practice.problem); break;
+    case "filters": S.practice.problem=null; S.solver=null; break;
+    case "challenge": openChallenge(); break;
+    case "finish": S.locked=false; S.overlay=null; S.tab="home"; break;
+    case "close": S.overlay=null; break;
+    case "emergency": S.locked=false; S.overlay=null; S.tab="home"; break;
+    case "shieldSolve": S.overlay="banner"; break;
+    case "shieldClose": S.overlay=null; break;
+    case "openNotif": openChallenge(); break;
+  }
+  if(b.id==="simulate"){ S.locked=true; S.today.triggers++; S.tab="home"; S.overlay="shield"; }
+  render();
+});
+function practiceCats(){ return S.practice.cat?new Set([S.practice.cat]):new Set(Object.keys(CAT)); }
+function practiceDiffs(){ return S.practice.diff?new Set([S.practice.diff]):new Set([1,2,3]); }
+render();
+</script>
