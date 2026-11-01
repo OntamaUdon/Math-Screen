@@ -6,7 +6,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.mathscreen.mathscreen</string>
+		<string>group.com.ontamaudon.qlock</string>
 	</array>
 </dict>
 </plist>

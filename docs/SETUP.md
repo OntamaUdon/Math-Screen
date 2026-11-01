@@ -28,20 +28,20 @@
 
 ### 1-1. App Group
 1. 右上のプルダウンを **App Groups** にして「＋」
-2. Description: `mathscreen`、Identifier: `group.com.mathscreen.mathscreen`
+2. Description: `QLock`（半角の英数字と空白のみ。日本語は不可）、Identifier: `group.com.ontamaudon.qlock`
 
 ### 1-2. App ID（4つ）
 「＋」→ **App IDs** → **App** で、以下の4つを登録します（Bundle ID は Explicit）。
 
 | Description | Bundle ID |
 |---|---|
-| mathscreen | `com.mathscreen.mathscreen` |
-| mathscreen Monitor | `com.mathscreen.mathscreen.monitor` |
-| mathscreen Shield | `com.mathscreen.mathscreen.shieldconfig` |
-| mathscreen Shield Action | `com.mathscreen.mathscreen.shieldaction` |
+| QLock | `com.ontamaudon.qlock` |
+| QLock Monitor | `com.ontamaudon.qlock.monitor` |
+| QLock Shield | `com.ontamaudon.qlock.shieldconfig` |
+| QLock Shield Action | `com.ontamaudon.qlock.shieldaction` |
 
 それぞれ Capabilities で次の2つにチェックします。
-- **App Groups** → Configure で `group.com.mathscreen.mathscreen` を選択
+- **App Groups** → Configure で `group.com.ontamaudon.qlock` を選択
 - **Family Controls**（ここで有効になるのは開発用）
 
 > Bundle ID は「アプリを世界で一意に見分けるための ID」です。アプリ本体と、ブロック画面などを担当する3つの拡張機能それぞれに必要です。
@@ -58,8 +58,8 @@
 ## 3. App Store Connect にアプリを作成する
 
 1. [App Store Connect](https://appstoreconnect.apple.com/apps) → 「＋」→ **新規 App**
-2. プラットフォーム: iOS / 名前: `mathscreen`（他のアプリと重複していると使えません。その場合は「mathscreen - 数学で止める」など）/ 主言語: 日本語
-3. バンドル ID: `com.mathscreen.mathscreen` / SKU: `mathscreen`
+2. プラットフォーム: iOS / 名前: `解くロック`（日本語）。英語の名前は `QLock`/ 主言語: 日本語
+3. バンドル ID: `com.ontamaudon.qlock` / SKU: `qlock`
 
 ## 4. App Store Connect API キーを作成する
 
@@ -103,7 +103,7 @@ Family Controls の配布用許可が **まだ** のときは、`[ui-only]` の�
 | 症状 | 原因と対処 |
 |---|---|
 | `Secret が足りません` | 5. の Secrets 名のつづりを確認 |
-| `No profiles for 'com.mathscreen.mathscreen' were found` / Family Controls 関連のエラー | 配布用の許可がまだ。`screen_time = false` で実行する |
+| `No profiles for 'com.ontamaudon.qlock' were found` / Family Controls 関連のエラー | 配布用の許可がまだ。`screen_time = false` で実行する |
 | `Cloud signing permission error` | API キーのアクセスが Admin になっていない |
 | `No suitable application records were found` | 3. のアプリ作成が未完了、または Bundle ID が違う |
 | ビルド番号の重複エラー | ワークフローをもう一度実行（実行番号がビルド番号になります） |

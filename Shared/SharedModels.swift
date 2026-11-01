@@ -5,7 +5,7 @@ import DeviceActivity
 
 /// アプリ本体と各拡張（Monitor / Shield）で共有する App Group。
 enum AppGroup {
-    static let identifier = "group.com.mathscreen.mathscreen"
+    static let identifier = "group.com.ontamaudon.qlock"
     static var defaults: UserDefaults { UserDefaults(suiteName: identifier) ?? .standard }
 }
 
