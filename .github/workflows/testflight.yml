@@ -25,6 +25,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Use Xcode 26 (Apple requires the iOS 26 SDK for uploads)
+        run: |
+          sudo xcode-select -s /Applications/Xcode_26.3.app/Contents/Developer
+          xcodebuild -version
+
       - name: Check secrets
         run: |
           for v in TEAM_ID ASC_KEY_ID ASC_ISSUER_ID; do
