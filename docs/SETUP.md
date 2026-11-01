@@ -46,14 +46,17 @@
 
 > Bundle ID は「アプリを世界で一意に見分けるための ID」です。アプリ本体と、ブロック画面などを担当する3つの拡張機能それぞれに必要です。
 
-## 2. Family Controls（配布用）を申請する
+## 2. Family Controls の配布用許可を申請する
 
-1. [Family Controls Distribution の申請フォーム](https://developer.apple.com/contact/request/family-controls-distribution) を開く
-2. **上の4つの Bundle ID すべて** について申請する（1つずつ申請が必要です）
-3. 用途の説明例：
-   > This app helps users reduce their own excessive smartphone use. When a user-selected app is used beyond a user-defined time limit, the app is shielded and the user must solve a math problem to continue. It uses FamilyControls with individual authorization, DeviceActivity for usage thresholds, and ManagedSettings for shields. Data stays on device.
+TestFlight や App Store で、ロック機能を使うために必要な Apple の許可です。**アカウント（チーム）に対して1回申請します。** Bundle ID ごとの申請は要りません。
 
-許可されると、各 App ID の Capabilities に **Family Controls (Distribution)** が表示されます（数日〜数週間かかることがあります）。
+1. [申請フォーム「Get the Family Controls Framework Entitlement」](https://developer.apple.com/contact/request/family-controls-distribution)を開く
+2. 名前・メールアドレス・Team ID を入力し、利用条件に同意して送信する
+   - 使える目的：個人が自分の端末の使い方を管理する（集中・生産性）／保護者が子どもの端末を見守る
+   - 使えない目的：広告のブロック、組織内での利用、他の大人の端末の管理
+   - 使用データは、広告や第三者への提供に使えません
+
+許可が下りると Apple からメールが届き、App ID（4つ）で配布用の Family Controls が使えるようになります（数日〜数週間かかることがあります）。許可が下りるまでは、**ロック機能を外した版**（問題・練習・記録の画面だけ）を使います。
 
 ## 3. App Store Connect にアプリを作成する
 
