@@ -48,6 +48,16 @@ jobs:
             /usr/libexec/PlistBuddy -c "Delete :com.apple.developer.family-controls" "$f"
           done
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Prepare signing (temporary distribution certificate and profiles)
+        # 端末の登録なしで署名するため、配布用の証明書とプロファイルをこの実行の間だけ作る。終わったら下で削除する。
+        run: |
+          python -m pip install --quiet pyjwt
+          python tools/ci_signing.py setup
+
       - name: Install XcodeGen & generate project
         run: |
           brew install xcodegen
@@ -62,10 +72,8 @@ jobs:
             -configuration Release \
             -destination 'generic/platform=iOS' \
             -archivePath "$RUNNER_TEMP/mathscreen.xcarchive" \
-            -allowProvisioningUpdates \
-            -authenticationKeyPath "$KEY_PATH" \
-            -authenticationKeyID "$ASC_KEY_ID" \
-            -authenticationKeyIssuerID "$ASC_ISSUER_ID" \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="Apple Distribution" \
             DEVELOPMENT_TEAM="$TEAM_ID" \
             CURRENT_PROJECT_VERSION="${{ github.run_number }}" | tee archive.log | grep -E "error:|ARCHIVE (SUCCEEDED|FAILED)" || true
           grep -q "ARCHIVE SUCCEEDED" archive.log
@@ -80,7 +88,15 @@ jobs:
             <key>method</key><string>app-store-connect</string>
             <key>destination</key><string>upload</string>
             <key>teamID</key><string>${TEAM_ID}</string>
-            <key>signingStyle</key><string>automatic</string>
+            <key>signingStyle</key><string>manual</string>
+            <key>signingCertificate</key><string>Apple Distribution</string>
+            <key>provisioningProfiles</key>
+            <dict>
+              <key>com.ontamaudon.qlock</key><string>QLockCI app</string>
+              <key>com.ontamaudon.qlock.monitor</key><string>QLockCI monitor</string>
+              <key>com.ontamaudon.qlock.shieldconfig</key><string>QLockCI shieldconfig</string>
+              <key>com.ontamaudon.qlock.shieldaction</key><string>QLockCI shieldaction</string>
+            </dict>
             <key>manageAppVersionAndBuildNumber</key><false/>
           </dict>
           </plist>
@@ -89,10 +105,15 @@ jobs:
             -archivePath "$RUNNER_TEMP/mathscreen.xcarchive" \
             -exportPath "$RUNNER_TEMP/export" \
             -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist" \
-            -allowProvisioningUpdates \
             -authenticationKeyPath "$KEY_PATH" \
             -authenticationKeyID "$ASC_KEY_ID" \
             -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+      - name: Clean up signing (delete temporary certificate and profiles)
+        if: always()
+        run: |
+          python -m pip install --quiet pyjwt
+          python tools/ci_signing.py cleanup
 
       - name: Upload logs on failure
         if: failure()

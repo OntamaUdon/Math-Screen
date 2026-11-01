@@ -30,6 +30,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ontamaudon.qlock
+        PROVISIONING_PROFILE_SPECIFIER: "QLockCI app"   # 手動署名のときだけ使われる（tools/ci_signing.py が作るプロファイル名）
         PRODUCT_NAME: mathscreen
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
@@ -60,6 +61,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ontamaudon.qlock.monitor
+        PROVISIONING_PROFILE_SPECIFIER: "QLockCI monitor"   # 手動署名のときだけ使われる（tools/ci_signing.py が作るプロファイル名）
         CODE_SIGN_ENTITLEMENTS: MonitorExtension/MonitorExtension.entitlements
     info:
       path: MonitorExtension/Info.plist
@@ -80,6 +82,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ontamaudon.qlock.shieldconfig
+        PROVISIONING_PROFILE_SPECIFIER: "QLockCI shieldconfig"   # 手動署名のときだけ使われる（tools/ci_signing.py が作るプロファイル名）
         CODE_SIGN_ENTITLEMENTS: ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements
     info:
       path: ShieldConfigurationExtension/Info.plist
@@ -100,6 +103,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ontamaudon.qlock.shieldaction
+        PROVISIONING_PROFILE_SPECIFIER: "QLockCI shieldaction"   # 手動署名のときだけ使われる（tools/ci_signing.py が作るプロファイル名）
         CODE_SIGN_ENTITLEMENTS: ShieldActionExtension/ShieldActionExtension.entitlements
     info:
       path: ShieldActionExtension/Info.plist
