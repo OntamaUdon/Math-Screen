@@ -725,11 +725,61 @@
     ]
   },
   {
+    "id": "s_geo_asia",
+    "subject": "social",
+    "stage": "中学",
+    "name": "アジア州",
+    "order": 73,
+    "prereqs": [
+      "s_geo_world"
+    ]
+  },
+  {
+    "id": "s_geo_europe",
+    "subject": "social",
+    "stage": "中学",
+    "name": "ヨーロッパ・アフリカ",
+    "order": 74,
+    "prereqs": [
+      "s_geo_world"
+    ]
+  },
+  {
+    "id": "s_geo_americas",
+    "subject": "social",
+    "stage": "中学",
+    "name": "南北アメリカ・オセアニア",
+    "order": 75,
+    "prereqs": [
+      "s_geo_world"
+    ]
+  },
+  {
+    "id": "s_jp_region",
+    "subject": "social",
+    "stage": "中学",
+    "name": "日本の諸地域",
+    "order": 76,
+    "prereqs": [
+      "s_geo_japan"
+    ]
+  },
+  {
+    "id": "s_jp_industry",
+    "subject": "social",
+    "stage": "中学",
+    "name": "日本の産業",
+    "order": 77,
+    "prereqs": [
+      "s_geo_japan"
+    ]
+  },
+  {
     "id": "s_civ_const",
     "subject": "social",
     "stage": "中学",
     "name": "憲法と人権",
-    "order": 73,
+    "order": 78,
     "prereqs": []
   },
   {
@@ -737,7 +787,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "政治のしくみ",
-    "order": 74,
+    "order": 79,
     "prereqs": [
       "s_civ_const"
     ]
@@ -747,7 +797,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "経済のしくみ",
-    "order": 75,
+    "order": 80,
     "prereqs": [
       "s_civ_gov"
     ]
@@ -757,7 +807,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "国際社会",
-    "order": 76,
+    "order": 81,
     "prereqs": [
       "s_civ_gov"
     ]
@@ -767,7 +817,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "細胞と植物",
-    "order": 77,
+    "order": 82,
     "prereqs": []
   },
   {
@@ -775,7 +825,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "人体のつくり",
-    "order": 78,
+    "order": 83,
     "prereqs": [
       "b_cell_plant"
     ]
@@ -785,9 +835,47 @@
     "subject": "science",
     "stage": "中学",
     "name": "生態系",
-    "order": 79,
+    "order": 84,
     "prereqs": [
       "b_cell_plant"
+    ]
+  },
+  {
+    "id": "b_genetic",
+    "subject": "science",
+    "stage": "中学",
+    "name": "遺伝と進化",
+    "order": 85,
+    "prereqs": [
+      "b_cell_plant"
+    ]
+  },
+  {
+    "id": "b_animal",
+    "subject": "science",
+    "stage": "中学",
+    "name": "動物の分類",
+    "order": 86,
+    "prereqs": []
+  },
+  {
+    "id": "c_ion",
+    "subject": "science",
+    "stage": "中学",
+    "name": "イオンと電池",
+    "order": 87,
+    "prereqs": [
+      "c_atom"
+    ]
+  },
+  {
+    "id": "p_energy",
+    "subject": "science",
+    "stage": "中学",
+    "name": "エネルギー",
+    "order": 88,
+    "prereqs": [
+      "p_elec"
     ]
   },
   {
@@ -795,7 +883,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "物質と原子",
-    "order": 80,
+    "order": 89,
     "prereqs": []
   },
   {
@@ -803,7 +891,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "物質の性質",
-    "order": 81,
+    "order": 90,
     "prereqs": []
   },
   {
@@ -811,7 +899,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "水溶液と酸・アルカリ",
-    "order": 82,
+    "order": 91,
     "prereqs": [
       "c_atom"
     ]
@@ -821,7 +909,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "化学変化",
-    "order": 83,
+    "order": 92,
     "prereqs": [
       "c_atom"
     ]
@@ -831,7 +919,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "電気",
-    "order": 84,
+    "order": 93,
     "prereqs": []
   },
   {
@@ -839,7 +927,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "力と圧力",
-    "order": 85,
+    "order": 94,
     "prereqs": []
   },
   {
@@ -847,7 +935,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "運動と仕事",
-    "order": 86,
+    "order": 95,
     "prereqs": [
       "p_force"
     ]
@@ -857,7 +945,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "光と音",
-    "order": 87,
+    "order": 96,
     "prereqs": []
   },
   {
@@ -865,7 +953,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "天体",
-    "order": 88,
+    "order": 97,
     "prereqs": []
   },
   {
@@ -873,7 +961,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "大地の変化",
-    "order": 89,
+    "order": 98,
     "prereqs": []
   },
   {
@@ -881,7 +969,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "天気",
-    "order": 90,
+    "order": 99,
     "prereqs": []
   }
 ]

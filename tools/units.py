@@ -85,6 +85,11 @@ UNITS = [
     ("s_hist_early",    "social", "中学", "近世の歴史", ["s_hist_medieval"]),
     ("s_hist_modern",   "social", "中学", "近代の歴史", ["s_hist_early"]),
     ("s_hist_contemp",  "social", "中学", "現代の歴史", ["s_hist_modern"]),
+    ("s_geo_asia", "social", "中学", "アジア州", ["s_geo_world"]),
+    ("s_geo_europe", "social", "中学", "ヨーロッパ・アフリカ", ["s_geo_world"]),
+    ("s_geo_americas", "social", "中学", "南北アメリカ・オセアニア", ["s_geo_world"]),
+    ("s_jp_region", "social", "中学", "日本の諸地域", ["s_geo_japan"]),
+    ("s_jp_industry", "social", "中学", "日本の産業", ["s_geo_japan"]),
     ("s_civ_const", "social", "中学", "憲法と人権", []),
     ("s_civ_gov",   "social", "中学", "政治のしくみ", ["s_civ_const"]),
     ("s_civ_econ",  "social", "中学", "経済のしくみ", ["s_civ_gov"]),
@@ -93,6 +98,10 @@ UNITS = [
     ("b_cell_plant", "science", "中学", "細胞と植物", []),
     ("b_human",      "science", "中学", "人体のつくり", ["b_cell_plant"]),
     ("b_eco",        "science", "中学", "生態系", ["b_cell_plant"]),
+    ("b_genetic",    "science", "中学", "遺伝と進化", ["b_cell_plant"]),
+    ("b_animal",     "science", "中学", "動物の分類", []),
+    ("c_ion",        "science", "中学", "イオンと電池", ["c_atom"]),
+    ("p_energy",     "science", "中学", "エネルギー", ["p_elec"]),
     ("c_atom",       "science", "中学", "物質と原子", []),
     ("c_state",      "science", "中学", "物質の性質", []),
     ("c_solution",   "science", "中学", "水溶液と酸・アルカリ", ["c_atom"]),
@@ -160,6 +169,8 @@ _m("e_count", "並べ方", "組み合わせ", "さいころの目", "選び方�
 
 
 _m("e_avg", "平均")
+_m("s_geo_asia", "アジア州"); _m("s_geo_europe", "ヨーロッパ・アフリカ"); _m("s_geo_americas", "南北アメリカ・オセアニア"); _m("s_jp_region", "日本の諸地域"); _m("s_jp_industry", "日本の産業")
+_m("b_genetic", "遺伝と進化"); _m("b_animal", "動物の分類"); _m("c_ion", "イオンと電池"); _m("p_energy", "エネルギー")
 _m("g_irreg", "不規則動詞"); _m("g_prep", "前置詞と冠詞"); _m("g_form", "語形変化"); _m("w_syn", "同意語・反意語")
 _m("m_prop", "比例", "反比例"); _m("m_linfunc", "一次関数"); _m("m_algebra", "文字式の計算"); _m("m_similar", "相似")
 _m("m_circle", "円周角"); _m("m_space", "立体の体積と表面積"); _m("m_data", "平均値と中央値")

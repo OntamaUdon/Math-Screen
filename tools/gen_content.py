@@ -448,6 +448,8 @@ def generate():
     gen_content3.generate()
     import gen_content4
     gen_content4.generate()
+    import gen_content5
+    gen_content5.generate()
     return list(OUT)
 
 
