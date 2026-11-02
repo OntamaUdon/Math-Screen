@@ -450,6 +450,8 @@ def generate():
     gen_content4.generate()
     import gen_content5
     gen_content5.generate()
+    import gen_japanese
+    gen_japanese.generate()
     return list(OUT)
 
 

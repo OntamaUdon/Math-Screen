@@ -25,7 +25,7 @@ struct Problem: Codable, Identifiable, Hashable {
 
 /// 教科。ルールを作るとき、教科ごとにまとめて選べる。
 enum Subject: String, CaseIterable, Identifiable {
-    case math, english, social, science
+    case math, english, social, science, japanese
     var id: String { rawValue }
 
     var label: String {
@@ -34,6 +34,7 @@ enum Subject: String, CaseIterable, Identifiable {
         case .english: "英語"
         case .social: "社会"
         case .science: "理科"
+        case .japanese: "国語"
         }
     }
 
@@ -46,6 +47,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
     case eng_word, eng_sentence
     case soc_geo, soc_hist, soc_civ
     case sci_bio, sci_chem, sci_phys, sci_earth
+    case ja_kanji, ja_idiom, ja_classic, ja_grammar
     var id: String { rawValue }
 
     var subject: Subject {
@@ -54,6 +56,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .eng_word, .eng_sentence: .english
         case .soc_geo, .soc_hist, .soc_civ: .social
         case .sci_bio, .sci_chem, .sci_phys, .sci_earth: .science
+        case .ja_kanji, .ja_idiom, .ja_classic, .ja_grammar: .japanese
         }
     }
 
@@ -73,6 +76,10 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .sci_chem: "化学"
         case .sci_phys: "物理"
         case .sci_earth: "地学"
+        case .ja_kanji: "漢字"
+        case .ja_idiom: "語句"
+        case .ja_classic: "古文"
+        case .ja_grammar: "国語文法"
         }
     }
 }

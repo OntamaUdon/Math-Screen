@@ -76,6 +76,13 @@ UNITS = [
     ("g_prep",     "english", "中学", "前置詞と冠詞", ["g_grammar"]),
     ("g_form",     "english", "中学", "語形変化", ["g_grammar"]),
     ("w_syn",      "english", "高校", "同意語・反意語", ["w_basic"]),
+    # ── 国語 ──
+    ("j_kanji_read",  "japanese", "中学", "漢字の読み", []),
+    ("j_kanji_write", "japanese", "中学", "漢字の書き取り", []),
+    ("j_idiom",       "japanese", "中学", "四字熟語", []),
+    ("j_proverb",     "japanese", "中学", "ことわざ・慣用句", []),
+    ("j_grammar",     "japanese", "中学", "国語の文法", []),
+    ("j_classic",     "japanese", "高校", "古文単語", ["j_grammar"]),
     # ── 社会 ──
     ("s_geo_map",   "social", "中学", "地球と地図", []),
     ("s_geo_world", "social", "中学", "世界の国々", ["s_geo_map"]),

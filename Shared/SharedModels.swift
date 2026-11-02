@@ -22,7 +22,8 @@ struct GuardRule: Codable, Identifiable {
 
     static let mathCategories: Set<String> = ["elem", "junior", "math1a", "math2b", "math3c"]
     static let allCategories: Set<String> = mathCategories.union(
-        ["eng_word", "eng_sentence", "soc_geo", "soc_hist", "soc_civ", "sci_bio", "sci_chem", "sci_phys", "sci_earth"])
+        ["eng_word", "eng_sentence", "soc_geo", "soc_hist", "soc_civ", "sci_bio", "sci_chem", "sci_phys", "sci_earth",
+         "ja_kanji", "ja_idiom", "ja_classic", "ja_grammar"])
 
     init(id: UUID = UUID(), selection: FamilyActivitySelection, thresholdMinutes: Int,
          questionCount: Int = 1, categories: Set<String> = GuardRule.allCategories,
