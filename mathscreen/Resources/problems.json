@@ -62,7 +62,7 @@
     "plain": "√48 ÷ √3 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "j06",
@@ -218,7 +218,7 @@
     "plain": "異なる5人を1列に並べる方法は何通りか。",
     "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "a03",
@@ -231,7 +231,7 @@
     "plain": "0° < θ < 90° で sin θ = 3/5 のとき、tan θ を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "a04",
@@ -244,7 +244,7 @@
     "plain": "|x − 3| < 5 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "a05",
@@ -257,7 +257,7 @@
     "plain": "₇C₃ の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "a06",
@@ -296,7 +296,7 @@
     "plain": "赤玉4個、白玉3個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "a09",
@@ -361,7 +361,7 @@
     "plain": "区別のつく6人を、2人ずつの3組に分ける方法は何通りか（組には区別がない）。",
     "hint": "順番を区別して数えてから、同じ分け方の重なりでわります。",
     "unit": "h_count",
-    "rate": 3.5
+    "rate": 2.9
   },
   {
     "id": "a14",
@@ -400,7 +400,7 @@
     "plain": "log₂32 + log₃27 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "b02",
@@ -426,7 +426,7 @@
     "plain": "(x + 2)⁵ を展開したときの x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 5.3
+    "rate": 5.1
   },
   {
     "id": "b04",
@@ -1102,7 +1102,7 @@
     "plain": "√243 ÷ √3 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-2",
@@ -1115,7 +1115,7 @@
     "plain": "√405 ÷ √5 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-3",
@@ -1128,7 +1128,7 @@
     "plain": "√252 ÷ √7 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-4",
@@ -1141,7 +1141,7 @@
     "plain": "√63 ÷ √7 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-5",
@@ -1154,7 +1154,7 @@
     "plain": "√150 ÷ √6 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-6",
@@ -1167,7 +1167,7 @@
     "plain": "√343 ÷ √7 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-7",
@@ -1180,7 +1180,7 @@
     "plain": "√175 ÷ √7 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g04-8",
@@ -1193,7 +1193,7 @@
     "plain": "√180 ÷ √5 を計算せよ。",
     "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
     "unit": "m_sqrt",
-    "rate": 6.5
+    "rate": 6.8
   },
   {
     "id": "g05-1",
@@ -2116,7 +2116,7 @@
     "plain": "8C2 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-2",
@@ -2129,7 +2129,7 @@
     "plain": "8C4 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-3",
@@ -2142,7 +2142,7 @@
     "plain": "7C3 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-4",
@@ -2155,7 +2155,7 @@
     "plain": "7C2 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-5",
@@ -2168,7 +2168,7 @@
     "plain": "10C2 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-6",
@@ -2181,7 +2181,7 @@
     "plain": "11C2 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-7",
@@ -2194,7 +2194,7 @@
     "plain": "6C3 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g14-8",
@@ -2207,7 +2207,7 @@
     "plain": "9C3 の値を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
     "unit": "h_count",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g15-1",
@@ -2220,7 +2220,7 @@
     "plain": "|x - 5| < 6 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-2",
@@ -2233,7 +2233,7 @@
     "plain": "|x - 1| < 3 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-3",
@@ -2246,7 +2246,7 @@
     "plain": "|x - 4| < 4 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-4",
@@ -2259,7 +2259,7 @@
     "plain": "|x - 1| < 2 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-5",
@@ -2272,7 +2272,7 @@
     "plain": "|x + 3| < 8 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-6",
@@ -2285,7 +2285,7 @@
     "plain": "|x + 1| < 5 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-7",
@@ -2298,7 +2298,7 @@
     "plain": "|x| < 4 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g15-8",
@@ -2311,7 +2311,7 @@
     "plain": "|x - 1| < 5 を満たす整数 x はいくつあるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.9
+    "rate": 5.0
   },
   {
     "id": "g16-1",
@@ -2740,7 +2740,7 @@
     "plain": "赤玉4個、白玉2個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-2",
@@ -2753,7 +2753,7 @@
     "plain": "赤玉5個、白玉3個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-3",
@@ -2766,7 +2766,7 @@
     "plain": "赤玉4個、白玉3個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-4",
@@ -2779,7 +2779,7 @@
     "plain": "赤玉3個、白玉2個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-5",
@@ -2792,7 +2792,7 @@
     "plain": "赤玉4個、白玉4個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-6",
@@ -2805,7 +2805,7 @@
     "plain": "赤玉5個、白玉4個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-7",
@@ -2818,7 +2818,7 @@
     "plain": "赤玉3個、白玉4個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g20-8",
@@ -2831,7 +2831,7 @@
     "plain": "赤玉5個、白玉2個が入った袋から同時に3個取り出す。赤玉2個・白玉1個となる確率を既約分数 a/b で表す。a + b を答えよ。",
     "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
     "unit": "h_prob",
-    "rate": 4.5
+    "rate": 4.2
   },
   {
     "id": "g21-1",
@@ -2844,7 +2844,7 @@
     "plain": "log₂ 16 + log₁₀ 10000 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-2",
@@ -2857,7 +2857,7 @@
     "plain": "log₅ 25 + log₅ 625 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-3",
@@ -2870,7 +2870,7 @@
     "plain": "log₃ 9 + log₅ 125 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-4",
@@ -2883,7 +2883,7 @@
     "plain": "log₃ 81 + log₄ 16 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-5",
@@ -2896,7 +2896,7 @@
     "plain": "log₅ 3125 + log₅ 25 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-6",
@@ -2909,7 +2909,7 @@
     "plain": "log₅ 625 + log₅ 625 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-7",
@@ -2922,7 +2922,7 @@
     "plain": "log₂ 32 + log₄ 256 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g21-8",
@@ -2935,7 +2935,7 @@
     "plain": "log₂ 16 + log₃ 81 の値を答えよ。",
     "hint": "$\\log_a a^m = m$ です。",
     "unit": "h_exp",
-    "rate": 4.5
+    "rate": 4.8
   },
   {
     "id": "g22-1",
@@ -3052,7 +3052,7 @@
     "plain": "(x + 3)⁴ を展開したときの x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-2",
@@ -3065,7 +3065,7 @@
     "plain": "(x + 3)⁵ を展開したときの x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-3",
@@ -3078,7 +3078,7 @@
     "plain": "(x + 2)⁶ を展開したときの x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-4",
@@ -3091,7 +3091,7 @@
     "plain": "(x + 2)⁵ を展開したときの x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-5",
@@ -3104,7 +3104,7 @@
     "plain": "(x + 2)⁴ を展開したときの x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-6",
@@ -3117,7 +3117,7 @@
     "plain": "(x + 2)⁵ を展開したときの x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-7",
@@ -3130,7 +3130,7 @@
     "plain": "(x + 2)⁶ を展開したときの x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g23-8",
@@ -3143,7 +3143,7 @@
     "plain": "(x + 3)⁶ を展開したときの x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g24-1",
@@ -5269,7 +5269,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-2",
@@ -5288,7 +5288,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-3",
@@ -5307,7 +5307,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-4",
@@ -5326,7 +5326,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-5",
@@ -5345,7 +5345,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-6",
@@ -5364,7 +5364,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-7",
@@ -5383,7 +5383,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g44-8",
@@ -5402,7 +5402,7 @@
     ],
     "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
     "unit": "h_trig",
-    "rate": 5.5
+    "rate": 5.7
   },
   {
     "id": "g45-1",
@@ -6333,7 +6333,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-2",
@@ -6352,7 +6352,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-3",
@@ -6371,7 +6371,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-4",
@@ -6390,7 +6390,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-5",
@@ -6409,7 +6409,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-6",
@@ -6428,7 +6428,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-7",
@@ -6447,7 +6447,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "g51-8",
@@ -6466,7 +6466,7 @@
     ],
     "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
     "unit": "h_diff3",
-    "rate": 5.0
+    "rate": 5.4
   },
   {
     "id": "s-eng_word-1",
@@ -18608,7 +18608,7 @@
     "plain": "不等式 |x - (-5)| < 4 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-2",
@@ -18621,7 +18621,7 @@
     "plain": "不等式 |x - (-3)| < 6 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-3",
@@ -18634,7 +18634,7 @@
     "plain": "不等式 |x - (2)| < 3 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-4",
@@ -18647,7 +18647,7 @@
     "plain": "不等式 |x - (3)| < 6 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-5",
@@ -18660,7 +18660,7 @@
     "plain": "不等式 |x - (6)| < 8 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-6",
@@ -18673,7 +18673,7 @@
     "plain": "不等式 |x - (-6)| < 2 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-7",
@@ -18686,7 +18686,7 @@
     "plain": "不等式 |x - (6)| < 2 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g238-8",
@@ -18699,7 +18699,7 @@
     "plain": "不等式 |x - (-3)| < 2 を満たす整数 x は何個あるか。",
     "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
     "unit": "h_abs",
-    "rate": 4.1
+    "rate": 4.2
   },
   {
     "id": "g239-1",
@@ -18712,7 +18712,7 @@
     "plain": "(2x + 2)⁷ を展開したとき、x¹ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-2",
@@ -18725,7 +18725,7 @@
     "plain": "(2x + 1)⁷ を展開したとき、x⁵ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-3",
@@ -18738,7 +18738,7 @@
     "plain": "(2x + 2)⁵ を展開したとき、x⁴ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-4",
@@ -18751,7 +18751,7 @@
     "plain": "(x + 3)⁶ を展開したとき、x¹ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-5",
@@ -18764,7 +18764,7 @@
     "plain": "(2x + 1)⁵ を展開したとき、x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-6",
@@ -18777,7 +18777,7 @@
     "plain": "(x + 1)⁶ を展開したとき、x² の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-7",
@@ -18790,7 +18790,7 @@
     "plain": "(x + 2)⁵ を展開したとき、x³ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g239-8",
@@ -18803,7 +18803,7 @@
     "plain": "(x + 1)⁶ を展開したとき、x⁴ の係数を答えよ。",
     "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
     "unit": "h_binom",
-    "rate": 4.5
+    "rate": 4.3
   },
   {
     "id": "g240-1",
@@ -19662,6 +19662,3335 @@
     ],
     "hint": "対偶は、「$p$ ならば $q$」を「$q$ でないならば $p$ でない」にしたものです。",
     "unit": "h_logic",
+    "rate": 5.0
+  },
+  {
+    "id": "g301-1",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{50}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$50 = 25 \\times 2$ より $\\sqrt{50} = 5\\sqrt{2}$。",
+    "plain": "√50 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-2",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{405}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 9,
+    "explanation": "$405 = 81 \\times 5$ より $\\sqrt{405} = 9\\sqrt{5}$。",
+    "plain": "√405 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-3",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{72}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "$72 = 36 \\times 2$ より $\\sqrt{72} = 6\\sqrt{2}$。",
+    "plain": "√72 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-4",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{245}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 7,
+    "explanation": "$245 = 49 \\times 5$ より $\\sqrt{245} = 7\\sqrt{5}$。",
+    "plain": "√245 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-5",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{20}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$20 = 4 \\times 5$ より $\\sqrt{20} = 2\\sqrt{5}$。",
+    "plain": "√20 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-6",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{243}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 9,
+    "explanation": "$243 = 81 \\times 3$ より $\\sqrt{243} = 9\\sqrt{3}$。",
+    "plain": "√243 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-7",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{80}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$80 = 16 \\times 5$ より $\\sqrt{80} = 4\\sqrt{5}$。",
+    "plain": "√80 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g301-8",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{32}$ を $a\\sqrt{b}$（$b$ はできるだけ小さい自然数）の形に表すとき、$a$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$32 = 16 \\times 2$ より $\\sqrt{32} = 4\\sqrt{2}$。",
+    "plain": "√32 を a√b（b はできるだけ小さい自然数）の形に表すとき、a の値を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g302-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{35} + \\sqrt{11})(\\sqrt{35} - \\sqrt{11})$ を計算せよ。",
+    "answer": 24,
+    "explanation": "和と差の積なので $(\\sqrt{35})^2 - (\\sqrt{11})^2 = 35 - 11 = 24$。",
+    "plain": "(√35 + √11)(√35 - √11) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{7} + \\sqrt{24})(\\sqrt{7} - \\sqrt{24})$ を計算せよ。",
+    "answer": -17,
+    "explanation": "和と差の積なので $(\\sqrt{7})^2 - (\\sqrt{24})^2 = 7 - 24 = -17$。",
+    "plain": "(√7 + √24)(√7 - √24) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{15} + \\sqrt{7})(\\sqrt{15} - \\sqrt{7})$ を計算せよ。",
+    "answer": 8,
+    "explanation": "和と差の積なので $(\\sqrt{15})^2 - (\\sqrt{7})^2 = 15 - 7 = 8$。",
+    "plain": "(√15 + √7)(√15 - √7) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{14} + \\sqrt{11})(\\sqrt{14} - \\sqrt{11})$ を計算せよ。",
+    "answer": 3,
+    "explanation": "和と差の積なので $(\\sqrt{14})^2 - (\\sqrt{11})^2 = 14 - 11 = 3$。",
+    "plain": "(√14 + √11)(√14 - √11) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{38} + \\sqrt{27})(\\sqrt{38} - \\sqrt{27})$ を計算せよ。",
+    "answer": 11,
+    "explanation": "和と差の積なので $(\\sqrt{38})^2 - (\\sqrt{27})^2 = 38 - 27 = 11$。",
+    "plain": "(√38 + √27)(√38 - √27) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{37} + \\sqrt{14})(\\sqrt{37} - \\sqrt{14})$ を計算せよ。",
+    "answer": 23,
+    "explanation": "和と差の積なので $(\\sqrt{37})^2 - (\\sqrt{14})^2 = 37 - 14 = 23$。",
+    "plain": "(√37 + √14)(√37 - √14) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{30} + \\sqrt{26})(\\sqrt{30} - \\sqrt{26})$ を計算せよ。",
+    "answer": 4,
+    "explanation": "和と差の積なので $(\\sqrt{30})^2 - (\\sqrt{26})^2 = 30 - 26 = 4$。",
+    "plain": "(√30 + √26)(√30 - √26) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g302-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$(\\sqrt{7} + \\sqrt{16})(\\sqrt{7} - \\sqrt{16})$ を計算せよ。",
+    "answer": -9,
+    "explanation": "和と差の積なので $(\\sqrt{7})^2 - (\\sqrt{16})^2 = 7 - 16 = -9$。",
+    "plain": "(√7 + √16)(√7 - √16) を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g303-1",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{3} \\times \\sqrt{108}$ を計算せよ。",
+    "answer": 18,
+    "explanation": "$\\sqrt{3 \\times 108} = \\sqrt{324} = 18$。",
+    "plain": "√3 × √108 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-2",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{7} \\times \\sqrt{343}$ を計算せよ。",
+    "answer": 49,
+    "explanation": "$\\sqrt{7 \\times 343} = \\sqrt{2401} = 49$。",
+    "plain": "√7 × √343 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-3",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{2} \\times \\sqrt{8}$ を計算せよ。",
+    "answer": 4,
+    "explanation": "$\\sqrt{2 \\times 8} = \\sqrt{16} = 4$。",
+    "plain": "√2 × √8 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-4",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{3} \\times \\sqrt{147}$ を計算せよ。",
+    "answer": 21,
+    "explanation": "$\\sqrt{3 \\times 147} = \\sqrt{441} = 21$。",
+    "plain": "√3 × √147 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-5",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{5} \\times \\sqrt{245}$ を計算せよ。",
+    "answer": 35,
+    "explanation": "$\\sqrt{5 \\times 245} = \\sqrt{1225} = 35$。",
+    "plain": "√5 × √245 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-6",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{3} \\times \\sqrt{27}$ を計算せよ。",
+    "answer": 9,
+    "explanation": "$\\sqrt{3 \\times 27} = \\sqrt{81} = 9$。",
+    "plain": "√3 × √27 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-7",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{6} \\times \\sqrt{54}$ を計算せよ。",
+    "answer": 18,
+    "explanation": "$\\sqrt{6 \\times 54} = \\sqrt{324} = 18$。",
+    "plain": "√6 × √54 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g303-8",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{2} \\times \\sqrt{128}$ を計算せよ。",
+    "answer": 16,
+    "explanation": "$\\sqrt{2 \\times 128} = \\sqrt{256} = 16$。",
+    "plain": "√2 × √128 を計算せよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-1",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{134}$ の整数部分を答えよ。",
+    "answer": 11,
+    "explanation": "$11^2 = 121$、$12^2 = 144$ なので $11 < \\sqrt{134} < 12$。整数部分は $11$。",
+    "plain": "√134 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-2",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{99}$ の整数部分を答えよ。",
+    "answer": 9,
+    "explanation": "$9^2 = 81$、$10^2 = 100$ なので $9 < \\sqrt{99} < 10$。整数部分は $9$。",
+    "plain": "√99 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-3",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{60}$ の整数部分を答えよ。",
+    "answer": 7,
+    "explanation": "$7^2 = 49$、$8^2 = 64$ なので $7 < \\sqrt{60} < 8$。整数部分は $7$。",
+    "plain": "√60 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-4",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{22}$ の整数部分を答えよ。",
+    "answer": 4,
+    "explanation": "$4^2 = 16$、$5^2 = 25$ なので $4 < \\sqrt{22} < 5$。整数部分は $4$。",
+    "plain": "√22 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-5",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{122}$ の整数部分を答えよ。",
+    "answer": 11,
+    "explanation": "$11^2 = 121$、$12^2 = 144$ なので $11 < \\sqrt{122} < 12$。整数部分は $11$。",
+    "plain": "√122 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-6",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{142}$ の整数部分を答えよ。",
+    "answer": 11,
+    "explanation": "$11^2 = 121$、$12^2 = 144$ なので $11 < \\sqrt{142} < 12$。整数部分は $11$。",
+    "plain": "√142 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-7",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{82}$ の整数部分を答えよ。",
+    "answer": 9,
+    "explanation": "$9^2 = 81$、$10^2 = 100$ なので $9 < \\sqrt{82} < 10$。整数部分は $9$。",
+    "plain": "√82 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g304-8",
+    "category": "junior",
+    "difficulty": 1,
+    "title": "平方根",
+    "body": "$\\sqrt{71}$ の整数部分を答えよ。",
+    "answer": 8,
+    "explanation": "$8^2 = 64$、$9^2 = 81$ なので $8 < \\sqrt{71} < 9$。整数部分は $8$。",
+    "plain": "√71 の整数部分を答えよ。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.8
+  },
+  {
+    "id": "g305-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 135$ の範囲に何個あるか。",
+    "answer": 11,
+    "explanation": "$n$ が平方数のとき。$11^2 \\le 135$ となる最大の $11$ までなので $11$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 135 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 157$ の範囲に何個あるか。",
+    "answer": 12,
+    "explanation": "$n$ が平方数のとき。$12^2 \\le 157$ となる最大の $12$ までなので $12$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 157 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 80$ の範囲に何個あるか。",
+    "answer": 8,
+    "explanation": "$n$ が平方数のとき。$8^2 \\le 80$ となる最大の $8$ までなので $8$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 80 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 145$ の範囲に何個あるか。",
+    "answer": 12,
+    "explanation": "$n$ が平方数のとき。$12^2 \\le 145$ となる最大の $12$ までなので $12$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 145 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 36$ の範囲に何個あるか。",
+    "answer": 6,
+    "explanation": "$n$ が平方数のとき。$6^2 \\le 36$ となる最大の $6$ までなので $6$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 36 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 77$ の範囲に何個あるか。",
+    "answer": 8,
+    "explanation": "$n$ が平方数のとき。$8^2 \\le 77$ となる最大の $8$ までなので $8$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 77 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 38$ の範囲に何個あるか。",
+    "answer": 6,
+    "explanation": "$n$ が平方数のとき。$6^2 \\le 38$ となる最大の $6$ までなので $6$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 38 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g305-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "$\\sqrt{n}$ が整数となる自然数 $n$ は、$1 \\le n \\le 153$ の範囲に何個あるか。",
+    "answer": 12,
+    "explanation": "$n$ が平方数のとき。$12^2 \\le 153$ となる最大の $12$ までなので $12$ 個。",
+    "plain": "√n が整数となる自然数 n は、1 ≦ n ≦ 153 の範囲に何個あるか。",
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g311-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$7$ 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "answer": 1440,
+    "explanation": "A、B をひとまとめにして $6$ 人の並び方 $6!$ に、A、B の順番 $2$ 通りをかける。$2 \\times 6! = 1440$。",
+    "plain": "7 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g311-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$8$ 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "answer": 10080,
+    "explanation": "A、B をひとまとめにして $7$ 人の並び方 $7!$ に、A、B の順番 $2$ 通りをかける。$2 \\times 7! = 10080$。",
+    "plain": "8 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g311-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$5$ 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "answer": 48,
+    "explanation": "A、B をひとまとめにして $4$ 人の並び方 $4!$ に、A、B の順番 $2$ 通りをかける。$2 \\times 4! = 48$。",
+    "plain": "5 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g311-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$4$ 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "answer": 12,
+    "explanation": "A、B をひとまとめにして $3$ 人の並び方 $3!$ に、A、B の順番 $2$ 通りをかける。$2 \\times 3! = 12$。",
+    "plain": "4 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g311-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$6$ 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "answer": 240,
+    "explanation": "A、B をひとまとめにして $5$ 人の並び方 $5!$ に、A、B の順番 $2$ 通りをかける。$2 \\times 5! = 240$。",
+    "plain": "6 人が1列に並ぶとき、特定の2人 A、B が隣り合う並び方は何通りあるか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g312-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$5$ 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "answer": 24,
+    "explanation": "円順列は $(n - 1)!$ なので $4! = 24$。",
+    "plain": "5 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g312-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$6$ 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "answer": 120,
+    "explanation": "円順列は $(n - 1)!$ なので $5! = 120$。",
+    "plain": "6 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g312-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$8$ 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "answer": 5040,
+    "explanation": "円順列は $(n - 1)!$ なので $7! = 5040$。",
+    "plain": "8 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g312-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$4$ 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "answer": 6,
+    "explanation": "円順列は $(n - 1)!$ なので $3! = 6$。",
+    "plain": "4 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g312-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "順列",
+    "body": "$7$ 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "answer": 720,
+    "explanation": "円順列は $(n - 1)!$ なので $6! = 720$。",
+    "plain": "7 人が円形のテーブルにすわる。すわり方は何通りか（回転して同じになるものは同じとみなす）。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g313-1",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$5$ 種類の文字から、同じ文字を何度使ってもよいとして、$3$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 125,
+    "explanation": "1つの位置に $5$ 通りずつなので $5^{3} = 125$。",
+    "plain": "5 種類の文字から、同じ文字を何度使ってもよいとして、3 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-2",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$2$ 種類の文字から、同じ文字を何度使ってもよいとして、$3$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 8,
+    "explanation": "1つの位置に $2$ 通りずつなので $2^{3} = 8$。",
+    "plain": "2 種類の文字から、同じ文字を何度使ってもよいとして、3 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-3",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$4$ 種類の文字から、同じ文字を何度使ってもよいとして、$3$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 64,
+    "explanation": "1つの位置に $4$ 通りずつなので $4^{3} = 64$。",
+    "plain": "4 種類の文字から、同じ文字を何度使ってもよいとして、3 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-4",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$4$ 種類の文字から、同じ文字を何度使ってもよいとして、$4$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 256,
+    "explanation": "1つの位置に $4$ 通りずつなので $4^{4} = 256$。",
+    "plain": "4 種類の文字から、同じ文字を何度使ってもよいとして、4 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-5",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$3$ 種類の文字から、同じ文字を何度使ってもよいとして、$3$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 27,
+    "explanation": "1つの位置に $3$ 通りずつなので $3^{3} = 27$。",
+    "plain": "3 種類の文字から、同じ文字を何度使ってもよいとして、3 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-6",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$2$ 種類の文字から、同じ文字を何度使ってもよいとして、$4$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 16,
+    "explanation": "1つの位置に $2$ 通りずつなので $2^{4} = 16$。",
+    "plain": "2 種類の文字から、同じ文字を何度使ってもよいとして、4 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-7",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$3$ 種類の文字から、同じ文字を何度使ってもよいとして、$2$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 9,
+    "explanation": "1つの位置に $3$ 通りずつなので $3^{2} = 9$。",
+    "plain": "3 種類の文字から、同じ文字を何度使ってもよいとして、2 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g313-8",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "順列",
+    "body": "$3$ 種類の文字から、同じ文字を何度使ってもよいとして、$4$ 個を1列に並べる。並べ方は何通りか。",
+    "answer": 81,
+    "explanation": "1つの位置に $3$ 通りずつなので $3^{4} = 81$。",
+    "plain": "3 種類の文字から、同じ文字を何度使ってもよいとして、4 個を1列に並べる。並べ方は何通りか。",
+    "hint": "$n! = n \\times (n - 1) \\times \\cdots \\times 1$ です。",
+    "unit": "h_count",
+    "rate": 5.4
+  },
+  {
+    "id": "g314-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$9$ 人の中から $3$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 28,
+    "explanation": "A 以外の $8$ 人から残りの $2$ 人を選ぶので ${}_{8}\\mathrm{C}_{2} = 28$。",
+    "plain": "9 人の中から 3 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$10$ 人の中から $4$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 84,
+    "explanation": "A 以外の $9$ 人から残りの $3$ 人を選ぶので ${}_{9}\\mathrm{C}_{3} = 84$。",
+    "plain": "10 人の中から 4 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$8$ 人の中から $4$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 35,
+    "explanation": "A 以外の $7$ 人から残りの $3$ 人を選ぶので ${}_{7}\\mathrm{C}_{3} = 35$。",
+    "plain": "8 人の中から 4 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$10$ 人の中から $2$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 9,
+    "explanation": "A 以外の $9$ 人から残りの $1$ 人を選ぶので ${}_{9}\\mathrm{C}_{1} = 9$。",
+    "plain": "10 人の中から 2 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$6$ 人の中から $2$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 5,
+    "explanation": "A 以外の $5$ 人から残りの $1$ 人を選ぶので ${}_{5}\\mathrm{C}_{1} = 5$。",
+    "plain": "6 人の中から 2 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-6",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$8$ 人の中から $2$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 7,
+    "explanation": "A 以外の $7$ 人から残りの $1$ 人を選ぶので ${}_{7}\\mathrm{C}_{1} = 7$。",
+    "plain": "8 人の中から 2 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-7",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$10$ 人の中から $3$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 36,
+    "explanation": "A 以外の $9$ 人から残りの $2$ 人を選ぶので ${}_{9}\\mathrm{C}_{2} = 36$。",
+    "plain": "10 人の中から 3 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g314-8",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組合せ",
+    "body": "$6$ 人の中から $4$ 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "answer": 10,
+    "explanation": "A 以外の $5$ 人から残りの $3$ 人を選ぶので ${}_{5}\\mathrm{C}_{3} = 10$。",
+    "plain": "6 人の中から 4 人の委員を選ぶとき、特定の1人 A が必ず入る選び方は何通りか。",
+    "hint": "${}_n\\mathrm{C}_r$ は、分子が $n$ から $r$ 個の積、分母が $r!$ です。",
+    "unit": "h_count",
+    "rate": 4.6
+  },
+  {
+    "id": "g315-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $5$ 区画、横 $2$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 21,
+    "explanation": "右へ $2$ 回、上へ $5$ 回の並べ方なので ${}_{7}\\mathrm{C}_{2} = 21$。",
+    "plain": "縦 5 区画、横 2 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $3$ 区画、横 $2$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 10,
+    "explanation": "右へ $2$ 回、上へ $3$ 回の並べ方なので ${}_{5}\\mathrm{C}_{2} = 10$。",
+    "plain": "縦 3 区画、横 2 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $3$ 区画、横 $6$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 84,
+    "explanation": "右へ $6$ 回、上へ $3$ 回の並べ方なので ${}_{9}\\mathrm{C}_{6} = 84$。",
+    "plain": "縦 3 区画、横 6 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $2$ 区画、横 $2$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 6,
+    "explanation": "右へ $2$ 回、上へ $2$ 回の並べ方なので ${}_{4}\\mathrm{C}_{2} = 6$。",
+    "plain": "縦 2 区画、横 2 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $5$ 区画、横 $6$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 462,
+    "explanation": "右へ $6$ 回、上へ $5$ 回の並べ方なので ${}_{11}\\mathrm{C}_{6} = 462$。",
+    "plain": "縦 5 区画、横 6 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-6",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $5$ 区画、横 $5$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 252,
+    "explanation": "右へ $5$ 回、上へ $5$ 回の並べ方なので ${}_{10}\\mathrm{C}_{5} = 252$。",
+    "plain": "縦 5 区画、横 5 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-7",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $4$ 区画、横 $6$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 210,
+    "explanation": "右へ $6$ 回、上へ $4$ 回の並べ方なので ${}_{10}\\mathrm{C}_{6} = 210$。",
+    "plain": "縦 4 区画、横 6 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g315-8",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "最短経路",
+    "body": "縦 $5$ 区画、横 $3$ 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "answer": 56,
+    "explanation": "右へ $3$ 回、上へ $5$ 回の並べ方なので ${}_{8}\\mathrm{C}_{3} = 56$。",
+    "plain": "縦 5 区画、横 3 区画の格子状の道を、左下から右上まで最短で行く道順は何通りか。",
+    "hint": "右へ進む回数と上へ進む回数の並べ方を数えます（組合せ）。",
+    "unit": "h_count",
+    "rate": 5.0
+  },
+  {
+    "id": "g316-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組分け",
+    "body": "$8$ 人を、$4$ 人ずつ $2$ つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "answer": 35,
+    "explanation": "${}_{8}\\mathrm{C}_{4}$ 通りの選び方は、2組を入れかえて二重に数えているので $2$ でわる。$35$ 通り。",
+    "plain": "8 人を、4 人ずつ 2 つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "hint": "順番を区別して数えてから、同じ分け方の重なりでわります。",
+    "unit": "h_count",
+    "rate": 3.7
+  },
+  {
+    "id": "g316-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組分け",
+    "body": "$6$ 人を、$3$ 人ずつ $2$ つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "answer": 10,
+    "explanation": "${}_{6}\\mathrm{C}_{3}$ 通りの選び方は、2組を入れかえて二重に数えているので $2$ でわる。$10$ 通り。",
+    "plain": "6 人を、3 人ずつ 2 つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "hint": "順番を区別して数えてから、同じ分け方の重なりでわります。",
+    "unit": "h_count",
+    "rate": 3.7
+  },
+  {
+    "id": "g316-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "組分け",
+    "body": "$4$ 人を、$2$ 人ずつ $2$ つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "answer": 3,
+    "explanation": "${}_{4}\\mathrm{C}_{2}$ 通りの選び方は、2組を入れかえて二重に数えているので $2$ でわる。$3$ 通り。",
+    "plain": "4 人を、2 人ずつ 2 つの組に分ける（組に区別はない）。分け方は何通りか。",
+    "hint": "順番を区別して数えてから、同じ分け方の重なりでわります。",
+    "unit": "h_count",
+    "rate": 3.7
+  },
+  {
+    "id": "g323-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$10$ 本のうち $1$ 本が当たりで、当たると $200$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 20,
+    "explanation": "期待値 $= 200 \\times \\dfrac{1}{10} = 20$ 円。",
+    "plain": "10 本のうち 1 本が当たりで、当たると 200 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$100$ 本のうち $1$ 本が当たりで、当たると $500$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 5,
+    "explanation": "期待値 $= 500 \\times \\dfrac{1}{100} = 5$ 円。",
+    "plain": "100 本のうち 1 本が当たりで、当たると 500 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$20$ 本のうち $1$ 本が当たりで、当たると $1000$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 50,
+    "explanation": "期待値 $= 1000 \\times \\dfrac{1}{20} = 50$ 円。",
+    "plain": "20 本のうち 1 本が当たりで、当たると 1000 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$100$ 本のうち $1$ 本が当たりで、当たると $1000$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 10,
+    "explanation": "期待値 $= 1000 \\times \\dfrac{1}{100} = 10$ 円。",
+    "plain": "100 本のうち 1 本が当たりで、当たると 1000 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$100$ 本のうち $2$ 本が当たりで、当たると $300$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 6,
+    "explanation": "期待値 $= 300 \\times \\dfrac{2}{100} = 6$ 円。",
+    "plain": "100 本のうち 2 本が当たりで、当たると 300 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-6",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$10$ 本のうち $2$ 本が当たりで、当たると $300$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 60,
+    "explanation": "期待値 $= 300 \\times \\dfrac{2}{10} = 60$ 円。",
+    "plain": "10 本のうち 2 本が当たりで、当たると 300 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-7",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$20$ 本のうち $1$ 本が当たりで、当たると $500$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 25,
+    "explanation": "期待値 $= 500 \\times \\dfrac{1}{20} = 25$ 円。",
+    "plain": "20 本のうち 1 本が当たりで、当たると 500 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g323-8",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "期待値",
+    "body": "$10$ 本のうち $1$ 本が当たりで、当たると $500$ 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "answer": 50,
+    "explanation": "期待値 $= 500 \\times \\dfrac{1}{10} = 50$ 円。",
+    "plain": "10 本のうち 1 本が当たりで、当たると 500 円もらえるくじがある。1本引いたときにもらえる金額の期待値は何円か。",
+    "hint": "（もらえる金額 × その確率）を全部足します。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g331-1",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{2} 16$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$2^{4} = 16$ なので $\\log_{2} 16 = 4$。",
+    "plain": "log₂ 16 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-2",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{3} 9$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$3^{2} = 9$ なので $\\log_{3} 9 = 2$。",
+    "plain": "log₃ 9 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-3",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{2} 8$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$2^{3} = 8$ なので $\\log_{2} 8 = 3$。",
+    "plain": "log₂ 8 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-4",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{3} 81$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$3^{4} = 81$ なので $\\log_{3} 81 = 4$。",
+    "plain": "log₃ 81 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-5",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{3} 27$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$3^{3} = 27$ なので $\\log_{3} 27 = 3$。",
+    "plain": "log₃ 27 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-6",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{2} 4$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$2^{2} = 4$ なので $\\log_{2} 4 = 2$。",
+    "plain": "log₂ 4 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-7",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{5} 25$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$5^{2} = 25$ なので $\\log_{5} 25 = 2$。",
+    "plain": "log₅ 25 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g331-8",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "対数",
+    "body": "$\\log_{3} 243$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$3^{5} = 243$ なので $\\log_{3} 243 = 5$。",
+    "plain": "log₃ 243 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.8
+  },
+  {
+    "id": "g332-1",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{2} 2 + \\log_{2} 8$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$\\log_{2} 2 = 1$、$\\log_{2} 8 = 3$ なので $4$。",
+    "plain": "log₂ 2 + log₂ 8 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-2",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{6} 36 + \\log_{6} 216$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$\\log_{6} 36 = 2$、$\\log_{6} 216 = 3$ なので $5$。",
+    "plain": "log₆ 36 + log₆ 216 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-3",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{3} 27 + \\log_{3} 27$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "$\\log_{3} 27 = 3$、$\\log_{3} 27 = 3$ なので $6$。",
+    "plain": "log₃ 27 + log₃ 27 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-4",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{6} 6 + \\log_{6} 6$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$\\log_{6} 6 = 1$、$\\log_{6} 6 = 1$ なので $2$。",
+    "plain": "log₆ 6 + log₆ 6 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-5",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{10} 10 + \\log_{10} 10$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$\\log_{10} 10 = 1$、$\\log_{10} 10 = 1$ なので $2$。",
+    "plain": "log₁₀ 10 + log₁₀ 10 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-6",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{6} 6 + \\log_{6} 36$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$\\log_{6} 6 = 1$、$\\log_{6} 36 = 2$ なので $3$。",
+    "plain": "log₆ 6 + log₆ 36 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-7",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{6} 36 + \\log_{6} 6$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$\\log_{6} 36 = 2$、$\\log_{6} 6 = 1$ なので $3$。",
+    "plain": "log₆ 36 + log₆ 6 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g332-8",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "対数",
+    "body": "$\\log_{3} 3 + \\log_{3} 3$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$\\log_{3} 3 = 1$、$\\log_{3} 3 = 1$ なので $2$。",
+    "plain": "log₃ 3 + log₃ 3 の値を答えよ。",
+    "hint": "$\\log_a a^m = m$ です。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-1",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $3^{x + 1} = 729$ を解け。$x$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$729 = 3^{6}$ なので $x + 1 = 6$ より $x = 5$。",
+    "plain": "方程式 3^x + 1 = 729 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-2",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $3^{x + 2} = 243$ を解け。$x$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$243 = 3^{5}$ なので $x + 2 = 5$ より $x = 3$。",
+    "plain": "方程式 3^x + 2 = 243 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-3",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $2^{x + 3} = 64$ を解け。$x$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$64 = 2^{6}$ なので $x + 3 = 6$ より $x = 3$。",
+    "plain": "方程式 2^x + 3 = 64 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-4",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $2^{x + 2} = 32$ を解け。$x$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$32 = 2^{5}$ なので $x + 2 = 5$ より $x = 3$。",
+    "plain": "方程式 2^x + 2 = 32 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-5",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $2^{x + 1} = 8$ を解け。$x$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "$8 = 2^{3}$ なので $x + 1 = 3$ より $x = 2$。",
+    "plain": "方程式 2^x + 1 = 8 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-6",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $3^{x + 3} = 729$ を解け。$x$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$729 = 3^{6}$ なので $x + 3 = 6$ より $x = 3$。",
+    "plain": "方程式 3^x + 3 = 729 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-7",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $5^{x + 3} = 78125$ を解け。$x$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$78125 = 5^{7}$ なので $x + 3 = 7$ より $x = 4$。",
+    "plain": "方程式 5^x + 3 = 78125 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g333-8",
+    "category": "math2b",
+    "difficulty": 2,
+    "title": "指数方程式",
+    "body": "方程式 $2^{x + 1} = 16$ を解け。$x$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "$16 = 2^{4}$ なので $x + 1 = 4$ より $x = 3$。",
+    "plain": "方程式 2^x + 1 = 16 を解け。x の値を答えよ。",
+    "hint": "両辺を、同じ底の累乗にそろえます。",
+    "unit": "h_exp",
+    "rate": 4.0
+  },
+  {
+    "id": "g334-1",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$5^{3} \\times 5^{5} \\div 5^{4}$ を計算せよ。",
+    "answer": 625,
+    "explanation": "指数の和と差で $5^{3 + 5 - 4} = 5^{4} = 625$。",
+    "plain": "5³ × 5⁵ ÷ 5⁴ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-2",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$2^{5} \\times 2^{3} \\div 2^{3}$ を計算せよ。",
+    "answer": 32,
+    "explanation": "指数の和と差で $2^{5 + 3 - 3} = 2^{5} = 32$。",
+    "plain": "2⁵ × 2³ ÷ 2³ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-3",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$5^{5} \\times 5^{6} \\div 5^{1}$ を計算せよ。",
+    "answer": 9765625,
+    "explanation": "指数の和と差で $5^{5 + 6 - 1} = 5^{10} = 9765625$。",
+    "plain": "5⁵ × 5⁶ ÷ 5¹ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-4",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$3^{3} \\times 3^{2} \\div 3^{2}$ を計算せよ。",
+    "answer": 27,
+    "explanation": "指数の和と差で $3^{3 + 2 - 2} = 3^{3} = 27$。",
+    "plain": "3³ × 3² ÷ 3² を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-5",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$3^{5} \\times 3^{4} \\div 3^{4}$ を計算せよ。",
+    "answer": 243,
+    "explanation": "指数の和と差で $3^{5 + 4 - 4} = 3^{5} = 243$。",
+    "plain": "3⁵ × 3⁴ ÷ 3⁴ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-6",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$2^{5} \\times 2^{6} \\div 2^{1}$ を計算せよ。",
+    "answer": 1024,
+    "explanation": "指数の和と差で $2^{5 + 6 - 1} = 2^{10} = 1024$。",
+    "plain": "2⁵ × 2⁶ ÷ 2¹ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-7",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$5^{6} \\times 5^{2} \\div 5^{4}$ を計算せよ。",
+    "answer": 625,
+    "explanation": "指数の和と差で $5^{6 + 2 - 4} = 5^{4} = 625$。",
+    "plain": "5⁶ × 5² ÷ 5⁴ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g334-8",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "指数の計算",
+    "body": "$2^{5} \\times 2^{2} \\div 2^{1}$ を計算せよ。",
+    "answer": 64,
+    "explanation": "指数の和と差で $2^{5 + 2 - 1} = 2^{6} = 64$。",
+    "plain": "2⁵ × 2² ÷ 2¹ を計算せよ。",
+    "hint": "同じ底なら、かけ算は指数の足し算、わり算は指数の引き算です。",
+    "unit": "h_exp",
+    "rate": 6.5
+  },
+  {
+    "id": "g341-1",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\log 2} 1e^{x}\\,dx$ の値を答えよ。",
+    "answer": 1,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^log 2 1e^x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-2",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\pi} 4\\sin x\\,dx$ の値を答えよ。",
+    "answer": 8,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^π 4sin x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-3",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\dfrac{\\pi}{2}} 4\\cos x\\,dx$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^(π)/2 4cos x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-4",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\dfrac{\\pi}{2}} 6\\cos x\\,dx$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^(π)/2 6cos x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-5",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\log 2} 3e^{x}\\,dx$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^log 2 3e^x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-6",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\dfrac{\\pi}{2}} 3\\cos x\\,dx$ の値を答えよ。",
+    "answer": 3,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^(π)/2 3cos x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-7",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\dfrac{\\pi}{2}} 6\\sin 2x\\,dx$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^(π)/2 6sin 2x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g341-8",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "三角関数・指数関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^{\\pi} 1\\sin x\\,dx$ の値を答えよ。",
+    "answer": 2,
+    "explanation": "不定積分を求めて、上端と下端の値の差をとる。",
+    "plain": "定積分 ∫₀^π 1sin x dx の値を答えよ。",
+    "hint": "不定積分を求めて、上端と下端の値の差をとります。$\\int \\sin x\\,dx = -\\cos x$、$\\int e^x\\,dx = e^x$。",
+    "unit": "h_integ3",
+    "rate": 4.0
+  },
+  {
+    "id": "g342-1",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "合成関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^1 (3x + 1)^{2}\\,dx$ の値を答えよ。",
+    "answer": 7,
+    "explanation": "$\\dfrac{1}{3(2 + 1)}\\left[(3x + 1)^{3}\\right]_0^1$ を計算する。",
+    "plain": "定積分 ∫₀¹ (3x + 1)² dx の値を答えよ。",
+    "hint": "$ax + 1 = t$ と置き換えると、$dx = \\dfrac{dt}{a}$ です。",
+    "unit": "h_integ3",
+    "rate": 3.5
+  },
+  {
+    "id": "g342-2",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "合成関数の積分",
+    "body": "定積分 $\\displaystyle\\int_0^1 (2x + 1)^{3}\\,dx$ の値を答えよ。",
+    "answer": 10,
+    "explanation": "$\\dfrac{1}{2(3 + 1)}\\left[(2x + 1)^{4}\\right]_0^1$ を計算する。",
+    "plain": "定積分 ∫₀¹ (2x + 1)³ dx の値を答えよ。",
+    "hint": "$ax + 1 = t$ と置き換えると、$dx = \\dfrac{dt}{a}$ です。",
+    "unit": "h_integ3",
+    "rate": 3.5
+  },
+  {
+    "id": "g343-1",
+    "category": "math3c",
+    "difficulty": 3,
+    "title": "回転体の体積",
+    "body": "曲線 $y = x$ と $x$ 軸、直線 $x = 3$ で囲まれた部分を $x$ 軸のまわりに1回転してできる立体の体積は $k\\pi$ である。$k$ の値を答えよ。",
+    "answer": 9,
+    "explanation": "$\\pi\\int_0^{3} x^2\\,dx = \\pi \\cdot \\dfrac{3^3}{3} = 9\\pi$。",
+    "plain": "曲線 y = x と x 軸、直線 x = 3 で囲まれた部分を x 軸のまわりに1回転してできる立体の体積は kπ である。k の値を答えよ。",
+    "hint": "$V = \\pi\\displaystyle\\int y^2\\,dx$ を使います。",
+    "unit": "h_integ3",
+    "rate": 3.0
+  },
+  {
+    "id": "g343-2",
+    "category": "math3c",
+    "difficulty": 3,
+    "title": "回転体の体積",
+    "body": "曲線 $y = x$ と $x$ 軸、直線 $x = 6$ で囲まれた部分を $x$ 軸のまわりに1回転してできる立体の体積は $k\\pi$ である。$k$ の値を答えよ。",
+    "answer": 72,
+    "explanation": "$\\pi\\int_0^{6} x^2\\,dx = \\pi \\cdot \\dfrac{6^3}{3} = 72\\pi$。",
+    "plain": "曲線 y = x と x 軸、直線 x = 6 で囲まれた部分を x 軸のまわりに1回転してできる立体の体積は kπ である。k の値を答えよ。",
+    "hint": "$V = \\pi\\displaystyle\\int y^2\\,dx$ を使います。",
+    "unit": "h_integ3",
+    "rate": 3.0
+  },
+  {
+    "id": "g343-3",
+    "category": "math3c",
+    "difficulty": 3,
+    "title": "回転体の体積",
+    "body": "曲線 $y = x$ と $x$ 軸、直線 $x = 12$ で囲まれた部分を $x$ 軸のまわりに1回転してできる立体の体積は $k\\pi$ である。$k$ の値を答えよ。",
+    "answer": 576,
+    "explanation": "$\\pi\\int_0^{12} x^2\\,dx = \\pi \\cdot \\dfrac{12^3}{3} = 576\\pi$。",
+    "plain": "曲線 y = x と x 軸、直線 x = 12 で囲まれた部分を x 軸のまわりに1回転してできる立体の体積は kπ である。k の値を答えよ。",
+    "hint": "$V = \\pi\\displaystyle\\int y^2\\,dx$ を使います。",
+    "unit": "h_integ3",
+    "rate": 3.0
+  },
+  {
+    "id": "g343-4",
+    "category": "math3c",
+    "difficulty": 3,
+    "title": "回転体の体積",
+    "body": "曲線 $y = x$ と $x$ 軸、直線 $x = 9$ で囲まれた部分を $x$ 軸のまわりに1回転してできる立体の体積は $k\\pi$ である。$k$ の値を答えよ。",
+    "answer": 243,
+    "explanation": "$\\pi\\int_0^{9} x^2\\,dx = \\pi \\cdot \\dfrac{9^3}{3} = 243\\pi$。",
+    "plain": "曲線 y = x と x 軸、直線 x = 9 で囲まれた部分を x 軸のまわりに1回転してできる立体の体積は kπ である。k の値を答えよ。",
+    "hint": "$V = \\pi\\displaystyle\\int y^2\\,dx$ を使います。",
+    "unit": "h_integ3",
+    "rate": 3.0
+  },
+  {
+    "id": "g351-1",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 4x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 1,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 4$ より $p = 1$。",
+    "plain": "放物線 y² = 4x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-2",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 28x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 7,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 28$ より $p = 7$。",
+    "plain": "放物線 y² = 28x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-3",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 32x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 8,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 32$ より $p = 8$。",
+    "plain": "放物線 y² = 32x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-4",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 12x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 3,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 12$ より $p = 3$。",
+    "plain": "放物線 y² = 12x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-5",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 36x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 9,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 36$ より $p = 9$。",
+    "plain": "放物線 y² = 36x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-6",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 20x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 5,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 20$ より $p = 5$。",
+    "plain": "放物線 y² = 20x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-7",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 24x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 6,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 24$ より $p = 6$。",
+    "plain": "放物線 y² = 24x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g351-8",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "放物線の焦点",
+    "body": "放物線 $y^2 = 16x$ の焦点の $x$ 座標を答えよ。",
+    "answer": 4,
+    "explanation": "$y^2 = 4px$ の焦点は $(p,\\ 0)$。$4p = 16$ より $p = 4$。",
+    "plain": "放物線 y² = 16x の焦点の x 座標を答えよ。",
+    "hint": "$y^2 = 4px$ の焦点は $(p,\\ 0)$ です。",
+    "unit": "h_conic",
+    "rate": 5.0
+  },
+  {
+    "id": "g352-1",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{64} - \\dfrac{y^2}{225} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 17,
+    "explanation": "$c = \\sqrt{64 + 225} = 17$。",
+    "plain": "双曲線 (x²)/64 - (y²)/225 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-2",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{144} - \\dfrac{y^2}{25} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 13,
+    "explanation": "$c = \\sqrt{144 + 25} = 13$。",
+    "plain": "双曲線 (x²)/144 - (y²)/25 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-3",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 5,
+    "explanation": "$c = \\sqrt{9 + 16} = 5$。",
+    "plain": "双曲線 (x²)/9 - (y²)/16 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-4",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{36} - \\dfrac{y^2}{64} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 10,
+    "explanation": "$c = \\sqrt{36 + 64} = 10$。",
+    "plain": "双曲線 (x²)/36 - (y²)/64 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-5",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{25} - \\dfrac{y^2}{144} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 13,
+    "explanation": "$c = \\sqrt{25 + 144} = 13$。",
+    "plain": "双曲線 (x²)/25 - (y²)/144 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-6",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{64} - \\dfrac{y^2}{36} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 10,
+    "explanation": "$c = \\sqrt{64 + 36} = 10$。",
+    "plain": "双曲線 (x²)/64 - (y²)/36 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-7",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{225} - \\dfrac{y^2}{64} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 17,
+    "explanation": "$c = \\sqrt{225 + 64} = 17$。",
+    "plain": "双曲線 (x²)/225 - (y²)/64 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g352-8",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "双曲線の焦点",
+    "body": "双曲線 $\\dfrac{x^2}{16} - \\dfrac{y^2}{9} = 1$ の焦点の $x$ 座標（正のほう）を答えよ。",
+    "answer": 5,
+    "explanation": "$c = \\sqrt{16 + 9} = 5$。",
+    "plain": "双曲線 (x²)/16 - (y²)/9 = 1 の焦点の x 座標（正のほう）を答えよ。",
+    "hint": "双曲線 $\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$ の焦点は $c = \\sqrt{a^2 + b^2}$ です。",
+    "unit": "h_conic",
+    "rate": 3.5
+  },
+  {
+    "id": "g353-1",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{81} + \\dfrac{y^2}{16} = 1$ の長軸の長さを答えよ。",
+    "answer": 18,
+    "explanation": "$a = \\sqrt{81} = 9$ なので、長軸の長さは $2a = 18$。",
+    "plain": "楕円 (x²)/81 + (y²)/16 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-2",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{36} + \\dfrac{y^2}{16} = 1$ の長軸の長さを答えよ。",
+    "answer": 12,
+    "explanation": "$a = \\sqrt{36} = 6$ なので、長軸の長さは $2a = 12$。",
+    "plain": "楕円 (x²)/36 + (y²)/16 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-3",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{16} + \\dfrac{y^2}{4} = 1$ の長軸の長さを答えよ。",
+    "answer": 8,
+    "explanation": "$a = \\sqrt{16} = 4$ なので、長軸の長さは $2a = 8$。",
+    "plain": "楕円 (x²)/16 + (y²)/4 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-4",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{64} + \\dfrac{y^2}{16} = 1$ の長軸の長さを答えよ。",
+    "answer": 16,
+    "explanation": "$a = \\sqrt{64} = 8$ なので、長軸の長さは $2a = 16$。",
+    "plain": "楕円 (x²)/64 + (y²)/16 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-5",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{81} + \\dfrac{y^2}{64} = 1$ の長軸の長さを答えよ。",
+    "answer": 18,
+    "explanation": "$a = \\sqrt{81} = 9$ なので、長軸の長さは $2a = 18$。",
+    "plain": "楕円 (x²)/81 + (y²)/64 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-6",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{64} + \\dfrac{y^2}{49} = 1$ の長軸の長さを答えよ。",
+    "answer": 16,
+    "explanation": "$a = \\sqrt{64} = 8$ なので、長軸の長さは $2a = 16$。",
+    "plain": "楕円 (x²)/64 + (y²)/49 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-7",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{81} + \\dfrac{y^2}{4} = 1$ の長軸の長さを答えよ。",
+    "answer": 18,
+    "explanation": "$a = \\sqrt{81} = 9$ なので、長軸の長さは $2a = 18$。",
+    "plain": "楕円 (x²)/81 + (y²)/4 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g353-8",
+    "category": "math3c",
+    "difficulty": 1,
+    "title": "楕円の長軸",
+    "body": "楕円 $\\dfrac{x^2}{81} + \\dfrac{y^2}{25} = 1$ の長軸の長さを答えよ。",
+    "answer": 18,
+    "explanation": "$a = \\sqrt{81} = 9$ なので、長軸の長さは $2a = 18$。",
+    "plain": "楕円 (x²)/81 + (y²)/25 = 1 の長軸の長さを答えよ。",
+    "hint": "楕円 $\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$（$a > b$）の長軸の長さは $2a$ です。",
+    "unit": "h_conic",
+    "rate": 6.0
+  },
+  {
+    "id": "g361-1",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = 2(x)^2 - 8$ の、最大値または最小値を答えよ。",
+    "answer": -8,
+    "explanation": "頂点の $y$ 座標 $-8$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = 2(x)² - 8 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-2",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = -1(x - 6)^2 - 3$ の、最大値または最小値を答えよ。",
+    "answer": -3,
+    "explanation": "頂点の $y$ 座標 $-3$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = -1(x - 6)² - 3 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-3",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = -2(x + 6)^2 - 3$ の、最大値または最小値を答えよ。",
+    "answer": -3,
+    "explanation": "頂点の $y$ 座標 $-3$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = -2(x + 6)² - 3 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-4",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = -1(x - 3)^2$ の、最大値または最小値を答えよ。",
+    "answer": 0,
+    "explanation": "頂点の $y$ 座標 $0$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = -1(x - 3)² の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-5",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = 1(x - 3)^2 - 5$ の、最大値または最小値を答えよ。",
+    "answer": -5,
+    "explanation": "頂点の $y$ 座標 $-5$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = 1(x - 3)² - 5 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-6",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = -2(x - 5)^2 - 2$ の、最大値または最小値を答えよ。",
+    "answer": -2,
+    "explanation": "頂点の $y$ 座標 $-2$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = -2(x - 5)² - 2 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-7",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = -2(x + 2)^2 - 8$ の、最大値または最小値を答えよ。",
+    "answer": -8,
+    "explanation": "頂点の $y$ 座標 $-8$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = -2(x + 2)² - 8 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g361-8",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "二次関数の最小値",
+    "body": "二次関数 $y = 1(x + 2)^2 - 8$ の、最大値または最小値を答えよ。",
+    "answer": -8,
+    "explanation": "頂点の $y$ 座標 $-8$ が、最大値（$a < 0$）または最小値（$a > 0$）。",
+    "plain": "二次関数 y = 1(x + 2)² - 8 の、最大値または最小値を答えよ。",
+    "hint": "平方完成して $y = (x - p)^2 + q$ の形にすると、最小値は $q$ です。",
+    "unit": "h_quadfunc",
+    "rate": 4.5
+  },
+  {
+    "id": "g362-1",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $1x^2 + 0x - 3 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 12,
+    "explanation": "$D = b^2 - 4ac = (0)^2 - 4 \\times 1 \\times (-3) = 12$。",
+    "plain": "二次方程式 1x² + 0x - 3 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-2",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $3x^2 + 8x - 5 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 124,
+    "explanation": "$D = b^2 - 4ac = (8)^2 - 4 \\times 3 \\times (-5) = 124$。",
+    "plain": "二次方程式 3x² + 8x - 5 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-3",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $2x^2 + 4x + 2 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 0,
+    "explanation": "$D = b^2 - 4ac = (4)^2 - 4 \\times 2 \\times (2) = 0$。",
+    "plain": "二次方程式 2x² + 4x + 2 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-4",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $1x^2 + 6x + 1 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 32,
+    "explanation": "$D = b^2 - 4ac = (6)^2 - 4 \\times 1 \\times (1) = 32$。",
+    "plain": "二次方程式 1x² + 6x + 1 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-5",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $3x^2 - 9x + 4 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 33,
+    "explanation": "$D = b^2 - 4ac = (-9)^2 - 4 \\times 3 \\times (4) = 33$。",
+    "plain": "二次方程式 3x² - 9x + 4 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-6",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $2x^2 - 3x - 3 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 33,
+    "explanation": "$D = b^2 - 4ac = (-3)^2 - 4 \\times 2 \\times (-3) = 33$。",
+    "plain": "二次方程式 2x² - 3x - 3 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-7",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $1x^2 + 1x + 3 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": -11,
+    "explanation": "$D = b^2 - 4ac = (1)^2 - 4 \\times 1 \\times (3) = -11$。",
+    "plain": "二次方程式 1x² + 1x + 3 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g362-8",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "判別式",
+    "body": "二次方程式 $4x^2 - 5x + 1 = 0$ の判別式 $D$ の値を答えよ。",
+    "answer": 9,
+    "explanation": "$D = b^2 - 4ac = (-5)^2 - 4 \\times 4 \\times (1) = 9$。",
+    "plain": "二次方程式 4x² - 5x + 1 = 0 の判別式 D の値を答えよ。",
+    "hint": "二次方程式 $ax^2 + bx + c = 0$ の判別式は $D = b^2 - 4ac$ です。",
+    "unit": "h_quadeq",
+    "rate": 6.0
+  },
+  {
+    "id": "g363-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "三角比",
+    "body": "直角三角形で、斜辺が $17$、$\\sin A = \\dfrac{8}{17}$ のとき、$A$ の対辺でない辺の長さを答えよ。",
+    "answer": 15,
+    "explanation": "三平方の定理より $\\sqrt{17^2 - 8^2} = 15$。",
+    "plain": "直角三角形で、斜辺が 17、sin A = 8/17 のとき、A の対辺でない辺の長さを答えよ。",
+    "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
+    "unit": "h_trig",
+    "rate": 4.9
+  },
+  {
+    "id": "g363-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "三角比",
+    "body": "直角三角形で、斜辺が $5$、$\\sin A = \\dfrac{3}{5}$ のとき、$A$ の対辺でない辺の長さを答えよ。",
+    "answer": 4,
+    "explanation": "三平方の定理より $\\sqrt{5^2 - 3^2} = 4$。",
+    "plain": "直角三角形で、斜辺が 5、sin A = 3/5 のとき、A の対辺でない辺の長さを答えよ。",
+    "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
+    "unit": "h_trig",
+    "rate": 4.9
+  },
+  {
+    "id": "g363-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "三角比",
+    "body": "直角三角形で、斜辺が $13$、$\\sin A = \\dfrac{5}{13}$ のとき、$A$ の対辺でない辺の長さを答えよ。",
+    "answer": 12,
+    "explanation": "三平方の定理より $\\sqrt{13^2 - 5^2} = 12$。",
+    "plain": "直角三角形で、斜辺が 13、sin A = 5/13 のとき、A の対辺でない辺の長さを答えよ。",
+    "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
+    "unit": "h_trig",
+    "rate": 4.9
+  },
+  {
+    "id": "g363-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "三角比",
+    "body": "直角三角形で、斜辺が $25$、$\\sin A = \\dfrac{7}{25}$ のとき、$A$ の対辺でない辺の長さを答えよ。",
+    "answer": 24,
+    "explanation": "三平方の定理より $\\sqrt{25^2 - 7^2} = 24$。",
+    "plain": "直角三角形で、斜辺が 25、sin A = 7/25 のとき、A の対辺でない辺の長さを答えよ。",
+    "hint": "$30^\\circ$, $45^\\circ$, $60^\\circ$ の三角比の表を思い出しましょう。",
+    "unit": "h_trig",
+    "rate": 4.9
+  },
+  {
+    "id": "g364-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (-2)| = 3$ の2つの解の和を答えよ。",
+    "answer": -4,
+    "explanation": "$x = -2 \\pm 3$ なので、和は $2 \\times (-2) = -4$。",
+    "plain": "方程式 |x - (-2)| = 3 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (4)| = 7$ の2つの解の和を答えよ。",
+    "answer": 8,
+    "explanation": "$x = 4 \\pm 7$ なので、和は $2 \\times (4) = 8$。",
+    "plain": "方程式 |x - (4)| = 7 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (1)| = 7$ の2つの解の和を答えよ。",
+    "answer": 2,
+    "explanation": "$x = 1 \\pm 7$ なので、和は $2 \\times (1) = 2$。",
+    "plain": "方程式 |x - (1)| = 7 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (0)| = 2$ の2つの解の和を答えよ。",
+    "answer": 0,
+    "explanation": "$x = 0 \\pm 2$ なので、和は $2 \\times (0) = 0$。",
+    "plain": "方程式 |x - (0)| = 2 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (5)| = 3$ の2つの解の和を答えよ。",
+    "answer": 10,
+    "explanation": "$x = 5 \\pm 3$ なので、和は $2 \\times (5) = 10$。",
+    "plain": "方程式 |x - (5)| = 3 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-6",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (0)| = 8$ の2つの解の和を答えよ。",
+    "answer": 0,
+    "explanation": "$x = 0 \\pm 8$ なので、和は $2 \\times (0) = 0$。",
+    "plain": "方程式 |x - (0)| = 8 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-7",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (-4)| = 4$ の2つの解の和を答えよ。",
+    "answer": -8,
+    "explanation": "$x = -4 \\pm 4$ なので、和は $2 \\times (-4) = -8$。",
+    "plain": "方程式 |x - (-4)| = 4 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g364-8",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "絶対値と不等式",
+    "body": "方程式 $|x - (3)| = 5$ の2つの解の和を答えよ。",
+    "answer": 6,
+    "explanation": "$x = 3 \\pm 5$ なので、和は $2 \\times (3) = 6$。",
+    "plain": "方程式 |x - (3)| = 5 の2つの解の和を答えよ。",
+    "hint": "$|x - a| < b$ は $a - b < x < a + b$ と同じです。",
+    "unit": "h_abs",
+    "rate": 4.2
+  },
+  {
+    "id": "g365-1",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{5}$ を展開したときの、項の数を答えよ。",
+    "answer": 6,
+    "explanation": "$a^{5}$ から $b^{5}$ まで $6$ 個の項がある。",
+    "plain": "(a + b)⁵ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g365-2",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{4}$ を展開したときの、項の数を答えよ。",
+    "answer": 5,
+    "explanation": "$a^{4}$ から $b^{4}$ まで $5$ 個の項がある。",
+    "plain": "(a + b)⁴ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g365-3",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{8}$ を展開したときの、項の数を答えよ。",
+    "answer": 9,
+    "explanation": "$a^{8}$ から $b^{8}$ まで $9$ 個の項がある。",
+    "plain": "(a + b)⁸ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g365-4",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{6}$ を展開したときの、項の数を答えよ。",
+    "answer": 7,
+    "explanation": "$a^{6}$ から $b^{6}$ まで $7$ 個の項がある。",
+    "plain": "(a + b)⁶ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g365-5",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{7}$ を展開したときの、項の数を答えよ。",
+    "answer": 8,
+    "explanation": "$a^{7}$ から $b^{7}$ まで $8$ 個の項がある。",
+    "plain": "(a + b)⁷ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g365-6",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "二項定理",
+    "body": "$(a + b)^{3}$ を展開したときの、項の数を答えよ。",
+    "answer": 4,
+    "explanation": "$a^{3}$ から $b^{3}$ まで $4$ 個の項がある。",
+    "plain": "(a + b)³ を展開したときの、項の数を答えよ。",
+    "hint": "$(a + b)^n$ の $a^{n-k}b^k$ の係数は ${}_n\\mathrm{C}_k$ です。",
+    "unit": "h_binom",
+    "rate": 5.1
+  },
+  {
+    "id": "g366-1",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-3,\\ 4)$、$(-1,\\ 8)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 4,
+    "explanation": "中点は $(-2,\\ 6)$。和は $4$。",
+    "plain": "2点 (-3, 4)、(-1, 8) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-2",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-6,\\ 5)$、$(6,\\ 5)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 5,
+    "explanation": "中点は $(0,\\ 5)$。和は $5$。",
+    "plain": "2点 (-6, 5)、(6, 5) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-3",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(4,\\ 6)$、$(4,\\ -2)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 6,
+    "explanation": "中点は $(4,\\ 2)$。和は $6$。",
+    "plain": "2点 (4, 6)、(4, -2) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-4",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(2,\\ -1)$、$(4,\\ 1)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 3,
+    "explanation": "中点は $(3,\\ 0)$。和は $3$。",
+    "plain": "2点 (2, -1)、(4, 1) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-5",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(7,\\ -8)$、$(5,\\ 0)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 2,
+    "explanation": "中点は $(6,\\ -4)$。和は $2$。",
+    "plain": "2点 (7, -8)、(5, 0) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-6",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-4,\\ 0)$、$(-4,\\ 2)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": -3,
+    "explanation": "中点は $(-4,\\ 1)$。和は $-3$。",
+    "plain": "2点 (-4, 0)、(-4, 2) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-7",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(2,\\ 3)$、$(0,\\ -3)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": 1,
+    "explanation": "中点は $(1,\\ 0)$。和は $1$。",
+    "plain": "2点 (2, 3)、(0, -3) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g366-8",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(0,\\ -3)$、$(-6,\\ 7)$ を結ぶ線分の中点の $x$ 座標と $y$ 座標の和を答えよ。",
+    "answer": -1,
+    "explanation": "中点は $(-3,\\ 2)$。和は $-1$。",
+    "plain": "2点 (0, -3)、(-6, 7) を結ぶ線分の中点の x 座標と y 座標の和を答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-1",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(4,\\ -4)$、$(5,\\ -6)$ を通る直線の傾きを答えよ。",
+    "answer": -2,
+    "explanation": "傾き $= \\dfrac{-2}{1} = -2$。",
+    "plain": "2点 (4, -4)、(5, -6) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-2",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(0,\\ 1)$、$(3,\\ 7)$ を通る直線の傾きを答えよ。",
+    "answer": 2,
+    "explanation": "傾き $= \\dfrac{6}{3} = 2$。",
+    "plain": "2点 (0, 1)、(3, 7) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-3",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-4,\\ -1)$、$(0,\\ -13)$ を通る直線の傾きを答えよ。",
+    "answer": -3,
+    "explanation": "傾き $= \\dfrac{-12}{4} = -3$。",
+    "plain": "2点 (-4, -1)、(0, -13) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-4",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(0,\\ 1)$、$(4,\\ -7)$ を通る直線の傾きを答えよ。",
+    "answer": -2,
+    "explanation": "傾き $= \\dfrac{-8}{4} = -2$。",
+    "plain": "2点 (0, 1)、(4, -7) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-5",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-1,\\ -3)$、$(0,\\ -1)$ を通る直線の傾きを答えよ。",
+    "answer": 2,
+    "explanation": "傾き $= \\dfrac{2}{1} = 2$。",
+    "plain": "2点 (-1, -3)、(0, -1) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-6",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(0,\\ -1)$、$(1,\\ 0)$ を通る直線の傾きを答えよ。",
+    "answer": 1,
+    "explanation": "傾き $= \\dfrac{1}{1} = 1$。",
+    "plain": "2点 (0, -1)、(1, 0) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-7",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-3,\\ -3)$、$(0,\\ 3)$ を通る直線の傾きを答えよ。",
+    "answer": 2,
+    "explanation": "傾き $= \\dfrac{6}{3} = 2$。",
+    "plain": "2点 (-3, -3)、(0, 3) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g367-8",
+    "category": "math2b",
+    "difficulty": 1,
+    "title": "図形と方程式",
+    "body": "2点 $(-2,\\ 1)$、$(1,\\ -2)$ を通る直線の傾きを答えよ。",
+    "answer": -1,
+    "explanation": "傾き $= \\dfrac{-3}{3} = -1$。",
+    "plain": "2点 (-2, 1)、(1, -2) を通る直線の傾きを答えよ。",
+    "hint": "中点は座標の平均、傾きは（$y$ の増加）÷（$x$ の増加）です。",
+    "unit": "h_circle",
+    "rate": 6.0
+  },
+  {
+    "id": "g368-1",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 2e^{x} + 2\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$f'(x) = 2e^{x} + \\dfrac{2}{x}$ より $f'(1) = 2e + 2$。$p + q = 4$。",
+    "plain": "f(x) = 2e^x + 2log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-2",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 5e^{x} + 1\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "$f'(x) = 5e^{x} + \\dfrac{1}{x}$ より $f'(1) = 5e + 1$。$p + q = 6$。",
+    "plain": "f(x) = 5e^x + 1log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-3",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 1e^{x} + 3\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$f'(x) = 1e^{x} + \\dfrac{3}{x}$ より $f'(1) = 1e + 3$。$p + q = 4$。",
+    "plain": "f(x) = 1e^x + 3log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-4",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 2e^{x} + 3\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$f'(x) = 2e^{x} + \\dfrac{3}{x}$ より $f'(1) = 2e + 3$。$p + q = 5$。",
+    "plain": "f(x) = 2e^x + 3log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-5",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 1e^{x} + 4\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 5,
+    "explanation": "$f'(x) = 1e^{x} + \\dfrac{4}{x}$ より $f'(1) = 1e + 4$。$p + q = 5$。",
+    "plain": "f(x) = 1e^x + 4log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-6",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 4e^{x} + 5\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 9,
+    "explanation": "$f'(x) = 4e^{x} + \\dfrac{5}{x}$ より $f'(1) = 4e + 5$。$p + q = 9$。",
+    "plain": "f(x) = 4e^x + 5log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-7",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 3e^{x} + 3\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "$f'(x) = 3e^{x} + \\dfrac{3}{x}$ より $f'(1) = 3e + 3$。$p + q = 6$。",
+    "plain": "f(x) = 3e^x + 3log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g368-8",
+    "category": "math3c",
+    "difficulty": 2,
+    "title": "いろいろな関数の微分",
+    "body": "$f(x) = 3e^{x} + 1\\log x$ のとき、$f'(1) = pe + q$ と表せる。$p + q$ の値を答えよ。",
+    "answer": 4,
+    "explanation": "$f'(x) = 3e^{x} + \\dfrac{1}{x}$ より $f'(1) = 3e + 1$。$p + q = 4$。",
+    "plain": "f(x) = 3e^x + 1log x のとき、f'(1) = pe + q と表せる。p + q の値を答えよ。",
+    "hint": "$(\\sin x)' = \\cos x$、$(\\cos x)' = -\\sin x$、$(e^x)' = e^x$、$(\\log x)' = \\dfrac{1}{x}$ を思い出します。",
+    "unit": "h_diff3",
+    "rate": 4.6
+  },
+  {
+    "id": "g369-1",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$24$ と $30$ の最大公約数を答えよ。",
+    "answer": 6,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $6$。",
+    "plain": "24 と 30 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-2",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$21$ と $36$ の最大公約数を答えよ。",
+    "answer": 3,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $3$。",
+    "plain": "21 と 36 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-3",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$20$ と $36$ の最大公約数を答えよ。",
+    "answer": 4,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $4$。",
+    "plain": "20 と 36 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-4",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$28$ と $77$ の最大公約数を答えよ。",
+    "answer": 7,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $7$。",
+    "plain": "28 と 77 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-5",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$63$ と $45$ の最大公約数を答えよ。",
+    "answer": 9,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $9$。",
+    "plain": "63 と 45 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-6",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$72$ と $32$ の最大公約数を答えよ。",
+    "answer": 8,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $8$。",
+    "plain": "72 と 32 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-7",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$24$ と $20$ の最大公約数を答えよ。",
+    "answer": 4,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $4$。",
+    "plain": "24 と 20 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g369-8",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "最大公約数と互除法",
+    "body": "$48$ と $66$ の最大公約数を答えよ。",
+    "answer": 6,
+    "explanation": "ユークリッドの互除法（または素因数分解）で最大公約数は $6$。",
+    "plain": "48 と 66 の最大公約数を答えよ。",
+    "hint": "大きいほうを小さいほうでわったあまりで、くり返しわっていきます。",
+    "unit": "h_nt",
+    "rate": 6.5
+  },
+  {
+    "id": "g306-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 2,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 3√5　② √46　③ 7　④ 6",
+    "choices": [
+      "$3\\sqrt{5}$",
+      "$\\sqrt{46}$",
+      "$7$",
+      "$6$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 3,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① √53　② 7　③ 3√3　④ √62",
+    "choices": [
+      "$\\sqrt{53}$",
+      "$7$",
+      "$3\\sqrt{3}$",
+      "$\\sqrt{62}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 2,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 5　② √20　③ √51　④ √33",
+    "choices": [
+      "$5$",
+      "$\\sqrt{20}$",
+      "$\\sqrt{51}$",
+      "$\\sqrt{33}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 2,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 2√3　② 4　③ 6　④ 3√3",
+    "choices": [
+      "$2\\sqrt{3}$",
+      "$4$",
+      "$6$",
+      "$3\\sqrt{3}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 3,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 7　② 2√3　③ 4　④ 4√5",
+    "choices": [
+      "$7$",
+      "$2\\sqrt{3}$",
+      "$4$",
+      "$4\\sqrt{5}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 1,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 2√5　② √61　③ 2√3　④ 5",
+    "choices": [
+      "$2\\sqrt{5}$",
+      "$\\sqrt{61}$",
+      "$2\\sqrt{3}$",
+      "$5$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 3,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 5　② 4　③ 2√2　④ √32",
+    "choices": [
+      "$5$",
+      "$4$",
+      "$2\\sqrt{2}$",
+      "$\\sqrt{32}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g306-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "平方根",
+    "body": "次の4つの数のうち、最も大きいものを選べ。",
+    "answer": 2,
+    "explanation": "それぞれを小数で見積もる（$\\sqrt{2} \\fallingdotseq 1.41$、$\\sqrt{3} \\fallingdotseq 1.73$、$\\sqrt{5} \\fallingdotseq 2.24$ など）。",
+    "plain": "次の4つの数のうち、最も大きいものを選べ。　① 4　② √18　③ √45　④ √32",
+    "choices": [
+      "$4$",
+      "$\\sqrt{18}$",
+      "$\\sqrt{45}$",
+      "$\\sqrt{32}$"
+    ],
+    "hint": "$\\sqrt{a} \\div \\sqrt{b} = \\sqrt{a \\div b}$ です。",
+    "unit": "m_sqrt",
+    "rate": 6.0
+  },
+  {
+    "id": "g321-1",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $5$ 個と白玉 $5$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は ${}_{10}\\mathrm{C}_{2} = 45$ 通り。同色は ${}_{5}\\mathrm{C}_{2} + {}_{5}\\mathrm{C}_{2} = 20$ 通り。確率は $\\dfrac{4}{9}$。",
+    "plain": "赤玉 5 個と白玉 5 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 4/9　② 2/9　③ 5/9　④ 5/18",
+    "choices": [
+      "$\\dfrac{4}{9}$",
+      "$\\dfrac{2}{9}$",
+      "$\\dfrac{5}{9}$",
+      "$\\dfrac{5}{18}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-2",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $5$ 個と白玉 $4$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は ${}_{9}\\mathrm{C}_{2} = 36$ 通り。同色は ${}_{5}\\mathrm{C}_{2} + {}_{4}\\mathrm{C}_{2} = 16$ 通り。確率は $\\dfrac{4}{9}$。",
+    "plain": "赤玉 5 個と白玉 4 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 4/9　② 5/18　③ 1/2　④ 5/9",
+    "choices": [
+      "$\\dfrac{4}{9}$",
+      "$\\dfrac{5}{18}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{5}{9}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-3",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $4$ 個と白玉 $4$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 2,
+    "explanation": "全体は ${}_{8}\\mathrm{C}_{2} = 28$ 通り。同色は ${}_{4}\\mathrm{C}_{2} + {}_{4}\\mathrm{C}_{2} = 12$ 通り。確率は $\\dfrac{3}{7}$。",
+    "plain": "赤玉 4 個と白玉 4 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 3/14　② 2/7　③ 3/7　④ 4/7",
+    "choices": [
+      "$\\dfrac{3}{14}$",
+      "$\\dfrac{2}{7}$",
+      "$\\dfrac{3}{7}$",
+      "$\\dfrac{4}{7}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-4",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $2$ 個と白玉 $2$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 1,
+    "explanation": "全体は ${}_{4}\\mathrm{C}_{2} = 6$ 通り。同色は ${}_{2}\\mathrm{C}_{2} + {}_{2}\\mathrm{C}_{2} = 2$ 通り。確率は $\\dfrac{1}{3}$。",
+    "plain": "赤玉 2 個と白玉 2 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 2/3　② 1/3　③ 1/2　④ 1/6",
+    "choices": [
+      "$\\dfrac{2}{3}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{2}$",
+      "$\\dfrac{1}{6}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-5",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $6$ 個と白玉 $6$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は ${}_{12}\\mathrm{C}_{2} = 66$ 通り。同色は ${}_{6}\\mathrm{C}_{2} + {}_{6}\\mathrm{C}_{2} = 30$ 通り。確率は $\\dfrac{5}{11}$。",
+    "plain": "赤玉 6 個と白玉 6 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 5/11　② 6/11　③ 3/11　④ 5/22",
+    "choices": [
+      "$\\dfrac{5}{11}$",
+      "$\\dfrac{6}{11}$",
+      "$\\dfrac{3}{11}$",
+      "$\\dfrac{5}{22}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-6",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $2$ 個と白玉 $5$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 1,
+    "explanation": "全体は ${}_{7}\\mathrm{C}_{2} = 21$ 通り。同色は ${}_{2}\\mathrm{C}_{2} + {}_{5}\\mathrm{C}_{2} = 11$ 通り。確率は $\\dfrac{11}{21}$。",
+    "plain": "赤玉 2 個と白玉 5 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 1/21　② 11/21　③ 5/21　④ 10/21",
+    "choices": [
+      "$\\dfrac{1}{21}$",
+      "$\\dfrac{11}{21}$",
+      "$\\dfrac{5}{21}$",
+      "$\\dfrac{10}{21}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-7",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $4$ 個と白玉 $5$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は ${}_{9}\\mathrm{C}_{2} = 36$ 通り。同色は ${}_{4}\\mathrm{C}_{2} + {}_{5}\\mathrm{C}_{2} = 16$ 通り。確率は $\\dfrac{4}{9}$。",
+    "plain": "赤玉 4 個と白玉 5 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 4/9　② 1/6　③ 5/9　④ 5/18",
+    "choices": [
+      "$\\dfrac{4}{9}$",
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{5}{9}$",
+      "$\\dfrac{5}{18}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g321-8",
+    "category": "math1a",
+    "difficulty": 2,
+    "title": "確率（組合せ）",
+    "body": "赤玉 $6$ 個と白玉 $2$ 個が入った袋から、同時に $2$ 個取り出すとき、同じ色である確率を選べ。",
+    "answer": 3,
+    "explanation": "全体は ${}_{8}\\mathrm{C}_{2} = 28$ 通り。同色は ${}_{6}\\mathrm{C}_{2} + {}_{2}\\mathrm{C}_{2} = 16$ 通り。確率は $\\dfrac{4}{7}$。",
+    "plain": "赤玉 6 個と白玉 2 個が入った袋から、同時に 2 個取り出すとき、同じ色である確率を選べ。　① 15/28　② 3/7　③ 3/14　④ 4/7",
+    "choices": [
+      "$\\dfrac{15}{28}$",
+      "$\\dfrac{3}{7}$",
+      "$\\dfrac{3}{14}$",
+      "$\\dfrac{4}{7}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 4.2
+  },
+  {
+    "id": "g322-1",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $3$ になる確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は $36$ 通り。和が $3$ になるのは $2$ 通り。確率は $\\dfrac{1}{18}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 3 になる確率を選べ。　① 1/18　② 1/12　③ 1/3　④ 1/6",
+    "choices": [
+      "$\\dfrac{1}{18}$",
+      "$\\dfrac{1}{12}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{6}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-2",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $8$ になる確率を選べ。",
+    "answer": 3,
+    "explanation": "全体は $36$ 通り。和が $8$ になるのは $5$ 通り。確率は $\\dfrac{5}{36}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 8 になる確率を選べ。　① 1/6　② 5/6　③ 5/12　④ 5/36",
+    "choices": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{5}{6}$",
+      "$\\dfrac{5}{12}$",
+      "$\\dfrac{5}{36}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-3",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $8$ になる確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は $36$ 通り。和が $8$ になるのは $5$ 通り。確率は $\\dfrac{5}{36}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 8 になる確率を選べ。　① 5/36　② 5/6　③ 1/6　④ 5/12",
+    "choices": [
+      "$\\dfrac{5}{36}$",
+      "$\\dfrac{5}{6}$",
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{5}{12}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-4",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $3$ になる確率を選べ。",
+    "answer": 0,
+    "explanation": "全体は $36$ 通り。和が $3$ になるのは $2$ 通り。確率は $\\dfrac{1}{18}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 3 になる確率を選べ。　① 1/18　② 1/3　③ 1/12　④ 1/6",
+    "choices": [
+      "$\\dfrac{1}{18}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{12}$",
+      "$\\dfrac{1}{6}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-5",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $8$ になる確率を選べ。",
+    "answer": 1,
+    "explanation": "全体は $36$ 通り。和が $8$ になるのは $5$ 通り。確率は $\\dfrac{5}{36}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 8 になる確率を選べ。　① 1/6　② 5/36　③ 5/6　④ 5/12",
+    "choices": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{5}{36}$",
+      "$\\dfrac{5}{6}$",
+      "$\\dfrac{5}{12}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-6",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $5$ になる確率を選べ。",
+    "answer": 2,
+    "explanation": "全体は $36$ 通り。和が $5$ になるのは $4$ 通り。確率は $\\dfrac{1}{9}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 5 になる確率を選べ。　① 2/3　② 1/3　③ 1/9　④ 5/36",
+    "choices": [
+      "$\\dfrac{2}{3}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{9}$",
+      "$\\dfrac{5}{36}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-7",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $3$ になる確率を選べ。",
+    "answer": 3,
+    "explanation": "全体は $36$ 通り。和が $3$ になるのは $2$ 通り。確率は $\\dfrac{1}{18}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 3 になる確率を選べ。　① 1/6　② 1/12　③ 1/3　④ 1/18",
+    "choices": [
+      "$\\dfrac{1}{6}$",
+      "$\\dfrac{1}{12}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{1}{18}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
+    "rate": 5.0
+  },
+  {
+    "id": "g322-8",
+    "category": "math1a",
+    "difficulty": 1,
+    "title": "確率（組合せ）",
+    "body": "大小2つのさいころを投げるとき、目の和が $5$ になる確率を選べ。",
+    "answer": 1,
+    "explanation": "全体は $36$ 通り。和が $5$ になるのは $4$ 通り。確率は $\\dfrac{1}{9}$。",
+    "plain": "大小2つのさいころを投げるとき、目の和が 5 になる確率を選べ。　① 2/3　② 1/9　③ 1/3　④ 5/36",
+    "choices": [
+      "$\\dfrac{2}{3}$",
+      "$\\dfrac{1}{9}$",
+      "$\\dfrac{1}{3}$",
+      "$\\dfrac{5}{36}$"
+    ],
+    "hint": "${}_n\\mathrm{C}_r$ で、「取り出し方の数」と「全体の数」を数えます。",
+    "unit": "h_prob",
     "rate": 5.0
   },
   {

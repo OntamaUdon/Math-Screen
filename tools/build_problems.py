@@ -230,6 +230,8 @@ import gen_units
 P.extend(gen_units.generate())
 import gen_math2
 P.extend(gen_math2.generate())
+import gen_math3
+P.extend(gen_math3.generate())
 import gen_content
 P.extend(gen_content.generate())
 
