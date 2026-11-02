@@ -15,6 +15,7 @@ UNITS = [
     ("e_speed",    "math", "小学", "速さ・時間・道のり", ["e_ratio"]),
     ("e_geom",     "math", "小学", "面積と体積", ["e_calc"]),
     ("e_count",    "math", "小学", "場合の数", ["e_calc"]),
+    ("e_avg",      "math", "小学", "平均", ["e_calc"]),
     # ── 数学：中学 ──
     ("m_signed",   "math", "中学", "正負の数", ["e_calc"]),
     ("m_expr",     "math", "中学", "式の値", ["m_signed"]),
@@ -29,6 +30,13 @@ UNITS = [
     ("m_polygon",  "math", "中学", "図形と角", ["m_linear"]),
     ("m_prob",     "math", "中学", "確率", ["m_signed"]),
     ("m_int",      "math", "中学", "整数の性質", ["m_signed"]),
+    ("m_prop",     "math", "中学", "比例・反比例", ["m_expr"]),
+    ("m_linfunc",  "math", "中学", "一次関数", ["m_prop", "m_linear"]),
+    ("m_algebra",  "math", "中学", "文字式の計算", ["m_signed"]),
+    ("m_similar",  "math", "中学", "相似", ["m_prop"]),
+    ("m_circle",   "math", "中学", "円と角", ["m_polygon"]),
+    ("m_space",    "math", "中学", "立体の体積と表面積", ["m_pythag"]),
+    ("m_data",     "math", "中学", "データの活用", ["e_calc"]),
     # ── 数学：高校 ──
     ("h_quadfunc", "math", "高校", "二次関数", ["m_func2", "m_quad"]),
     ("h_quadeq",   "math", "高校", "二次方程式・判別式", ["m_quad"]),
@@ -52,6 +60,11 @@ UNITS = [
     ("h_complex",  "math", "高校", "複素数平面", ["h_trig2", "h_quadeq"]),
     ("h_conic",    "math", "高校", "二次曲線", ["h_circle"]),
     ("h_space",    "math", "高校", "空間図形", ["h_vec"]),
+    ("h_seq2",     "math", "高校", "数列の応用", ["h_seq"]),
+    ("h_diff2",    "math", "高校", "微分の応用", ["h_diff"]),
+    ("h_geom",     "math", "高校", "図形の性質", ["m_similar"]),
+    ("h_stat",     "math", "高校", "データの分析", ["m_data"]),
+    ("h_cplx",     "math", "高校", "複素数と方程式", ["h_quadeq"]),
     # ── 英語 ──
     ("w_basic",    "english", "中学", "基本の英単語", []),
     ("w_std",      "english", "高校", "標準の英単語", ["w_basic"]),
@@ -140,6 +153,13 @@ _m("e_ratio", "割合", "比", "比で分ける", "割引", "食塩水の濃さ"
 _m("e_speed", "速さを求める", "時間を求める", "道のりを求める", "出会うまでの時間")
 _m("e_geom", "三角形の面積", "台形の面積", "円の面積", "円周の長さ", "直方体の体積", "立方体の表面積", "三角形の角度")
 _m("e_count", "並べ方", "組み合わせ", "さいころの目", "選び方の組")
+
+
+_m("e_avg", "平均")
+_m("m_prop", "比例", "反比例"); _m("m_linfunc", "一次関数"); _m("m_algebra", "文字式の計算"); _m("m_similar", "相似")
+_m("m_circle", "円周角"); _m("m_space", "立体の体積と表面積"); _m("m_data", "平均値と中央値")
+_m("h_seq2", "階差数列"); _m("h_diff2", "微分の応用"); _m("h_geom", "角の二等分線", "方べきの定理", "三角形の性質")
+_m("h_stat", "データの分散"); _m("h_cplx", "複素数の計算")
 
 
 def unit_of(p):
