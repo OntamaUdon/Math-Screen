@@ -83,3 +83,66 @@ language sql security definer set search_path = public as $$
   delete from problem_reports where reporter = auth.uid();
   delete from user_blocks where blocker = auth.uid();
 $$;
+
+-- ===== コメント機能（問題集） =====
+-- problem_key：アプリ内蔵の問題は "b07" のような id、みんなの問題は "c-<uuid>"
+create table if not exists public.problem_comments (
+  id          uuid primary key default gen_random_uuid(),
+  problem_key text not null check (char_length(problem_key) <= 80),
+  author      uuid not null default auth.uid(),
+  body        text not null check (char_length(body) between 1 and 300),
+  hidden      boolean not null default false,   -- 通報が重なると true（本人以外には見えない）
+  created_at  timestamptz not null default now()
+);
+create index if not exists problem_comments_key_idx on public.problem_comments (problem_key, created_at desc);
+
+create table if not exists public.comment_reports (
+  id         uuid primary key default gen_random_uuid(),
+  comment_id uuid not null references public.problem_comments(id) on delete cascade,
+  reporter   uuid not null default auth.uid(),
+  reason     text not null check (char_length(reason) <= 300),
+  created_at timestamptz not null default now(),
+  unique (comment_id, reporter)
+);
+
+alter table public.problem_comments enable row level security;
+alter table public.comment_reports  enable row level security;
+
+drop policy if exists "comments read" on public.problem_comments;
+create policy "comments read" on public.problem_comments
+  for select using (hidden = false or author = auth.uid());
+
+drop policy if exists "comments insert" on public.problem_comments;
+create policy "comments insert" on public.problem_comments
+  for insert with check (author = auth.uid() and hidden = false);
+
+drop policy if exists "comments delete own" on public.problem_comments;
+create policy "comments delete own" on public.problem_comments
+  for delete using (author = auth.uid());
+
+drop policy if exists "comment report insert" on public.comment_reports;
+create policy "comment report insert" on public.comment_reports
+  for insert with check (reporter = auth.uid());
+
+create or replace function public.hide_reported_comment() returns trigger
+language plpgsql security definer set search_path = public as $$
+begin
+  if (select count(*) from comment_reports where comment_id = new.comment_id) >= 3 then
+    update problem_comments set hidden = true where id = new.comment_id;
+  end if;
+  return new;
+end $$;
+
+drop trigger if exists trg_hide_reported_comment on public.comment_reports;
+create trigger trg_hide_reported_comment after insert on public.comment_reports
+  for each row execute function public.hide_reported_comment();
+
+-- アカウント削除に、コメントと通報も含める
+create or replace function public.delete_my_data() returns void
+language sql security definer set search_path = public as $$
+  delete from community_problems where author = auth.uid();
+  delete from problem_comments where author = auth.uid();
+  delete from comment_reports where reporter = auth.uid();
+  delete from problem_reports where reporter = auth.uid();
+  delete from user_blocks where blocker = auth.uid();
+$$;

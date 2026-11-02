@@ -27,8 +27,7 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             HomeView().tabItem { Label("ホーム", systemImage: "house") }
-            PracticeView().tabItem { Label("練習", systemImage: "pencil") }
-            CommunityView().tabItem { Label("みんなの", systemImage: "person.2") }
+            ProblemBookView().tabItem { Label("問題集", systemImage: "books.vertical") }
             StatsView().tabItem { Label("記録", systemImage: "chart.bar") }
             SettingsView().tabItem { Label("設定", systemImage: "gearshape") }
         }
