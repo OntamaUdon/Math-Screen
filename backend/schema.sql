@@ -14,7 +14,7 @@ create table if not exists public.community_problems (
   hint         text check (hint is null or char_length(hint) <= 300),
   status       text not null default 'pending'
                check (status in ('pending','approved','rejected','flagged')),
-  review_note  text,                             -- AI 審査のコメント
+  review_note  text,                             -- 審査コメント
   created_at   timestamptz not null default now()
 );
 
