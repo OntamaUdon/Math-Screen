@@ -31,6 +31,7 @@ UNITS = [
     ("m_prob",     "math", "中学", "確率", ["m_signed"]),
     ("m_int",      "math", "中学", "整数の性質", ["m_signed"]),
     ("m_prop",     "math", "中学", "比例・反比例", ["m_expr"]),
+    ("m_simul_word", "math", "中学", "連立方程式の利用", ["m_simul"]),
     ("m_linfunc",  "math", "中学", "一次関数", ["m_prop", "m_linear"]),
     ("m_algebra",  "math", "中学", "文字式の計算", ["m_signed"]),
     ("m_similar",  "math", "中学", "相似", ["m_prop"]),
@@ -61,6 +62,7 @@ UNITS = [
     ("h_conic",    "math", "高校", "二次曲線", ["h_circle"]),
     ("h_space",    "math", "高校", "空間図形", ["h_vec"]),
     ("h_seq2",     "math", "高校", "数列の応用", ["h_seq"]),
+    ("h_addition", "math", "高校", "三角関数の加法定理", ["h_trig2"]),
     ("h_diff2",    "math", "高校", "微分の応用", ["h_diff"]),
     ("h_geom",     "math", "高校", "図形の性質", ["m_similar"]),
     ("h_stat",     "math", "高校", "データの分析", ["m_data"]),
@@ -72,6 +74,12 @@ UNITS = [
     ("g_grammar",  "english", "中学", "英語の文法", []),
     ("g_translate", "english", "中学", "英文の和訳", ["g_grammar"]),
     ("g_order",    "english", "中学", "英文の並べかえ", ["g_grammar"]),
+    ("g_modal",    "english", "中学", "助動詞", ["g_grammar"]),
+    ("g_infinitive", "english", "中学", "不定詞・動名詞", ["g_grammar"]),
+    ("g_passive",  "english", "中学", "受け身", ["g_grammar", "g_irreg"]),
+    ("g_perfect",  "english", "中学", "現在完了", ["g_irreg"]),
+    ("g_relative", "english", "中学", "関係代名詞", ["g_grammar"]),
+    ("g_subjunctive", "english", "高校", "仮定法", ["g_modal", "g_perfect"]),
     ("g_irreg",    "english", "中学", "不規則動詞", ["g_grammar"]),
     ("g_prep",     "english", "中学", "前置詞と冠詞", ["g_grammar"]),
     ("g_form",     "english", "中学", "語形変化", ["g_grammar"]),
@@ -97,6 +105,9 @@ UNITS = [
     ("s_geo_americas", "social", "中学", "南北アメリカ・オセアニア", ["s_geo_world"]),
     ("s_jp_region", "social", "中学", "日本の諸地域", ["s_geo_japan"]),
     ("s_jp_industry", "social", "中学", "日本の産業", ["s_geo_japan"]),
+    ("s_hist_edo", "social", "中学", "江戸時代の文化と政治", ["s_hist_early"]),
+    ("s_hist_war", "social", "中学", "戦争と民主化", ["s_hist_modern"]),
+    ("s_civ_local", "social", "中学", "地方自治", ["s_civ_gov"]),
     ("s_civ_const", "social", "中学", "憲法と人権", []),
     ("s_civ_gov",   "social", "中学", "政治のしくみ", ["s_civ_const"]),
     ("s_civ_econ",  "social", "中学", "経済のしくみ", ["s_civ_gov"]),
@@ -109,6 +120,10 @@ UNITS = [
     ("b_animal",     "science", "中学", "動物の分類", []),
     ("c_ion",        "science", "中学", "イオンと電池", ["c_atom"]),
     ("p_energy",     "science", "中学", "エネルギー", ["p_elec"]),
+    ("c_mass",       "science", "中学", "化学変化と質量", ["c_reaction"]),
+    ("b_photo",      "science", "中学", "光合成と呼吸", ["b_cell_plant"]),
+    ("b_digest",     "science", "中学", "消化と吸収", ["b_human"]),
+    ("p_record",     "science", "中学", "運動の記録", ["p_motion"]),
     ("c_atom",       "science", "中学", "物質と原子", []),
     ("c_state",      "science", "中学", "物質の性質", []),
     ("c_solution",   "science", "中学", "水溶液と酸・アルカリ", ["c_atom"]),
@@ -176,6 +191,7 @@ _m("e_count", "並べ方", "組み合わせ", "さいころの目", "選び方�
 
 
 _m("e_avg", "平均")
+_m("m_simul_word", "連立方程式の文章題"); _m("h_addition", "加法定理")
 _m("s_geo_asia", "アジア州"); _m("s_geo_europe", "ヨーロッパ・アフリカ"); _m("s_geo_americas", "南北アメリカ・オセアニア"); _m("s_jp_region", "日本の諸地域"); _m("s_jp_industry", "日本の産業")
 _m("b_genetic", "遺伝と進化"); _m("b_animal", "動物の分類"); _m("c_ion", "イオンと電池"); _m("p_energy", "エネルギー")
 _m("g_irreg", "不規則動詞"); _m("g_prep", "前置詞と冠詞"); _m("g_form", "語形変化"); _m("w_syn", "同意語・反意語")

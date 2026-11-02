@@ -28285,6 +28285,1242 @@
     "rate": 5.2
   },
   {
+    "id": "g601-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $50$ 歳で、親の年齢は子の年齢の $3$ 倍より $10$ 歳多い。子の年齢を答えよ。",
+    "answer": 10,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 50$、$x = 3y + 10$。解いて $y = 10$。",
+    "plain": "親と子の年齢の和は 50 歳で、親の年齢は子の年齢の 3 倍より 10 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $53$ 歳で、親の年齢は子の年齢の $3$ 倍より $1$ 歳多い。子の年齢を答えよ。",
+    "answer": 13,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 53$、$x = 3y + 1$。解いて $y = 13$。",
+    "plain": "親と子の年齢の和は 53 歳で、親の年齢は子の年齢の 3 倍より 1 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $47$ 歳で、親の年齢は子の年齢の $3$ 倍より $11$ 歳多い。子の年齢を答えよ。",
+    "answer": 9,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 47$、$x = 3y + 11$。解いて $y = 9$。",
+    "plain": "親と子の年齢の和は 47 歳で、親の年齢は子の年齢の 3 倍より 11 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $60$ 歳で、親の年齢は子の年齢の $3$ 倍より $16$ 歳多い。子の年齢を答えよ。",
+    "answer": 11,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 60$、$x = 3y + 16$。解いて $y = 11$。",
+    "plain": "親と子の年齢の和は 60 歳で、親の年齢は子の年齢の 3 倍より 16 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $55$ 歳で、親の年齢は子の年齢の $3$ 倍より $15$ 歳多い。子の年齢を答えよ。",
+    "answer": 10,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 55$、$x = 3y + 15$。解いて $y = 10$。",
+    "plain": "親と子の年齢の和は 55 歳で、親の年齢は子の年齢の 3 倍より 15 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $62$ 歳で、親の年齢は子の年齢の $3$ 倍より $6$ 歳多い。子の年齢を答えよ。",
+    "answer": 14,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 62$、$x = 3y + 6$。解いて $y = 14$。",
+    "plain": "親と子の年齢の和は 62 歳で、親の年齢は子の年齢の 3 倍より 6 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $62$ 歳で、親の年齢は子の年齢の $3$ 倍より $2$ 歳多い。子の年齢を答えよ。",
+    "answer": 15,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 62$、$x = 3y + 2$。解いて $y = 15$。",
+    "plain": "親と子の年齢の和は 62 歳で、親の年齢は子の年齢の 3 倍より 2 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g601-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "親と子の年齢の和は $39$ 歳で、親の年齢は子の年齢の $3$ 倍より $3$ 歳多い。子の年齢を答えよ。",
+    "answer": 9,
+    "explanation": "子を $y$、親を $x$ とすると $x + y = 39$、$x = 3y + 3$。解いて $y = 9$。",
+    "plain": "親と子の年齢の和は 39 歳で、親の年齢は子の年齢の 3 倍より 3 歳多い。子の年齢を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $7$ 個とみかん $4$ 個を買うと $1301$ 円、りんご $4$ 個とみかん $7$ 個を買うと $1130$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 139,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $7a + 4b = 1301$、$4a + 7b = 1130$。解いて $a = 139$。",
+    "plain": "りんご 7 個とみかん 4 個を買うと 1301 円、りんご 4 個とみかん 7 個を買うと 1130 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $9$ 個とみかん $8$ 個を買うと $2493$ 円、りんご $8$ 個とみかん $9$ 個を買うと $2556$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 117,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $9a + 8b = 2493$、$8a + 9b = 2556$。解いて $a = 117$。",
+    "plain": "りんご 9 個とみかん 8 個を買うと 2493 円、りんご 8 個とみかん 9 個を買うと 2556 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $6$ 個とみかん $9$ 個を買うと $2514$ 円、りんご $9$ 個とみかん $6$ 個を買うと $2031$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 71,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $6a + 9b = 2514$、$9a + 6b = 2031$。解いて $a = 71$。",
+    "plain": "りんご 6 個とみかん 9 個を買うと 2514 円、りんご 9 個とみかん 6 個を買うと 2031 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $2$ 個とみかん $4$ 個を買うと $922$ 円、りんご $4$ 個とみかん $2$ 個を買うと $812$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 117,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $2a + 4b = 922$、$4a + 2b = 812$。解いて $a = 117$。",
+    "plain": "りんご 2 個とみかん 4 個を買うと 922 円、りんご 4 個とみかん 2 個を買うと 812 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $7$ 個とみかん $3$ 個を買うと $1438$ 円、りんご $3$ 個とみかん $7$ 個を買うと $1542$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 136,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $7a + 3b = 1438$、$3a + 7b = 1542$。解いて $a = 136$。",
+    "plain": "りんご 7 個とみかん 3 個を買うと 1438 円、りんご 3 個とみかん 7 個を買うと 1542 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $3$ 個とみかん $4$ 個を買うと $1187$ 円、りんご $4$ 個とみかん $3$ 個を買うと $1074$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 105,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $3a + 4b = 1187$、$4a + 3b = 1074$。解いて $a = 105$。",
+    "plain": "りんご 3 個とみかん 4 個を買うと 1187 円、りんご 4 個とみかん 3 個を買うと 1074 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $9$ 個とみかん $2$ 個を買うと $1699$ 円、りんご $2$ 個とみかん $9$ 個を買うと $1986$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 147,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $9a + 2b = 1699$、$2a + 9b = 1986$。解いて $a = 147$。",
+    "plain": "りんご 9 個とみかん 2 個を買うと 1699 円、りんご 2 個とみかん 9 個を買うと 1986 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g602-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "りんご $5$ 個とみかん $2$ 個を買うと $1006$ 円、りんご $2$ 個とみかん $5$ 個を買うと $1087$ 円だった。りんご1個の値段を答えよ。",
+    "answer": 136,
+    "explanation": "りんごを $a$ 円、みかんを $b$ 円とすると $5a + 2b = 1006$、$2a + 5b = 1087$。解いて $a = 136$。",
+    "plain": "りんご 5 個とみかん 2 個を買うと 1006 円、りんご 2 個とみかん 5 個を買うと 1087 円だった。りんご1個の値段を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $1000$ 円、子ども $600$ 円の入場券を合わせて $9$ 枚買ったら、代金は $7800$ 円だった。子どもの券は何枚か。",
+    "answer": 3,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 9$、$1000x + 600y = 7800$。解いて $y = 3$。",
+    "plain": "大人 1000 円、子ども 600 円の入場券を合わせて 9 枚買ったら、代金は 7800 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $600$ 円、子ども $400$ 円の入場券を合わせて $11$ 枚買ったら、代金は $6000$ 円だった。子どもの券は何枚か。",
+    "answer": 3,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 11$、$600x + 400y = 6000$。解いて $y = 3$。",
+    "plain": "大人 600 円、子ども 400 円の入場券を合わせて 11 枚買ったら、代金は 6000 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $800$ 円、子ども $500$ 円の入場券を合わせて $13$ 枚買ったら、代金は $8900$ 円だった。子どもの券は何枚か。",
+    "answer": 5,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 13$、$800x + 500y = 8900$。解いて $y = 5$。",
+    "plain": "大人 800 円、子ども 500 円の入場券を合わせて 13 枚買ったら、代金は 8900 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $500$ 円、子ども $300$ 円の入場券を合わせて $15$ 枚買ったら、代金は $5300$ 円だった。子どもの券は何枚か。",
+    "answer": 11,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 15$、$500x + 300y = 5300$。解いて $y = 11$。",
+    "plain": "大人 500 円、子ども 300 円の入場券を合わせて 15 枚買ったら、代金は 5300 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $500$ 円、子ども $300$ 円の入場券を合わせて $9$ 枚買ったら、代金は $3300$ 円だった。子どもの券は何枚か。",
+    "answer": 6,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 9$、$500x + 300y = 3300$。解いて $y = 6$。",
+    "plain": "大人 500 円、子ども 300 円の入場券を合わせて 9 枚買ったら、代金は 3300 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $800$ 円、子ども $500$ 円の入場券を合わせて $18$ 枚買ったら、代金は $11700$ 円だった。子どもの券は何枚か。",
+    "answer": 9,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 18$、$800x + 500y = 11700$。解いて $y = 9$。",
+    "plain": "大人 800 円、子ども 500 円の入場券を合わせて 18 枚買ったら、代金は 11700 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $800$ 円、子ども $500$ 円の入場券を合わせて $11$ 枚買ったら、代金は $7300$ 円だった。子どもの券は何枚か。",
+    "answer": 5,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 11$、$800x + 500y = 7300$。解いて $y = 5$。",
+    "plain": "大人 800 円、子ども 500 円の入場券を合わせて 11 枚買ったら、代金は 7300 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g603-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "大人 $600$ 円、子ども $400$ 円の入場券を合わせて $11$ 枚買ったら、代金は $6200$ 円だった。子どもの券は何枚か。",
+    "answer": 2,
+    "explanation": "大人を $x$ 枚、子どもを $y$ 枚とすると $x + y = 11$、$600x + 400y = 6200$。解いて $y = 2$。",
+    "plain": "大人 600 円、子ども 400 円の入場券を合わせて 11 枚買ったら、代金は 6200 円だった。子どもの券は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $69$ m、B さんは分速 $63$ m で、同じ地点から同じ向きに同時に歩き出した。$13$ 分後、2人の間は何 m はなれているか。",
+    "answer": 78,
+    "explanation": "1分で $6$ m ずつ差がつくので $6 \\times 13 = 78$ m。",
+    "plain": "A さんは分速 69 m、B さんは分速 63 m で、同じ地点から同じ向きに同時に歩き出した。13 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $69$ m、B さんは分速 $58$ m で、同じ地点から同じ向きに同時に歩き出した。$20$ 分後、2人の間は何 m はなれているか。",
+    "answer": 220,
+    "explanation": "1分で $11$ m ずつ差がつくので $11 \\times 20 = 220$ m。",
+    "plain": "A さんは分速 69 m、B さんは分速 58 m で、同じ地点から同じ向きに同時に歩き出した。20 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $67$ m、B さんは分速 $63$ m で、同じ地点から同じ向きに同時に歩き出した。$20$ 分後、2人の間は何 m はなれているか。",
+    "answer": 80,
+    "explanation": "1分で $4$ m ずつ差がつくので $4 \\times 20 = 80$ m。",
+    "plain": "A さんは分速 67 m、B さんは分速 63 m で、同じ地点から同じ向きに同時に歩き出した。20 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $87$ m、B さんは分速 $70$ m で、同じ地点から同じ向きに同時に歩き出した。$12$ 分後、2人の間は何 m はなれているか。",
+    "answer": 204,
+    "explanation": "1分で $17$ m ずつ差がつくので $17 \\times 12 = 204$ m。",
+    "plain": "A さんは分速 87 m、B さんは分速 70 m で、同じ地点から同じ向きに同時に歩き出した。12 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $70$ m、B さんは分速 $64$ m で、同じ地点から同じ向きに同時に歩き出した。$11$ 分後、2人の間は何 m はなれているか。",
+    "answer": 66,
+    "explanation": "1分で $6$ m ずつ差がつくので $6 \\times 11 = 66$ m。",
+    "plain": "A さんは分速 70 m、B さんは分速 64 m で、同じ地点から同じ向きに同時に歩き出した。11 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $61$ m、B さんは分速 $41$ m で、同じ地点から同じ向きに同時に歩き出した。$14$ 分後、2人の間は何 m はなれているか。",
+    "answer": 280,
+    "explanation": "1分で $20$ m ずつ差がつくので $20 \\times 14 = 280$ m。",
+    "plain": "A さんは分速 61 m、B さんは分速 41 m で、同じ地点から同じ向きに同時に歩き出した。14 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $72$ m、B さんは分速 $44$ m で、同じ地点から同じ向きに同時に歩き出した。$7$ 分後、2人の間は何 m はなれているか。",
+    "answer": 196,
+    "explanation": "1分で $28$ m ずつ差がつくので $28 \\times 7 = 196$ m。",
+    "plain": "A さんは分速 72 m、B さんは分速 44 m で、同じ地点から同じ向きに同時に歩き出した。7 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g604-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "A さんは分速 $78$ m、B さんは分速 $64$ m で、同じ地点から同じ向きに同時に歩き出した。$8$ 分後、2人の間は何 m はなれているか。",
+    "answer": 112,
+    "explanation": "1分で $14$ m ずつ差がつくので $14 \\times 8 = 112$ m。",
+    "plain": "A さんは分速 78 m、B さんは分速 64 m で、同じ地点から同じ向きに同時に歩き出した。8 分後、2人の間は何 m はなれているか。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $13$ 枚あり、合計金額は $330$ 円である。10円玉は何枚か。",
+    "answer": 8,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 13$、$10x + 50y = 330$。解いて $x = 8$。",
+    "plain": "10円玉と50円玉が合わせて 13 枚あり、合計金額は 330 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $17$ 枚あり、合計金額は $490$ 円である。10円玉は何枚か。",
+    "answer": 9,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 17$、$10x + 50y = 490$。解いて $x = 9$。",
+    "plain": "10円玉と50円玉が合わせて 17 枚あり、合計金額は 490 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $15$ 枚あり、合計金額は $430$ 円である。10円玉は何枚か。",
+    "answer": 8,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 15$、$10x + 50y = 430$。解いて $x = 8$。",
+    "plain": "10円玉と50円玉が合わせて 15 枚あり、合計金額は 430 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $14$ 枚あり、合計金額は $340$ 円である。10円玉は何枚か。",
+    "answer": 9,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 14$、$10x + 50y = 340$。解いて $x = 9$。",
+    "plain": "10円玉と50円玉が合わせて 14 枚あり、合計金額は 340 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $12$ 枚あり、合計金額は $280$ 円である。10円玉は何枚か。",
+    "answer": 8,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 12$、$10x + 50y = 280$。解いて $x = 8$。",
+    "plain": "10円玉と50円玉が合わせて 12 枚あり、合計金額は 280 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $11$ 枚あり、合計金額は $430$ 円である。10円玉は何枚か。",
+    "answer": 3,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 11$、$10x + 50y = 430$。解いて $x = 3$。",
+    "plain": "10円玉と50円玉が合わせて 11 枚あり、合計金額は 430 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $13$ 枚あり、合計金額は $450$ 円である。10円玉は何枚か。",
+    "answer": 5,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 13$、$10x + 50y = 450$。解いて $x = 5$。",
+    "plain": "10円玉と50円玉が合わせて 13 枚あり、合計金額は 450 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g605-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "10円玉と50円玉が合わせて $6$ 枚あり、合計金額は $180$ 円である。10円玉は何枚か。",
+    "answer": 3,
+    "explanation": "10円玉を $x$ 枚、50円玉を $y$ 枚とすると $x + y = 6$、$10x + 50y = 180$。解いて $x = 3$。",
+    "plain": "10円玉と50円玉が合わせて 6 枚あり、合計金額は 180 円である。10円玉は何枚か。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-1",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $70$、差が $8$ である。大きいほうの数を答えよ。",
+    "answer": 39,
+    "explanation": "大きいほうは $(70 + 8) \\div 2 = 39$。",
+    "plain": "2つの数があり、和が 70、差が 8 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-2",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $60$、差が $18$ である。大きいほうの数を答えよ。",
+    "answer": 39,
+    "explanation": "大きいほうは $(60 + 18) \\div 2 = 39$。",
+    "plain": "2つの数があり、和が 60、差が 18 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-3",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $66$、差が $2$ である。大きいほうの数を答えよ。",
+    "answer": 34,
+    "explanation": "大きいほうは $(66 + 2) \\div 2 = 34$。",
+    "plain": "2つの数があり、和が 66、差が 2 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-4",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $75$、差が $5$ である。大きいほうの数を答えよ。",
+    "answer": 40,
+    "explanation": "大きいほうは $(75 + 5) \\div 2 = 40$。",
+    "plain": "2つの数があり、和が 75、差が 5 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-5",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $47$、差が $23$ である。大きいほうの数を答えよ。",
+    "answer": 35,
+    "explanation": "大きいほうは $(47 + 23) \\div 2 = 35$。",
+    "plain": "2つの数があり、和が 47、差が 23 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-6",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $31$、差が $9$ である。大きいほうの数を答えよ。",
+    "answer": 20,
+    "explanation": "大きいほうは $(31 + 9) \\div 2 = 20$。",
+    "plain": "2つの数があり、和が 31、差が 9 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-7",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $58$、差が $4$ である。大きいほうの数を答えよ。",
+    "answer": 31,
+    "explanation": "大きいほうは $(58 + 4) \\div 2 = 31$。",
+    "plain": "2つの数があり、和が 58、差が 4 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g606-8",
+    "category": "junior",
+    "difficulty": 2,
+    "title": "連立方程式の文章題",
+    "body": "2つの数があり、和が $68$、差が $8$ である。大きいほうの数を答えよ。",
+    "answer": 38,
+    "explanation": "大きいほうは $(68 + 8) \\div 2 = 38$。",
+    "plain": "2つの数があり、和が 68、差が 8 である。大きいほうの数を答えよ。",
+    "hint": "求めるものを x、y とおいて、2つの式を立てましょう。",
+    "unit": "m_simul_word",
+    "rate": 5.0
+  },
+  {
+    "id": "g613-1",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{4}$、$\\tan\\beta = \\dfrac{1}{5}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 28,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{4} + \\frac{1}{5}}{1 - \\frac{1}{20}} = \\dfrac{9}{19}$。",
+    "plain": "tanα = 1/4、tanβ = 1/5 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-2",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{4}$、$\\tan\\beta = \\dfrac{1}{7}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 38,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{4} + \\frac{1}{7}}{1 - \\frac{1}{28}} = \\dfrac{11}{27}$。",
+    "plain": "tanα = 1/4、tanβ = 1/7 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-3",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{4}$、$\\tan\\beta = \\dfrac{1}{3}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 18,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{4} + \\frac{1}{3}}{1 - \\frac{1}{12}} = \\dfrac{7}{11}$。",
+    "plain": "tanα = 1/4、tanβ = 1/3 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-4",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{4}$、$\\tan\\beta = \\dfrac{1}{6}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 33,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{4} + \\frac{1}{6}}{1 - \\frac{1}{24}} = \\dfrac{10}{23}$。",
+    "plain": "tanα = 1/4、tanβ = 1/6 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-5",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{5}$、$\\tan\\beta = \\dfrac{1}{4}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 28,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{5} + \\frac{1}{4}}{1 - \\frac{1}{20}} = \\dfrac{9}{19}$。",
+    "plain": "tanα = 1/5、tanβ = 1/4 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-6",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{7}$、$\\tan\\beta = \\dfrac{1}{2}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 22,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{7} + \\frac{1}{2}}{1 - \\frac{1}{14}} = \\dfrac{9}{13}$。",
+    "plain": "tanα = 1/7、tanβ = 1/2 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-7",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{6}$、$\\tan\\beta = \\dfrac{1}{4}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 33,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{6} + \\frac{1}{4}}{1 - \\frac{1}{24}} = \\dfrac{10}{23}$。",
+    "plain": "tanα = 1/6、tanβ = 1/4 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g613-8",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$\\tan\\alpha = \\dfrac{1}{6}$、$\\tan\\beta = \\dfrac{1}{5}$ のとき、$\\tan(\\alpha + \\beta) = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 40,
+    "explanation": "$\\tan(\\alpha + \\beta) = \\dfrac{\\frac{1}{6} + \\frac{1}{5}}{1 - \\frac{1}{30}} = \\dfrac{11}{29}$。",
+    "plain": "tanα = 1/6、tanβ = 1/5 のとき、tan(α + β) = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g614-1",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$ のとき、$\\sin 2\\alpha = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 289,
+    "explanation": "$\\cos\\alpha = \\dfrac{12}{13}$。$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = \\dfrac{120}{169}$。",
+    "plain": "0 < α < (π)/2 で sinα = 5/13 のとき、sin 2α = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g614-2",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$ のとき、$\\sin 2\\alpha = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 529,
+    "explanation": "$\\cos\\alpha = \\dfrac{15}{17}$。$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = \\dfrac{240}{289}$。",
+    "plain": "0 < α < (π)/2 で sinα = 8/17 のとき、sin 2α = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g614-3",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{3}{5}$ のとき、$\\sin 2\\alpha = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 49,
+    "explanation": "$\\cos\\alpha = \\dfrac{4}{5}$。$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = \\dfrac{24}{25}$。",
+    "plain": "0 < α < (π)/2 で sinα = 3/5 のとき、sin 2α = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g614-4",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{7}{25}$ のとき、$\\sin 2\\alpha = \\dfrac{m}{n}$（既約分数）と表せる。$m + n$ の値を答えよ。",
+    "answer": 961,
+    "explanation": "$\\cos\\alpha = \\dfrac{24}{25}$。$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha = \\dfrac{336}{625}$。",
+    "plain": "0 < α < (π)/2 で sinα = 7/25 のとき、sin 2α = m/n（既約分数）と表せる。m + n の値を答えよ。",
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-1",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{8}{17}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos\\alpha = \\dfrac{12}{13}$、$\\cos\\beta = \\dfrac{15}{17}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{171}{221}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 8/17 のとき、sin(α + β) の値を選べ。　① 140/221　② (-21)/221　③ 220/221　④ 171/221",
+    "choices": [
+      "$\\dfrac{140}{221}$",
+      "$\\dfrac{-21}{221}$",
+      "$\\dfrac{220}{221}$",
+      "$\\dfrac{171}{221}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-2",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$、$\\sin\\beta = \\dfrac{5}{13}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$\\cos\\alpha = \\dfrac{15}{17}$、$\\cos\\beta = \\dfrac{12}{13}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{171}{221}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 8/17、sinβ = 5/13 のとき、sin(α + β) の値を選べ。　① 171/221　② 140/221　③ 220/221　④ 21/221",
+    "choices": [
+      "$\\dfrac{171}{221}$",
+      "$\\dfrac{140}{221}$",
+      "$\\dfrac{220}{221}$",
+      "$\\dfrac{21}{221}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-3",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$、$\\sin\\beta = \\dfrac{3}{5}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos\\alpha = \\dfrac{15}{17}$、$\\cos\\beta = \\dfrac{4}{5}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{77}{85}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 8/17、sinβ = 3/5 のとき、sin(α + β) の値を選べ。　① (-13)/85　② 84/85　③ 36/85　④ 77/85",
+    "choices": [
+      "$\\dfrac{-13}{85}$",
+      "$\\dfrac{84}{85}$",
+      "$\\dfrac{36}{85}$",
+      "$\\dfrac{77}{85}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-4",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$、$\\sin\\beta = \\dfrac{7}{25}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos\\alpha = \\dfrac{15}{17}$、$\\cos\\beta = \\dfrac{24}{25}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{297}{425}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 8/17、sinβ = 7/25 のとき、sin(α + β) の値を選べ。　① 416/425　② 87/425　③ 304/425　④ 297/425",
+    "choices": [
+      "$\\dfrac{416}{425}$",
+      "$\\dfrac{87}{425}$",
+      "$\\dfrac{304}{425}$",
+      "$\\dfrac{297}{425}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-5",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{3}{5}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$\\cos\\alpha = \\dfrac{12}{13}$、$\\cos\\beta = \\dfrac{4}{5}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{56}{65}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 3/5 のとき、sin(α + β) の値を選べ。　① (-16)/65　② 56/65　③ 63/65　④ 33/65",
+    "choices": [
+      "$\\dfrac{-16}{65}$",
+      "$\\dfrac{56}{65}$",
+      "$\\dfrac{63}{65}$",
+      "$\\dfrac{33}{65}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-6",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$、$\\sin\\beta = \\dfrac{8}{17}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$\\cos\\alpha = \\dfrac{15}{17}$、$\\cos\\beta = \\dfrac{15}{17}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{240}{289}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 8/17、sinβ = 8/17 のとき、sin(α + β) の値を選べ。　① 240/289　② 0　③ 1　④ 161/289",
+    "choices": [
+      "$\\dfrac{240}{289}$",
+      "$0$",
+      "$1$",
+      "$\\dfrac{161}{289}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-7",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{3}{5}$、$\\sin\\beta = \\dfrac{7}{25}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$\\cos\\alpha = \\dfrac{4}{5}$、$\\cos\\beta = \\dfrac{24}{25}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{4}{5}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 3/5、sinβ = 7/25 のとき、sin(α + β) の値を選べ。　① 4/5　② 44/125　③ 3/5　④ 117/125",
+    "choices": [
+      "$\\dfrac{4}{5}$",
+      "$\\dfrac{44}{125}$",
+      "$\\dfrac{3}{5}$",
+      "$\\dfrac{117}{125}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g611-8",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{3}{5}$ のとき、$\\sin(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$\\cos\\alpha = \\dfrac{12}{13}$、$\\cos\\beta = \\dfrac{4}{5}$。$\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta = \\dfrac{56}{65}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 3/5 のとき、sin(α + β) の値を選べ。　① (-16)/65　② 56/65　③ 33/65　④ 63/65",
+    "choices": [
+      "$\\dfrac{-16}{65}$",
+      "$\\dfrac{56}{65}$",
+      "$\\dfrac{33}{65}$",
+      "$\\dfrac{63}{65}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-1",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{5}{13}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{119}{169}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 5/13 のとき、cos(α + β) の値を選べ。　① 0　② 119/169　③ 120/169　④ 1",
+    "choices": [
+      "$0$",
+      "$\\dfrac{119}{169}$",
+      "$\\dfrac{120}{169}$",
+      "$1$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-2",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{3}{5}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{33}{65}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 3/5 のとき、cos(α + β) の値を選べ。　① 63/65　② 33/65　③ 56/65　④ (-16)/65",
+    "choices": [
+      "$\\dfrac{63}{65}$",
+      "$\\dfrac{33}{65}$",
+      "$\\dfrac{56}{65}$",
+      "$\\dfrac{-16}{65}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-3",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{3}{5}$、$\\sin\\beta = \\dfrac{7}{25}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{3}{5}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 3/5、sinβ = 7/25 のとき、cos(α + β) の値を選べ。　① 117/125　② 4/5　③ 44/125　④ 3/5",
+    "choices": [
+      "$\\dfrac{117}{125}$",
+      "$\\dfrac{4}{5}$",
+      "$\\dfrac{44}{125}$",
+      "$\\dfrac{3}{5}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-4",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{5}{13}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{119}{169}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 5/13 のとき、cos(α + β) の値を選べ。　① 120/169　② 1　③ 0　④ 119/169",
+    "choices": [
+      "$\\dfrac{120}{169}$",
+      "$1$",
+      "$0$",
+      "$\\dfrac{119}{169}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-5",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{5}{13}$、$\\sin\\beta = \\dfrac{5}{13}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{119}{169}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 5/13、sinβ = 5/13 のとき、cos(α + β) の値を選べ。　① 0　② 120/169　③ 1　④ 119/169",
+    "choices": [
+      "$0$",
+      "$\\dfrac{120}{169}$",
+      "$1$",
+      "$\\dfrac{119}{169}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-6",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{3}{5}$、$\\sin\\beta = \\dfrac{5}{13}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{33}{65}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 3/5、sinβ = 5/13 のとき、cos(α + β) の値を選べ。　① 56/65　② 63/65　③ 16/65　④ 33/65",
+    "choices": [
+      "$\\dfrac{56}{65}$",
+      "$\\dfrac{63}{65}$",
+      "$\\dfrac{16}{65}$",
+      "$\\dfrac{33}{65}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-7",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{8}{17}$、$\\sin\\beta = \\dfrac{3}{5}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{36}{85}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 8/17、sinβ = 3/5 のとき、cos(α + β) の値を選べ。　① 36/85　② (-13)/85　③ 84/85　④ 77/85",
+    "choices": [
+      "$\\dfrac{36}{85}$",
+      "$\\dfrac{-13}{85}$",
+      "$\\dfrac{84}{85}$",
+      "$\\dfrac{77}{85}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g612-8",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "$0 < \\alpha, \\beta < \\dfrac{\\pi}{2}$ で $\\sin\\alpha = \\dfrac{7}{25}$、$\\sin\\beta = \\dfrac{7}{25}$ のとき、$\\cos(\\alpha + \\beta)$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta = \\dfrac{527}{625}$。",
+    "plain": "0 < α, β < (π)/2 で sinα = 7/25、sinβ = 7/25 のとき、cos(α + β) の値を選べ。　① 527/625　② 1　③ 0　④ 336/625",
+    "choices": [
+      "$\\dfrac{527}{625}$",
+      "$1$",
+      "$0$",
+      "$\\dfrac{336}{625}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-1",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\sin 15^\\circ$ の値を選べ。",
+    "answer": 0,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、sin 15° の値を選べ。　① (√6 - √2)/4　② (√2 - √6)/4　③ 2 - √3　④ √3/2",
+    "choices": [
+      "$\\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$",
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$2 - \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-2",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\sin 105^\\circ$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、sin 105° の値を選べ。　① 2 - √3　② (√6 + √2)/4　③ (√2 - √6)/4　④ √3/2",
+    "choices": [
+      "$2 - \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-3",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\tan 75^\\circ$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、tan 75° の値を選べ。　① (√2 - √6)/4　② (√6 + √2)/4　③ (√6 - √2)/4　④ 2 + √3",
+    "choices": [
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$\\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$",
+      "$2 + \\sqrt{3}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-4",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\cos 15^\\circ$ の値を選べ。",
+    "answer": 2,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、cos 15° の値を選べ。　① √3/2　② 2 - √3　③ (√6 + √2)/4　④ 2 + √3",
+    "choices": [
+      "$\\dfrac{\\sqrt{3}}{2}$",
+      "$2 - \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$2 + \\sqrt{3}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-5",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\cos 15^\\circ$ の値を選べ。",
+    "answer": 1,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、cos 15° の値を選べ。　① (√2 - √6)/4　② (√6 + √2)/4　③ 2 + √3　④ √3/2",
+    "choices": [
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$2 + \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-6",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\tan 75^\\circ$ の値を選べ。",
+    "answer": 2,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、tan 75° の値を選べ。　① (√6 - √2)/4　② 2 - √3　③ 2 + √3　④ √3/2",
+    "choices": [
+      "$\\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$",
+      "$2 - \\sqrt{3}$",
+      "$2 + \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-7",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\tan 15^\\circ$ の値を選べ。",
+    "answer": 3,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、tan 15° の値を選べ。　① (√2 - √6)/4　② √3/2　③ (√6 + √2)/4　④ 2 - √3",
+    "choices": [
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$\\dfrac{\\sqrt{3}}{2}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$2 - \\sqrt{3}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
+    "id": "g615-8",
+    "category": "math2b",
+    "difficulty": 3,
+    "title": "加法定理",
+    "body": "加法定理を使って、$\\sin 75^\\circ$ の値を選べ。",
+    "answer": 2,
+    "explanation": "$75^\\circ = 45^\\circ + 30^\\circ$、$15^\\circ = 45^\\circ - 30^\\circ$ などと分けて加法定理を使う。",
+    "plain": "加法定理を使って、sin 75° の値を選べ。　① 2 + √3　② (√2 - √6)/4　③ (√6 + √2)/4　④ √3/2",
+    "choices": [
+      "$2 + \\sqrt{3}$",
+      "$\\dfrac{\\sqrt{2} - \\sqrt{6}}{4}$",
+      "$\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+      "$\\dfrac{\\sqrt{3}}{2}$"
+    ],
+    "hint": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ などを使います。",
+    "unit": "h_addition",
+    "rate": 4.0
+  },
+  {
     "id": "u-w_basic-1",
     "category": "eng_word",
     "difficulty": 1,
@@ -211671,5 +212907,4945 @@
     "unit": "s_jp_industry",
     "hint": "農林水産業・工業・商業の特徴と、貿易の関係を思い出しましょう。",
     "rate": 6.0
+  },
+  {
+    "id": "u-g_modal-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　He （ ） swim very fast.",
+    "answer": 3,
+    "explanation": "can は能力を表す助動詞。主語が何でも形は変わらない。",
+    "plain": "次の文の（ ）に入るものを選べ。　He （ ） swim very fast.　① cans　② is can　③ canning　④ can",
+    "choices": [
+      "cans",
+      "is can",
+      "canning",
+      "can"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） swim when I was five.",
+    "answer": 1,
+    "explanation": "過去の能力は could（または was able to）。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） swim when I was five.　① will　② could　③ must　④ can",
+    "choices": [
+      "will",
+      "could",
+      "must",
+      "can"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） I use your pen?",
+    "answer": 0,
+    "explanation": "May I ～? は許可を求める言い方。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） I use your pen?　① May　② Am　③ Do　④ Must",
+    "choices": [
+      "May",
+      "Am",
+      "Do",
+      "Must"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　You （ ） finish your homework today.",
+    "answer": 3,
+    "explanation": "must は「～しなければならない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　You （ ） finish your homework today.　① may　② might　③ can　④ must",
+    "choices": [
+      "may",
+      "might",
+      "can",
+      "must"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-5",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　「ここに入ってはいけません」：You （ ） enter this room.",
+    "answer": 2,
+    "explanation": "must not は禁止。don't have to は不必要。",
+    "plain": "次の文の（ ）に入るものを選べ。　「ここに入ってはいけません」：You （ ） enter this room.　① don't have to　② need to　③ must not　④ ought to",
+    "choices": [
+      "don't have to",
+      "need to",
+      "must not",
+      "ought to"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-6",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　You （ ） hurry. We have plenty of time.",
+    "answer": 0,
+    "explanation": "don't have to は「～する必要がない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　You （ ） hurry. We have plenty of time.　① don't have to　② must not　③ won't　④ can't",
+    "choices": [
+      "don't have to",
+      "must not",
+      "won't",
+      "can't"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　You （ ） see a doctor. You look sick.",
+    "answer": 2,
+    "explanation": "should は助言「～したほうがよい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　You （ ） see a doctor. You look sick.　① shall　② ought　③ should　④ would",
+    "choices": [
+      "shall",
+      "ought",
+      "should",
+      "would"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） we go to the park?",
+    "answer": 1,
+    "explanation": "Shall we ～? は「～しませんか」。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） we go to the park?　① Must　② Shall　③ May　④ Will",
+    "choices": [
+      "Must",
+      "Shall",
+      "May",
+      "Will"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） you open the window, please?",
+    "answer": 0,
+    "explanation": "Could you ～? は丁寧な依頼。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） you open the window, please?　① Could　② Shall　③ May　④ Must",
+    "choices": [
+      "Could",
+      "Shall",
+      "May",
+      "Must"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-10",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　He （ ） be tired. He worked all night.",
+    "answer": 0,
+    "explanation": "must は強い推量「～にちがいない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He （ ） be tired. He worked all night.　① must　② shall　③ need　④ ought",
+    "choices": [
+      "must",
+      "shall",
+      "need",
+      "ought"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-11",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　That （ ） be true. It's impossible.",
+    "answer": 1,
+    "explanation": "can't は強い否定の推量「～のはずがない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　That （ ） be true. It's impossible.　① should　② can't　③ may　④ must",
+    "choices": [
+      "should",
+      "can't",
+      "may",
+      "must"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-12",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　It （ ） rain tomorrow.",
+    "answer": 1,
+    "explanation": "未来のことは will。",
+    "plain": "次の文の（ ）に入るものを選べ。　It （ ） rain tomorrow.　① has　② will　③ was　④ did",
+    "choices": [
+      "has",
+      "will",
+      "was",
+      "did"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-13",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　She said she （ ） come.",
+    "answer": 0,
+    "explanation": "時制の一致で、can が could になる。",
+    "plain": "次の文の（ ）に入るものを選べ。　She said she （ ） come.　① could　② may　③ can　④ shall",
+    "choices": [
+      "could",
+      "may",
+      "can",
+      "shall"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） able to solve the problem yesterday.",
+    "answer": 2,
+    "explanation": "過去の「できた」は was able to。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） able to solve the problem yesterday.　① am　② will　③ was　④ can",
+    "choices": [
+      "am",
+      "will",
+      "was",
+      "can"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） to get up early yesterday.",
+    "answer": 1,
+    "explanation": "have to の過去形は had to。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） to get up early yesterday.　① must　② had　③ has　④ have",
+    "choices": [
+      "must",
+      "had",
+      "has",
+      "have"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） I help you?",
+    "answer": 2,
+    "explanation": "Shall I ～? は「～しましょうか」。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） I help you?　① Do　② Must　③ Shall　④ Did",
+    "choices": [
+      "Do",
+      "Must",
+      "Shall",
+      "Did"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　You （ ） go now, or you'll be late.",
+    "answer": 1,
+    "explanation": "had better は「～したほうがよい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　You （ ） go now, or you'll be late.　① would better　② had better　③ had to better　④ should better",
+    "choices": [
+      "would better",
+      "had better",
+      "had to better",
+      "should better"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_modal-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） like a cup of coffee.",
+    "answer": 0,
+    "explanation": "I would like ～ は丁寧な希望。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） like a cup of coffee.　① would　② do　③ can　④ will",
+    "choices": [
+      "would",
+      "do",
+      "can",
+      "will"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） I ask a question?",
+    "answer": 1,
+    "explanation": "May I ～? は許可を求める。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） I ask a question?　① Did　② May　③ Must　④ Are",
+    "choices": [
+      "Did",
+      "May",
+      "Must",
+      "Are"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_modal-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "助動詞",
+    "body": "次の文の（ ）に入るものを選べ。　Can you play the piano? — Yes, I （ ）.",
+    "answer": 1,
+    "explanation": "can の疑問文には can で答える。",
+    "plain": "次の文の（ ）に入るものを選べ。　Can you play the piano? — Yes, I （ ）.　① will　② can　③ do　④ am",
+    "choices": [
+      "will",
+      "can",
+      "do",
+      "am"
+    ],
+    "unit": "g_modal",
+    "hint": "助動詞のあとは動詞の原形。意味（能力・許可・義務・推量）を考えましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_infinitive-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I want （ ） a doctor.",
+    "answer": 0,
+    "explanation": "want to ～ は「～したい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I want （ ） a doctor.　① to be　② am　③ be　④ being",
+    "choices": [
+      "to be",
+      "am",
+      "be",
+      "being"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　She enjoys （ ） tennis.",
+    "answer": 0,
+    "explanation": "enjoy のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　She enjoys （ ） tennis.　① playing　② to play　③ played　④ play",
+    "choices": [
+      "playing",
+      "to play",
+      "played",
+      "play"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　He decided （ ） abroad.",
+    "answer": 1,
+    "explanation": "decide to ～ は「～することに決める」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He decided （ ） abroad.　① study　② to study　③ studied　④ studying",
+    "choices": [
+      "study",
+      "to study",
+      "studied",
+      "studying"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-4",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Stop （ ） and listen.",
+    "answer": 3,
+    "explanation": "stop ～ing は「～するのをやめる」。",
+    "plain": "次の文の（ ）に入るものを選べ。　Stop （ ） and listen.　① talk　② to talk　③ talked　④ talking",
+    "choices": [
+      "talk",
+      "to talk",
+      "talked",
+      "talking"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_infinitive-5",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I forgot （ ） the door.（かぎをかけ忘れた）",
+    "answer": 0,
+    "explanation": "forget to ～ は「～するのを忘れる」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I forgot （ ） the door.（かぎをかけ忘れた）　① to lock　② lock　③ locked　④ locking",
+    "choices": [
+      "to lock",
+      "lock",
+      "locked",
+      "locking"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_infinitive-6",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I remember （ ） him before.（会ったことを覚えている）",
+    "answer": 3,
+    "explanation": "remember ～ing は「～したことを覚えている」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I remember （ ） him before.（会ったことを覚えている）　① to meet　② meet　③ met　④ meeting",
+    "choices": [
+      "to meet",
+      "meet",
+      "met",
+      "meeting"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_infinitive-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　It is important （ ） study hard.",
+    "answer": 2,
+    "explanation": "It is ～ to ... の形。",
+    "plain": "次の文の（ ）に入るものを選べ。　It is important （ ） study hard.　① of　② in　③ to　④ for",
+    "choices": [
+      "of",
+      "in",
+      "to",
+      "for"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　She finished （ ） her homework.",
+    "answer": 1,
+    "explanation": "finish のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　She finished （ ） her homework.　① do　② doing　③ done　④ to do",
+    "choices": [
+      "do",
+      "doing",
+      "done",
+      "to do"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'm looking forward to （ ） you.",
+    "answer": 2,
+    "explanation": "look forward to のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm looking forward to （ ） you.　① see　② saw　③ seeing　④ seen",
+    "choices": [
+      "see",
+      "saw",
+      "seeing",
+      "seen"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-10",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　He was too tired （ ） walk.",
+    "answer": 1,
+    "explanation": "too ～ to ... は「～すぎて…できない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He was too tired （ ） walk.　① for　② to　③ so　④ that",
+    "choices": [
+      "for",
+      "to",
+      "so",
+      "that"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_infinitive-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Do you mind （ ） the window?",
+    "answer": 2,
+    "explanation": "mind のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　Do you mind （ ） the window?　① to open　② opened　③ opening　④ open",
+    "choices": [
+      "to open",
+      "opened",
+      "opening",
+      "open"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-12",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I have a lot of work （ ）.",
+    "answer": 2,
+    "explanation": "名詞を説明する不定詞（形容詞的用法）。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have a lot of work （ ）.　① do　② doing　③ to do　④ done",
+    "choices": [
+      "do",
+      "doing",
+      "to do",
+      "done"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　She went to the store （ ） some milk.",
+    "answer": 0,
+    "explanation": "目的を表す不定詞（副詞的用法）。",
+    "plain": "次の文の（ ）に入るものを選べ。　She went to the store （ ） some milk.　① to buy　② bought　③ buying　④ buy",
+    "choices": [
+      "to buy",
+      "bought",
+      "buying",
+      "buy"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　He is good at （ ） pictures.",
+    "answer": 3,
+    "explanation": "前置詞のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is good at （ ） pictures.　① drawn　② to draw　③ draw　④ drawing",
+    "choices": [
+      "drawn",
+      "to draw",
+      "draw",
+      "drawing"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I hope （ ） you again.",
+    "answer": 3,
+    "explanation": "hope to ～ は「～したい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I hope （ ） you again.　① saw　② seeing　③ see　④ to see",
+    "choices": [
+      "saw",
+      "seeing",
+      "see",
+      "to see"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Would you like something （ ） drink?",
+    "answer": 3,
+    "explanation": "something to drink は「飲み物」。",
+    "plain": "次の文の（ ）に入るものを選べ。　Would you like something （ ） drink?　① in　② for　③ of　④ to",
+    "choices": [
+      "in",
+      "for",
+      "of",
+      "to"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-17",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Thank you for （ ） me.",
+    "answer": 1,
+    "explanation": "前置詞 for のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　Thank you for （ ） me.　① help　② helping　③ to help　④ helped",
+    "choices": [
+      "help",
+      "helping",
+      "to help",
+      "helped"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I want you （ ） here.",
+    "answer": 0,
+    "explanation": "want 人 to ～ は「人に～してほしい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I want you （ ） here.　① to stay　② stay　③ staying　④ stayed",
+    "choices": [
+      "to stay",
+      "stay",
+      "staying",
+      "stayed"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　He asked me （ ） the door.",
+    "answer": 3,
+    "explanation": "ask 人 to ～ は「人に～するよう頼む」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He asked me （ ） the door.　① opening　② open　③ opened　④ to open",
+    "choices": [
+      "opening",
+      "open",
+      "opened",
+      "to open"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_infinitive-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不定詞・動名詞",
+    "body": "次の文の（ ）に入るものを選べ。　She practiced （ ） the piano every day.",
+    "answer": 3,
+    "explanation": "practice のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　She practiced （ ） the piano every day.　① play　② to play　③ played　④ playing",
+    "choices": [
+      "play",
+      "to play",
+      "played",
+      "playing"
+    ],
+    "unit": "g_infinitive",
+    "hint": "動詞によって、あとに来る形（to ～ か ～ing）が決まります。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-g_relative-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The boy （ ） is running is my brother.",
+    "answer": 2,
+    "explanation": "人を説明する主格は who。",
+    "plain": "次の文の（ ）に入るものを選べ。　The boy （ ） is running is my brother.　① whose　② which　③ who　④ whom",
+    "choices": [
+      "whose",
+      "which",
+      "who",
+      "whom"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　This is the book （ ） I bought yesterday.",
+    "answer": 1,
+    "explanation": "ものを説明する目的格は which（または that）。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is the book （ ） I bought yesterday.　① who　② which　③ what　④ whose",
+    "choices": [
+      "who",
+      "which",
+      "what",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I know a girl （ ） father is a doctor.",
+    "answer": 3,
+    "explanation": "「その人の～」は whose。",
+    "plain": "次の文の（ ）に入るものを選べ。　I know a girl （ ） father is a doctor.　① who　② whom　③ which　④ whose",
+    "choices": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-4",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The man （ ） I met was kind.",
+    "answer": 2,
+    "explanation": "人を説明する目的格は whom（who も可）。",
+    "plain": "次の文の（ ）に入るものを選べ。　The man （ ） I met was kind.　① what　② which　③ whom　④ whose",
+    "choices": [
+      "what",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The car （ ） is parked there is mine.",
+    "answer": 1,
+    "explanation": "ものを説明する主格は which（that も可）。",
+    "plain": "次の文の（ ）に入るものを選べ。　The car （ ） is parked there is mine.　① who　② which　③ whose　④ whom",
+    "choices": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-6",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Everything （ ） he said was true.",
+    "answer": 0,
+    "explanation": "Everything のあとは that を使う。",
+    "plain": "次の文の（ ）に入るものを選べ。　Everything （ ） he said was true.　① that　② what　③ whose　④ who",
+    "choices": [
+      "that",
+      "what",
+      "whose",
+      "who"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　This is （ ） I want.",
+    "answer": 0,
+    "explanation": "what は「～するもの」。先行詞を含む。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is （ ） I want.　① what　② that　③ who　④ which",
+    "choices": [
+      "what",
+      "that",
+      "who",
+      "which"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The woman （ ） lives next door is a teacher.",
+    "answer": 2,
+    "explanation": "人を説明する主格。",
+    "plain": "次の文の（ ）に入るものを選べ。　The woman （ ） lives next door is a teacher.　① what　② whom　③ who　④ whose",
+    "choices": [
+      "what",
+      "whom",
+      "who",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I have a friend （ ） lives in Paris.",
+    "answer": 0,
+    "explanation": "人を説明する主格。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have a friend （ ） lives in Paris.　① who　② what　③ which　④ whose",
+    "choices": [
+      "who",
+      "what",
+      "which",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-10",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　She is the singer （ ） songs I like.",
+    "answer": 3,
+    "explanation": "「その人の歌」は whose songs。",
+    "plain": "次の文の（ ）に入るものを選べ。　She is the singer （ ） songs I like.　① who　② that　③ which　④ whose",
+    "choices": [
+      "who",
+      "that",
+      "which",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-11",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The book （ ） cover is red is mine.",
+    "answer": 1,
+    "explanation": "「その表紙」は whose cover。",
+    "plain": "次の文の（ ）に入るものを選べ。　The book （ ） cover is red is mine.　① what　② whose　③ which　④ who",
+    "choices": [
+      "what",
+      "whose",
+      "which",
+      "who"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The room （ ） we stayed was clean.",
+    "answer": 0,
+    "explanation": "場所を説明する関係副詞は where。",
+    "plain": "次の文の（ ）に入るものを選べ。　The room （ ） we stayed was clean.　① where　② whose　③ who　④ which",
+    "choices": [
+      "where",
+      "whose",
+      "who",
+      "which"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-13",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　I remember the day （ ） we met.",
+    "answer": 1,
+    "explanation": "時を説明する関係副詞は when。",
+    "plain": "次の文の（ ）に入るものを選べ。　I remember the day （ ） we met.　① which　② when　③ what　④ who",
+    "choices": [
+      "which",
+      "when",
+      "what",
+      "who"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-14",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　That is the reason （ ） he was late.",
+    "answer": 3,
+    "explanation": "理由を説明する関係副詞は why。",
+    "plain": "次の文の（ ）に入るものを選べ。　That is the reason （ ） he was late.　① who　② when　③ which　④ why",
+    "choices": [
+      "who",
+      "when",
+      "which",
+      "why"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The movie （ ） I saw yesterday was great.",
+    "answer": 1,
+    "explanation": "ものを説明する目的格は that。",
+    "plain": "次の文の（ ）に入るものを選べ。　The movie （ ） I saw yesterday was great.　① who　② that　③ whom　④ whose",
+    "choices": [
+      "who",
+      "that",
+      "whom",
+      "whose"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　He has a dog （ ） tail is long.",
+    "answer": 1,
+    "explanation": "「その犬の尾」は whose tail。",
+    "plain": "次の文の（ ）に入るものを選べ。　He has a dog （ ） tail is long.　① who　② whose　③ which　④ whom",
+    "choices": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-17",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　The teacher （ ） taught us English is kind.",
+    "answer": 1,
+    "explanation": "人を説明する主格。",
+    "plain": "次の文の（ ）に入るものを選べ。　The teacher （ ） taught us English is kind.　① whose　② who　③ whom　④ what",
+    "choices": [
+      "whose",
+      "who",
+      "whom",
+      "what"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　Do you know the man （ ） is standing there?",
+    "answer": 0,
+    "explanation": "人を説明する主格。",
+    "plain": "次の文の（ ）に入るものを選べ。　Do you know the man （ ） is standing there?　① who　② whose　③ whom　④ what",
+    "choices": [
+      "who",
+      "whose",
+      "whom",
+      "what"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-g_relative-19",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　This is the house （ ） I was born.",
+    "answer": 3,
+    "explanation": "場所を説明する関係副詞は where。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is the house （ ） I was born.　① whose　② which　③ who　④ where",
+    "choices": [
+      "whose",
+      "which",
+      "who",
+      "where"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_relative-20",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "関係代名詞",
+    "body": "次の文の（ ）に入るものを選べ。　All （ ） glitters is not gold.",
+    "answer": 2,
+    "explanation": "All のあとは that。",
+    "plain": "次の文の（ ）に入るものを選べ。　All （ ） glitters is not gold.　① whose　② what　③ that　④ who",
+    "choices": [
+      "whose",
+      "what",
+      "that",
+      "who"
+    ],
+    "unit": "g_relative",
+    "hint": "先行詞が人かものか、あとに続く部分で主語が欠けているか、所有を表すかで選びます。",
+    "rate": 4.1
+  },
+  {
+    "id": "u-g_passive-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　English （ ） in many countries.",
+    "answer": 2,
+    "explanation": "受け身は be動詞 + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　English （ ） in many countries.　① spoke　② speaks　③ is spoken　④ is speaking",
+    "choices": [
+      "spoke",
+      "speaks",
+      "is spoken",
+      "is speaking"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　This room （ ） every day.",
+    "answer": 0,
+    "explanation": "「掃除される」なので受け身。",
+    "plain": "次の文の（ ）に入るものを選べ。　This room （ ） every day.　① is cleaned　② cleans　③ is cleaning　④ cleaned",
+    "choices": [
+      "is cleaned",
+      "cleans",
+      "is cleaning",
+      "cleaned"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The window （ ） by Tom yesterday.",
+    "answer": 2,
+    "explanation": "過去の受け身は was/were + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　The window （ ） by Tom yesterday.　① is broken　② broke　③ was broken　④ breaks",
+    "choices": [
+      "is broken",
+      "broke",
+      "was broken",
+      "breaks"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　This book （ ） by many people.",
+    "answer": 0,
+    "explanation": "受け身。read の過去分詞は read（発音は[red]）。",
+    "plain": "次の文の（ ）に入るものを選べ。　This book （ ） by many people.　① is read　② reads　③ has read　④ is reading",
+    "choices": [
+      "is read",
+      "reads",
+      "has read",
+      "is reading"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-5",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The letter （ ） tomorrow.",
+    "answer": 2,
+    "explanation": "未来の受け身は will be + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　The letter （ ） tomorrow.　① will send　② is sending　③ will be sent　④ sent",
+    "choices": [
+      "will send",
+      "is sending",
+      "will be sent",
+      "sent"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The bridge （ ） in 1990.",
+    "answer": 3,
+    "explanation": "「建てられた」は was built。",
+    "plain": "次の文の（ ）に入るものを選べ。　The bridge （ ） in 1990.　① builds　② built　③ is built　④ was built",
+    "choices": [
+      "builds",
+      "built",
+      "is built",
+      "was built"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　My bike （ ） last night.",
+    "answer": 2,
+    "explanation": "「盗まれた」は was stolen。",
+    "plain": "次の文の（ ）に入るものを選べ。　My bike （ ） last night.　① is stolen　② stole　③ was stolen　④ stealing",
+    "choices": [
+      "is stolen",
+      "stole",
+      "was stolen",
+      "stealing"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　Many languages （ ） in India.",
+    "answer": 0,
+    "explanation": "主語が複数なので are。",
+    "plain": "次の文の（ ）に入るものを選べ。　Many languages （ ） in India.　① are spoken　② are speaking　③ spoke　④ speak",
+    "choices": [
+      "are spoken",
+      "are speaking",
+      "spoke",
+      "speak"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The game （ ） because of the rain.",
+    "answer": 0,
+    "explanation": "「中止された」は was canceled。",
+    "plain": "次の文の（ ）に入るものを選べ。　The game （ ） because of the rain.　① was canceled　② is canceling　③ canceled　④ cancels",
+    "choices": [
+      "was canceled",
+      "is canceling",
+      "canceled",
+      "cancels"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　She （ ） by everyone.",
+    "answer": 3,
+    "explanation": "「愛されている」は is loved。",
+    "plain": "次の文の（ ）に入るものを選べ。　She （ ） by everyone.　① loving　② love　③ loves　④ is loved",
+    "choices": [
+      "loving",
+      "love",
+      "loves",
+      "is loved"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The dishes （ ） by my brother.",
+    "answer": 3,
+    "explanation": "主語が複数なので were。",
+    "plain": "次の文の（ ）に入るものを選べ。　The dishes （ ） by my brother.　① washed　② washing　③ was washed　④ were washed",
+    "choices": [
+      "washed",
+      "washing",
+      "was washed",
+      "were washed"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　This song （ ） all over the world.",
+    "answer": 2,
+    "explanation": "sing の過去分詞は sung。",
+    "plain": "次の文の（ ）に入るものを選べ。　This song （ ） all over the world.　① is singing　② sings　③ is sung　④ sang",
+    "choices": [
+      "is singing",
+      "sings",
+      "is sung",
+      "sang"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The cake （ ） by my mother.",
+    "answer": 2,
+    "explanation": "「作られた」は was made。",
+    "plain": "次の文の（ ）に入るものを選べ。　The cake （ ） by my mother.　① is making　② makes　③ was made　④ made",
+    "choices": [
+      "is making",
+      "makes",
+      "was made",
+      "made"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The picture （ ） by a famous artist.",
+    "answer": 1,
+    "explanation": "「描かれた」は was painted。",
+    "plain": "次の文の（ ）に入るものを選べ。　The picture （ ） by a famous artist.　① paints　② was painted　③ is painting　④ painted",
+    "choices": [
+      "paints",
+      "was painted",
+      "is painting",
+      "painted"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　Rice （ ） in Japan.",
+    "answer": 2,
+    "explanation": "「栽培されている」は is grown。",
+    "plain": "次の文の（ ）に入るものを選べ。　Rice （ ） in Japan.　① grows　② grew　③ is grown　④ is growing",
+    "choices": [
+      "grows",
+      "grew",
+      "is grown",
+      "is growing"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_passive-16",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　English （ ） to us by Ms. Brown.",
+    "answer": 0,
+    "explanation": "teach の過去分詞は taught。",
+    "plain": "次の文の（ ）に入るものを選べ。　English （ ） to us by Ms. Brown.　① is taught　② taught　③ is teaching　④ teaches",
+    "choices": [
+      "is taught",
+      "taught",
+      "is teaching",
+      "teaches"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The rules （ ） by all students.",
+    "answer": 2,
+    "explanation": "助動詞のある受け身は must be + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　The rules （ ） by all students.　① must following　② must follow　③ must be followed　④ must be follow",
+    "choices": [
+      "must following",
+      "must follow",
+      "must be followed",
+      "must be follow"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-18",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The room is （ ） cleaned now.",
+    "answer": 0,
+    "explanation": "進行形の受け身は be being + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　The room is （ ） cleaned now.　① being　② is　③ been　④ be",
+    "choices": [
+      "being",
+      "is",
+      "been",
+      "be"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-19",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） a gift by my aunt.",
+    "answer": 2,
+    "explanation": "give の過去分詞は given。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） a gift by my aunt.　① was gave　② gave　③ was given　④ giving",
+    "choices": [
+      "was gave",
+      "gave",
+      "was given",
+      "giving"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-g_passive-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "受け身",
+    "body": "次の文の（ ）に入るものを選べ。　The winner （ ） by the judges.",
+    "answer": 0,
+    "explanation": "choose の過去分詞は chosen。",
+    "plain": "次の文の（ ）に入るものを選べ。　The winner （ ） by the judges.　① was chosen　② chose　③ chooses　④ choosing",
+    "choices": [
+      "was chosen",
+      "chose",
+      "chooses",
+      "choosing"
+    ],
+    "unit": "g_passive",
+    "hint": "受け身は「be動詞 + 過去分詞」。主語が「～される」側かを確かめましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_perfect-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） lived here for ten years.",
+    "answer": 3,
+    "explanation": "have + 過去分詞で現在完了（継続）。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） lived here for ten years.　① am　② was　③ did　④ have",
+    "choices": [
+      "am",
+      "was",
+      "did",
+      "have"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　She （ ） just left.",
+    "answer": 1,
+    "explanation": "主語が三人称単数なので has。",
+    "plain": "次の文の（ ）に入るものを選べ。　She （ ） just left.　① is　② has　③ have　④ did",
+    "choices": [
+      "is",
+      "has",
+      "have",
+      "did"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） you ever been to Kyoto?",
+    "answer": 3,
+    "explanation": "経験をたずねる現在完了の疑問文。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） you ever been to Kyoto?　① Did　② Are　③ Do　④ Have",
+    "choices": [
+      "Did",
+      "Are",
+      "Do",
+      "Have"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I have never （ ） sushi.",
+    "answer": 1,
+    "explanation": "eat の過去分詞は eaten。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have never （ ） sushi.　① eat　② eaten　③ ate　④ eating",
+    "choices": [
+      "eat",
+      "eaten",
+      "ate",
+      "eating"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　He hasn't （ ） his homework yet.",
+    "answer": 2,
+    "explanation": "has not + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　He hasn't （ ） his homework yet.　① finishing　② finishes　③ finished　④ finish",
+    "choices": [
+      "finishing",
+      "finishes",
+      "finished",
+      "finish"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　How long （ ） you lived in Tokyo?",
+    "answer": 0,
+    "explanation": "期間をたずねる現在完了。",
+    "plain": "次の文の（ ）に入るものを選べ。　How long （ ） you lived in Tokyo?　① have　② are　③ do　④ did",
+    "choices": [
+      "have",
+      "are",
+      "do",
+      "did"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　We have known each other （ ） 2010.",
+    "answer": 1,
+    "explanation": "起点を表すときは since。",
+    "plain": "次の文の（ ）に入るものを選べ。　We have known each other （ ） 2010.　① from　② since　③ for　④ in",
+    "choices": [
+      "from",
+      "since",
+      "for",
+      "in"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　She has been sick （ ） three days.",
+    "answer": 0,
+    "explanation": "期間を表すときは for。",
+    "plain": "次の文の（ ）に入るものを選べ。　She has been sick （ ） three days.　① for　② from　③ at　④ since",
+    "choices": [
+      "for",
+      "from",
+      "at",
+      "since"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） my key. I can't find it.",
+    "answer": 3,
+    "explanation": "今も見つからない（結果）は現在完了。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） my key. I can't find it.　① am losing　② lose　③ will lose　④ have lost",
+    "choices": [
+      "am losing",
+      "lose",
+      "will lose",
+      "have lost"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　Have you finished your homework （ ）?",
+    "answer": 0,
+    "explanation": "疑問文で「もう」は yet。",
+    "plain": "次の文の（ ）に入るものを選べ。　Have you finished your homework （ ）?　① yet　② ago　③ last night　④ tomorrow",
+    "choices": [
+      "yet",
+      "ago",
+      "last night",
+      "tomorrow"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） there three times.",
+    "answer": 0,
+    "explanation": "have been to ～ は経験。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） there three times.　① have been　② was　③ am　④ will be",
+    "choices": [
+      "have been",
+      "was",
+      "am",
+      "will be"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　He （ ） to Paris. He is not here now.",
+    "answer": 0,
+    "explanation": "has gone to ～ は「行ってしまった（今はいない）」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He （ ） to Paris. He is not here now.　① has gone　② was being　③ has been　④ had been",
+    "choices": [
+      "has gone",
+      "was being",
+      "has been",
+      "had been"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-g_perfect-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I have （ ） seen such a beautiful view.",
+    "answer": 1,
+    "explanation": "never は「一度も～ない」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have （ ） seen such a beautiful view.　① yet　② never　③ ever　④ already",
+    "choices": [
+      "yet",
+      "never",
+      "ever",
+      "already"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　They （ ） not eaten lunch yet.",
+    "answer": 0,
+    "explanation": "have not + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　They （ ） not eaten lunch yet.　① have　② were　③ are　④ did",
+    "choices": [
+      "have",
+      "were",
+      "are",
+      "did"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　The movie （ ） already started.",
+    "answer": 3,
+    "explanation": "主語が三人称単数なので has。",
+    "plain": "次の文の（ ）に入るものを選べ。　The movie （ ） already started.　① is　② have　③ did　④ has",
+    "choices": [
+      "is",
+      "have",
+      "did",
+      "has"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-16",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　It has （ ） raining since morning.",
+    "answer": 3,
+    "explanation": "現在完了進行形は have/has been + ～ing。",
+    "plain": "次の文の（ ）に入るものを選べ。　It has （ ） raining since morning.　① be　② was　③ being　④ been",
+    "choices": [
+      "be",
+      "was",
+      "being",
+      "been"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-g_perfect-17",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　My father has （ ） in this company for 20 years.",
+    "answer": 1,
+    "explanation": "has + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　My father has （ ） in this company for 20 years.　① works　② worked　③ working　④ work",
+    "choices": [
+      "works",
+      "worked",
+      "working",
+      "work"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　Have you （ ） read this book?",
+    "answer": 0,
+    "explanation": "経験をたずねるときの ever。",
+    "plain": "次の文の（ ）に入るものを選べ。　Have you （ ） read this book?　① ever　② tomorrow　③ ago　④ last",
+    "choices": [
+      "ever",
+      "tomorrow",
+      "ago",
+      "last"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　She （ ） never been abroad.",
+    "answer": 0,
+    "explanation": "主語が三人称単数なので has。",
+    "plain": "次の文の（ ）に入るものを選べ。　She （ ） never been abroad.　① has　② have　③ was　④ did",
+    "choices": [
+      "has",
+      "have",
+      "was",
+      "did"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_perfect-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "現在完了",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） known him since I was a child.",
+    "answer": 1,
+    "explanation": "since のある文は現在完了。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） known him since I was a child.　① was　② have　③ did　④ am",
+    "choices": [
+      "was",
+      "have",
+      "did",
+      "am"
+    ],
+    "unit": "g_perfect",
+    "hint": "have/has + 過去分詞。since は起点、for は期間、yet は疑問・否定で使います。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-g_subjunctive-1",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） a bird, I would fly to you.",
+    "answer": 2,
+    "explanation": "仮定法過去の be 動詞は were。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） a bird, I would fly to you.　① am　② be　③ were　④ will be",
+    "choices": [
+      "am",
+      "be",
+      "were",
+      "will be"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-2",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I had more time, I （ ） travel.",
+    "answer": 1,
+    "explanation": "仮定法過去の主節は would + 動詞の原形。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I had more time, I （ ） travel.　① will　② would　③ can　④ did",
+    "choices": [
+      "will",
+      "would",
+      "can",
+      "did"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-3",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　I wish I （ ） taller.",
+    "answer": 2,
+    "explanation": "I wish ～ は仮定法過去。",
+    "plain": "次の文の（ ）に入るものを選べ。　I wish I （ ） taller.　① have been　② will be　③ were　④ am",
+    "choices": [
+      "have been",
+      "will be",
+      "were",
+      "am"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-4",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If it （ ） sunny, we would go out.",
+    "answer": 3,
+    "explanation": "if 節の中は過去形（be は were）。",
+    "plain": "次の文の（ ）に入るものを選べ。　If it （ ） sunny, we would go out.　① is　② will be　③ would be　④ were",
+    "choices": [
+      "is",
+      "will be",
+      "would be",
+      "were"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-5",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） you, I would study harder.",
+    "answer": 0,
+    "explanation": "「もし私があなたなら」は If I were you。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） you, I would study harder.　① were　② be　③ am　④ have been",
+    "choices": [
+      "were",
+      "be",
+      "am",
+      "have been"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-6",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I had known, I （ ） have told you.",
+    "answer": 2,
+    "explanation": "仮定法過去完了の主節は would have + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I had known, I （ ） have told you.　① can　② did　③ would　④ will",
+    "choices": [
+      "can",
+      "did",
+      "would",
+      "will"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-g_subjunctive-7",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If she （ ） harder, she would have passed.",
+    "answer": 1,
+    "explanation": "仮定法過去完了の if 節は had + 過去分詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　If she （ ） harder, she would have passed.　① studied　② had studied　③ has studied　④ studies",
+    "choices": [
+      "studied",
+      "had studied",
+      "has studied",
+      "studies"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-g_subjunctive-8",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　I wish I （ ） a car.",
+    "answer": 2,
+    "explanation": "現在の願望は過去形。",
+    "plain": "次の文の（ ）に入るものを選べ。　I wish I （ ） a car.　① have　② having　③ had　④ will have",
+    "choices": [
+      "have",
+      "having",
+      "had",
+      "will have"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-9",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　He talks as if he （ ） the president.（実際は違う）",
+    "answer": 0,
+    "explanation": "as if のあとは仮定法過去。",
+    "plain": "次の文の（ ）に入るものを選べ。　He talks as if he （ ） the president.（実際は違う）　① were　② be　③ is　④ has been",
+    "choices": [
+      "were",
+      "be",
+      "is",
+      "has been"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-g_subjunctive-10",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） rich, I would buy a house.",
+    "answer": 3,
+    "explanation": "仮定法過去。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） rich, I would buy a house.　① will be　② am　③ be　④ were",
+    "choices": [
+      "will be",
+      "am",
+      "be",
+      "were"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-11",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　What would you do if you （ ） a million dollars?",
+    "answer": 3,
+    "explanation": "仮定法過去の if 節。",
+    "plain": "次の文の（ ）に入るものを選べ。　What would you do if you （ ） a million dollars?　① having　② will have　③ have　④ had",
+    "choices": [
+      "having",
+      "will have",
+      "have",
+      "had"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） a magic wand, I would make you happy.",
+    "answer": 2,
+    "explanation": "仮定法過去の if 節。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） a magic wand, I would make you happy.　① has　② will have　③ had　④ have",
+    "choices": [
+      "has",
+      "will have",
+      "had",
+      "have"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-13",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　I wish I （ ） swim well.",
+    "answer": 0,
+    "explanation": "I wish のあとは could。",
+    "plain": "次の文の（ ）に入るものを選べ。　I wish I （ ） swim well.　① could　② must　③ can　④ will",
+    "choices": [
+      "could",
+      "must",
+      "can",
+      "will"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-14",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If he （ ） there, he would have helped us.",
+    "answer": 2,
+    "explanation": "仮定法過去完了。",
+    "plain": "次の文の（ ）に入るものを選べ。　If he （ ） there, he would have helped us.　① was　② is　③ had been　④ has been",
+    "choices": [
+      "was",
+      "is",
+      "had been",
+      "has been"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-g_subjunctive-15",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, I would stay home.",
+    "answer": 2,
+    "explanation": "仮定法過去（可能性の低い仮定）。",
+    "plain": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, I would stay home.　① rains　② will rain　③ rained　④ raining",
+    "choices": [
+      "rains",
+      "will rain",
+      "rained",
+      "raining"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-16",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　I wish she （ ） here now.",
+    "answer": 1,
+    "explanation": "現在の事実に反する願望。",
+    "plain": "次の文の（ ）に入るものを選べ。　I wish she （ ） here now.　① will be　② were　③ is　④ be",
+    "choices": [
+      "will be",
+      "were",
+      "is",
+      "be"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If you （ ） me, what would you do?",
+    "answer": 1,
+    "explanation": "仮定法過去。",
+    "plain": "次の文の（ ）に入るものを選べ。　If you （ ） me, what would you do?　① will be　② were　③ be　④ are",
+    "choices": [
+      "will be",
+      "were",
+      "be",
+      "are"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-18",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） a lot of money, I could buy it.",
+    "answer": 2,
+    "explanation": "仮定法過去。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） a lot of money, I could buy it.　① have　② having　③ had　④ has",
+    "choices": [
+      "have",
+      "having",
+      "had",
+      "has"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 3.7
+  },
+  {
+    "id": "u-g_subjunctive-19",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　If I （ ） earlier, I would have caught the train.",
+    "answer": 3,
+    "explanation": "仮定法過去完了。",
+    "plain": "次の文の（ ）に入るものを選べ。　If I （ ） earlier, I would have caught the train.　① leave　② have left　③ left　④ had left",
+    "choices": [
+      "leave",
+      "have left",
+      "left",
+      "had left"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-g_subjunctive-20",
+    "category": "eng_sentence",
+    "difficulty": 3,
+    "title": "仮定法",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） your help, I could not have finished.",
+    "answer": 3,
+    "explanation": "Without ～ は「～がなければ」。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） your help, I could not have finished.　① If　② With　③ When　④ Without",
+    "choices": [
+      "If",
+      "With",
+      "When",
+      "Without"
+    ],
+    "unit": "g_subjunctive",
+    "hint": "現在の事実に反するなら過去形（be は were）、過去の事実に反するなら had + 過去分詞。",
+    "rate": 2.9
+  },
+  {
+    "id": "u-c_mass-1",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "化学変化の前後で、全体の質量が変わらないことを何というか。",
+    "answer": 1,
+    "explanation": "質量保存の法則。",
+    "plain": "化学変化の前後で、全体の質量が変わらないことを何というか。　① 作用・反作用の法則　② 質量保存の法則　③ 慣性の法則　④ 定比例の法則",
+    "choices": [
+      "作用・反作用の法則",
+      "質量保存の法則",
+      "慣性の法則",
+      "定比例の法則"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-2",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "密閉した容器の中で炭酸水素ナトリウムと塩酸を反応させた。反応後、容器ごとの質量は反応前と比べてどうか。",
+    "answer": 1,
+    "explanation": "気体が容器から出ていかないので、質量は変わらない。",
+    "plain": "密閉した容器の中で炭酸水素ナトリウムと塩酸を反応させた。反応後、容器ごとの質量は反応前と比べてどうか。　① ゼロになる　② 変わらない　③ 増える　④ 減る",
+    "choices": [
+      "ゼロになる",
+      "変わらない",
+      "増える",
+      "減る"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-3",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "炭酸水素ナトリウムと塩酸を開いた容器で反応させたとき、質量が減る理由はどれか。",
+    "answer": 0,
+    "explanation": "二酸化炭素が逃げる。",
+    "plain": "炭酸水素ナトリウムと塩酸を開いた容器で反応させたとき、質量が減る理由はどれか。　① 発生した気体が空気中に出ていくから　② 原子がなくなったから　③ 水が蒸発したから　④ 物質が消えたから",
+    "choices": [
+      "発生した気体が空気中に出ていくから",
+      "原子がなくなったから",
+      "水が蒸発したから",
+      "物質が消えたから"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-4",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "スチールウールを燃やすと、質量が増えるのはなぜか。",
+    "answer": 1,
+    "explanation": "酸化鉄になる。",
+    "plain": "スチールウールを燃やすと、質量が増えるのはなぜか。　① 鉄が増えたから　② 酸素と結びついたから　③ 窒素が増えたから　④ 水が付いたから",
+    "choices": [
+      "鉄が増えたから",
+      "酸素と結びついたから",
+      "窒素が増えたから",
+      "水が付いたから"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-5",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "銅と酸素が結びつくときの質量の比は、およそどれか（銅：酸素）。",
+    "answer": 2,
+    "explanation": "銅 4 g に酸素 1 g が結びつく。",
+    "plain": "銅と酸素が結びつくときの質量の比は、およそどれか（銅：酸素）。　① 3：2　② 1：4　③ 4：1　④ 2：3",
+    "choices": [
+      "3：2",
+      "1：4",
+      "4：1",
+      "2：3"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-6",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "マグネシウムと酸素が結びつくときの質量の比は、およそどれか（マグネシウム：酸素）。",
+    "answer": 0,
+    "explanation": "マグネシウム 3 g に酸素 2 g。",
+    "plain": "マグネシウムと酸素が結びつくときの質量の比は、およそどれか（マグネシウム：酸素）。　① 3：2　② 4：1　③ 2：3　④ 1：1",
+    "choices": [
+      "3：2",
+      "4：1",
+      "2：3",
+      "1：1"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-7",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "銅 8.0 g を完全に酸化させると、酸化銅は何 g できるか。",
+    "answer": 3,
+    "explanation": "銅：酸素 = 4：1 なので酸素 2.0 g が結びつく。",
+    "plain": "銅 8.0 g を完全に酸化させると、酸化銅は何 g できるか。　① 9.0 g　② 8.5 g　③ 12.0 g　④ 10.0 g",
+    "choices": [
+      "9.0 g",
+      "8.5 g",
+      "12.0 g",
+      "10.0 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-8",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "マグネシウム 3.0 g を完全に酸化させると、酸化マグネシウムは何 g できるか。",
+    "answer": 2,
+    "explanation": "マグネシウム：酸素 = 3：2 なので酸素 2.0 g。",
+    "plain": "マグネシウム 3.0 g を完全に酸化させると、酸化マグネシウムは何 g できるか。　① 4.0 g　② 6.0 g　③ 5.0 g　④ 3.5 g",
+    "choices": [
+      "4.0 g",
+      "6.0 g",
+      "5.0 g",
+      "3.5 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-9",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "銅 6.0 g が酸化して酸化銅 7.5 g になった。結びついた酸素は何 g か。",
+    "answer": 0,
+    "explanation": "7.5 − 6.0 = 1.5 g。",
+    "plain": "銅 6.0 g が酸化して酸化銅 7.5 g になった。結びついた酸素は何 g か。　① 1.5 g　② 0.5 g　③ 1.0 g　④ 6.0 g",
+    "choices": [
+      "1.5 g",
+      "0.5 g",
+      "1.0 g",
+      "6.0 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-10",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "マグネシウム 1.2 g を完全に燃やすと、酸化マグネシウムは何 g できるか。",
+    "answer": 1,
+    "explanation": "マグネシウム：酸素 = 3：2 より、酸素 0.8 g。",
+    "plain": "マグネシウム 1.2 g を完全に燃やすと、酸化マグネシウムは何 g できるか。　① 1.6 g　② 2.0 g　③ 2.4 g　④ 1.8 g",
+    "choices": [
+      "1.6 g",
+      "2.0 g",
+      "2.4 g",
+      "1.8 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-11",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "化学変化で、物質をつくる成分の質量の比が一定であることを何というか。",
+    "answer": 0,
+    "explanation": "化合物は成分の質量の比が決まっている。",
+    "plain": "化学変化で、物質をつくる成分の質量の比が一定であることを何というか。　① 定比例の法則　② オームの法則　③ 慣性の法則　④ 質量保存の法則",
+    "choices": [
+      "定比例の法則",
+      "オームの法則",
+      "慣性の法則",
+      "質量保存の法則"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-12",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "ろうそくが燃えて質量が減って見える理由はどれか。",
+    "answer": 2,
+    "explanation": "密閉すると質量は変わらない。",
+    "plain": "ろうそくが燃えて質量が減って見える理由はどれか。　① 窒素と結びつくから　② 物質が消えるから　③ 生じた二酸化炭素と水蒸気が空気中に出ていくから　④ 酸素が増えるから",
+    "choices": [
+      "窒素と結びつくから",
+      "物質が消えるから",
+      "生じた二酸化炭素と水蒸気が空気中に出ていくから",
+      "酸素が増えるから"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-13",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "水素 1 g と酸素 8 g が過不足なく反応すると、水は何 g できるか。",
+    "answer": 2,
+    "explanation": "質量保存の法則より 1 + 8 = 9 g。",
+    "plain": "水素 1 g と酸素 8 g が過不足なく反応すると、水は何 g できるか。　① 10 g　② 7 g　③ 9 g　④ 8 g",
+    "choices": [
+      "10 g",
+      "7 g",
+      "9 g",
+      "8 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-14",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "酸化銅 10 g を炭素で完全に還元すると、銅は何 g できるか（銅：酸素 = 4：1）。",
+    "answer": 1,
+    "explanation": "酸素 2 g が出ていくので 10 − 2 = 8 g。",
+    "plain": "酸化銅 10 g を炭素で完全に還元すると、銅は何 g できるか（銅：酸素 = 4：1）。　① 6 g　② 8 g　③ 2 g　④ 10 g",
+    "choices": [
+      "6 g",
+      "8 g",
+      "2 g",
+      "10 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-15",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "銅 3.2 g が完全に酸化すると、酸化銅は何 g になるか。",
+    "answer": 2,
+    "explanation": "銅：酸素 = 4：1 なので酸素 0.8 g。",
+    "plain": "銅 3.2 g が完全に酸化すると、酸化銅は何 g になるか。　① 3.6 g　② 5.0 g　③ 4.0 g　④ 4.8 g",
+    "choices": [
+      "3.6 g",
+      "5.0 g",
+      "4.0 g",
+      "4.8 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-16",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "化学変化の前後で、変わるものはどれか。",
+    "answer": 2,
+    "explanation": "原子の組み合わせが変わり、別の物質ができる。",
+    "plain": "化学変化の前後で、変わるものはどれか。　① 原子の数　② 原子の種類　③ 物質の種類　④ 全体の質量",
+    "choices": [
+      "原子の数",
+      "原子の種類",
+      "物質の種類",
+      "全体の質量"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-17",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "化学変化の前後で、変わらないものはどれか。",
+    "answer": 1,
+    "explanation": "原子の組み合わせが変わるだけ。",
+    "plain": "化学変化の前後で、変わらないものはどれか。　① 物質の性質　② 原子の種類と数　③ 物質の種類　④ 分子の種類",
+    "choices": [
+      "物質の性質",
+      "原子の種類と数",
+      "物質の種類",
+      "分子の種類"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-c_mass-18",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "銅を加熱するとき、酸素が十分でないと、全部は酸化しない。酸化が進むと質量はどうなるか。",
+    "answer": 3,
+    "explanation": "銅が酸素と結びつく限界がある。",
+    "plain": "銅を加熱するとき、酸素が十分でないと、全部は酸化しない。酸化が進むと質量はどうなるか。　① 増え続ける　② 変わらない　③ だんだん減る　④ だんだん増えて、やがて一定になる",
+    "choices": [
+      "増え続ける",
+      "変わらない",
+      "だんだん減る",
+      "だんだん増えて、やがて一定になる"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-19",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化と質量",
+    "body": "銅の粉末 4.0 g を加熱したら 4.4 g になった。結びつかなかった銅は何 g か（銅：酸素 = 4：1）。",
+    "answer": 2,
+    "explanation": "酸素 0.4 g が結びつき、銅は 1.6 g 酸化した。残り 4.0 − 1.6 = 2.4 g。",
+    "plain": "銅の粉末 4.0 g を加熱したら 4.4 g になった。結びつかなかった銅は何 g か（銅：酸素 = 4：1）。　① 3.6 g　② 1.6 g　③ 2.4 g　④ 0.4 g",
+    "choices": [
+      "3.6 g",
+      "1.6 g",
+      "2.4 g",
+      "0.4 g"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 3.6
+  },
+  {
+    "id": "u-c_mass-20",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化と質量",
+    "body": "石灰石（炭酸カルシウム）にうすい塩酸を加えたときに発生する気体はどれか。",
+    "answer": 1,
+    "explanation": "石灰水を白くにごらせる。",
+    "plain": "石灰石（炭酸カルシウム）にうすい塩酸を加えたときに発生する気体はどれか。　① 窒素　② 二酸化炭素　③ 酸素　④ 水素",
+    "choices": [
+      "窒素",
+      "二酸化炭素",
+      "酸素",
+      "水素"
+    ],
+    "unit": "c_mass",
+    "hint": "反応の前後で質量の合計は変わらない。結びつく質量の比は一定です。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-b_photo-1",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成で使われる気体はどれか。",
+    "answer": 1,
+    "explanation": "光合成の材料は水と二酸化炭素。",
+    "plain": "光合成で使われる気体はどれか。　① 酸素　② 二酸化炭素　③ 窒素　④ 水素",
+    "choices": [
+      "酸素",
+      "二酸化炭素",
+      "窒素",
+      "水素"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-2",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成でできる気体はどれか。",
+    "answer": 1,
+    "explanation": "光合成で酸素が放出される。",
+    "plain": "光合成でできる気体はどれか。　① 水素　② 酸素　③ 窒素　④ 二酸化炭素",
+    "choices": [
+      "水素",
+      "酸素",
+      "窒素",
+      "二酸化炭素"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-3",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成が行われる、細胞の中の場所はどれか。",
+    "answer": 2,
+    "explanation": "葉緑体に光が当たると行われる。",
+    "plain": "光合成が行われる、細胞の中の場所はどれか。　① 液胞　② ミトコンドリア　③ 葉緑体　④ 核",
+    "choices": [
+      "液胞",
+      "ミトコンドリア",
+      "葉緑体",
+      "核"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-4",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成によってつくられる養分はどれか。",
+    "answer": 3,
+    "explanation": "デンプンがつくられる。",
+    "plain": "光合成によってつくられる養分はどれか。　① ビタミン　② 脂肪　③ タンパク質　④ デンプン",
+    "choices": [
+      "ビタミン",
+      "脂肪",
+      "タンパク質",
+      "デンプン"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-5",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "デンプンがあるかどうかを調べる液はどれか。",
+    "answer": 3,
+    "explanation": "ヨウ素液はデンプンで青紫色になる。",
+    "plain": "デンプンがあるかどうかを調べる液はどれか。　① BTB液　② 石灰水　③ ベネジクト液　④ ヨウ素液",
+    "choices": [
+      "BTB液",
+      "石灰水",
+      "ベネジクト液",
+      "ヨウ素液"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-6",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "ヨウ素液をデンプンに加えると、何色になるか。",
+    "answer": 0,
+    "explanation": "デンプンの検出反応。",
+    "plain": "ヨウ素液をデンプンに加えると、何色になるか。　① 青紫色　② 緑色　③ 赤色　④ 黄色",
+    "choices": [
+      "青紫色",
+      "緑色",
+      "赤色",
+      "黄色"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-7",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "BTB液が黄色になるのは、水溶液がどうなったときか。",
+    "answer": 2,
+    "explanation": "二酸化炭素が増えると酸性になる。",
+    "plain": "BTB液が黄色になるのは、水溶液がどうなったときか。　① アルカリ性になったとき　② 冷えたとき　③ 酸性になったとき　④ 中性のとき",
+    "choices": [
+      "アルカリ性になったとき",
+      "冷えたとき",
+      "酸性になったとき",
+      "中性のとき"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-8",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "植物が一日中行っているはたらきはどれか。",
+    "answer": 3,
+    "explanation": "光合成は光が当たるときだけ。",
+    "plain": "植物が一日中行っているはたらきはどれか。　① 蒸散　② 光合成　③ 発芽　④ 呼吸",
+    "choices": [
+      "蒸散",
+      "光合成",
+      "発芽",
+      "呼吸"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-9",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "呼吸で使われる気体はどれか。",
+    "answer": 3,
+    "explanation": "酸素を取り入れて二酸化炭素を出す。",
+    "plain": "呼吸で使われる気体はどれか。　① 窒素　② 水素　③ 二酸化炭素　④ 酸素",
+    "choices": [
+      "窒素",
+      "水素",
+      "二酸化炭素",
+      "酸素"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-10",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "呼吸で出される気体はどれか。",
+    "answer": 3,
+    "explanation": "呼吸で二酸化炭素と水ができる。",
+    "plain": "呼吸で出される気体はどれか。　① 窒素　② 水素　③ 酸素　④ 二酸化炭素",
+    "choices": [
+      "窒素",
+      "水素",
+      "酸素",
+      "二酸化炭素"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-11",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成の材料はどれとどれか。",
+    "answer": 1,
+    "explanation": "光のエネルギーで養分をつくる。",
+    "plain": "光合成の材料はどれとどれか。　① デンプンと水　② 水と二酸化炭素　③ 酸素と二酸化炭素　④ 酸素と水",
+    "choices": [
+      "デンプンと水",
+      "水と二酸化炭素",
+      "酸素と二酸化炭素",
+      "酸素と水"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-12",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "葉の裏側に多い、気体の出入り口はどれか。",
+    "answer": 1,
+    "explanation": "気孔から酸素や二酸化炭素が出入りする。",
+    "plain": "葉の裏側に多い、気体の出入り口はどれか。　① 道管　② 気孔　③ 表皮　④ 師管",
+    "choices": [
+      "道管",
+      "気孔",
+      "表皮",
+      "師管"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-13",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "昼間、強い光が当たっているとき、植物全体としては何が見られるか。",
+    "answer": 3,
+    "explanation": "光合成が呼吸より盛んなため。",
+    "plain": "昼間、強い光が当たっているとき、植物全体としては何が見られるか。　① どちらも出し入れしない　② 水だけを出す　③ 酸素を取り入れて二酸化炭素を出す　④ 二酸化炭素を取り入れて酸素を出す",
+    "choices": [
+      "どちらも出し入れしない",
+      "水だけを出す",
+      "酸素を取り入れて二酸化炭素を出す",
+      "二酸化炭素を取り入れて酸素を出す"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_photo-14",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "夜、光がないとき、植物は何を行うか。",
+    "answer": 1,
+    "explanation": "夜は光合成ができない。",
+    "plain": "夜、光がないとき、植物は何を行うか。　① 光合成だけ　② 呼吸だけ　③ どちらも行わない　④ 光合成と呼吸",
+    "choices": [
+      "光合成だけ",
+      "呼吸だけ",
+      "どちらも行わない",
+      "光合成と呼吸"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_photo-15",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "ふ入りの葉の、緑色でない部分にデンプンができないのはなぜか。",
+    "answer": 3,
+    "explanation": "葉緑体で光合成が行われる。",
+    "plain": "ふ入りの葉の、緑色でない部分にデンプンができないのはなぜか。　① 気孔がないから　② 水がないから　③ 光が当たらないから　④ 葉緑体がないから",
+    "choices": [
+      "気孔がないから",
+      "水がないから",
+      "光が当たらないから",
+      "葉緑体がないから"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_photo-16",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "アルミニウムはくでおおった葉にデンプンができないのはなぜか。",
+    "answer": 0,
+    "explanation": "光合成には光が必要。",
+    "plain": "アルミニウムはくでおおった葉にデンプンができないのはなぜか。　① 光が当たらないから　② 水がないから　③ 葉緑体がないから　④ 空気がないから",
+    "choices": [
+      "光が当たらないから",
+      "水がないから",
+      "葉緑体がないから",
+      "空気がないから"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_photo-17",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "葉をエタノールで温める理由はどれか。",
+    "answer": 1,
+    "explanation": "ヨウ素液の色の変化を見やすくする。",
+    "plain": "葉をエタノールで温める理由はどれか。　① デンプンをつくるため　② 葉の緑色をぬくため　③ 光合成を進めるため　④ 葉をやわらかくするため",
+    "choices": [
+      "デンプンをつくるため",
+      "葉の緑色をぬくため",
+      "光合成を進めるため",
+      "葉をやわらかくするため"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-18",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "光合成が呼吸より盛んなとき、まわりの二酸化炭素の量はどうなるか。",
+    "answer": 3,
+    "explanation": "光合成で二酸化炭素が使われる。",
+    "plain": "光合成が呼吸より盛んなとき、まわりの二酸化炭素の量はどうなるか。　① 増える　② 変わらない　③ ゼロになる　④ 減る",
+    "choices": [
+      "増える",
+      "変わらない",
+      "ゼロになる",
+      "減る"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_photo-19",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "光合成と呼吸",
+    "body": "光合成に必要なエネルギーはどれか。",
+    "answer": 0,
+    "explanation": "光のエネルギーを使って養分をつくる。",
+    "plain": "光合成に必要なエネルギーはどれか。　① 光エネルギー　② 運動エネルギー　③ 電気エネルギー　④ 熱エネルギー",
+    "choices": [
+      "光エネルギー",
+      "運動エネルギー",
+      "電気エネルギー",
+      "熱エネルギー"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_photo-20",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "光合成と呼吸",
+    "body": "オオカナダモに光を当てると出てくる気泡の気体はどれか。",
+    "answer": 0,
+    "explanation": "光合成で酸素が出る。",
+    "plain": "オオカナダモに光を当てると出てくる気泡の気体はどれか。　① 酸素　② 窒素　③ 水素　④ 二酸化炭素",
+    "choices": [
+      "酸素",
+      "窒素",
+      "水素",
+      "二酸化炭素"
+    ],
+    "unit": "b_photo",
+    "hint": "光合成は光が当たるとき、呼吸は一日中行われます。材料と生成物を整理しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-p_record-1",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "1秒間に60回打点する記録タイマーで、打点1つ分の時間はどれか。",
+    "answer": 1,
+    "explanation": "60打点で1秒。",
+    "plain": "1秒間に60回打点する記録タイマーで、打点1つ分の時間はどれか。　① 1/10秒　② 1/60秒　③ 1秒　④ 1/6秒",
+    "choices": [
+      "1/10秒",
+      "1/60秒",
+      "1秒",
+      "1/6秒"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-2",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "1秒間に60回打点する記録タイマーで、6打点にかかる時間はどれか。",
+    "answer": 2,
+    "explanation": "6 ÷ 60 = 0.1。",
+    "plain": "1秒間に60回打点する記録タイマーで、6打点にかかる時間はどれか。　① 0.06秒　② 1秒　③ 0.1秒　④ 0.6秒",
+    "choices": [
+      "0.06秒",
+      "1秒",
+      "0.1秒",
+      "0.6秒"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-3",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "記録テープの打点の間隔が広いところは、台車の速さがどうか。",
+    "answer": 3,
+    "explanation": "同じ時間に長く進んだ。",
+    "plain": "記録テープの打点の間隔が広いところは、台車の速さがどうか。　① 止まっている　② 遅い　③ 変わらない　④ 速い",
+    "choices": [
+      "止まっている",
+      "遅い",
+      "変わらない",
+      "速い"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-4",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "記録テープの打点の間隔が一定のとき、台車の運動は何か。",
+    "answer": 0,
+    "explanation": "同じ時間に同じ距離を進む。",
+    "plain": "記録テープの打点の間隔が一定のとき、台車の運動は何か。　① 等速直線運動　② 自由落下　③ 止まっている　④ 速さが増す運動",
+    "choices": [
+      "等速直線運動",
+      "自由落下",
+      "止まっている",
+      "速さが増す運動"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-5",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "打点の間隔がだんだん広がっているとき、台車の速さはどうなっているか。",
+    "answer": 2,
+    "explanation": "速さが増している。",
+    "plain": "打点の間隔がだんだん広がっているとき、台車の速さはどうなっているか。　① だんだん減っている　② ゼロ　③ だんだん増えている　④ 一定",
+    "choices": [
+      "だんだん減っている",
+      "ゼロ",
+      "だんだん増えている",
+      "一定"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-6",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "斜面の傾きを大きくすると、台車の速さの増え方はどうなるか。",
+    "answer": 3,
+    "explanation": "斜面下向きの力が大きくなる。",
+    "plain": "斜面の傾きを大きくすると、台車の速さの増え方はどうなるか。　① 小さくなる　② 止まる　③ 変わらない　④ 大きくなる",
+    "choices": [
+      "小さくなる",
+      "止まる",
+      "変わらない",
+      "大きくなる"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-7",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "平均の速さを求める式はどれか。",
+    "answer": 2,
+    "explanation": "速さ = 距離 ÷ 時間。",
+    "plain": "平均の速さを求める式はどれか。　① かかった時間 ÷ 移動距離　② 移動距離 × 時間　③ 移動距離 ÷ かかった時間　④ 移動距離 − 時間",
+    "choices": [
+      "かかった時間 ÷ 移動距離",
+      "移動距離 × 時間",
+      "移動距離 ÷ かかった時間",
+      "移動距離 − 時間"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "0.1秒間に5 cm 進んだ台車の平均の速さは何 cm/s か。",
+    "answer": 0,
+    "explanation": "5 ÷ 0.1 = 50。",
+    "plain": "0.1秒間に5 cm 進んだ台車の平均の速さは何 cm/s か。　① 50 cm/s　② 500 cm/s　③ 0.5 cm/s　④ 5 cm/s",
+    "choices": [
+      "50 cm/s",
+      "500 cm/s",
+      "0.5 cm/s",
+      "5 cm/s"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "0.2秒間に12 cm 進んだ台車の平均の速さは何 cm/s か。",
+    "answer": 0,
+    "explanation": "12 ÷ 0.2 = 60。",
+    "plain": "0.2秒間に12 cm 進んだ台車の平均の速さは何 cm/s か。　① 60 cm/s　② 24 cm/s　③ 6 cm/s　④ 2.4 cm/s",
+    "choices": [
+      "60 cm/s",
+      "24 cm/s",
+      "6 cm/s",
+      "2.4 cm/s"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-10",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "物体を自由落下させたとき、速さと時間の関係はどうなるか。",
+    "answer": 2,
+    "explanation": "重力が一定にはたらくので、速さが一定の割合で増える。",
+    "plain": "物体を自由落下させたとき、速さと時間の関係はどうなるか。　① 時間に反比例して速さが減る　② 速さは一定　③ 時間に比例して速さが増す　④ 速さは変わらず距離だけ増す",
+    "choices": [
+      "時間に反比例して速さが減る",
+      "速さは一定",
+      "時間に比例して速さが増す",
+      "速さは変わらず距離だけ増す"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-p_record-11",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "斜面上の台車にはたらく、運動の向きの力は何によるものか。",
+    "answer": 3,
+    "explanation": "重力の斜面に平行な成分。",
+    "plain": "斜面上の台車にはたらく、運動の向きの力は何によるものか。　① 摩擦力　② 浮力　③ 弾性力　④ 重力",
+    "choices": [
+      "摩擦力",
+      "浮力",
+      "弾性力",
+      "重力"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-12",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "摩擦のない水平面上の台車を、軽くおして手を離した。その後の運動はどれか。",
+    "answer": 0,
+    "explanation": "力がはたらかないので慣性で等速直線運動。",
+    "plain": "摩擦のない水平面上の台車を、軽くおして手を離した。その後の運動はどれか。　① 等速直線運動　② だんだん速くなる　③ すぐ止まる　④ だんだん遅くなる",
+    "choices": [
+      "等速直線運動",
+      "だんだん速くなる",
+      "すぐ止まる",
+      "だんだん遅くなる"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-p_record-13",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "走っているバスが急に止まると、体が前に傾く現象は何によるか。",
+    "answer": 0,
+    "explanation": "運動を続けようとする性質。",
+    "plain": "走っているバスが急に止まると、体が前に傾く現象は何によるか。　① 慣性　② 摩擦　③ 浮力　④ 弾性",
+    "choices": [
+      "慣性",
+      "摩擦",
+      "浮力",
+      "弾性"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-14",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "机の上に置いた本にはたらく力のつり合いで、重力とつり合う力はどれか。",
+    "answer": 1,
+    "explanation": "机が本を押し返す力。",
+    "plain": "机の上に置いた本にはたらく力のつり合いで、重力とつり合う力はどれか。　① 摩擦力　② 垂直抗力　③ 弾性力　④ 浮力",
+    "choices": [
+      "摩擦力",
+      "垂直抗力",
+      "弾性力",
+      "浮力"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-p_record-15",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "速さ−時間のグラフが、右上がりの直線になるとき、運動はどうか。",
+    "answer": 0,
+    "explanation": "傾きは加速の大きさ。",
+    "plain": "速さ−時間のグラフが、右上がりの直線になるとき、運動はどうか。　① 速さが一定の割合で増えている　② 速さが減っている　③ 等速直線運動　④ 止まっている",
+    "choices": [
+      "速さが一定の割合で増えている",
+      "速さが減っている",
+      "等速直線運動",
+      "止まっている"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-p_record-16",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "速さ−時間のグラフが、時間軸に平行な直線のとき、運動はどうか。",
+    "answer": 1,
+    "explanation": "速さが一定。",
+    "plain": "速さ−時間のグラフが、時間軸に平行な直線のとき、運動はどうか。　① 速さが増している　② 等速直線運動　③ 止まっている　④ 速さが減っている",
+    "choices": [
+      "速さが増している",
+      "等速直線運動",
+      "止まっている",
+      "速さが減っている"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-17",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "距離−時間のグラフが原点を通る直線のとき、運動はどうか。",
+    "answer": 0,
+    "explanation": "距離が時間に比例する。",
+    "plain": "距離−時間のグラフが原点を通る直線のとき、運動はどうか。　① 等速直線運動　② 止まっている　③ 速さが増している　④ 速さが減っている",
+    "choices": [
+      "等速直線運動",
+      "止まっている",
+      "速さが増している",
+      "速さが減っている"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-18",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "斜面を下る台車の、移動距離と時間の関係はどうなるか。",
+    "answer": 0,
+    "explanation": "速さが時間に比例して増えるため。",
+    "plain": "斜面を下る台車の、移動距離と時間の関係はどうなるか。　① 時間の2乗に比例する　② 時間に比例する　③ 一定　④ 時間に反比例する",
+    "choices": [
+      "時間の2乗に比例する",
+      "時間に比例する",
+      "一定",
+      "時間に反比例する"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-p_record-19",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動の記録",
+    "body": "速さの単位 m/s は、どう読むか。",
+    "answer": 2,
+    "explanation": "1秒間に進む距離。",
+    "plain": "速さの単位 m/s は、どう読むか。　① メートル分　② メートル時間　③ メートル毎秒　④ 毎分メートル",
+    "choices": [
+      "メートル分",
+      "メートル時間",
+      "メートル毎秒",
+      "毎分メートル"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 4.7
+  },
+  {
+    "id": "u-p_record-20",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動の記録",
+    "body": "72 km/h は何 m/s か。",
+    "answer": 3,
+    "explanation": "72 × 1000 ÷ 3600 = 20。",
+    "plain": "72 km/h は何 m/s か。　① 7.2 m/s　② 72 m/s　③ 200 m/s　④ 20 m/s",
+    "choices": [
+      "7.2 m/s",
+      "72 m/s",
+      "200 m/s",
+      "20 m/s"
+    ],
+    "unit": "p_record",
+    "hint": "打点の間隔と時間から、速さを求めましょう。",
+    "rate": 3.9
+  },
+  {
+    "id": "u-b_digest-1",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "だ液に含まれる消化酵素は、何を分解するか。",
+    "answer": 3,
+    "explanation": "アミラーゼがデンプンを糖に分解する。",
+    "plain": "だ液に含まれる消化酵素は、何を分解するか。　① ビタミン　② 脂肪　③ タンパク質　④ デンプン",
+    "choices": [
+      "ビタミン",
+      "脂肪",
+      "タンパク質",
+      "デンプン"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-2",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "胃液に含まれるペプシンは、何を分解するか。",
+    "answer": 2,
+    "explanation": "胃液は強い酸性。",
+    "plain": "胃液に含まれるペプシンは、何を分解するか。　① 脂肪　② ミネラル　③ タンパク質　④ デンプン",
+    "choices": [
+      "脂肪",
+      "ミネラル",
+      "タンパク質",
+      "デンプン"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-3",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "すい液に含まれる消化酵素は、何を分解するか。",
+    "answer": 0,
+    "explanation": "すい液は3大栄養素を分解する。",
+    "plain": "すい液に含まれる消化酵素は、何を分解するか。　① デンプン・タンパク質・脂肪　② 脂肪だけ　③ タンパク質だけ　④ デンプンだけ",
+    "choices": [
+      "デンプン・タンパク質・脂肪",
+      "脂肪だけ",
+      "タンパク質だけ",
+      "デンプンだけ"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-4",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "胆汁のはたらきはどれか。",
+    "answer": 3,
+    "explanation": "胆汁は酵素を含まないが、脂肪を細かくする。",
+    "plain": "胆汁のはたらきはどれか。　① 水を吸収する　② タンパク質を分解する　③ デンプンを分解する　④ 脂肪の消化を助ける",
+    "choices": [
+      "水を吸収する",
+      "タンパク質を分解する",
+      "デンプンを分解する",
+      "脂肪の消化を助ける"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-5",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "小腸の内側にある小さな突起を何というか。",
+    "answer": 0,
+    "explanation": "柔毛で表面積が大きくなる。",
+    "plain": "小腸の内側にある小さな突起を何というか。　① 柔毛　② 気管　③ 肺胞　④ 毛細血管",
+    "choices": [
+      "柔毛",
+      "気管",
+      "肺胞",
+      "毛細血管"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-6",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "ブドウ糖とアミノ酸は、小腸でおもに何に吸収されるか。",
+    "answer": 2,
+    "explanation": "血液で全身に運ばれる。",
+    "plain": "ブドウ糖とアミノ酸は、小腸でおもに何に吸収されるか。　① 肺　② 胃　③ 毛細血管　④ リンパ管",
+    "choices": [
+      "肺",
+      "胃",
+      "毛細血管",
+      "リンパ管"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-7",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "消化と吸収",
+    "body": "脂肪が分解された脂肪酸とモノグリセリドは、柔毛でおもにどこに入るか。",
+    "answer": 0,
+    "explanation": "吸収されたあと再び脂肪になる。",
+    "plain": "脂肪が分解された脂肪酸とモノグリセリドは、柔毛でおもにどこに入るか。　① リンパ管　② 毛細血管　③ 胃　④ 気管",
+    "choices": [
+      "リンパ管",
+      "毛細血管",
+      "胃",
+      "気管"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-b_digest-8",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "大腸のおもなはたらきはどれか。",
+    "answer": 0,
+    "explanation": "残ったものから水分を吸収する。",
+    "plain": "大腸のおもなはたらきはどれか。　① 水分の吸収　② デンプンの分解　③ 脂肪の分解　④ 胆汁の分泌",
+    "choices": [
+      "水分の吸収",
+      "デンプンの分解",
+      "脂肪の分解",
+      "胆汁の分泌"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-9",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "デンプンが最終的に分解されたものはどれか。",
+    "answer": 2,
+    "explanation": "ブドウ糖。",
+    "plain": "デンプンが最終的に分解されたものはどれか。　① 脂肪酸　② アミノ酸　③ ブドウ糖　④ グリセリン",
+    "choices": [
+      "脂肪酸",
+      "アミノ酸",
+      "ブドウ糖",
+      "グリセリン"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-10",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "タンパク質が最終的に分解されたものはどれか。",
+    "answer": 1,
+    "explanation": "アミノ酸。",
+    "plain": "タンパク質が最終的に分解されたものはどれか。　① グリセリン　② アミノ酸　③ 脂肪酸　④ ブドウ糖",
+    "choices": [
+      "グリセリン",
+      "アミノ酸",
+      "脂肪酸",
+      "ブドウ糖"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-11",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "脂肪が最終的に分解されたものはどれか。",
+    "answer": 0,
+    "explanation": "脂肪酸とモノグリセリド。",
+    "plain": "脂肪が最終的に分解されたものはどれか。　① 脂肪酸とモノグリセリド　② ブドウ糖　③ デンプン　④ アミノ酸",
+    "choices": [
+      "脂肪酸とモノグリセリド",
+      "ブドウ糖",
+      "デンプン",
+      "アミノ酸"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-12",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "消化と吸収",
+    "body": "消化酵素が最もよくはたらく温度に近いのはどれか。",
+    "answer": 1,
+    "explanation": "高すぎても低すぎてもはたらきにくい。",
+    "plain": "消化酵素が最もよくはたらく温度に近いのはどれか。　① 100℃　② 体温くらい（約40℃）　③ 0℃　④ −20℃",
+    "choices": [
+      "100℃",
+      "体温くらい（約40℃）",
+      "0℃",
+      "−20℃"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-b_digest-13",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "ブドウ糖があるかどうかを調べるときに使う液は、加熱すると何色の沈殿を作るか。",
+    "answer": 0,
+    "explanation": "ベネジクト液（またはフェーリング液）。",
+    "plain": "ブドウ糖があるかどうかを調べるときに使う液は、加熱すると何色の沈殿を作るか。　① 赤褐色　② 青紫色　③ 黄色　④ 白色",
+    "choices": [
+      "赤褐色",
+      "青紫色",
+      "黄色",
+      "白色"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-14",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "食物が通る順序として正しいものはどれか。",
+    "answer": 1,
+    "explanation": "食物が通る管が消化管。",
+    "plain": "食物が通る順序として正しいものはどれか。　① 口 → 食道 → 小腸 → 胃　② 口 → 食道 → 胃 → 小腸 → 大腸 → 肛門　③ 口 → 小腸 → 胃 → 大腸　④ 口 → 胃 → 食道 → 小腸",
+    "choices": [
+      "口 → 食道 → 小腸 → 胃",
+      "口 → 食道 → 胃 → 小腸 → 大腸 → 肛門",
+      "口 → 小腸 → 胃 → 大腸",
+      "口 → 胃 → 食道 → 小腸"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-15",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "胆汁をつくる器官はどれか。",
+    "answer": 0,
+    "explanation": "胆汁は胆のうにたくわえられる。",
+    "plain": "胆汁をつくる器官はどれか。　① 肝臓　② 胃　③ 小腸　④ すい臓",
+    "choices": [
+      "肝臓",
+      "胃",
+      "小腸",
+      "すい臓"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-16",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "消化とは、どういうはたらきか。",
+    "answer": 1,
+    "explanation": "消化酵素が分解する。",
+    "plain": "消化とは、どういうはたらきか。　① 不要なものを出すこと　② 食物を吸収しやすい物質に分解すること　③ 食物を口に入れること　④ 栄養を全身に運ぶこと",
+    "choices": [
+      "不要なものを出すこと",
+      "食物を吸収しやすい物質に分解すること",
+      "食物を口に入れること",
+      "栄養を全身に運ぶこと"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-17",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "三大栄養素に含まれないものはどれか。",
+    "answer": 0,
+    "explanation": "ビタミンは五大栄養素に含まれる。",
+    "plain": "三大栄養素に含まれないものはどれか。　① ビタミン　② 炭水化物　③ 脂肪　④ タンパク質",
+    "choices": [
+      "ビタミン",
+      "炭水化物",
+      "脂肪",
+      "タンパク質"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-18",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "水や無機物（ミネラルなど）は、消化されるか。",
+    "answer": 0,
+    "explanation": "水やミネラルはそのまま吸収。",
+    "plain": "水や無機物（ミネラルなど）は、消化されるか。　① 消化されずにそのまま吸収される　② 胃で分解される　③ 消化酵素で分解される　④ 吸収されない",
+    "choices": [
+      "消化されずにそのまま吸収される",
+      "胃で分解される",
+      "消化酵素で分解される",
+      "吸収されない"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-b_digest-19",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "消化と吸収",
+    "body": "胃液が強い酸性である理由として、適切なのはどれか。",
+    "answer": 3,
+    "explanation": "胃酸は食物中の細菌を殺す。",
+    "plain": "胃液が強い酸性である理由として、適切なのはどれか。　① 水を吸収するため　② 脂肪を吸収するため　③ デンプンを分解するため　④ 殺菌とペプシンのはたらきを助けるため",
+    "choices": [
+      "水を吸収するため",
+      "脂肪を吸収するため",
+      "デンプンを分解するため",
+      "殺菌とペプシンのはたらきを助けるため"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-b_digest-20",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "消化と吸収",
+    "body": "小腸で栄養分を吸収したあと、最初に血液が運ばれる器官はどれか。",
+    "answer": 1,
+    "explanation": "門脈を通って肝臓に運ばれる。",
+    "plain": "小腸で栄養分を吸収したあと、最初に血液が運ばれる器官はどれか。　① 心臓　② 肝臓　③ 肺　④ 腎臓",
+    "choices": [
+      "心臓",
+      "肝臓",
+      "肺",
+      "腎臓"
+    ],
+    "unit": "b_digest",
+    "hint": "どの消化液のどの酵素が、何を分解するかを整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-1",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸幕府が開かれた年はどれか。",
+    "answer": 1,
+    "explanation": "徳川家康が征夷大将軍になった年。",
+    "plain": "江戸幕府が開かれた年はどれか。　① 1639年　② 1603年　③ 1615年　④ 1600年",
+    "choices": [
+      "1639年",
+      "1603年",
+      "1615年",
+      "1600年"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-2",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "五街道の起点となった場所はどこか。",
+    "answer": 0,
+    "explanation": "江戸の日本橋。",
+    "plain": "五街道の起点となった場所はどこか。　① 日本橋　② 京都　③ 大阪　④ 名古屋",
+    "choices": [
+      "日本橋",
+      "京都",
+      "大阪",
+      "名古屋"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-3",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸幕府の三大改革に含まれないものはどれか。",
+    "answer": 1,
+    "explanation": "三大改革は享保・寛政・天保。",
+    "plain": "江戸幕府の三大改革に含まれないものはどれか。　① 寛政の改革　② 元禄の改革　③ 享保の改革　④ 天保の改革",
+    "choices": [
+      "寛政の改革",
+      "元禄の改革",
+      "享保の改革",
+      "天保の改革"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-4",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "株仲間を奨励し、商業を重んじた老中はだれか。",
+    "answer": 1,
+    "explanation": "田沼意次は商業を重んじた。",
+    "plain": "株仲間を奨励し、商業を重んじた老中はだれか。　① 松平定信　② 田沼意次　③ 水野忠邦　④ 徳川吉宗",
+    "choices": [
+      "松平定信",
+      "田沼意次",
+      "水野忠邦",
+      "徳川吉宗"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-5",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "江戸時代の文化と政治",
+    "body": "1837年に大阪で乱を起こした元役人はだれか。",
+    "answer": 1,
+    "explanation": "天保の飢饉で民衆を救おうとした。",
+    "plain": "1837年に大阪で乱を起こした元役人はだれか。　① 由井正雪　② 大塩平八郎　③ 天草四郎　④ 西郷隆盛",
+    "choices": [
+      "由井正雪",
+      "大塩平八郎",
+      "天草四郎",
+      "西郷隆盛"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-s_hist_edo-6",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "庶民の子どもが読み・書き・そろばんを学んだ教育機関はどれか。",
+    "answer": 3,
+    "explanation": "寺子屋が各地にできた。",
+    "plain": "庶民の子どもが読み・書き・そろばんを学んだ教育機関はどれか。　① 藩校　② 昌平坂学問所　③ 私塾（適塾）　④ 寺子屋",
+    "choices": [
+      "藩校",
+      "昌平坂学問所",
+      "私塾（適塾）",
+      "寺子屋"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-7",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "『古事記伝』を書き、国学を大成した人物はだれか。",
+    "answer": 2,
+    "explanation": "国学は日本古来の思想を研究した学問。",
+    "plain": "『古事記伝』を書き、国学を大成した人物はだれか。　① 伊能忠敬　② 杉田玄白　③ 本居宣長　④ 近松門左衛門",
+    "choices": [
+      "伊能忠敬",
+      "杉田玄白",
+      "本居宣長",
+      "近松門左衛門"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-8",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "『解体新書』を翻訳した人物はだれか。",
+    "answer": 0,
+    "explanation": "蘭学の成果の1つ。",
+    "plain": "『解体新書』を翻訳した人物はだれか。　① 杉田玄白　② 緒方洪庵　③ 伊能忠敬　④ 本居宣長",
+    "choices": [
+      "杉田玄白",
+      "緒方洪庵",
+      "伊能忠敬",
+      "本居宣長"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "全国を測量して、正確な日本地図をつくった人物はだれか。",
+    "answer": 3,
+    "explanation": "『大日本沿海輿地全図』。",
+    "plain": "全国を測量して、正確な日本地図をつくった人物はだれか。　① 杉田玄白　② 平賀源内　③ 間宮林蔵　④ 伊能忠敬",
+    "choices": [
+      "杉田玄白",
+      "平賀源内",
+      "間宮林蔵",
+      "伊能忠敬"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "「富嶽三十六景」を描いた浮世絵師はだれか。",
+    "answer": 1,
+    "explanation": "葛飾北斎は化政文化を代表する浮世絵師。",
+    "plain": "「富嶽三十六景」を描いた浮世絵師はだれか。　① 菱川師宣　② 葛飾北斎　③ 喜多川歌麿　④ 歌川広重",
+    "choices": [
+      "菱川師宣",
+      "葛飾北斎",
+      "喜多川歌麿",
+      "歌川広重"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "「東海道五十三次」を描いた浮世絵師はだれか。",
+    "answer": 3,
+    "explanation": "歌川広重は風景画を得意とした。",
+    "plain": "「東海道五十三次」を描いた浮世絵師はだれか。　① 東洲斎写楽　② 喜多川歌麿　③ 葛飾北斎　④ 歌川広重",
+    "choices": [
+      "東洲斎写楽",
+      "喜多川歌麿",
+      "葛飾北斎",
+      "歌川広重"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-12",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸時代前期の上方（京都・大阪）を中心に栄えた町人文化を何というか。",
+    "answer": 3,
+    "explanation": "元禄文化は17世紀末ごろ。",
+    "plain": "江戸時代前期の上方（京都・大阪）を中心に栄えた町人文化を何というか。　① 桃山文化　② 天平文化　③ 化政文化　④ 元禄文化",
+    "choices": [
+      "桃山文化",
+      "天平文化",
+      "化政文化",
+      "元禄文化"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸時代後期の江戸を中心に栄えた町人文化を何というか。",
+    "answer": 3,
+    "explanation": "化政文化は19世紀前半。",
+    "plain": "江戸時代後期の江戸を中心に栄えた町人文化を何というか。　① 元禄文化　② 国風文化　③ 桃山文化　④ 化政文化",
+    "choices": [
+      "元禄文化",
+      "国風文化",
+      "桃山文化",
+      "化政文化"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-14",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "浮世草子で町人の生活を描いた人物はだれか。",
+    "answer": 2,
+    "explanation": "『日本永代蔵』など。",
+    "plain": "浮世草子で町人の生活を描いた人物はだれか。　① 松尾芭蕉　② 近松門左衛門　③ 井原西鶴　④ 十返舎一九",
+    "choices": [
+      "松尾芭蕉",
+      "近松門左衛門",
+      "井原西鶴",
+      "十返舎一九"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "生類憐みの令を出した5代将軍はだれか。",
+    "answer": 0,
+    "explanation": "犬を保護させた。",
+    "plain": "生類憐みの令を出した5代将軍はだれか。　① 徳川綱吉　② 徳川吉宗　③ 徳川家継　④ 徳川家光",
+    "choices": [
+      "徳川綱吉",
+      "徳川吉宗",
+      "徳川家継",
+      "徳川家光"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-16",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "江戸時代の文化と政治",
+    "body": "正徳の治を行った儒学者はだれか。",
+    "answer": 2,
+    "explanation": "6代将軍家宣・7代家継に仕えた。",
+    "plain": "正徳の治を行った儒学者はだれか。　① 本居宣長　② 荻生徂徠　③ 新井白石　④ 大塩平八郎",
+    "choices": [
+      "本居宣長",
+      "荻生徂徠",
+      "新井白石",
+      "大塩平八郎"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-s_hist_edo-17",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸時代、朝鮮から将軍の代がわりごとに日本に来た使節を何というか。",
+    "answer": 3,
+    "explanation": "朝鮮との友好関係を保った。",
+    "plain": "江戸時代、朝鮮から将軍の代がわりごとに日本に来た使節を何というか。　① 遣唐使　② 勘合貿易　③ 遣隋使　④ 朝鮮通信使",
+    "choices": [
+      "遣唐使",
+      "勘合貿易",
+      "遣隋使",
+      "朝鮮通信使"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-18",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸時代、年貢の引き下げなどを求めて農民が起こしたものを何というか。",
+    "answer": 3,
+    "explanation": "農村での抗議行動。",
+    "plain": "江戸時代、年貢の引き下げなどを求めて農民が起こしたものを何というか。　① 応仁の乱　② 島原の乱　③ 打ちこわし　④ 百姓一揆",
+    "choices": [
+      "応仁の乱",
+      "島原の乱",
+      "打ちこわし",
+      "百姓一揆"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-19",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "江戸時代の文化と政治",
+    "body": "江戸時代、米の買い占めをした商人の家をこわした都市の民衆の行動を何というか。",
+    "answer": 2,
+    "explanation": "都市の貧しい人々が起こした。",
+    "plain": "江戸時代、米の買い占めをした商人の家をこわした都市の民衆の行動を何というか。　① 百姓一揆　② 一揆（山城）　③ 打ちこわし　④ 米騒動",
+    "choices": [
+      "百姓一揆",
+      "一揆（山城）",
+      "打ちこわし",
+      "米騒動"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-s_hist_edo-20",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "江戸時代の文化と政治",
+    "body": "幕府が天保の改革で、江戸に出てきていた農民に命じたものはどれか。",
+    "answer": 2,
+    "explanation": "水野忠邦の政策。",
+    "plain": "幕府が天保の改革で、江戸に出てきていた農民に命じたものはどれか。　① 江戸に定住させること　② 年貢を免除すること　③ 農村に帰らせること（人返し令）　④ 商人にしたがわせること",
+    "choices": [
+      "江戸に定住させること",
+      "年貢を免除すること",
+      "農村に帰らせること（人返し令）",
+      "商人にしたがわせること"
+    ],
+    "unit": "s_hist_edo",
+    "hint": "三大改革と、元禄文化・化政文化の人物を年代順に整理しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-s_hist_war-1",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1915年、日本が中国に対して出した要求はどれか。",
+    "answer": 0,
+    "explanation": "第一次世界大戦中。",
+    "plain": "1915年、日本が中国に対して出した要求はどれか。　① 二十一か条の要求　② 十七条の憲法　③ 五箇条の御誓文　④ ポツダム宣言",
+    "choices": [
+      "二十一か条の要求",
+      "十七条の憲法",
+      "五箇条の御誓文",
+      "ポツダム宣言"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-2",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1918年、富山県から全国に広がった、米の値上がりに対する民衆の運動はどれか。",
+    "answer": 0,
+    "explanation": "シベリア出兵を見こした米の買い占めが原因。",
+    "plain": "1918年、富山県から全国に広がった、米の値上がりに対する民衆の運動はどれか。　① 米騒動　② 打ちこわし　③ 自由民権運動　④ 百姓一揆",
+    "choices": [
+      "米騒動",
+      "打ちこわし",
+      "自由民権運動",
+      "百姓一揆"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-3",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1918年に成立した、本格的な政党内閣の首相はだれか。",
+    "answer": 0,
+    "explanation": "立憲政友会の党首。",
+    "plain": "1918年に成立した、本格的な政党内閣の首相はだれか。　① 原敬　② 犬養毅　③ 伊藤博文　④ 近衛文麿",
+    "choices": [
+      "原敬",
+      "犬養毅",
+      "伊藤博文",
+      "近衛文麿"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-4",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "女性の地位向上のために活動した、新婦人協会を結成した人物はだれか。",
+    "answer": 1,
+    "explanation": "市川房枝らとともに活動した。",
+    "plain": "女性の地位向上のために活動した、新婦人協会を結成した人物はだれか。　① 与謝野晶子　② 平塚らいてう　③ 樋口一葉　④ 津田梅子",
+    "choices": [
+      "与謝野晶子",
+      "平塚らいてう",
+      "樋口一葉",
+      "津田梅子"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-5",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1922年に差別からの解放を目指して結成された団体はどれか。",
+    "answer": 1,
+    "explanation": "被差別部落の人々が結成した。",
+    "plain": "1922年に差別からの解放を目指して結成された団体はどれか。　① 労働組合　② 全国水平社　③ 青鞜社　④ 新婦人協会",
+    "choices": [
+      "労働組合",
+      "全国水平社",
+      "青鞜社",
+      "新婦人協会"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-6",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1929年にアメリカから世界に広がった経済の混乱を何というか。",
+    "answer": 0,
+    "explanation": "ニューヨークの株価暴落が発端。",
+    "plain": "1929年にアメリカから世界に広がった経済の混乱を何というか。　① 世界恐慌　② 戦後恐慌　③ 石油危機　④ バブル経済",
+    "choices": [
+      "世界恐慌",
+      "戦後恐慌",
+      "石油危機",
+      "バブル経済"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-7",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1931年に、日本軍が中国東北部で起こした軍事行動はどれか。",
+    "answer": 1,
+    "explanation": "柳条湖事件がきっかけ。",
+    "plain": "1931年に、日本軍が中国東北部で起こした軍事行動はどれか。　① シベリア出兵　② 満州事変　③ 日露戦争　④ 日中戦争",
+    "choices": [
+      "シベリア出兵",
+      "満州事変",
+      "日露戦争",
+      "日中戦争"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-8",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1932年に犬養毅首相が暗殺された事件はどれか。",
+    "answer": 2,
+    "explanation": "海軍の青年将校らが起こした。",
+    "plain": "1932年に犬養毅首相が暗殺された事件はどれか。　① 大逆事件　② 二・二六事件　③ 五・一五事件　④ 桜田門外の変",
+    "choices": [
+      "大逆事件",
+      "二・二六事件",
+      "五・一五事件",
+      "桜田門外の変"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1936年、陸軍の青年将校らが起こしたクーデター事件はどれか。",
+    "answer": 2,
+    "explanation": "東京の中心部を占拠した。",
+    "plain": "1936年、陸軍の青年将校らが起こしたクーデター事件はどれか。　① 五・一五事件　② 大逆事件　③ 二・二六事件　④ 満州事変",
+    "choices": [
+      "五・一五事件",
+      "大逆事件",
+      "二・二六事件",
+      "満州事変"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1937年に北京郊外で起こった、日中戦争のきっかけとなった事件はどれか。",
+    "answer": 0,
+    "explanation": "日中戦争が始まった。",
+    "plain": "1937年に北京郊外で起こった、日中戦争のきっかけとなった事件はどれか。　① 盧溝橋事件　② 柳条湖事件　③ 二・二六事件　④ 五・一五事件",
+    "choices": [
+      "盧溝橋事件",
+      "柳条湖事件",
+      "二・二六事件",
+      "五・一五事件"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1938年に制定された、国民や物資を戦争のために動員できる法律はどれか。",
+    "answer": 0,
+    "explanation": "政府が議会の承認なしで動員できた。",
+    "plain": "1938年に制定された、国民や物資を戦争のために動員できる法律はどれか。　① 国家総動員法　② 教育基本法　③ 普通選挙法　④ 治安維持法",
+    "choices": [
+      "国家総動員法",
+      "教育基本法",
+      "普通選挙法",
+      "治安維持法"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-12",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1940年に日本が結んだ同盟はどれか。",
+    "answer": 2,
+    "explanation": "ドイツ・イタリアと結んだ。",
+    "plain": "1940年に日本が結んだ同盟はどれか。　① 日ソ中立条約　② 日英同盟　③ 日独伊三国同盟　④ 日米安全保障条約",
+    "choices": [
+      "日ソ中立条約",
+      "日英同盟",
+      "日独伊三国同盟",
+      "日米安全保障条約"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "太平洋戦争が始まった1941年12月、日本軍が奇襲した場所はどこか。",
+    "answer": 0,
+    "explanation": "同時にマレー半島にも上陸した。",
+    "plain": "太平洋戦争が始まった1941年12月、日本軍が奇襲した場所はどこか。　① ハワイの真珠湾　② グアム　③ フィリピン　④ シンガポール",
+    "choices": [
+      "ハワイの真珠湾",
+      "グアム",
+      "フィリピン",
+      "シンガポール"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-14",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "戦争と民主化",
+    "body": "太平洋戦争で、日本軍が大敗して形勢が不利になった1942年の海戦はどれか。",
+    "answer": 1,
+    "explanation": "空母4隻を失った。",
+    "plain": "太平洋戦争で、日本軍が大敗して形勢が不利になった1942年の海戦はどれか。　① 日本海海戦　② ミッドウェー海戦　③ 珊瑚海海戦　④ レイテ沖海戦",
+    "choices": [
+      "日本海海戦",
+      "ミッドウェー海戦",
+      "珊瑚海海戦",
+      "レイテ沖海戦"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 4.2
+  },
+  {
+    "id": "u-s_hist_war-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1945年8月6日に原子爆弾が落とされた都市はどこか。",
+    "answer": 0,
+    "explanation": "8月9日は長崎。",
+    "plain": "1945年8月6日に原子爆弾が落とされた都市はどこか。　① 広島　② 東京　③ 大阪　④ 長崎",
+    "choices": [
+      "広島",
+      "東京",
+      "大阪",
+      "長崎"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-16",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1945年8月9日に原子爆弾が落とされた都市はどこか。",
+    "answer": 1,
+    "explanation": "広島は8月6日。",
+    "plain": "1945年8月9日に原子爆弾が落とされた都市はどこか。　① 東京　② 長崎　③ 広島　④ 横浜",
+    "choices": [
+      "東京",
+      "長崎",
+      "広島",
+      "横浜"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-17",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "戦後、日本を占領した連合国軍最高司令官はだれか。",
+    "answer": 0,
+    "explanation": "GHQ の最高司令官。",
+    "plain": "戦後、日本を占領した連合国軍最高司令官はだれか。　① マッカーサー　② ハリス　③ ペリー　④ ルーズベルト",
+    "choices": [
+      "マッカーサー",
+      "ハリス",
+      "ペリー",
+      "ルーズベルト"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-18",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1946年の総選挙で初めて認められたことはどれか。",
+    "answer": 0,
+    "explanation": "満20歳以上の男女に選挙権。",
+    "plain": "1946年の総選挙で初めて認められたことはどれか。　① 女性の参政権　② 貴族院議員の選挙　③ 外国人参政権　④ 18歳選挙権",
+    "choices": [
+      "女性の参政権",
+      "貴族院議員の選挙",
+      "外国人参政権",
+      "18歳選挙権"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-19",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "1947年に制定された、教育の機会均等などを定めた法律はどれか。",
+    "answer": 0,
+    "explanation": "民主主義の教育の基本を示した。",
+    "plain": "1947年に制定された、教育の機会均等などを定めた法律はどれか。　① 教育基本法　② 学制　③ 教育勅語　④ 治安維持法",
+    "choices": [
+      "教育基本法",
+      "学制",
+      "教育勅語",
+      "治安維持法"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_war-20",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "戦争と民主化",
+    "body": "戦後の民主化政策で、大企業の支配体制を解体したものはどれか。",
+    "answer": 2,
+    "explanation": "三井・三菱などの財閥を解体した。",
+    "plain": "戦後の民主化政策で、大企業の支配体制を解体したものはどれか。　① 農地改革　② 教育改革　③ 財閥解体　④ 選挙法改正",
+    "choices": [
+      "農地改革",
+      "教育改革",
+      "財閥解体",
+      "選挙法改正"
+    ],
+    "unit": "s_hist_war",
+    "hint": "大正から昭和の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_civ_local-1",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "都道府県知事・市町村長の任期は何年か。",
+    "answer": 1,
+    "explanation": "首長の任期は4年。",
+    "plain": "都道府県知事・市町村長の任期は何年か。　① 2年　② 4年　③ 8年　④ 6年",
+    "choices": [
+      "2年",
+      "4年",
+      "8年",
+      "6年"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-2",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方議会の議員の任期は何年か。",
+    "answer": 3,
+    "explanation": "地方議会議員の任期は4年。",
+    "plain": "地方議会の議員の任期は何年か。　① 2年　② 6年　③ 8年　④ 4年",
+    "choices": [
+      "2年",
+      "6年",
+      "8年",
+      "4年"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-3",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方議会が制定する、その地域だけで通用するきまりを何というか。",
+    "answer": 2,
+    "explanation": "条例は地方議会が制定する。",
+    "plain": "地方議会が制定する、その地域だけで通用するきまりを何というか。　① 政令　② 法律　③ 条例　④ 規則（国）",
+    "choices": [
+      "政令",
+      "法律",
+      "条例",
+      "規則（国）"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-4",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "条例の制定を直接請求するには、有権者の何以上の署名が必要か。",
+    "answer": 0,
+    "explanation": "首長に請求する。",
+    "plain": "条例の制定を直接請求するには、有権者の何以上の署名が必要か。　① 50分の1以上　② 10分の1以上　③ 2分の1以上　④ 3分の1以上",
+    "choices": [
+      "50分の1以上",
+      "10分の1以上",
+      "2分の1以上",
+      "3分の1以上"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-5",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "議員や首長の解職を請求するには、有権者の何以上の署名が必要か。",
+    "answer": 3,
+    "explanation": "解職請求（リコール）。",
+    "plain": "議員や首長の解職を請求するには、有権者の何以上の署名が必要か。　① 10分の1以上　② 2分の1以上　③ 50分の1以上　④ 3分の1以上",
+    "choices": [
+      "10分の1以上",
+      "2分の1以上",
+      "50分の1以上",
+      "3分の1以上"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-6",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "事務の監査を請求するには、有権者の何以上の署名が必要か。",
+    "answer": 3,
+    "explanation": "監査委員に請求する。",
+    "plain": "事務の監査を請求するには、有権者の何以上の署名が必要か。　① 2分の1以上　② 3分の1以上　③ 10分の1以上　④ 50分の1以上",
+    "choices": [
+      "2分の1以上",
+      "3分の1以上",
+      "10分の1以上",
+      "50分の1以上"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-7",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地域の重要な問題について、住民が賛成・反対を投票して決めることを何というか。",
+    "answer": 0,
+    "explanation": "条例にもとづいて行われる。",
+    "plain": "地域の重要な問題について、住民が賛成・反対を投票して決めることを何というか。　① 住民投票　② 国民審査　③ 請願　④ リコール",
+    "choices": [
+      "住民投票",
+      "国民審査",
+      "請願",
+      "リコール"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-8",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "地方自治",
+    "body": "国から地方への補助金のうち、地方の財政格差をなくすために国が配分するお金を何というか。",
+    "answer": 1,
+    "explanation": "使い道は自由。",
+    "plain": "国から地方への補助金のうち、地方の財政格差をなくすために国が配分するお金を何というか。　① 地方税　② 地方交付税　③ 地方債　④ 国庫支出金",
+    "choices": [
+      "地方税",
+      "地方交付税",
+      "地方債",
+      "国庫支出金"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-s_civ_local-9",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "地方自治",
+    "body": "国が使い道を指定して、地方に配分するお金を何というか。",
+    "answer": 2,
+    "explanation": "義務教育や道路などに使われる。",
+    "plain": "国が使い道を指定して、地方に配分するお金を何というか。　① 地方税　② 地方交付税　③ 国庫支出金　④ 地方債",
+    "choices": [
+      "地方税",
+      "地方交付税",
+      "国庫支出金",
+      "地方債"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-s_civ_local-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方公共団体が自分で集める税金を何というか。",
+    "answer": 3,
+    "explanation": "住民税や固定資産税など。",
+    "plain": "地方公共団体が自分で集める税金を何というか。　① 消費税だけ　② 国税　③ 関税　④ 地方税",
+    "choices": [
+      "消費税だけ",
+      "国税",
+      "関税",
+      "地方税"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-11",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "市町村長の被選挙権は、満何歳以上か。",
+    "answer": 2,
+    "explanation": "知事は30歳以上。",
+    "plain": "市町村長の被選挙権は、満何歳以上か。　① 35歳以上　② 30歳以上　③ 25歳以上　④ 18歳以上",
+    "choices": [
+      "35歳以上",
+      "30歳以上",
+      "25歳以上",
+      "18歳以上"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方公共団体の自主性を高めるため、国の権限を地方に移すことを何というか。",
+    "answer": 0,
+    "explanation": "地方分権一括法などで進められた。",
+    "plain": "地方公共団体の自主性を高めるため、国の権限を地方に移すことを何というか。　① 地方分権　② 中央集権　③ 地方自治　④ 国有化",
+    "choices": [
+      "地方分権",
+      "中央集権",
+      "地方自治",
+      "国有化"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-13",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方公共団体の収入の不足を補うために発行する、借金の証書を何というか。",
+    "answer": 2,
+    "explanation": "地方公共団体の借金。",
+    "plain": "地方公共団体の収入の不足を補うために発行する、借金の証書を何というか。　① 国債　② 社債　③ 地方債　④ 株式",
+    "choices": [
+      "国債",
+      "社債",
+      "地方債",
+      "株式"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-14",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "平成に入ってから、全国で進められた、市町村を合わせる動きを何というか。",
+    "answer": 3,
+    "explanation": "市町村の数が大きく減った。",
+    "plain": "平成に入ってから、全国で進められた、市町村を合わせる動きを何というか。　① 行政改革　② 廃藩置県　③ 地方分権　④ 市町村合併（平成の大合併）",
+    "choices": [
+      "行政改革",
+      "廃藩置県",
+      "地方分権",
+      "市町村合併（平成の大合併）"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-15",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方公共団体の予算を決めるのは、どこか。",
+    "answer": 3,
+    "explanation": "首長が案をつくり、議会が議決する。",
+    "plain": "地方公共団体の予算を決めるのは、どこか。　① 裁判所　② 国会　③ 首長だけ　④ 地方議会",
+    "choices": [
+      "裁判所",
+      "国会",
+      "首長だけ",
+      "地方議会"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-16",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "地方自治",
+    "body": "地方議会が可決した条例に、首長が異議があるとき、議会に再審議を求めることを何というか。",
+    "answer": 3,
+    "explanation": "議会が3分の2以上で再び可決すれば成立する。",
+    "plain": "地方議会が可決した条例に、首長が異議があるとき、議会に再審議を求めることを何というか。　① 解散　② リコール　③ 直接請求　④ 再議（拒否権）",
+    "choices": [
+      "解散",
+      "リコール",
+      "直接請求",
+      "再議（拒否権）"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-s_civ_local-17",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方自治は、何と呼ばれることがあるか。",
+    "answer": 2,
+    "explanation": "身近な政治を通じて民主主義を学べる。",
+    "plain": "地方自治は、何と呼ばれることがあるか。　① 行政の下請け　② 国の出先　③ 民主主義の学校　④ 地方分権の終わり",
+    "choices": [
+      "行政の下請け",
+      "国の出先",
+      "民主主義の学校",
+      "地方分権の終わり"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-18",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方議会が首長に対してできることはどれか。",
+    "answer": 3,
+    "explanation": "首長は議会を解散するか辞職する。",
+    "plain": "地方議会が首長に対してできることはどれか。　① 解雇通知　② 任命　③ 予算の作成　④ 不信任決議",
+    "choices": [
+      "解雇通知",
+      "任命",
+      "予算の作成",
+      "不信任決議"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-19",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "地方公共団体の仕事に含まれないものはどれか。",
+    "answer": 3,
+    "explanation": "外交は国の仕事。",
+    "plain": "地方公共団体の仕事に含まれないものはどれか。　① ごみ処理　② 学校の運営　③ 上下水道　④ 外交",
+    "choices": [
+      "ごみ処理",
+      "学校の運営",
+      "上下水道",
+      "外交"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_local-20",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "地方自治",
+    "body": "都道府県を超えて、広い範囲の仕事を共同で行う仕組みを何というか。",
+    "answer": 2,
+    "explanation": "複数の自治体で共同処理する。",
+    "plain": "都道府県を超えて、広い範囲の仕事を共同で行う仕組みを何というか。　① 国の出先機関　② 市町村　③ 広域連合　④ 都道府県庁",
+    "choices": [
+      "国の出先機関",
+      "市町村",
+      "広域連合",
+      "都道府県庁"
+    ],
+    "unit": "s_civ_local",
+    "hint": "首長・議会の役割と、直接請求に必要な署名数を思い出しましょう。",
+    "rate": 5.1
   }
 ]
