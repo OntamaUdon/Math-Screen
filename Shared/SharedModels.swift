@@ -232,7 +232,7 @@ enum SharedStore {
 
     static var recentProblemIDs: [String] {
         get { d.stringArray(forKey: Key.recent) ?? [] }
-        set { d.set(Array(newValue.suffix(30)), forKey: Key.recent) }
+        set { d.set(Array(newValue.suffix(500)), forKey: Key.recent) }
     }
 
     // MARK: 次に出す問題（ブロック画面に表示し、通知から開いた問題画面でも同じものを出す）

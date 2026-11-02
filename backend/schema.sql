@@ -83,3 +83,24 @@ language sql security definer set search_path = public as $$
   delete from problem_reports where reporter = auth.uid();
   delete from user_blocks where blocker = auth.uid();
 $$;
+
+-- ===== 問題ごとの正答率（1回目の解答だけを集計） =====
+create table if not exists public.problem_stats (
+  problem_key text primary key check (char_length(problem_key) <= 80),
+  shown       int not null default 0,
+  correct     int not null default 0
+);
+alter table public.problem_stats enable row level security;
+
+drop policy if exists "stats read" on public.problem_stats;
+create policy "stats read" on public.problem_stats for select using (true);
+-- 書き込みは下の関数からだけ（直接は書けない）
+
+create or replace function public.record_attempt(p_key text, p_correct boolean) returns void
+language sql security definer set search_path = public as $$
+  insert into problem_stats (problem_key, shown, correct)
+  values (p_key, 1, case when p_correct then 1 else 0 end)
+  on conflict (problem_key) do update
+    set shown = problem_stats.shown + 1,
+        correct = problem_stats.correct + case when p_correct then 1 else 0 end;
+$$;

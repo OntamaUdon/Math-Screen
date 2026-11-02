@@ -23,6 +23,13 @@ struct ProblemBookView: View {
     @State private var showPost = false
     @State private var error: String?
 
+    /// これまでに一覧に出した問題（出した順）。次からは、まだ出していない問題を先に並べる。
+    private static let seenKey = "book.seen"
+    private static var seen: [String] {
+        get { UserDefaults.standard.stringArray(forKey: seenKey) ?? [] }
+        set { UserDefaults.standard.set(Array(newValue.suffix(5000)), forKey: seenKey) }
+    }
+
     private var filters: [Filter] {
         [.all] + Subject.allCases.map { Filter.subject($0) } + (model.isPremium ? [.mine] : [])
     }
@@ -142,6 +149,9 @@ struct ProblemBookView: View {
                 out.append(FeedItem(id: "c\(cycle)-\(r.id)", problem: p, row: r))
             }
             out.shuffle()
+            // まだ出していない問題を先に。出したことがある問題は、古く見たものから後ろに回す。
+            let order = Dictionary(Self.seen.enumerated().map { ($1, $0) }, uniquingKeysWith: { _, new in new })
+            out.sort { (order[$0.problem.id] ?? -1) < (order[$1.problem.id] ?? -1) }
         }
         return out
     }
@@ -153,7 +163,10 @@ struct ProblemBookView: View {
             pool = makePool()
         }
         guard !pool.isEmpty else { return }
-        items.append(contentsOf: pool.prefix(20))
+        let page = Array(pool.prefix(20))
+        items.append(contentsOf: page)
         pool.removeFirst(min(20, pool.count))
+        let ids = Set(page.map(\.problem.id))
+        Self.seen = Self.seen.filter { !ids.contains($0) } + page.map(\.problem.id)
     }
 }

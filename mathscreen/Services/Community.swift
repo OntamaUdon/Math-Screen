@@ -199,6 +199,29 @@ actor Community {
         _ = try await send("POST", "rest/v1/user_blocks", body: body, prefer: "return=minimal")
     }
 
+    // MARK: 正答率の集計（問題ごと。1回目の解答だけを数える）
+    /// 1回目の解答を集計に送る。同じ問題は、この端末から1回だけ。
+    func recordFirstAttempt(_ id: String, correct: Bool) async {
+        let key = "stats.recorded"
+        var done = Set(UserDefaults.standard.stringArray(forKey: key) ?? [])
+        guard !done.contains(id) else { return }
+        guard let body = try? JSONSerialization.data(withJSONObject: ["p_key": id, "p_correct": correct]) else { return }
+        if (try? await send("POST", "rest/v1/rpc/record_attempt", body: body)) != nil {
+            done.insert(id)
+            UserDefaults.standard.set(Array(done), forKey: key)
+        }
+    }
+
+    func stats(for id: String) async -> (shown: Int, correct: Int)? {
+        guard let data = try? await send("GET", "rest/v1/problem_stats", query: [
+            URLQueryItem(name: "select", value: "shown,correct"),
+            URLQueryItem(name: "problem_key", value: "eq.\(id)"),
+        ]) else { return nil }
+        let rows = (try? JSONSerialization.jsonObject(with: data) as? [[String: Int]]) ?? []
+        guard let r = rows.first, let s = r["shown"], let c = r["correct"] else { return nil }
+        return (s, c)
+    }
+
     private func blockedAuthors() async throws -> [String] {
         let data = try await send("GET", "rest/v1/user_blocks", query: [URLQueryItem(name: "select", value: "blocked")])
         let rows = (try? JSONSerialization.jsonObject(with: data) as? [[String: String]]) ?? []

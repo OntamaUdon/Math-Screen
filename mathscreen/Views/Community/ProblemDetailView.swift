@@ -8,6 +8,7 @@ struct ProblemDetailView: View {
 
     @Environment(\.dismiss) private var dismiss
     @State private var message: String?
+    @State private var stats: (shown: Int, correct: Int)?
     @State private var myID: String?
     @State private var blockTarget: String?
     @State private var confirmDelete = false
@@ -18,6 +19,7 @@ struct ProblemDetailView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 18) {
                 header
+                statsLine
                 ProblemSolverView(problem: item.problem, onCorrect: { _ in }, continueLabel: "とじる", onContinue: { dismiss() })
                     .id(item.id)
 
@@ -29,6 +31,7 @@ struct ProblemDetailView: View {
         }
         .isoBackground()
         .task {
+            stats = await Community.shared.stats(for: item.problem.id)
             myID = try? await Community.shared.userID()
         }
         .confirmationDialog("この人の投稿とコメントを、今後表示しませんか？", isPresented: Binding(
@@ -41,6 +44,16 @@ struct ProblemDetailView: View {
             Button("削除", role: .destructive) {
                 if let r = item.row { run { try await Community.shared.deletePost(r.id); onChanged(); dismiss() } }
             }
+        }
+    }
+
+    /// みんなの正答率（1回目の解答だけを数える）。人数が少ないうちは出さない。
+    @ViewBuilder private var statsLine: some View {
+        if let s = stats, s.shown >= 5 {
+            Text("みんなの正答率 \(Int((Double(s.correct) / Double(s.shown) * 100).rounded()))%（\(s.shown)人が挑戦）")
+                .font(Theme.font(13, .semibold)).foregroundStyle(Theme.inkSoft)
+        } else {
+            Text("みんなの正答率：集計中").font(Theme.font(13)).foregroundStyle(Theme.inkFaint)
         }
     }
 
