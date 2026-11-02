@@ -113,6 +113,18 @@ jobs:
             -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist"
           ls -la "$RUNNER_TEMP/export"
 
+      - name: Inspect app extensions in the IPA
+        # ブロック画面の拡張機能が、正しく組み込まれ、権限が付いているかをログに出す（原因の切り分け）
+        run: |
+          mkdir -p "$RUNNER_TEMP/ipa" && cd "$RUNNER_TEMP/ipa"
+          unzip -q "$RUNNER_TEMP"/export/*.ipa
+          APP=$(ls -d Payload/*.app)
+          for X in "$APP"/PlugIns/*.appex; do
+            echo "=== $X"
+            /usr/libexec/PlistBuddy -c "Print :NSExtension" "$X/Info.plist" || true
+            codesign -d --entitlements :- "$X" 2>/dev/null | /usr/bin/plutil -p - || true
+          done
+
       - name: Upload to TestFlight
         # Apple ID とアプリ用パスワードの Secret（APPLE_ID, APPLE_APP_PASSWORD）があればそれで送る。
         # なければ API キーで送る（このキーは、アップロードの認証で拒否されることがあった）。

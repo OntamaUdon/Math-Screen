@@ -33,7 +33,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
-            icon: ProblemImageStore.image(forID: SharedStore.pendingProblemID) ?? Self.blankIcon,   // LaTeX で描いた問題の画像
+            icon: Self.blankIcon,   // 画像は、メモリの制限で止まる疑いがあるため、いったんやめている（原因の切り分け）
             title: ShieldConfiguration.Label(text: "問題", color: ink),
             subtitle: ShieldConfiguration.Label(text: problem, color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
