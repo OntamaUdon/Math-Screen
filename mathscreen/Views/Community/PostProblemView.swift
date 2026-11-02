@@ -11,7 +11,6 @@ struct PostProblemView: View {
     @State private var correct = 0
     @State private var intAnswer = ""
     @State private var explanation = ""
-    @State private var hint = ""
     @State private var sending = false
     @State private var error: String?
     @State private var done = false
@@ -22,7 +21,7 @@ struct PostProblemView: View {
     private var valid: Bool {
         guard !title.trimmed.isEmpty, title.count <= 60,
               !bodyText.trimmed.isEmpty, bodyText.count <= 1000,
-              explanation.count <= 1000, hint.count <= 300 else { return false }
+              explanation.count <= 1000 else { return false }
         if isChoice { return choices.allSatisfy { !$0.trimmed.isEmpty && $0.count <= 200 } }
         return Int(intAnswer.trimmed) != nil
     }
@@ -84,7 +83,6 @@ struct PostProblemView: View {
                 }
 
                 section("解説（任意）") { field("答えの理由など", text: $explanation, axis: .vertical) }
-                section("ヒント（任意）") { field("答えを直接は言わないヒント", text: $hint, axis: .vertical) }
 
                 if let error {
                     Text(error).font(Theme.font(14)).foregroundStyle(Theme.danger)
@@ -114,8 +112,7 @@ struct PostProblemView: View {
             body: bodyText.trimmed, plain: plain.trimmed,
             answer: isChoice ? String(correct) : String(Int(intAnswer.trimmed) ?? 0),
             explanation: explanation.trimmed,
-            choices: isChoice ? choices.map(\.trimmed) : nil,
-            hint: hint.trimmed.isEmpty ? nil : hint.trimmed)
+            choices: isChoice ? choices.map(\.trimmed) : nil)
         do { try await Community.shared.post(post); done = true }
         catch { self.error = error.localizedDescription }
     }

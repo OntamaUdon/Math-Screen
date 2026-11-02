@@ -17,8 +17,7 @@ struct ProblemSolverView: View {
     @State private var solved = false
     @State private var wrongCount = 0
     @State private var showWrong = false
-    @State private var eliminated: Set<Int> = []      // 4択で、消した選択肢（まちがえた・ヒントで消した）
-    @State private var showHint = false
+    @State private var eliminated: Set<Int> = []      // 4択で、まちがえて消した選択肢
     @State private var showPremiumAlert = false
 
     var body: some View {
@@ -33,7 +32,6 @@ struct ProblemSolverView: View {
                     answerField
                     NumberPad(text: $input, onSubmit: submit)
                 }
-                if showHint { hintCard }
                 helpButtons
             }
         }
@@ -44,54 +42,25 @@ struct ProblemSolverView: View {
             Button("仮登録する（0円）") { model.setPremium(true) }
             Button("やめる", role: .cancel) {}
         } message: {
-            Text("ヒントと問題の変更は、Premium で使えます。いまは、お金のかからない仮登録で試せます。")
+            Text("問題の変更は、Premium で使えます。いまは、お金のかからない仮登録で試せます。")
         }
     }
 
-    // MARK: ヒントと問題の変更（Premium）
-    private var helpButtons: some View {
-        HStack(spacing: 10) {
-            helpButton("ヒント", icon: "lightbulb") {
-                if model.isPremium { revealHint() } else { showPremiumAlert = true }
-            }
-            if let onSkip {
-                helpButton("別の問題", icon: "arrow.triangle.2.circlepath") {
-                    if model.isPremium { onSkip() } else { showPremiumAlert = true }
+    // MARK: 問題の変更（Premium）
+    @ViewBuilder private var helpButtons: some View {
+        if let onSkip {
+            Button {
+                if model.isPremium { onSkip() } else { showPremiumAlert = true }
+            } label: {
+                HStack(spacing: 6) {
+                    Image(systemName: "arrow.triangle.2.circlepath")
+                    Text("別の問題")
+                    if !model.isPremium { Image(systemName: "lock.fill").font(.system(size: 11)) }
                 }
+                .font(Theme.font(15, .semibold))
             }
+            .buttonStyle(.quiet)
         }
-    }
-
-    private func helpButton(_ title: String, icon: String, action: @escaping () -> Void) -> some View {
-        Button(action: action) {
-            HStack(spacing: 6) {
-                Image(systemName: icon)
-                Text(title)
-                if !model.isPremium { Image(systemName: "lock.fill").font(.system(size: 11)) }
-            }
-            .font(Theme.font(15, .semibold))
-        }
-        .buttonStyle(.quiet)
-    }
-
-    private var hintCard: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Label("ヒント", systemImage: "lightbulb.fill")
-                .font(Theme.font(13, .bold)).foregroundStyle(Theme.coralDeep)
-            MathText(source: problem.hint ?? "問題文の数字や条件を、式に書き出してみましょう。", fontSize: 15)
-            if problem.isChoice {
-                Text("まちがいの選択肢を、2つ消しました。").font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
-            }
-        }
-        .card(padding: 14)
-    }
-
-    /// ヒントを出す。4択なら、まちがいの選択肢を2つ消す。
-    private func revealHint() {
-        showHint = true
-        guard problem.isChoice else { return }
-        let wrong = (0..<4).filter { $0 != problem.answer && !eliminated.contains($0) }
-        withAnimation { eliminated.formUnion(wrong.prefix(2)) }
     }
 
     private var problemCard: some View {

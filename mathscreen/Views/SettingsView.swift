@@ -11,7 +11,7 @@ struct SettingsView: View {
 
     var body: some View {
         Screen(title: "設定") {
-            group("Premium", footer: "いまは、お金のかからない仮登録です。Premium では、過去の成績・ヒント・問題の変更が使えます。") {
+            group("Premium", footer: "いまは、お金のかからない仮登録です。Premium では、過去の成績・問題の変更が使えます。") {
                 row("いまのプラン", value: model.isPremium ? "Premium（仮登録中）" : "無料",
                     valueColor: model.isPremium ? Theme.tealDeep : Theme.inkSoft)
                 Divider().padding(.leading, 18)

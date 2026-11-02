@@ -23,7 +23,6 @@ struct CommunityRow: Codable, Identifiable, Hashable {
     let answer: String
     let explanation: String
     let choices: [String]?
-    let hint: String?
     let status: String
     let reviewNote: String?
 
@@ -31,7 +30,7 @@ struct CommunityRow: Codable, Identifiable, Hashable {
     var problem: Problem? {
         guard let a = Int(answer) else { return nil }
         return Problem(id: "c-" + id, category: genre, difficulty: difficulty, title: title, body: body,
-                       plain: plain, answer: a, explanation: explanation, choices: choices, hint: hint, unit: nil, rate: nil)
+                       plain: plain, answer: a, explanation: explanation, choices: choices, unit: nil, rate: nil)
     }
 
     var statusLabel: String {
@@ -53,7 +52,6 @@ struct NewPost: Encodable {
     var answer: String
     var explanation: String
     var choices: [String]?
-    var hint: String?
 }
 
 /// 匿名ログインで始める、Supabase の REST への小さなクライアント。
