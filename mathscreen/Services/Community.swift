@@ -212,6 +212,20 @@ actor Community {
         }
     }
 
+    /// すべての問題の集計をまとめて取る（難しさの評価に使う）。
+    func allStats() async -> [String: [Int]]? {
+        guard let data = try? await send("GET", "rest/v1/problem_stats", query: [
+            URLQueryItem(name: "select", value: "problem_key,shown,correct"),
+            URLQueryItem(name: "limit", value: "20000"),
+        ]) else { return nil }
+        let rows = (try? JSONSerialization.jsonObject(with: data) as? [[String: Any]]) ?? []
+        var out: [String: [Int]] = [:]
+        for r in rows {
+            if let k = r["problem_key"] as? String, let s = r["shown"] as? Int, let c = r["correct"] as? Int { out[k] = [s, c] }
+        }
+        return out
+    }
+
     func stats(for id: String) async -> (shown: Int, correct: Int)? {
         guard let data = try? await send("GET", "rest/v1/problem_stats", query: [
             URLQueryItem(name: "select", value: "shown,correct"),

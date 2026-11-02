@@ -4,7 +4,6 @@ import SwiftUI
 struct PostProblemView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var category: ProblemCategory = .junior
-    @State private var difficulty: Difficulty = .easy
     @State private var isChoice = false
     @State private var title = ""
     @State private var bodyText = ""
@@ -49,7 +48,6 @@ struct PostProblemView: View {
                         }
                     }
                 }
-                section("難しさ") { TagPicker(items: Difficulty.allCases, selection: $difficulty) { $0.label } }
                 section("答え方") { TagPicker(items: [false, true], selection: $isChoice) { $0 ? "4択" : "整数で答える" } }
 
                 section("タイトル（60字まで）") { field("例：分数の足し算", text: $title) }
@@ -112,7 +110,7 @@ struct PostProblemView: View {
         sending = true; error = nil
         defer { sending = false }
         let post = NewPost(
-            genre: category.rawValue, difficulty: difficulty.rawValue, title: title.trimmed,
+            genre: category.rawValue, difficulty: 2, title: title.trimmed,
             body: bodyText.trimmed, plain: plain.trimmed,
             answer: isChoice ? String(correct) : String(Int(intAnswer.trimmed) ?? 0),
             explanation: explanation.trimmed,

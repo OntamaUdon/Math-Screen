@@ -68,7 +68,7 @@ struct OnboardingView: View {
             ForEach(exampleIDs, id: \.self) { id in
                 if let p = ProblemBank.all.first(where: { $0.id == id }) {
                     VStack(alignment: .leading, spacing: 8) {
-                        Text("\(p.categoryInfo.label) ・ \(p.difficultyInfo.label)")
+                        Text(p.categoryInfo.label)
                             .font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
                         MathText(source: p.body, fontSize: 16, spoken: p.plain)
                         Text("答え：\(p.answer)").font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)

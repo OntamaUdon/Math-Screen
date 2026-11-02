@@ -107,7 +107,7 @@ struct ProblemBookView: View {
                     Text("みんなの").font(Theme.font(11, .bold)).foregroundStyle(Theme.tealDeep)
                 }
             }
-            Text("\(p.categoryInfo.label) ・ \(p.difficultyInfo.label)")
+            Text(p.categoryInfo.label)
                 .font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
             Text(p.plain).font(Theme.font(14)).foregroundStyle(Theme.inkSoft).lineLimit(2)
             if filter == .mine, let note = item.row?.reviewNote, item.row?.status == "rejected", !note.isEmpty {

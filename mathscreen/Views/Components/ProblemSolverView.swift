@@ -96,7 +96,7 @@ struct ProblemSolverView: View {
 
     private var problemCard: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("\(problem.categoryInfo.label) ・ \(problem.difficultyInfo.label) ・ \(problem.title)")
+            Text("\(problem.categoryInfo.label) ・ \(problem.title)")
                 .font(Theme.font(13, .semibold))
                 .foregroundStyle(Theme.inkSoft)
             MathText(source: problem.body, fontSize: 19, spoken: problem.plain)

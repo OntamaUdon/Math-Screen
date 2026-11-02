@@ -125,16 +125,17 @@ enum Adaptive {
         }
         guard let unit = choose(unitWeights), let list = byUnit[unit] else { return nil }
 
-        // 2) その単元の中で、できぐあいに合う難しさの問題を選ぶ
+        // 2) その単元の中で、いまの力に合う難しさの問題を選ぶ。
+        //    難しさは、全員の1発正解率（連続値）。できていないうちは正解率の高い問題、できてきたら正解率の低い問題。
         let pr = store.progress(unit: unit)
-        let target = pr.count < 3 || pr.score < 0.5 ? 1 : (pr.score < 0.8 ? 2 : 3)
-        var cands = list.filter { $0.difficulty <= target && $0.id != current }
-        if cands.isEmpty { cands = list.filter { $0.id != current } }
+        let ability = pr.count < 3 ? 0.0 : pr.score                // 0...1
+        let targetRate = 0.9 - 0.4 * ability                       // 力が0なら正解率90%の問題、力が1なら50%の問題
+        var cands = list.filter { $0.id != current }
         if cands.isEmpty { cands = list }
         let recent = Set(SharedStore.recentProblemIDs)
         let weighted: [(Problem, Double)] = cands.map { p in
-            var w = 1.0
-            if p.difficulty == target { w *= 2 }
+            let gap = (DifficultyStore.shared.correctRate(p) - targetRate) / 0.15
+            var w = exp(-gap * gap) + 0.02                         // 目標の正解率に近いほど出やすい
             if store.lastWasWrong(p.id) { w *= 3 } else if !store.seen(p.id) { w *= 1.5 }
             if recent.contains(p.id) { w *= 0.05 }
             return (p, w)
@@ -153,5 +154,41 @@ enum Adaptive {
             if r < 0 { return item }
         }
         return items.last?.0
+    }
+}
+
+
+/// 問題の難しさ：全員の1発正解率（サーバーの problem_stats）から、連続値で測る。
+/// 解いた人がまだ少ない問題は、はじめに付けてあった目安（易しい 0.9／ふつう 0.7／難しい 0.5）を、5人ぶんの重さで混ぜて見積もる。
+final class DifficultyStore {
+    static let shared = DifficultyStore()
+
+    private var stats: [String: [Int]] = [:]          // 問題 id → [出題数, 正解数]
+    private static let cacheKey = "difficulty.stats.v1"
+    private static let stampKey = "difficulty.stats.at"
+
+    private init() {
+        if let raw = UserDefaults.standard.data(forKey: Self.cacheKey),
+           let d = try? JSONDecoder().decode([String: [Int]].self, from: raw) { stats = d }
+    }
+
+    /// 全員の1発正解率の見積もり（0...1）。大きいほど易しい。
+    func correctRate(_ p: Problem) -> Double {
+        let prior: Double = p.difficulty <= 1 ? 0.9 : (p.difficulty == 2 ? 0.7 : 0.5)
+        let s = stats[p.id] ?? [0, 0]
+        return (Double(s[1]) + 5 * prior) / (Double(s[0]) + 5)
+    }
+
+    /// 難しさ（0...1）。大きいほど難しい。
+    func difficulty(_ p: Problem) -> Double { 1 - correctRate(p) }
+
+    /// 1日に1回、サーバーから集計を取り直す。
+    func refreshIfNeeded() async {
+        let last = UserDefaults.standard.double(forKey: Self.stampKey)
+        guard Date().timeIntervalSince1970 - last > 24 * 3600 else { return }
+        guard let all = await Community.shared.allStats() else { return }
+        stats = all
+        if let raw = try? JSONEncoder().encode(all) { UserDefaults.standard.set(raw, forKey: Self.cacheKey) }
+        UserDefaults.standard.set(Date().timeIntervalSince1970, forKey: Self.stampKey)
     }
 }

@@ -24,6 +24,7 @@ final class AppModel {
 
     // MARK: 状態の読み込み（拡張が書き換えるので前面に来るたびに呼ぶ）
     func refresh() {
+        Task { await DifficultyStore.shared.refreshIfNeeded() }      // 問題の難しさ（全員の正解率）を、1日1回取り直す
         rules = SharedStore.loadRules()
         lockedRuleIDs = SharedStore.lockedRuleIDs
         settings = SharedStore.settings
