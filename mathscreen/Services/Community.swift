@@ -44,25 +44,6 @@ struct CommunityRow: Codable, Identifiable, Hashable {
     }
 }
 
-/// 問題につくコメント。
-struct CommentRow: Codable, Identifiable, Hashable {
-    let id: String
-    let problemKey: String
-    let author: String
-    let body: String
-    let createdAt: String
-
-    var dateText: String {
-        let f = ISO8601DateFormatter()
-        f.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
-        guard let d = f.date(from: createdAt) ?? ISO8601DateFormatter().date(from: createdAt) else { return "" }
-        let out = DateFormatter()
-        out.locale = Locale(identifier: "ja_JP")
-        out.dateFormat = "M/d H:mm"
-        return out.string(from: d)
-    }
-}
-
 struct NewPost: Encodable {
     var genre: String
     var difficulty: Int
@@ -216,34 +197,6 @@ actor Community {
     func block(_ author: String) async throws {
         let body = try JSONSerialization.data(withJSONObject: ["blocked": author])
         _ = try await send("POST", "rest/v1/user_blocks", body: body, prefer: "return=minimal")
-    }
-
-    // MARK: コメント
-    func comments(for key: String) async throws -> [CommentRow] {
-        let data = try await send("GET", "rest/v1/problem_comments", query: [
-            URLQueryItem(name: "select", value: "*"),
-            URLQueryItem(name: "problem_key", value: "eq.\(key)"),
-            URLQueryItem(name: "order", value: "created_at.desc"),
-            URLQueryItem(name: "limit", value: "100"),
-        ])
-        let d = JSONDecoder()
-        d.keyDecodingStrategy = .convertFromSnakeCase
-        let blocked = Set(try await blockedAuthors())
-        return try d.decode([CommentRow].self, from: data).filter { !blocked.contains($0.author) }
-    }
-
-    func postComment(key: String, body: String) async throws {
-        let json = try JSONSerialization.data(withJSONObject: ["problem_key": key, "body": body])
-        _ = try await send("POST", "rest/v1/problem_comments", body: json, prefer: "return=minimal")
-    }
-
-    func deleteComment(_ id: String) async throws {
-        _ = try await send("DELETE", "rest/v1/problem_comments", query: [URLQueryItem(name: "id", value: "eq.\(id)")])
-    }
-
-    func reportComment(_ id: String, reason: String) async throws {
-        let json = try JSONSerialization.data(withJSONObject: ["comment_id": id, "reason": reason])
-        _ = try await send("POST", "rest/v1/comment_reports", body: json, prefer: "return=minimal")
     }
 
     private func blockedAuthors() async throws -> [String] {

@@ -33,7 +33,7 @@ struct ProblemBookView: View {
                 LazyVStack(alignment: .leading, spacing: 14) {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("問題集").font(Theme.font(28, .bold)).foregroundStyle(Theme.ink)
-                        Text("好きな問題を選んで挑戦。タップすると、コメントも見られます。")
+                        Text("好きな問題を選んで挑戦。")
                             .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
                     }
                     .padding(.top, 12)
