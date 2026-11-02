@@ -39,7 +39,7 @@ struct StatsView: View {
         let weeks = model.weeklyCorrect(weeks: model.isPremium ? AppModel.premiumWeeks : 1)
         return VStack(alignment: .leading, spacing: 10) {
             Text(model.isPremium ? "過去の成績" : "今週の成績").font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
-            IsoBarChart(weeks: weeks, caption: model.isPremium ? "正解数（手前が今週、奥が過去。コーラルが今日）" : "正解数（コーラルが今日）")
+            IsoBarChart(weeks: weeks, caption: model.isPremium ? "正解数（手前が今週、奥が過去。10問で金色、20問で紫）" : "正解数（10問で金色、20問で紫）")
         }
         .card()
     }

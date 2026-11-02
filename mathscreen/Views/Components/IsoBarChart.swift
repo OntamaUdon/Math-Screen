@@ -2,6 +2,7 @@ import SwiftUI
 
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
+/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。満タンで金色、その2倍で紫になる。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
     var weeks: [[Int?]]
@@ -11,6 +12,7 @@ struct IsoBarChart: View {
     private let dayLabels = ["月", "火", "水", "木", "金", "土", "日"]
     private let gap: CGFloat = 1.15        // 棒の間隔（横）
     private let rowGap: CGFloat = 1.9      // 週と週の間隔（奥行き）
+    private let fullAt = 10                // この問数で棒が満タン
 
     private var rows: Int { max(weeks.count, 1) }
     private var height: CGFloat { rows == 1 ? 190 : 210 + 28 * CGFloat(rows - 1) }
@@ -32,7 +34,7 @@ struct IsoBarChart: View {
         let maxBar: CGFloat = rows == 1 ? 2.2 : 1.7
         let span = 7 * gap + 0.4                                  // 台座の長さ
         let depth = (n - 1) * rowGap
-        let maxValue = CGFloat(max(weeks.flatMap { $0 }.compactMap { $0 }.max() ?? 1, 1))
+        let full = CGFloat(fullAt)
 
         // 画面に収まる大きさを決める。横 = (10.45 + 奥行き)·cos30·s、縦 = ((10.45 + 奥行き)·0.5 + 棒の高さ + 0.2)·s
         let labelMargin: CGFloat = 46
@@ -72,10 +74,12 @@ struct IsoBarChart: View {
                 let y = -CGFloat(k) * rowGap - 0.3
                 let isToday = k == 0 && i == todayIndex
                 let colors: (Color, Color, Color) =
-                    isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
+                    value >= fullAt * 2 ? (Theme.violetLight, Theme.violet, Theme.violetDeep)       // 20問以上
+                    : value >= fullAt ? (Theme.goldLight, Theme.gold, Theme.goldDeep)               // 10問以上（満タン）
+                    : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
                     : k == 0 ? (Theme.tealLight, Theme.teal, Theme.tealDeep)
                     : (Color(hex: 0xBFEFE8), Color(hex: 0x8ADBD0), Color(hex: 0x5EBFB2))
-                let h = max(0.12, CGFloat(value) / maxValue * maxBar)
+                let h = max(0.12, min(CGFloat(value) / full, 1) * maxBar)
                 items.append((CGFloat(i) * gap + 0.1 + y + 10, {
                     box(Box(x: CGFloat(i) * gap + 0.1, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
                             top: colors.0, left: colors.1, right: colors.2))
@@ -97,7 +101,7 @@ struct IsoBarChart: View {
         }
         // 今日の数
         if let ti = todayIndex, let v = weeks[0][ti] {
-            let h = max(0.12, CGFloat(v) / maxValue * maxBar)
+            let h = max(0.12, min(CGFloat(v) / full, 1) * maxBar)
             let top = p(CGFloat(ti) * gap + 0.5, -0.3 + 0.4, 0.2 + h)
             ctx.draw(Text("今日 \(v)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
                      at: CGPoint(x: top.x, y: top.y - 12))
