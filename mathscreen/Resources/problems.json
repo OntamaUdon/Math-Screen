@@ -196529,5 +196529,5458 @@
     "unit": "e_weather",
     "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
     "rate": 5.6
+  },
+  {
+    "id": "u-g_irreg-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「be」（～である）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "be - was/were - been",
+    "plain": "「be」（～である）の過去形はどれか。　① was/were　② bed　③ been　④ be",
+    "choices": [
+      "was/were",
+      "bed",
+      "been",
+      "be"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-2",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「be」（～である）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "be - was/were - been",
+    "plain": "「be」（～である）の過去分詞はどれか。　① was/were　② be　③ been　④ bed",
+    "choices": [
+      "was/were",
+      "be",
+      "been",
+      "bed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「begin」（始める）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "begin - began - begun",
+    "plain": "「begin」（始める）の過去形はどれか。　① began　② begined　③ begun　④ begin",
+    "choices": [
+      "began",
+      "begined",
+      "begun",
+      "begin"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-4",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「begin」（始める）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "begin - began - begun",
+    "plain": "「begin」（始める）の過去分詞はどれか。　① begun　② begin　③ began　④ begined",
+    "choices": [
+      "begun",
+      "begin",
+      "began",
+      "begined"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「break」（こわす）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "break - broke - broken",
+    "plain": "「break」（こわす）の過去形はどれか。　① broke　② broken　③ breaked　④ break",
+    "choices": [
+      "broke",
+      "broken",
+      "breaked",
+      "break"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-6",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「break」（こわす）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "break - broke - broken",
+    "plain": "「break」（こわす）の過去分詞はどれか。　① break　② broken　③ breaked　④ broke",
+    "choices": [
+      "break",
+      "broken",
+      "breaked",
+      "broke"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「bring」（持ってくる）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "bring - brought - brought",
+    "plain": "「bring」（持ってくる）の過去形はどれか。　① bringed　② bring　③ spent　④ brought",
+    "choices": [
+      "bringed",
+      "bring",
+      "spent",
+      "brought"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「build」（建てる）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "build - built - built",
+    "plain": "「build」（建てる）の過去形はどれか。　① builded　② build　③ gave　④ built",
+    "choices": [
+      "builded",
+      "build",
+      "gave",
+      "built"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「buy」（買う）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "buy - bought - bought",
+    "plain": "「buy」（買う）の過去形はどれか。　① bought　② buy　③ buyed　④ understood",
+    "choices": [
+      "bought",
+      "buy",
+      "buyed",
+      "understood"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「catch」（つかまえる）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "catch - caught - caught",
+    "plain": "「catch」（つかまえる）の過去形はどれか。　① catch　② caught　③ catched　④ was/were",
+    "choices": [
+      "catch",
+      "caught",
+      "catched",
+      "was/were"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「choose」（選ぶ）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "choose - chose - chosen",
+    "plain": "「choose」（選ぶ）の過去形はどれか。　① chosen　② chose　③ choosed　④ choose",
+    "choices": [
+      "chosen",
+      "chose",
+      "choosed",
+      "choose"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「choose」（選ぶ）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "choose - chose - chosen",
+    "plain": "「choose」（選ぶ）の過去分詞はどれか。　① choosed　② chosen　③ chose　④ choose",
+    "choices": [
+      "choosed",
+      "chosen",
+      "chose",
+      "choose"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「come」（来る）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "come - came - come",
+    "plain": "「come」（来る）の過去形はどれか。　① come　② came　③ comed　④ felt",
+    "choices": [
+      "come",
+      "came",
+      "comed",
+      "felt"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-14",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「come」（来る）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "come - came - come",
+    "plain": "「come」（来る）の過去分詞はどれか。　① sent　② came　③ comed　④ come",
+    "choices": [
+      "sent",
+      "came",
+      "comed",
+      "come"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「cut」（切る）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "cut - cut - cut",
+    "plain": "「cut」（切る）の過去形はどれか。　① cuted　② ran　③ came　④ cut",
+    "choices": [
+      "cuted",
+      "ran",
+      "came",
+      "cut"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「do」（する）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "do - did - done",
+    "plain": "「do」（する）の過去形はどれか。　① do　② doed　③ did　④ done",
+    "choices": [
+      "do",
+      "doed",
+      "did",
+      "done"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「do」（する）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "do - did - done",
+    "plain": "「do」（する）の過去分詞はどれか。　① did　② done　③ doed　④ do",
+    "choices": [
+      "did",
+      "done",
+      "doed",
+      "do"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「draw」（描く）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "draw - drew - drawn",
+    "plain": "「draw」（描く）の過去形はどれか。　① drawn　② drew　③ drawed　④ draw",
+    "choices": [
+      "drawn",
+      "drew",
+      "drawed",
+      "draw"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-19",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「draw」（描く）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "draw - drew - drawn",
+    "plain": "「draw」（描く）の過去分詞はどれか。　① drawed　② drew　③ drawn　④ draw",
+    "choices": [
+      "drawed",
+      "drew",
+      "drawn",
+      "draw"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「drink」（飲む）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "drink - drank - drunk",
+    "plain": "「drink」（飲む）の過去形はどれか。　① drinked　② drank　③ drunk　④ drink",
+    "choices": [
+      "drinked",
+      "drank",
+      "drunk",
+      "drink"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-21",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「drink」（飲む）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "drink - drank - drunk",
+    "plain": "「drink」（飲む）の過去分詞はどれか。　① drinked　② drunk　③ drank　④ drink",
+    "choices": [
+      "drinked",
+      "drunk",
+      "drank",
+      "drink"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-22",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「drive」（運転する）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "drive - drove - driven",
+    "plain": "「drive」（運転する）の過去形はどれか。　① drived　② drive　③ drove　④ driven",
+    "choices": [
+      "drived",
+      "drive",
+      "drove",
+      "driven"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-23",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「drive」（運転する）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "drive - drove - driven",
+    "plain": "「drive」（運転する）の過去分詞はどれか。　① drove　② drive　③ driven　④ drived",
+    "choices": [
+      "drove",
+      "drive",
+      "driven",
+      "drived"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-24",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「eat」（食べる）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "eat - ate - eaten",
+    "plain": "「eat」（食べる）の過去形はどれか。　① eaten　② eat　③ ate　④ eated",
+    "choices": [
+      "eaten",
+      "eat",
+      "ate",
+      "eated"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-25",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「eat」（食べる）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "eat - ate - eaten",
+    "plain": "「eat」（食べる）の過去分詞はどれか。　① eated　② ate　③ eaten　④ eat",
+    "choices": [
+      "eated",
+      "ate",
+      "eaten",
+      "eat"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-26",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「fall」（落ちる）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "fall - fell - fallen",
+    "plain": "「fall」（落ちる）の過去形はどれか。　① fall　② falled　③ fallen　④ fell",
+    "choices": [
+      "fall",
+      "falled",
+      "fallen",
+      "fell"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-27",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「fall」（落ちる）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "fall - fell - fallen",
+    "plain": "「fall」（落ちる）の過去分詞はどれか。　① fallen　② fell　③ falled　④ fall",
+    "choices": [
+      "fallen",
+      "fell",
+      "falled",
+      "fall"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-28",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「feel」（感じる）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "feel - felt - felt",
+    "plain": "「feel」（感じる）の過去形はどれか。　① broke　② feel　③ feeled　④ felt",
+    "choices": [
+      "broke",
+      "feel",
+      "feeled",
+      "felt"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-29",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「fight」（戦う）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "fight - fought - fought",
+    "plain": "「fight」（戦う）の過去形はどれか。　① fight　② fighted　③ left　④ fought",
+    "choices": [
+      "fight",
+      "fighted",
+      "left",
+      "fought"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-30",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「find」（見つける）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "find - found - found",
+    "plain": "「find」（見つける）の過去形はどれか。　① find　② found　③ read　④ finded",
+    "choices": [
+      "find",
+      "found",
+      "read",
+      "finded"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-31",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「fly」（飛ぶ）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "fly - flew - flown",
+    "plain": "「fly」（飛ぶ）の過去形はどれか。　① fly　② flown　③ flew　④ flyed",
+    "choices": [
+      "fly",
+      "flown",
+      "flew",
+      "flyed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-32",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「fly」（飛ぶ）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "fly - flew - flown",
+    "plain": "「fly」（飛ぶ）の過去分詞はどれか。　① flyed　② flown　③ flew　④ fly",
+    "choices": [
+      "flyed",
+      "flown",
+      "flew",
+      "fly"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-33",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「forget」（忘れる）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "forget - forgot - forgotten",
+    "plain": "「forget」（忘れる）の過去形はどれか。　① forgotten　② forget　③ forgeted　④ forgot",
+    "choices": [
+      "forgotten",
+      "forget",
+      "forgeted",
+      "forgot"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-34",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「forget」（忘れる）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "forget - forgot - forgotten",
+    "plain": "「forget」（忘れる）の過去分詞はどれか。　① forget　② forgotten　③ forgeted　④ forgot",
+    "choices": [
+      "forget",
+      "forgotten",
+      "forgeted",
+      "forgot"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-35",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「get」（手に入れる）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "get - got - got/gotten",
+    "plain": "「get」（手に入れる）の過去形はどれか。　① geted　② got　③ get　④ got/gotten",
+    "choices": [
+      "geted",
+      "got",
+      "get",
+      "got/gotten"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-36",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「get」（手に入れる）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "get - got - got/gotten",
+    "plain": "「get」（手に入れる）の過去分詞はどれか。　① geted　② got/gotten　③ got　④ get",
+    "choices": [
+      "geted",
+      "got/gotten",
+      "got",
+      "get"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-37",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「give」（与える）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "give - gave - given",
+    "plain": "「give」（与える）の過去形はどれか。　① give　② gived　③ given　④ gave",
+    "choices": [
+      "give",
+      "gived",
+      "given",
+      "gave"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-38",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「give」（与える）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "give - gave - given",
+    "plain": "「give」（与える）の過去分詞はどれか。　① gave　② gived　③ give　④ given",
+    "choices": [
+      "gave",
+      "gived",
+      "give",
+      "given"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-39",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「go」（行く）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "go - went - gone",
+    "plain": "「go」（行く）の過去形はどれか。　① goed　② went　③ gone　④ go",
+    "choices": [
+      "goed",
+      "went",
+      "gone",
+      "go"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-40",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「go」（行く）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "go - went - gone",
+    "plain": "「go」（行く）の過去分詞はどれか。　① gone　② go　③ goed　④ went",
+    "choices": [
+      "gone",
+      "go",
+      "goed",
+      "went"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-41",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「grow」（成長する）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "grow - grew - grown",
+    "plain": "「grow」（成長する）の過去形はどれか。　① growed　② grow　③ grown　④ grew",
+    "choices": [
+      "growed",
+      "grow",
+      "grown",
+      "grew"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-42",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「grow」（成長する）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "grow - grew - grown",
+    "plain": "「grow」（成長する）の過去分詞はどれか。　① grew　② grown　③ grow　④ growed",
+    "choices": [
+      "grew",
+      "grown",
+      "grow",
+      "growed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-43",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「have」（持っている）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "have - had - had",
+    "plain": "「have」（持っている）の過去形はどれか。　① haved　② have　③ grew　④ had",
+    "choices": [
+      "haved",
+      "have",
+      "grew",
+      "had"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-44",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「hear」（聞こえる）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "hear - heard - heard",
+    "plain": "「hear」（聞こえる）の過去形はどれか。　① hear　② heard　③ did　④ heared",
+    "choices": [
+      "hear",
+      "heard",
+      "did",
+      "heared"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-45",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「hide」（隠す）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "hide - hid - hidden",
+    "plain": "「hide」（隠す）の過去形はどれか。　① hided　② hide　③ hidden　④ hid",
+    "choices": [
+      "hided",
+      "hide",
+      "hidden",
+      "hid"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-46",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「hide」（隠す）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "hide - hid - hidden",
+    "plain": "「hide」（隠す）の過去分詞はどれか。　① hide　② hided　③ hidden　④ hid",
+    "choices": [
+      "hide",
+      "hided",
+      "hidden",
+      "hid"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-47",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「hit」（打つ）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "hit - hit - hit",
+    "plain": "「hit」（打つ）の過去形はどれか。　① hit　② kept　③ hited　④ won",
+    "choices": [
+      "hit",
+      "kept",
+      "hited",
+      "won"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-48",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「hold」（持つ）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "hold - held - held",
+    "plain": "「hold」（持つ）の過去形はどれか。　① hold　② meant　③ holded　④ held",
+    "choices": [
+      "hold",
+      "meant",
+      "holded",
+      "held"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-49",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「keep」（保つ）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "keep - kept - kept",
+    "plain": "「keep」（保つ）の過去形はどれか。　① threw　② keep　③ kept　④ keeped",
+    "choices": [
+      "threw",
+      "keep",
+      "kept",
+      "keeped"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-50",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「know」（知っている）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "know - knew - known",
+    "plain": "「know」（知っている）の過去形はどれか。　① knew　② knowed　③ know　④ known",
+    "choices": [
+      "knew",
+      "knowed",
+      "know",
+      "known"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-51",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「know」（知っている）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "know - knew - known",
+    "plain": "「know」（知っている）の過去分詞はどれか。　① know　② knowed　③ knew　④ known",
+    "choices": [
+      "know",
+      "knowed",
+      "knew",
+      "known"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-52",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「lead」（導く）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "lead - led - led",
+    "plain": "「lead」（導く）の過去形はどれか。　① lead　② leaded　③ led　④ meant",
+    "choices": [
+      "lead",
+      "leaded",
+      "led",
+      "meant"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-53",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「leave」（去る）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "leave - left - left",
+    "plain": "「leave」（去る）の過去形はどれか。　① leave　② hid　③ left　④ leaved",
+    "choices": [
+      "leave",
+      "hid",
+      "left",
+      "leaved"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-54",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「lend」（貸す）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "lend - lent - lent",
+    "plain": "「lend」（貸す）の過去形はどれか。　① lended　② woke　③ lend　④ lent",
+    "choices": [
+      "lended",
+      "woke",
+      "lend",
+      "lent"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-55",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「let」（させる）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "let - let - let",
+    "plain": "「let」（させる）の過去形はどれか。　① let　② leted　③ understood　④ was/were",
+    "choices": [
+      "let",
+      "leted",
+      "understood",
+      "was/were"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-56",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「lose」（失う）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "lose - lost - lost",
+    "plain": "「lose」（失う）の過去形はどれか。　① losed　② lost　③ kept　④ lose",
+    "choices": [
+      "losed",
+      "lost",
+      "kept",
+      "lose"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-57",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「make」（作る）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "make - made - made",
+    "plain": "「make」（作る）の過去形はどれか。　① made　② make　③ forgot　④ maked",
+    "choices": [
+      "made",
+      "make",
+      "forgot",
+      "maked"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-58",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「mean」（意味する）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "mean - meant - meant",
+    "plain": "「mean」（意味する）の過去形はどれか。　① meant　② drove　③ meaned　④ mean",
+    "choices": [
+      "meant",
+      "drove",
+      "meaned",
+      "mean"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-59",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「meet」（会う）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "meet - met - met",
+    "plain": "「meet」（会う）の過去形はどれか。　① meeted　② swam　③ meet　④ met",
+    "choices": [
+      "meeted",
+      "swam",
+      "meet",
+      "met"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-60",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「pay」（払う）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "pay - paid - paid",
+    "plain": "「pay」（払う）の過去形はどれか。　① shone　② paid　③ payed　④ pay",
+    "choices": [
+      "shone",
+      "paid",
+      "payed",
+      "pay"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-61",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「put」（置く）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "put - put - put",
+    "plain": "「put」（置く）の過去形はどれか。　① had　② wrote　③ put　④ puted",
+    "choices": [
+      "had",
+      "wrote",
+      "put",
+      "puted"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-62",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「read」（読む）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "read - read - read",
+    "plain": "「read」（読む）の過去形はどれか。　① read　② readed　③ kept　④ let",
+    "choices": [
+      "read",
+      "readed",
+      "kept",
+      "let"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-63",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「ride」（乗る）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "ride - rode - ridden",
+    "plain": "「ride」（乗る）の過去形はどれか。　① rided　② ride　③ rode　④ ridden",
+    "choices": [
+      "rided",
+      "ride",
+      "rode",
+      "ridden"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-64",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「ride」（乗る）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "ride - rode - ridden",
+    "plain": "「ride」（乗る）の過去分詞はどれか。　① ridden　② ride　③ rode　④ rided",
+    "choices": [
+      "ridden",
+      "ride",
+      "rode",
+      "rided"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-65",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「ring」（鳴る）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "ring - rang - rung",
+    "plain": "「ring」（鳴る）の過去形はどれか。　① rung　② ring　③ rang　④ ringed",
+    "choices": [
+      "rung",
+      "ring",
+      "rang",
+      "ringed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-66",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「ring」（鳴る）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "ring - rang - rung",
+    "plain": "「ring」（鳴る）の過去分詞はどれか。　① ringed　② rang　③ ring　④ rung",
+    "choices": [
+      "ringed",
+      "rang",
+      "ring",
+      "rung"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-67",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「rise」（のぼる）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "rise - rose - risen",
+    "plain": "「rise」（のぼる）の過去形はどれか。　① rise　② rose　③ risen　④ rised",
+    "choices": [
+      "rise",
+      "rose",
+      "risen",
+      "rised"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-68",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「rise」（のぼる）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "rise - rose - risen",
+    "plain": "「rise」（のぼる）の過去分詞はどれか。　① rised　② rose　③ rise　④ risen",
+    "choices": [
+      "rised",
+      "rose",
+      "rise",
+      "risen"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-69",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「run」（走る）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "run - ran - run",
+    "plain": "「run」（走る）の過去形はどれか。　① understood　② ran　③ run　④ runed",
+    "choices": [
+      "understood",
+      "ran",
+      "run",
+      "runed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-70",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「run」（走る）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "run - ran - run",
+    "plain": "「run」（走る）の過去分詞はどれか。　① ran　② taken　③ run　④ runed",
+    "choices": [
+      "ran",
+      "taken",
+      "run",
+      "runed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-71",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「say」（言う）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "say - said - said",
+    "plain": "「say」（言う）の過去形はどれか。　① say　② sayed　③ said　④ heard",
+    "choices": [
+      "say",
+      "sayed",
+      "said",
+      "heard"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-72",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「see」（見える）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "see - saw - seen",
+    "plain": "「see」（見える）の過去形はどれか。　① saw　② seed　③ see　④ seen",
+    "choices": [
+      "saw",
+      "seed",
+      "see",
+      "seen"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-73",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「see」（見える）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "see - saw - seen",
+    "plain": "「see」（見える）の過去分詞はどれか。　① see　② seen　③ seed　④ saw",
+    "choices": [
+      "see",
+      "seen",
+      "seed",
+      "saw"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-74",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「sell」（売る）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "sell - sold - sold",
+    "plain": "「sell」（売る）の過去形はどれか。　① ran　② selled　③ sold　④ sell",
+    "choices": [
+      "ran",
+      "selled",
+      "sold",
+      "sell"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-75",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「send」（送る）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "send - sent - sent",
+    "plain": "「send」（送る）の過去形はどれか。　① send　② forgot　③ sent　④ sended",
+    "choices": [
+      "send",
+      "forgot",
+      "sent",
+      "sended"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-76",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「set」（置く・設定する）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "set - set - set",
+    "plain": "「set」（置く・設定する）の過去形はどれか。　① set　② seted　③ wore　④ rang",
+    "choices": [
+      "set",
+      "seted",
+      "wore",
+      "rang"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-77",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「shake」（振る）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "shake - shook - shaken",
+    "plain": "「shake」（振る）の過去形はどれか。　① shook　② shaken　③ shaked　④ shake",
+    "choices": [
+      "shook",
+      "shaken",
+      "shaked",
+      "shake"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-78",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「shake」（振る）の過去分詞はどれか。",
+    "answer": 1,
+    "explanation": "shake - shook - shaken",
+    "plain": "「shake」（振る）の過去分詞はどれか。　① shook　② shaken　③ shaked　④ shake",
+    "choices": [
+      "shook",
+      "shaken",
+      "shaked",
+      "shake"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-79",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「shine」（輝く）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "shine - shone - shone",
+    "plain": "「shine」（輝く）の過去形はどれか。　① shone　② shined　③ shine　④ meant",
+    "choices": [
+      "shone",
+      "shined",
+      "shine",
+      "meant"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-80",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「show」（見せる）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "show - showed - shown",
+    "plain": "「show」（見せる）の過去形はどれか。　① show　② heard　③ showed　④ shown",
+    "choices": [
+      "show",
+      "heard",
+      "showed",
+      "shown"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-81",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「show」（見せる）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "show - showed - shown",
+    "plain": "「show」（見せる）の過去分詞はどれか。　① shown　② begun　③ showed　④ show",
+    "choices": [
+      "shown",
+      "begun",
+      "showed",
+      "show"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-82",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「shut」（閉める）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "shut - shut - shut",
+    "plain": "「shut」（閉める）の過去形はどれか。　① shut　② spoke　③ heard　④ shuted",
+    "choices": [
+      "shut",
+      "spoke",
+      "heard",
+      "shuted"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-83",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「sing」（歌う）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "sing - sang - sung",
+    "plain": "「sing」（歌う）の過去形はどれか。　① sang　② sung　③ singed　④ sing",
+    "choices": [
+      "sang",
+      "sung",
+      "singed",
+      "sing"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-84",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「sing」（歌う）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "sing - sang - sung",
+    "plain": "「sing」（歌う）の過去分詞はどれか。　① sung　② sing　③ sang　④ singed",
+    "choices": [
+      "sung",
+      "sing",
+      "sang",
+      "singed"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-85",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「sit」（すわる）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "sit - sat - sat",
+    "plain": "「sit」（すわる）の過去形はどれか。　① sat　② sited　③ swam　④ sit",
+    "choices": [
+      "sat",
+      "sited",
+      "swam",
+      "sit"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-86",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「sleep」（眠る）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "sleep - slept - slept",
+    "plain": "「sleep」（眠る）の過去形はどれか。　① slept　② sleeped　③ went　④ sleep",
+    "choices": [
+      "slept",
+      "sleeped",
+      "went",
+      "sleep"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-87",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「speak」（話す）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "speak - spoke - spoken",
+    "plain": "「speak」（話す）の過去形はどれか。　① speak　② spoken　③ speaked　④ spoke",
+    "choices": [
+      "speak",
+      "spoken",
+      "speaked",
+      "spoke"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-88",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「speak」（話す）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "speak - spoke - spoken",
+    "plain": "「speak」（話す）の過去分詞はどれか。　① speak　② speaked　③ spoke　④ spoken",
+    "choices": [
+      "speak",
+      "speaked",
+      "spoke",
+      "spoken"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-89",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「spend」（費やす）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "spend - spent - spent",
+    "plain": "「spend」（費やす）の過去形はどれか。　① spent　② rode　③ spended　④ spend",
+    "choices": [
+      "spent",
+      "rode",
+      "spended",
+      "spend"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-90",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「stand」（立つ）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "stand - stood - stood",
+    "plain": "「stand」（立つ）の過去形はどれか。　① stand　② stood　③ standed　④ made",
+    "choices": [
+      "stand",
+      "stood",
+      "standed",
+      "made"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-91",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「steal」（ぬすむ）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "steal - stole - stolen",
+    "plain": "「steal」（ぬすむ）の過去形はどれか。　① stealed　② stolen　③ stole　④ steal",
+    "choices": [
+      "stealed",
+      "stolen",
+      "stole",
+      "steal"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-92",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「steal」（ぬすむ）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "steal - stole - stolen",
+    "plain": "「steal」（ぬすむ）の過去分詞はどれか。　① stealed　② stole　③ stolen　④ steal",
+    "choices": [
+      "stealed",
+      "stole",
+      "stolen",
+      "steal"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-93",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「swim」（泳ぐ）の過去形はどれか。",
+    "answer": 1,
+    "explanation": "swim - swam - swum",
+    "plain": "「swim」（泳ぐ）の過去形はどれか。　① swim　② swam　③ swimed　④ swum",
+    "choices": [
+      "swim",
+      "swam",
+      "swimed",
+      "swum"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-94",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「swim」（泳ぐ）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "swim - swam - swum",
+    "plain": "「swim」（泳ぐ）の過去分詞はどれか。　① swam　② swimed　③ swim　④ swum",
+    "choices": [
+      "swam",
+      "swimed",
+      "swim",
+      "swum"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-95",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「take」（取る）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "take - took - taken",
+    "plain": "「take」（取る）の過去形はどれか。　① taked　② taken　③ take　④ took",
+    "choices": [
+      "taked",
+      "taken",
+      "take",
+      "took"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-96",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「take」（取る）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "take - took - taken",
+    "plain": "「take」（取る）の過去分詞はどれか。　① taken　② take　③ taked　④ took",
+    "choices": [
+      "taken",
+      "take",
+      "taked",
+      "took"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-97",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「teach」（教える）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "teach - taught - taught",
+    "plain": "「teach」（教える）の過去形はどれか。　① teached　② teach　③ taught　④ set",
+    "choices": [
+      "teached",
+      "teach",
+      "taught",
+      "set"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-98",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「tell」（伝える）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "tell - told - told",
+    "plain": "「tell」（伝える）の過去形はどれか。　① tell　② met　③ told　④ telled",
+    "choices": [
+      "tell",
+      "met",
+      "told",
+      "telled"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-99",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「think」（考える）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "think - thought - thought",
+    "plain": "「think」（考える）の過去形はどれか。　① thought　② thinked　③ flew　④ think",
+    "choices": [
+      "thought",
+      "thinked",
+      "flew",
+      "think"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-100",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「throw」（投げる）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "throw - threw - thrown",
+    "plain": "「throw」（投げる）の過去形はどれか。　① thrown　② throwed　③ threw　④ throw",
+    "choices": [
+      "thrown",
+      "throwed",
+      "threw",
+      "throw"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-101",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「throw」（投げる）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "throw - threw - thrown",
+    "plain": "「throw」（投げる）の過去分詞はどれか。　① throwed　② threw　③ thrown　④ throw",
+    "choices": [
+      "throwed",
+      "threw",
+      "thrown",
+      "throw"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-102",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「understand」（理解する）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "understand - understood - understood",
+    "plain": "「understand」（理解する）の過去形はどれか。　① understanded　② understand　③ understood　④ swam",
+    "choices": [
+      "understanded",
+      "understand",
+      "understood",
+      "swam"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-103",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「wake」（目を覚ます）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "wake - woke - woken",
+    "plain": "「wake」（目を覚ます）の過去形はどれか。　① wake　② woken　③ woke　④ waked",
+    "choices": [
+      "wake",
+      "woken",
+      "woke",
+      "waked"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-104",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「wake」（目を覚ます）の過去分詞はどれか。",
+    "answer": 2,
+    "explanation": "wake - woke - woken",
+    "plain": "「wake」（目を覚ます）の過去分詞はどれか。　① wake　② woke　③ woken　④ waked",
+    "choices": [
+      "wake",
+      "woke",
+      "woken",
+      "waked"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-105",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「wear」（着ている）の過去形はどれか。",
+    "answer": 2,
+    "explanation": "wear - wore - worn",
+    "plain": "「wear」（着ている）の過去形はどれか。　① wear　② weared　③ wore　④ worn",
+    "choices": [
+      "wear",
+      "weared",
+      "wore",
+      "worn"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-106",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「wear」（着ている）の過去分詞はどれか。",
+    "answer": 3,
+    "explanation": "wear - wore - worn",
+    "plain": "「wear」（着ている）の過去分詞はどれか。　① wear　② weared　③ wore　④ worn",
+    "choices": [
+      "wear",
+      "weared",
+      "wore",
+      "worn"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_irreg-107",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「win」（勝つ）の過去形はどれか。",
+    "answer": 0,
+    "explanation": "win - won - won",
+    "plain": "「win」（勝つ）の過去形はどれか。　① won　② wined　③ win　④ shook",
+    "choices": [
+      "won",
+      "wined",
+      "win",
+      "shook"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-108",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "不規則動詞",
+    "body": "「write」（書く）の過去形はどれか。",
+    "answer": 3,
+    "explanation": "write - wrote - written",
+    "plain": "「write」（書く）の過去形はどれか。　① write　② writed　③ written　④ wrote",
+    "choices": [
+      "write",
+      "writed",
+      "written",
+      "wrote"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-g_irreg-109",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "不規則動詞",
+    "body": "「write」（書く）の過去分詞はどれか。",
+    "answer": 0,
+    "explanation": "write - wrote - written",
+    "plain": "「write」（書く）の過去分詞はどれか。　① written　② wrote　③ writed　④ write",
+    "choices": [
+      "written",
+      "wrote",
+      "writed",
+      "write"
+    ],
+    "unit": "g_irreg",
+    "hint": "原形・過去形・過去分詞の3つを、セットで覚えましょう。",
+    "rate": 5.5
+  },
+  {
+    "id": "u-g_prep-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I get up （ ） six every morning.",
+    "answer": 1,
+    "explanation": "時刻の前は at。",
+    "plain": "次の文の（ ）に入るものを選べ。　I get up （ ） six every morning.　① to　② at　③ in　④ on",
+    "choices": [
+      "to",
+      "at",
+      "in",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　My birthday is （ ） May.",
+    "answer": 3,
+    "explanation": "月の前は in。",
+    "plain": "次の文の（ ）に入るものを選べ。　My birthday is （ ） May.　① on　② at　③ to　④ in",
+    "choices": [
+      "on",
+      "at",
+      "to",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　We have a party （ ） Sunday.",
+    "answer": 0,
+    "explanation": "曜日の前は on。",
+    "plain": "次の文の（ ）に入るものを選べ。　We have a party （ ） Sunday.　① on　② at　③ by　④ in",
+    "choices": [
+      "on",
+      "at",
+      "by",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　She came to Japan （ ） 2019.",
+    "answer": 2,
+    "explanation": "年の前は in。",
+    "plain": "次の文の（ ）に入るものを選べ。　She came to Japan （ ） 2019.　① at　② for　③ in　④ on",
+    "choices": [
+      "at",
+      "for",
+      "in",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I go to school （ ） bus.",
+    "answer": 1,
+    "explanation": "乗り物を使う手段は by。",
+    "plain": "次の文の（ ）に入るものを選べ。　I go to school （ ） bus.　① with　② by　③ on　④ in",
+    "choices": [
+      "with",
+      "by",
+      "on",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　Write your name （ ） a pen.",
+    "answer": 1,
+    "explanation": "道具を使うときは with。",
+    "plain": "次の文の（ ）に入るものを選べ。　Write your name （ ） a pen.　① by　② with　③ in　④ on",
+    "choices": [
+      "by",
+      "with",
+      "in",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He is good （ ） English.",
+    "answer": 2,
+    "explanation": "be good at ～ は「～が得意」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is good （ ） English.　① in　② on　③ at　④ for",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'm interested （ ） music.",
+    "answer": 3,
+    "explanation": "be interested in ～ は「～に興味がある」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm interested （ ） music.　① at　② of　③ on　④ in",
+    "choices": [
+      "at",
+      "of",
+      "on",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　She is afraid （ ） dogs.",
+    "answer": 1,
+    "explanation": "be afraid of ～ は「～がこわい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　She is afraid （ ） dogs.　① in　② of　③ to　④ at",
+    "choices": [
+      "in",
+      "of",
+      "to",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　Thank you （ ） your help.",
+    "answer": 0,
+    "explanation": "thank you for ～ は「～をありがとう」。",
+    "plain": "次の文の（ ）に入るものを選べ。　Thank you （ ） your help.　① for　② at　③ of　④ to",
+    "choices": [
+      "for",
+      "at",
+      "of",
+      "to"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I live （ ） Tokyo.",
+    "answer": 0,
+    "explanation": "広い場所（都市）の前は in。",
+    "plain": "次の文の（ ）に入るものを選べ。　I live （ ） Tokyo.　① in　② by　③ at　④ on",
+    "choices": [
+      "in",
+      "by",
+      "at",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-12",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　The book is （ ） the table.",
+    "answer": 2,
+    "explanation": "接している上は on。",
+    "plain": "次の文の（ ）に入るものを選べ。　The book is （ ） the table.　① to　② in　③ on　④ at",
+    "choices": [
+      "to",
+      "in",
+      "on",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　There is a cat （ ） the chair.",
+    "answer": 3,
+    "explanation": "「～の下に」は under。",
+    "plain": "次の文の（ ）に入るものを選べ。　There is a cat （ ） the chair.　① at　② on　③ over　④ under",
+    "choices": [
+      "at",
+      "on",
+      "over",
+      "under"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　The bank is （ ） the station and the school.",
+    "answer": 2,
+    "explanation": "2つの間は between。",
+    "plain": "次の文の（ ）に入るものを選べ。　The bank is （ ） the station and the school.　① under　② beside　③ between　④ among",
+    "choices": [
+      "under",
+      "beside",
+      "between",
+      "among"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He walked （ ） the park.",
+    "answer": 0,
+    "explanation": "「～を通り抜けて」は through。",
+    "plain": "次の文の（ ）に入るものを選べ。　He walked （ ） the park.　① through　② across　③ on　④ at",
+    "choices": [
+      "through",
+      "across",
+      "on",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-16",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I have lived here （ ） ten years.",
+    "answer": 1,
+    "explanation": "期間の長さは for。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have lived here （ ） ten years.　① during　② for　③ since　④ from",
+    "choices": [
+      "during",
+      "for",
+      "since",
+      "from"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I have lived here （ ） 2015.",
+    "answer": 2,
+    "explanation": "「～以来」は since。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have lived here （ ） 2015.　① from　② in　③ since　④ for",
+    "choices": [
+      "from",
+      "in",
+      "since",
+      "for"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-18",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'll wait here （ ） you come back.",
+    "answer": 0,
+    "explanation": "「～まで（ずっと）」は until。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'll wait here （ ） you come back.　① until　② since　③ for　④ by",
+    "choices": [
+      "until",
+      "since",
+      "for",
+      "by"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-19",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　Please come back （ ） five o'clock.",
+    "answer": 3,
+    "explanation": "「～までに」は by。",
+    "plain": "次の文の（ ）に入るものを選べ。　Please come back （ ） five o'clock.　① until　② for　③ in　④ by",
+    "choices": [
+      "until",
+      "for",
+      "in",
+      "by"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-20",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　It rained a lot （ ） the night.",
+    "answer": 0,
+    "explanation": "特定の期間中は during。",
+    "plain": "次の文の（ ）に入るものを選べ。　It rained a lot （ ） the night.　① during　② since　③ while　④ for",
+    "choices": [
+      "during",
+      "since",
+      "while",
+      "for"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-21",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I was reading a book （ ） he was cooking.",
+    "answer": 1,
+    "explanation": "while は接続詞で、あとに文が続く。",
+    "plain": "次の文の（ ）に入るものを選べ。　I was reading a book （ ） he was cooking.　① until　② while　③ during　④ for",
+    "choices": [
+      "until",
+      "while",
+      "during",
+      "for"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-22",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He is looking （ ） his key.",
+    "answer": 2,
+    "explanation": "look for ～ は「～をさがす」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is looking （ ） his key.　① to　② after　③ for　④ at",
+    "choices": [
+      "to",
+      "after",
+      "for",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-23",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　She takes care （ ） her little sister.",
+    "answer": 1,
+    "explanation": "take care of ～ は「～の世話をする」。",
+    "plain": "次の文の（ ）に入るものを選べ。　She takes care （ ） her little sister.　① for　② of　③ to　④ at",
+    "choices": [
+      "for",
+      "of",
+      "to",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-24",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'm looking forward （ ） the trip.",
+    "answer": 2,
+    "explanation": "look forward to ～ は「～を楽しみに待つ」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm looking forward （ ） the trip.　① on　② for　③ to　④ at",
+    "choices": [
+      "on",
+      "for",
+      "to",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-25",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He was born （ ） Osaka （ ） 2005.",
+    "answer": 2,
+    "explanation": "場所（都市）にも年にも in。",
+    "plain": "次の文の（ ）に入るものを選べ。　He was born （ ） Osaka （ ） 2005.　① at / in　② on / at　③ in / in　④ in / on",
+    "choices": [
+      "at / in",
+      "on / at",
+      "in / in",
+      "in / on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-26",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I have （ ） apple.",
+    "answer": 0,
+    "explanation": "母音で始まる語の前は an。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have （ ） apple.　① an　② a　③ some　④ the",
+    "choices": [
+      "an",
+      "a",
+      "some",
+      "the"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-27",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　She plays （ ） piano.",
+    "answer": 3,
+    "explanation": "楽器の前には the をつける。",
+    "plain": "次の文の（ ）に入るものを選べ。　She plays （ ） piano.　① a　② an　③ （なし）　④ the",
+    "choices": [
+      "a",
+      "an",
+      "（なし）",
+      "the"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-28",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I play （ ） tennis after school.",
+    "answer": 1,
+    "explanation": "スポーツ名の前には冠詞をつけない。",
+    "plain": "次の文の（ ）に入るものを選べ。　I play （ ） tennis after school.　① a　② （なし）　③ an　④ the",
+    "choices": [
+      "a",
+      "（なし）",
+      "an",
+      "the"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-29",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　The sun rises in （ ） east.",
+    "answer": 2,
+    "explanation": "方位には the をつける。",
+    "plain": "次の文の（ ）に入るものを選べ。　The sun rises in （ ） east.　① （なし）　② an　③ the　④ a",
+    "choices": [
+      "（なし）",
+      "an",
+      "the",
+      "a"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-30",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He is （ ） tallest boy in our class.",
+    "answer": 2,
+    "explanation": "最上級の前には the をつける。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is （ ） tallest boy in our class.　① （なし）　② a　③ the　④ an",
+    "choices": [
+      "（なし）",
+      "a",
+      "the",
+      "an"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-31",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I want to go （ ） the library.",
+    "answer": 0,
+    "explanation": "「～へ行く」は go to ～。",
+    "plain": "次の文の（ ）に入るものを選べ。　I want to go （ ） the library.　① to　② on　③ in　④ at",
+    "choices": [
+      "to",
+      "on",
+      "in",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-32",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　She is waiting （ ） the bus stop.",
+    "answer": 2,
+    "explanation": "地点を表すときは at。",
+    "plain": "次の文の（ ）に入るものを選べ。　She is waiting （ ） the bus stop.　① in　② to　③ at　④ on",
+    "choices": [
+      "in",
+      "to",
+      "at",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-33",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　The meeting starts （ ） nine.",
+    "answer": 3,
+    "explanation": "時刻は at。",
+    "plain": "次の文の（ ）に入るものを選べ。　The meeting starts （ ） nine.　① by　② in　③ on　④ at",
+    "choices": [
+      "by",
+      "in",
+      "on",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-34",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He arrived （ ） Kyoto yesterday.",
+    "answer": 2,
+    "explanation": "到着する都市は arrive in。",
+    "plain": "次の文の（ ）に入るものを選べ。　He arrived （ ） Kyoto yesterday.　① at　② to　③ in　④ on",
+    "choices": [
+      "at",
+      "to",
+      "in",
+      "on"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-35",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　We arrived （ ） the station at noon.",
+    "answer": 3,
+    "explanation": "到着する小さな地点は arrive at。",
+    "plain": "次の文の（ ）に入るものを選べ。　We arrived （ ） the station at noon.　① on　② to　③ in　④ at",
+    "choices": [
+      "on",
+      "to",
+      "in",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-36",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　This is a letter （ ） my friend.",
+    "answer": 0,
+    "explanation": "「～から（の）」は from。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is a letter （ ） my friend.　① from　② at　③ of　④ to",
+    "choices": [
+      "from",
+      "at",
+      "of",
+      "to"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-37",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'm going to send it （ ） email.",
+    "answer": 0,
+    "explanation": "手段は by。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm going to send it （ ） email.　① by　② on　③ in　④ with",
+    "choices": [
+      "by",
+      "on",
+      "in",
+      "with"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 6.4
+  },
+  {
+    "id": "u-g_prep-38",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　He spoke （ ） a loud voice.",
+    "answer": 3,
+    "explanation": "in a loud voice は「大声で」。",
+    "plain": "次の文の（ ）に入るものを選べ。　He spoke （ ） a loud voice.　① on　② with　③ by　④ in",
+    "choices": [
+      "on",
+      "with",
+      "by",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-39",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　The singer is famous （ ） her songs.",
+    "answer": 3,
+    "explanation": "be famous for ～ は「～で有名」。",
+    "plain": "次の文の（ ）に入るものを選べ。　The singer is famous （ ） her songs.　① at　② to　③ of　④ for",
+    "choices": [
+      "at",
+      "to",
+      "of",
+      "for"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-40",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　This sweater is made （ ） wool.",
+    "answer": 0,
+    "explanation": "材料が見てわかるときは be made of ～。",
+    "plain": "次の文の（ ）に入るものを選べ。　This sweater is made （ ） wool.　① of　② from　③ by　④ in",
+    "choices": [
+      "of",
+      "from",
+      "by",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-41",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　Wine is made （ ） grapes.",
+    "answer": 0,
+    "explanation": "原料が見てわからないときは be made from ～。",
+    "plain": "次の文の（ ）に入るものを選べ。　Wine is made （ ） grapes.　① from　② by　③ of　④ in",
+    "choices": [
+      "from",
+      "by",
+      "of",
+      "in"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_prep-42",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "前置詞と冠詞",
+    "body": "次の文の（ ）に入るものを選べ。　I'm proud （ ） my school.",
+    "answer": 1,
+    "explanation": "be proud of ～ は「～を誇りに思う」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm proud （ ） my school.　① in　② of　③ for　④ at",
+    "choices": [
+      "in",
+      "of",
+      "for",
+      "at"
+    ],
+    "unit": "g_prep",
+    "hint": "時（at / on / in）や場所、よく使う組み合わせ（be good at など）を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-g_form-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「child」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "child の複数形は children。",
+    "plain": "「child」の複数形はどれか。　① childs　② childes　③ childies　④ children",
+    "choices": [
+      "childs",
+      "childes",
+      "childies",
+      "children"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「man」の複数形はどれか。",
+    "answer": 2,
+    "explanation": "man の複数形は men。",
+    "plain": "「man」の複数形はどれか。　① manes　② mans　③ men　④ manies",
+    "choices": [
+      "manes",
+      "mans",
+      "men",
+      "manies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「woman」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "woman の複数形は women。",
+    "plain": "「woman」の複数形はどれか。　① womanies　② women　③ womanes　④ womans",
+    "choices": [
+      "womanies",
+      "women",
+      "womanes",
+      "womans"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「foot」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "foot の複数形は feet。",
+    "plain": "「foot」の複数形はどれか。　① footies　② footes　③ foots　④ feet",
+    "choices": [
+      "footies",
+      "footes",
+      "foots",
+      "feet"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「tooth」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "tooth の複数形は teeth。",
+    "plain": "「tooth」の複数形はどれか。　① teeth　② tooths　③ toothes　④ toothies",
+    "choices": [
+      "teeth",
+      "tooths",
+      "toothes",
+      "toothies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「mouse」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "mouse の複数形は mice。",
+    "plain": "「mouse」の複数形はどれか。　① mice　② mouseies　③ mouses　④ mousees",
+    "choices": [
+      "mice",
+      "mouseies",
+      "mouses",
+      "mousees"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「person」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "person の複数形は people。",
+    "plain": "「person」の複数形はどれか。　① people　② personies　③ persones　④ persons",
+    "choices": [
+      "people",
+      "personies",
+      "persones",
+      "persons"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「knife」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "knife の複数形は knives。",
+    "plain": "「knife」の複数形はどれか。　① knifees　② knifes　③ knifeies　④ knives",
+    "choices": [
+      "knifees",
+      "knifes",
+      "knifeies",
+      "knives"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「leaf」の複数形はどれか。",
+    "answer": 2,
+    "explanation": "leaf の複数形は leaves。",
+    "plain": "「leaf」の複数形はどれか。　① leafs　② leafies　③ leaves　④ leafes",
+    "choices": [
+      "leafs",
+      "leafies",
+      "leaves",
+      "leafes"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「wife」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "wife の複数形は wives。",
+    "plain": "「wife」の複数形はどれか。　① wifees　② wives　③ wifes　④ wifeies",
+    "choices": [
+      "wifees",
+      "wives",
+      "wifes",
+      "wifeies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「life」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "life の複数形は lives。",
+    "plain": "「life」の複数形はどれか。　① lifes　② lives　③ lifees　④ lifeies",
+    "choices": [
+      "lifes",
+      "lives",
+      "lifees",
+      "lifeies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-12",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「wolf」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "wolf の複数形は wolves。",
+    "plain": "「wolf」の複数形はどれか。　① wolfes　② wolfs　③ wolfies　④ wolves",
+    "choices": [
+      "wolfes",
+      "wolfs",
+      "wolfies",
+      "wolves"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「city」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "city の複数形は cities。",
+    "plain": "「city」の複数形はどれか。　① cits　② cityes　③ citys　④ cities",
+    "choices": [
+      "cits",
+      "cityes",
+      "citys",
+      "cities"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「baby」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "baby の複数形は babies。",
+    "plain": "「baby」の複数形はどれか。　① babs　② babies　③ babys　④ babyes",
+    "choices": [
+      "babs",
+      "babies",
+      "babys",
+      "babyes"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「box」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "box の複数形は boxes。",
+    "plain": "「box」の複数形はどれか。　① boxes　② boxs　③ wolves　④ boxies",
+    "choices": [
+      "boxes",
+      "boxs",
+      "wolves",
+      "boxies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「bus」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "bus の複数形は buses。",
+    "plain": "「bus」の複数形はどれか。　① pianos　② buss　③ busies　④ buses",
+    "choices": [
+      "pianos",
+      "buss",
+      "busies",
+      "buses"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-17",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「watch」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "watch の複数形は watches。",
+    "plain": "「watch」の複数形はどれか。　① mice　② watches　③ watchies　④ watchs",
+    "choices": [
+      "mice",
+      "watches",
+      "watchies",
+      "watchs"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-18",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「dish」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "dish の複数形は dishes。",
+    "plain": "「dish」の複数形はどれか。　① potatoes　② dishs　③ dishies　④ dishes",
+    "choices": [
+      "potatoes",
+      "dishs",
+      "dishies",
+      "dishes"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「potato」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "potato の複数形は potatoes。",
+    "plain": "「potato」の複数形はどれか。　① classes　② potatoes　③ potatos　④ potatoies",
+    "choices": [
+      "classes",
+      "potatoes",
+      "potatos",
+      "potatoies"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-20",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「tomato」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "tomato の複数形は tomatoes。",
+    "plain": "「tomato」の複数形はどれか。　① sheep　② tomatos　③ tomatoies　④ tomatoes",
+    "choices": [
+      "sheep",
+      "tomatos",
+      "tomatoies",
+      "tomatoes"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-21",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「piano」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "piano の複数形は pianos。",
+    "plain": "「piano」の複数形はどれか。　① sheep　② pianos　③ pianoies　④ pianoes",
+    "choices": [
+      "sheep",
+      "pianos",
+      "pianoies",
+      "pianoes"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-22",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「photo」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "photo の複数形は photos。",
+    "plain": "「photo」の複数形はどれか。　① photoes　② photoies　③ dishes　④ photos",
+    "choices": [
+      "photoes",
+      "photoies",
+      "dishes",
+      "photos"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-23",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「sheep」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "sheep の複数形は sheep。",
+    "plain": "「sheep」の複数形はどれか。　① sheeps　② sheepes　③ sheepies　④ sheep",
+    "choices": [
+      "sheeps",
+      "sheepes",
+      "sheepies",
+      "sheep"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-24",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「fish」の複数形はどれか。",
+    "answer": 3,
+    "explanation": "fish の複数形は fish。",
+    "plain": "「fish」の複数形はどれか。　① fishes　② fishies　③ fishs　④ fish",
+    "choices": [
+      "fishes",
+      "fishies",
+      "fishs",
+      "fish"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-25",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「country」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "country の複数形は countries。",
+    "plain": "「country」の複数形はどれか。　① countries　② countrs　③ countryes　④ countrys",
+    "choices": [
+      "countries",
+      "countrs",
+      "countryes",
+      "countrys"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-26",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「day」の複数形はどれか。",
+    "answer": 0,
+    "explanation": "day の複数形は days。",
+    "plain": "「day」の複数形はどれか。　① days　② potatoes　③ dayes　④ das",
+    "choices": [
+      "days",
+      "potatoes",
+      "dayes",
+      "das"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-27",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「boy」の複数形はどれか。",
+    "answer": 1,
+    "explanation": "boy の複数形は boys。",
+    "plain": "「boy」の複数形はどれか。　① bos　② boys　③ boyes　④ children",
+    "choices": [
+      "bos",
+      "boys",
+      "boyes",
+      "children"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-28",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "語形変化",
+    "body": "「class」の複数形はどれか。",
+    "answer": 2,
+    "explanation": "class の複数形は classes。",
+    "plain": "「class」の複数形はどれか。　① tomatoes　② classies　③ classes　④ classs",
+    "choices": [
+      "tomatoes",
+      "classies",
+      "classes",
+      "classs"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 7.0
+  },
+  {
+    "id": "u-g_form-29",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「good」の比較級はどれか。",
+    "answer": 3,
+    "explanation": "good の比較級は better、最上級は best。",
+    "plain": "「good」の比較級はどれか。　① gooder　② more good　③ best　④ better",
+    "choices": [
+      "gooder",
+      "more good",
+      "best",
+      "better"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-30",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「good」の最上級はどれか。",
+    "answer": 0,
+    "explanation": "good の比較級は better、最上級は best。",
+    "plain": "「good」の最上級はどれか。　① best　② better　③ goodest　④ most good",
+    "choices": [
+      "best",
+      "better",
+      "goodest",
+      "most good"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-31",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「well」の比較級はどれか。",
+    "answer": 2,
+    "explanation": "well の比較級は better、最上級は best。",
+    "plain": "「well」の比較級はどれか。　① weller　② more well　③ better　④ best",
+    "choices": [
+      "weller",
+      "more well",
+      "better",
+      "best"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-32",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「well」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "well の比較級は better、最上級は best。",
+    "plain": "「well」の最上級はどれか。　① better　② best　③ most well　④ wellest",
+    "choices": [
+      "better",
+      "best",
+      "most well",
+      "wellest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-33",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「bad」の比較級はどれか。",
+    "answer": 0,
+    "explanation": "bad の比較級は worse、最上級は worst。",
+    "plain": "「bad」の比較級はどれか。　① worse　② worst　③ bader　④ more bad",
+    "choices": [
+      "worse",
+      "worst",
+      "bader",
+      "more bad"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-34",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「bad」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "bad の比較級は worse、最上級は worst。",
+    "plain": "「bad」の最上級はどれか。　① badest　② worse　③ most bad　④ worst",
+    "choices": [
+      "badest",
+      "worse",
+      "most bad",
+      "worst"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-35",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「many」の比較級はどれか。",
+    "answer": 3,
+    "explanation": "many の比較級は more、最上級は most。",
+    "plain": "「many」の比較級はどれか。　① most　② manyer　③ more many　④ more",
+    "choices": [
+      "most",
+      "manyer",
+      "more many",
+      "more"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-36",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「many」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "many の比較級は more、最上級は most。",
+    "plain": "「many」の最上級はどれか。　① more　② most many　③ most　④ manyest",
+    "choices": [
+      "more",
+      "most many",
+      "most",
+      "manyest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-37",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「much」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "much の比較級は more、最上級は most。",
+    "plain": "「much」の比較級はどれか。　① most　② more　③ more much　④ mucher",
+    "choices": [
+      "most",
+      "more",
+      "more much",
+      "mucher"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-38",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「much」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "much の比較級は more、最上級は most。",
+    "plain": "「much」の最上級はどれか。　① more　② most much　③ most　④ muchest",
+    "choices": [
+      "more",
+      "most much",
+      "most",
+      "muchest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-39",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「little」の比較級はどれか。",
+    "answer": 3,
+    "explanation": "little の比較級は less、最上級は least。",
+    "plain": "「little」の比較級はどれか。　① littler　② more little　③ least　④ less",
+    "choices": [
+      "littler",
+      "more little",
+      "least",
+      "less"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-40",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「little」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "little の比較級は less、最上級は least。",
+    "plain": "「little」の最上級はどれか。　① most little　② least　③ less　④ littlest",
+    "choices": [
+      "most little",
+      "least",
+      "less",
+      "littlest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-41",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「big」の比較級はどれか。",
+    "answer": 2,
+    "explanation": "big の比較級は bigger、最上級は biggest。",
+    "plain": "「big」の比較級はどれか。　① more big　② biggest　③ bigger　④ biger",
+    "choices": [
+      "more big",
+      "biggest",
+      "bigger",
+      "biger"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-42",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「big」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "big の比較級は bigger、最上級は biggest。",
+    "plain": "「big」の最上級はどれか。　① most big　② bigger　③ bigest　④ biggest",
+    "choices": [
+      "most big",
+      "bigger",
+      "bigest",
+      "biggest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-43",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「hot」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "hot の比較級は hotter、最上級は hottest。",
+    "plain": "「hot」の比較級はどれか。　① hoter　② hotter　③ more hot　④ hottest",
+    "choices": [
+      "hoter",
+      "hotter",
+      "more hot",
+      "hottest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-44",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「hot」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "hot の比較級は hotter、最上級は hottest。",
+    "plain": "「hot」の最上級はどれか。　① hotter　② hotest　③ hottest　④ most hot",
+    "choices": [
+      "hotter",
+      "hotest",
+      "hottest",
+      "most hot"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-45",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「large」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "large の比較級は larger、最上級は largest。",
+    "plain": "「large」の比較級はどれか。　① largest　② larger　③ more large　④ most large",
+    "choices": [
+      "largest",
+      "larger",
+      "more large",
+      "most large"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-46",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「large」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "large の比較級は larger、最上級は largest。",
+    "plain": "「large」の最上級はどれか。　① more large　② largest　③ larger　④ most large",
+    "choices": [
+      "more large",
+      "largest",
+      "larger",
+      "most large"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-47",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「happy」の比較級はどれか。",
+    "answer": 0,
+    "explanation": "happy の比較級は happier、最上級は happiest。",
+    "plain": "「happy」の比較級はどれか。　① happier　② happiest　③ happyer　④ more happy",
+    "choices": [
+      "happier",
+      "happiest",
+      "happyer",
+      "more happy"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-48",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「happy」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "happy の比較級は happier、最上級は happiest。",
+    "plain": "「happy」の最上級はどれか。　① happier　② happyest　③ happiest　④ most happy",
+    "choices": [
+      "happier",
+      "happyest",
+      "happiest",
+      "most happy"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-49",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「easy」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "easy の比較級は easier、最上級は easiest。",
+    "plain": "「easy」の比較級はどれか。　① easiest　② easier　③ more easy　④ easyer",
+    "choices": [
+      "easiest",
+      "easier",
+      "more easy",
+      "easyer"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-50",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「easy」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "easy の比較級は easier、最上級は easiest。",
+    "plain": "「easy」の最上級はどれか。　① most easy　② easiest　③ easier　④ easyest",
+    "choices": [
+      "most easy",
+      "easiest",
+      "easier",
+      "easyest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-51",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「early」の比較級はどれか。",
+    "answer": 0,
+    "explanation": "early の比較級は earlier、最上級は earliest。",
+    "plain": "「early」の比較級はどれか。　① earlier　② earlyer　③ more early　④ earliest",
+    "choices": [
+      "earlier",
+      "earlyer",
+      "more early",
+      "earliest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-52",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「early」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "early の比較級は earlier、最上級は earliest。",
+    "plain": "「early」の最上級はどれか。　① earlyest　② earliest　③ most early　④ earlier",
+    "choices": [
+      "earlyest",
+      "earliest",
+      "most early",
+      "earlier"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-53",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「busy」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "busy の比較級は busier、最上級は busiest。",
+    "plain": "「busy」の比較級はどれか。　① more busy　② busier　③ busiest　④ busyer",
+    "choices": [
+      "more busy",
+      "busier",
+      "busiest",
+      "busyer"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-54",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「busy」の最上級はどれか。",
+    "answer": 0,
+    "explanation": "busy の比較級は busier、最上級は busiest。",
+    "plain": "「busy」の最上級はどれか。　① busiest　② busyest　③ busier　④ most busy",
+    "choices": [
+      "busiest",
+      "busyest",
+      "busier",
+      "most busy"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-55",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「famous」の比較級はどれか。",
+    "answer": 2,
+    "explanation": "famous の比較級は more famous、最上級は most famous。",
+    "plain": "「famous」の比較級はどれか。　① famousier　② most famous　③ more famous　④ famouser",
+    "choices": [
+      "famousier",
+      "most famous",
+      "more famous",
+      "famouser"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-56",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「famous」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "famous の比較級は more famous、最上級は most famous。",
+    "plain": "「famous」の最上級はどれか。　① more famous　② famousiest　③ most famous　④ famousest",
+    "choices": [
+      "more famous",
+      "famousiest",
+      "most famous",
+      "famousest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-57",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「beautiful」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "beautiful の比較級は more beautiful、最上級は most beautiful。",
+    "plain": "「beautiful」の比較級はどれか。　① most beautiful　② more beautiful　③ beautifuler　④ beautifulier",
+    "choices": [
+      "most beautiful",
+      "more beautiful",
+      "beautifuler",
+      "beautifulier"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-58",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「beautiful」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "beautiful の比較級は more beautiful、最上級は most beautiful。",
+    "plain": "「beautiful」の最上級はどれか。　① beautifuliest　② most beautiful　③ beautifulest　④ more beautiful",
+    "choices": [
+      "beautifuliest",
+      "most beautiful",
+      "beautifulest",
+      "more beautiful"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-59",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「difficult」の比較級はどれか。",
+    "answer": 0,
+    "explanation": "difficult の比較級は more difficult、最上級は most difficult。",
+    "plain": "「difficult」の比較級はどれか。　① more difficult　② most difficult　③ difficultier　④ difficulter",
+    "choices": [
+      "more difficult",
+      "most difficult",
+      "difficultier",
+      "difficulter"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-60",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「difficult」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "difficult の比較級は more difficult、最上級は most difficult。",
+    "plain": "「difficult」の最上級はどれか。　① difficultiest　② difficultest　③ most difficult　④ more difficult",
+    "choices": [
+      "difficultiest",
+      "difficultest",
+      "most difficult",
+      "more difficult"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-61",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「tall」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "tall の比較級は taller、最上級は tallest。",
+    "plain": "「tall」の比較級はどれか。　① most tall　② taller　③ tallest　④ more tall",
+    "choices": [
+      "most tall",
+      "taller",
+      "tallest",
+      "more tall"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-62",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「tall」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "tall の比較級は taller、最上級は tallest。",
+    "plain": "「tall」の最上級はどれか。　① more tall　② taller　③ most tall　④ tallest",
+    "choices": [
+      "more tall",
+      "taller",
+      "most tall",
+      "tallest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-63",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「long」の比較級はどれか。",
+    "answer": 0,
+    "explanation": "long の比較級は longer、最上級は longest。",
+    "plain": "「long」の比較級はどれか。　① longer　② longest　③ most long　④ more long",
+    "choices": [
+      "longer",
+      "longest",
+      "most long",
+      "more long"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-64",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「long」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "long の比較級は longer、最上級は longest。",
+    "plain": "「long」の最上級はどれか。　① most long　② longer　③ more long　④ longest",
+    "choices": [
+      "most long",
+      "longer",
+      "more long",
+      "longest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-65",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「thin」の比較級はどれか。",
+    "answer": 2,
+    "explanation": "thin の比較級は thinner、最上級は thinnest。",
+    "plain": "「thin」の比較級はどれか。　① more thin　② thinnest　③ thinner　④ thiner",
+    "choices": [
+      "more thin",
+      "thinnest",
+      "thinner",
+      "thiner"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-66",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「thin」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "thin の比較級は thinner、最上級は thinnest。",
+    "plain": "「thin」の最上級はどれか。　① most thin　② thinnest　③ thinner　④ thinest",
+    "choices": [
+      "most thin",
+      "thinnest",
+      "thinner",
+      "thinest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-67",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「far」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "far の比較級は farther、最上級は farthest。",
+    "plain": "「far」の比較級はどれか。　① farer　② farther　③ more far　④ farthest",
+    "choices": [
+      "farer",
+      "farther",
+      "more far",
+      "farthest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-68",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「far」の最上級はどれか。",
+    "answer": 1,
+    "explanation": "far の比較級は farther、最上級は farthest。",
+    "plain": "「far」の最上級はどれか。　① farther　② farthest　③ farest　④ most far",
+    "choices": [
+      "farther",
+      "farthest",
+      "farest",
+      "most far"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-69",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「old」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "old の比較級は older、最上級は oldest。",
+    "plain": "「old」の比較級はどれか。　① more old　② older　③ most old　④ oldest",
+    "choices": [
+      "more old",
+      "older",
+      "most old",
+      "oldest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-70",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「old」の最上級はどれか。",
+    "answer": 2,
+    "explanation": "old の比較級は older、最上級は oldest。",
+    "plain": "「old」の最上級はどれか。　① older　② most old　③ oldest　④ more old",
+    "choices": [
+      "older",
+      "most old",
+      "oldest",
+      "more old"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-71",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「pretty」の比較級はどれか。",
+    "answer": 2,
+    "explanation": "pretty の比較級は prettier、最上級は prettiest。",
+    "plain": "「pretty」の比較級はどれか。　① prettiest　② prettyer　③ prettier　④ more pretty",
+    "choices": [
+      "prettiest",
+      "prettyer",
+      "prettier",
+      "more pretty"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-72",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「pretty」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "pretty の比較級は prettier、最上級は prettiest。",
+    "plain": "「pretty」の最上級はどれか。　① prettier　② most pretty　③ prettyest　④ prettiest",
+    "choices": [
+      "prettier",
+      "most pretty",
+      "prettyest",
+      "prettiest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-73",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「important」の比較級はどれか。",
+    "answer": 3,
+    "explanation": "important の比較級は more important、最上級は most important。",
+    "plain": "「important」の比較級はどれか。　① most important　② importanter　③ importantier　④ more important",
+    "choices": [
+      "most important",
+      "importanter",
+      "importantier",
+      "more important"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-74",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「important」の最上級はどれか。",
+    "answer": 3,
+    "explanation": "important の比較級は more important、最上級は most important。",
+    "plain": "「important」の最上級はどれか。　① importantiest　② more important　③ importantest　④ most important",
+    "choices": [
+      "importantiest",
+      "more important",
+      "importantest",
+      "most important"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-75",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「interesting」の比較級はどれか。",
+    "answer": 1,
+    "explanation": "interesting の比較級は more interesting、最上級は most interesting。",
+    "plain": "「interesting」の比較級はどれか。　① most interesting　② more interesting　③ interestinger　④ interestingier",
+    "choices": [
+      "most interesting",
+      "more interesting",
+      "interestinger",
+      "interestingier"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-g_form-76",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "語形変化",
+    "body": "「interesting」の最上級はどれか。",
+    "answer": 0,
+    "explanation": "interesting の比較級は more interesting、最上級は most interesting。",
+    "plain": "「interesting」の最上級はどれか。　① most interesting　② more interesting　③ interestingest　④ interestingiest",
+    "choices": [
+      "most interesting",
+      "more interesting",
+      "interestingest",
+      "interestingiest"
+    ],
+    "unit": "g_form",
+    "hint": "複数形や比較級・最上級の作り方の規則と、例外を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-w_syn-1",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「big」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "big と large は近い意味。big の反対は small。",
+    "plain": "「big」に意味が最も近い語はどれか。　① large　② small　③ finish　④ open",
+    "choices": [
+      "large",
+      "small",
+      "finish",
+      "open"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-2",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「big」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "big の反対は small。",
+    "plain": "「big」の反対の意味の語はどれか。　① small　② large　③ clever　④ cruel",
+    "choices": [
+      "small",
+      "large",
+      "clever",
+      "cruel"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-3",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「start」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "start と begin は近い意味。start の反対は finish。",
+    "plain": "「start」に意味が最も近い語はどれか。　① finish　② peak　③ exhausted　④ begin",
+    "choices": [
+      "finish",
+      "peak",
+      "exhausted",
+      "begin"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-4",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「start」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "start の反対は finish。",
+    "plain": "「start」の反対の意味の語はどれか。　① begin　② silent　③ drowsy　④ finish",
+    "choices": [
+      "begin",
+      "silent",
+      "drowsy",
+      "finish"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-5",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「buy」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "buy と purchase は近い意味。buy の反対は sell。",
+    "plain": "「buy」に意味が最も近い語はどれか。　① sell　② reject　③ poor　④ purchase",
+    "choices": [
+      "sell",
+      "reject",
+      "poor",
+      "purchase"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-6",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「buy」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "buy の反対は sell。",
+    "plain": "「buy」の反対の意味の語はどれか。　① purchase　② sell　③ forbid　④ receive",
+    "choices": [
+      "purchase",
+      "sell",
+      "forbid",
+      "receive"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-7",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「quick」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "quick と fast は近い意味。quick の反対は slow。",
+    "plain": "「quick」に意味が最も近い語はどれか。　① fast　② slow　③ cruel　④ modern",
+    "choices": [
+      "fast",
+      "slow",
+      "cruel",
+      "modern"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-8",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「quick」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "quick の反対は slow。",
+    "plain": "「quick」の反対の意味の語はどれか。　① fast　② slow　③ silent　④ decrease",
+    "choices": [
+      "fast",
+      "slow",
+      "silent",
+      "decrease"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-9",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「begin」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "begin と start は近い意味。begin の反対は end。",
+    "plain": "「begin」に意味が最も近い語はどれか。　① grow　② start　③ end　④ decrease",
+    "choices": [
+      "grow",
+      "start",
+      "end",
+      "decrease"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-10",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「begin」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "begin の反対は end。",
+    "plain": "「begin」の反対の意味の語はどれか。　① exhausted　② end　③ start　④ fast",
+    "choices": [
+      "exhausted",
+      "end",
+      "start",
+      "fast"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-11",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「smart」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "smart と clever は近い意味。smart の反対は stupid。",
+    "plain": "「smart」に意味が最も近い語はどれか。　① frequently　② full　③ stupid　④ clever",
+    "choices": [
+      "frequently",
+      "full",
+      "stupid",
+      "clever"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-12",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「smart」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "smart の反対は stupid。",
+    "plain": "「smart」の反対の意味の語はどれか。　① stupid　② poor　③ peak　④ clever",
+    "choices": [
+      "stupid",
+      "poor",
+      "peak",
+      "clever"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-13",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「rich」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "rich と wealthy は近い意味。rich の反対は poor。",
+    "plain": "「rich」に意味が最も近い語はどれか。　① poor　② silent　③ wealthy　④ vague",
+    "choices": [
+      "poor",
+      "silent",
+      "wealthy",
+      "vague"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-14",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「rich」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "rich の反対は poor。",
+    "plain": "「rich」の反対の意味の語はどれか。　① sell　② forbid　③ wealthy　④ poor",
+    "choices": [
+      "sell",
+      "forbid",
+      "wealthy",
+      "poor"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-15",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「hard」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "hard と difficult は近い意味。hard の反対は easy。",
+    "plain": "「hard」に意味が最も近い語はどれか。　① easy　② difficult　③ end　④ awake",
+    "choices": [
+      "easy",
+      "difficult",
+      "end",
+      "awake"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-16",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「hard」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "hard の反対は easy。",
+    "plain": "「hard」の反対の意味の語はどれか。　① gradual　② difficult　③ tiny　④ easy",
+    "choices": [
+      "gradual",
+      "difficult",
+      "tiny",
+      "easy"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-17",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「glad」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "glad と happy は近い意味。glad の反対は sad。",
+    "plain": "「glad」に意味が最も近い語はどれか。　① sad　② happy　③ full　④ vacant",
+    "choices": [
+      "sad",
+      "happy",
+      "full",
+      "vacant"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-18",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「glad」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "glad の反対は sad。",
+    "plain": "「glad」の反対の意味の語はどれか。　① sad　② peak　③ gradual　④ happy",
+    "choices": [
+      "sad",
+      "peak",
+      "gradual",
+      "happy"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-19",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「kind」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "kind と gentle は近い意味。kind の反対は cruel。",
+    "plain": "「kind」に意味が最も近い語はどれか。　① cruel　② small　③ select　④ gentle",
+    "choices": [
+      "cruel",
+      "small",
+      "select",
+      "gentle"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-20",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「kind」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "kind の反対は cruel。",
+    "plain": "「kind」の反対の意味の語はどれか。　① cruel　② gentle　③ modern　④ wealthy",
+    "choices": [
+      "cruel",
+      "gentle",
+      "modern",
+      "wealthy"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-21",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「huge」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "huge と enormous は近い意味。huge の反対は tiny。",
+    "plain": "「huge」に意味が最も近い語はどれか。　① enormous　② tiny　③ permit　④ reach",
+    "choices": [
+      "enormous",
+      "tiny",
+      "permit",
+      "reach"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-22",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「huge」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "huge の反対は tiny。",
+    "plain": "「huge」の反対の意味の語はどれか。　① small　② enormous　③ tiny　④ depart",
+    "choices": [
+      "small",
+      "enormous",
+      "tiny",
+      "depart"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-23",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「sleepy」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "sleepy と drowsy は近い意味。sleepy の反対は awake。",
+    "plain": "「sleepy」に意味が最も近い語はどれか。　① drowsy　② awake　③ shut　④ enormous",
+    "choices": [
+      "drowsy",
+      "awake",
+      "shut",
+      "enormous"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-24",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「sleepy」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "sleepy の反対は awake。",
+    "plain": "「sleepy」の反対の意味の語はどれか。　① quick　② awake　③ drowsy　④ obvious",
+    "choices": [
+      "quick",
+      "awake",
+      "drowsy",
+      "obvious"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-25",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「close」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "close と shut は近い意味。close の反対は open。",
+    "plain": "「close」に意味が最も近い語はどれか。　① refuse　② open　③ shut　④ end",
+    "choices": [
+      "refuse",
+      "open",
+      "shut",
+      "end"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-26",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「close」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "close の反対は open。",
+    "plain": "「close」の反対の意味の語はどれか。　① shut　② sell　③ open　④ fast",
+    "choices": [
+      "shut",
+      "sell",
+      "open",
+      "fast"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-27",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「strong」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "strong と powerful は近い意味。strong の反対は weak。",
+    "plain": "「strong」に意味が最も近い語はどれか。　① stupid　② weak　③ silent　④ powerful",
+    "choices": [
+      "stupid",
+      "weak",
+      "silent",
+      "powerful"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-28",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「strong」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "strong の反対は weak。",
+    "plain": "「strong」の反対の意味の語はどれか。　① exhausted　② weak　③ vacant　④ powerful",
+    "choices": [
+      "exhausted",
+      "weak",
+      "vacant",
+      "powerful"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-29",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「top」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "top と peak は近い意味。top の反対は bottom。",
+    "plain": "「top」に意味が最も近い語はどれか。　① bottom　② stupid　③ peak　④ poor",
+    "choices": [
+      "bottom",
+      "stupid",
+      "peak",
+      "poor"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-30",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「top」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "top の反対は bottom。",
+    "plain": "「top」の反対の意味の語はどれか。　① peak　② sad　③ frequently　④ bottom",
+    "choices": [
+      "peak",
+      "sad",
+      "frequently",
+      "bottom"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-31",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「answer」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "answer と reply は近い意味。answer の反対は ask。",
+    "plain": "「answer」に意味が最も近い語はどれか。　① ask　② reply　③ begin　④ purchase",
+    "choices": [
+      "ask",
+      "reply",
+      "begin",
+      "purchase"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-32",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「answer」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "answer の反対は ask。",
+    "plain": "「answer」の反対の意味の語はどれか。　① select　② reply　③ drowsy　④ ask",
+    "choices": [
+      "select",
+      "reply",
+      "drowsy",
+      "ask"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-33",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「tired」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "tired と exhausted は近い意味。tired の反対は energetic。",
+    "plain": "「tired」に意味が最も近い語はどれか。　① exhausted　② energetic　③ peak　④ ask",
+    "choices": [
+      "exhausted",
+      "energetic",
+      "peak",
+      "ask"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-34",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「tired」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "tired の反対は energetic。",
+    "plain": "「tired」の反対の意味の語はどれか。　① full　② energetic　③ obvious　④ exhausted",
+    "choices": [
+      "full",
+      "energetic",
+      "obvious",
+      "exhausted"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-35",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「quiet」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "quiet と silent は近い意味。quiet の反対は noisy。",
+    "plain": "「quiet」に意味が最も近い語はどれか。　① noisy　② wealthy　③ weak　④ silent",
+    "choices": [
+      "noisy",
+      "wealthy",
+      "weak",
+      "silent"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-36",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「quiet」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "quiet の反対は noisy。",
+    "plain": "「quiet」の反対の意味の語はどれか。　① shut　② silent　③ noisy　④ extend",
+    "choices": [
+      "shut",
+      "silent",
+      "noisy",
+      "extend"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-37",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「help」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "help と assist は近い意味。help の反対は hinder。",
+    "plain": "「help」に意味が最も近い語はどれか。　① silent　② hinder　③ assist　④ happy",
+    "choices": [
+      "silent",
+      "hinder",
+      "assist",
+      "happy"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-38",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「help」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "help の反対は hinder。",
+    "plain": "「help」の反対の意味の語はどれか。　① hinder　② assist　③ modern　④ fast",
+    "choices": [
+      "hinder",
+      "assist",
+      "modern",
+      "fast"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-39",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「choose」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "choose と select は近い意味。choose の反対は reject。",
+    "plain": "「choose」に意味が最も近い語はどれか。　① drowsy　② reject　③ select　④ extend",
+    "choices": [
+      "drowsy",
+      "reject",
+      "select",
+      "extend"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-40",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「choose」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "choose の反対は reject。",
+    "plain": "「choose」の反対の意味の語はどれか。　① select　② assist　③ reject　④ reach",
+    "choices": [
+      "select",
+      "assist",
+      "reject",
+      "reach"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-41",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「often」に意味が最も近い語はどれか。",
+    "answer": 2,
+    "explanation": "often と frequently は近い意味。often の反対は seldom。",
+    "plain": "「often」に意味が最も近い語はどれか。　① seldom　② assist　③ frequently　④ extend",
+    "choices": [
+      "seldom",
+      "assist",
+      "frequently",
+      "extend"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-42",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「often」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "often の反対は seldom。",
+    "plain": "「often」の反対の意味の語はどれか。　① extend　② frequently　③ seldom　④ reject",
+    "choices": [
+      "extend",
+      "frequently",
+      "seldom",
+      "reject"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-43",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「empty」に意味が最も近い語はどれか。",
+    "answer": 3,
+    "explanation": "empty と vacant は近い意味。empty の反対は full。",
+    "plain": "「empty」に意味が最も近い語はどれか。　① reach　② full　③ large　④ vacant",
+    "choices": [
+      "reach",
+      "full",
+      "large",
+      "vacant"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-44",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「empty」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "empty の反対は full。",
+    "plain": "「empty」の反対の意味の語はどれか。　① large　② full　③ frequently　④ vacant",
+    "choices": [
+      "large",
+      "full",
+      "frequently",
+      "vacant"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-45",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「clear」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "clear と obvious は近い意味。clear の反対は vague。",
+    "plain": "「clear」に意味が最も近い語はどれか。　① vague　② obvious　③ exhausted　④ modern",
+    "choices": [
+      "vague",
+      "obvious",
+      "exhausted",
+      "modern"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-46",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「clear」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "clear の反対は vague。",
+    "plain": "「clear」の反対の意味の語はどれか。　① obvious　② wealthy　③ depart　④ vague",
+    "choices": [
+      "obvious",
+      "wealthy",
+      "depart",
+      "vague"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-47",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「rapid」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "rapid と quick は近い意味。rapid の反対は gradual。",
+    "plain": "「rapid」に意味が最も近い語はどれか。　① gradual　② quick　③ noisy　④ clever",
+    "choices": [
+      "gradual",
+      "quick",
+      "noisy",
+      "clever"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-48",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「rapid」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "rapid の反対は gradual。",
+    "plain": "「rapid」の反対の意味の語はどれか。　① forbid　② peak　③ quick　④ gradual",
+    "choices": [
+      "forbid",
+      "peak",
+      "quick",
+      "gradual"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-49",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「ancient」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "ancient と old は近い意味。ancient の反対は modern。",
+    "plain": "「ancient」に意味が最も近い語はどれか。　① old　② modern　③ receive　④ reach",
+    "choices": [
+      "old",
+      "modern",
+      "receive",
+      "reach"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-50",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「ancient」の反対の意味の語はどれか。",
+    "answer": 1,
+    "explanation": "ancient の反対は modern。",
+    "plain": "「ancient」の反対の意味の語はどれか。　① extend　② modern　③ vacant　④ old",
+    "choices": [
+      "extend",
+      "modern",
+      "vacant",
+      "old"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-51",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「expand」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "expand と extend は近い意味。expand の反対は shrink。",
+    "plain": "「expand」に意味が最も近い語はどれか。　① extend　② start　③ shrink　④ slow",
+    "choices": [
+      "extend",
+      "start",
+      "shrink",
+      "slow"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-52",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「expand」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "expand の反対は shrink。",
+    "plain": "「expand」の反対の意味の語はどれか。　① shrink　② extend　③ awake　④ hinder",
+    "choices": [
+      "shrink",
+      "extend",
+      "awake",
+      "hinder"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-53",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「increase」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "increase と grow は近い意味。increase の反対は decrease。",
+    "plain": "「increase」に意味が最も近い語はどれか。　① grow　② decrease　③ slow　④ silent",
+    "choices": [
+      "grow",
+      "decrease",
+      "slow",
+      "silent"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-54",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「increase」の反対の意味の語はどれか。",
+    "answer": 2,
+    "explanation": "increase の反対は decrease。",
+    "plain": "「increase」の反対の意味の語はどれか。　① reject　② grow　③ decrease　④ permit",
+    "choices": [
+      "reject",
+      "grow",
+      "decrease",
+      "permit"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-55",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「accept」に意味が最も近い語はどれか。",
+    "answer": 0,
+    "explanation": "accept と receive は近い意味。accept の反対は refuse。",
+    "plain": "「accept」に意味が最も近い語はどれか。　① receive　② start　③ gentle　④ refuse",
+    "choices": [
+      "receive",
+      "start",
+      "gentle",
+      "refuse"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-56",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「accept」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "accept の反対は refuse。",
+    "plain": "「accept」の反対の意味の語はどれか。　① refuse　② extend　③ receive　④ sad",
+    "choices": [
+      "refuse",
+      "extend",
+      "receive",
+      "sad"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-57",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「allow」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "allow と permit は近い意味。allow の反対は forbid。",
+    "plain": "「allow」に意味が最も近い語はどれか。　① forbid　② permit　③ quick　④ fast",
+    "choices": [
+      "forbid",
+      "permit",
+      "quick",
+      "fast"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-58",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「allow」の反対の意味の語はどれか。",
+    "answer": 0,
+    "explanation": "allow の反対は forbid。",
+    "plain": "「allow」の反対の意味の語はどれか。　① forbid　② permit　③ old　④ begin",
+    "choices": [
+      "forbid",
+      "permit",
+      "old",
+      "begin"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-59",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「arrive」に意味が最も近い語はどれか。",
+    "answer": 1,
+    "explanation": "arrive と reach は近い意味。arrive の反対は depart。",
+    "plain": "「arrive」に意味が最も近い語はどれか。　① depart　② reach　③ peak　④ reject",
+    "choices": [
+      "depart",
+      "reach",
+      "peak",
+      "reject"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-w_syn-60",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "同意語・反意語",
+    "body": "「arrive」の反対の意味の語はどれか。",
+    "answer": 3,
+    "explanation": "arrive の反対は depart。",
+    "plain": "「arrive」の反対の意味の語はどれか。　① reach　② stupid　③ clever　④ depart",
+    "choices": [
+      "reach",
+      "stupid",
+      "clever",
+      "depart"
+    ],
+    "unit": "w_syn",
+    "hint": "単語の意味を思い浮かべて、近い意味か、反対の意味かを考えましょう。",
+    "rate": 5.0
   }
 ]

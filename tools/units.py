@@ -72,6 +72,10 @@ UNITS = [
     ("g_grammar",  "english", "中学", "英語の文法", []),
     ("g_translate", "english", "中学", "英文の和訳", ["g_grammar"]),
     ("g_order",    "english", "中学", "英文の並べかえ", ["g_grammar"]),
+    ("g_irreg",    "english", "中学", "不規則動詞", ["g_grammar"]),
+    ("g_prep",     "english", "中学", "前置詞と冠詞", ["g_grammar"]),
+    ("g_form",     "english", "中学", "語形変化", ["g_grammar"]),
+    ("w_syn",      "english", "高校", "同意語・反意語", ["w_basic"]),
     # ── 社会 ──
     ("s_geo_map",   "social", "中学", "地球と地図", []),
     ("s_geo_world", "social", "中学", "世界の国々", ["s_geo_map"]),
@@ -156,6 +160,7 @@ _m("e_count", "並べ方", "組み合わせ", "さいころの目", "選び方�
 
 
 _m("e_avg", "平均")
+_m("g_irreg", "不規則動詞"); _m("g_prep", "前置詞と冠詞"); _m("g_form", "語形変化"); _m("w_syn", "同意語・反意語")
 _m("m_prop", "比例", "反比例"); _m("m_linfunc", "一次関数"); _m("m_algebra", "文字式の計算"); _m("m_similar", "相似")
 _m("m_circle", "円周角"); _m("m_space", "立体の体積と表面積"); _m("m_data", "平均値と中央値")
 _m("h_seq2", "階差数列"); _m("h_diff2", "微分の応用"); _m("h_geom", "角の二等分線", "方べきの定理", "三角形の性質")
