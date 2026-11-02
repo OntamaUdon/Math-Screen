@@ -343,6 +343,22 @@ def t_stdev():
                fmt("平均は $10$、偏差はすべて $\\pm «s»$。分散は $«v»$、標準偏差は $«s»$。", s=s, v=s * s))
 
 
+def t_quartile():
+    d = sorted(R.randint(1, 40) for _ in range(8))
+    if len(set(d)) < 8: return False
+    lo, hi = d[:4], d[4:]
+    q1, q3 = Fraction(lo[1] + lo[2], 2), Fraction(hi[1] + hi[2], 2)
+    if q1.denominator != 1 or q3.denominator != 1: return False
+    return add(503, "math1a", 2, "データの分散", fmt("$«d»$ の四分位範囲（第3四分位数 $-$ 第1四分位数）を答えよ。", d=",\\ ".join(map(str, d))), int(q3 - q1),
+               fmt("下半分の中央値 $Q_1 = «q1»$、上半分の中央値 $Q_3 = «q3»$。四分位範囲は $«r»$。", q1=int(q1), q3=int(q3), r=int(q3 - q1)))
+
+
+def t_var_formula():
+    m, v = R.randint(3, 12), R.randint(1, 9)
+    return add(504, "math1a", 2, "データの分散", fmt("あるデータの平均が $«m»$、2乗の平均が $«s»$ のとき、分散を答えよ。", m=m, s=m * m + v), v,
+               fmt("分散 $=$ （2乗の平均）$-$（平均）$^2$ $= «s» - «m2» = «v»$。", s=m * m + v, m2=m * m, v=v))
+
+
 def t_complex_mul():
     a, b, c, d = [R.choice([-4, -3, -2, -1, 1, 2, 3, 4, 5]) for _ in range(4)]
     z = sp.expand((a + b * sp.I) * (c + d * sp.I)); re, im = int(sp.re(z)), int(sp.im(z))
@@ -387,7 +403,7 @@ def t_e_avg3():
                fmt("$«n1»$ 回の合計は $«n1» \\times «m2» = «a»$、これまでの合計は $«n» \\times «m» = «b»$。差の $«t»$ 点。", n1=n + 1, m2=m + 2, a=(n + 1) * (m + 2), n=n, m=m, b=n * m, t=tot))
 
 
-INTEGER_TEMPLATES = [t_e_avg1, t_e_avg2, t_e_avg3, t_prop1, t_prop2, t_inv1, t_inv2, t_prop_word, t_lin_val, t_lin_int, t_lin_rate, t_lin_cross, t_lin_area,
+INTEGER_TEMPLATES = [t_quartile, t_var_formula, t_e_avg1, t_e_avg2, t_e_avg3, t_prop1, t_prop2, t_inv1, t_inv2, t_prop_word, t_lin_val, t_lin_int, t_lin_rate, t_lin_cross, t_lin_area,
                      t_like, t_dist, t_mono, t_trans, t_sim_len, t_sim_area, t_sim_vol, t_parallel,
                      t_inscribed, t_semicircle, t_arc, t_sector, t_cyclic, t_cyl, t_cone, t_cyl_surf, t_prism,
                      t_mean, t_median, t_mode, t_range, t_mean_back,
