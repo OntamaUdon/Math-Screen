@@ -18,7 +18,12 @@ struct RuleEditorView: View {
                 HStack {
                     Text(isNew ? "ルールを追加" : "ルールを編集").font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
                     Spacer()
-                    Button("閉じる") { dismiss() }.font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
+                    Button("保存") {
+                        model.save(rule)
+                        dismiss()
+                    }
+                    .font(Theme.font(16, .bold)).foregroundStyle(canSave ? Theme.tealDeep : Theme.inkFaint)
+                    .disabled(!canSave)
                 }
                 .padding(.top, 24)
 
@@ -95,14 +100,6 @@ struct RuleEditorView: View {
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
 
-                Button("保存する") {
-                    model.save(rule)
-                    dismiss()
-                }
-                .buttonStyle(.primary)
-                .disabled(rule.itemCount == 0 || rule.categories.isEmpty)
-                .opacity(rule.itemCount == 0 || rule.categories.isEmpty ? 0.5 : 1)
-
                 if !isNew {
                     Button("このルールを削除") { confirmDelete = true }
                         .font(Theme.font(15, .semibold)).foregroundStyle(Theme.danger)
@@ -126,6 +123,8 @@ struct RuleEditorView: View {
             }
         }
     }
+
+    private var canSave: Bool { rule.itemCount > 0 && !rule.categories.isEmpty }
 
     private func allSelected(_ s: Subject) -> Bool { s.categories.allSatisfy { rule.categories.contains($0.rawValue) } }
 
