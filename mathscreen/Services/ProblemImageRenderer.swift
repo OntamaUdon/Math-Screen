@@ -47,7 +47,7 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
         """
         guard let result = try? await web.callAsyncJavaScript(
                 script,
-                arguments: ["src": problem.body, "size": Double(fontSize), "color": "#23263A"],
+                arguments: ["src": Self.imageSource(problem), "size": Double(fontSize), "color": "#23263A"],
                 contentWorld: .page),
               let height = (result as? NSNumber)?.doubleValue, height > 0 else { return false }
 
@@ -76,6 +76,12 @@ final class ProblemImageRenderer: NSObject, WKNavigationDelegate {
             loadContinuation?.resume()
             loadContinuation = nil
         }
+    }
+
+    /// 画像にする文。4択は、選択肢（① … ④）も続けて入れる。
+    private static func imageSource(_ p: Problem) -> String {
+        guard let choices = p.choices else { return p.body }
+        return p.body + "\n" + choices.enumerated().map { "\(Problem.choiceMarks[$0.offset]) \($0.element)" }.joined(separator: "\n")
     }
 
     /// 白いカードに見えるよう、角を丸くする（角の外側は透明）。

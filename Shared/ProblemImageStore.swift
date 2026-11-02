@@ -28,11 +28,11 @@ enum ProblemImageStore {
         try? png.write(to: url, options: .atomic)
     }
 
-    /// 次に使う問題以外の画像を消して、保存先が増え続けないようにする。
-    static func prune(keeping id: String?) {
+    /// 使う問題（ルールごとの問題と、いまの問題）以外の画像を消して、保存先が増え続けないようにする。
+    static func prune(keeping ids: Set<String>) {
         guard let dir = directory,
               let files = try? FileManager.default.contentsOfDirectory(at: dir, includingPropertiesForKeys: nil) else { return }
-        for f in files where f.deletingPathExtension().lastPathComponent != id {
+        for f in files where !ids.contains(f.deletingPathExtension().lastPathComponent) {
             try? FileManager.default.removeItem(at: f)
         }
     }

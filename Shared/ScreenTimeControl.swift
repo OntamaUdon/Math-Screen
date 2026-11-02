@@ -35,14 +35,33 @@ enum MonitorScheduler {
             repeats: true
         )
         let minutes = max(1, rule.thresholdMinutes)
-        let event = DeviceActivityEvent(
-            applications: rule.selection.applicationTokens,
-            categories: rule.selection.categoryTokens,
-            webDomains: rule.selection.webDomainTokens,
-            threshold: DateComponents(hour: minutes / 60, minute: minutes % 60),
-            includesPastActivity: false
-        )
-        try center.startMonitoring(rule.activityName, during: schedule, events: [rule.eventName: event])
+        func event(_ m: Int) -> DeviceActivityEvent {
+            DeviceActivityEvent(
+                applications: rule.selection.applicationTokens,
+                categories: rule.selection.categoryTokens,
+                webDomains: rule.selection.webDomainTokens,
+                threshold: DateComponents(hour: m / 60, minute: m % 60),
+                includesPastActivity: false
+            )
+        }
+        // ロックの本番のイベントに加えて、途中の節目（進み具合の表示用）のイベントも登録する
+        var events: [DeviceActivityEvent.Name: DeviceActivityEvent] = [rule.eventName: event(minutes)]
+        for m in progressMarks(minutes) { events[progressEventName(rule.id, m)] = event(m) }
+        try center.startMonitoring(rule.activityName, during: schedule, events: events)
+    }
+
+    /// 制限の10分の1ずつの節目（分）。例：60分なら 6, 12, …, 54。5分なら 1, 2, 3, 4。1分は無し。
+    static func progressMarks(_ minutes: Int) -> [Int] {
+        var marks = Set<Int>()
+        for k in 1...9 {
+            let m = Int((Double(minutes) * Double(k) / 10).rounded(.up))
+            if m >= 1 && m < minutes { marks.insert(m) }
+        }
+        return marks.sorted()
+    }
+
+    static func progressEventName(_ id: UUID, _ minutes: Int) -> DeviceActivityEvent.Name {
+        DeviceActivityEvent.Name("rule.\(id.uuidString).p\(minutes)")
     }
 
     static func stop(_ rule: GuardRule) {

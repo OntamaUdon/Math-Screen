@@ -10,6 +10,7 @@ struct Problem: Codable, Identifiable, Hashable {
     let answer: Int        // 整数で答える問題は正解の数、4択問題は正解の番号（0〜3）
     let explanation: String
     let choices: [String]? // 4択問題の選択肢（LaTeX 混じり）。整数で答える問題は nil
+    let hint: String?      // ヒント（Premium）。答えを直接は言わない
 
     var isChoice: Bool { choices != nil }
     static let choiceMarks = ["①", "②", "③", "④"]

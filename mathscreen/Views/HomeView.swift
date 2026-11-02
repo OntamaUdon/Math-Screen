@@ -12,6 +12,12 @@ struct HomeView: View {
             todayCard
             rulesSection
         }
+        .task {
+            while !Task.isCancelled {
+                try? await Task.sleep(for: .seconds(15))
+                model.refresh()          // 使った時間の目安などを読み直す
+            }
+        }
         .sheet(item: $editing) { rule in
             RuleEditorView(rule: rule, isNew: !model.rules.contains { $0.id == rule.id })
         }
@@ -80,6 +86,7 @@ struct HomeView: View {
                     ForEach(Array(model.rules.enumerated()), id: \.element.id) { i, rule in
                         if i > 0 { Divider().padding(.leading, 16) }
                         RuleRow(rule: rule, locked: model.lockedRuleIDs.contains(rule.id),
+                                used: model.ruleProgress[rule.id] ?? 0,
                                 onToggle: { model.setEnabled(rule, $0) })
                             .contentShape(Rectangle())
                             .onTapGesture { editing = rule }
@@ -107,7 +114,26 @@ struct StatCell: View {
 struct RuleRow: View {
     var rule: GuardRule
     var locked: Bool
+    var used: Int                  // 使った時間の目安（分）。制限の10分の1ずつの節目で更新される
     var onToggle: (Bool) -> Void
+
+    /// 残り時間の目安の棒。ロック中は満タンで「ロック中」。
+    private var progress: some View {
+        let total = max(rule.thresholdMinutes, 1)
+        let fraction = locked ? 1.0 : min(Double(used) / Double(total), 1.0)
+        return VStack(alignment: .leading, spacing: 4) {
+            GeometryReader { geo in
+                ZStack(alignment: .leading) {
+                    Capsule().fill(Theme.sunken)
+                    Capsule().fill(locked ? Theme.coral : Theme.teal)
+                        .frame(width: max(8, geo.size.width * fraction))
+                }
+            }
+            .frame(height: 8)
+            Text(locked ? "ロック中" : "あと約\(max(total - used, 0))分（目安）")
+                .font(Theme.font(12)).foregroundStyle(locked ? Theme.coralDeep : Theme.inkSoft)
+        }
+    }
 
     /// 例：「数学・英語」
     private var subjectNames: String {
@@ -131,8 +157,9 @@ struct RuleRow: View {
                     Text("\(rule.itemCount)件 ・ \(subjectNames)")
                         .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 }
+                if rule.isEnabled { progress.padding(.top, 2) }
             }
-            Spacer()
+            Spacer(minLength: 8)
             Toggle("", isOn: Binding(get: { rule.isEnabled }, set: onToggle))
                 .labelsHidden()
                 .tint(Theme.tealDeep)

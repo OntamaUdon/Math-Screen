@@ -226,6 +226,13 @@ import gen_problems
 P.extend(gen_problems.generate())
 import gen_subjects
 P.extend(gen_subjects.generate())
+
+# ── ヒントを付ける（問題の種類ごと）。ヒントの無い種類があれば、気づけるようにここで止める ──
+from hints import HINTS, GENERIC
+_missing = sorted({p["title"] for p in P if p["title"] not in HINTS})
+assert not _missing, f"tools/hints.py にヒントがない種類: {_missing}"
+for p in P:
+    p["hint"] = HINTS[p["title"]]
 assert len({p["id"] for p in P}) == len(P), "問題の id が重複しています"
 for p in P:
     if "choices" in p:

@@ -74,10 +74,21 @@ struct RuleEditorView: View {
                                 }
                             }
                         }
-                        Text("出題対象：\(ProblemBank.candidates(categories: rule.categories, difficulties: model.settings.difficulties).count) 問")
+                        Text("出題対象：\(ProblemBank.candidates(categories: rule.categories, difficulties: rule.difficulties).count) 問")
                             .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
                     }
                     .card()
+                }
+
+                section("難しさ") {
+                    HStack(spacing: 8) {
+                        ForEach(Difficulty.allCases) { d in
+                            Button { toggleDifficulty(d.rawValue) } label: {
+                                Tag(text: d.label, isOn: rule.difficulties.contains(d.rawValue))
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
                 }
 
                 Text("対象のアプリを合計 \(rule.thresholdMinutes) 分使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(rule.thresholdMinutes) 分たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
@@ -126,6 +137,14 @@ struct RuleEditorView: View {
             if !rest.isEmpty { rule.categories = rest }
         } else {
             rule.categories.formUnion(ids)
+        }
+    }
+
+    private func toggleDifficulty(_ d: Int) {
+        if rule.difficulties.contains(d) {
+            if rule.difficulties.count > 1 { rule.difficulties.remove(d) }
+        } else {
+            rule.difficulties.insert(d)
         }
     }
 

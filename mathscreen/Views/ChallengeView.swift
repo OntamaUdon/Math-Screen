@@ -89,6 +89,6 @@ struct ChallengeView: View {
             problem = pending
             return
         }
-        problem = ProblemBank.pick(categories: model.challengeCategories, difficulties: model.settings.difficulties, excluding: problem?.id)
+        problem = ProblemBank.pick(categories: model.challengeCategories, difficulties: model.challengeDifficulties, excluding: problem?.id)
     }
 }

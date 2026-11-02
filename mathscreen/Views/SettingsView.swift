@@ -5,94 +5,39 @@ struct SettingsView: View {
     @Environment(AppModel.self) private var model
     @State private var confirmEmergency = false
     @State private var showGuide = false
+    @State private var showDiagnostics = false
 
     var body: some View {
-        let s = model.settings
         Screen(title: "設定") {
-            group("難易度", footer: "出題対象：\(ProblemBank.all.filter { s.difficulties.contains($0.difficulty) }.count) 問（出題する分野は、ルールごとに選びます）") {
-                ForEach(Difficulty.allCases) { d in
-                    toggleRow(d.label, isOn: s.difficulties.contains(d.rawValue)) { on in
-                        var n = s
-                        if on { n.difficulties.insert(d.rawValue) } else if n.difficulties.count > 1 { n.difficulties.remove(d.rawValue) }
-                        model.updateSettings(n)
-                    }
-                }
+            group("Premium", footer: "いまは、お金のかからない仮登録です。Premium では、過去の成績・ヒント・問題の変更が使えます。") {
+                row("いまのプラン", value: model.isPremium ? "Premium（仮登録中）" : "無料",
+                    valueColor: model.isPremium ? Theme.tealDeep : Theme.inkSoft)
+                Divider().padding(.leading, 18)
+                action(model.isPremium ? "仮登録を解除する" : "仮登録する（0円）",
+                       color: model.isPremium ? Theme.danger : Theme.tealDeep) { model.setPremium(!model.isPremium) }
             }
 
             group("スクリーンタイム") {
-                HStack {
-                    Text("アクセス").font(Theme.font(16)).foregroundStyle(Theme.ink)
-                    Spacer()
-                    Text(authLabel).font(Theme.font(15, .semibold))
-                        .foregroundStyle(model.authorization == .approved ? Theme.tealDeep : Theme.danger)
-                }
-                .padding(.horizontal, 18).padding(.vertical, 14)
+                row("アクセス", value: authLabel, valueColor: model.authorization == .approved ? Theme.tealDeep : Theme.danger)
                 if model.authorization != .approved {
-                    Divider()
-                    Button("許可する") { Task { await model.requestAuthorization() } }
-                        .font(Theme.font(16, .semibold)).foregroundStyle(Theme.tealDeep)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding(.horizontal, 18).padding(.vertical, 14)
+                    Divider().padding(.leading, 18)
+                    action("許可する", color: Theme.tealDeep) { Task { await model.requestAuthorization() } }
                 }
             }
 
-            group("Premium", footer: "課金の仕組みができるまでの、仮の登録です。お金はかかりません。Premium にすると、「記録」で過去の成績も見られます。") {
-                HStack {
-                    Text("いまのプラン").font(Theme.font(16)).foregroundStyle(Theme.ink)
-                    Spacer()
-                    Text(model.isPremium ? "Premium（仮登録中）" : "無料")
-                        .font(Theme.font(15, .semibold)).foregroundStyle(model.isPremium ? Theme.tealDeep : Theme.inkSoft)
-                }
-                .padding(.horizontal, 18).padding(.vertical, 14)
-                Divider().padding(.leading, 18)
-                Button(model.isPremium ? "仮登録を解除する" : "仮登録する（0円）") { model.setPremium(!model.isPremium) }
-                    .font(Theme.font(16, .semibold))
-                    .foregroundStyle(model.isPremium ? Theme.danger : Theme.tealDeep)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal, 18).padding(.vertical, 14)
-            }
-
-            group("このアプリについて") {
-                Button { showGuide = true } label: {
-                    HStack {
-                        Text("使い方を見る").font(Theme.font(16)).foregroundStyle(Theme.ink)
-                        Spacer()
-                        Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
-                    }
-                    .padding(.horizontal, 18).padding(.vertical, 14)
-                    .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
-            }
-
-            group("診断", footer: "ブロック画面が出ない・普通の画面が出るときに、どの部分が動いたかを確認するための表示です。「まだ動いていません」のままなら、その部分が動いていません。") {
-                diagRow("使用時間の監視", key: "monitor")
-                Divider().padding(.leading, 18)
-                diagRow("ブロック画面の表示", key: "shieldConfig")
-                Divider().padding(.leading, 18)
-                diagRow("ブロック画面のボタン", key: "shieldAction")
-                Divider().padding(.leading, 18)
-                HStack {
-                    Text("問題の画像").font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
-                    Spacer()
-                    Text(ProblemImageStore.exists(forID: SharedStore.pendingProblemID ?? "") ? "あり" : "なし")
-                        .font(Theme.font(15, .semibold)).foregroundStyle(Theme.ink)
-                }
-                .padding(.horizontal, 18).padding(.vertical, 12)
-            }
-
-            group("もしものとき", footer: "制限中でも電話・メッセージなど iOS の基本機能は使えます。どうしても必要なときは、問題を解かずに解除できます（記録に残ります）。") {
-                Button("緊急解除") { confirmEmergency = true }
-                    .font(Theme.font(16, .semibold))
-                    .foregroundStyle(model.isLocked ? Theme.danger : Theme.inkFaint)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.horizontal, 18).padding(.vertical, 14)
+            group("もしものとき", footer: "制限中でも、電話などの iOS の基本機能は使えます。どうしても必要なときは、問題を解かずに解除できます（記録に残ります）。") {
+                action("緊急解除", color: model.isLocked ? Theme.danger : Theme.inkFaint) { confirmEmergency = true }
                     .disabled(!model.isLocked)
             }
 
-            Text("解くロック \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
-                .font(Theme.font(12)).foregroundStyle(Theme.inkFaint)
-                .frame(maxWidth: .infinity)
+            group("このアプリについて") {
+                link("使い方を見る") { showGuide = true }
+                Divider().padding(.leading, 18)
+                link("診断") { showDiagnostics = true }
+                Divider().padding(.leading, 18)
+                row("バージョン", value: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "",
+                    valueColor: Theme.inkSoft)
+            }
         }
         .alert("緊急解除しますか？", isPresented: $confirmEmergency) {
             Button("緊急解除する", role: .destructive) { model.emergencyUnlock() }
@@ -101,16 +46,7 @@ struct SettingsView: View {
             Text("問題を解かずにすべての制限を外します。記録には「緊急解除」として残ります。")
         }
         .sheet(isPresented: $showGuide) { OnboardingView(replay: true) }
-    }
-
-    private func diagRow(_ title: String, key: String) -> some View {
-        HStack {
-            Text(title).font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
-            Spacer()
-            Text(SharedStore.diagDate(key).map { $0.formatted(date: .abbreviated, time: .standard) } ?? "まだ動いていません")
-                .font(Theme.font(14, .semibold)).foregroundStyle(SharedStore.diagDate(key) == nil ? Theme.danger : Theme.ink)
-        }
-        .padding(.horizontal, 18).padding(.vertical, 12)
+        .sheet(isPresented: $showDiagnostics) { DiagnosticsView() }
     }
 
     private var authLabel: String {
@@ -119,6 +55,39 @@ struct SettingsView: View {
         case .denied: "拒否されています"
         default: "未設定"
         }
+    }
+
+    // MARK: 部品
+    private func row(_ title: String, value: String, valueColor: Color) -> some View {
+        HStack {
+            Text(title).font(Theme.font(16)).foregroundStyle(Theme.ink)
+            Spacer()
+            Text(value).font(Theme.font(15, .semibold)).foregroundStyle(valueColor)
+        }
+        .padding(.horizontal, 18).padding(.vertical, 14)
+    }
+
+    private func action(_ title: String, color: Color, _ run: @escaping () -> Void) -> some View {
+        Button(action: run) {
+            Text(title).font(Theme.font(16, .semibold)).foregroundStyle(color)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.horizontal, 18).padding(.vertical, 14)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+    }
+
+    private func link(_ title: String, _ run: @escaping () -> Void) -> some View {
+        Button(action: run) {
+            HStack {
+                Text(title).font(Theme.font(16)).foregroundStyle(Theme.ink)
+                Spacer()
+                Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
+            }
+            .padding(.horizontal, 18).padding(.vertical, 14)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
     }
 
     /// 見出し + 白いリスト + 補足文。
@@ -132,13 +101,5 @@ struct SettingsView: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
-    }
-
-    private func toggleRow(_ title: String, isOn: Bool, set: @escaping (Bool) -> Void) -> some View {
-        Toggle(isOn: Binding(get: { isOn }, set: set)) {
-            Text(title).font(Theme.font(16)).foregroundStyle(Theme.ink)
-        }
-        .tint(Theme.tealDeep)
-        .padding(.horizontal, 18).padding(.vertical, 10)
     }
 }

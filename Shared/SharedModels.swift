@@ -16,6 +16,7 @@ struct GuardRule: Codable, Identifiable {
     var thresholdMinutes: Int              // 何分使うごとに
     var questionCount: Int = 1             // 何問出すか
     var categories: Set<String>            // 出題する分野（problems.json の category）
+    var difficulties: Set<Int> = [1, 2, 3] // 出題する難しさ（1 初級・2 中級・3 上級）
     var isEnabled: Bool = true
 
     static let mathCategories: Set<String> = ["junior", "math1a", "math2b", "math3c"]
@@ -23,16 +24,18 @@ struct GuardRule: Codable, Identifiable {
         ["eng_word", "eng_sentence", "soc_geo", "soc_hist", "soc_civ", "sci_bio", "sci_chem", "sci_phys", "sci_earth"])
 
     init(id: UUID = UUID(), selection: FamilyActivitySelection, thresholdMinutes: Int,
-         questionCount: Int = 1, categories: Set<String> = GuardRule.allCategories, isEnabled: Bool = true) {
+         questionCount: Int = 1, categories: Set<String> = GuardRule.allCategories,
+         difficulties: Set<Int> = [1, 2, 3], isEnabled: Bool = true) {
         self.id = id
         self.selection = selection
         self.thresholdMinutes = thresholdMinutes
         self.questionCount = questionCount
         self.categories = categories
+        self.difficulties = difficulties
         self.isEnabled = isEnabled
     }
 
-    private enum CodingKeys: String, CodingKey { case id, selection, thresholdMinutes, questionCount, categories, isEnabled }
+    private enum CodingKeys: String, CodingKey { case id, selection, thresholdMinutes, questionCount, categories, difficulties, isEnabled }
 
     /// 古い保存データ（名前あり・問題数なし）も読めるようにする。
     init(from decoder: Decoder) throws {
@@ -42,6 +45,7 @@ struct GuardRule: Codable, Identifiable {
         thresholdMinutes = try c.decode(Int.self, forKey: .thresholdMinutes)
         questionCount = try c.decodeIfPresent(Int.self, forKey: .questionCount) ?? 1
         categories = try c.decodeIfPresent(Set<String>.self, forKey: .categories) ?? GuardRule.mathCategories   // 古いルールは数学だけ
+        difficulties = try c.decodeIfPresent(Set<Int>.self, forKey: .difficulties) ?? [1, 2, 3]
         isEnabled = try c.decodeIfPresent(Bool.self, forKey: .isEnabled) ?? true
     }
 
@@ -109,6 +113,12 @@ enum SharedStore {
         loadRules().first { $0.activityName == activity }
     }
 
+    /// ロックがかかった時の「何分使ったか」（ブロック画面の文に使う）。
+    static var pendingMinutes: Int {
+        get { d.integer(forKey: "pendingMinutes") }
+        set { d.set(newValue, forKey: "pendingMinutes") }
+    }
+
     // MARK: ルールごとに用意した「次に出す問題」（ロックがかかるとき、監視の拡張機能がブロック画面用にコピーする）
     static func setRulePending(ruleID: UUID, id: String, body: String) {
         var m = d.dictionary(forKey: "rulePending") as? [String: [String]] ?? [:]
@@ -126,6 +136,23 @@ enum SharedStore {
         var m = d.dictionary(forKey: "rulePending") as? [String: [String]] ?? [:]
         m[ruleID.uuidString] = nil
         d.set(m, forKey: "rulePending")
+    }
+
+    // MARK: 使用時間の進み具合（制限の10分の1ずつの節目で、監視の拡張機能が記録する）
+    static func setRuleProgress(ruleID: UUID, minutes: Int) {
+        var m = d.dictionary(forKey: "ruleProgress") as? [String: Int] ?? [:]
+        m[ruleID.uuidString] = minutes
+        d.set(m, forKey: "ruleProgress")
+    }
+
+    static func ruleProgress(ruleID: UUID) -> Int {
+        (d.dictionary(forKey: "ruleProgress") as? [String: Int])?[ruleID.uuidString] ?? 0
+    }
+
+    static func clearRuleProgress(ruleID: UUID) {
+        var m = d.dictionary(forKey: "ruleProgress") as? [String: Int] ?? [:]
+        m[ruleID.uuidString] = nil
+        d.set(m, forKey: "ruleProgress")
     }
 
     // MARK: ロック状態

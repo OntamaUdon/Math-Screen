@@ -20,22 +20,27 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         make(name: webDomain.domain)
     }
 
-    /// ライトグリーンの背景に、タイトル・説明1行・問題文だけを出す（アイコンと「閉じる」は出さない）。
+    /// ミントの背景に、「◯◯を◯分使いました。…」、問題文、問題の画像（白い背景）を出す。
+    /// ボタンの位置は iOS が決めるので、変えられない。
     private func make(name: String?) -> ShieldConfiguration {
         ShieldData.recordDiag("shieldConfig")
         let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
-        let mint = UIColor(red: 0.722, green: 0.937, blue: 0.902, alpha: 1)       // #B8EFE6
+        let mint = UIColor(red: 0.498, green: 0.878, blue: 0.827, alpha: 1)       // #7FE0D3
         let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
 
-        // タイトル = 「問題」、説明 = 問題文
+        let app = name ?? "アプリ"
+        let minutes = ShieldData.pendingMinutes
+        let intro = minutes > 0
+            ? "\(app)を\(minutes)分使いました。問題を解いてロックを解除しましょう！"
+            : "\(app)の使用時間になりました。問題を解いてロックを解除しましょう！"
         let problem = ShieldData.pendingBody ?? "解くロックを開いて問題を解いてください。"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
-            icon: Self.blankIcon,   // 画像は、メモリの制限で止まる疑いがあるため、いったんやめている（原因の切り分け）
+            icon: ShieldData.problemImage() ?? Self.blankIcon,      // LaTeX で描いた問題の画像（白い背景）
             title: ShieldConfiguration.Label(text: "問題", color: ink),
-            subtitle: ShieldConfiguration.Label(text: problem, color: ink),
+            subtitle: ShieldConfiguration.Label(text: "\(intro)\n\n\(problem)", color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil

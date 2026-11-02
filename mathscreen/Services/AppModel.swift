@@ -15,6 +15,7 @@ final class AppModel {
     var bestStreak = 0
     var authorization: AuthorizationStatus = .notDetermined
     var hasOnboarded = false
+    var ruleProgress: [UUID: Int] = [:]     // ルールごとの、使った時間の目安（分）
     var isPremium = false          // 仮登録（0円）。本物の課金に差し替える予定
     var showChallenge = false
     var lastError: String?
@@ -31,6 +32,7 @@ final class AppModel {
         bestStreak = SharedStore.bestStreak
         hasOnboarded = SharedStore.hasOnboarded
         isPremium = SharedStore.isPremium
+        ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
         ensurePendingProblem()
     }
@@ -40,7 +42,7 @@ final class AppModel {
     func ensurePendingProblem() {
         for rule in rules { ensureRulePending(rule) }
         guard pendingProblem == nil else {
-            prepareImage()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
+            prepareImages()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
             return
         }
         if let first = rules.first, let p = SharedStore.rulePending(ruleID: first.id).flatMap({ r in ProblemBank.all.first { $0.id == r.id } }) {
@@ -53,13 +55,20 @@ final class AppModel {
     /// ルールの分野から、次に出す問題を用意する（まだなければ、または分野が変わっていれば）。
     private func ensureRulePending(_ rule: GuardRule) {
         if let r = SharedStore.rulePending(ruleID: rule.id),
-           let p = ProblemBank.all.first(where: { $0.id == r.id }), rule.categories.contains(p.category) { return }
+           let p = ProblemBank.all.first(where: { $0.id == r.id }),
+           rule.categories.contains(p.category), rule.difficulties.contains(p.difficulty) { return }
         refreshRulePending(rule)
     }
 
     private func refreshRulePending(_ rule: GuardRule, excluding: String? = nil) {
-        guard let p = ProblemBank.pick(categories: rule.categories, difficulties: settings.difficulties, excluding: excluding) else { return }
+        guard let p = ProblemBank.pick(categories: rule.categories, difficulties: rule.difficulties, excluding: excluding) else { return }
         SharedStore.setRulePending(ruleID: rule.id, id: p.id, body: p.plain)
+    }
+
+    /// 2問目以降に出す問題の難しさ。ロック中のルールの難しさをまとめたもの。
+    var challengeDifficulties: Set<Int> {
+        let d = lockedRules.reduce(into: Set<Int>()) { $0.formUnion($1.difficulties) }
+        return d.isEmpty ? settings.difficulties : d
     }
 
     /// 2問目以降に出す問題の分野。ロック中のルールの分野をまとめたもの。
@@ -74,14 +83,22 @@ final class AppModel {
 
     func setPendingProblem(_ problem: Problem?) {
         SharedStore.setPendingProblem(id: problem?.id, body: problem?.plain)
-        ProblemImageStore.prune(keeping: problem?.id)
-        prepareImage()
+        prepareImages()
     }
 
-    /// 次に出す問題を LaTeX の画像にしておく（ブロック画面のアイコン欄に使う）。
-    private func prepareImage() {
-        guard let problem = pendingProblem else { return }
-        Task { await ProblemImageRenderer.shared.ensureImage(for: problem) }
+    /// 次に出す問題（ルールごとの問題と、いまの問題）を、LaTeX の画像にしておく。ブロック画面のアイコン欄に使う。
+    private func prepareImages() {
+        var ids = Set<String>()
+        if let p = pendingProblem { ids.insert(p.id) }
+        for rule in rules { if let r = SharedStore.rulePending(ruleID: rule.id) { ids.insert(r.id) } }
+        ProblemImageStore.prune(keeping: ids)
+        Task {
+            for id in ids {
+                if let problem = ProblemBank.all.first(where: { $0.id == id }) {
+                    await ProblemImageRenderer.shared.ensureImage(for: problem)
+                }
+            }
+        }
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }
@@ -109,9 +126,10 @@ final class AppModel {
     // MARK: ルール
     func save(_ rule: GuardRule) {
         var rule = rule
-        // 同じ条件（時間・問題数・出題する分野）のルールがすでにあれば、アプリを足して1つにまとめる
+        // 同じ条件（時間・問題数・出題する分野・難しさ）のルールがすでにあれば、アプリを足して1つにまとめる
         if let i = rules.firstIndex(where: { $0.id != rule.id && $0.thresholdMinutes == rule.thresholdMinutes
-                                              && $0.questionCount == rule.questionCount && $0.categories == rule.categories }) {
+                                              && $0.questionCount == rule.questionCount && $0.categories == rule.categories
+                                              && $0.difficulties == rule.difficulties }) {
             var target = rules[i]
             target.selection.applicationTokens.formUnion(rule.selection.applicationTokens)
             target.selection.categoryTokens.formUnion(rule.selection.categoryTokens)
@@ -122,6 +140,7 @@ final class AppModel {
         if let i = rules.firstIndex(where: { $0.id == rule.id }) { rules[i] = rule } else { rules.append(rule) }
         SharedStore.saveRules(rules)
         ensureRulePending(rule)
+        prepareImages()
         if !rule.isEnabled { release(rule.id) }
         restartMonitoring(rule)
     }
@@ -141,6 +160,7 @@ final class AppModel {
     }
 
     private func restartMonitoring(_ rule: GuardRule) {
+        SharedStore.clearRuleProgress(ruleID: rule.id)       // 使った時間の目安を 0 に戻す
         do {
             if rule.isEnabled { try MonitorScheduler.start(rule) } else { MonitorScheduler.stop(rule) }
         } catch {
