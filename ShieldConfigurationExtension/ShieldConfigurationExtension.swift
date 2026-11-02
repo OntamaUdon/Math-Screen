@@ -37,15 +37,12 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
-            icon: Self.blankIcon,
-            title: ShieldConfiguration.Label(text: "問題", color: ink),
+            icon: ShieldArt.lockIcon,
+            title: ShieldConfiguration.Label(text: "ロック中", color: ink),
             subtitle: ShieldConfiguration.Label(text: intro, color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
         )
     }
-
-    /// 透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
-    private static let blankIcon: UIImage = UIGraphicsImageRenderer(size: CGSize(width: 1, height: 1)).image { _ in }
 }
