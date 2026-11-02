@@ -2,7 +2,8 @@ import SwiftUI
 
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
-/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。少ない数でも差が見えるよう、平方根で伸ばす。25問で金色、50問で紫。
+/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。少ない数でも差が見えるよう、平方根で伸ばす。
+/// 色は10問ごとに変わり、数が増えるほど少しずつ華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
     var weeks: [[Int?]]
@@ -24,6 +25,22 @@ struct IsoBarChart: View {
                 .accessibilityElement()
                 .accessibilityLabel(Text("\(caption)：今週は " + (weeks.first ?? []).map { $0.map(String.init) ?? "-" }.joined(separator: "、")))
             Text(caption).font(Theme.font(12, .bold)).foregroundStyle(Theme.inkSoft)
+        }
+    }
+
+    /// 10問ごとの色（top, 左の面, 右の面）。10問=水色、20=緑、30=金、40=橙、50=桃、60=紫、70=藍、80=赤、90=銀、100〜=黒と金。
+    private static func tierColors(_ tier: Int) -> (Color, Color, Color) {
+        switch min(tier, 10) {
+        case 1: return (Color(hex: 0xBDE3FF), Color(hex: 0x5BB8F5), Color(hex: 0x2F86C9))
+        case 2: return (Color(hex: 0xC4F0B0), Color(hex: 0x6FD04F), Color(hex: 0x3FA32E))
+        case 3: return (Color(hex: 0xFFE08A), Color(hex: 0xF2B632), Color(hex: 0xC48A12))
+        case 4: return (Color(hex: 0xFFC999), Color(hex: 0xFF9A3C), Color(hex: 0xD1701A))
+        case 5: return (Color(hex: 0xFFC2DA), Color(hex: 0xFF6FA8), Color(hex: 0xD14780))
+        case 6: return (Color(hex: 0xCDB6FF), Color(hex: 0x9B7BF0), Color(hex: 0x6B4FC0))
+        case 7: return (Color(hex: 0xA9B8FF), Color(hex: 0x4A5FE0), Color(hex: 0x2B3AA8))
+        case 8: return (Color(hex: 0xFF9AA0), Color(hex: 0xE0323F), Color(hex: 0xA81F2B))
+        case 9: return (Color(hex: 0xFFFFFF), Color(hex: 0xD5DAE6), Color(hex: 0x9AA3B8))
+        default: return (Color(hex: 0xFFD25E), Color(hex: 0x3A3E58), Color(hex: 0x23263A))
         }
     }
 
@@ -73,16 +90,26 @@ struct IsoBarChart: View {
                 guard let value else { continue }
                 let y = -CGFloat(k) * rowGap - 0.3
                 let isToday = k == 0 && i == todayIndex
+                let tier = value / 10
                 let colors: (Color, Color, Color) =
-                    value >= 50 ? (Theme.violetLight, Theme.violet, Theme.violetDeep)       // 50問以上
-                    : value >= 25 ? (Theme.goldLight, Theme.gold, Theme.goldDeep)               // 25問以上
+                    tier >= 1 ? Self.tierColors(tier)
                     : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
                     : k == 0 ? (Theme.tealLight, Theme.teal, Theme.tealDeep)
                     : (Color(hex: 0xBFEFE8), Color(hex: 0x8ADBD0), Color(hex: 0x5EBFB2))
                 let h = max(0.12, sqrt(min(CGFloat(value) / full, 1)) * maxBar)
                 items.append((CGFloat(i) * gap + 0.1 + y + 10, {
-                    box(Box(x: CGFloat(i) * gap + 0.1, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
+                    let bx = CGFloat(i) * gap + 0.1
+                    box(Box(x: bx, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
                             top: colors.0, left: colors.1, right: colors.2))
+                    if tier >= 5 {          // 50問〜：上の面に光沢
+                        face([(bx + 0.14, y + 0.14, 0.2 + h), (bx + 0.5, y + 0.14, 0.2 + h),
+                              (bx + 0.5, y + 0.3, 0.2 + h), (bx + 0.14, y + 0.3, 0.2 + h)], .white.opacity(0.55))
+                    }
+                    if tier >= 8 {          // 80問〜：てっぺんに星
+                        let t = p(bx + 0.4, y + 0.4, 0.2 + h)
+                        ctx.draw(Text("✦").font(.system(size: 13, weight: .bold)).foregroundColor(colors.1),
+                                 at: CGPoint(x: t.x, y: t.y - 9))
+                    }
                 }))
             }
         }
