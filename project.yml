@@ -82,8 +82,7 @@ targets:
     type: app-extension
     platform: iOS
     sources:
-      - path: ShieldConfigurationExtension
-      - path: Shared
+      - path: ShieldConfigurationExtension      # 軽くするため Shared は含めない（ShieldData.swift に必要な分だけ置く）
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ontamaudon.qlock.shieldconfig

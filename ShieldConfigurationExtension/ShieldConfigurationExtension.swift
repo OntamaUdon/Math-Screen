@@ -22,13 +22,13 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
 
     /// ライトグリーンの背景に、タイトル・説明1行・問題文だけを出す（アイコンと「閉じる」は出さない）。
     private func make(name: String?) -> ShieldConfiguration {
-        SharedStore.recordDiag("shieldConfig")
+        ShieldData.recordDiag("shieldConfig")
         let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
         let mint = UIColor(red: 0.722, green: 0.937, blue: 0.902, alpha: 1)       // #B8EFE6
         let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
 
         // タイトル = 「問題」、説明 = 問題文
-        let problem = SharedStore.pendingProblemBody ?? "解くロックを開いて問題を解いてください。"
+        let problem = ShieldData.pendingBody ?? "解くロックを開いて問題を解いてください。"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
