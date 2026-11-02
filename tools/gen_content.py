@@ -3,6 +3,8 @@
 - 4択問題。事実は、教科書にのっている基本的なことだけを選んでいる。公開前に、ご自身でも確認してください。
 - 単元（unit）は問題ごとに直接つける。選択肢の並びは自前の乱数で決めるので、毎回同じになる。
 """
+import os
+import re
 from gen_problems import Rng, tex2plain, LABELS
 
 R = Rng(20261104)
@@ -58,27 +60,79 @@ def _parse(s):
     return out
 
 
+_ENTRY = re.compile(r"^([A-Za-z][A-Za-z' .\-]*?)\s+((?:[^\x00-\x7F]|\d).*)$")
+
+
+def _load_wordlists():
+    """tools/wordlists/{basic,std,adv}_*.txt を読む。「英語 意味」を | か改行で区切る。"""
+    groups = {"basic": [], "std": [], "adv": []}
+    wl = os.path.join(os.path.dirname(os.path.abspath(__file__)), "wordlists")
+    for fn in sorted(os.listdir(wl)):
+        kind = fn.split("_")[0]
+        if kind not in groups or not fn.endswith(".txt"): continue
+        with open(os.path.join(wl, fn), encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"): continue
+                for item in line.split("|"):
+                    item = item.strip()
+                    if not item: continue
+                    m = _ENTRY.match(item)
+                    assert m, f"{fn}: 書式がちがう: {item}"
+                    en, ja = m.group(1).strip(), m.group(2).strip()
+                    if "再掲" in ja: continue
+                    groups[kind].append((en, ja))
+    return groups
+
+
+def _kind(ja):
+    """意味の終わり方から、品詞のおおよその区別（まぎらわしい選択肢を、同じ種類から選ぶため）。"""
+    j = re.sub(r"[（(].*?[）)]", "", ja).strip()
+    if j.startswith("～"): return "p"
+    if re.search(r"(い|な|の|た)$", j): return "a"
+    if j and j[-1] in "うくぐすつぬぶむる": return "v"
+    return "n"
+
+
 def words():
     from gen_subjects import WORDS as OLD
-    taken_en = {w[0] for w in OLD}
+    taken_en = {w[0].lower() for w in OLD}
     taken_ja = {w[1] for w in OLD}
-    groups = []
-    for unit, diff, raw in [("w_basic", 1, BASIC), ("w_std", 2, STD)]:
+    lists = _load_wordlists()
+    lists["basic"] = _parse(BASIC) + lists["basic"]
+    lists["std"] = _parse(STD) + lists["std"]
+    groups, dropped = [], 0
+    for unit, diff, key in [("w_basic", 1, "basic"), ("w_std", 2, "std"), ("w_adv", 3, "adv")]:
         items = []
-        for en, ja in _parse(raw):
-            if en in taken_en or ja in taken_ja: continue      # 既存の単語・同じ意味の単語は入れない（正解が2つになるのを防ぐ）
-            taken_en.add(en); taken_ja.add(ja)
+        for en, ja in lists[key]:
+            if en.lower() in taken_en or ja in taken_ja:      # 既存の単語・同じ意味の単語は入れない（正解が2つになるのを防ぐ）
+                dropped += 1
+                continue
+            taken_en.add(en.lower()); taken_ja.add(ja)
             items.append((en, ja))
         groups.append((unit, diff, items))
     pool = [w for _, _, items in groups for w in items] + list(OLD)
+    by_kind = {}
+    for w in pool: by_kind.setdefault(_kind(w[1]), []).append(w)
+
+    def pick_wrong(en, ja, idx):
+        """同じ種類の単語から、正解と重ならない3つを選ぶ。"""
+        cands = by_kind[_kind(ja)]
+        if len(cands) < 40: cands = pool
+        out = []
+        while len(out) < 3:
+            w = cands[R.randint(0, len(cands) - 1)]
+            if w[0] != en and w[1] != ja and w[1] not in [o[1] for o in out]:
+                out.append(w)
+        return out
+
     for unit, diff, items in groups:
         for en, ja in items:
-            others = [w for w in pool if w[0] != en and w[1] != ja]
-            R.shuffle(others)
-            qa("eng_word", unit, "英単語", diff, f"「{en}」の意味として正しいものを選べ。", ja, [o[1] for o in others[:3]], f"{en} は「{ja}」という意味。")
-            others = [w for w in pool if w[0] != en and w[1] != ja]
-            R.shuffle(others)
-            qa("eng_word", unit, "英単語", diff, f"「{ja}」を英語にしたものを選べ。", en, [o[0] for o in others[:3]], f"「{ja}」は英語で {en}。")
+            wr = pick_wrong(en, ja, 0)
+            qa("eng_word", unit, "英単語", diff, f"「{en}」の意味として正しいものを選べ。", ja, [o[1] for o in wr], f"{en} は「{ja}」という意味。")
+            wr = pick_wrong(en, ja, 1)
+            qa("eng_word", unit, "英単語", diff, f"「{ja}」を英語にしたものを選べ。", en, [o[0] for o in wr], f"「{ja}」は英語で {en}。")
+    print(f"  英単語: {sum(len(i) for _, _, i in groups)} 語（重複で除いた語: {dropped}）")
 
 
 # ═════════ 英語：単語の並べかえ（単元 g_order）═════════

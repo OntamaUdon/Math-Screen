@@ -141,7 +141,13 @@ struct ProblemBookView: View {
         case .all, .subject:
             var subject: Subject?
             if case .subject(let s) = filter { subject = s }
-            for p in ProblemBank.all where subject == nil || p.categoryInfo.subject == subject {
+            // 英単語は数が多いので、一覧には一部だけ混ぜる（全部は、ルールの出題で使われる）
+            var wordsLeft = subject == .english ? 600 : 150
+            for p in ProblemBank.all.shuffled() where subject == nil || p.categoryInfo.subject == subject {
+                if p.category == "eng_word" {
+                    if wordsLeft == 0 { continue }
+                    wordsLeft -= 1
+                }
                 out.append(FeedItem(id: "b\(cycle)-\(p.id)", problem: p, row: nil))
             }
             for r in community {

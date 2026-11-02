@@ -55,6 +55,7 @@ UNITS = [
     # ── 英語 ──
     ("w_basic",    "english", "中学", "基本の英単語", []),
     ("w_std",      "english", "高校", "標準の英単語", ["w_basic"]),
+    ("w_adv",      "english", "高校", "入試レベルの英単語", ["w_std"]),
     ("g_grammar",  "english", "中学", "英語の文法", []),
     ("g_translate", "english", "中学", "英文の和訳", ["g_grammar"]),
     ("g_order",    "english", "中学", "英文の並べかえ", ["g_grammar"]),
