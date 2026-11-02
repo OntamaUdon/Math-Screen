@@ -15,6 +15,7 @@ final class AppModel {
     var bestStreak = 0
     var authorization: AuthorizationStatus = .notDetermined
     var hasOnboarded = false
+    var isPremium = false          // 仮登録（0円）。本物の課金に差し替える予定
     var showChallenge = false
     var lastError: String?
 
@@ -29,6 +30,7 @@ final class AppModel {
         currentStreak = SharedStore.currentStreak
         bestStreak = SharedStore.bestStreak
         hasOnboarded = SharedStore.hasOnboarded
+        isPremium = SharedStore.isPremium
         authorization = AuthorizationCenter.shared.authorizationStatus
         ensurePendingProblem()
     }
@@ -173,7 +175,31 @@ final class AppModel {
         }
     }
 
+    // MARK: Premium（仮登録）
+    func setPremium(_ on: Bool) {
+        SharedStore.isPremium = on
+        isPremium = on
+    }
+
     // MARK: 集計
+    /// 月曜はじまりのカレンダーの週ごとの正解数。[0] が今週、[1] が1週前…。まだ来ていない日は nil。
+    func weeklyCorrect(weeks count: Int) -> [[Int?]] {
+        var cal = Calendar(identifier: .gregorian)
+        cal.firstWeekday = 2
+        let now = Date()
+        guard let thisWeek = cal.dateInterval(of: .weekOfYear, for: now)?.start else { return [] }
+        return (0..<max(count, 1)).map { k in
+            let weekStart = cal.date(byAdding: .day, value: -7 * k, to: thisWeek) ?? thisWeek
+            return (0..<7).map { d -> Int? in
+                let date = cal.date(byAdding: .day, value: d, to: weekStart) ?? weekStart
+                if date > now && !cal.isDate(date, inSameDayAs: now) { return nil }
+                return daily[SharedStore.dayKey(date)]?.correct ?? 0
+            }
+        }
+    }
+
+    /// 記録の画面に出す週の数（Premium のとき）。
+    static let premiumWeeks = 8
     var totals: DailyStats {
         daily.values.reduce(into: DailyStats()) { t, d in
             t.triggers += d.triggers; t.unlocks += d.unlocks; t.correct += d.correct

@@ -145,6 +145,12 @@ enum SharedStore {
 
     static var bestStreak: Int { d.integer(forKey: Key.bestStreak) }
 
+    // MARK: Premium（本物の課金ができるまでの、仮登録。お金はかからない）
+    static var isPremium: Bool {
+        get { d.bool(forKey: "isPremium") }
+        set { d.set(newValue, forKey: "isPremium") }
+    }
+
     // MARK: 診断（拡張機能が動いたかどうかを、アプリの設定画面で確認するため）
     static func recordDiag(_ key: String) { d.set(Date().timeIntervalSince1970, forKey: "diag.\(key)") }
     static func diagDate(_ key: String) -> Date? {

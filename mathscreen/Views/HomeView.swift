@@ -18,8 +18,7 @@ struct HomeView: View {
     }
 
     private var weekCard: some View {
-        let week = model.lastWeek
-        return IsoBarChart(values: week.map(\.stats.correct), labels: week.map(\.label), caption: "この7日間の正解数")
+        IsoBarChart(weeks: model.weeklyCorrect(weeks: 1), caption: "今週の正解数")
             .padding(.vertical, 4)
     }
 

@@ -46,6 +46,22 @@ struct SettingsView: View {
                 }
             }
 
+            group("Premium", footer: "課金の仕組みができるまでの、仮の登録です。お金はかかりません。Premium にすると、「記録」で過去の成績も見られます。") {
+                HStack {
+                    Text("いまのプラン").font(Theme.font(16)).foregroundStyle(Theme.ink)
+                    Spacer()
+                    Text(model.isPremium ? "Premium（仮登録中）" : "無料")
+                        .font(Theme.font(15, .semibold)).foregroundStyle(model.isPremium ? Theme.tealDeep : Theme.inkSoft)
+                }
+                .padding(.horizontal, 18).padding(.vertical, 14)
+                Divider().padding(.leading, 18)
+                Button(model.isPremium ? "仮登録を解除する" : "仮登録する（0円）") { model.setPremium(!model.isPremium) }
+                    .font(Theme.font(16, .semibold))
+                    .foregroundStyle(model.isPremium ? Theme.danger : Theme.tealDeep)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.horizontal, 18).padding(.vertical, 14)
+            }
+
             group("このアプリについて") {
                 Button { showGuide = true } label: {
                     HStack {
