@@ -7,8 +7,14 @@ struct Problem: Codable, Identifiable, Hashable {
     let title: String
     let body: String       // LaTeX 混じり（$...$ が数式）。アプリ内の問題画面で KaTeX 表示
     let plain: String      // 文字だけの問題文。iOS のブロック画面は文字しか出せないのでこちらを使う
-    let answer: Int
+    let answer: Int        // 整数で答える問題は正解の数、4択問題は正解の番号（0〜3）
     let explanation: String
+    let choices: [String]? // 4択問題の選択肢（LaTeX 混じり）。整数で答える問題は nil
+
+    var isChoice: Bool { choices != nil }
+    static let choiceMarks = ["①", "②", "③", "④"]
+    /// 正解の表示。整数なら数、4択なら「①」など。
+    var answerText: String { isChoice ? Problem.choiceMarks[min(max(answer, 0), 3)] : "\(answer)" }
 
     var categoryInfo: ProblemCategory { ProblemCategory(rawValue: category) ?? .junior }
     var difficultyInfo: Difficulty { Difficulty(rawValue: difficulty) ?? .easy }

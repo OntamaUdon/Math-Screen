@@ -221,6 +221,16 @@ for c in ["junior", "math1a", "math2b", "math3c"]:
     for d in (1, 2, 3):
         assert sum(1 for p in P if p["category"] == c and p["difficulty"] == d) == 5
 
+# ── 数字を変えて作った問題・4択問題を足す（tools/gen_problems.py）──
+import gen_problems
+P.extend(gen_problems.generate())
+assert len({p["id"] for p in P}) == len(P), "問題の id が重複しています"
+for p in P:
+    if "choices" in p:
+        assert len(p["choices"]) == 4 and len(set(p["choices"])) == 4 and 0 <= p["answer"] < 4, p["id"]
+    else:
+        assert isinstance(p["answer"], int), p["id"]
+
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 out = os.path.join(root, "mathscreen", "Resources", "problems.json")
 os.makedirs(os.path.dirname(out), exist_ok=True)
