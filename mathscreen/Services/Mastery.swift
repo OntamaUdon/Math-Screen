@@ -46,12 +46,12 @@ enum MasteryLevel: Int {
 }
 
 struct UnitProgress {
-    var count: Int             // 数えている解答の数（直近10回まで）
+    var count: Int             // 数えている解答の数（直近3回まで）
     var score: Double          // 1発正解の割合
     var level: MasteryLevel
 }
 
-/// 問題ごと・単元ごとの「1回目の解答」の記録。単元の完成度は、直近10回の1発正解率で決める。
+/// 問題ごと・単元ごとの「1回目の解答」の記録。単元の完成度は、直近3回の1発正解で決める。
 /// 単語は1語が1問なので、問題ごとの記録（前回まちがえたか）で、苦手な単語を優先して出す。
 final class MasteryStore {
     static let shared = MasteryStore()
@@ -62,6 +62,8 @@ final class MasteryStore {
     }
 
     private static let key = "mastery.v1"
+    /// 単元の完成度は、直近これだけの回数の1発正解で決める。
+    static let window = 3
     private var data: Stored
 
     private init() {
@@ -72,7 +74,7 @@ final class MasteryStore {
     func record(_ problem: Problem, firstTryCorrect: Bool) {
         if let u = problem.unit {
             data.unit[u, default: []].append(firstTryCorrect)
-            data.unit[u] = Array(data.unit[u]!.suffix(10))
+            data.unit[u] = Array(data.unit[u]!.suffix(Self.window))
         }
         data.problem[problem.id, default: []].append(firstTryCorrect)
         data.problem[problem.id] = Array(data.problem[problem.id]!.suffix(5))
@@ -80,13 +82,13 @@ final class MasteryStore {
     }
 
     func progress(unit id: String) -> UnitProgress {
-        let r = data.unit[id] ?? []
+        let r = Array((data.unit[id] ?? []).suffix(Self.window))
         guard !r.isEmpty else { return UnitProgress(count: 0, score: 0, level: .none) }
         let score = Double(r.filter { $0 }.count) / Double(r.count)
         let level: MasteryLevel
-        if r.count < 3 { level = .learning }
-        else if score >= 0.9, r.count >= 10 { level = .complete }
-        else if score >= 0.7, r.count >= 5 { level = .good }
+        if r.count < Self.window { level = .learning }       // まだ3回に満たない
+        else if score >= 1 { level = .complete }              // 3回とも1発正解
+        else if score >= 0.6 { level = .good }                // 3回中2回以上
         else { level = .learning }
         return UnitProgress(count: r.count, score: score, level: level)
     }
