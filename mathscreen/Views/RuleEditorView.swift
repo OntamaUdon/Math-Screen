@@ -30,14 +30,20 @@ struct RuleEditorView: View {
                     Button {
                         showPicker = true
                     } label: {
-                        HStack {
-                            Text(rule.itemCount == 0 ? "制限するアプリを選ぶ" : "\(rule.itemCount)件を選択中")
+                        HStack(spacing: 10) {
+                            Image(systemName: rule.itemCount == 0 ? "plus.app.fill" : "checkmark.app.fill")
+                                .font(.system(size: 26))
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(rule.itemCount == 0 ? "制限するアプリを選ぶ" : "\(rule.itemCount)件を選択中")
+                                    .font(Theme.font(20, .heavy))
+                                if rule.itemCount > 0 { Text("タップして変更").font(Theme.font(12, .semibold)).opacity(0.85) }
+                            }
                             Spacer()
-                            Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
+                            Image(systemName: "chevron.right").font(.system(size: 15, weight: .bold))
                         }
-                        .padding(.horizontal, 16)
+                        .padding(.horizontal, 16).padding(.vertical, 8)
                     }
-                    .buttonStyle(.secondary)
+                    .buttonStyle(IsoButtonStyle(kind: rule.itemCount == 0 ? .alert : .primary))
                     if !rule.selection.applicationTokens.isEmpty {
                         ScrollView(.horizontal) {
                             HStack(spacing: 10) {
@@ -65,8 +71,6 @@ struct RuleEditorView: View {
                         }
                         .frame(height: 140)
                         .clipped()
-                        Text("\(GuardRule.durationText(rule.thresholdMinutes))ごと（1分〜12時間）")
-                            .font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)
                     }
                     .card(padding: 10)
                 }
@@ -99,17 +103,6 @@ struct RuleEditorView: View {
                             .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
                     }
                     .card()
-                }
-
-                section("難しさ") {
-                    HStack(spacing: 8) {
-                        ForEach(Difficulty.allCases) { d in
-                            Button { toggleDifficulty(d.rawValue) } label: {
-                                Tag(text: d.label, isOn: rule.difficulties.contains(d.rawValue))
-                            }
-                            .buttonStyle(.plain)
-                        }
-                    }
                 }
 
                 Text("対象のアプリを合計 \(GuardRule.durationText(rule.thresholdMinutes)) 使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(GuardRule.durationText(rule.thresholdMinutes)) たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
