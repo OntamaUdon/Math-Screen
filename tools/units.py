@@ -57,19 +57,35 @@ UNITS = [
     ("w_std",      "english", "高校", "標準の英単語", ["w_basic"]),
     ("g_grammar",  "english", "中学", "英語の文法", []),
     ("g_translate", "english", "中学", "英文の和訳", ["g_grammar"]),
+    ("g_order",    "english", "中学", "英文の並べかえ", ["g_grammar"]),
     # ── 社会 ──
-    ("s_geo",      "social", "中学", "地理", []),
-    ("s_hist",     "social", "中学", "歴史", []),
-    ("s_civ",      "social", "中学", "公民", []),
+    ("s_geo_map",   "social", "中学", "地球と地図", []),
+    ("s_geo_world", "social", "中学", "世界の国々", ["s_geo_map"]),
+    ("s_geo_japan", "social", "中学", "日本の地理", ["s_geo_map"]),
+    ("s_hist_ancient",  "social", "中学", "古代の歴史", []),
+    ("s_hist_medieval", "social", "中学", "中世の歴史", ["s_hist_ancient"]),
+    ("s_hist_early",    "social", "中学", "近世の歴史", ["s_hist_medieval"]),
+    ("s_hist_modern",   "social", "中学", "近代の歴史", ["s_hist_early"]),
+    ("s_hist_contemp",  "social", "中学", "現代の歴史", ["s_hist_modern"]),
+    ("s_civ_const", "social", "中学", "憲法と人権", []),
+    ("s_civ_gov",   "social", "中学", "政治のしくみ", ["s_civ_const"]),
+    ("s_civ_econ",  "social", "中学", "経済のしくみ", ["s_civ_gov"]),
+    ("s_civ_intl",  "social", "中学", "国際社会", ["s_civ_gov"]),
     # ── 理科 ──
-    ("b_all",      "science", "中学", "生物", []),
-    ("c_all",      "science", "中学", "化学", []),
-    ("e_all",      "science", "中学", "地学", []),
-    ("p_other",    "science", "中学", "物理の基本", []),
-    ("p_speed",    "science", "中学", "速さ", []),
-    ("p_density",  "science", "中学", "密度", []),
-    ("p_press",    "science", "中学", "圧力", []),
-    ("p_ohm",      "science", "中学", "オームの法則", ["p_other"]),
+    ("b_cell_plant", "science", "中学", "細胞と植物", []),
+    ("b_human",      "science", "中学", "人体のつくり", ["b_cell_plant"]),
+    ("b_eco",        "science", "中学", "生態系", ["b_cell_plant"]),
+    ("c_atom",       "science", "中学", "物質と原子", []),
+    ("c_state",      "science", "中学", "物質の性質", []),
+    ("c_solution",   "science", "中学", "水溶液と酸・アルカリ", ["c_atom"]),
+    ("c_reaction",   "science", "中学", "化学変化", ["c_atom"]),
+    ("p_elec",       "science", "中学", "電気", []),
+    ("p_force",      "science", "中学", "力と圧力", []),
+    ("p_motion",     "science", "中学", "運動と仕事", ["p_force"]),
+    ("p_wave",       "science", "中学", "光と音", []),
+    ("e_space",      "science", "中学", "天体", []),
+    ("e_land",       "science", "中学", "大地の変化", []),
+    ("e_weather",    "science", "中学", "天気", []),
 ]
 
 # (category, title) → 単元。英単語は難しさで分ける。
@@ -96,10 +112,21 @@ _m("h_integ3", "部分積分", "対数関数の積分", "sin³x の積分", "回
 _m("h_complex", "複素数の累乗", "複素数の絶対値", "複素数の偏角", "ド・モアブルの定理", "1の5乗根")
 _m("h_conic", "楕円の焦点"); _m("h_space", "四面体の体積")
 _m("g_grammar", "英語の文法"); _m("g_translate", "英文の和訳")
-_m("s_geo", "地理"); _m("s_hist", "歴史"); _m("s_civ", "公民")
-_m("b_all", "生物"); _m("c_all", "化学"); _m("e_all", "地学")
-_m("p_other", "物理"); _m("p_speed", "速さ"); _m("p_density", "密度"); _m("p_press", "圧力")
-_m("p_ohm", "オームの法則")
+_m("p_elec", "オームの法則"); _m("p_motion", "速さ"); _m("c_state", "密度"); _m("p_force", "圧力")
+
+# 最初からあった社会・理科の問題（id が s-分野-番号）は、内容に合わせて単元を決める
+BY_ID = {}
+def _ids(cat, unit, *nums):
+    for n in nums: BY_ID[f"s-{cat}-{n}"] = unit
+_ids("soc_geo", "s_geo_japan", 1, 2, 3, 4); _ids("soc_geo", "s_geo_world", 5, 6, 7); _ids("soc_geo", "s_geo_map", 8, 9, 10)
+_ids("soc_hist", "s_hist_medieval", 1, 10); _ids("soc_hist", "s_hist_early", 2, 7); _ids("soc_hist", "s_hist_modern", 3, 4, 9, 12)
+_ids("soc_hist", "s_hist_ancient", 5, 6); _ids("soc_hist", "s_hist_contemp", 8, 11)
+_ids("soc_civ", "s_civ_const", 1); _ids("soc_civ", "s_civ_gov", 2, 3, 4, 5, 6, 7, 12); _ids("soc_civ", "s_civ_econ", 8, 9, 11)
+_ids("soc_civ", "s_civ_intl", 10)
+_ids("sci_bio", "b_cell_plant", 1, 3, 4); _ids("sci_bio", "b_human", 2, 5, 6); _ids("sci_bio", "b_eco", 7)
+_ids("sci_chem", "c_atom", 1, 2, 3); _ids("sci_chem", "c_solution", 4, 5); _ids("sci_chem", "c_reaction", 6); _ids("sci_chem", "c_state", 7)
+_ids("sci_phys", "p_force", 1); _ids("sci_phys", "p_elec", 2, 3); _ids("sci_phys", "p_wave", 4); _ids("sci_phys", "p_motion", 5)
+_ids("sci_earth", "e_space", 1, 2, 3, 4); _ids("sci_earth", "e_land", 5, 6)
 
 
 _m("e_calc", "計算の順序", "かっこのある計算", "くふうした計算", "かけ算の筆算", "あまりのあるわり算")
@@ -112,6 +139,8 @@ _m("e_count", "並べ方", "組み合わせ", "さいころの目", "選び方�
 
 
 def unit_of(p):
+    if p.get("unit"): return p["unit"]
+    if p["id"] in BY_ID: return BY_ID[p["id"]]
     if p["category"] == "eng_word":
         return "w_basic" if p["difficulty"] <= 1 else "w_std"
     return TITLE_UNIT[p["title"]]

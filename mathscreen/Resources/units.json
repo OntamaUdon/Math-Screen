@@ -458,93 +458,249 @@
     ]
   },
   {
-    "id": "s_geo",
-    "subject": "social",
+    "id": "g_order",
+    "subject": "english",
     "stage": "中学",
-    "name": "地理",
+    "name": "英文の並べかえ",
     "order": 46,
-    "prereqs": []
+    "prereqs": [
+      "g_grammar"
+    ]
   },
   {
-    "id": "s_hist",
+    "id": "s_geo_map",
     "subject": "social",
     "stage": "中学",
-    "name": "歴史",
+    "name": "地球と地図",
     "order": 47,
     "prereqs": []
   },
   {
-    "id": "s_civ",
+    "id": "s_geo_world",
     "subject": "social",
     "stage": "中学",
-    "name": "公民",
+    "name": "世界の国々",
     "order": 48,
-    "prereqs": []
+    "prereqs": [
+      "s_geo_map"
+    ]
   },
   {
-    "id": "b_all",
-    "subject": "science",
+    "id": "s_geo_japan",
+    "subject": "social",
     "stage": "中学",
-    "name": "生物",
+    "name": "日本の地理",
     "order": 49,
-    "prereqs": []
+    "prereqs": [
+      "s_geo_map"
+    ]
   },
   {
-    "id": "c_all",
-    "subject": "science",
+    "id": "s_hist_ancient",
+    "subject": "social",
     "stage": "中学",
-    "name": "化学",
+    "name": "古代の歴史",
     "order": 50,
     "prereqs": []
   },
   {
-    "id": "e_all",
-    "subject": "science",
+    "id": "s_hist_medieval",
+    "subject": "social",
     "stage": "中学",
-    "name": "地学",
+    "name": "中世の歴史",
     "order": 51,
-    "prereqs": []
+    "prereqs": [
+      "s_hist_ancient"
+    ]
   },
   {
-    "id": "p_other",
-    "subject": "science",
+    "id": "s_hist_early",
+    "subject": "social",
     "stage": "中学",
-    "name": "物理の基本",
+    "name": "近世の歴史",
     "order": 52,
-    "prereqs": []
+    "prereqs": [
+      "s_hist_medieval"
+    ]
   },
   {
-    "id": "p_speed",
-    "subject": "science",
+    "id": "s_hist_modern",
+    "subject": "social",
     "stage": "中学",
-    "name": "速さ",
+    "name": "近代の歴史",
     "order": 53,
-    "prereqs": []
+    "prereqs": [
+      "s_hist_early"
+    ]
   },
   {
-    "id": "p_density",
-    "subject": "science",
+    "id": "s_hist_contemp",
+    "subject": "social",
     "stage": "中学",
-    "name": "密度",
+    "name": "現代の歴史",
     "order": 54,
-    "prereqs": []
+    "prereqs": [
+      "s_hist_modern"
+    ]
   },
   {
-    "id": "p_press",
-    "subject": "science",
+    "id": "s_civ_const",
+    "subject": "social",
     "stage": "中学",
-    "name": "圧力",
+    "name": "憲法と人権",
     "order": 55,
     "prereqs": []
   },
   {
-    "id": "p_ohm",
-    "subject": "science",
+    "id": "s_civ_gov",
+    "subject": "social",
     "stage": "中学",
-    "name": "オームの法則",
+    "name": "政治のしくみ",
     "order": 56,
     "prereqs": [
-      "p_other"
+      "s_civ_const"
     ]
+  },
+  {
+    "id": "s_civ_econ",
+    "subject": "social",
+    "stage": "中学",
+    "name": "経済のしくみ",
+    "order": 57,
+    "prereqs": [
+      "s_civ_gov"
+    ]
+  },
+  {
+    "id": "s_civ_intl",
+    "subject": "social",
+    "stage": "中学",
+    "name": "国際社会",
+    "order": 58,
+    "prereqs": [
+      "s_civ_gov"
+    ]
+  },
+  {
+    "id": "b_cell_plant",
+    "subject": "science",
+    "stage": "中学",
+    "name": "細胞と植物",
+    "order": 59,
+    "prereqs": []
+  },
+  {
+    "id": "b_human",
+    "subject": "science",
+    "stage": "中学",
+    "name": "人体のつくり",
+    "order": 60,
+    "prereqs": [
+      "b_cell_plant"
+    ]
+  },
+  {
+    "id": "b_eco",
+    "subject": "science",
+    "stage": "中学",
+    "name": "生態系",
+    "order": 61,
+    "prereqs": [
+      "b_cell_plant"
+    ]
+  },
+  {
+    "id": "c_atom",
+    "subject": "science",
+    "stage": "中学",
+    "name": "物質と原子",
+    "order": 62,
+    "prereqs": []
+  },
+  {
+    "id": "c_state",
+    "subject": "science",
+    "stage": "中学",
+    "name": "物質の性質",
+    "order": 63,
+    "prereqs": []
+  },
+  {
+    "id": "c_solution",
+    "subject": "science",
+    "stage": "中学",
+    "name": "水溶液と酸・アルカリ",
+    "order": 64,
+    "prereqs": [
+      "c_atom"
+    ]
+  },
+  {
+    "id": "c_reaction",
+    "subject": "science",
+    "stage": "中学",
+    "name": "化学変化",
+    "order": 65,
+    "prereqs": [
+      "c_atom"
+    ]
+  },
+  {
+    "id": "p_elec",
+    "subject": "science",
+    "stage": "中学",
+    "name": "電気",
+    "order": 66,
+    "prereqs": []
+  },
+  {
+    "id": "p_force",
+    "subject": "science",
+    "stage": "中学",
+    "name": "力と圧力",
+    "order": 67,
+    "prereqs": []
+  },
+  {
+    "id": "p_motion",
+    "subject": "science",
+    "stage": "中学",
+    "name": "運動と仕事",
+    "order": 68,
+    "prereqs": [
+      "p_force"
+    ]
+  },
+  {
+    "id": "p_wave",
+    "subject": "science",
+    "stage": "中学",
+    "name": "光と音",
+    "order": 69,
+    "prereqs": []
+  },
+  {
+    "id": "e_space",
+    "subject": "science",
+    "stage": "中学",
+    "name": "天体",
+    "order": 70,
+    "prereqs": []
+  },
+  {
+    "id": "e_land",
+    "subject": "science",
+    "stage": "中学",
+    "name": "大地の変化",
+    "order": 71,
+    "prereqs": []
+  },
+  {
+    "id": "e_weather",
+    "subject": "science",
+    "stage": "中学",
+    "name": "天気",
+    "order": 72,
+    "prereqs": []
   }
 ]
