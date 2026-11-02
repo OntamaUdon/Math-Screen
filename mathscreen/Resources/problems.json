@@ -10513,7 +10513,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-2",
@@ -10532,7 +10532,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-3",
@@ -10551,7 +10551,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-4",
@@ -10570,7 +10570,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-5",
@@ -10589,7 +10589,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-6",
@@ -10608,7 +10608,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-7",
@@ -10627,7 +10627,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 5.9
+    "rate": 6.0
   },
   {
     "id": "s-eng_sentence-8",
@@ -10646,7 +10646,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-9",
@@ -10665,7 +10665,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-10",
@@ -10684,7 +10684,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-11",
@@ -10703,7 +10703,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-12",
@@ -10722,7 +10722,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 5.9
+    "rate": 6.0
   },
   {
     "id": "s-eng_sentence-13",
@@ -10741,7 +10741,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-14",
@@ -10760,7 +10760,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 6.7
+    "rate": 6.8
   },
   {
     "id": "s-eng_sentence-15",
@@ -10779,7 +10779,7 @@
     ],
     "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
     "unit": "g_translate",
-    "rate": 5.9
+    "rate": 6.0
   },
   {
     "id": "s-eng_sentence-16",
@@ -10798,7 +10798,7 @@
     ],
     "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
     "unit": "g_grammar",
-    "rate": 5.9
+    "rate": 6.0
   },
   {
     "id": "s-soc_geo-1",
@@ -176659,7 +176659,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-2",
@@ -176678,7 +176678,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-3",
@@ -176697,7 +176697,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-4",
@@ -176716,7 +176716,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-5",
@@ -176754,7 +176754,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-7",
@@ -176773,7 +176773,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_map-8",
@@ -176792,7 +176792,7 @@
     ],
     "unit": "s_geo_map",
     "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
-    "rate": 7.1
+    "rate": 7.2
   },
   {
     "id": "u-s_geo_world-1",
@@ -176963,7 +176963,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-2",
@@ -176982,7 +176982,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-3",
@@ -177001,7 +177001,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-4",
@@ -177020,7 +177020,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-5",
@@ -177039,7 +177039,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-6",
@@ -177058,7 +177058,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_geo_japan-7",
@@ -177077,7 +177077,7 @@
     ],
     "unit": "s_geo_japan",
     "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.4
   },
   {
     "id": "u-s_hist_ancient-1",
@@ -177153,7 +177153,7 @@
     ],
     "unit": "s_hist_ancient",
     "hint": "年表で、前後の出来事や人物を思い出しましょう。",
-    "rate": 4.9
+    "rate": 4.8
   },
   {
     "id": "u-s_hist_ancient-5",
@@ -177229,7 +177229,7 @@
     ],
     "unit": "s_hist_ancient",
     "hint": "年表で、前後の出来事や人物を思い出しましょう。",
-    "rate": 4.9
+    "rate": 4.8
   },
   {
     "id": "u-s_hist_medieval-1",
@@ -177685,7 +177685,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 4.5
+    "rate": 4.4
   },
   {
     "id": "u-s_hist_contemp-2",
@@ -177704,7 +177704,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.2
   },
   {
     "id": "u-s_hist_contemp-3",
@@ -177723,7 +177723,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 4.5
+    "rate": 4.4
   },
   {
     "id": "u-s_hist_contemp-4",
@@ -177742,7 +177742,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 4.5
+    "rate": 4.4
   },
   {
     "id": "u-s_hist_contemp-5",
@@ -177761,7 +177761,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.2
   },
   {
     "id": "u-s_hist_contemp-6",
@@ -177780,7 +177780,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.2
   },
   {
     "id": "u-s_hist_contemp-7",
@@ -177799,7 +177799,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.2
   },
   {
     "id": "u-s_hist_contemp-8",
@@ -177818,7 +177818,7 @@
     ],
     "unit": "s_hist_contemp",
     "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
-    "rate": 5.3
+    "rate": 5.2
   },
   {
     "id": "u-s_civ_const-1",
@@ -177837,7 +177837,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-2",
@@ -177856,7 +177856,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-3",
@@ -177875,7 +177875,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-4",
@@ -177894,7 +177894,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-5",
@@ -177932,7 +177932,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-7",
@@ -177951,7 +177951,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_const-8",
@@ -177970,7 +177970,7 @@
     ],
     "unit": "s_civ_const",
     "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
-    "rate": 6.1
+    "rate": 6.2
   },
   {
     "id": "u-s_civ_gov-1",
@@ -177989,7 +177989,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.8
+    "rate": 5.7
   },
   {
     "id": "u-s_civ_gov-2",
@@ -178008,7 +178008,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.0
+    "rate": 4.9
   },
   {
     "id": "u-s_civ_gov-3",
@@ -178027,7 +178027,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.8
+    "rate": 5.7
   },
   {
     "id": "u-s_civ_gov-4",
@@ -178046,7 +178046,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.8
+    "rate": 5.7
   },
   {
     "id": "u-s_civ_gov-5",
@@ -178065,7 +178065,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.0
+    "rate": 4.9
   },
   {
     "id": "u-s_civ_gov-6",
@@ -178084,7 +178084,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.0
+    "rate": 4.9
   },
   {
     "id": "u-s_civ_gov-7",
@@ -178103,7 +178103,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.8
+    "rate": 5.7
   },
   {
     "id": "u-s_civ_gov-8",
@@ -178122,7 +178122,7 @@
     ],
     "unit": "s_civ_gov",
     "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
-    "rate": 5.8
+    "rate": 5.7
   },
   {
     "id": "u-s_civ_econ-1",
@@ -178578,7 +178578,7 @@
     ],
     "unit": "b_human",
     "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
-    "rate": 4.9
+    "rate": 4.8
   },
   {
     "id": "u-b_human-4",
@@ -178673,7 +178673,7 @@
     ],
     "unit": "b_human",
     "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
-    "rate": 4.9
+    "rate": 4.8
   },
   {
     "id": "u-b_eco-1",
@@ -178806,7 +178806,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 5.6
+    "rate": 5.7
   },
   {
     "id": "u-c_atom-2",
@@ -178825,7 +178825,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 5.6
+    "rate": 5.7
   },
   {
     "id": "u-c_atom-3",
@@ -178844,7 +178844,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 5.6
+    "rate": 5.7
   },
   {
     "id": "u-c_atom-4",
@@ -178863,7 +178863,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 4.8
+    "rate": 4.9
   },
   {
     "id": "u-c_atom-5",
@@ -178882,7 +178882,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 5.6
+    "rate": 5.7
   },
   {
     "id": "u-c_atom-6",
@@ -178901,7 +178901,7 @@
     ],
     "unit": "c_atom",
     "hint": "元素記号や化学式の表を思い出しましょう。",
-    "rate": 5.6
+    "rate": 5.7
   },
   {
     "id": "u-c_solution-1",
@@ -179585,7 +179585,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-p_motion-2",
@@ -179604,7 +179604,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-p_motion-3",
@@ -179623,7 +179623,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_motion-4",
@@ -179642,7 +179642,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-p_motion-5",
@@ -179661,7 +179661,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_motion-6",
@@ -179680,7 +179680,7 @@
     ],
     "unit": "p_motion",
     "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_wave-1",
@@ -179699,7 +179699,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-p_wave-2",
@@ -179718,7 +179718,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-p_wave-3",
@@ -179737,7 +179737,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_wave-4",
@@ -179756,7 +179756,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_wave-5",
@@ -179775,7 +179775,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 4.6
+    "rate": 4.5
   },
   {
     "id": "u-p_wave-6",
@@ -179794,7 +179794,7 @@
     ],
     "unit": "p_wave",
     "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
-    "rate": 5.4
+    "rate": 5.3
   },
   {
     "id": "u-e_space-1",
@@ -180232,5 +180232,4527 @@
     "unit": "e_weather",
     "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
     "rate": 5.6
+  },
+  {
+    "id": "u-g_grammar-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　My father （ ） a teacher.",
+    "answer": 2,
+    "explanation": "主語が三人称単数なので is。",
+    "plain": "次の文の（ ）に入るものを選べ。　My father （ ） a teacher.　① are　② be　③ is　④ am",
+    "choices": [
+      "are",
+      "be",
+      "is",
+      "am"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　We （ ） soccer after school.",
+    "answer": 0,
+    "explanation": "主語が We（複数）の現在の文なので、動詞は原形。",
+    "plain": "次の文の（ ）に入るものを選べ。　We （ ） soccer after school.　① play　② played　③ playing　④ plays",
+    "choices": [
+      "play",
+      "played",
+      "playing",
+      "plays"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） you like sushi?",
+    "answer": 0,
+    "explanation": "一般動詞の疑問文は Do を文頭に。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） you like sushi?　① Do　② Does　③ Is　④ Are",
+    "choices": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　She （ ） not like carrots.",
+    "answer": 0,
+    "explanation": "三人称単数の否定文は does not。",
+    "plain": "次の文の（ ）に入るものを選べ。　She （ ） not like carrots.　① does　② do　③ is　④ are",
+    "choices": [
+      "does",
+      "do",
+      "is",
+      "are"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　There （ ） three books on the desk.",
+    "answer": 0,
+    "explanation": "books が複数なので are。",
+    "plain": "次の文の（ ）に入るものを選べ。　There （ ） three books on the desk.　① are　② be　③ am　④ is",
+    "choices": [
+      "are",
+      "be",
+      "am",
+      "is"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） to the library yesterday.",
+    "answer": 0,
+    "explanation": "yesterday があるので過去形。go の過去形は went。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） to the library yesterday.　① went　② go　③ goes　④ going",
+    "choices": [
+      "went",
+      "go",
+      "goes",
+      "going"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　He is （ ） than I.",
+    "answer": 1,
+    "explanation": "than があるので比較級。tall の比較級は taller。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is （ ） than I.　① tallest　② taller　③ more tall　④ tall",
+    "choices": [
+      "tallest",
+      "taller",
+      "more tall",
+      "tall"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-8",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　This is the （ ） book I have ever read.",
+    "answer": 2,
+    "explanation": "ever があり、最上級。長い形容詞は most を使う。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is the （ ） book I have ever read.　① more interesting　② interesting　③ most interesting　④ interestinger",
+    "choices": [
+      "more interesting",
+      "interesting",
+      "most interesting",
+      "interestinger"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I am （ ） to music now.",
+    "answer": 3,
+    "explanation": "now と am があるので現在進行形。",
+    "plain": "次の文の（ ）に入るものを選べ。　I am （ ） to music now.　① listens　② listen　③ listened　④ listening",
+    "choices": [
+      "listens",
+      "listen",
+      "listened",
+      "listening"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　Tom （ ） his homework last night.",
+    "answer": 0,
+    "explanation": "last night があるので過去形。do の過去形は did。",
+    "plain": "次の文の（ ）に入るものを選べ。　Tom （ ） his homework last night.　① did　② does　③ doing　④ do",
+    "choices": [
+      "did",
+      "does",
+      "doing",
+      "do"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-11",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I have （ ） this movie twice.",
+    "answer": 2,
+    "explanation": "have のあとは過去分詞。see の過去分詞は seen。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have （ ） this movie twice.　① saw　② seeing　③ seen　④ see",
+    "choices": [
+      "saw",
+      "seeing",
+      "seen",
+      "see"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　This room （ ） every day.",
+    "answer": 1,
+    "explanation": "「掃除される」なので受け身（be + 過去分詞）。",
+    "plain": "次の文の（ ）に入るものを選べ。　This room （ ） every day.　① cleaned　② is cleaned　③ cleans　④ is cleaning",
+    "choices": [
+      "cleaned",
+      "is cleaned",
+      "cleans",
+      "is cleaning"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-13",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　English is （ ） in many countries.",
+    "answer": 2,
+    "explanation": "「話されている」なので受け身。speak の過去分詞は spoken。",
+    "plain": "次の文の（ ）に入るものを選べ。　English is （ ） in many countries.　① spoke　② speak　③ spoken　④ speaking",
+    "choices": [
+      "spoke",
+      "speak",
+      "spoken",
+      "speaking"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I want （ ） a doctor.",
+    "answer": 2,
+    "explanation": "want to ～ で「～したい」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I want （ ） a doctor.　① being　② be　③ to be　④ am",
+    "choices": [
+      "being",
+      "be",
+      "to be",
+      "am"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　She enjoys （ ） pictures.",
+    "answer": 1,
+    "explanation": "enjoy のあとは動名詞（～ing）。",
+    "plain": "次の文の（ ）に入るものを選べ。　She enjoys （ ） pictures.　① took　② taking　③ take　④ to take",
+    "choices": [
+      "took",
+      "taking",
+      "take",
+      "to take"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I'm looking forward （ ） you.",
+    "answer": 1,
+    "explanation": "look forward to のあとは動名詞。",
+    "plain": "次の文の（ ）に入るものを選べ。　I'm looking forward （ ） you.　① see　② to seeing　③ to see　④ seeing",
+    "choices": [
+      "see",
+      "to seeing",
+      "to see",
+      "seeing"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　The boy （ ） is running is my brother.",
+    "answer": 2,
+    "explanation": "人を表す名詞を説明する関係代名詞の主格は who。",
+    "plain": "次の文の（ ）に入るものを選べ。　The boy （ ） is running is my brother.　① whose　② which　③ who　④ whom",
+    "choices": [
+      "whose",
+      "which",
+      "who",
+      "whom"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-18",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　This is the book （ ） I bought yesterday.",
+    "answer": 0,
+    "explanation": "ものを説明する関係代名詞は that（または which）。",
+    "plain": "次の文の（ ）に入るものを選べ。　This is the book （ ） I bought yesterday.　① that　② whose　③ what　④ who",
+    "choices": [
+      "that",
+      "whose",
+      "what",
+      "who"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, we will stay home.",
+    "answer": 3,
+    "explanation": "条件を表す if の中は、未来でも現在形。",
+    "plain": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, we will stay home.　① rain　② rained　③ will rain　④ rains",
+    "choices": [
+      "rain",
+      "rained",
+      "will rain",
+      "rains"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-20",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I wish I （ ） a bird.",
+    "answer": 2,
+    "explanation": "実現しない願いは仮定法過去。be 動詞は were。",
+    "plain": "次の文の（ ）に入るものを選べ。　I wish I （ ） a bird.　① am　② be　③ were　④ will be",
+    "choices": [
+      "am",
+      "be",
+      "were",
+      "will be"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-21",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　He can （ ） the piano.",
+    "answer": 3,
+    "explanation": "can のあとは動詞の原形。",
+    "plain": "次の文の（ ）に入るものを選べ。　He can （ ） the piano.　① plays　② played　③ playing　④ play",
+    "choices": [
+      "plays",
+      "played",
+      "playing",
+      "play"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-22",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） is the capital of Japan? — Tokyo.",
+    "answer": 3,
+    "explanation": "ものをたずねるので What。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） is the capital of Japan? — Tokyo.　① Who　② How　③ When　④ What",
+    "choices": [
+      "Who",
+      "How",
+      "When",
+      "What"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-23",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） do you go to school? — By bike.",
+    "answer": 0,
+    "explanation": "手段をたずねるので How。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） do you go to school? — By bike.　① How　② Who　③ Where　④ What",
+    "choices": [
+      "How",
+      "Who",
+      "Where",
+      "What"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-24",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I have a lot （ ） homework today.",
+    "answer": 2,
+    "explanation": "a lot of ～ で「たくさんの～」。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have a lot （ ） homework today.　① to　② in　③ of　④ for",
+    "choices": [
+      "to",
+      "in",
+      "of",
+      "for"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-25",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　She asked me （ ） I was.",
+    "answer": 3,
+    "explanation": "間接疑問は「疑問詞 + 主語 + 動詞」の順。",
+    "plain": "次の文の（ ）に入るものを選べ。　She asked me （ ） I was.　① where is　② that　③ where was　④ where",
+    "choices": [
+      "where is",
+      "that",
+      "where was",
+      "where"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-26",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I don't know what （ ）.",
+    "answer": 0,
+    "explanation": "間接疑問なので、主語 + 動詞の順。",
+    "plain": "次の文の（ ）に入るものを選べ。　I don't know what （ ）.　① he said　② he say　③ did he say　④ said he",
+    "choices": [
+      "he said",
+      "he say",
+      "did he say",
+      "said he"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-27",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　Please （ ） quiet in the library.",
+    "answer": 1,
+    "explanation": "命令文の be 動詞は原形の be。",
+    "plain": "次の文の（ ）に入るものを選べ。　Please （ ） quiet in the library.　① is　② be　③ are　④ being",
+    "choices": [
+      "is",
+      "be",
+      "are",
+      "being"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-28",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　Let's （ ） to the park.",
+    "answer": 2,
+    "explanation": "Let's のあとは動詞の原形。",
+    "plain": "次の文の（ ）に入るものを選べ。　Let's （ ） to the park.　① going　② goes　③ go　④ to go",
+    "choices": [
+      "going",
+      "goes",
+      "go",
+      "to go"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_grammar-29",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　He is the boy （ ） name is Ken.",
+    "answer": 1,
+    "explanation": "「その人の～」は所有格の関係代名詞 whose。",
+    "plain": "次の文の（ ）に入るものを選べ。　He is the boy （ ） name is Ken.　① which　② whose　③ who　④ whom",
+    "choices": [
+      "which",
+      "whose",
+      "who",
+      "whom"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_grammar-30",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　It is important （ ） us to study hard.",
+    "answer": 2,
+    "explanation": "It is ～ for 人 to ... の形。",
+    "plain": "次の文の（ ）に入るものを選べ。　It is important （ ） us to study hard.　① of　② to　③ for　④ with",
+    "choices": [
+      "of",
+      "to",
+      "for",
+      "with"
+    ],
+    "unit": "g_grammar",
+    "hint": "主語・時制（いつのことか）・単数か複数か、を確認します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I get up at six every morning.",
+    "answer": 0,
+    "explanation": "get up は「起きる」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I get up at six every morning.　① 私は毎朝6時に起きます。　② 私は毎朝6時に寝ます。　③ 私は朝6時に帰ります。　④ 私は毎晩6時に起きます。",
+    "choices": [
+      "私は毎朝6時に起きます。",
+      "私は毎朝6時に寝ます。",
+      "私は朝6時に帰ります。",
+      "私は毎晩6時に起きます。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　My sister is reading a book.",
+    "answer": 0,
+    "explanation": "is reading は現在進行形。",
+    "plain": "次の英文の意味として正しいものを選べ。　My sister is reading a book.　① 私の姉（妹）は本を読んでいます。　② 私の兄（弟）は本を読んでいます。　③ 私の姉（妹）は本を書いています。　④ 私の姉（妹）は本を買っています。",
+    "choices": [
+      "私の姉（妹）は本を読んでいます。",
+      "私の兄（弟）は本を読んでいます。",
+      "私の姉（妹）は本を書いています。",
+      "私の姉（妹）は本を買っています。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　Do you have any brothers?",
+    "answer": 1,
+    "explanation": "have は「持っている・いる」。",
+    "plain": "次の英文の意味として正しいものを選べ。　Do you have any brothers?　① あなたの兄弟は何人ですか。　② あなたには兄弟がいますか。　③ あなたは兄弟に会いましたか。　④ あなたは兄弟が好きですか。",
+    "choices": [
+      "あなたの兄弟は何人ですか。",
+      "あなたには兄弟がいますか。",
+      "あなたは兄弟に会いましたか。",
+      "あなたは兄弟が好きですか。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　It was rainy yesterday.",
+    "answer": 1,
+    "explanation": "was は過去、rainy は「雨の」。",
+    "plain": "次の英文の意味として正しいものを選べ。　It was rainy yesterday.　① 昨日は晴れでした。　② 昨日は雨でした。　③ 明日は雨でしょう。　④ 今日は雨です。",
+    "choices": [
+      "昨日は晴れでした。",
+      "昨日は雨でした。",
+      "明日は雨でしょう。",
+      "今日は雨です。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　She is good at singing.",
+    "answer": 1,
+    "explanation": "be good at ～ は「～が得意」。",
+    "plain": "次の英文の意味として正しいものを選べ。　She is good at singing.　① 彼女はよく歌を聞きます。　② 彼女は歌うのが得意です。　③ 彼女は歌うのが好きではありません。　④ 彼女は歌手になりたい。",
+    "choices": [
+      "彼女はよく歌を聞きます。",
+      "彼女は歌うのが得意です。",
+      "彼女は歌うのが好きではありません。",
+      "彼女は歌手になりたい。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I will help you tomorrow.",
+    "answer": 2,
+    "explanation": "will は未来。",
+    "plain": "次の英文の意味として正しいものを選べ。　I will help you tomorrow.　① あなたは明日私を手伝います。　② 私は明日あなたに会います。　③ 私は明日あなたを手伝います。　④ 私は昨日あなたを手伝いました。",
+    "choices": [
+      "あなたは明日私を手伝います。",
+      "私は明日あなたに会います。",
+      "私は明日あなたを手伝います。",
+      "私は昨日あなたを手伝いました。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-7",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　How many pencils do you have?",
+    "answer": 1,
+    "explanation": "How many ～ は数をたずねる。",
+    "plain": "次の英文の意味として正しいものを選べ。　How many pencils do you have?　① あなたは鉛筆が好きですか。　② あなたは鉛筆を何本持っていますか。　③ あなたはいくら持っていますか。　④ 鉛筆は何色ですか。",
+    "choices": [
+      "あなたは鉛筆が好きですか。",
+      "あなたは鉛筆を何本持っていますか。",
+      "あなたはいくら持っていますか。",
+      "鉛筆は何色ですか。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　Please open the window.",
+    "answer": 0,
+    "explanation": "Please ～ は「～してください」。",
+    "plain": "次の英文の意味として正しいものを選べ。　Please open the window.　① 窓を開けてください。　② 窓が開いています。　③ 窓を閉めてください。　④ 窓を開けてもいいですか。",
+    "choices": [
+      "窓を開けてください。",
+      "窓が開いています。",
+      "窓を閉めてください。",
+      "窓を開けてもいいですか。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-9",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I have never been to Hokkaido.",
+    "answer": 3,
+    "explanation": "have never been to ～ は「～へ行ったことがない」（経験）。",
+    "plain": "次の英文の意味として正しいものを選べ。　I have never been to Hokkaido.　① 私は北海道に住んだことがあります。　② 私は北海道へ行くつもりはありません。　③ 私は北海道に行ったばかりです。　④ 私は北海道へ行ったことがありません。",
+    "choices": [
+      "私は北海道に住んだことがあります。",
+      "私は北海道へ行くつもりはありません。",
+      "私は北海道に行ったばかりです。",
+      "私は北海道へ行ったことがありません。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-10",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　He has just finished his homework.",
+    "answer": 3,
+    "explanation": "have just + 過去分詞 は「ちょうど～したところ」（完了）。",
+    "plain": "次の英文の意味として正しいものを選べ。　He has just finished his homework.　① 彼は宿題をまだ終えていません。　② 彼は宿題を終えるつもりです。　③ 彼は宿題を何度もしました。　④ 彼はちょうど宿題を終えたところです。",
+    "choices": [
+      "彼は宿題をまだ終えていません。",
+      "彼は宿題を終えるつもりです。",
+      "彼は宿題を何度もしました。",
+      "彼はちょうど宿題を終えたところです。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-11",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　This bag was made in Italy.",
+    "answer": 3,
+    "explanation": "was made は受け身。",
+    "plain": "次の英文の意味として正しいものを選べ。　This bag was made in Italy.　① このかばんはイタリアを作りました。　② イタリアはこのかばんを作ります。　③ このかばんはイタリアで買いました。　④ このかばんはイタリアで作られました。",
+    "choices": [
+      "このかばんはイタリアを作りました。",
+      "イタリアはこのかばんを作ります。",
+      "このかばんはイタリアで買いました。",
+      "このかばんはイタリアで作られました。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I want something cold to drink.",
+    "answer": 0,
+    "explanation": "something cold to drink は「何か冷たい飲み物」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I want something cold to drink.　① 私は何か冷たい飲み物がほしい。　② 私は飲み物を冷やしたい。　③ 私は何か温かい食べ物がほしい。　④ 私は冷たいものを飲みました。",
+    "choices": [
+      "私は何か冷たい飲み物がほしい。",
+      "私は飲み物を冷やしたい。",
+      "私は何か温かい食べ物がほしい。",
+      "私は冷たいものを飲みました。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-13",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　The book you lent me was interesting.",
+    "answer": 1,
+    "explanation": "you lent me は the book を説明している。",
+    "plain": "次の英文の意味として正しいものを選べ。　The book you lent me was interesting.　① 私があなたに貸した本は面白かった。　② あなたが貸してくれた本は面白かった。　③ あなたが私に貸した本は退屈だった。　④ あなたは私に本を貸すつもりだった。",
+    "choices": [
+      "私があなたに貸した本は面白かった。",
+      "あなたが貸してくれた本は面白かった。",
+      "あなたが私に貸した本は退屈だった。",
+      "あなたは私に本を貸すつもりだった。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-14",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　He told me not to be late.",
+    "answer": 3,
+    "explanation": "tell 人 not to ～ は「人に～しないように言う」。",
+    "plain": "次の英文の意味として正しいものを選べ。　He told me not to be late.　① 彼は私に遅れるなと言わなかった。　② 彼は私が遅れたと言った。　③ 彼は私に遅れてもよいと言った。　④ 彼は私に遅れないように言った。",
+    "choices": [
+      "彼は私に遅れるなと言わなかった。",
+      "彼は私が遅れたと言った。",
+      "彼は私に遅れてもよいと言った。",
+      "彼は私に遅れないように言った。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-15",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　Which do you like, tea or coffee?",
+    "answer": 3,
+    "explanation": "Which ～, A or B? は「AとBのどちら」。",
+    "plain": "次の英文の意味として正しいものを選べ。　Which do you like, tea or coffee?　① 紅茶はいかがですか。　② あなたはいつコーヒーを飲みますか。　③ 紅茶とコーヒーのどちらを飲みましたか。　④ 紅茶とコーヒーのどちらが好きですか。",
+    "choices": [
+      "紅茶はいかがですか。",
+      "あなたはいつコーヒーを飲みますか。",
+      "紅茶とコーヒーのどちらを飲みましたか。",
+      "紅茶とコーヒーのどちらが好きですか。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-16",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I'm sorry I'm late.",
+    "answer": 0,
+    "explanation": "I'm sorry ～ は「～してごめんなさい」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I'm sorry I'm late.　① 遅れてごめんなさい。　② 早く着いてよかった。　③ あなたが遅れてすみません。　④ 私は遅れません。",
+    "choices": [
+      "遅れてごめんなさい。",
+      "早く着いてよかった。",
+      "あなたが遅れてすみません。",
+      "私は遅れません。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-17",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　The more you practice, the better you become.",
+    "answer": 1,
+    "explanation": "the + 比較級 ～, the + 比較級 ... は「～すればするほど…」。",
+    "plain": "次の英文の意味として正しいものを選べ。　The more you practice, the better you become.　① あなたは上手に練習します。　② 練習すればするほど、上手になります。　③ 練習が多いほど、悪くなります。　④ 練習すると、もっと忙しくなります。",
+    "choices": [
+      "あなたは上手に練習します。",
+      "練習すればするほど、上手になります。",
+      "練習が多いほど、悪くなります。",
+      "練習すると、もっと忙しくなります。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-18",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　She was so tired that she went to bed early.",
+    "answer": 0,
+    "explanation": "so ～ that ... は「とても～なので…」。",
+    "plain": "次の英文の意味として正しいものを選べ。　She was so tired that she went to bed early.　① 彼女はとても疲れていたので早く寝た。　② 彼女は疲れていたが遅くまで起きていた。　③ 彼女は早く寝たので疲れた。　④ 彼女はとても疲れて学校を休んだ。",
+    "choices": [
+      "彼女はとても疲れていたので早く寝た。",
+      "彼女は疲れていたが遅くまで起きていた。",
+      "彼女は早く寝たので疲れた。",
+      "彼女はとても疲れて学校を休んだ。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-g_translate-19",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　Would you like some tea?",
+    "answer": 1,
+    "explanation": "Would you like ～? は「～はいかがですか」。",
+    "plain": "次の英文の意味として正しいものを選べ。　Would you like some tea?　① 紅茶を買ってきましょうか。　② 紅茶はいかがですか。　③ あなたは紅茶が好きでしたか。　④ 紅茶は何杯ですか。",
+    "choices": [
+      "紅茶を買ってきましょうか。",
+      "紅茶はいかがですか。",
+      "あなたは紅茶が好きでしたか。",
+      "紅茶は何杯ですか。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.8
+  },
+  {
+    "id": "u-g_translate-20",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I'm used to getting up early.",
+    "answer": 2,
+    "explanation": "be used to ～ing は「～することに慣れている」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I'm used to getting up early.　① 私は早く起きていました。　② 私は早く起きるつもりです。　③ 私は早く起きることに慣れています。　④ 私は早く起きたいと思っています。",
+    "choices": [
+      "私は早く起きていました。",
+      "私は早く起きるつもりです。",
+      "私は早く起きることに慣れています。",
+      "私は早く起きたいと思っています。"
+    ],
+    "unit": "g_translate",
+    "hint": "動詞と、時を表す言葉（yesterday、next week など）に注目します。",
+    "rate": 6.0
+  },
+  {
+    "id": "u-s_geo_map-9",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "地球の表面で、陸地と海洋の割合は、およそどれか。",
+    "answer": 1,
+    "explanation": "海洋が約7割を占める。",
+    "plain": "地球の表面で、陸地と海洋の割合は、およそどれか。　① 陸地1：海洋9　② 陸地3：海洋7　③ 陸地5：海洋5　④ 陸地7：海洋3",
+    "choices": [
+      "陸地1：海洋9",
+      "陸地3：海洋7",
+      "陸地5：海洋5",
+      "陸地7：海洋3"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_map-10",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "北緯と南緯を分ける、緯度0度の線を何というか。",
+    "answer": 3,
+    "explanation": "赤道は緯度0度。",
+    "plain": "北緯と南緯を分ける、緯度0度の線を何というか。　① 日付変更線　② 本初子午線　③ 北回帰線　④ 赤道",
+    "choices": [
+      "日付変更線",
+      "本初子午線",
+      "北回帰線",
+      "赤道"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_map-11",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "地図で、北を上にしたとき、右（東）にあたる方位はどれか。",
+    "answer": 2,
+    "explanation": "北が上のとき、右が東。",
+    "plain": "地図で、北を上にしたとき、右（東）にあたる方位はどれか。　① 北　② 西　③ 東　④ 南",
+    "choices": [
+      "北",
+      "西",
+      "東",
+      "南"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_map-12",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "地球と地図",
+    "body": "同じ地点を結んだ曲線で、土地の高さを表す線を何というか。",
+    "answer": 3,
+    "explanation": "等高線の間隔がせまいほど、傾斜が急。",
+    "plain": "同じ地点を結んだ曲線で、土地の高さを表す線を何というか。　① 経線　② 緯線　③ 海岸線　④ 等高線",
+    "choices": [
+      "経線",
+      "緯線",
+      "海岸線",
+      "等高線"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-s_geo_map-13",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "地形図の記号「◎」は何を表すか。",
+    "answer": 3,
+    "explanation": "◎が市役所、〇に斜めの線が入ると町村役場。",
+    "plain": "地形図の記号「◎」は何を表すか。　① 郵便局　② 警察署　③ 消防署　④ 市役所",
+    "choices": [
+      "郵便局",
+      "警察署",
+      "消防署",
+      "市役所"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_map-14",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "地球と地図",
+    "body": "メルカトル図法の特徴として正しいものはどれか。",
+    "answer": 3,
+    "explanation": "航海図として使われる。高緯度ほど面積が大きく見える。",
+    "plain": "メルカトル図法の特徴として正しいものはどれか。　① 地球全体が円に収まる　② 面積が正しく表される　③ 中心からの距離と方位が正しい　④ 経線と緯線が直角に交わる",
+    "choices": [
+      "地球全体が円に収まる",
+      "面積が正しく表される",
+      "中心からの距離と方位が正しい",
+      "経線と緯線が直角に交わる"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 6.3
+  },
+  {
+    "id": "u-s_geo_map-15",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "地球を、赤道に平行に分ける線を何というか。",
+    "answer": 3,
+    "explanation": "緯線は東西に走る線。経線は南北に走る線。",
+    "plain": "地球を、赤道に平行に分ける線を何というか。　① 等高線　② 経線　③ 海岸線　④ 緯線",
+    "choices": [
+      "等高線",
+      "経線",
+      "海岸線",
+      "緯線"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_map-16",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地球と地図",
+    "body": "世界の三大洋に含まれないものはどれか。",
+    "answer": 0,
+    "explanation": "三大洋は、太平洋・大西洋・インド洋。",
+    "plain": "世界の三大洋に含まれないものはどれか。　① 北極海　② 大西洋　③ インド洋　④ 太平洋",
+    "choices": [
+      "北極海",
+      "大西洋",
+      "インド洋",
+      "太平洋"
+    ],
+    "unit": "s_geo_map",
+    "hint": "地球儀や地図帳で、位置や記号を思い出しましょう。",
+    "rate": 7.2
+  },
+  {
+    "id": "u-s_geo_world-9",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "イギリスの首都はどれか。",
+    "answer": 3,
+    "explanation": "首都はロンドン。",
+    "plain": "イギリスの首都はどれか。　① ベルリン　② ローマ　③ パリ　④ ロンドン",
+    "choices": [
+      "ベルリン",
+      "ローマ",
+      "パリ",
+      "ロンドン"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-10",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "フランスの首都はどれか。",
+    "answer": 1,
+    "explanation": "首都はパリ。",
+    "plain": "フランスの首都はどれか。　① ウィーン　② パリ　③ ロンドン　④ マドリード",
+    "choices": [
+      "ウィーン",
+      "パリ",
+      "ロンドン",
+      "マドリード"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-11",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "ドイツの首都はどれか。",
+    "answer": 2,
+    "explanation": "首都はベルリン。",
+    "plain": "ドイツの首都はどれか。　① ボン　② ハンブルク　③ ベルリン　④ ミュンヘン",
+    "choices": [
+      "ボン",
+      "ハンブルク",
+      "ベルリン",
+      "ミュンヘン"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-12",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "インドで最も信仰者が多い宗教はどれか。",
+    "answer": 0,
+    "explanation": "インドではヒンドゥー教徒が約8割。",
+    "plain": "インドで最も信仰者が多い宗教はどれか。　① ヒンドゥー教　② キリスト教　③ イスラム教　④ 仏教",
+    "choices": [
+      "ヒンドゥー教",
+      "キリスト教",
+      "イスラム教",
+      "仏教"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-13",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "アフリカ大陸の北部に広がる世界最大の砂漠はどれか。",
+    "answer": 1,
+    "explanation": "サハラ砂漠は世界最大の砂漠。",
+    "plain": "アフリカ大陸の北部に広がる世界最大の砂漠はどれか。　① アタカマ砂漠　② サハラ砂漠　③ カラハリ砂漠　④ ゴビ砂漠",
+    "choices": [
+      "アタカマ砂漠",
+      "サハラ砂漠",
+      "カラハリ砂漠",
+      "ゴビ砂漠"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-14",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "アマゾン川が流れる国はどれか。",
+    "answer": 0,
+    "explanation": "アマゾン川は、おもにブラジルを流れる。",
+    "plain": "アマゾン川が流れる国はどれか。　① ブラジル　② チリ　③ ペルー　④ アルゼンチン",
+    "choices": [
+      "ブラジル",
+      "チリ",
+      "ペルー",
+      "アルゼンチン"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_world-15",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "世界の国々",
+    "body": "ASEAN（東南アジア諸国連合）に含まれない国はどれか。",
+    "answer": 0,
+    "explanation": "インドは南アジアの国。",
+    "plain": "ASEAN（東南アジア諸国連合）に含まれない国はどれか。　① インド　② インドネシア　③ ベトナム　④ タイ",
+    "choices": [
+      "インド",
+      "インドネシア",
+      "ベトナム",
+      "タイ"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_geo_world-16",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "世界の国々",
+    "body": "ヨーロッパとアジアの境にある、ウラル山脈で分けられる国はどれか。",
+    "answer": 3,
+    "explanation": "ロシアはウラル山脈をはさんで東西にまたがる。",
+    "plain": "ヨーロッパとアジアの境にある、ウラル山脈で分けられる国はどれか。　① ドイツ　② ギリシャ　③ トルコ　④ ロシア",
+    "choices": [
+      "ドイツ",
+      "ギリシャ",
+      "トルコ",
+      "ロシア"
+    ],
+    "unit": "s_geo_world",
+    "hint": "世界地図で、その国の位置と首都を思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-s_geo_japan-8",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "日本の都道府県の数はいくつか。",
+    "answer": 2,
+    "explanation": "1都1道2府43県で、合計47。",
+    "plain": "日本の都道府県の数はいくつか。　① 43　② 46　③ 47　④ 50",
+    "choices": [
+      "43",
+      "46",
+      "47",
+      "50"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_geo_japan-9",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "日本の国土の約何割が山地か。",
+    "answer": 3,
+    "explanation": "国土の約75%が山地。",
+    "plain": "日本の国土の約何割が山地か。　① 約2分の1　② 約10分の1　③ 約4分の1　④ 約4分の3",
+    "choices": [
+      "約2分の1",
+      "約10分の1",
+      "約4分の1",
+      "約4分の3"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_geo_japan-10",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "リアス海岸が見られる地域はどれか。",
+    "answer": 2,
+    "explanation": "リアス海岸は、入り江が複雑に入りくんだ海岸。",
+    "plain": "リアス海岸が見られる地域はどれか。　① 鳥取砂丘　② 琵琶湖岸　③ 三陸海岸　④ 九十九里浜",
+    "choices": [
+      "鳥取砂丘",
+      "琵琶湖岸",
+      "三陸海岸",
+      "九十九里浜"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_geo_japan-11",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "日本の地理",
+    "body": "冬に雪が多く降る地域はどれか。",
+    "answer": 1,
+    "explanation": "冬の北西の季節風が、日本海の水蒸気を運ぶため。",
+    "plain": "冬に雪が多く降る地域はどれか。　① 南西諸島　② 日本海側　③ 瀬戸内　④ 太平洋側",
+    "choices": [
+      "南西諸島",
+      "日本海側",
+      "瀬戸内",
+      "太平洋側"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-s_geo_japan-12",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "「さんま」の水あげ量が多いことで知られる、北海道・東北の沖の寒流はどれか。",
+    "answer": 0,
+    "explanation": "親潮は寒流で、好漁場になる。",
+    "plain": "「さんま」の水あげ量が多いことで知られる、北海道・東北の沖の寒流はどれか。　① 親潮　② 対馬海流　③ 黒潮　④ リマン海流",
+    "choices": [
+      "親潮",
+      "対馬海流",
+      "黒潮",
+      "リマン海流"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_geo_japan-13",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "日本の地理",
+    "body": "日本の中で、人口が最も多い都道府県はどれか。",
+    "answer": 3,
+    "explanation": "東京都は人口が最も多い。",
+    "plain": "日本の中で、人口が最も多い都道府県はどれか。　① 愛知県　② 神奈川県　③ 大阪府　④ 東京都",
+    "choices": [
+      "愛知県",
+      "神奈川県",
+      "大阪府",
+      "東京都"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-s_geo_japan-14",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "日本の最北の島（領土）はどれか。",
+    "answer": 3,
+    "explanation": "択捉島は北方領土の1つ。",
+    "plain": "日本の最北の島（領土）はどれか。　① 南鳥島　② 沖ノ鳥島　③ 与那国島　④ 択捉島",
+    "choices": [
+      "南鳥島",
+      "沖ノ鳥島",
+      "与那国島",
+      "択捉島"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_geo_japan-15",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "日本の地理",
+    "body": "太平洋ベルトに含まれない地域はどれか。",
+    "answer": 1,
+    "explanation": "太平洋ベルトは、関東から九州北部にかけて続く。",
+    "plain": "太平洋ベルトに含まれない地域はどれか。　① 東海　② 北海道の内陸部　③ 関東　④ 瀬戸内",
+    "choices": [
+      "東海",
+      "北海道の内陸部",
+      "関東",
+      "瀬戸内"
+    ],
+    "unit": "s_geo_japan",
+    "hint": "日本地図で、その場所の位置や特徴を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_hist_ancient-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "縄文時代に使われた道具はどれか。",
+    "answer": 3,
+    "explanation": "縄目の文様がある縄文土器を使った。",
+    "plain": "縄文時代に使われた道具はどれか。　① 鉄器　② 須恵器　③ 青銅器　④ 縄文土器",
+    "choices": [
+      "鉄器",
+      "須恵器",
+      "青銅器",
+      "縄文土器"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "弥生時代に、稲の穂をかり取るために使われた道具はどれか。",
+    "answer": 2,
+    "explanation": "石包丁は、稲の穂をつみ取る道具。",
+    "plain": "弥生時代に、稲の穂をかり取るために使われた道具はどれか。　① 銅鏡　② 銅鐸　③ 石包丁　④ 埴輪",
+    "choices": [
+      "銅鏡",
+      "銅鐸",
+      "石包丁",
+      "埴輪"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "古墳の中で、日本最大の前方後円墳はどれか。",
+    "answer": 0,
+    "explanation": "大阪府堺市にある、仁徳天皇陵とされる古墳。",
+    "plain": "古墳の中で、日本最大の前方後円墳はどれか。　① 大仙（大山）古墳　② 江田船山古墳　③ 吉野ヶ里古墳　④ 稲荷山古墳",
+    "choices": [
+      "大仙（大山）古墳",
+      "江田船山古墳",
+      "吉野ヶ里古墳",
+      "稲荷山古墳"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-12",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "古代の歴史",
+    "body": "701年に制定された法律はどれか。",
+    "answer": 1,
+    "explanation": "大宝律令で、律令国家のしくみが整った。",
+    "plain": "701年に制定された法律はどれか。　① 武家諸法度　② 大宝律令　③ 十七条の憲法　④ 御成敗式目",
+    "choices": [
+      "武家諸法度",
+      "大宝律令",
+      "十七条の憲法",
+      "御成敗式目"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-s_hist_ancient-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "平安京に都を移したのは何年か。",
+    "answer": 0,
+    "explanation": "桓武天皇が遷都した。",
+    "plain": "平安京に都を移したのは何年か。　① 794年　② 1192年　③ 710年　④ 645年",
+    "choices": [
+      "794年",
+      "1192年",
+      "710年",
+      "645年"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-14",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "唐から日本に渡り、唐招提寺を建てた僧はだれか。",
+    "answer": 3,
+    "explanation": "鑑真は何度も失敗しながら来日した。",
+    "plain": "唐から日本に渡り、唐招提寺を建てた僧はだれか。　① 最澄　② 空海　③ 行基　④ 鑑真",
+    "choices": [
+      "最澄",
+      "空海",
+      "行基",
+      "鑑真"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "天台宗を開いた僧はだれか。",
+    "answer": 0,
+    "explanation": "最澄は比叡山に延暦寺を建てた。",
+    "plain": "天台宗を開いた僧はだれか。　① 最澄　② 鑑真　③ 空海　④ 道元",
+    "choices": [
+      "最澄",
+      "鑑真",
+      "空海",
+      "道元"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_ancient-16",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "古代の歴史",
+    "body": "真言宗を開き、高野山に金剛峯寺を建てた僧はだれか。",
+    "answer": 3,
+    "explanation": "空海は唐で学んだ。",
+    "plain": "真言宗を開き、高野山に金剛峯寺を建てた僧はだれか。　① 最澄　② 日蓮　③ 親鸞　④ 空海",
+    "choices": [
+      "最澄",
+      "日蓮",
+      "親鸞",
+      "空海"
+    ],
+    "unit": "s_hist_ancient",
+    "hint": "年表で、前後の出来事や人物を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_medieval-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "鎌倉幕府をたおした天皇はだれか。",
+    "answer": 1,
+    "explanation": "後醍醐天皇が足利尊氏らの力を借りて幕府をたおした（1333年）。",
+    "plain": "鎌倉幕府をたおした天皇はだれか。　① 桓武天皇　② 後醍醐天皇　③ 後鳥羽上皇　④ 白河上皇",
+    "choices": [
+      "桓武天皇",
+      "後醍醐天皇",
+      "後鳥羽上皇",
+      "白河上皇"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_medieval-10",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "中世の歴史",
+    "body": "元寇のあと、御家人が生活に苦しんだため幕府が出した法令はどれか。",
+    "answer": 1,
+    "explanation": "借金を帳消しにした法令（1297年）。",
+    "plain": "元寇のあと、御家人が生活に苦しんだため幕府が出した法令はどれか。　① 刀狩令　② 永仁の徳政令　③ 御成敗式目　④ 楽市令",
+    "choices": [
+      "刀狩令",
+      "永仁の徳政令",
+      "御成敗式目",
+      "楽市令"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_medieval-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "室町幕府の将軍を補佐する役職はどれか。",
+    "answer": 3,
+    "explanation": "管領は、有力な守護大名が就いた。",
+    "plain": "室町幕府の将軍を補佐する役職はどれか。　① 執権　② 関白　③ 老中　④ 管領",
+    "choices": [
+      "執権",
+      "関白",
+      "老中",
+      "管領"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_medieval-12",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "室町時代に栄えた、能を大成した人物はだれか。",
+    "answer": 0,
+    "explanation": "世阿弥は父の観阿弥とともに能を大成した。",
+    "plain": "室町時代に栄えた、能を大成した人物はだれか。　① 世阿弥　② 千利休　③ 雪舟　④ 近松門左衛門",
+    "choices": [
+      "世阿弥",
+      "千利休",
+      "雪舟",
+      "近松門左衛門"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_medieval-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "水墨画を大成した室町時代の画僧はだれか。",
+    "answer": 1,
+    "explanation": "雪舟は水墨画を大成した。",
+    "plain": "水墨画を大成した室町時代の画僧はだれか。　① 狩野永徳　② 雪舟　③ 葛飾北斎　④ 菱川師宣",
+    "choices": [
+      "狩野永徳",
+      "雪舟",
+      "葛飾北斎",
+      "菱川師宣"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_medieval-14",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "中世の歴史",
+    "body": "鎌倉時代、浄土真宗を開いた僧はだれか。",
+    "answer": 3,
+    "explanation": "親鸞は、阿弥陀仏にすがる「悪人正機」を説いた。",
+    "plain": "鎌倉時代、浄土真宗を開いた僧はだれか。　① 一遍　② 日蓮　③ 法然　④ 親鸞",
+    "choices": [
+      "一遍",
+      "日蓮",
+      "法然",
+      "親鸞"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.0
+  },
+  {
+    "id": "u-s_hist_medieval-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "鎌倉時代に、座禅で悟りを開くことを説いて曹洞宗を伝えた僧はだれか。",
+    "answer": 3,
+    "explanation": "道元は曹洞宗、栄西は臨済宗を伝えた。",
+    "plain": "鎌倉時代に、座禅で悟りを開くことを説いて曹洞宗を伝えた僧はだれか。　① 栄西　② 法然　③ 日蓮　④ 道元",
+    "choices": [
+      "栄西",
+      "法然",
+      "日蓮",
+      "道元"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_medieval-16",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "中世の歴史",
+    "body": "『平家物語』が語られた戦いのうち、1185年に平氏がほろびた戦いはどれか。",
+    "answer": 1,
+    "explanation": "源氏が壇ノ浦で平氏をほろぼした。",
+    "plain": "『平家物語』が語られた戦いのうち、1185年に平氏がほろびた戦いはどれか。　① 長篠の戦い　② 壇ノ浦の戦い　③ 桶狭間の戦い　④ 関ヶ原の戦い",
+    "choices": [
+      "長篠の戦い",
+      "壇ノ浦の戦い",
+      "桶狭間の戦い",
+      "関ヶ原の戦い"
+    ],
+    "unit": "s_hist_medieval",
+    "hint": "鎌倉時代から室町時代の、幕府と武士の動きを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-s_hist_early-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "織田信長が今川義元を破った1560年の戦いはどれか。",
+    "answer": 3,
+    "explanation": "桶狭間の戦いで、信長が今川義元をたおした。",
+    "plain": "織田信長が今川義元を破った1560年の戦いはどれか。　① 長篠の戦い　② 山崎の戦い　③ 関ヶ原の戦い　④ 桶狭間の戦い",
+    "choices": [
+      "長篠の戦い",
+      "山崎の戦い",
+      "関ヶ原の戦い",
+      "桶狭間の戦い"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "1582年、織田信長が家臣にたおされた事件はどれか。",
+    "answer": 3,
+    "explanation": "明智光秀が信長を京都の本能寺でたおした。",
+    "plain": "1582年、織田信長が家臣にたおされた事件はどれか。　① 大塩平八郎の乱　② 島原の乱　③ 応仁の乱　④ 本能寺の変",
+    "choices": [
+      "大塩平八郎の乱",
+      "島原の乱",
+      "応仁の乱",
+      "本能寺の変"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "豊臣秀吉が築いた大阪の城はどれか。",
+    "answer": 2,
+    "explanation": "大阪城は、秀吉の天下統一の象徴。",
+    "plain": "豊臣秀吉が築いた大阪の城はどれか。　① 安土城　② 姫路城　③ 大阪城　④ 江戸城",
+    "choices": [
+      "安土城",
+      "姫路城",
+      "大阪城",
+      "江戸城"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-12",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "江戸幕府が、キリスト教の信者をさがすために行ったものはどれか。",
+    "answer": 0,
+    "explanation": "絵踏で、キリスト教の信者をさがし出した。",
+    "plain": "江戸幕府が、キリスト教の信者をさがすために行ったものはどれか。　① 絵踏　② 参勤交代　③ 検地　④ 刀狩",
+    "choices": [
+      "絵踏",
+      "参勤交代",
+      "検地",
+      "刀狩"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-13",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "近世の歴史",
+    "body": "1637年に九州で起こった、キリシタンの農民たちの一揆はどれか。",
+    "answer": 3,
+    "explanation": "重い年貢とキリスト教の弾圧に反対した。",
+    "plain": "1637年に九州で起こった、キリシタンの農民たちの一揆はどれか。　① 山城の国一揆　② 百姓一揆（元禄）　③ 応仁の乱　④ 島原・天草一揆",
+    "choices": [
+      "山城の国一揆",
+      "百姓一揆（元禄）",
+      "応仁の乱",
+      "島原・天草一揆"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-s_hist_early-14",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "江戸時代の三都に含まれないものはどれか。",
+    "answer": 1,
+    "explanation": "三都は、江戸・大阪・京都。",
+    "plain": "江戸時代の三都に含まれないものはどれか。　① 京都　② 名古屋　③ 江戸　④ 大阪",
+    "choices": [
+      "京都",
+      "名古屋",
+      "江戸",
+      "大阪"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近世の歴史",
+    "body": "江戸時代に『奥の細道』を書いた俳人はだれか。",
+    "answer": 1,
+    "explanation": "松尾芭蕉は俳諧を芸術にした。",
+    "plain": "江戸時代に『奥の細道』を書いた俳人はだれか。　① 与謝蕪村　② 松尾芭蕉　③ 井原西鶴　④ 近松門左衛門",
+    "choices": [
+      "与謝蕪村",
+      "松尾芭蕉",
+      "井原西鶴",
+      "近松門左衛門"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_hist_early-16",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "近世の歴史",
+    "body": "寛政の改革を行った老中はだれか。",
+    "answer": 1,
+    "explanation": "松平定信は、質素・倹約を命じた。",
+    "plain": "寛政の改革を行った老中はだれか。　① 徳川吉宗　② 松平定信　③ 田沼意次　④ 水野忠邦",
+    "choices": [
+      "徳川吉宗",
+      "松平定信",
+      "田沼意次",
+      "水野忠邦"
+    ],
+    "unit": "s_hist_early",
+    "hint": "戦国時代の統一から江戸時代の政治を、順に思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-s_hist_modern-8",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "1853年、浦賀に来航したペリーの国はどこか。",
+    "answer": 3,
+    "explanation": "ペリーはアメリカ東インド艦隊の司令官。",
+    "plain": "1853年、浦賀に来航したペリーの国はどこか。　① イギリス　② オランダ　③ ロシア　④ アメリカ",
+    "choices": [
+      "イギリス",
+      "オランダ",
+      "ロシア",
+      "アメリカ"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_modern-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "明治政府が、国民に兵役の義務を課したものはどれか。",
+    "answer": 0,
+    "explanation": "1873年に出された徴兵令。",
+    "plain": "明治政府が、国民に兵役の義務を課したものはどれか。　① 徴兵令　② 廃藩置県　③ 学制　④ 地租改正",
+    "choices": [
+      "徴兵令",
+      "廃藩置県",
+      "学制",
+      "地租改正"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_modern-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "明治政府が、近代的な工業をおこすために行った政策はどれか。",
+    "answer": 1,
+    "explanation": "官営模範工場の富岡製糸場がつくられた。",
+    "plain": "明治政府が、近代的な工業をおこすために行った政策はどれか。　① 富国強兵　② 殖産興業　③ 文明開化　④ 自由民権運動",
+    "choices": [
+      "富国強兵",
+      "殖産興業",
+      "文明開化",
+      "自由民権運動"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_modern-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "官営の富岡製糸場があった県はどれか。",
+    "answer": 1,
+    "explanation": "生糸の生産がさかんだった。",
+    "plain": "官営の富岡製糸場があった県はどれか。　① 栃木県　② 群馬県　③ 新潟県　④ 長野県",
+    "choices": [
+      "栃木県",
+      "群馬県",
+      "新潟県",
+      "長野県"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_modern-12",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "近代の歴史",
+    "body": "国会の開設を求めて、板垣退助らが進めた運動はどれか。",
+    "answer": 0,
+    "explanation": "自由民権運動が国会開設につながった。",
+    "plain": "国会の開設を求めて、板垣退助らが進めた運動はどれか。　① 自由民権運動　② 尊王攘夷運動　③ 米騒動　④ 護憲運動",
+    "choices": [
+      "自由民権運動",
+      "尊王攘夷運動",
+      "米騒動",
+      "護憲運動"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-s_hist_modern-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "日本が韓国を併合した年はどれか。",
+    "answer": 3,
+    "explanation": "1910年に韓国併合が行われた。",
+    "plain": "日本が韓国を併合した年はどれか。　① 1904年　② 1925年　③ 1894年　④ 1910年",
+    "choices": [
+      "1904年",
+      "1925年",
+      "1894年",
+      "1910年"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_modern-14",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "近代の歴史",
+    "body": "第一次世界大戦のあと、国際平和を目的につくられた機関はどれか。",
+    "answer": 3,
+    "explanation": "1920年に発足した。",
+    "plain": "第一次世界大戦のあと、国際平和を目的につくられた機関はどれか。　① EU　② ASEAN　③ 国際連合　④ 国際連盟",
+    "choices": [
+      "EU",
+      "ASEAN",
+      "国際連合",
+      "国際連盟"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-s_hist_modern-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "近代の歴史",
+    "body": "1923年に関東地方で起こった災害はどれか。",
+    "answer": 1,
+    "explanation": "1923年9月1日に発生した。",
+    "plain": "1923年に関東地方で起こった災害はどれか。　① 東日本大震災　② 関東大震災　③ 濃尾地震　④ 阪神・淡路大震災",
+    "choices": [
+      "東日本大震災",
+      "関東大震災",
+      "濃尾地震",
+      "阪神・淡路大震災"
+    ],
+    "unit": "s_hist_modern",
+    "hint": "開国から明治時代の改革を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-9",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "1945年、日本が受け入れた、戦争の終結を求める宣言はどれか。",
+    "answer": 2,
+    "explanation": "ポツダム宣言を受け入れて降伏した。",
+    "plain": "1945年、日本が受け入れた、戦争の終結を求める宣言はどれか。　① 人権宣言　② 独立宣言　③ ポツダム宣言　④ カイロ宣言",
+    "choices": [
+      "人権宣言",
+      "独立宣言",
+      "ポツダム宣言",
+      "カイロ宣言"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "戦後の民主化政策で、地主から土地を買い上げて小作人に売った改革はどれか。",
+    "answer": 2,
+    "explanation": "農地改革で、自作農が増えた。",
+    "plain": "戦後の民主化政策で、地主から土地を買い上げて小作人に売った改革はどれか。　① 地租改正　② 教育改革　③ 農地改革　④ 財閥解体",
+    "choices": [
+      "地租改正",
+      "教育改革",
+      "農地改革",
+      "財閥解体"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "1950年に始まった、朝鮮半島での戦争はどれか。",
+    "answer": 3,
+    "explanation": "朝鮮戦争で、日本は特需景気になった。",
+    "plain": "1950年に始まった、朝鮮半島での戦争はどれか。　① ベトナム戦争　② 湾岸戦争　③ 日露戦争　④ 朝鮮戦争",
+    "choices": [
+      "ベトナム戦争",
+      "湾岸戦争",
+      "日露戦争",
+      "朝鮮戦争"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-12",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "1960年代の、日本の高い経済成長を何というか。",
+    "answer": 1,
+    "explanation": "1955年ごろから約20年続いた。",
+    "plain": "1960年代の、日本の高い経済成長を何というか。　① 世界恐慌　② 高度経済成長　③ 戦後恐慌　④ バブル経済",
+    "choices": [
+      "世界恐慌",
+      "高度経済成長",
+      "戦後恐慌",
+      "バブル経済"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-13",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "1978年、日本と中国が結んだ条約はどれか。",
+    "answer": 2,
+    "explanation": "1972年の日中共同声明のあと結ばれた。",
+    "plain": "1978年、日本と中国が結んだ条約はどれか。　① 日韓基本条約　② 日米安全保障条約　③ 日中平和友好条約　④ 日ソ共同宣言",
+    "choices": [
+      "日韓基本条約",
+      "日米安全保障条約",
+      "日中平和友好条約",
+      "日ソ共同宣言"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-14",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "現代の歴史",
+    "body": "1980年代後半から、土地や株の価格が異常に上がった好景気を何というか。",
+    "answer": 3,
+    "explanation": "1991年ごろ崩壊した。",
+    "plain": "1980年代後半から、土地や株の価格が異常に上がった好景気を何というか。　① 高度経済成長　② 特需景気　③ いざなぎ景気　④ バブル経済",
+    "choices": [
+      "高度経済成長",
+      "特需景気",
+      "いざなぎ景気",
+      "バブル経済"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-s_hist_contemp-15",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "消費税が初めて導入された年はどれか。",
+    "answer": 2,
+    "explanation": "1989年に3%で始まった。",
+    "plain": "消費税が初めて導入された年はどれか。　① 1964年　② 1972年　③ 1989年　④ 2014年",
+    "choices": [
+      "1964年",
+      "1972年",
+      "1989年",
+      "2014年"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_hist_contemp-16",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "現代の歴史",
+    "body": "2020年に日本で開催が予定されていたが、延期になったオリンピックはどれか。",
+    "answer": 0,
+    "explanation": "新型コロナウイルスの影響で、2021年に開催された。",
+    "plain": "2020年に日本で開催が予定されていたが、延期になったオリンピックはどれか。　① 東京オリンピック　② 大阪万博　③ 札幌オリンピック　④ 長野オリンピック",
+    "choices": [
+      "東京オリンピック",
+      "大阪万博",
+      "札幌オリンピック",
+      "長野オリンピック"
+    ],
+    "unit": "s_hist_contemp",
+    "hint": "戦後の日本の出来事を、年表で順に思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-s_civ_const-9",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "日本国憲法の三大原則に含まれるものはどれか。",
+    "answer": 2,
+    "explanation": "三大原則は、国民主権・基本的人権の尊重・平和主義。",
+    "plain": "日本国憲法の三大原則に含まれるものはどれか。　① 三権分立　② 二院制　③ 国民主権　④ 地方自治",
+    "choices": [
+      "三権分立",
+      "二院制",
+      "国民主権",
+      "地方自治"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_const-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "「法の下の平等」は、何に分類される権利か。",
+    "answer": 1,
+    "explanation": "憲法第14条が定める。",
+    "plain": "「法の下の平等」は、何に分類される権利か。　① 社会権　② 平等権　③ 参政権　④ 自由権",
+    "choices": [
+      "社会権",
+      "平等権",
+      "参政権",
+      "自由権"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_const-11",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "教育を受ける権利は、何に分類される権利か。",
+    "answer": 0,
+    "explanation": "社会権は、人間らしい生活を保障する権利。",
+    "plain": "教育を受ける権利は、何に分類される権利か。　① 社会権　② 請求権　③ 自由権　④ 参政権",
+    "choices": [
+      "社会権",
+      "請求権",
+      "自由権",
+      "参政権"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_const-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "国民の三大義務に含まれるものはどれか。",
+    "answer": 0,
+    "explanation": "三大義務は、教育・勤労・納税。",
+    "plain": "国民の三大義務に含まれるものはどれか。　① 納税の義務　② 裁判員を断る義務　③ 投票の義務　④ 兵役の義務",
+    "choices": [
+      "納税の義務",
+      "裁判員を断る義務",
+      "投票の義務",
+      "兵役の義務"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_const-13",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "憲法と人権",
+    "body": "裁判所に対して、国や公共団体に損害賠償を求める権利を何というか。",
+    "answer": 1,
+    "explanation": "請求権の1つ。",
+    "plain": "裁判所に対して、国や公共団体に損害賠償を求める権利を何というか。　① 選挙権　② 国家賠償請求権　③ 団結権　④ 黙秘権",
+    "choices": [
+      "選挙権",
+      "国家賠償請求権",
+      "団結権",
+      "黙秘権"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-s_civ_const-14",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "憲法で、公共の福祉による制限を受けることがある権利はどれか。",
+    "answer": 1,
+    "explanation": "他人の人権を侵害してはならない。",
+    "plain": "憲法で、公共の福祉による制限を受けることがある権利はどれか。　① 平和主義　② 基本的人権　③ 天皇の地位　④ 国民主権",
+    "choices": [
+      "平和主義",
+      "基本的人権",
+      "天皇の地位",
+      "国民主権"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_const-15",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "憲法と人権",
+    "body": "新しい人権のうち、自分の生活や情報を他人に知られない権利を何というか。",
+    "answer": 2,
+    "explanation": "個人情報の保護にもつながる。",
+    "plain": "新しい人権のうち、自分の生活や情報を他人に知られない権利を何というか。　① 知る権利　② 環境権　③ プライバシーの権利　④ 自己決定権",
+    "choices": [
+      "知る権利",
+      "環境権",
+      "プライバシーの権利",
+      "自己決定権"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-s_civ_const-16",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "憲法と人権",
+    "body": "憲法で、天皇が行う、国政に関する権限をもたない形式的な行為を何というか。",
+    "answer": 1,
+    "explanation": "国事行為は、内閣の助言と承認が必要。",
+    "plain": "憲法で、天皇が行う、国政に関する権限をもたない形式的な行為を何というか。　① 政治的行為　② 国事行為　③ 行政行為　④ 立法行為",
+    "choices": [
+      "政治的行為",
+      "国事行為",
+      "行政行為",
+      "立法行為"
+    ],
+    "unit": "s_civ_const",
+    "hint": "日本国憲法の三大原則と、人権の種類を思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-s_civ_gov-9",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "日本の国会は、衆議院ともう1つで構成される。もう1つはどれか。",
+    "answer": 1,
+    "explanation": "二院制をとっている。",
+    "plain": "日本の国会は、衆議院ともう1つで構成される。もう1つはどれか。　① 枢密院　② 参議院　③ 元老院　④ 貴族院",
+    "choices": [
+      "枢密院",
+      "参議院",
+      "元老院",
+      "貴族院"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "国会議員を選ぶための選挙で、満何歳以上の人が立候補できるのが衆議院か。",
+    "answer": 0,
+    "explanation": "衆議院議員は25歳以上、参議院議員は30歳以上。",
+    "plain": "国会議員を選ぶための選挙で、満何歳以上の人が立候補できるのが衆議院か。　① 25歳　② 18歳　③ 35歳　④ 30歳",
+    "choices": [
+      "25歳",
+      "18歳",
+      "35歳",
+      "30歳"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-11",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "法律が憲法に違反していないかを審査する裁判所の権限を何というか。",
+    "answer": 1,
+    "explanation": "最高裁判所は「憲法の番人」。",
+    "plain": "法律が憲法に違反していないかを審査する裁判所の権限を何というか。　① 国政調査権　② 違憲審査権　③ 拒否権　④ 弾劾裁判",
+    "choices": [
+      "国政調査権",
+      "違憲審査権",
+      "拒否権",
+      "弾劾裁判"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "国会が国の政治について調べる権限を何というか。",
+    "answer": 2,
+    "explanation": "証人を呼んだり、書類を求めたりできる。",
+    "plain": "国会が国の政治について調べる権限を何というか。　① 弾劾権　② 拒否権　③ 国政調査権　④ 違憲審査権",
+    "choices": [
+      "弾劾権",
+      "拒否権",
+      "国政調査権",
+      "違憲審査権"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-13",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "政治のしくみ",
+    "body": "内閣が総辞職しなければならないのは、どんなときか。",
+    "answer": 1,
+    "explanation": "衆議院の解散か総辞職を選ぶ。",
+    "plain": "内閣が総辞職しなければならないのは、どんなときか。　① 最高裁判所が違憲と判断したとき　② 衆議院で内閣不信任案が可決され、10日以内に解散しないとき　③ 参議院で問責決議が可決されたとき　④ 天皇が命じたとき",
+    "choices": [
+      "最高裁判所が違憲と判断したとき",
+      "衆議院で内閣不信任案が可決され、10日以内に解散しないとき",
+      "参議院で問責決議が可決されたとき",
+      "天皇が命じたとき"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-s_civ_gov-14",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "地方自治で、住民が条例の制定や改廃を求めることを何というか。",
+    "answer": 1,
+    "explanation": "有権者の50分の1以上の署名が必要。",
+    "plain": "地方自治で、住民が条例の制定や改廃を求めることを何というか。　① 国民審査　② 直接請求　③ 請願　④ 住民投票",
+    "choices": [
+      "国民審査",
+      "直接請求",
+      "請願",
+      "住民投票"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-15",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "裁判で、国民が裁判官とともに有罪・無罪を判断する制度はどれか。",
+    "answer": 2,
+    "explanation": "重大な刑事事件で行われる。",
+    "plain": "裁判で、国民が裁判官とともに有罪・無罪を判断する制度はどれか。　① 三審制　② 検察審査会　③ 裁判員制度　④ 陪審制",
+    "choices": [
+      "三審制",
+      "検察審査会",
+      "裁判員制度",
+      "陪審制"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_gov-16",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "政治のしくみ",
+    "body": "国の予算をつくるのは、どこか。",
+    "answer": 0,
+    "explanation": "予算案は内閣がつくり、国会が審議して決める。",
+    "plain": "国の予算をつくるのは、どこか。　① 内閣　② 国会　③ 財務省だけ　④ 裁判所",
+    "choices": [
+      "内閣",
+      "国会",
+      "財務省だけ",
+      "裁判所"
+    ],
+    "unit": "s_civ_gov",
+    "hint": "国会・内閣・裁判所の役割と、三権分立の図を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_econ-8",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "商品の価格が、需要と供給の関係で決まる市場の働きを何というか。",
+    "answer": 2,
+    "explanation": "需要が多いと価格は上がり、供給が多いと下がる。",
+    "plain": "商品の価格が、需要と供給の関係で決まる市場の働きを何というか。　① 管理価格　② 独占価格　③ 市場価格　④ 公共料金",
+    "choices": [
+      "管理価格",
+      "独占価格",
+      "市場価格",
+      "公共料金"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-9",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "お金の価値が下がり、物価が上がり続ける現象を何というか。",
+    "answer": 3,
+    "explanation": "インフレのとき、同じお金で買えるものが減る。",
+    "plain": "お金の価値が下がり、物価が上がり続ける現象を何というか。　① 不況　② 円高　③ デフレーション　④ インフレーション",
+    "choices": [
+      "不況",
+      "円高",
+      "デフレーション",
+      "インフレーション"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "国の収入のうち、国民から集めるお金を何というか。",
+    "answer": 0,
+    "explanation": "国や地方の収入の多くは税金。",
+    "plain": "国の収入のうち、国民から集めるお金を何というか。　① 税金　② 手数料　③ 寄付　④ 国債",
+    "choices": [
+      "税金",
+      "手数料",
+      "寄付",
+      "国債"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-11",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "国が不足するお金を借りるために発行する債券を何というか。",
+    "answer": 3,
+    "explanation": "国債は国の借金。",
+    "plain": "国が不足するお金を借りるために発行する債券を何というか。　① 社債　② 手形　③ 株式　④ 国債",
+    "choices": [
+      "社債",
+      "手形",
+      "株式",
+      "国債"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "会社が、利益の一部を株主に分けるお金を何というか。",
+    "answer": 0,
+    "explanation": "株主は、配当を受け取れる。",
+    "plain": "会社が、利益の一部を株主に分けるお金を何というか。　① 配当　② 利子　③ 税金　④ 賃金",
+    "choices": [
+      "配当",
+      "利子",
+      "税金",
+      "賃金"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-13",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "働く人が、会社に対して労働力を提供する代わりに受け取るお金を何というか。",
+    "answer": 2,
+    "explanation": "給料などのこと。",
+    "plain": "働く人が、会社に対して労働力を提供する代わりに受け取るお金を何というか。　① 地代　② 利子　③ 賃金　④ 配当",
+    "choices": [
+      "地代",
+      "利子",
+      "賃金",
+      "配当"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-14",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "経済のしくみ",
+    "body": "お金を銀行にあずけたとき、銀行から受け取るお金を何というか。",
+    "answer": 2,
+    "explanation": "利子は、貸したお金の使用料。",
+    "plain": "お金を銀行にあずけたとき、銀行から受け取るお金を何というか。　① 配当　② 賃金　③ 利子　④ 税金",
+    "choices": [
+      "配当",
+      "賃金",
+      "利子",
+      "税金"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-s_civ_econ-15",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "経済のしくみ",
+    "body": "独占禁止法を運用して、企業の自由な競争を守る国の機関はどれか。",
+    "answer": 2,
+    "explanation": "公正取引委員会は、競争をそこなう行為を取りしまる。",
+    "plain": "独占禁止法を運用して、企業の自由な競争を守る国の機関はどれか。　① 日本銀行　② 金融庁　③ 公正取引委員会　④ 消費者庁",
+    "choices": [
+      "日本銀行",
+      "金融庁",
+      "公正取引委員会",
+      "消費者庁"
+    ],
+    "unit": "s_civ_econ",
+    "hint": "家計・企業・政府の関係と、お金のしくみを思い出しましょう。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-s_civ_intl-8",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "国際連合が発足した年はどれか。",
+    "answer": 1,
+    "explanation": "第二次世界大戦のあと、1945年に発足した。",
+    "plain": "国際連合が発足した年はどれか。　① 1956年　② 1945年　③ 1920年　④ 1951年",
+    "choices": [
+      "1956年",
+      "1945年",
+      "1920年",
+      "1951年"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-9",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "国連の主要機関のうち、全加盟国が参加するのはどれか。",
+    "answer": 0,
+    "explanation": "総会は、各国が1票をもつ。",
+    "plain": "国連の主要機関のうち、全加盟国が参加するのはどれか。　① 総会　② 安全保障理事会　③ 経済社会理事会　④ 国際司法裁判所",
+    "choices": [
+      "総会",
+      "安全保障理事会",
+      "経済社会理事会",
+      "国際司法裁判所"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "世界の子どもたちを救うための国連の機関はどれか。",
+    "answer": 0,
+    "explanation": "ユニセフは国連児童基金。",
+    "plain": "世界の子どもたちを救うための国連の機関はどれか。　① ユニセフ（UNICEF）　② WHO　③ FAO　④ ILO",
+    "choices": [
+      "ユニセフ（UNICEF）",
+      "WHO",
+      "FAO",
+      "ILO"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-11",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "ヨーロッパ連合の略称はどれか。",
+    "answer": 3,
+    "explanation": "EUは、ヨーロッパの政治・経済の統合を進めている。",
+    "plain": "ヨーロッパ連合の略称はどれか。　① NATO　② APEC　③ ASEAN　④ EU",
+    "choices": [
+      "NATO",
+      "APEC",
+      "ASEAN",
+      "EU"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "地球温暖化の原因となる、おもな温室効果ガスはどれか。",
+    "answer": 3,
+    "explanation": "化石燃料の燃焼で増えた。",
+    "plain": "地球温暖化の原因となる、おもな温室効果ガスはどれか。　① 窒素　② 酸素　③ ヘリウム　④ 二酸化炭素",
+    "choices": [
+      "窒素",
+      "酸素",
+      "ヘリウム",
+      "二酸化炭素"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-13",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "2015年に採択された、気候変動に関する国際的な取り決めはどれか。",
+    "answer": 3,
+    "explanation": "世界の平均気温の上昇を、2℃未満に抑えることを目指す。",
+    "plain": "2015年に採択された、気候変動に関する国際的な取り決めはどれか。　① ワシントン条約　② ラムサール条約　③ 京都議定書　④ パリ協定",
+    "choices": [
+      "ワシントン条約",
+      "ラムサール条約",
+      "京都議定書",
+      "パリ協定"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-14",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "国際社会",
+    "body": "2015年に国連で採択された、「持続可能な開発目標」の略称はどれか。",
+    "answer": 1,
+    "explanation": "17の目標がある。",
+    "plain": "2015年に国連で採択された、「持続可能な開発目標」の略称はどれか。　① GDP　② SDGs　③ NGO　④ PKO",
+    "choices": [
+      "GDP",
+      "SDGs",
+      "NGO",
+      "PKO"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-s_civ_intl-15",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "国際社会",
+    "body": "国と国との争いを、法にもとづいて裁く国連の機関はどれか。",
+    "answer": 0,
+    "explanation": "オランダのハーグにある。",
+    "plain": "国と国との争いを、法にもとづいて裁く国連の機関はどれか。　① 国際司法裁判所　② 安全保障理事会　③ 国際刑事裁判所　④ 総会",
+    "choices": [
+      "国際司法裁判所",
+      "安全保障理事会",
+      "国際刑事裁判所",
+      "総会"
+    ],
+    "unit": "s_civ_intl",
+    "hint": "国際連合の機関や、国際協力のしくみを思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_cell_plant-8",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "顕微鏡の倍率は、どのように求めるか。",
+    "answer": 3,
+    "explanation": "全体の倍率は、2つのレンズの倍率の積。",
+    "plain": "顕微鏡の倍率は、どのように求めるか。　① 接眼レンズの倍率 + 対物レンズの倍率　② 対物レンズの倍率だけ　③ 接眼レンズの倍率 ÷ 対物レンズの倍率　④ 接眼レンズの倍率 × 対物レンズの倍率",
+    "choices": [
+      "接眼レンズの倍率 + 対物レンズの倍率",
+      "対物レンズの倍率だけ",
+      "接眼レンズの倍率 ÷ 対物レンズの倍率",
+      "接眼レンズの倍率 × 対物レンズの倍率"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-9",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "植物の細胞に見られる、緑色の粒を何というか。",
+    "answer": 3,
+    "explanation": "葉緑体で光合成が行われる。",
+    "plain": "植物の細胞に見られる、緑色の粒を何というか。　① 細胞膜　② 液胞　③ 核　④ 葉緑体",
+    "choices": [
+      "細胞膜",
+      "液胞",
+      "核",
+      "葉緑体"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-10",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "種子植物のうち、胚珠がむき出しになっているなかまを何というか。",
+    "answer": 0,
+    "explanation": "マツやイチョウなど。",
+    "plain": "種子植物のうち、胚珠がむき出しになっているなかまを何というか。　① 裸子植物　② 被子植物　③ シダ植物　④ コケ植物",
+    "choices": [
+      "裸子植物",
+      "被子植物",
+      "シダ植物",
+      "コケ植物"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-11",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "シダ植物がふえるために使うものはどれか。",
+    "answer": 2,
+    "explanation": "シダ植物やコケ植物は、胞子でふえる。",
+    "plain": "シダ植物がふえるために使うものはどれか。　① 種子　② 花粉　③ 胞子　④ 果実",
+    "choices": [
+      "種子",
+      "花粉",
+      "胞子",
+      "果実"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-12",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "双子葉類の根のつくりはどれか。",
+    "answer": 3,
+    "explanation": "双子葉類は主根と側根、単子葉類はひげ根。",
+    "plain": "双子葉類の根のつくりはどれか。　① ひげ根　② 根がない　③ 根毛だけ　④ 主根と側根",
+    "choices": [
+      "ひげ根",
+      "根がない",
+      "根毛だけ",
+      "主根と側根"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-13",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "花のつくりで、受粉後に果実になる部分はどれか。",
+    "answer": 1,
+    "explanation": "子房が果実に、胚珠が種子になる。",
+    "plain": "花のつくりで、受粉後に果実になる部分はどれか。　① 花びら　② 子房　③ やく　④ がく",
+    "choices": [
+      "花びら",
+      "子房",
+      "やく",
+      "がく"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-14",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "細胞と植物",
+    "body": "花粉をつくる部分はどれか。",
+    "answer": 1,
+    "explanation": "やくの中に花粉が入っている。",
+    "plain": "花粉をつくる部分はどれか。　① 柱頭　② やく　③ 子房　④ がく",
+    "choices": [
+      "柱頭",
+      "やく",
+      "子房",
+      "がく"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_cell_plant-15",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "細胞と植物",
+    "body": "光合成が行われるとき、必要でないものはどれか。",
+    "answer": 0,
+    "explanation": "光合成では、二酸化炭素と水と光から、養分と酸素ができる。",
+    "plain": "光合成が行われるとき、必要でないものはどれか。　① 酸素　② 水　③ 二酸化炭素　④ 光",
+    "choices": [
+      "酸素",
+      "水",
+      "二酸化炭素",
+      "光"
+    ],
+    "unit": "b_cell_plant",
+    "hint": "植物のつくりと、そのはたらきを図で思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-b_human-9",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "食物を分解して、養分を吸収しやすい形にするはたらきを何というか。",
+    "answer": 0,
+    "explanation": "消化酵素が分解を助ける。",
+    "plain": "食物を分解して、養分を吸収しやすい形にするはたらきを何というか。　① 消化　② 循環　③ 呼吸　④ 排出",
+    "choices": [
+      "消化",
+      "循環",
+      "呼吸",
+      "排出"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-10",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "肝臓でつくられる消化液はどれか。",
+    "answer": 2,
+    "explanation": "胆汁は、脂肪の消化を助ける。",
+    "plain": "肝臓でつくられる消化液はどれか。　① すい液　② 胃液　③ 胆汁　④ だ液",
+    "choices": [
+      "すい液",
+      "胃液",
+      "胆汁",
+      "だ液"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-11",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "血液の成分のうち、出血したときに血液を固めるものはどれか。",
+    "answer": 0,
+    "explanation": "血小板が血液を固める。",
+    "plain": "血液の成分のうち、出血したときに血液を固めるものはどれか。　① 血小板　② 血しょう　③ 赤血球　④ 白血球",
+    "choices": [
+      "血小板",
+      "血しょう",
+      "赤血球",
+      "白血球"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-12",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "血液の成分のうち、細菌などを分解するものはどれか。",
+    "answer": 3,
+    "explanation": "白血球は体を病原体から守る。",
+    "plain": "血液の成分のうち、細菌などを分解するものはどれか。　① 赤血球　② 血しょう　③ 血小板　④ 白血球",
+    "choices": [
+      "赤血球",
+      "血しょう",
+      "血小板",
+      "白血球"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-13",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "心臓から出る血液が流れる血管を何というか。",
+    "answer": 2,
+    "explanation": "動脈は壁が厚く、血圧が高い。",
+    "plain": "心臓から出る血液が流れる血管を何というか。　① リンパ管　② 毛細血管　③ 動脈　④ 静脈",
+    "choices": [
+      "リンパ管",
+      "毛細血管",
+      "動脈",
+      "静脈"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-14",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "全身をめぐってもどってくる血液が流れる血管を何というか。",
+    "answer": 0,
+    "explanation": "静脈には弁がある。",
+    "plain": "全身をめぐってもどってくる血液が流れる血管を何というか。　① 静脈　② 毛細血管　③ 動脈　④ 気管",
+    "choices": [
+      "静脈",
+      "毛細血管",
+      "動脈",
+      "気管"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-15",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "人体のつくり",
+    "body": "骨と筋肉をつなぐ、じょうぶな組織を何というか。",
+    "answer": 1,
+    "explanation": "けんは筋肉と骨をつなぐ。",
+    "plain": "骨と筋肉をつなぐ、じょうぶな組織を何というか。　① 関節　② けん　③ 軟骨　④ じん帯",
+    "choices": [
+      "関節",
+      "けん",
+      "軟骨",
+      "じん帯"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-b_human-16",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "人体のつくり",
+    "body": "目に入る光の量を調節するはたらきがあるのはどれか。",
+    "answer": 3,
+    "explanation": "虹彩はひとみの大きさを変える。",
+    "plain": "目に入る光の量を調節するはたらきがあるのはどれか。　① 角膜　② 網膜　③ 水晶体　④ 虹彩",
+    "choices": [
+      "角膜",
+      "網膜",
+      "水晶体",
+      "虹彩"
+    ],
+    "unit": "b_human",
+    "hint": "消化・呼吸・血液のじゅんかんなど、体のしくみを図で思い出しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-b_eco-7",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生態系",
+    "body": "ある地域の生物と、それをとりまく環境全体を何というか。",
+    "answer": 1,
+    "explanation": "生物どうしと環境のつながりをまとめた言葉。",
+    "plain": "ある地域の生物と、それをとりまく環境全体を何というか。　① 生物群集　② 生態系　③ 個体群　④ 食物網",
+    "choices": [
+      "生物群集",
+      "生態系",
+      "個体群",
+      "食物網"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-b_eco-8",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生態系",
+    "body": "光合成を行い、養分をつくる生物はどれか。",
+    "answer": 1,
+    "explanation": "植物が生産者。",
+    "plain": "光合成を行い、養分をつくる生物はどれか。　① 消費者　② 生産者　③ 分解者　④ 捕食者",
+    "choices": [
+      "消費者",
+      "生産者",
+      "分解者",
+      "捕食者"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-b_eco-9",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生態系",
+    "body": "有機物を無機物に分解する生物はどれか。",
+    "answer": 2,
+    "explanation": "菌類や細菌類など。",
+    "plain": "有機物を無機物に分解する生物はどれか。　① 生産者　② 捕食者　③ 分解者　④ 消費者",
+    "choices": [
+      "生産者",
+      "捕食者",
+      "分解者",
+      "消費者"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-b_eco-10",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生態系",
+    "body": "ある地域で、食物連鎖の関係で、数量の関係を表した図を何というか。",
+    "answer": 2,
+    "explanation": "上の段階ほど、生物の数量は少なくなる。",
+    "plain": "ある地域で、食物連鎖の関係で、数量の関係を表した図を何というか。　① 分布図　② 食物網　③ 生態系ピラミッド　④ 年表",
+    "choices": [
+      "分布図",
+      "食物網",
+      "生態系ピラミッド",
+      "年表"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-b_eco-11",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生態系",
+    "body": "炭素が生物の間を行き来することを何というか。",
+    "answer": 3,
+    "explanation": "光合成で取り入れ、呼吸で出す。",
+    "plain": "炭素が生物の間を行き来することを何というか。　① 熱の移動　② 物質の保存　③ エネルギーの保存　④ 炭素の循環",
+    "choices": [
+      "熱の移動",
+      "物質の保存",
+      "エネルギーの保存",
+      "炭素の循環"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 6.6
+  },
+  {
+    "id": "u-b_eco-12",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "生態系",
+    "body": "ある生物の数が増えると、それを食べる生物の数はどうなるか。",
+    "answer": 0,
+    "explanation": "えさが増えると、食べる側もあとから増える。",
+    "plain": "ある生物の数が増えると、それを食べる生物の数はどうなるか。　① あとから増える　② ゼロになる　③ 変わらない　④ すぐに減る",
+    "choices": [
+      "あとから増える",
+      "ゼロになる",
+      "変わらない",
+      "すぐに減る"
+    ],
+    "unit": "b_eco",
+    "hint": "食べる・食べられるの関係と、生物どうしのつながりを思い出しましょう。",
+    "rate": 5.8
+  },
+  {
+    "id": "u-c_atom-7",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質と原子",
+    "body": "酸素の化学式はどれか。",
+    "answer": 2,
+    "explanation": "酸素分子は、酸素原子が2個結びついたもの。",
+    "plain": "酸素の化学式はどれか。　① O₃　② O　③ O₂　④ H₂O",
+    "choices": [
+      "$\\mathrm{O_3}$",
+      "$\\mathrm{O}$",
+      "$\\mathrm{O_2}$",
+      "$\\mathrm{H_2O}$"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_atom-8",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質と原子",
+    "body": "アンモニアの化学式はどれか。",
+    "answer": 0,
+    "explanation": "窒素原子1個と水素原子3個。",
+    "plain": "アンモニアの化学式はどれか。　① NH₃　② HCl　③ CH₄　④ H₂S",
+    "choices": [
+      "$\\mathrm{NH_3}$",
+      "$\\mathrm{HCl}$",
+      "$\\mathrm{CH_4}$",
+      "$\\mathrm{H_2S}$"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_atom-9",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質と原子",
+    "body": "メタンの化学式はどれか。",
+    "answer": 0,
+    "explanation": "炭素原子1個と水素原子4個。",
+    "plain": "メタンの化学式はどれか。　① CH₄　② CO₂　③ NH₃　④ C₂H₆",
+    "choices": [
+      "$\\mathrm{CH_4}$",
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{NH_3}$",
+      "$\\mathrm{C_2H_6}$"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_atom-10",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質と原子",
+    "body": "元素記号 Cu は何を表すか。",
+    "answer": 0,
+    "explanation": "Cu は銅、Zn は亜鉛、Ag は銀。",
+    "plain": "元素記号 Cu は何を表すか。　① 銅　② 亜鉛　③ 鉄　④ 銀",
+    "choices": [
+      "銅",
+      "亜鉛",
+      "鉄",
+      "銀"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_atom-11",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質と原子",
+    "body": "元素記号 C は何を表すか。",
+    "answer": 1,
+    "explanation": "C は炭素、Ca はカルシウム、Cl は塩素。",
+    "plain": "元素記号 C は何を表すか。　① 塩素　② 炭素　③ カルシウム　④ 銅",
+    "choices": [
+      "塩素",
+      "炭素",
+      "カルシウム",
+      "銅"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_atom-12",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "物質と原子",
+    "body": "原子が電子を失ったり得たりして、電気をもった粒子を何というか。",
+    "answer": 3,
+    "explanation": "電子を失うと陽イオン、得ると陰イオン。",
+    "plain": "原子が電子を失ったり得たりして、電気をもった粒子を何というか。　① 中性子　② 分子　③ 原子核　④ イオン",
+    "choices": [
+      "中性子",
+      "分子",
+      "原子核",
+      "イオン"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-c_atom-13",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "物質と原子",
+    "body": "化合物のうち、水に溶かすと電流が流れる物質を何というか。",
+    "answer": 0,
+    "explanation": "食塩（塩化ナトリウム）が電解質の例。",
+    "plain": "化合物のうち、水に溶かすと電流が流れる物質を何というか。　① 電解質　② 金属　③ 非電解質　④ 有機物",
+    "choices": [
+      "電解質",
+      "金属",
+      "非電解質",
+      "有機物"
+    ],
+    "unit": "c_atom",
+    "hint": "元素記号や化学式の表を思い出しましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-c_solution-7",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "水溶液と酸・アルカリ",
+    "body": "水に物質がとけて、均一になった液体を何というか。",
+    "answer": 2,
+    "explanation": "とけている物質が溶質、とかしている水が溶媒。",
+    "plain": "水に物質がとけて、均一になった液体を何というか。　① 懸濁液　② コロイド　③ 水溶液　④ 混合物",
+    "choices": [
+      "懸濁液",
+      "コロイド",
+      "水溶液",
+      "混合物"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-c_solution-8",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "水溶液と酸・アルカリ",
+    "body": "溶質をとかす液体を何というか。",
+    "answer": 0,
+    "explanation": "水溶液では、水が溶媒。",
+    "plain": "溶質をとかす液体を何というか。　① 溶媒　② 溶質　③ 溶液　④ 沈殿",
+    "choices": [
+      "溶媒",
+      "溶質",
+      "溶液",
+      "沈殿"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-c_solution-9",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "水溶液と酸・アルカリ",
+    "body": "飽和水溶液とは、どのような水溶液か。",
+    "answer": 3,
+    "explanation": "溶質がとける限度まで、とけている状態。",
+    "plain": "飽和水溶液とは、どのような水溶液か。　① いくらでもとける水溶液　② 何もとけていない水溶液　③ 沸騰している水溶液　④ それ以上とけない水溶液",
+    "choices": [
+      "いくらでもとける水溶液",
+      "何もとけていない水溶液",
+      "沸騰している水溶液",
+      "それ以上とけない水溶液"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-c_solution-10",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "水溶液と酸・アルカリ",
+    "body": "塩酸は、何の気体の水溶液か。",
+    "answer": 3,
+    "explanation": "塩化水素が水にとけた水溶液。",
+    "plain": "塩酸は、何の気体の水溶液か。　① 二酸化炭素　② 水素　③ アンモニア　④ 塩化水素",
+    "choices": [
+      "二酸化炭素",
+      "水素",
+      "アンモニア",
+      "塩化水素"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-c_solution-11",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "水溶液と酸・アルカリ",
+    "body": "アンモニア水の性質はどれか。",
+    "answer": 2,
+    "explanation": "アンモニア水はアルカリ性。",
+    "plain": "アンモニア水の性質はどれか。　① 強酸性　② 酸性　③ アルカリ性　④ 中性",
+    "choices": [
+      "強酸性",
+      "酸性",
+      "アルカリ性",
+      "中性"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-c_solution-12",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "水溶液と酸・アルカリ",
+    "body": "水溶液を酸性にする、共通のイオンはどれか。",
+    "answer": 2,
+    "explanation": "酸は水素イオンを出す。",
+    "plain": "水溶液を酸性にする、共通のイオンはどれか。　① 塩化物イオン　② ナトリウムイオン　③ 水素イオン　④ 水酸化物イオン",
+    "choices": [
+      "塩化物イオン",
+      "ナトリウムイオン",
+      "水素イオン",
+      "水酸化物イオン"
+    ],
+    "unit": "c_solution",
+    "hint": "リトマス紙や BTB 液の色の変化を思い出しましょう。",
+    "rate": 4.8
+  },
+  {
+    "id": "u-c_reaction-8",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化",
+    "body": "水を電気分解したとき、陽極に集まる気体はどれか。",
+    "answer": 1,
+    "explanation": "陽極に酸素、陰極に水素が集まる。",
+    "plain": "水を電気分解したとき、陽極に集まる気体はどれか。　① 窒素　② 酸素　③ 二酸化炭素　④ 水素",
+    "choices": [
+      "窒素",
+      "酸素",
+      "二酸化炭素",
+      "水素"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_reaction-9",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化",
+    "body": "マグネシウムを燃やしたときにできる物質はどれか。",
+    "answer": 1,
+    "explanation": "マグネシウムは酸素と結びつく。",
+    "plain": "マグネシウムを燃やしたときにできる物質はどれか。　① 塩化マグネシウム　② 酸化マグネシウム　③ 水酸化マグネシウム　④ 炭酸マグネシウム",
+    "choices": [
+      "塩化マグネシウム",
+      "酸化マグネシウム",
+      "水酸化マグネシウム",
+      "炭酸マグネシウム"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_reaction-10",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化",
+    "body": "物質が燃えるとき、熱や光を出す反応を何というか。",
+    "answer": 2,
+    "explanation": "燃焼は、急激な酸化。",
+    "plain": "物質が燃えるとき、熱や光を出す反応を何というか。　① 分解　② 中和　③ 燃焼　④ 還元",
+    "choices": [
+      "分解",
+      "中和",
+      "燃焼",
+      "還元"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_reaction-11",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化",
+    "body": "熱を出して、まわりの温度が上がる反応を何というか。",
+    "answer": 2,
+    "explanation": "使い捨てカイロは発熱反応を利用している。",
+    "plain": "熱を出して、まわりの温度が上がる反応を何というか。　① 分解反応　② 吸熱反応　③ 発熱反応　④ 還元反応",
+    "choices": [
+      "分解反応",
+      "吸熱反応",
+      "発熱反応",
+      "還元反応"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_reaction-12",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学変化",
+    "body": "化学変化の前後で、原子の種類と数は、どうなるか。",
+    "answer": 0,
+    "explanation": "原子は、組み合わせが変わるだけ。",
+    "plain": "化学変化の前後で、原子の種類と数は、どうなるか。　① 変わらない　② 増える　③ すべて別の原子になる　④ 減る",
+    "choices": [
+      "変わらない",
+      "増える",
+      "すべて別の原子になる",
+      "減る"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 4.9
+  },
+  {
+    "id": "u-c_reaction-13",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学変化",
+    "body": "炭酸水素ナトリウムを加熱したとき、残る白い固体はどれか。",
+    "answer": 0,
+    "explanation": "二酸化炭素と水も発生する。",
+    "plain": "炭酸水素ナトリウムを加熱したとき、残る白い固体はどれか。　① 炭酸ナトリウム　② 炭酸水素ナトリウム　③ 水酸化ナトリウム　④ 酸化ナトリウム",
+    "choices": [
+      "炭酸ナトリウム",
+      "炭酸水素ナトリウム",
+      "水酸化ナトリウム",
+      "酸化ナトリウム"
+    ],
+    "unit": "c_reaction",
+    "hint": "反応の前後で、物質がどう変わるかを考えましょう。",
+    "rate": 5.7
+  },
+  {
+    "id": "u-c_state-9",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "水が沸騰して水蒸気になるとき、体積はどうなるか。",
+    "answer": 2,
+    "explanation": "液体から気体になると、体積は約1700倍になる。",
+    "plain": "水が沸騰して水蒸気になるとき、体積はどうなるか。　① 変わらない　② 小さくなる　③ 非常に大きくなる　④ 半分になる",
+    "choices": [
+      "変わらない",
+      "小さくなる",
+      "非常に大きくなる",
+      "半分になる"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-10",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "ろ過で分けられるものはどれか。",
+    "answer": 3,
+    "explanation": "ろ過は、液体と固体を分ける。",
+    "plain": "ろ過で分けられるものはどれか。　① 水とエタノール　② 水と砂糖　③ 水と食塩　④ 水と砂",
+    "choices": [
+      "水とエタノール",
+      "水と砂糖",
+      "水と食塩",
+      "水と砂"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-11",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "物質が固体から液体に変わることを何というか。",
+    "answer": 1,
+    "explanation": "氷が水になるのは融解。",
+    "plain": "物質が固体から液体に変わることを何というか。　① 凝固　② 融解　③ 蒸発　④ 昇華",
+    "choices": [
+      "凝固",
+      "融解",
+      "蒸発",
+      "昇華"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-12",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "ドライアイスが、固体から直接気体になることを何というか。",
+    "answer": 3,
+    "explanation": "ドライアイスは二酸化炭素の固体。",
+    "plain": "ドライアイスが、固体から直接気体になることを何というか。　① 融解　② 蒸発　③ 凝固　④ 昇華",
+    "choices": [
+      "融解",
+      "蒸発",
+      "凝固",
+      "昇華"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-13",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "金属に共通する性質でないものはどれか。",
+    "answer": 1,
+    "explanation": "磁石につくのは鉄などの一部だけ。",
+    "plain": "金属に共通する性質でないものはどれか。　① 電気を通す　② 磁石につく　③ 熱を伝えやすい　④ みがくと光る",
+    "choices": [
+      "電気を通す",
+      "磁石につく",
+      "熱を伝えやすい",
+      "みがくと光る"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-14",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "二酸化炭素の性質として正しいものはどれか。",
+    "answer": 0,
+    "explanation": "石灰水を白くにごらせる。",
+    "plain": "二酸化炭素の性質として正しいものはどれか。　① 空気より重い　② 燃える　③ 水にとけない　④ 空気より軽い",
+    "choices": [
+      "空気より重い",
+      "燃える",
+      "水にとけない",
+      "空気より軽い"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-c_state-15",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "物質の性質",
+    "body": "水素の性質として正しいものはどれか。",
+    "answer": 0,
+    "explanation": "水素は最も軽い気体で、燃えると水ができる。",
+    "plain": "水素の性質として正しいものはどれか。　① 燃えて水ができる　② においがある　③ 空気より重い　④ 石灰水を白くにごらせる",
+    "choices": [
+      "燃えて水ができる",
+      "においがある",
+      "空気より重い",
+      "石灰水を白くにごらせる"
+    ],
+    "unit": "c_state",
+    "hint": "密度・沸点・融点など、物質に固有の性質を思い出しましょう。",
+    "rate": 6.1
+  },
+  {
+    "id": "u-p_elec-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "電気",
+    "body": "電流の単位はどれか。",
+    "answer": 1,
+    "explanation": "電流はアンペア。",
+    "plain": "電流の単位はどれか。　① ボルト（V）　② アンペア（A）　③ オーム（Ω）　④ ワット（W）",
+    "choices": [
+      "ボルト（V）",
+      "アンペア（A）",
+      "オーム（Ω）",
+      "ワット（W）"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_elec-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "電気",
+    "body": "電気抵抗の単位はどれか。",
+    "answer": 0,
+    "explanation": "抵抗はオーム。",
+    "plain": "電気抵抗の単位はどれか。　① オーム（Ω）　② ボルト（V）　③ ジュール（J）　④ アンペア（A）",
+    "choices": [
+      "オーム（Ω）",
+      "ボルト（V）",
+      "ジュール（J）",
+      "アンペア（A）"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_elec-10",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "電気",
+    "body": "磁石の力がはたらく空間を何というか。",
+    "answer": 3,
+    "explanation": "磁界の向きは、N極から出てS極に入る。",
+    "plain": "磁石の力がはたらく空間を何というか。　① 音場　② 電界　③ 重力場　④ 磁界",
+    "choices": [
+      "音場",
+      "電界",
+      "重力場",
+      "磁界"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_elec-11",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "電気",
+    "body": "電流の向きと磁界の向きの関係を表す法則を何というか。",
+    "answer": 0,
+    "explanation": "電流を右ねじの進む向きにすると、磁界は右ねじの回る向き。",
+    "plain": "電流の向きと磁界の向きの関係を表す法則を何というか。　① 右ねじの法則　② オームの法則　③ フレミングの左手の法則　④ 作用・反作用の法則",
+    "choices": [
+      "右ねじの法則",
+      "オームの法則",
+      "フレミングの左手の法則",
+      "作用・反作用の法則"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-p_elec-12",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "電気",
+    "body": "電流による発熱量は、何に比例するか。",
+    "answer": 0,
+    "explanation": "発熱量 = 電力 × 時間。",
+    "plain": "電流による発熱量は、何に比例するか。　① 電力と時間　② 抵抗だけ　③ 電圧だけ　④ 電流の向き",
+    "choices": [
+      "電力と時間",
+      "抵抗だけ",
+      "電圧だけ",
+      "電流の向き"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_elec-13",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "電気",
+    "body": "100 V、50 W の電気器具を1時間使ったときの電力量は何 Wh か。",
+    "answer": 0,
+    "explanation": "電力量 = 電力 × 時間 = 50 × 1。",
+    "plain": "100 V、50 W の電気器具を1時間使ったときの電力量は何 Wh か。　① 50 Wh　② 5000 Wh　③ 0.5 Wh　④ 100 Wh",
+    "choices": [
+      "50 Wh",
+      "5000 Wh",
+      "0.5 Wh",
+      "100 Wh"
+    ],
+    "unit": "p_elec",
+    "hint": "電流・電圧・抵抗の関係と、回路の図を思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-p_force-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "力と圧力",
+    "body": "力の単位ニュートンの記号はどれか。",
+    "answer": 2,
+    "explanation": "N はニュートン。",
+    "plain": "力の単位ニュートンの記号はどれか。　① W　② J　③ N　④ Pa",
+    "choices": [
+      "W",
+      "J",
+      "N",
+      "Pa"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_force-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "力と圧力",
+    "body": "圧力を大きくするには、どうすればよいか。",
+    "answer": 0,
+    "explanation": "圧力 = 力 ÷ 面積。",
+    "plain": "圧力を大きくするには、どうすればよいか。　① 面積を小さくする　② 力を小さくする　③ 重さを軽くする　④ 面積を大きくする",
+    "choices": [
+      "面積を小さくする",
+      "力を小さくする",
+      "重さを軽くする",
+      "面積を大きくする"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_force-10",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "力と圧力",
+    "body": "地球上で、質量 600 g の物体にはたらく重力はおよそ何 N か。",
+    "answer": 3,
+    "explanation": "100 g の物体にはたらく重力が約1 N。",
+    "plain": "地球上で、質量 600 g の物体にはたらく重力はおよそ何 N か。　① 約600 N　② 約60 N　③ 約0.6 N　④ 約6 N",
+    "choices": [
+      "約600 N",
+      "約60 N",
+      "約0.6 N",
+      "約6 N"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_force-11",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "力と圧力",
+    "body": "ばねを引く力と、ばねののびの関係を表す法則はどれか。",
+    "answer": 3,
+    "explanation": "のびは力に比例する。",
+    "plain": "ばねを引く力と、ばねののびの関係を表す法則はどれか。　① 慣性の法則　② オームの法則　③ アルキメデスの原理　④ フックの法則",
+    "choices": [
+      "慣性の法則",
+      "オームの法則",
+      "アルキメデスの原理",
+      "フックの法則"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_force-12",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "力と圧力",
+    "body": "水中の物体にはたらく浮力の大きさは、何に等しいか。",
+    "answer": 1,
+    "explanation": "アルキメデスの原理。",
+    "plain": "水中の物体にはたらく浮力の大きさは、何に等しいか。　① 物体の体積の2倍　② 物体がおしのけた水にはたらく重力　③ 水の温度　④ 物体の重さ",
+    "choices": [
+      "物体の体積の2倍",
+      "物体がおしのけた水にはたらく重力",
+      "水の温度",
+      "物体の重さ"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 4.4
+  },
+  {
+    "id": "u-p_force-13",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "力と圧力",
+    "body": "大気による圧力を何というか。",
+    "answer": 0,
+    "explanation": "大気圧は約1013 hPa。",
+    "plain": "大気による圧力を何というか。　① 大気圧　② 水圧　③ 油圧　④ 気圧計",
+    "choices": [
+      "大気圧",
+      "水圧",
+      "油圧",
+      "気圧計"
+    ],
+    "unit": "p_force",
+    "hint": "力の三要素や、力のはたらき方を図で思い出しましょう。",
+    "rate": 5.2
+  },
+  {
+    "id": "u-p_motion-7",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動と仕事",
+    "body": "速さの単位 m/s は、何を表しているか。",
+    "answer": 0,
+    "explanation": "m/s は「メートル毎秒」。",
+    "plain": "速さの単位 m/s は、何を表しているか。　① 1秒間に進む距離　② 移動した向き　③ 1分間に進む距離　④ かかった時間",
+    "choices": [
+      "1秒間に進む距離",
+      "移動した向き",
+      "1分間に進む距離",
+      "かかった時間"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_motion-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動と仕事",
+    "body": "運動エネルギーが大きくなるのは、どんなときか。",
+    "answer": 1,
+    "explanation": "運動エネルギーは、速さと質量で決まる。",
+    "plain": "運動エネルギーが大きくなるのは、どんなときか。　① 物体が止まるとき　② 物体の速さが大きくなるとき　③ 物体の質量が小さくなるとき　④ 物体の位置が低くなるとき",
+    "choices": [
+      "物体が止まるとき",
+      "物体の速さが大きくなるとき",
+      "物体の質量が小さくなるとき",
+      "物体の位置が低くなるとき"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_motion-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動と仕事",
+    "body": "斜面を下る台車の速さは、どうなるか。",
+    "answer": 1,
+    "explanation": "斜面の下向きの力がはたらき続けるため。",
+    "plain": "斜面を下る台車の速さは、どうなるか。　① だんだん遅くなる　② だんだん速くなる　③ 一定　④ 止まる",
+    "choices": [
+      "だんだん遅くなる",
+      "だんだん速くなる",
+      "一定",
+      "止まる"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_motion-10",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "運動と仕事",
+    "body": "同じ仕事をするとき、仕事率が大きいほど、どうなるか。",
+    "answer": 1,
+    "explanation": "仕事率 = 仕事 ÷ 時間。",
+    "plain": "同じ仕事をするとき、仕事率が大きいほど、どうなるか。　① 力が小さくなる　② 短い時間でできる　③ 長い時間かかる　④ 仕事量が増える",
+    "choices": [
+      "力が小さくなる",
+      "短い時間でできる",
+      "長い時間かかる",
+      "仕事量が増える"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 4.5
+  },
+  {
+    "id": "u-p_motion-11",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動と仕事",
+    "body": "動滑車を使うと、ひもを引く力は、物体の重さの何倍になるか。",
+    "answer": 1,
+    "explanation": "かわりに、ひもを引く距離が2倍になる。",
+    "plain": "動滑車を使うと、ひもを引く力は、物体の重さの何倍になるか。　① 4倍　② 2分の1倍　③ 同じ　④ 2倍",
+    "choices": [
+      "4倍",
+      "2分の1倍",
+      "同じ",
+      "2倍"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_motion-12",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "運動と仕事",
+    "body": "仕事の単位ジュールの記号はどれか。",
+    "answer": 3,
+    "explanation": "J はジュール。",
+    "plain": "仕事の単位ジュールの記号はどれか。　① N　② Pa　③ W　④ J",
+    "choices": [
+      "N",
+      "Pa",
+      "W",
+      "J"
+    ],
+    "unit": "p_motion",
+    "hint": "速さ・エネルギー・仕事の関係を思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_wave-7",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "光と音",
+    "body": "光が鏡で反射するとき、入射角が 30° なら反射角は何度か。",
+    "answer": 2,
+    "explanation": "反射の法則により、入射角 = 反射角。",
+    "plain": "光が鏡で反射するとき、入射角が 30° なら反射角は何度か。　① 15°　② 60°　③ 30°　④ 90°",
+    "choices": [
+      "15°",
+      "60°",
+      "30°",
+      "90°"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_wave-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "光と音",
+    "body": "平面鏡にうつる像を何というか。",
+    "answer": 1,
+    "explanation": "鏡の向こうに見える像は虚像。",
+    "plain": "平面鏡にうつる像を何というか。　① 影　② 虚像　③ 残像　④ 実像",
+    "choices": [
+      "影",
+      "虚像",
+      "残像",
+      "実像"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_wave-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "光と音",
+    "body": "音の高さは、何で決まるか。",
+    "answer": 1,
+    "explanation": "振動数が多いほど高い音。",
+    "plain": "音の高さは、何で決まるか。　① 振幅　② 振動数　③ 音源の重さ　④ 波の速さ",
+    "choices": [
+      "振幅",
+      "振動数",
+      "音源の重さ",
+      "波の速さ"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_wave-10",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "光と音",
+    "body": "光が当たったとき、物体が光を通さずにできる暗い部分を何というか。",
+    "answer": 1,
+    "explanation": "光は直進するため、影ができる。",
+    "plain": "光が当たったとき、物体が光を通さずにできる暗い部分を何というか。　① 反射　② 影　③ 虚像　④ 実像",
+    "choices": [
+      "反射",
+      "影",
+      "虚像",
+      "実像"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-p_wave-11",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "光と音",
+    "body": "凸レンズで、物体を焦点の内側に置くと、どんな像が見えるか。",
+    "answer": 2,
+    "explanation": "虫めがねの原理。",
+    "plain": "凸レンズで、物体を焦点の内側に置くと、どんな像が見えるか。　① 拡大された実像　② 縮小された実像　③ 拡大された虚像　④ 像はできない",
+    "choices": [
+      "拡大された実像",
+      "縮小された実像",
+      "拡大された虚像",
+      "像はできない"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 4.5
+  },
+  {
+    "id": "u-p_wave-12",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "光と音",
+    "body": "音が伝わるために必要なものはどれか。",
+    "answer": 3,
+    "explanation": "音は真空中では伝わらない。",
+    "plain": "音が伝わるために必要なものはどれか。　① 電流　② 光　③ 真空　④ 空気などの物質",
+    "choices": [
+      "電流",
+      "光",
+      "真空",
+      "空気などの物質"
+    ],
+    "unit": "p_wave",
+    "hint": "光の進み方や、音の伝わり方を図で思い出しましょう。",
+    "rate": 5.3
+  },
+  {
+    "id": "u-e_space-8",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天体",
+    "body": "太陽系の中で、環をもつことで有名な惑星はどれか。",
+    "answer": 3,
+    "explanation": "土星の環は氷や岩のかけらでできている。",
+    "plain": "太陽系の中で、環をもつことで有名な惑星はどれか。　① 水星　② 金星　③ 火星　④ 土星",
+    "choices": [
+      "水星",
+      "金星",
+      "火星",
+      "土星"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-e_space-9",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天体",
+    "body": "月の満ち欠けで、完全に丸く見える月を何というか。",
+    "answer": 0,
+    "explanation": "満月は、地球をはさんで太陽の反対側にあるとき。",
+    "plain": "月の満ち欠けで、完全に丸く見える月を何というか。　① 満月　② 下弦の月　③ 上弦の月　④ 新月",
+    "choices": [
+      "満月",
+      "下弦の月",
+      "上弦の月",
+      "新月"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-e_space-10",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天体",
+    "body": "太陽の動きは、どちらの向きか（北半球）。",
+    "answer": 2,
+    "explanation": "地球が西から東へ自転しているため、東から西へ動いて見える。",
+    "plain": "太陽の動きは、どちらの向きか（北半球）。　① 南から北　② 西から東　③ 東から西　④ 北から南",
+    "choices": [
+      "南から北",
+      "西から東",
+      "東から西",
+      "北から南"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-e_space-11",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天体",
+    "body": "夏至の日の、太陽の南中高度は、冬至の日と比べてどうか。",
+    "answer": 2,
+    "explanation": "夏至は太陽が高く昇り、昼が長い。",
+    "plain": "夏至の日の、太陽の南中高度は、冬至の日と比べてどうか。　① 低い　② 同じ　③ 高い　④ ゼロになる",
+    "choices": [
+      "低い",
+      "同じ",
+      "高い",
+      "ゼロになる"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-e_space-12",
+    "category": "sci_earth",
+    "difficulty": 2,
+    "title": "天体",
+    "body": "地球から見て、1年かけて太陽が星座の間を動く道すじを何というか。",
+    "answer": 2,
+    "explanation": "黄道上にある星座を黄道十二星座という。",
+    "plain": "地球から見て、1年かけて太陽が星座の間を動く道すじを何というか。　① 赤道　② 子午線　③ 黄道　④ 天の川",
+    "choices": [
+      "赤道",
+      "子午線",
+      "黄道",
+      "天の川"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 5.4
+  },
+  {
+    "id": "u-e_space-13",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天体",
+    "body": "星が1日に1回、北極星を中心に回って見えるのは、なぜか。",
+    "answer": 1,
+    "explanation": "1時間に15°動いて見える。",
+    "plain": "星が1日に1回、北極星を中心に回って見えるのは、なぜか。　① 星が動いているから　② 地球が自転しているから　③ 地球が公転しているから　④ 月が回っているから",
+    "choices": [
+      "星が動いているから",
+      "地球が自転しているから",
+      "地球が公転しているから",
+      "月が回っているから"
+    ],
+    "unit": "e_space",
+    "hint": "太陽・地球・月の位置関係を図で思い出しましょう。",
+    "rate": 6.2
+  },
+  {
+    "id": "u-e_land-9",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "れきや砂、泥が積み重なってできた岩石を何というか。",
+    "answer": 1,
+    "explanation": "堆積岩には化石が含まれることがある。",
+    "plain": "れきや砂、泥が積み重なってできた岩石を何というか。　① 溶岩　② 堆積岩　③ 変成岩　④ 火成岩",
+    "choices": [
+      "溶岩",
+      "堆積岩",
+      "変成岩",
+      "火成岩"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_land-10",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "地震の揺れで、初めに小さく揺れる部分を何というか。",
+    "answer": 2,
+    "explanation": "初期微動のあとに主要動が来る。",
+    "plain": "地震の揺れで、初めに小さく揺れる部分を何というか。　① 主要動　② 津波　③ 初期微動　④ 余震",
+    "choices": [
+      "主要動",
+      "津波",
+      "初期微動",
+      "余震"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_land-11",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "マグマが地表や地表近くで急に冷えて固まった岩石を何というか。",
+    "answer": 3,
+    "explanation": "安山岩や玄武岩など。",
+    "plain": "マグマが地表や地表近くで急に冷えて固まった岩石を何というか。　① 深成岩　② 変成岩　③ 堆積岩　④ 火山岩",
+    "choices": [
+      "深成岩",
+      "変成岩",
+      "堆積岩",
+      "火山岩"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_land-12",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "マグマが地下深くでゆっくり冷えて固まった岩石を何というか。",
+    "answer": 3,
+    "explanation": "花こう岩や斑れい岩など。",
+    "plain": "マグマが地下深くでゆっくり冷えて固まった岩石を何というか。　① 変成岩　② 堆積岩　③ 火山岩　④ 深成岩",
+    "choices": [
+      "変成岩",
+      "堆積岩",
+      "火山岩",
+      "深成岩"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_land-13",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "火山の形で、ねばりけが強いマグマが作るのはどれか。",
+    "answer": 1,
+    "explanation": "ねばりけが強いと、盛り上がった形になる。",
+    "plain": "火山の形で、ねばりけが強いマグマが作るのはどれか。　① 火山はできない　② ドーム状の火山　③ 傾斜がゆるやかな火山　④ 平らな火山",
+    "choices": [
+      "火山はできない",
+      "ドーム状の火山",
+      "傾斜がゆるやかな火山",
+      "平らな火山"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_land-14",
+    "category": "sci_earth",
+    "difficulty": 2,
+    "title": "大地の変化",
+    "body": "断層が将来も動く可能性があるものを何というか。",
+    "answer": 1,
+    "explanation": "活断層は、地震を起こすおそれがある。",
+    "plain": "断層が将来も動く可能性があるものを何というか。　① 褶曲　② 活断層　③ 海溝　④ 地溝",
+    "choices": [
+      "褶曲",
+      "活断層",
+      "海溝",
+      "地溝"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 4.3
+  },
+  {
+    "id": "u-e_land-15",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "大地の変化",
+    "body": "地震で、震源の深さが同じとき、震度が小さくなる傾向があるのはどこか。",
+    "answer": 2,
+    "explanation": "震央から遠いほど、揺れは小さくなりやすい。",
+    "plain": "地震で、震源の深さが同じとき、震度が小さくなる傾向があるのはどこか。　① 震源の真上　② 海の近く　③ 震央から遠い場所　④ 震央に近い場所",
+    "choices": [
+      "震源の真上",
+      "海の近く",
+      "震央から遠い場所",
+      "震央に近い場所"
+    ],
+    "unit": "e_land",
+    "hint": "地層・岩石・地震のしくみを思い出しましょう。",
+    "rate": 5.1
+  },
+  {
+    "id": "u-e_weather-9",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "天気図で、等圧線の間隔がせまいところは、風がどうなるか。",
+    "answer": 1,
+    "explanation": "気圧の差が大きいと、風は強い。",
+    "plain": "天気図で、等圧線の間隔がせまいところは、風がどうなるか。　① 弱い　② 強い　③ 向きが変わる　④ ふかない",
+    "choices": [
+      "弱い",
+      "強い",
+      "向きが変わる",
+      "ふかない"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-10",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "低気圧の中心付近では、どんな気流が生じるか。",
+    "answer": 2,
+    "explanation": "上昇気流で雲ができ、雨や雪になりやすい。",
+    "plain": "低気圧の中心付近では、どんな気流が生じるか。　① 気流は生じない　② 下降気流　③ 上昇気流　④ 水平な気流だけ",
+    "choices": [
+      "気流は生じない",
+      "下降気流",
+      "上昇気流",
+      "水平な気流だけ"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-11",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "寒気が暖気の下にもぐりこむ前線を何というか。",
+    "answer": 2,
+    "explanation": "寒冷前線は、強い雨が短時間降る。",
+    "plain": "寒気が暖気の下にもぐりこむ前線を何というか。　① 閉そく前線　② 温暖前線　③ 寒冷前線　④ 停滞前線",
+    "choices": [
+      "閉そく前線",
+      "温暖前線",
+      "寒冷前線",
+      "停滞前線"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-12",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "暖気が寒気の上にはい上がる前線を何というか。",
+    "answer": 3,
+    "explanation": "温暖前線は、弱い雨が長く降る。",
+    "plain": "暖気が寒気の上にはい上がる前線を何というか。　① 閉そく前線　② 停滞前線　③ 寒冷前線　④ 温暖前線",
+    "choices": [
+      "閉そく前線",
+      "停滞前線",
+      "寒冷前線",
+      "温暖前線"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-13",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "湿度が100%のときの空気の状態はどれか。",
+    "answer": 2,
+    "explanation": "飽和している状態。",
+    "plain": "湿度が100%のときの空気の状態はどれか。　① 水蒸気がない　② 水蒸気が半分ある　③ 水蒸気がこれ以上ふくめない　④ 気温が0℃",
+    "choices": [
+      "水蒸気がない",
+      "水蒸気が半分ある",
+      "水蒸気がこれ以上ふくめない",
+      "気温が0℃"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-14",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "天気",
+    "body": "夏に太平洋から日本へふく季節風の向きはどれか。",
+    "answer": 2,
+    "explanation": "夏は、太平洋からの南東の季節風がふく。",
+    "plain": "夏に太平洋から日本へふく季節風の向きはどれか。　① 北東から　② 北西から　③ 南東から　④ 南西から",
+    "choices": [
+      "北東から",
+      "北西から",
+      "南東から",
+      "南西から"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 5.6
+  },
+  {
+    "id": "u-e_weather-15",
+    "category": "sci_earth",
+    "difficulty": 2,
+    "title": "天気",
+    "body": "台風が発生する場所はどこか。",
+    "answer": 1,
+    "explanation": "熱帯の海上で発生する低気圧。",
+    "plain": "台風が発生する場所はどこか。　① 大陸の内部　② 熱帯の海上　③ 極地　④ 高い山の上",
+    "choices": [
+      "大陸の内部",
+      "熱帯の海上",
+      "極地",
+      "高い山の上"
+    ],
+    "unit": "e_weather",
+    "hint": "気圧・前線・雲のでき方を、天気図で思い出しましょう。",
+    "rate": 4.8
   }
 ]

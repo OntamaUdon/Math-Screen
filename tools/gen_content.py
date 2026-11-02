@@ -442,6 +442,8 @@ def generate():
     order()
     social()
     science()
+    import gen_content2
+    gen_content2.generate()
     return list(OUT)
 
 
