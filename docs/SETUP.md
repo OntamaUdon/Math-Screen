@@ -58,6 +58,9 @@ TestFlight や App Store で、ロック機能を使うために必要な Apple 
 
 許可が下りると Apple からメールが届き、App ID（4つ）で配布用の Family Controls が使えるようになります（数日〜数週間かかることがあります）。許可が下りるまでは、**ロック機能を外した版**（問題・練習・記録の画面だけ）を使います。
 
+### 2-2. 4つの App ID で Family Controls の Distribution を有効にする
+許可が下りたら、[Identifiers](https://developer.apple.com/account/resources/identifiers/list) で4つの App ID を1つずつ開き、Capabilities の **Family Controls** で **Distribution**（配布用）を有効にして **Save → Confirm**。これを済ませないと、ロック機能ありの版は署名で失敗する。
+
 ## 3. App Store Connect にアプリを作成する
 
 1. [App Store Connect](https://appstoreconnect.apple.com/apps) → 「＋」→ **新規 App**
