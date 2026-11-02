@@ -444,6 +444,8 @@ def generate():
     science()
     import gen_content2
     gen_content2.generate()
+    import gen_content3
+    gen_content3.generate()
     return list(OUT)
 
 
