@@ -9,7 +9,6 @@ struct RuleEditorView: View {
     @State private var showPicker = false
     @State private var confirmDelete = false
 
-    private let minuteChoices = [1, 5, 10, 30, 60]
     private let questionChoices = [1, 2, 3, 4, 5]
 
     var body: some View {
@@ -51,8 +50,25 @@ struct RuleEditorView: View {
                     }
                 }
 
-                section("何分使うごとに") {
-                    chips(minuteChoices, selected: rule.thresholdMinutes, label: { "\($0)分" }) { rule.thresholdMinutes = $0 }
+                section("どれだけ使うごとに") {
+                    VStack(spacing: 6) {
+                        HStack(spacing: 0) {
+                            Picker("時間", selection: hoursBinding) {
+                                ForEach(0...12, id: \.self) { Text("\($0)時間").tag($0) }
+                            }
+                            .pickerStyle(.wheel)
+                            Picker("分", selection: minutesBinding) {
+                                ForEach(0..<60, id: \.self) { Text("\($0)分").tag($0) }
+                            }
+                            .pickerStyle(.wheel)
+                            .disabled(rule.thresholdMinutes >= GuardRule.maxMinutes)
+                        }
+                        .frame(height: 140)
+                        .clipped()
+                        Text("\(GuardRule.durationText(rule.thresholdMinutes))ごと（1分〜12時間）")
+                            .font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)
+                    }
+                    .card(padding: 10)
                 }
 
                 section("何問出すか") {
@@ -96,7 +112,7 @@ struct RuleEditorView: View {
                     }
                 }
 
-                Text("対象のアプリを合計 \(rule.thresholdMinutes) 分使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(rule.thresholdMinutes) 分たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
+                Text("対象のアプリを合計 \(GuardRule.durationText(rule.thresholdMinutes)) 使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(GuardRule.durationText(rule.thresholdMinutes)) たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
 
@@ -123,6 +139,17 @@ struct RuleEditorView: View {
             }
         }
     }
+
+    /// ダイアルの「時間」。変えたあと、全体が1分〜12時間に収まるようにする。
+    private var hoursBinding: Binding<Int> {
+        Binding(get: { rule.thresholdMinutes / 60 },
+                set: { setTotal($0 * 60 + rule.thresholdMinutes % 60) })
+    }
+    private var minutesBinding: Binding<Int> {
+        Binding(get: { rule.thresholdMinutes % 60 },
+                set: { setTotal(rule.thresholdMinutes / 60 * 60 + $0) })
+    }
+    private func setTotal(_ total: Int) { rule.thresholdMinutes = min(max(total, 1), GuardRule.maxMinutes) }
 
     private var canSave: Bool { rule.itemCount > 0 && !rule.categories.isEmpty }
 

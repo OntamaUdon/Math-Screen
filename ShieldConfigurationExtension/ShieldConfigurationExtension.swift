@@ -31,7 +31,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let app = name ?? "アプリ"
         let minutes = ShieldData.pendingMinutes
         let intro = minutes > 0
-            ? "\(app)を\(minutes)分使いました。問題を解いてロックを解除しましょう！"
+            ? "\(app)を\(Self.durationText(minutes))使いました。問題を解いてロックを解除しましょう！"
             : "\(app)の使用時間になりました。問題を解いてロックを解除しましょう！"
 
         return ShieldConfiguration(
@@ -44,5 +44,11 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
         )
+    }
+
+    private static func durationText(_ minutes: Int) -> String {
+        let h = minutes / 60, m = minutes % 60
+        if h == 0 { return "\(m)分" }
+        return m == 0 ? "\(h)時間" : "\(h)時間\(m)分"
     }
 }

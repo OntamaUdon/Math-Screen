@@ -50,7 +50,16 @@ struct GuardRule: Codable, Identifiable {
     }
 
     /// 例：「10分ごとに3問」
-    var title: String { "\(thresholdMinutes)分ごとに\(questionCount)問" }
+    var title: String { "\(Self.durationText(thresholdMinutes))ごとに\(questionCount)問" }
+
+    /// 例：45 → "45分"、90 → "1時間30分"、120 → "2時間"
+    static func durationText(_ minutes: Int) -> String {
+        let h = minutes / 60, m = minutes % 60
+        if h == 0 { return "\(m)分" }
+        return m == 0 ? "\(h)時間" : "\(h)時間\(m)分"
+    }
+
+    static let maxMinutes = 12 * 60
 
     var activityName: DeviceActivityName { DeviceActivityName("rule.\(id.uuidString)") }
     var eventName: DeviceActivityEvent.Name { DeviceActivityEvent.Name("rule.\(id.uuidString).limit") }

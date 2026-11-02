@@ -32,7 +32,7 @@ final class DeviceActivityMonitorExtension: DeviceActivityMonitor {
         SharedStore.updateToday { $0.triggers += 1 }
 
         ChallengeNotification.send(
-            title: "\(rule.thresholdMinutes)分たちました",
+            title: "\(GuardRule.durationText(rule.thresholdMinutes))たちました",
             body: "ひと休み。タップして\(rule.questionCount)問解くと再開できます。"
         )
     }
