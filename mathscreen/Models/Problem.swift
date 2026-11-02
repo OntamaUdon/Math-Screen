@@ -12,6 +12,7 @@ struct Problem: Codable, Identifiable, Hashable {
     let choices: [String]? // 4択問題の選択肢（LaTeX 混じり）。整数で答える問題は nil
     let hint: String?      // ヒント（Premium）。答えを直接は言わない
     let unit: String?      // 単元の id（units.json）。みんなの問題は nil
+    let rate: Double?      // 10人中、何人が1発で正解できそうか（作成時の見積もり、0〜10）。実際の正解率が集まるまでの目安
 
     var isChoice: Bool { choices != nil }
     static let choiceMarks = ["①", "②", "③", "④"]

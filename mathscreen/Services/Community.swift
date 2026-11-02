@@ -31,7 +31,7 @@ struct CommunityRow: Codable, Identifiable, Hashable {
     var problem: Problem? {
         guard let a = Int(answer) else { return nil }
         return Problem(id: "c-" + id, category: genre, difficulty: difficulty, title: title, body: body,
-                       plain: plain, answer: a, explanation: explanation, choices: choices, hint: hint, unit: nil)
+                       plain: plain, answer: a, explanation: explanation, choices: choices, hint: hint, unit: nil, rate: nil)
     }
 
     var statusLabel: String {

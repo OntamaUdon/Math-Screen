@@ -253,6 +253,9 @@ for p in P:
 for u in _units.UNITS:
     assert all(q in _known for q in u[4]), u
 
+import rates as _rates
+_rates.assign(P)                 # 各問題に、10人中の正解見込み（rate）を付ける
+
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 with open(os.path.join(root, "mathscreen", "Resources", "units.json"), "w", encoding="utf-8") as f:
     json.dump(_units.units_json(), f, ensure_ascii=False, indent=2)

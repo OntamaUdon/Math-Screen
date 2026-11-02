@@ -161,7 +161,7 @@ enum Adaptive {
 
 
 /// 問題の難しさ：全員の1発正解率（サーバーの problem_stats）から、連続値で測る。
-/// 解いた人がまだ少ない問題は、はじめに付けてあった目安（易しい 0.9／ふつう 0.7／難しい 0.5）を、5人ぶんの重さで混ぜて見積もる。
+/// 解いた人がまだ少ない問題は、はじめに付けた見積もり（10人中何人が正解できそうか、rate）を、5人ぶんの重さで混ぜて評価する。
 final class DifficultyStore {
     static let shared = DifficultyStore()
 
@@ -176,7 +176,7 @@ final class DifficultyStore {
 
     /// 全員の1発正解率の見積もり（0...1）。大きいほど易しい。
     func correctRate(_ p: Problem) -> Double {
-        let prior: Double = p.difficulty <= 1 ? 0.9 : (p.difficulty == 2 ? 0.7 : 0.5)
+        let prior: Double = p.rate.map { $0 / 10 } ?? 0.6          // 見積もりがない問題（みんなの投稿）は 6 割
         let s = stats[p.id] ?? [0, 0]
         return (Double(s[1]) + 5 * prior) / (Double(s[0]) + 5)
     }
