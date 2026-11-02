@@ -228,6 +228,8 @@ import gen_subjects
 P.extend(gen_subjects.generate())
 import gen_units
 P.extend(gen_units.generate())
+import gen_math2
+P.extend(gen_math2.generate())
 import gen_content
 P.extend(gen_content.generate())
 
