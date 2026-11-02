@@ -8,6 +8,11 @@
 - 画面プレビュー（ブラウザで確認できるモック）：[`preview/index.html`](preview/index.html)
 - Mac なしで TestFlight に配信する手順：[`docs/SETUP.md`](docs/SETUP.md)
 
+## プラン（予定）
+- **無料**：ロックと問題、成績のグラフ（今週）
+- **Premium**：過去の成績（記録の画面に過去8週）。初回7日間無料、そのあと月300円／年2,000円の予定
+- いまは、課金の仕組みができるまでの**仮登録（0円）**で切り替える（設定 → Premium）
+
 ## TestFlight に送る
 手順は [`docs/SETUP.md`](docs/SETUP.md)。コミットメッセージに `[testflight]` を含めて push すると、ビルドして TestFlight に送る（`[ui-only]` も含めると、スクリーンタイム機能を外した版）。
 
