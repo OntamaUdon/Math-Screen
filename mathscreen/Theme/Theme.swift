@@ -31,7 +31,7 @@ enum Theme {
     static let coralDeep  = Color(hex: 0xD2553A)
     static let danger     = coralDeep
 
-    // 25問以上の金色、50問以上の紫
+    // 金・紫（グラフでは10問ごとの色を IsoBarChart で定義）
     static let goldLight   = Color(hex: 0xFFE08A)
     static let gold        = Color(hex: 0xF2B632)
     static let goldDeep    = Color(hex: 0xC48A12)
