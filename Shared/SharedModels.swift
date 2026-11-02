@@ -20,7 +20,7 @@ struct GuardRule: Codable, Identifiable {
     var units: Set<String> = []            // 出題する単元。空なら「おまかせ」（できていない単元を優先）
     var isEnabled: Bool = true
 
-    static let mathCategories: Set<String> = ["junior", "math1a", "math2b", "math3c"]
+    static let mathCategories: Set<String> = ["elem", "junior", "math1a", "math2b", "math3c"]
     static let allCategories: Set<String> = mathCategories.union(
         ["eng_word", "eng_sentence", "soc_geo", "soc_hist", "soc_civ", "sci_bio", "sci_chem", "sci_phys", "sci_earth"])
 
@@ -49,6 +49,7 @@ struct GuardRule: Codable, Identifiable {
         categories = try c.decodeIfPresent(Set<String>.self, forKey: .categories) ?? GuardRule.mathCategories   // 古いルールは数学だけ
         difficulties = try c.decodeIfPresent(Set<Int>.self, forKey: .difficulties) ?? [1, 2, 3]
         units = try c.decodeIfPresent(Set<String>.self, forKey: .units) ?? []
+        if !categories.isDisjoint(with: GuardRule.mathCategories) { categories.insert("elem") }   // 数学を選んでいたルールにも、小学算数を加える
         isEnabled = try c.decodeIfPresent(Bool.self, forKey: .isEnabled) ?? true
     }
 
@@ -89,7 +90,7 @@ struct DailyStats: Codable {
 /// 出題設定。
 struct ChallengeSettings: Codable, Equatable {
     var difficulties: Set<Int> = [1, 2, 3]
-    var categories: Set<String> = ["junior", "math1a", "math2b", "math3c"]
+    var categories: Set<String> = ["elem", "junior", "math1a", "math2b", "math3c"]
     var requiredCorrect: Int = 1
 }
 

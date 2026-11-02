@@ -41,7 +41,7 @@ enum Subject: String, CaseIterable, Identifiable {
 
 /// 問題の分野。problems.json の category と同じ文字。
 enum ProblemCategory: String, CaseIterable, Identifiable {
-    case junior, math1a, math2b, math3c
+    case elem, junior, math1a, math2b, math3c
     case eng_word, eng_sentence
     case soc_geo, soc_hist, soc_civ
     case sci_bio, sci_chem, sci_phys, sci_earth
@@ -49,7 +49,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
 
     var subject: Subject {
         switch self {
-        case .junior, .math1a, .math2b, .math3c: .math
+        case .elem, .junior, .math1a, .math2b, .math3c: .math
         case .eng_word, .eng_sentence: .english
         case .soc_geo, .soc_hist, .soc_civ: .social
         case .sci_bio, .sci_chem, .sci_phys, .sci_earth: .science
@@ -58,6 +58,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
 
     var label: String {
         switch self {
+        case .elem: "小学算数"
         case .junior: "中学数学"
         case .math1a: "数学I・A"
         case .math2b: "数学II・B"

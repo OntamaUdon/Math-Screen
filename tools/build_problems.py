@@ -226,6 +226,8 @@ import gen_problems
 P.extend(gen_problems.generate())
 import gen_subjects
 P.extend(gen_subjects.generate())
+import gen_units
+P.extend(gen_units.generate())
 
 # ── ヒントを付ける（問題の種類ごと）。ヒントの無い種類があれば、気づけるようにここで止める ──
 from hints import HINTS, GENERIC

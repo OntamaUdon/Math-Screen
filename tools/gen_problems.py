@@ -99,7 +99,7 @@ def _math_plain(s):
                  ("\\pm", "±"), ("\\pi", "π"), ("\\theta", "θ"), ("\\omega", "ω"), ("\\Omega", "Ω"), ("\\angle", "∠"), ("\\circ", "°"),
                  ("\\infty", "∞"), ("\\to", "→"), ("\\sin", "sin"), ("\\cos", "cos"), ("\\tan", "tan"),
                  ("\\log", "log"), ("\\int", "∫"), ("\\sum", "Σ"), ("\\equiv", "≡"), ("\\pmod", "mod "),
-                 ("\\dots", "…"), ("\\mathrm", "")]:
+                 ("\\dots", "…"), ("\\square", "□"), ("\\mathrm", "")]:
         s = s.replace(a, b)
     s = s.replace("{", "").replace("}", "").replace("\\", "")
     return re.sub(r" +", " ", s).strip()
