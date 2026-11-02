@@ -31,7 +31,7 @@ enum Theme {
     static let coralDeep  = Color(hex: 0xD2553A)
     static let danger     = coralDeep
 
-    // 満タン（10問以上）の金色、2倍（20問以上）の紫
+    // 25問以上の金色、50問以上の紫
     static let goldLight   = Color(hex: 0xFFE08A)
     static let gold        = Color(hex: 0xF2B632)
     static let goldDeep    = Color(hex: 0xC48A12)
