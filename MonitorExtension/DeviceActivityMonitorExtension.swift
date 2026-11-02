@@ -6,6 +6,7 @@ import Foundation
 final class DeviceActivityMonitorExtension: DeviceActivityMonitor {
     override func eventDidReachThreshold(_ event: DeviceActivityEvent.Name, activity: DeviceActivityName) {
         super.eventDidReachThreshold(event, activity: activity)
+        SharedStore.recordDiag("monitor")
         guard let rule = SharedStore.rule(forActivity: activity), rule.isEnabled else { return }
 
         ShieldController.lock(rule)
@@ -13,8 +14,8 @@ final class DeviceActivityMonitorExtension: DeviceActivityMonitor {
         SharedStore.updateToday { $0.triggers += 1 }
 
         ChallengeNotification.send(
-            title: "\(rule.name)：\(rule.thresholdMinutes)分たちました",
-            body: "ひと休み。タップして1問解くと再開できます。"
+            title: "\(rule.thresholdMinutes)分たちました",
+            body: "ひと休み。タップして\(rule.questionCount)問解くと再開できます。"
         )
     }
 }

@@ -2,6 +2,7 @@
 # Mac が無くても GitHub Actions (.github/workflows/testflight.yml) で生成・ビルドされる。
 name: mathscreen
 options:
+  developmentLanguage: ja
   bundleIdPrefix: com.ontamaudon
   deploymentTarget:
     iOS: "17.4"
@@ -40,6 +41,8 @@ targets:
       path: mathscreen/Info.plist
       properties:
         CFBundleDisplayName: 解くロック
+        CFBundleDevelopmentRegion: ja
+        CFBundleLocalizations: [ja, en]   # アプリの言語。これが無いと iOS 標準の画面（アプリ選択など）が英語になる
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen:

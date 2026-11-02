@@ -12,10 +12,34 @@ enum AppGroup {
 /// 「どのアプリを、何分使ったら問題を出すか」のルール。
 struct GuardRule: Codable, Identifiable {
     var id: UUID = UUID()
-    var name: String
     var selection: FamilyActivitySelection
-    var thresholdMinutes: Int
+    var thresholdMinutes: Int              // 何分使うごとに
+    var questionCount: Int = 1             // 何問出すか
     var isEnabled: Bool = true
+
+    init(id: UUID = UUID(), selection: FamilyActivitySelection, thresholdMinutes: Int,
+         questionCount: Int = 1, isEnabled: Bool = true) {
+        self.id = id
+        self.selection = selection
+        self.thresholdMinutes = thresholdMinutes
+        self.questionCount = questionCount
+        self.isEnabled = isEnabled
+    }
+
+    private enum CodingKeys: String, CodingKey { case id, selection, thresholdMinutes, questionCount, isEnabled }
+
+    /// 古い保存データ（名前あり・問題数なし）も読めるようにする。
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decode(UUID.self, forKey: .id)
+        selection = try c.decode(FamilyActivitySelection.self, forKey: .selection)
+        thresholdMinutes = try c.decode(Int.self, forKey: .thresholdMinutes)
+        questionCount = try c.decodeIfPresent(Int.self, forKey: .questionCount) ?? 1
+        isEnabled = try c.decodeIfPresent(Bool.self, forKey: .isEnabled) ?? true
+    }
+
+    /// 例：「10分ごとに3問」
+    var title: String { "\(thresholdMinutes)分ごとに\(questionCount)問" }
 
     var activityName: DeviceActivityName { DeviceActivityName("rule.\(id.uuidString)") }
     var eventName: DeviceActivityEvent.Name { DeviceActivityEvent.Name("rule.\(id.uuidString).limit") }
@@ -120,6 +144,13 @@ enum SharedStore {
     }
 
     static var bestStreak: Int { d.integer(forKey: Key.bestStreak) }
+
+    // MARK: 診断（拡張機能が動いたかどうかを、アプリの設定画面で確認するため）
+    static func recordDiag(_ key: String) { d.set(Date().timeIntervalSince1970, forKey: "diag.\(key)") }
+    static func diagDate(_ key: String) -> Date? {
+        let t = d.double(forKey: "diag.\(key)")
+        return t > 0 ? Date(timeIntervalSince1970: t) : nil
+    }
 
     // MARK: 出題設定
     static var settings: ChallengeSettings {

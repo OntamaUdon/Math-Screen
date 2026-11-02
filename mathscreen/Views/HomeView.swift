@@ -27,7 +27,7 @@ struct HomeView: View {
         VStack(alignment: .leading, spacing: 10) {
             Label("制限中", systemImage: "lock.fill")
                 .font(Theme.font(17, .heavy)).foregroundStyle(.white)
-            Text(model.lockedRules.map(\.name).joined(separator: "・") + " がロックされています。")
+            Text("制限中のアプリがあります。\(model.requiredCorrect)問解くと再開できます。")
                 .font(Theme.font(14)).foregroundStyle(.white.opacity(0.9))
             Button("問題を解く") { model.showChallenge = true }
                 .buttonStyle(.secondary)
@@ -56,7 +56,7 @@ struct HomeView: View {
                 Text("見守るアプリ").font(Theme.font(18, .bold)).foregroundStyle(Theme.ink)
                 Spacer()
                 Button {
-                    editing = GuardRule(name: "ルール\(model.rules.count + 1)", selection: FamilyActivitySelection(), thresholdMinutes: 15)
+                    editing = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 10, questionCount: 1)
                 } label: {
                     Label("追加", systemImage: "plus")
                         .font(Theme.font(14, .semibold))
@@ -114,7 +114,7 @@ struct RuleRow: View {
         HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 6) {
-                    Text(rule.name).font(Theme.font(16, .semibold)).foregroundStyle(Theme.ink)
+                    Text(rule.title).font(Theme.font(16, .semibold)).foregroundStyle(Theme.ink)
                     if locked {
                         Image(systemName: "lock.fill").font(.system(size: 12)).foregroundStyle(Theme.tealDeep)
                     }
@@ -123,7 +123,7 @@ struct RuleRow: View {
                     ForEach(Array(rule.selection.applicationTokens.prefix(4)), id: \.self) { token in
                         Label(token).labelStyle(.iconOnly).frame(width: 18, height: 18)
                     }
-                    Text("\(rule.itemCount)件 ・ \(rule.thresholdMinutes)分ごと")
+                    Text("\(rule.itemCount)件")
                         .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 }
             }

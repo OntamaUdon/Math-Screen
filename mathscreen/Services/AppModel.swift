@@ -60,6 +60,8 @@ final class AppModel {
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }
+    /// 解除に必要な正解数。ロック中のルールの問題数のうち、いちばん多いもの。
+    var requiredCorrect: Int { max(1, lockedRules.map(\.questionCount).max() ?? 1) }
     var lockedRules: [GuardRule] { rules.filter { lockedRuleIDs.contains($0.id) } }
     var today: DailyStats { daily[SharedStore.dayKey()] ?? DailyStats() }
 
@@ -81,6 +83,17 @@ final class AppModel {
 
     // MARK: ルール
     func save(_ rule: GuardRule) {
+        var rule = rule
+        // 同じ条件（時間と問題数）のルールがすでにあれば、アプリを足して1つにまとめる
+        if let i = rules.firstIndex(where: { $0.id != rule.id && $0.thresholdMinutes == rule.thresholdMinutes
+                                              && $0.questionCount == rule.questionCount }) {
+            var target = rules[i]
+            target.selection.applicationTokens.formUnion(rule.selection.applicationTokens)
+            target.selection.categoryTokens.formUnion(rule.selection.categoryTokens)
+            target.selection.webDomainTokens.formUnion(rule.selection.webDomainTokens)
+            if rules.contains(where: { $0.id == rule.id }) { delete(rule) }   // 編集前の元のルールは消す
+            rule = target
+        }
         if let i = rules.firstIndex(where: { $0.id == rule.id }) { rules[i] = rule } else { rules.append(rule) }
         SharedStore.saveRules(rules)
         if !rule.isEnabled { release(rule.id) }

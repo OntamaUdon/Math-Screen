@@ -15,6 +15,16 @@ struct OnboardingView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
+            HStack {
+                if page > 0 {
+                    Button { withAnimation(.easeOut(duration: 0.2)) { page -= 1 } } label: {
+                        Label("もどる", systemImage: "chevron.left")
+                            .font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
+                    }
+                }
+                Spacer()
+            }
+            .frame(height: 32)
             Spacer()
             let s = steps[page]
             Image(systemName: s.icon)

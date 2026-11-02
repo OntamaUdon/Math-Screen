@@ -28,16 +28,6 @@ struct SettingsView: View {
                 }
             }
 
-            VStack(alignment: .leading, spacing: 10) {
-                SectionLabel("解除に必要な正解数")
-                Picker("解除に必要な正解数", selection: Binding(get: { s.requiredCorrect }, set: { v in
-                    var n = s; n.requiredCorrect = v; model.updateSettings(n)
-                })) {
-                    ForEach(1...3, id: \.self) { Text("\($0)問").tag($0) }
-                }
-                .pickerStyle(.segmented)
-            }
-
             group("スクリーンタイム") {
                 HStack {
                     Text("アクセス").font(Theme.font(16)).foregroundStyle(Theme.ink)
@@ -53,6 +43,22 @@ struct SettingsView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.horizontal, 18).padding(.vertical, 14)
                 }
+            }
+
+            group("診断", footer: "ブロック画面が出ない・普通の画面が出るときに、どの部分が動いたかを確認するための表示です。「まだ動いていません」のままなら、その部分が動いていません。") {
+                diagRow("使用時間の監視", key: "monitor")
+                Divider().padding(.leading, 18)
+                diagRow("ブロック画面の表示", key: "shieldConfig")
+                Divider().padding(.leading, 18)
+                diagRow("ブロック画面のボタン", key: "shieldAction")
+                Divider().padding(.leading, 18)
+                HStack {
+                    Text("問題の画像").font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
+                    Spacer()
+                    Text(ProblemImageStore.exists(forID: SharedStore.pendingProblemID ?? "") ? "あり" : "なし")
+                        .font(Theme.font(15, .semibold)).foregroundStyle(Theme.ink)
+                }
+                .padding(.horizontal, 18).padding(.vertical, 12)
             }
 
             group("もしものとき", footer: "制限中でも電話・メッセージなど iOS の基本機能は使えます。どうしても必要なときは、問題を解かずに解除できます（記録に残ります）。") {
@@ -71,6 +77,16 @@ struct SettingsView: View {
         .confirmationDialog("緊急解除しますか？", isPresented: $confirmEmergency, titleVisibility: .visible) {
             Button("解除する", role: .destructive) { model.emergencyUnlock() }
         }
+    }
+
+    private func diagRow(_ title: String, key: String) -> some View {
+        HStack {
+            Text(title).font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
+            Spacer()
+            Text(SharedStore.diagDate(key).map { $0.formatted(date: .abbreviated, time: .standard) } ?? "まだ動いていません")
+                .font(Theme.font(14, .semibold)).foregroundStyle(SharedStore.diagDate(key) == nil ? Theme.danger : Theme.ink)
+        }
+        .padding(.horizontal, 18).padding(.vertical, 12)
     }
 
     private var authLabel: String {

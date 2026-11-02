@@ -20,6 +20,7 @@ final class ShieldActionExtension: ShieldActionDelegate {
     }
 
     private func respond(to action: ShieldAction, _ completionHandler: @escaping (ShieldActionResponse) -> Void) {
+        SharedStore.recordDiag("shieldAction")
         switch action {
         case .primaryButtonPressed:
             ChallengeNotification.send(

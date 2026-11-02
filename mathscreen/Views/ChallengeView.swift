@@ -19,9 +19,9 @@ struct ChallengeView: View {
                         problem: problem,
                         onCorrect: { _ in solvedCount += 1 },
                         onSkip: { next() },
-                        continueLabel: solvedCount >= model.settings.requiredCorrect ? "解除してアプリに戻る" : "次の問題へ",
+                        continueLabel: solvedCount >= model.requiredCorrect ? "解除してアプリに戻る" : "次の問題へ",
                         onContinue: {
-                            if solvedCount >= model.settings.requiredCorrect {
+                            if solvedCount >= model.requiredCorrect {
                                 model.completeChallenge()
                                 dismiss()
                             } else {
@@ -59,7 +59,7 @@ struct ChallengeView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("1問解いて再開").font(Theme.font(24, .bold)).foregroundStyle(Theme.ink)
                 if model.isLocked {
-                    Text("\(lockedNames) ・ 正解 \(solvedCount) / \(model.settings.requiredCorrect)")
+                    Text("正解 \(solvedCount) / \(model.requiredCorrect)")
                         .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
                 }
             }
@@ -72,11 +72,6 @@ struct ChallengeView: View {
             .accessibilityLabel("閉じる")
         }
         .padding(.top, 20)
-    }
-
-    private var lockedNames: String {
-        let names = model.lockedRules.map(\.name)
-        return names.isEmpty ? "アプリ" : names.joined(separator: "・")
     }
 
     private var notLockedCard: some View {
