@@ -89,6 +89,6 @@ struct ChallengeView: View {
             problem = pending
             return
         }
-        problem = ProblemBank.pick(categories: model.challengeCategories, difficulties: model.challengeDifficulties, excluding: problem?.id)
+        problem = Adaptive.pick(categories: model.challengeCategories, units: model.challengeUnits, excluding: problem?.id)
     }
 }

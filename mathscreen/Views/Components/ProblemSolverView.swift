@@ -168,7 +168,7 @@ struct ProblemSolverView: View {
         attempts += 1
         let correct = i == problem.answer
         model.recordAnswer(correct: correct)
-        if attempts == 1 { let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
+        if attempts == 1 { MasteryStore.shared.record(problem, firstTryCorrect: correct); let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
         if correct {
             solved = true
             onCorrect(attempts)
@@ -184,7 +184,7 @@ struct ProblemSolverView: View {
         attempts += 1
         let correct = value == problem.answer
         model.recordAnswer(correct: correct)
-        if attempts == 1 { let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
+        if attempts == 1 { MasteryStore.shared.record(problem, firstTryCorrect: correct); let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
         if correct {
             solved = true
             onCorrect(attempts)

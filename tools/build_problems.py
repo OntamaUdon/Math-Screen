@@ -240,7 +240,18 @@ for p in P:
     else:
         assert isinstance(p["answer"], int), p["id"]
 
+# ── 単元（tools/units.py）に振り分ける ──
+import units as _units
+_known = {u[0] for u in _units.UNITS}
+for p in P:
+    p["unit"] = _units.unit_of(p)
+    assert p["unit"] in _known, p["id"]
+for u in _units.UNITS:
+    assert all(q in _known for q in u[4]), u
+
 root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+with open(os.path.join(root, "mathscreen", "Resources", "units.json"), "w", encoding="utf-8") as f:
+    json.dump(_units.units_json(), f, ensure_ascii=False, indent=2)
 out = os.path.join(root, "mathscreen", "Resources", "problems.json")
 os.makedirs(os.path.dirname(out), exist_ok=True)
 with open(out, "w", encoding="utf-8") as f:

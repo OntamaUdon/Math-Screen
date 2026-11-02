@@ -1,0 +1,550 @@
+[
+  {
+    "id": "e_calc",
+    "subject": "math",
+    "stage": "小学",
+    "name": "四則計算",
+    "order": 0,
+    "prereqs": []
+  },
+  {
+    "id": "e_decfrac",
+    "subject": "math",
+    "stage": "小学",
+    "name": "小数と分数",
+    "order": 1,
+    "prereqs": [
+      "e_calc"
+    ]
+  },
+  {
+    "id": "e_divmult",
+    "subject": "math",
+    "stage": "小学",
+    "name": "約数と倍数",
+    "order": 2,
+    "prereqs": [
+      "e_calc"
+    ]
+  },
+  {
+    "id": "e_ratio",
+    "subject": "math",
+    "stage": "小学",
+    "name": "割合と比",
+    "order": 3,
+    "prereqs": [
+      "e_decfrac"
+    ]
+  },
+  {
+    "id": "e_speed",
+    "subject": "math",
+    "stage": "小学",
+    "name": "速さ・時間・道のり",
+    "order": 4,
+    "prereqs": [
+      "e_ratio"
+    ]
+  },
+  {
+    "id": "e_geom",
+    "subject": "math",
+    "stage": "小学",
+    "name": "面積と体積",
+    "order": 5,
+    "prereqs": [
+      "e_calc"
+    ]
+  },
+  {
+    "id": "e_count",
+    "subject": "math",
+    "stage": "小学",
+    "name": "場合の数",
+    "order": 6,
+    "prereqs": [
+      "e_calc"
+    ]
+  },
+  {
+    "id": "m_signed",
+    "subject": "math",
+    "stage": "中学",
+    "name": "正負の数",
+    "order": 7,
+    "prereqs": [
+      "e_calc"
+    ]
+  },
+  {
+    "id": "m_expr",
+    "subject": "math",
+    "stage": "中学",
+    "name": "式の値",
+    "order": 8,
+    "prereqs": [
+      "m_signed"
+    ]
+  },
+  {
+    "id": "m_linear",
+    "subject": "math",
+    "stage": "中学",
+    "name": "一次方程式",
+    "order": 9,
+    "prereqs": [
+      "m_expr"
+    ]
+  },
+  {
+    "id": "m_simul",
+    "subject": "math",
+    "stage": "中学",
+    "name": "連立方程式",
+    "order": 10,
+    "prereqs": [
+      "m_linear"
+    ]
+  },
+  {
+    "id": "m_ineq",
+    "subject": "math",
+    "stage": "中学",
+    "name": "不等式",
+    "order": 11,
+    "prereqs": [
+      "m_linear"
+    ]
+  },
+  {
+    "id": "m_sqrt",
+    "subject": "math",
+    "stage": "中学",
+    "name": "平方根",
+    "order": 12,
+    "prereqs": [
+      "m_signed"
+    ]
+  },
+  {
+    "id": "m_factor",
+    "subject": "math",
+    "stage": "中学",
+    "name": "因数分解",
+    "order": 13,
+    "prereqs": [
+      "m_expr"
+    ]
+  },
+  {
+    "id": "m_quad",
+    "subject": "math",
+    "stage": "中学",
+    "name": "二次方程式",
+    "order": 14,
+    "prereqs": [
+      "m_sqrt",
+      "m_factor"
+    ]
+  },
+  {
+    "id": "m_func2",
+    "subject": "math",
+    "stage": "中学",
+    "name": "関数 y = ax²",
+    "order": 15,
+    "prereqs": [
+      "m_linear"
+    ]
+  },
+  {
+    "id": "m_pythag",
+    "subject": "math",
+    "stage": "中学",
+    "name": "三平方の定理",
+    "order": 16,
+    "prereqs": [
+      "m_sqrt"
+    ]
+  },
+  {
+    "id": "m_polygon",
+    "subject": "math",
+    "stage": "中学",
+    "name": "図形と角",
+    "order": 17,
+    "prereqs": [
+      "m_linear"
+    ]
+  },
+  {
+    "id": "m_prob",
+    "subject": "math",
+    "stage": "中学",
+    "name": "確率",
+    "order": 18,
+    "prereqs": [
+      "m_signed"
+    ]
+  },
+  {
+    "id": "m_int",
+    "subject": "math",
+    "stage": "中学",
+    "name": "整数の性質",
+    "order": 19,
+    "prereqs": [
+      "m_signed"
+    ]
+  },
+  {
+    "id": "h_quadfunc",
+    "subject": "math",
+    "stage": "高校",
+    "name": "二次関数",
+    "order": 20,
+    "prereqs": [
+      "m_func2",
+      "m_quad"
+    ]
+  },
+  {
+    "id": "h_quadeq",
+    "subject": "math",
+    "stage": "高校",
+    "name": "二次方程式・判別式",
+    "order": 21,
+    "prereqs": [
+      "m_quad"
+    ]
+  },
+  {
+    "id": "h_trig",
+    "subject": "math",
+    "stage": "高校",
+    "name": "三角比",
+    "order": 22,
+    "prereqs": [
+      "m_pythag"
+    ]
+  },
+  {
+    "id": "h_logic",
+    "subject": "math",
+    "stage": "高校",
+    "name": "命題と条件",
+    "order": 23,
+    "prereqs": []
+  },
+  {
+    "id": "h_abs",
+    "subject": "math",
+    "stage": "高校",
+    "name": "絶対値と不等式",
+    "order": 24,
+    "prereqs": [
+      "m_ineq"
+    ]
+  },
+  {
+    "id": "h_count",
+    "subject": "math",
+    "stage": "高校",
+    "name": "場合の数",
+    "order": 25,
+    "prereqs": [
+      "m_prob"
+    ]
+  },
+  {
+    "id": "h_prob",
+    "subject": "math",
+    "stage": "高校",
+    "name": "確率（高校）",
+    "order": 26,
+    "prereqs": [
+      "h_count"
+    ]
+  },
+  {
+    "id": "h_nt",
+    "subject": "math",
+    "stage": "高校",
+    "name": "整数の性質（高校）",
+    "order": 27,
+    "prereqs": [
+      "m_int"
+    ]
+  },
+  {
+    "id": "h_exp",
+    "subject": "math",
+    "stage": "高校",
+    "name": "指数・対数",
+    "order": 28,
+    "prereqs": [
+      "m_sqrt"
+    ]
+  },
+  {
+    "id": "h_seq",
+    "subject": "math",
+    "stage": "高校",
+    "name": "数列",
+    "order": 29,
+    "prereqs": [
+      "m_linear"
+    ]
+  },
+  {
+    "id": "h_binom",
+    "subject": "math",
+    "stage": "高校",
+    "name": "二項定理",
+    "order": 30,
+    "prereqs": [
+      "h_count",
+      "m_factor"
+    ]
+  },
+  {
+    "id": "h_circle",
+    "subject": "math",
+    "stage": "高校",
+    "name": "図形と方程式",
+    "order": 31,
+    "prereqs": [
+      "m_quad"
+    ]
+  },
+  {
+    "id": "h_trig2",
+    "subject": "math",
+    "stage": "高校",
+    "name": "三角関数",
+    "order": 32,
+    "prereqs": [
+      "h_trig"
+    ]
+  },
+  {
+    "id": "h_diff",
+    "subject": "math",
+    "stage": "高校",
+    "name": "微分",
+    "order": 33,
+    "prereqs": [
+      "h_quadfunc"
+    ]
+  },
+  {
+    "id": "h_integ",
+    "subject": "math",
+    "stage": "高校",
+    "name": "積分",
+    "order": 34,
+    "prereqs": [
+      "h_diff"
+    ]
+  },
+  {
+    "id": "h_vec",
+    "subject": "math",
+    "stage": "高校",
+    "name": "ベクトル",
+    "order": 35,
+    "prereqs": [
+      "h_trig"
+    ]
+  },
+  {
+    "id": "h_limit",
+    "subject": "math",
+    "stage": "高校",
+    "name": "極限",
+    "order": 36,
+    "prereqs": [
+      "h_seq"
+    ]
+  },
+  {
+    "id": "h_diff3",
+    "subject": "math",
+    "stage": "高校",
+    "name": "いろいろな微分",
+    "order": 37,
+    "prereqs": [
+      "h_diff",
+      "h_trig2"
+    ]
+  },
+  {
+    "id": "h_integ3",
+    "subject": "math",
+    "stage": "高校",
+    "name": "いろいろな積分",
+    "order": 38,
+    "prereqs": [
+      "h_integ",
+      "h_diff3"
+    ]
+  },
+  {
+    "id": "h_complex",
+    "subject": "math",
+    "stage": "高校",
+    "name": "複素数平面",
+    "order": 39,
+    "prereqs": [
+      "h_trig2",
+      "h_quadeq"
+    ]
+  },
+  {
+    "id": "h_conic",
+    "subject": "math",
+    "stage": "高校",
+    "name": "二次曲線",
+    "order": 40,
+    "prereqs": [
+      "h_circle"
+    ]
+  },
+  {
+    "id": "h_space",
+    "subject": "math",
+    "stage": "高校",
+    "name": "空間図形",
+    "order": 41,
+    "prereqs": [
+      "h_vec"
+    ]
+  },
+  {
+    "id": "w_basic",
+    "subject": "english",
+    "stage": "中学",
+    "name": "基本の英単語",
+    "order": 42,
+    "prereqs": []
+  },
+  {
+    "id": "w_std",
+    "subject": "english",
+    "stage": "高校",
+    "name": "標準の英単語",
+    "order": 43,
+    "prereqs": [
+      "w_basic"
+    ]
+  },
+  {
+    "id": "g_grammar",
+    "subject": "english",
+    "stage": "中学",
+    "name": "英語の文法",
+    "order": 44,
+    "prereqs": []
+  },
+  {
+    "id": "g_translate",
+    "subject": "english",
+    "stage": "中学",
+    "name": "英文の和訳",
+    "order": 45,
+    "prereqs": [
+      "g_grammar"
+    ]
+  },
+  {
+    "id": "s_geo",
+    "subject": "social",
+    "stage": "中学",
+    "name": "地理",
+    "order": 46,
+    "prereqs": []
+  },
+  {
+    "id": "s_hist",
+    "subject": "social",
+    "stage": "中学",
+    "name": "歴史",
+    "order": 47,
+    "prereqs": []
+  },
+  {
+    "id": "s_civ",
+    "subject": "social",
+    "stage": "中学",
+    "name": "公民",
+    "order": 48,
+    "prereqs": []
+  },
+  {
+    "id": "b_all",
+    "subject": "science",
+    "stage": "中学",
+    "name": "生物",
+    "order": 49,
+    "prereqs": []
+  },
+  {
+    "id": "c_all",
+    "subject": "science",
+    "stage": "中学",
+    "name": "化学",
+    "order": 50,
+    "prereqs": []
+  },
+  {
+    "id": "e_all",
+    "subject": "science",
+    "stage": "中学",
+    "name": "地学",
+    "order": 51,
+    "prereqs": []
+  },
+  {
+    "id": "p_other",
+    "subject": "science",
+    "stage": "中学",
+    "name": "物理の基本",
+    "order": 52,
+    "prereqs": []
+  },
+  {
+    "id": "p_speed",
+    "subject": "science",
+    "stage": "中学",
+    "name": "速さ",
+    "order": 53,
+    "prereqs": []
+  },
+  {
+    "id": "p_density",
+    "subject": "science",
+    "stage": "中学",
+    "name": "密度",
+    "order": 54,
+    "prereqs": []
+  },
+  {
+    "id": "p_press",
+    "subject": "science",
+    "stage": "中学",
+    "name": "圧力",
+    "order": 55,
+    "prereqs": []
+  },
+  {
+    "id": "p_ohm",
+    "subject": "science",
+    "stage": "中学",
+    "name": "オームの法則",
+    "order": 56,
+    "prereqs": [
+      "p_other"
+    ]
+  }
+]

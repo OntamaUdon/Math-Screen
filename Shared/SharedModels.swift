@@ -16,7 +16,8 @@ struct GuardRule: Codable, Identifiable {
     var thresholdMinutes: Int              // 何分使うごとに
     var questionCount: Int = 1             // 何問出すか
     var categories: Set<String>            // 出題する分野（problems.json の category）
-    var difficulties: Set<Int> = [1, 2, 3] // 出題する難しさ（1 初級・2 中級・3 上級）
+    var difficulties: Set<Int> = [1, 2, 3] // （使わなくなった。難しさは正解率から自動で決める）
+    var units: Set<String> = []            // 出題する単元。空なら「おまかせ」（できていない単元を優先）
     var isEnabled: Bool = true
 
     static let mathCategories: Set<String> = ["junior", "math1a", "math2b", "math3c"]
@@ -25,17 +26,18 @@ struct GuardRule: Codable, Identifiable {
 
     init(id: UUID = UUID(), selection: FamilyActivitySelection, thresholdMinutes: Int,
          questionCount: Int = 1, categories: Set<String> = GuardRule.allCategories,
-         difficulties: Set<Int> = [1, 2, 3], isEnabled: Bool = true) {
+         difficulties: Set<Int> = [1, 2, 3], units: Set<String> = [], isEnabled: Bool = true) {
         self.id = id
         self.selection = selection
         self.thresholdMinutes = thresholdMinutes
         self.questionCount = questionCount
         self.categories = categories
         self.difficulties = difficulties
+        self.units = units
         self.isEnabled = isEnabled
     }
 
-    private enum CodingKeys: String, CodingKey { case id, selection, thresholdMinutes, questionCount, categories, difficulties, isEnabled }
+    private enum CodingKeys: String, CodingKey { case id, selection, thresholdMinutes, questionCount, categories, difficulties, units, isEnabled }
 
     /// 古い保存データ（名前あり・問題数なし）も読めるようにする。
     init(from decoder: Decoder) throws {
@@ -46,6 +48,7 @@ struct GuardRule: Codable, Identifiable {
         questionCount = try c.decodeIfPresent(Int.self, forKey: .questionCount) ?? 1
         categories = try c.decodeIfPresent(Set<String>.self, forKey: .categories) ?? GuardRule.mathCategories   // 古いルールは数学だけ
         difficulties = try c.decodeIfPresent(Set<Int>.self, forKey: .difficulties) ?? [1, 2, 3]
+        units = try c.decodeIfPresent(Set<String>.self, forKey: .units) ?? []
         isEnabled = try c.decodeIfPresent(Bool.self, forKey: .isEnabled) ?? true
     }
 

@@ -20,7 +20,7 @@ jobs:
         run: |
           python -m pip install --quiet sympy
           python tools/build_problems.py
-          git diff --exit-code -- mathscreen/Resources/problems.json preview/problems.js
+          git diff --exit-code -- mathscreen/Resources/problems.json mathscreen/Resources/units.json preview/problems.js
 
       - name: Install XcodeGen
         run: brew install xcodegen

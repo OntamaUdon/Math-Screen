@@ -11,6 +11,7 @@ struct Problem: Codable, Identifiable, Hashable {
     let explanation: String
     let choices: [String]? // 4択問題の選択肢（LaTeX 混じり）。整数で答える問題は nil
     let hint: String?      // ヒント（Premium）。答えを直接は言わない
+    let unit: String?      // 単元の id（units.json）。みんなの問題は nil
 
     var isChoice: Bool { choices != nil }
     static let choiceMarks = ["①", "②", "③", "④"]

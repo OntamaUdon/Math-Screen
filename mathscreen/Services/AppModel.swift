@@ -48,7 +48,7 @@ final class AppModel {
         if let first = rules.first, let p = SharedStore.rulePending(ruleID: first.id).flatMap({ r in ProblemBank.all.first { $0.id == r.id } }) {
             setPendingProblem(p)
         } else {
-            setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties))
+            setPendingProblem(Adaptive.pick(categories: settings.categories, units: []))
         }
     }
 
@@ -56,19 +56,19 @@ final class AppModel {
     private func ensureRulePending(_ rule: GuardRule) {
         if let r = SharedStore.rulePending(ruleID: rule.id),
            let p = ProblemBank.all.first(where: { $0.id == r.id }),
-           rule.categories.contains(p.category), rule.difficulties.contains(p.difficulty) { return }
+           rule.categories.contains(p.category), rule.units.isEmpty || rule.units.contains(p.unit ?? "") { return }
         refreshRulePending(rule)
     }
 
     private func refreshRulePending(_ rule: GuardRule, excluding: String? = nil) {
-        guard let p = ProblemBank.pick(categories: rule.categories, difficulties: rule.difficulties, excluding: excluding) else { return }
+        guard let p = Adaptive.pick(categories: rule.categories, units: rule.units, excluding: excluding) else { return }
         SharedStore.setRulePending(ruleID: rule.id, id: p.id, body: p.plain)
     }
 
-    /// 2問目以降に出す問題の難しさ。ロック中のルールの難しさをまとめたもの。
-    var challengeDifficulties: Set<Int> {
-        let d = lockedRules.reduce(into: Set<Int>()) { $0.formUnion($1.difficulties) }
-        return d.isEmpty ? settings.difficulties : d
+    /// 2問目以降に出す単元。ロック中のルールの単元をまとめたもの。どれかが「おまかせ」なら空（全部）。
+    var challengeUnits: Set<String> {
+        if lockedRules.contains(where: { $0.units.isEmpty }) { return [] }
+        return lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.units) }
     }
 
     /// 2問目以降に出す問題の分野。ロック中のルールの分野をまとめたもの。
@@ -119,7 +119,7 @@ final class AppModel {
         // 同じ条件（時間・問題数・出題する分野・難しさ）のルールがすでにあれば、アプリを足して1つにまとめる
         if let i = rules.firstIndex(where: { $0.id != rule.id && $0.thresholdMinutes == rule.thresholdMinutes
                                               && $0.questionCount == rule.questionCount && $0.categories == rule.categories
-                                              && $0.difficulties == rule.difficulties }) {
+                                              && $0.units == rule.units }) {
             var target = rules[i]
             target.selection.applicationTokens.formUnion(rule.selection.applicationTokens)
             target.selection.categoryTokens.formUnion(rule.selection.categoryTokens)
@@ -207,8 +207,8 @@ final class AppModel {
     func updateSettings(_ s: ChallengeSettings) {
         settings = s
         SharedStore.settings = s
-        if let p = pendingProblem, !(s.categories.contains(p.category) && s.difficulties.contains(p.difficulty)) {
-            setPendingProblem(ProblemBank.pick(categories: s.categories, difficulties: s.difficulties))
+        if let p = pendingProblem, !s.categories.contains(p.category) {
+            setPendingProblem(Adaptive.pick(categories: s.categories, units: []))
         }
     }
 
