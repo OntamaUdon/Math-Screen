@@ -40,20 +40,25 @@ alter table public.problem_reports    enable row level security;
 alter table public.user_blocks        enable row level security;
 
 -- 公開済み（approved）か自分の投稿だけ読める
+drop policy if exists "read approved or own" on public.community_problems;
 create policy "read approved or own" on public.community_problems
   for select using (status = 'approved' or author = auth.uid());
 
 -- 投稿は必ず pending で、自分名義のみ（status を自分で approved にはできない）
+drop policy if exists "insert own pending" on public.community_problems;
 create policy "insert own pending" on public.community_problems
   for insert with check (author = auth.uid() and status = 'pending' and review_note is null);
 
 -- 自分の投稿は削除できる（更新は不可。審査結果の書き換えを防ぐ）
+drop policy if exists "delete own" on public.community_problems;
 create policy "delete own" on public.community_problems
   for delete using (author = auth.uid());
 
+drop policy if exists "report insert" on public.problem_reports;
 create policy "report insert" on public.problem_reports
   for insert with check (reporter = auth.uid());
 
+drop policy if exists "block rw" on public.user_blocks;
 create policy "block rw" on public.user_blocks
   for all using (blocker = auth.uid()) with check (blocker = auth.uid());
 
