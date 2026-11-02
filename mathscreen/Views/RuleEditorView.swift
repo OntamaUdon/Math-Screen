@@ -54,6 +54,32 @@ struct RuleEditorView: View {
                     chips(questionChoices, selected: rule.questionCount, label: { "\($0)問" }) { rule.questionCount = $0 }
                 }
 
+                section("出題する問題") {
+                    VStack(alignment: .leading, spacing: 14) {
+                        ForEach(Subject.allCases) { subject in
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack {
+                                    Text(subject.label).font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
+                                    Spacer()
+                                    Button(allSelected(subject) ? "すべて外す" : "すべて選ぶ") { toggleAll(subject) }
+                                        .font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)
+                                }
+                                LazyVGrid(columns: [GridItem(.adaptive(minimum: 92), spacing: 8)], alignment: .leading, spacing: 8) {
+                                    ForEach(subject.categories) { c in
+                                        Button { toggle(c) } label: {
+                                            Tag(text: c.label, isOn: rule.categories.contains(c.rawValue))
+                                        }
+                                        .buttonStyle(.plain)
+                                    }
+                                }
+                            }
+                        }
+                        Text("出題対象：\(ProblemBank.candidates(categories: rule.categories, difficulties: model.settings.difficulties).count) 問")
+                            .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
+                    }
+                    .card()
+                }
+
                 Text("対象のアプリを合計 \(rule.thresholdMinutes) 分使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(rule.thresholdMinutes) 分たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
@@ -63,8 +89,8 @@ struct RuleEditorView: View {
                     dismiss()
                 }
                 .buttonStyle(.primary)
-                .disabled(rule.itemCount == 0)
-                .opacity(rule.itemCount == 0 ? 0.5 : 1)
+                .disabled(rule.itemCount == 0 || rule.categories.isEmpty)
+                .opacity(rule.itemCount == 0 || rule.categories.isEmpty ? 0.5 : 1)
 
                 if !isNew {
                     Button("このルールを削除") { confirmDelete = true }
@@ -87,6 +113,27 @@ struct RuleEditorView: View {
                 model.delete(rule)
                 dismiss()
             }
+        }
+    }
+
+    private func allSelected(_ s: Subject) -> Bool { s.categories.allSatisfy { rule.categories.contains($0.rawValue) } }
+
+    /// 教科ごとに、まとめて選ぶ・外す。ただし、全体で最低1つは選んだままにする。
+    private func toggleAll(_ s: Subject) {
+        let ids = Set(s.categories.map(\.rawValue))
+        if allSelected(s) {
+            let rest = rule.categories.subtracting(ids)
+            if !rest.isEmpty { rule.categories = rest }
+        } else {
+            rule.categories.formUnion(ids)
+        }
+    }
+
+    private func toggle(_ c: ProblemCategory) {
+        if rule.categories.contains(c.rawValue) {
+            if rule.categories.count > 1 { rule.categories.remove(c.rawValue) }
+        } else {
+            rule.categories.insert(c.rawValue)
         }
     }
 

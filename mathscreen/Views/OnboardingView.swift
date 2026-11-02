@@ -76,7 +76,7 @@ struct OnboardingView: View {
                     .card(padding: 14)
                 }
             }
-            Text("いまは数学の問題です。これから、ほかの教科も増やしていきます。")
+            Text("数学のほか、英語・社会・理科の問題も出せます。出題する問題は、ルールごとに選べます。")
                 .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
         }
     }

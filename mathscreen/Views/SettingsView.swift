@@ -9,17 +9,7 @@ struct SettingsView: View {
     var body: some View {
         let s = model.settings
         Screen(title: "設定") {
-            group("出題する分野") {
-                ForEach(ProblemCategory.allCases) { c in
-                    toggleRow(c.label, isOn: s.categories.contains(c.rawValue)) { on in
-                        var n = s
-                        if on { n.categories.insert(c.rawValue) } else if n.categories.count > 1 { n.categories.remove(c.rawValue) }
-                        model.updateSettings(n)
-                    }
-                }
-            }
-
-            group("難易度", footer: "出題対象：\(ProblemBank.candidates(categories: s.categories, difficulties: s.difficulties).count) 問") {
+            group("難易度", footer: "出題対象：\(ProblemBank.all.filter { s.difficulties.contains($0.difficulty) }.count) 問（出題する分野は、ルールごとに選びます）") {
                 ForEach(Difficulty.allCases) { d in
                     toggleRow(d.label, isOn: s.difficulties.contains(d.rawValue)) { on in
                         var n = s

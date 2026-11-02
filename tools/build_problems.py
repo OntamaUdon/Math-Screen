@@ -224,6 +224,8 @@ for c in ["junior", "math1a", "math2b", "math3c"]:
 # ── 数字を変えて作った問題・4択問題を足す（tools/gen_problems.py）──
 import gen_problems
 P.extend(gen_problems.generate())
+import gen_subjects
+P.extend(gen_subjects.generate())
 assert len({p["id"] for p in P}) == len(P), "問題の id が重複しています"
 for p in P:
     if "choices" in p:

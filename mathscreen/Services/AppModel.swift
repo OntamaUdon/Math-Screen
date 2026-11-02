@@ -38,11 +38,34 @@ final class AppModel {
     // MARK: 次に出す問題
     /// ブロック画面に表示する問題を、まだ決まっていなければ決めておく。
     func ensurePendingProblem() {
-        guard SharedStore.pendingProblemID.flatMap({ id in ProblemBank.all.first { $0.id == id } }) == nil else {
+        for rule in rules { ensureRulePending(rule) }
+        guard pendingProblem == nil else {
             prepareImage()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
             return
         }
-        setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties))
+        if let first = rules.first, let p = SharedStore.rulePending(ruleID: first.id).flatMap({ r in ProblemBank.all.first { $0.id == r.id } }) {
+            setPendingProblem(p)
+        } else {
+            setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties))
+        }
+    }
+
+    /// ルールの分野から、次に出す問題を用意する（まだなければ、または分野が変わっていれば）。
+    private func ensureRulePending(_ rule: GuardRule) {
+        if let r = SharedStore.rulePending(ruleID: rule.id),
+           let p = ProblemBank.all.first(where: { $0.id == r.id }), rule.categories.contains(p.category) { return }
+        refreshRulePending(rule)
+    }
+
+    private func refreshRulePending(_ rule: GuardRule, excluding: String? = nil) {
+        guard let p = ProblemBank.pick(categories: rule.categories, difficulties: settings.difficulties, excluding: excluding) else { return }
+        SharedStore.setRulePending(ruleID: rule.id, id: p.id, body: p.plain)
+    }
+
+    /// 2問目以降に出す問題の分野。ロック中のルールの分野をまとめたもの。
+    var challengeCategories: Set<String> {
+        let cats = lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.categories) }
+        return cats.isEmpty ? settings.categories : cats
     }
 
     var pendingProblem: Problem? {
@@ -86,9 +109,9 @@ final class AppModel {
     // MARK: ルール
     func save(_ rule: GuardRule) {
         var rule = rule
-        // 同じ条件（時間と問題数）のルールがすでにあれば、アプリを足して1つにまとめる
+        // 同じ条件（時間・問題数・出題する分野）のルールがすでにあれば、アプリを足して1つにまとめる
         if let i = rules.firstIndex(where: { $0.id != rule.id && $0.thresholdMinutes == rule.thresholdMinutes
-                                              && $0.questionCount == rule.questionCount }) {
+                                              && $0.questionCount == rule.questionCount && $0.categories == rule.categories }) {
             var target = rules[i]
             target.selection.applicationTokens.formUnion(rule.selection.applicationTokens)
             target.selection.categoryTokens.formUnion(rule.selection.categoryTokens)
@@ -98,6 +121,7 @@ final class AppModel {
         }
         if let i = rules.firstIndex(where: { $0.id == rule.id }) { rules[i] = rule } else { rules.append(rule) }
         SharedStore.saveRules(rules)
+        ensureRulePending(rule)
         if !rule.isEnabled { release(rule.id) }
         restartMonitoring(rule)
     }
@@ -105,6 +129,7 @@ final class AppModel {
     func delete(_ rule: GuardRule) {
         MonitorScheduler.stop(rule)
         release(rule.id)
+        SharedStore.removeRulePending(ruleID: rule.id)
         rules.removeAll { $0.id == rule.id }
         SharedStore.saveRules(rules)
     }
@@ -158,12 +183,14 @@ final class AppModel {
     private func unlockAll() {
         for id in lockedRuleIDs {
             release(id)
-            if let rule = rules.first(where: { $0.id == id }) { restartMonitoring(rule) }
+            if let rule = rules.first(where: { $0.id == id }) {
+                restartMonitoring(rule)
+                refreshRulePending(rule, excluding: SharedStore.rulePending(ruleID: rule.id)?.id)   // 次のロックでは別の問題
+            }
         }
         UNUserNotificationCenter.current().removeDeliveredNotifications(withIdentifiers: [ChallengeNotification.identifier])
-        // 次のロックでは別の問題を出す
-        setPendingProblem(ProblemBank.pick(categories: settings.categories, difficulties: settings.difficulties,
-                                           excluding: SharedStore.pendingProblemID))
+        SharedStore.setPendingProblem(id: nil, body: nil)
+        ensurePendingProblem()
     }
 
     // MARK: 設定

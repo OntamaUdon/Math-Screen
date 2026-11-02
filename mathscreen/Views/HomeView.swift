@@ -109,6 +109,12 @@ struct RuleRow: View {
     var locked: Bool
     var onToggle: (Bool) -> Void
 
+    /// 例：「数学・英語」
+    private var subjectNames: String {
+        let names = Subject.allCases.filter { s in s.categories.contains { rule.categories.contains($0.rawValue) } }.map(\.label)
+        return names.count == Subject.allCases.count ? "すべての教科" : names.joined(separator: "・")
+    }
+
     var body: some View {
         HStack(spacing: 12) {
             VStack(alignment: .leading, spacing: 4) {
@@ -122,7 +128,7 @@ struct RuleRow: View {
                     ForEach(Array(rule.selection.applicationTokens.prefix(4)), id: \.self) { token in
                         Label(token).labelStyle(.iconOnly).frame(width: 18, height: 18)
                     }
-                    Text("\(rule.itemCount)件")
+                    Text("\(rule.itemCount)件 ・ \(subjectNames)")
                         .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 }
             }

@@ -5096,5 +5096,4867 @@
       "$\\cos x$",
       "$2e^{2x}$"
     ]
+  },
+  {
+    "id": "s-eng_word-1",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「apple」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "apple は「りんご」という意味。",
+    "plain": "「apple」の意味として正しいものを選べ。　① 有名な　② ねこ　③ りんご　④ 月",
+    "choices": [
+      "有名な",
+      "ねこ",
+      "りんご",
+      "月"
+    ]
+  },
+  {
+    "id": "s-eng_word-2",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「りんご」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「りんご」は英語で apple。",
+    "plain": "「りんご」を英語にしたものを選べ。　① apple　② hungry　③ red　④ wind",
+    "choices": [
+      "apple",
+      "hungry",
+      "red",
+      "wind"
+    ]
+  },
+  {
+    "id": "s-eng_word-3",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「book」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "book は「本」という意味。",
+    "plain": "「book」の意味として正しいものを選べ。　① 本　② 野菜　③ 怒った　④ 都市",
+    "choices": [
+      "本",
+      "野菜",
+      "怒った",
+      "都市"
+    ]
+  },
+  {
+    "id": "s-eng_word-4",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「本」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「本」は英語で book。",
+    "plain": "「本」を英語にしたものを選べ。　① bread　② red　③ new　④ book",
+    "choices": [
+      "bread",
+      "red",
+      "new",
+      "book"
+    ]
+  },
+  {
+    "id": "s-eng_word-5",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「school」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "school は「学校」という意味。",
+    "plain": "「school」の意味として正しいものを選べ。　① 学校　② 野菜　③ 幸せな　④ 朝",
+    "choices": [
+      "学校",
+      "野菜",
+      "幸せな",
+      "朝"
+    ]
+  },
+  {
+    "id": "s-eng_word-6",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「学校」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「学校」は英語で school。",
+    "plain": "「学校」を英語にしたものを選べ。　① school　② water　③ read　④ open",
+    "choices": [
+      "school",
+      "water",
+      "read",
+      "open"
+    ]
+  },
+  {
+    "id": "s-eng_word-7",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「teacher」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "teacher は「先生」という意味。",
+    "plain": "「teacher」の意味として正しいものを選べ。　① 覚えている　② 雨　③ 有名な　④ 先生",
+    "choices": [
+      "覚えている",
+      "雨",
+      "有名な",
+      "先生"
+    ]
+  },
+  {
+    "id": "s-eng_word-8",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「先生」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「先生」は英語で teacher。",
+    "plain": "「先生」を英語にしたものを選べ。　① teacher　② sea　③ friend　④ yesterday",
+    "choices": [
+      "teacher",
+      "sea",
+      "friend",
+      "yesterday"
+    ]
+  },
+  {
+    "id": "s-eng_word-9",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「friend」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "friend は「友達」という意味。",
+    "plain": "「friend」の意味として正しいものを選べ。　① 本　② 友達　③ 書く　④ 牛乳",
+    "choices": [
+      "本",
+      "友達",
+      "書く",
+      "牛乳"
+    ]
+  },
+  {
+    "id": "s-eng_word-10",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「友達」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「友達」は英語で friend。",
+    "plain": "「友達」を英語にしたものを選べ。　① new　② week　③ friend　④ window",
+    "choices": [
+      "new",
+      "week",
+      "friend",
+      "window"
+    ]
+  },
+  {
+    "id": "s-eng_word-11",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「water」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "water は「水」という意味。",
+    "plain": "「water」の意味として正しいものを選べ。　① 小さい　② 水　③ 緑の　④ 走る",
+    "choices": [
+      "小さい",
+      "水",
+      "緑の",
+      "走る"
+    ]
+  },
+  {
+    "id": "s-eng_word-12",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「水」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「水」は英語で water。",
+    "plain": "「水」を英語にしたものを選べ。　① beautiful　② water　③ chair　④ begin",
+    "choices": [
+      "beautiful",
+      "water",
+      "chair",
+      "begin"
+    ]
+  },
+  {
+    "id": "s-eng_word-13",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「family」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "family は「家族」という意味。",
+    "plain": "「family」の意味として正しいものを選べ。　① 家族　② 雨　③ 青い　④ 白い",
+    "choices": [
+      "家族",
+      "雨",
+      "青い",
+      "白い"
+    ]
+  },
+  {
+    "id": "s-eng_word-14",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「家族」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「家族」は英語で family。",
+    "plain": "「家族」を英語にしたものを選べ。　① teach　② room　③ family　④ fruit",
+    "choices": [
+      "teach",
+      "room",
+      "family",
+      "fruit"
+    ]
+  },
+  {
+    "id": "s-eng_word-15",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「mother」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "mother は「母」という意味。",
+    "plain": "「mother」の意味として正しいものを選べ。　① 母　② 雨　③ 都市　④ 姉・妹",
+    "choices": [
+      "母",
+      "雨",
+      "都市",
+      "姉・妹"
+    ]
+  },
+  {
+    "id": "s-eng_word-16",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「母」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「母」は英語で mother。",
+    "plain": "「母」を英語にしたものを選べ。　① mother　② mountain　③ rice　④ teach",
+    "choices": [
+      "mother",
+      "mountain",
+      "rice",
+      "teach"
+    ]
+  },
+  {
+    "id": "s-eng_word-17",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「father」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "father は「父」という意味。",
+    "plain": "「father」の意味として正しいものを選べ。　① 勉強する　② 父　③ 黒い　④ いす",
+    "choices": [
+      "勉強する",
+      "父",
+      "黒い",
+      "いす"
+    ]
+  },
+  {
+    "id": "s-eng_word-18",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「父」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「父」は英語で father。",
+    "plain": "「父」を英語にしたものを選べ。　① travel　② father　③ famous　④ family",
+    "choices": [
+      "travel",
+      "father",
+      "famous",
+      "family"
+    ]
+  },
+  {
+    "id": "s-eng_word-19",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「brother」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "brother は「兄・弟」という意味。",
+    "plain": "「brother」の意味として正しいものを選べ。　① 窓　② 本　③ 兄・弟　④ 果物",
+    "choices": [
+      "窓",
+      "本",
+      "兄・弟",
+      "果物"
+    ]
+  },
+  {
+    "id": "s-eng_word-20",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「兄・弟」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「兄・弟」は英語で brother。",
+    "plain": "「兄・弟」を英語にしたものを選べ。　① white　② river　③ rice　④ brother",
+    "choices": [
+      "white",
+      "river",
+      "rice",
+      "brother"
+    ]
+  },
+  {
+    "id": "s-eng_word-21",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「sister」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "sister は「姉・妹」という意味。",
+    "plain": "「sister」の意味として正しいものを選べ。　① 姉・妹　② りんご　③ 学校　④ 夕食",
+    "choices": [
+      "姉・妹",
+      "りんご",
+      "学校",
+      "夕食"
+    ]
+  },
+  {
+    "id": "s-eng_word-22",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「姉・妹」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「姉・妹」は英語で sister。",
+    "plain": "「姉・妹」を英語にしたものを選べ。　① flower　② close　③ sister　④ buy",
+    "choices": [
+      "flower",
+      "close",
+      "sister",
+      "buy"
+    ]
+  },
+  {
+    "id": "s-eng_word-23",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「dog」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "dog は「犬」という意味。",
+    "plain": "「dog」の意味として正しいものを選べ。　① 犬　② 始める　③ 国　④ 読む",
+    "choices": [
+      "犬",
+      "始める",
+      "国",
+      "読む"
+    ]
+  },
+  {
+    "id": "s-eng_word-24",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「犬」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「犬」は英語で dog。",
+    "plain": "「犬」を英語にしたものを選べ。　① friend　② dog　③ red　④ breakfast",
+    "choices": [
+      "friend",
+      "dog",
+      "red",
+      "breakfast"
+    ]
+  },
+  {
+    "id": "s-eng_word-25",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「cat」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "cat は「ねこ」という意味。",
+    "plain": "「cat」の意味として正しいものを選べ。　① ねこ　② 短い　③ パン　④ 怒った",
+    "choices": [
+      "ねこ",
+      "短い",
+      "パン",
+      "怒った"
+    ]
+  },
+  {
+    "id": "s-eng_word-26",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「ねこ」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「ねこ」は英語で cat。",
+    "plain": "「ねこ」を英語にしたものを選べ。　① table　② black　③ cat　④ teach",
+    "choices": [
+      "table",
+      "black",
+      "cat",
+      "teach"
+    ]
+  },
+  {
+    "id": "s-eng_word-27",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「bird」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "bird は「鳥」という意味。",
+    "plain": "「bird」の意味として正しいものを選べ。　① 鳥　② 魚　③ 売る　④ 明日",
+    "choices": [
+      "鳥",
+      "魚",
+      "売る",
+      "明日"
+    ]
+  },
+  {
+    "id": "s-eng_word-28",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「鳥」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「鳥」は英語で bird。",
+    "plain": "「鳥」を英語にしたものを選べ。　① mountain　② bird　③ water　④ beautiful",
+    "choices": [
+      "mountain",
+      "bird",
+      "water",
+      "beautiful"
+    ]
+  },
+  {
+    "id": "s-eng_word-29",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「fish」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "fish は「魚」という意味。",
+    "plain": "「fish」の意味として正しいものを選べ。　① 買う　② 米　③ 魚　④ 走る",
+    "choices": [
+      "買う",
+      "米",
+      "魚",
+      "走る"
+    ]
+  },
+  {
+    "id": "s-eng_word-30",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「魚」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「魚」は英語で fish。",
+    "plain": "「魚」を英語にしたものを選べ。　① water　② fish　③ lunch　④ egg",
+    "choices": [
+      "water",
+      "fish",
+      "lunch",
+      "egg"
+    ]
+  },
+  {
+    "id": "s-eng_word-31",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「tree」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "tree は「木」という意味。",
+    "plain": "「tree」の意味として正しいものを選べ。　① 木　② 学校　③ 教える　④ 兄・弟",
+    "choices": [
+      "木",
+      "学校",
+      "教える",
+      "兄・弟"
+    ]
+  },
+  {
+    "id": "s-eng_word-32",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「木」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「木」は英語で tree。",
+    "plain": "「木」を英語にしたものを選べ。　① egg　② tree　③ time　④ help",
+    "choices": [
+      "egg",
+      "tree",
+      "time",
+      "help"
+    ]
+  },
+  {
+    "id": "s-eng_word-33",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「flower」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "flower は「花」という意味。",
+    "plain": "「flower」の意味として正しいものを選べ。　① 短い　② 助ける　③ 小さい　④ 花",
+    "choices": [
+      "短い",
+      "助ける",
+      "小さい",
+      "花"
+    ]
+  },
+  {
+    "id": "s-eng_word-34",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「花」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「花」は英語で flower。",
+    "plain": "「花」を英語にしたものを選べ。　① year　② cat　③ long　④ flower",
+    "choices": [
+      "year",
+      "cat",
+      "long",
+      "flower"
+    ]
+  },
+  {
+    "id": "s-eng_word-35",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「sun」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "sun は「太陽」という意味。",
+    "plain": "「sun」の意味として正しいものを選べ。　① 果物　② 部屋　③ 明日　④ 太陽",
+    "choices": [
+      "果物",
+      "部屋",
+      "明日",
+      "太陽"
+    ]
+  },
+  {
+    "id": "s-eng_word-36",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「太陽」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「太陽」は英語で sun。",
+    "plain": "「太陽」を英語にしたものを選べ。　① rice　② dog　③ book　④ sun",
+    "choices": [
+      "rice",
+      "dog",
+      "book",
+      "sun"
+    ]
+  },
+  {
+    "id": "s-eng_word-37",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「moon」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "moon は「月」という意味。",
+    "plain": "「moon」の意味として正しいものを選べ。　① 家族　② 月　③ 若い　④ 昨日",
+    "choices": [
+      "家族",
+      "月",
+      "若い",
+      "昨日"
+    ]
+  },
+  {
+    "id": "s-eng_word-38",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「月」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「月」は英語で moon。",
+    "plain": "「月」を英語にしたものを選べ。　① cat　② listen　③ mountain　④ moon",
+    "choices": [
+      "cat",
+      "listen",
+      "mountain",
+      "moon"
+    ]
+  },
+  {
+    "id": "s-eng_word-39",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「star」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "star は「星」という意味。",
+    "plain": "「star」の意味として正しいものを選べ。　① 夜　② 走る　③ 星　④ 部屋",
+    "choices": [
+      "夜",
+      "走る",
+      "星",
+      "部屋"
+    ]
+  },
+  {
+    "id": "s-eng_word-40",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「星」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「星」は英語で star。",
+    "plain": "「星」を英語にしたものを選べ。　① important　② rice　③ teach　④ star",
+    "choices": [
+      "important",
+      "rice",
+      "teach",
+      "star"
+    ]
+  },
+  {
+    "id": "s-eng_word-41",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「rain」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "rain は「雨」という意味。",
+    "plain": "「rain」の意味として正しいものを選べ。　① 家　② 兄・弟　③ 重要な　④ 雨",
+    "choices": [
+      "家",
+      "兄・弟",
+      "重要な",
+      "雨"
+    ]
+  },
+  {
+    "id": "s-eng_word-42",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「雨」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「雨」は英語で rain。",
+    "plain": "「雨」を英語にしたものを選べ。　① think　② rain　③ finish　④ sister",
+    "choices": [
+      "think",
+      "rain",
+      "finish",
+      "sister"
+    ]
+  },
+  {
+    "id": "s-eng_word-43",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「snow」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "snow は「雪」という意味。",
+    "plain": "「snow」の意味として正しいものを選べ。　① 忙しい　② 雪　③ 教える　④ 白い",
+    "choices": [
+      "忙しい",
+      "雪",
+      "教える",
+      "白い"
+    ]
+  },
+  {
+    "id": "s-eng_word-44",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「雪」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「雪」は英語で snow。",
+    "plain": "「雪」を英語にしたものを選べ。　① city　② sleep　③ school　④ snow",
+    "choices": [
+      "city",
+      "sleep",
+      "school",
+      "snow"
+    ]
+  },
+  {
+    "id": "s-eng_word-45",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「wind」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "wind は「風」という意味。",
+    "plain": "「wind」の意味として正しいものを選べ。　① 風　② 米　③ 小さい　④ 閉じる",
+    "choices": [
+      "風",
+      "米",
+      "小さい",
+      "閉じる"
+    ]
+  },
+  {
+    "id": "s-eng_word-46",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「風」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「風」は英語で wind。",
+    "plain": "「風」を英語にしたものを選べ。　① night　② wind　③ listen　④ fruit",
+    "choices": [
+      "night",
+      "wind",
+      "listen",
+      "fruit"
+    ]
+  },
+  {
+    "id": "s-eng_word-47",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「river」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "river は「川」という意味。",
+    "plain": "「river」の意味として正しいものを選べ。　① 若い　② 水　③ 買う　④ 川",
+    "choices": [
+      "若い",
+      "水",
+      "買う",
+      "川"
+    ]
+  },
+  {
+    "id": "s-eng_word-48",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「川」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「川」は英語で river。",
+    "plain": "「川」を英語にしたものを選べ。　① think　② open　③ green　④ river",
+    "choices": [
+      "think",
+      "open",
+      "green",
+      "river"
+    ]
+  },
+  {
+    "id": "s-eng_word-49",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「mountain」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "mountain は「山」という意味。",
+    "plain": "「mountain」の意味として正しいものを選べ。　① 山　② ドア　③ 役に立つ　④ 書く",
+    "choices": [
+      "山",
+      "ドア",
+      "役に立つ",
+      "書く"
+    ]
+  },
+  {
+    "id": "s-eng_word-50",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「山」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「山」は英語で mountain。",
+    "plain": "「山」を英語にしたものを選べ。　① close　② family　③ mountain　④ black",
+    "choices": [
+      "close",
+      "family",
+      "mountain",
+      "black"
+    ]
+  },
+  {
+    "id": "s-eng_word-51",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「sea」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "sea は「海」という意味。",
+    "plain": "「sea」の意味として正しいものを選べ。　① 短い　② 重要な　③ 海　④ 難しい",
+    "choices": [
+      "短い",
+      "重要な",
+      "海",
+      "難しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-52",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「海」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「海」は英語で sea。",
+    "plain": "「海」を英語にしたものを選べ。　① tree　② tired　③ know　④ sea",
+    "choices": [
+      "tree",
+      "tired",
+      "know",
+      "sea"
+    ]
+  },
+  {
+    "id": "s-eng_word-53",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「city」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "city は「都市」という意味。",
+    "plain": "「city」の意味として正しいものを選べ。　① 若い　② 重要な　③ 都市　④ 聞く",
+    "choices": [
+      "若い",
+      "重要な",
+      "都市",
+      "聞く"
+    ]
+  },
+  {
+    "id": "s-eng_word-54",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「都市」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「都市」は英語で city。",
+    "plain": "「都市」を英語にしたものを選べ。　① blue　② forget　③ city　④ fruit",
+    "choices": [
+      "blue",
+      "forget",
+      "city",
+      "fruit"
+    ]
+  },
+  {
+    "id": "s-eng_word-55",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「country」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "country は「国」という意味。",
+    "plain": "「country」の意味として正しいものを選べ。　① 重要な　② テーブル　③ 国　④ 難しい",
+    "choices": [
+      "重要な",
+      "テーブル",
+      "国",
+      "難しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-56",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「国」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「国」は英語で country。",
+    "plain": "「国」を英語にしたものを選べ。　① book　② bird　③ country　④ famous",
+    "choices": [
+      "book",
+      "bird",
+      "country",
+      "famous"
+    ]
+  },
+  {
+    "id": "s-eng_word-57",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「house」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "house は「家」という意味。",
+    "plain": "「house」の意味として正しいものを選べ。　① 水　② 家　③ 米　④ 飲む",
+    "choices": [
+      "水",
+      "家",
+      "米",
+      "飲む"
+    ]
+  },
+  {
+    "id": "s-eng_word-58",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「家」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「家」は英語で house。",
+    "plain": "「家」を英語にしたものを選べ。　① house　② run　③ eat　④ sun",
+    "choices": [
+      "house",
+      "run",
+      "eat",
+      "sun"
+    ]
+  },
+  {
+    "id": "s-eng_word-59",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「room」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "room は「部屋」という意味。",
+    "plain": "「room」の意味として正しいものを選べ。　① 大きい　② ドア　③ 助ける　④ 部屋",
+    "choices": [
+      "大きい",
+      "ドア",
+      "助ける",
+      "部屋"
+    ]
+  },
+  {
+    "id": "s-eng_word-60",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「部屋」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「部屋」は英語で room。",
+    "plain": "「部屋」を英語にしたものを選べ。　① rain　② run　③ room　④ week",
+    "choices": [
+      "rain",
+      "run",
+      "room",
+      "week"
+    ]
+  },
+  {
+    "id": "s-eng_word-61",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「door」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "door は「ドア」という意味。",
+    "plain": "「door」の意味として正しいものを選べ。　① ドア　② 朝食　③ 雨　④ 話す",
+    "choices": [
+      "ドア",
+      "朝食",
+      "雨",
+      "話す"
+    ]
+  },
+  {
+    "id": "s-eng_word-62",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「ドア」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「ドア」は英語で door。",
+    "plain": "「ドア」を英語にしたものを選べ。　① star　② begin　③ famous　④ door",
+    "choices": [
+      "star",
+      "begin",
+      "famous",
+      "door"
+    ]
+  },
+  {
+    "id": "s-eng_word-63",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「window」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "window は「窓」という意味。",
+    "plain": "「window」の意味として正しいものを選べ。　① 鳥　② 疲れた　③ 都市　④ 窓",
+    "choices": [
+      "鳥",
+      "疲れた",
+      "都市",
+      "窓"
+    ]
+  },
+  {
+    "id": "s-eng_word-64",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「窓」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「窓」は英語で window。",
+    "plain": "「窓」を英語にしたものを選べ。　① window　② black　③ wait　④ city",
+    "choices": [
+      "window",
+      "black",
+      "wait",
+      "city"
+    ]
+  },
+  {
+    "id": "s-eng_word-65",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「table」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "table は「テーブル」という意味。",
+    "plain": "「table」の意味として正しいものを選べ。　① テーブル　② 今日　③ 学校　④ 教える",
+    "choices": [
+      "テーブル",
+      "今日",
+      "学校",
+      "教える"
+    ]
+  },
+  {
+    "id": "s-eng_word-66",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「テーブル」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「テーブル」は英語で table。",
+    "plain": "「テーブル」を英語にしたものを選べ。　① today　② milk　③ young　④ table",
+    "choices": [
+      "today",
+      "milk",
+      "young",
+      "table"
+    ]
+  },
+  {
+    "id": "s-eng_word-67",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「chair」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "chair は「いす」という意味。",
+    "plain": "「chair」の意味として正しいものを選べ。　① 始める　② 疲れた　③ いす　④ 難しい",
+    "choices": [
+      "始める",
+      "疲れた",
+      "いす",
+      "難しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-68",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「いす」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「いす」は英語で chair。",
+    "plain": "「いす」を英語にしたものを選べ。　① chair　② long　③ friend　④ important",
+    "choices": [
+      "chair",
+      "long",
+      "friend",
+      "important"
+    ]
+  },
+  {
+    "id": "s-eng_word-69",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「morning」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "morning は「朝」という意味。",
+    "plain": "「morning」の意味として正しいものを選べ。　① 朝　② 雨　③ 幸せな　④ 魚",
+    "choices": [
+      "朝",
+      "雨",
+      "幸せな",
+      "魚"
+    ]
+  },
+  {
+    "id": "s-eng_word-70",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「朝」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「朝」は英語で morning。",
+    "plain": "「朝」を英語にしたものを選べ。　① dinner　② morning　③ close　④ time",
+    "choices": [
+      "dinner",
+      "morning",
+      "close",
+      "time"
+    ]
+  },
+  {
+    "id": "s-eng_word-71",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「night」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "night は「夜」という意味。",
+    "plain": "「night」の意味として正しいものを選べ。　① 青い　② 怒った　③ 夜　④ 書く",
+    "choices": [
+      "青い",
+      "怒った",
+      "夜",
+      "書く"
+    ]
+  },
+  {
+    "id": "s-eng_word-72",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「夜」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「夜」は英語で night。",
+    "plain": "「夜」を英語にしたものを選べ。　① study　② today　③ night　④ open",
+    "choices": [
+      "study",
+      "today",
+      "night",
+      "open"
+    ]
+  },
+  {
+    "id": "s-eng_word-73",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「today」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "today は「今日」という意味。",
+    "plain": "「today」の意味として正しいものを選べ。　① テーブル　② 今日　③ 助ける　④ 教える",
+    "choices": [
+      "テーブル",
+      "今日",
+      "助ける",
+      "教える"
+    ]
+  },
+  {
+    "id": "s-eng_word-74",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「今日」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「今日」は英語で today。",
+    "plain": "「今日」を英語にしたものを選べ。　① window　② today　③ sad　④ family",
+    "choices": [
+      "window",
+      "today",
+      "sad",
+      "family"
+    ]
+  },
+  {
+    "id": "s-eng_word-75",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「tomorrow」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "tomorrow は「明日」という意味。",
+    "plain": "「tomorrow」の意味として正しいものを選べ。　① 部屋　② 魚　③ ドア　④ 明日",
+    "choices": [
+      "部屋",
+      "魚",
+      "ドア",
+      "明日"
+    ]
+  },
+  {
+    "id": "s-eng_word-76",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「明日」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「明日」は英語で tomorrow。",
+    "plain": "「明日」を英語にしたものを選べ。　① beautiful　② week　③ dog　④ tomorrow",
+    "choices": [
+      "beautiful",
+      "week",
+      "dog",
+      "tomorrow"
+    ]
+  },
+  {
+    "id": "s-eng_word-77",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「yesterday」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "yesterday は「昨日」という意味。",
+    "plain": "「yesterday」の意味として正しいものを選べ。　① 歩く　② 太陽　③ 昨日　④ 話す",
+    "choices": [
+      "歩く",
+      "太陽",
+      "昨日",
+      "話す"
+    ]
+  },
+  {
+    "id": "s-eng_word-78",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「昨日」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「昨日」は英語で yesterday。",
+    "plain": "「昨日」を英語にしたものを選べ。　① black　② sell　③ yesterday　④ white",
+    "choices": [
+      "black",
+      "sell",
+      "yesterday",
+      "white"
+    ]
+  },
+  {
+    "id": "s-eng_word-79",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「week」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "week は「週」という意味。",
+    "plain": "「week」の意味として正しいものを選べ。　① 始める　② 週　③ 簡単な　④ 短い",
+    "choices": [
+      "始める",
+      "週",
+      "簡単な",
+      "短い"
+    ]
+  },
+  {
+    "id": "s-eng_word-80",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「週」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「週」は英語で week。",
+    "plain": "「週」を英語にしたものを選べ。　① room　② week　③ visit　④ wind",
+    "choices": [
+      "room",
+      "week",
+      "visit",
+      "wind"
+    ]
+  },
+  {
+    "id": "s-eng_word-81",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「year」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "year は「年」という意味。",
+    "plain": "「year」の意味として正しいものを選べ。　① 訪れる　② 年　③ 黒い　④ 重要な",
+    "choices": [
+      "訪れる",
+      "年",
+      "黒い",
+      "重要な"
+    ]
+  },
+  {
+    "id": "s-eng_word-82",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「年」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「年」は英語で year。",
+    "plain": "「年」を英語にしたものを選べ。　① year　② know　③ teacher　④ young",
+    "choices": [
+      "year",
+      "know",
+      "teacher",
+      "young"
+    ]
+  },
+  {
+    "id": "s-eng_word-83",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「time」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "time は「時間」という意味。",
+    "plain": "「time」の意味として正しいものを選べ。　① 空腹の　② 時間　③ 飲む　④ 覚えている",
+    "choices": [
+      "空腹の",
+      "時間",
+      "飲む",
+      "覚えている"
+    ]
+  },
+  {
+    "id": "s-eng_word-84",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「時間」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「時間」は英語で time。",
+    "plain": "「時間」を英語にしたものを選べ。　① time　② today　③ drink　④ water",
+    "choices": [
+      "time",
+      "today",
+      "drink",
+      "water"
+    ]
+  },
+  {
+    "id": "s-eng_word-85",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「money」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "money は「お金」という意味。",
+    "plain": "「money」の意味として正しいものを選べ。　① 始める　② 今日　③ お金　④ 美しい",
+    "choices": [
+      "始める",
+      "今日",
+      "お金",
+      "美しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-86",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「お金」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「お金」は英語で money。",
+    "plain": "「お金」を英語にしたものを選べ。　① eat　② bread　③ star　④ money",
+    "choices": [
+      "eat",
+      "bread",
+      "star",
+      "money"
+    ]
+  },
+  {
+    "id": "s-eng_word-87",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「breakfast」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "breakfast は「朝食」という意味。",
+    "plain": "「breakfast」の意味として正しいものを選べ。　① 幸せな　② 教える　③ 週　④ 朝食",
+    "choices": [
+      "幸せな",
+      "教える",
+      "週",
+      "朝食"
+    ]
+  },
+  {
+    "id": "s-eng_word-88",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「朝食」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「朝食」は英語で breakfast。",
+    "plain": "「朝食」を英語にしたものを選べ。　① breakfast　② chair　③ big　④ study",
+    "choices": [
+      "breakfast",
+      "chair",
+      "big",
+      "study"
+    ]
+  },
+  {
+    "id": "s-eng_word-89",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「lunch」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "lunch は「昼食」という意味。",
+    "plain": "「lunch」の意味として正しいものを選べ。　① 食べる　② 年　③ 覚えている　④ 昼食",
+    "choices": [
+      "食べる",
+      "年",
+      "覚えている",
+      "昼食"
+    ]
+  },
+  {
+    "id": "s-eng_word-90",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「昼食」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「昼食」は英語で lunch。",
+    "plain": "「昼食」を英語にしたものを選べ。　① lunch　② important　③ read　④ apple",
+    "choices": [
+      "lunch",
+      "important",
+      "read",
+      "apple"
+    ]
+  },
+  {
+    "id": "s-eng_word-91",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「dinner」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "dinner は「夕食」という意味。",
+    "plain": "「dinner」の意味として正しいものを選べ。　① 海　② 美しい　③ 夕食　④ 知っている",
+    "choices": [
+      "海",
+      "美しい",
+      "夕食",
+      "知っている"
+    ]
+  },
+  {
+    "id": "s-eng_word-92",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「夕食」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「夕食」は英語で dinner。",
+    "plain": "「夕食」を英語にしたものを選べ。　① old　② study　③ dinner　④ sister",
+    "choices": [
+      "old",
+      "study",
+      "dinner",
+      "sister"
+    ]
+  },
+  {
+    "id": "s-eng_word-93",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「milk」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "milk は「牛乳」という意味。",
+    "plain": "「milk」の意味として正しいものを選べ。　① 黒い　② 書く　③ 牛乳　④ ねこ",
+    "choices": [
+      "黒い",
+      "書く",
+      "牛乳",
+      "ねこ"
+    ]
+  },
+  {
+    "id": "s-eng_word-94",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「牛乳」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「牛乳」は英語で milk。",
+    "plain": "「牛乳」を英語にしたものを選べ。　① buy　② teach　③ milk　④ tree",
+    "choices": [
+      "buy",
+      "teach",
+      "milk",
+      "tree"
+    ]
+  },
+  {
+    "id": "s-eng_word-95",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「bread」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "bread は「パン」という意味。",
+    "plain": "「bread」の意味として正しいものを選べ。　① 水　② パン　③ 悲しい　④ 月",
+    "choices": [
+      "水",
+      "パン",
+      "悲しい",
+      "月"
+    ]
+  },
+  {
+    "id": "s-eng_word-96",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「パン」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「パン」は英語で bread。",
+    "plain": "「パン」を英語にしたものを選べ。　① bread　② sister　③ happy　④ sea",
+    "choices": [
+      "bread",
+      "sister",
+      "happy",
+      "sea"
+    ]
+  },
+  {
+    "id": "s-eng_word-97",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「rice」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "rice は「米」という意味。",
+    "plain": "「rice」の意味として正しいものを選べ。　① 長い　② 米　③ 古い　④ 川",
+    "choices": [
+      "長い",
+      "米",
+      "古い",
+      "川"
+    ]
+  },
+  {
+    "id": "s-eng_word-98",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「米」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「米」は英語で rice。",
+    "plain": "「米」を英語にしたものを選べ。　① moon　② rice　③ old　④ year",
+    "choices": [
+      "moon",
+      "rice",
+      "old",
+      "year"
+    ]
+  },
+  {
+    "id": "s-eng_word-99",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「egg」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "egg は「卵」という意味。",
+    "plain": "「egg」の意味として正しいものを選べ。　① 卵　② お金　③ 学ぶ　④ 緑の",
+    "choices": [
+      "卵",
+      "お金",
+      "学ぶ",
+      "緑の"
+    ]
+  },
+  {
+    "id": "s-eng_word-100",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「卵」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「卵」は英語で egg。",
+    "plain": "「卵」を英語にしたものを選べ。　① egg　② hungry　③ cat　④ brother",
+    "choices": [
+      "egg",
+      "hungry",
+      "cat",
+      "brother"
+    ]
+  },
+  {
+    "id": "s-eng_word-101",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「vegetable」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "vegetable は「野菜」という意味。",
+    "plain": "「vegetable」の意味として正しいものを選べ。　① 眠る　② 野菜　③ 風　④ 水",
+    "choices": [
+      "眠る",
+      "野菜",
+      "風",
+      "水"
+    ]
+  },
+  {
+    "id": "s-eng_word-102",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「野菜」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「野菜」は英語で vegetable。",
+    "plain": "「野菜」を英語にしたものを選べ。　① dangerous　② vegetable　③ angry　④ eat",
+    "choices": [
+      "dangerous",
+      "vegetable",
+      "angry",
+      "eat"
+    ]
+  },
+  {
+    "id": "s-eng_word-103",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「fruit」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "fruit は「果物」という意味。",
+    "plain": "「fruit」の意味として正しいものを選べ。　① 難しい　② 月　③ 果物　④ お金",
+    "choices": [
+      "難しい",
+      "月",
+      "果物",
+      "お金"
+    ]
+  },
+  {
+    "id": "s-eng_word-104",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「果物」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「果物」は英語で fruit。",
+    "plain": "「果物」を英語にしたものを選べ。　① fruit　② drink　③ speak　④ eat",
+    "choices": [
+      "fruit",
+      "drink",
+      "speak",
+      "eat"
+    ]
+  },
+  {
+    "id": "s-eng_word-105",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「red」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "red は「赤い」という意味。",
+    "plain": "「red」の意味として正しいものを選べ。　① 今日　② 青い　③ 赤い　④ 昼食",
+    "choices": [
+      "今日",
+      "青い",
+      "赤い",
+      "昼食"
+    ]
+  },
+  {
+    "id": "s-eng_word-106",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「赤い」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「赤い」は英語で red。",
+    "plain": "「赤い」を英語にしたものを選べ。　① egg　② red　③ water　④ blue",
+    "choices": [
+      "egg",
+      "red",
+      "water",
+      "blue"
+    ]
+  },
+  {
+    "id": "s-eng_word-107",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「blue」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "blue は「青い」という意味。",
+    "plain": "「blue」の意味として正しいものを選べ。　① 部屋　② 青い　③ 書く　④ 牛乳",
+    "choices": [
+      "部屋",
+      "青い",
+      "書く",
+      "牛乳"
+    ]
+  },
+  {
+    "id": "s-eng_word-108",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「青い」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「青い」は英語で blue。",
+    "plain": "「青い」を英語にしたものを選べ。　① house　② blue　③ door　④ short",
+    "choices": [
+      "house",
+      "blue",
+      "door",
+      "short"
+    ]
+  },
+  {
+    "id": "s-eng_word-109",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「green」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "green は「緑の」という意味。",
+    "plain": "「green」の意味として正しいものを選べ。　① 緑の　② ねこ　③ 米　④ 短い",
+    "choices": [
+      "緑の",
+      "ねこ",
+      "米",
+      "短い"
+    ]
+  },
+  {
+    "id": "s-eng_word-110",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「緑の」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「緑の」は英語で green。",
+    "plain": "「緑の」を英語にしたものを選べ。　① today　② dangerous　③ green　④ teach",
+    "choices": [
+      "today",
+      "dangerous",
+      "green",
+      "teach"
+    ]
+  },
+  {
+    "id": "s-eng_word-111",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「yellow」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "yellow は「黄色い」という意味。",
+    "plain": "「yellow」の意味として正しいものを選べ。　① 雪　② 黄色い　③ 話す　④ 兄・弟",
+    "choices": [
+      "雪",
+      "黄色い",
+      "話す",
+      "兄・弟"
+    ]
+  },
+  {
+    "id": "s-eng_word-112",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「黄色い」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「黄色い」は英語で yellow。",
+    "plain": "「黄色い」を英語にしたものを選べ。　① wait　② room　③ yellow　④ blue",
+    "choices": [
+      "wait",
+      "room",
+      "yellow",
+      "blue"
+    ]
+  },
+  {
+    "id": "s-eng_word-113",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「white」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "white は「白い」という意味。",
+    "plain": "「white」の意味として正しいものを選べ。　① 家族　② 長い　③ 食べる　④ 白い",
+    "choices": [
+      "家族",
+      "長い",
+      "食べる",
+      "白い"
+    ]
+  },
+  {
+    "id": "s-eng_word-114",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「白い」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「白い」は英語で white。",
+    "plain": "「白い」を英語にしたものを選べ。　① white　② sell　③ buy　④ understand",
+    "choices": [
+      "white",
+      "sell",
+      "buy",
+      "understand"
+    ]
+  },
+  {
+    "id": "s-eng_word-115",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「black」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "black は「黒い」という意味。",
+    "plain": "「black」の意味として正しいものを選べ。　① 水　② 卵　③ 太陽　④ 黒い",
+    "choices": [
+      "水",
+      "卵",
+      "太陽",
+      "黒い"
+    ]
+  },
+  {
+    "id": "s-eng_word-116",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「黒い」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「黒い」は英語で black。",
+    "plain": "「黒い」を英語にしたものを選べ。　① dinner　② easy　③ black　④ read",
+    "choices": [
+      "dinner",
+      "easy",
+      "black",
+      "read"
+    ]
+  },
+  {
+    "id": "s-eng_word-117",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「big」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "big は「大きい」という意味。",
+    "plain": "「big」の意味として正しいものを選べ。　① 兄・弟　② 幸せな　③ 大きい　④ 読む",
+    "choices": [
+      "兄・弟",
+      "幸せな",
+      "大きい",
+      "読む"
+    ]
+  },
+  {
+    "id": "s-eng_word-118",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「大きい」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「大きい」は英語で big。",
+    "plain": "「大きい」を英語にしたものを選べ。　① tree　② big　③ bird　④ dog",
+    "choices": [
+      "tree",
+      "big",
+      "bird",
+      "dog"
+    ]
+  },
+  {
+    "id": "s-eng_word-119",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「small」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "small は「小さい」という意味。",
+    "plain": "「small」の意味として正しいものを選べ。　① 小さい　② テーブル　③ 知っている　④ 家",
+    "choices": [
+      "小さい",
+      "テーブル",
+      "知っている",
+      "家"
+    ]
+  },
+  {
+    "id": "s-eng_word-120",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「小さい」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「小さい」は英語で small。",
+    "plain": "「小さい」を英語にしたものを選べ。　① mother　② small　③ teach　④ remember",
+    "choices": [
+      "mother",
+      "small",
+      "teach",
+      "remember"
+    ]
+  },
+  {
+    "id": "s-eng_word-121",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「long」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "long は「長い」という意味。",
+    "plain": "「long」の意味として正しいものを選べ。　① 月　② 雨　③ 長い　④ 川",
+    "choices": [
+      "月",
+      "雨",
+      "長い",
+      "川"
+    ]
+  },
+  {
+    "id": "s-eng_word-122",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「長い」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「長い」は英語で long。",
+    "plain": "「長い」を英語にしたものを選べ。　① yesterday　② red　③ long　④ think",
+    "choices": [
+      "yesterday",
+      "red",
+      "long",
+      "think"
+    ]
+  },
+  {
+    "id": "s-eng_word-123",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「short」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "short は「短い」という意味。",
+    "plain": "「short」の意味として正しいものを選べ。　① 短い　② 悲しい　③ 知っている　④ 朝食",
+    "choices": [
+      "短い",
+      "悲しい",
+      "知っている",
+      "朝食"
+    ]
+  },
+  {
+    "id": "s-eng_word-124",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「短い」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「短い」は英語で short。",
+    "plain": "「短い」を英語にしたものを選べ。　① wait　② learn　③ short　④ know",
+    "choices": [
+      "wait",
+      "learn",
+      "short",
+      "know"
+    ]
+  },
+  {
+    "id": "s-eng_word-125",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「new」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "new は「新しい」という意味。",
+    "plain": "「new」の意味として正しいものを選べ。　① 週　② 美しい　③ 新しい　④ 部屋",
+    "choices": [
+      "週",
+      "美しい",
+      "新しい",
+      "部屋"
+    ]
+  },
+  {
+    "id": "s-eng_word-126",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「新しい」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「新しい」は英語で new。",
+    "plain": "「新しい」を英語にしたものを選べ。　① new　② week　③ learn　④ long",
+    "choices": [
+      "new",
+      "week",
+      "learn",
+      "long"
+    ]
+  },
+  {
+    "id": "s-eng_word-127",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「old」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "old は「古い」という意味。",
+    "plain": "「old」の意味として正しいものを選べ。　① ドア　② 古い　③ 父　④ 週",
+    "choices": [
+      "ドア",
+      "古い",
+      "父",
+      "週"
+    ]
+  },
+  {
+    "id": "s-eng_word-128",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「古い」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「古い」は英語で old。",
+    "plain": "「古い」を英語にしたものを選べ。　① sun　② think　③ flower　④ old",
+    "choices": [
+      "sun",
+      "think",
+      "flower",
+      "old"
+    ]
+  },
+  {
+    "id": "s-eng_word-129",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「young」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "young は「若い」という意味。",
+    "plain": "「young」の意味として正しいものを選べ。　① 若い　② 太陽　③ 犬　④ 走る",
+    "choices": [
+      "若い",
+      "太陽",
+      "犬",
+      "走る"
+    ]
+  },
+  {
+    "id": "s-eng_word-130",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「若い」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「若い」は英語で young。",
+    "plain": "「若い」を英語にしたものを選べ。　① difficult　② fish　③ young　④ house",
+    "choices": [
+      "difficult",
+      "fish",
+      "young",
+      "house"
+    ]
+  },
+  {
+    "id": "s-eng_word-131",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「happy」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "happy は「幸せな」という意味。",
+    "plain": "「happy」の意味として正しいものを選べ。　① 幸せな　② 夜　③ 教える　④ 野菜",
+    "choices": [
+      "幸せな",
+      "夜",
+      "教える",
+      "野菜"
+    ]
+  },
+  {
+    "id": "s-eng_word-132",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「幸せな」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「幸せな」は英語で happy。",
+    "plain": "「幸せな」を英語にしたものを選べ。　① visit　② happy　③ family　④ eat",
+    "choices": [
+      "visit",
+      "happy",
+      "family",
+      "eat"
+    ]
+  },
+  {
+    "id": "s-eng_word-133",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「sad」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "sad は「悲しい」という意味。",
+    "plain": "「sad」の意味として正しいものを選べ。　① 悲しい　② 明日　③ 大きい　④ 黄色い",
+    "choices": [
+      "悲しい",
+      "明日",
+      "大きい",
+      "黄色い"
+    ]
+  },
+  {
+    "id": "s-eng_word-134",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「悲しい」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「悲しい」は英語で sad。",
+    "plain": "「悲しい」を英語にしたものを選べ。　① buy　② open　③ water　④ sad",
+    "choices": [
+      "buy",
+      "open",
+      "water",
+      "sad"
+    ]
+  },
+  {
+    "id": "s-eng_word-135",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「angry」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "angry は「怒った」という意味。",
+    "plain": "「angry」の意味として正しいものを選べ。　① 短い　② 黄色い　③ 眠る　④ 怒った",
+    "choices": [
+      "短い",
+      "黄色い",
+      "眠る",
+      "怒った"
+    ]
+  },
+  {
+    "id": "s-eng_word-136",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「怒った」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「怒った」は英語で angry。",
+    "plain": "「怒った」を英語にしたものを選べ。　① sea　② visit　③ angry　④ flower",
+    "choices": [
+      "sea",
+      "visit",
+      "angry",
+      "flower"
+    ]
+  },
+  {
+    "id": "s-eng_word-137",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「tired」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "tired は「疲れた」という意味。",
+    "plain": "「tired」の意味として正しいものを選べ。　① 海　② 年　③ 疲れた　④ ねこ",
+    "choices": [
+      "海",
+      "年",
+      "疲れた",
+      "ねこ"
+    ]
+  },
+  {
+    "id": "s-eng_word-138",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「疲れた」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「疲れた」は英語で tired。",
+    "plain": "「疲れた」を英語にしたものを選べ。　① tired　② old　③ apple　④ snow",
+    "choices": [
+      "tired",
+      "old",
+      "apple",
+      "snow"
+    ]
+  },
+  {
+    "id": "s-eng_word-139",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「hungry」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "hungry は「空腹の」という意味。",
+    "plain": "「hungry」の意味として正しいものを選べ。　① 古い　② 空腹の　③ 美しい　④ 忙しい",
+    "choices": [
+      "古い",
+      "空腹の",
+      "美しい",
+      "忙しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-140",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「空腹の」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「空腹の」は英語で hungry。",
+    "plain": "「空腹の」を英語にしたものを選べ。　① yellow　② hungry　③ father　④ morning",
+    "choices": [
+      "yellow",
+      "hungry",
+      "father",
+      "morning"
+    ]
+  },
+  {
+    "id": "s-eng_word-141",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「busy」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "busy は「忙しい」という意味。",
+    "plain": "「busy」の意味として正しいものを選べ。　① 話す　② 忙しい　③ 聞く　④ 昼食",
+    "choices": [
+      "話す",
+      "忙しい",
+      "聞く",
+      "昼食"
+    ]
+  },
+  {
+    "id": "s-eng_word-142",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「忙しい」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「忙しい」は英語で busy。",
+    "plain": "「忙しい」を英語にしたものを選べ。　① small　② time　③ busy　④ teach",
+    "choices": [
+      "small",
+      "time",
+      "busy",
+      "teach"
+    ]
+  },
+  {
+    "id": "s-eng_word-143",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「easy」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "easy は「簡単な」という意味。",
+    "plain": "「easy」の意味として正しいものを選べ。　① 本　② 年　③ 簡単な　④ 忘れる",
+    "choices": [
+      "本",
+      "年",
+      "簡単な",
+      "忘れる"
+    ]
+  },
+  {
+    "id": "s-eng_word-144",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「簡単な」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「簡単な」は英語で easy。",
+    "plain": "「簡単な」を英語にしたものを選べ。　① house　② star　③ easy　④ know",
+    "choices": [
+      "house",
+      "star",
+      "easy",
+      "know"
+    ]
+  },
+  {
+    "id": "s-eng_word-145",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「difficult」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "difficult は「難しい」という意味。",
+    "plain": "「difficult」の意味として正しいものを選べ。　① 難しい　② りんご　③ 魚　④ 山",
+    "choices": [
+      "難しい",
+      "りんご",
+      "魚",
+      "山"
+    ]
+  },
+  {
+    "id": "s-eng_word-146",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「難しい」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「難しい」は英語で difficult。",
+    "plain": "「難しい」を英語にしたものを選べ。　① run　② yesterday　③ sister　④ difficult",
+    "choices": [
+      "run",
+      "yesterday",
+      "sister",
+      "difficult"
+    ]
+  },
+  {
+    "id": "s-eng_word-147",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「important」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "important は「重要な」という意味。",
+    "plain": "「important」の意味として正しいものを選べ。　① 助ける　② 重要な　③ 家　④ 木",
+    "choices": [
+      "助ける",
+      "重要な",
+      "家",
+      "木"
+    ]
+  },
+  {
+    "id": "s-eng_word-148",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「重要な」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「重要な」は英語で important。",
+    "plain": "「重要な」を英語にしたものを選べ。　① tomorrow　② chair　③ important　④ drink",
+    "choices": [
+      "tomorrow",
+      "chair",
+      "important",
+      "drink"
+    ]
+  },
+  {
+    "id": "s-eng_word-149",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「beautiful」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "beautiful は「美しい」という意味。",
+    "plain": "「beautiful」の意味として正しいものを選べ。　① 簡単な　② 朝食　③ 美しい　④ 悲しい",
+    "choices": [
+      "簡単な",
+      "朝食",
+      "美しい",
+      "悲しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-150",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「美しい」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「美しい」は英語で beautiful。",
+    "plain": "「美しい」を英語にしたものを選べ。　① beautiful　② room　③ star　④ snow",
+    "choices": [
+      "beautiful",
+      "room",
+      "star",
+      "snow"
+    ]
+  },
+  {
+    "id": "s-eng_word-151",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「famous」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "famous は「有名な」という意味。",
+    "plain": "「famous」の意味として正しいものを選べ。　① 有名な　② 訪れる　③ 夜　④ 買う",
+    "choices": [
+      "有名な",
+      "訪れる",
+      "夜",
+      "買う"
+    ]
+  },
+  {
+    "id": "s-eng_word-152",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「有名な」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「有名な」は英語で famous。",
+    "plain": "「有名な」を英語にしたものを選べ。　① hungry　② black　③ egg　④ famous",
+    "choices": [
+      "hungry",
+      "black",
+      "egg",
+      "famous"
+    ]
+  },
+  {
+    "id": "s-eng_word-153",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「useful」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "useful は「役に立つ」という意味。",
+    "plain": "「useful」の意味として正しいものを選べ。　① 助ける　② 美しい　③ 鳥　④ 役に立つ",
+    "choices": [
+      "助ける",
+      "美しい",
+      "鳥",
+      "役に立つ"
+    ]
+  },
+  {
+    "id": "s-eng_word-154",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「役に立つ」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「役に立つ」は英語で useful。",
+    "plain": "「役に立つ」を英語にしたものを選べ。　① black　② blue　③ help　④ useful",
+    "choices": [
+      "black",
+      "blue",
+      "help",
+      "useful"
+    ]
+  },
+  {
+    "id": "s-eng_word-155",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「dangerous」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "dangerous は「危険な」という意味。",
+    "plain": "「dangerous」の意味として正しいものを選べ。　① 危険な　② 終える　③ 週　④ 読む",
+    "choices": [
+      "危険な",
+      "終える",
+      "週",
+      "読む"
+    ]
+  },
+  {
+    "id": "s-eng_word-156",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「危険な」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「危険な」は英語で dangerous。",
+    "plain": "「危険な」を英語にしたものを選べ。　① dangerous　② listen　③ sad　④ sun",
+    "choices": [
+      "dangerous",
+      "listen",
+      "sad",
+      "sun"
+    ]
+  },
+  {
+    "id": "s-eng_word-157",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「run」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "run は「走る」という意味。",
+    "plain": "「run」の意味として正しいものを選べ。　① 走る　② 長い　③ 覚えている　④ テーブル",
+    "choices": [
+      "走る",
+      "長い",
+      "覚えている",
+      "テーブル"
+    ]
+  },
+  {
+    "id": "s-eng_word-158",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「走る」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「走る」は英語で run。",
+    "plain": "「走る」を英語にしたものを選べ。　① week　② city　③ new　④ run",
+    "choices": [
+      "week",
+      "city",
+      "new",
+      "run"
+    ]
+  },
+  {
+    "id": "s-eng_word-159",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「walk」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "walk は「歩く」という意味。",
+    "plain": "「walk」の意味として正しいものを選べ。　① 大きい　② 歩く　③ 米　④ 昼食",
+    "choices": [
+      "大きい",
+      "歩く",
+      "米",
+      "昼食"
+    ]
+  },
+  {
+    "id": "s-eng_word-160",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「歩く」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「歩く」は英語で walk。",
+    "plain": "「歩く」を英語にしたものを選べ。　① walk　② family　③ breakfast　④ teach",
+    "choices": [
+      "walk",
+      "family",
+      "breakfast",
+      "teach"
+    ]
+  },
+  {
+    "id": "s-eng_word-161",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「swim」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "swim は「泳ぐ」という意味。",
+    "plain": "「swim」の意味として正しいものを選べ。　① 覚えている　② 走る　③ 泳ぐ　④ 待つ",
+    "choices": [
+      "覚えている",
+      "走る",
+      "泳ぐ",
+      "待つ"
+    ]
+  },
+  {
+    "id": "s-eng_word-162",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「泳ぐ」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「泳ぐ」は英語で swim。",
+    "plain": "「泳ぐ」を英語にしたものを選べ。　① swim　② important　③ mountain　④ water",
+    "choices": [
+      "swim",
+      "important",
+      "mountain",
+      "water"
+    ]
+  },
+  {
+    "id": "s-eng_word-163",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「study」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "study は「勉強する」という意味。",
+    "plain": "「study」の意味として正しいものを選べ。　① 終える　② 知っている　③ 夜　④ 勉強する",
+    "choices": [
+      "終える",
+      "知っている",
+      "夜",
+      "勉強する"
+    ]
+  },
+  {
+    "id": "s-eng_word-164",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「勉強する」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「勉強する」は英語で study。",
+    "plain": "「勉強する」を英語にしたものを選べ。　① river　② study　③ vegetable　④ money",
+    "choices": [
+      "river",
+      "study",
+      "vegetable",
+      "money"
+    ]
+  },
+  {
+    "id": "s-eng_word-165",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「read」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "read は「読む」という意味。",
+    "plain": "「read」の意味として正しいものを選べ。　① 黄色い　② 読む　③ 終える　④ 赤い",
+    "choices": [
+      "黄色い",
+      "読む",
+      "終える",
+      "赤い"
+    ]
+  },
+  {
+    "id": "s-eng_word-166",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「読む」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「読む」は英語で read。",
+    "plain": "「読む」を英語にしたものを選べ。　① read　② forget　③ chair　④ room",
+    "choices": [
+      "read",
+      "forget",
+      "chair",
+      "room"
+    ]
+  },
+  {
+    "id": "s-eng_word-167",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「write」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "write は「書く」という意味。",
+    "plain": "「write」の意味として正しいものを選べ。　① 先生　② 昼食　③ 忘れる　④ 書く",
+    "choices": [
+      "先生",
+      "昼食",
+      "忘れる",
+      "書く"
+    ]
+  },
+  {
+    "id": "s-eng_word-168",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「書く」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「書く」は英語で write。",
+    "plain": "「書く」を英語にしたものを選べ。　① mountain　② big　③ write　④ apple",
+    "choices": [
+      "mountain",
+      "big",
+      "write",
+      "apple"
+    ]
+  },
+  {
+    "id": "s-eng_word-169",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「speak」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "speak は「話す」という意味。",
+    "plain": "「speak」の意味として正しいものを選べ。　① 短い　② 家　③ 話す　④ 古い",
+    "choices": [
+      "短い",
+      "家",
+      "話す",
+      "古い"
+    ]
+  },
+  {
+    "id": "s-eng_word-170",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「話す」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「話す」は英語で speak。",
+    "plain": "「話す」を英語にしたものを選べ。　① walk　② help　③ money　④ speak",
+    "choices": [
+      "walk",
+      "help",
+      "money",
+      "speak"
+    ]
+  },
+  {
+    "id": "s-eng_word-171",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「listen」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "listen は「聞く」という意味。",
+    "plain": "「listen」の意味として正しいものを選べ。　① 泳ぐ　② 開ける　③ 考える　④ 聞く",
+    "choices": [
+      "泳ぐ",
+      "開ける",
+      "考える",
+      "聞く"
+    ]
+  },
+  {
+    "id": "s-eng_word-172",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「聞く」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「聞く」は英語で listen。",
+    "plain": "「聞く」を英語にしたものを選べ。　① milk　② big　③ listen　④ happy",
+    "choices": [
+      "milk",
+      "big",
+      "listen",
+      "happy"
+    ]
+  },
+  {
+    "id": "s-eng_word-173",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「eat」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "eat は「食べる」という意味。",
+    "plain": "「eat」の意味として正しいものを選べ。　① 教える　② 夕食　③ 食べる　④ 終える",
+    "choices": [
+      "教える",
+      "夕食",
+      "食べる",
+      "終える"
+    ]
+  },
+  {
+    "id": "s-eng_word-174",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「食べる」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「食べる」は英語で eat。",
+    "plain": "「食べる」を英語にしたものを選べ。　① eat　② drink　③ sell　④ chair",
+    "choices": [
+      "eat",
+      "drink",
+      "sell",
+      "chair"
+    ]
+  },
+  {
+    "id": "s-eng_word-175",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「drink」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "drink は「飲む」という意味。",
+    "plain": "「drink」の意味として正しいものを選べ。　① 悲しい　② 飲む　③ 国　④ 書く",
+    "choices": [
+      "悲しい",
+      "飲む",
+      "国",
+      "書く"
+    ]
+  },
+  {
+    "id": "s-eng_word-176",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「飲む」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「飲む」は英語で drink。",
+    "plain": "「飲む」を英語にしたものを選べ。　① remember　② drink　③ today　④ water",
+    "choices": [
+      "remember",
+      "drink",
+      "today",
+      "water"
+    ]
+  },
+  {
+    "id": "s-eng_word-177",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「sleep」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "sleep は「眠る」という意味。",
+    "plain": "「sleep」の意味として正しいものを選べ。　① 野菜　② 白い　③ 母　④ 眠る",
+    "choices": [
+      "野菜",
+      "白い",
+      "母",
+      "眠る"
+    ]
+  },
+  {
+    "id": "s-eng_word-178",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「眠る」を英語にしたものを選べ。",
+    "answer": 1,
+    "explanation": "「眠る」は英語で sleep。",
+    "plain": "「眠る」を英語にしたものを選べ。　① know　② sleep　③ time　④ run",
+    "choices": [
+      "know",
+      "sleep",
+      "time",
+      "run"
+    ]
+  },
+  {
+    "id": "s-eng_word-179",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「buy」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "buy は「買う」という意味。",
+    "plain": "「buy」の意味として正しいものを選べ。　① 小さい　② 買う　③ 助ける　④ 年",
+    "choices": [
+      "小さい",
+      "買う",
+      "助ける",
+      "年"
+    ]
+  },
+  {
+    "id": "s-eng_word-180",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「買う」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「買う」は英語で buy。",
+    "plain": "「買う」を英語にしたものを選べ。　① swim　② blue　③ buy　④ young",
+    "choices": [
+      "swim",
+      "blue",
+      "buy",
+      "young"
+    ]
+  },
+  {
+    "id": "s-eng_word-181",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「sell」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "sell は「売る」という意味。",
+    "plain": "「sell」の意味として正しいものを選べ。　① 始める　② 食べる　③ 小さい　④ 売る",
+    "choices": [
+      "始める",
+      "食べる",
+      "小さい",
+      "売る"
+    ]
+  },
+  {
+    "id": "s-eng_word-182",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「売る」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「売る」は英語で sell。",
+    "plain": "「売る」を英語にしたものを選べ。　① flower　② milk　③ house　④ sell",
+    "choices": [
+      "flower",
+      "milk",
+      "house",
+      "sell"
+    ]
+  },
+  {
+    "id": "s-eng_word-183",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「open」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "open は「開ける」という意味。",
+    "plain": "「open」の意味として正しいものを選べ。　① 朝食　② 開ける　③ 小さい　④ パン",
+    "choices": [
+      "朝食",
+      "開ける",
+      "小さい",
+      "パン"
+    ]
+  },
+  {
+    "id": "s-eng_word-184",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「開ける」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「開ける」は英語で open。",
+    "plain": "「開ける」を英語にしたものを選べ。　① open　② dangerous　③ read　④ window",
+    "choices": [
+      "open",
+      "dangerous",
+      "read",
+      "window"
+    ]
+  },
+  {
+    "id": "s-eng_word-185",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「close」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "close は「閉じる」という意味。",
+    "plain": "「close」の意味として正しいものを選べ。　① 閉じる　② 聞く　③ 小さい　④ 雪",
+    "choices": [
+      "閉じる",
+      "聞く",
+      "小さい",
+      "雪"
+    ]
+  },
+  {
+    "id": "s-eng_word-186",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「閉じる」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「閉じる」は英語で close。",
+    "plain": "「閉じる」を英語にしたものを選べ。　① big　② night　③ cat　④ close",
+    "choices": [
+      "big",
+      "night",
+      "cat",
+      "close"
+    ]
+  },
+  {
+    "id": "s-eng_word-187",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「help」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "help は「助ける」という意味。",
+    "plain": "「help」の意味として正しいものを選べ。　① 教える　② 太陽　③ 夜　④ 助ける",
+    "choices": [
+      "教える",
+      "太陽",
+      "夜",
+      "助ける"
+    ]
+  },
+  {
+    "id": "s-eng_word-188",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「助ける」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「助ける」は英語で help。",
+    "plain": "「助ける」を英語にしたものを選べ。　① wait　② dog　③ yellow　④ help",
+    "choices": [
+      "wait",
+      "dog",
+      "yellow",
+      "help"
+    ]
+  },
+  {
+    "id": "s-eng_word-189",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「teach」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "teach は「教える」という意味。",
+    "plain": "「teach」の意味として正しいものを選べ。　① 昼食　② お金　③ 教える　④ 美しい",
+    "choices": [
+      "昼食",
+      "お金",
+      "教える",
+      "美しい"
+    ]
+  },
+  {
+    "id": "s-eng_word-190",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「教える」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「教える」は英語で teach。",
+    "plain": "「教える」を英語にしたものを選べ。　① moon　② river　③ teach　④ buy",
+    "choices": [
+      "moon",
+      "river",
+      "teach",
+      "buy"
+    ]
+  },
+  {
+    "id": "s-eng_word-191",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「learn」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "learn は「学ぶ」という意味。",
+    "plain": "「learn」の意味として正しいものを選べ。　① 美しい　② 犬　③ 短い　④ 学ぶ",
+    "choices": [
+      "美しい",
+      "犬",
+      "短い",
+      "学ぶ"
+    ]
+  },
+  {
+    "id": "s-eng_word-192",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「学ぶ」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「学ぶ」は英語で learn。",
+    "plain": "「学ぶ」を英語にしたものを選べ。　① learn　② snow　③ father　④ time",
+    "choices": [
+      "learn",
+      "snow",
+      "father",
+      "time"
+    ]
+  },
+  {
+    "id": "s-eng_word-193",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「remember」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "remember は「覚えている」という意味。",
+    "plain": "「remember」の意味として正しいものを選べ。　① 覚えている　② 走る　③ 長い　④ 昼食",
+    "choices": [
+      "覚えている",
+      "走る",
+      "長い",
+      "昼食"
+    ]
+  },
+  {
+    "id": "s-eng_word-194",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「覚えている」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「覚えている」は英語で remember。",
+    "plain": "「覚えている」を英語にしたものを選べ。　① blue　② time　③ remember　④ big",
+    "choices": [
+      "blue",
+      "time",
+      "remember",
+      "big"
+    ]
+  },
+  {
+    "id": "s-eng_word-195",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「forget」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "forget は「忘れる」という意味。",
+    "plain": "「forget」の意味として正しいものを選べ。　① 忘れる　② 理解する　③ 考える　④ 疲れた",
+    "choices": [
+      "忘れる",
+      "理解する",
+      "考える",
+      "疲れた"
+    ]
+  },
+  {
+    "id": "s-eng_word-196",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「忘れる」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「忘れる」は英語で forget。",
+    "plain": "「忘れる」を英語にしたものを選べ。　① open　② room　③ forget　④ red",
+    "choices": [
+      "open",
+      "room",
+      "forget",
+      "red"
+    ]
+  },
+  {
+    "id": "s-eng_word-197",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「think」の意味として正しいものを選べ。",
+    "answer": 2,
+    "explanation": "think は「考える」という意味。",
+    "plain": "「think」の意味として正しいものを選べ。　① 部屋　② ドア　③ 考える　④ 時間",
+    "choices": [
+      "部屋",
+      "ドア",
+      "考える",
+      "時間"
+    ]
+  },
+  {
+    "id": "s-eng_word-198",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「考える」を英語にしたものを選べ。",
+    "answer": 0,
+    "explanation": "「考える」は英語で think。",
+    "plain": "「考える」を英語にしたものを選べ。　① think　② remember　③ fruit　④ city",
+    "choices": [
+      "think",
+      "remember",
+      "fruit",
+      "city"
+    ]
+  },
+  {
+    "id": "s-eng_word-199",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「know」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "know は「知っている」という意味。",
+    "plain": "「know」の意味として正しいものを選べ。　① 若い　② 知っている　③ 明日　④ ねこ",
+    "choices": [
+      "若い",
+      "知っている",
+      "明日",
+      "ねこ"
+    ]
+  },
+  {
+    "id": "s-eng_word-200",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「知っている」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「知っている」は英語で know。",
+    "plain": "「知っている」を英語にしたものを選べ。　① sister　② speak　③ tired　④ know",
+    "choices": [
+      "sister",
+      "speak",
+      "tired",
+      "know"
+    ]
+  },
+  {
+    "id": "s-eng_word-201",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「understand」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "understand は「理解する」という意味。",
+    "plain": "「understand」の意味として正しいものを選べ。　① 木　② 理解する　③ 青い　④ 母",
+    "choices": [
+      "木",
+      "理解する",
+      "青い",
+      "母"
+    ]
+  },
+  {
+    "id": "s-eng_word-202",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「理解する」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「理解する」は英語で understand。",
+    "plain": "「理解する」を英語にしたものを選べ。　① house　② week　③ understand　④ buy",
+    "choices": [
+      "house",
+      "week",
+      "understand",
+      "buy"
+    ]
+  },
+  {
+    "id": "s-eng_word-203",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「begin」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "begin は「始める」という意味。",
+    "plain": "「begin」の意味として正しいものを選べ。　① 始める　② 短い　③ 黄色い　④ 簡単な",
+    "choices": [
+      "始める",
+      "短い",
+      "黄色い",
+      "簡単な"
+    ]
+  },
+  {
+    "id": "s-eng_word-204",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「始める」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「始める」は英語で begin。",
+    "plain": "「始める」を英語にしたものを選べ。　① house　② study　③ begin　④ milk",
+    "choices": [
+      "house",
+      "study",
+      "begin",
+      "milk"
+    ]
+  },
+  {
+    "id": "s-eng_word-205",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「finish」の意味として正しいものを選べ。",
+    "answer": 1,
+    "explanation": "finish は「終える」という意味。",
+    "plain": "「finish」の意味として正しいものを選べ。　① 先生　② 終える　③ 本　④ 週",
+    "choices": [
+      "先生",
+      "終える",
+      "本",
+      "週"
+    ]
+  },
+  {
+    "id": "s-eng_word-206",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「終える」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「終える」は英語で finish。",
+    "plain": "「終える」を英語にしたものを選べ。　① read　② open　③ finish　④ bread",
+    "choices": [
+      "read",
+      "open",
+      "finish",
+      "bread"
+    ]
+  },
+  {
+    "id": "s-eng_word-207",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「wait」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "wait は「待つ」という意味。",
+    "plain": "「wait」の意味として正しいものを選べ。　① 学校　② 星　③ 開ける　④ 待つ",
+    "choices": [
+      "学校",
+      "星",
+      "開ける",
+      "待つ"
+    ]
+  },
+  {
+    "id": "s-eng_word-208",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「待つ」を英語にしたものを選べ。",
+    "answer": 3,
+    "explanation": "「待つ」は英語で wait。",
+    "plain": "「待つ」を英語にしたものを選べ。　① yesterday　② city　③ read　④ wait",
+    "choices": [
+      "yesterday",
+      "city",
+      "read",
+      "wait"
+    ]
+  },
+  {
+    "id": "s-eng_word-209",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「visit」の意味として正しいものを選べ。",
+    "answer": 0,
+    "explanation": "visit は「訪れる」という意味。",
+    "plain": "「visit」の意味として正しいものを選べ。　① 訪れる　② 走る　③ 大きい　④ 書く",
+    "choices": [
+      "訪れる",
+      "走る",
+      "大きい",
+      "書く"
+    ]
+  },
+  {
+    "id": "s-eng_word-210",
+    "category": "eng_word",
+    "difficulty": 1,
+    "title": "英単語",
+    "body": "「訪れる」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「訪れる」は英語で visit。",
+    "plain": "「訪れる」を英語にしたものを選べ。　① speak　② river　③ visit　④ brother",
+    "choices": [
+      "speak",
+      "river",
+      "visit",
+      "brother"
+    ]
+  },
+  {
+    "id": "s-eng_word-211",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「travel」の意味として正しいものを選べ。",
+    "answer": 3,
+    "explanation": "travel は「旅行する」という意味。",
+    "plain": "「travel」の意味として正しいものを選べ。　① 昨日　② 若い　③ 助ける　④ 旅行する",
+    "choices": [
+      "昨日",
+      "若い",
+      "助ける",
+      "旅行する"
+    ]
+  },
+  {
+    "id": "s-eng_word-212",
+    "category": "eng_word",
+    "difficulty": 2,
+    "title": "英単語",
+    "body": "「旅行する」を英語にしたものを選べ。",
+    "answer": 2,
+    "explanation": "「旅行する」は英語で travel。",
+    "plain": "「旅行する」を英語にしたものを選べ。　① black　② flower　③ travel　④ fish",
+    "choices": [
+      "black",
+      "flower",
+      "travel",
+      "fish"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-1",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I （ ） a student.",
+    "answer": 3,
+    "explanation": "主語が I のときの be 動詞は am。",
+    "plain": "次の文の（ ）に入るものを選べ。　I （ ） a student.　① are　② be　③ is　④ am",
+    "choices": [
+      "are",
+      "be",
+      "is",
+      "am"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-2",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　She （ ） to school every day.",
+    "answer": 1,
+    "explanation": "主語が三人称単数で現在の文なので、動詞に es がつく。",
+    "plain": "次の文の（ ）に入るものを選べ。　She （ ） to school every day.　① going　② goes　③ gone　④ go",
+    "choices": [
+      "going",
+      "goes",
+      "gone",
+      "go"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-3",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　They （ ） playing soccer now.",
+    "answer": 0,
+    "explanation": "now があるので現在進行形。主語が They なので are。",
+    "plain": "次の文の（ ）に入るものを選べ。　They （ ） playing soccer now.　① are　② was　③ am　④ is",
+    "choices": [
+      "are",
+      "was",
+      "am",
+      "is"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-4",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　（ ） is your name?",
+    "answer": 3,
+    "explanation": "「あなたの名前は何ですか」は What is your name?。",
+    "plain": "次の文の（ ）に入るものを選べ。　（ ） is your name?　① When　② Who　③ Where　④ What",
+    "choices": [
+      "When",
+      "Who",
+      "Where",
+      "What"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-5",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　I have two （ ）.",
+    "answer": 0,
+    "explanation": "two のあとの名詞は複数形にする。",
+    "plain": "次の文の（ ）に入るものを選べ。　I have two （ ）.　① brothers　② brotheres　③ a brother　④ brother",
+    "choices": [
+      "brothers",
+      "brotheres",
+      "a brother",
+      "brother"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-6",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　He （ ） breakfast yesterday.",
+    "answer": 3,
+    "explanation": "yesterday があるので過去形。eat の過去形は ate。",
+    "plain": "次の文の（ ）に入るものを選べ。　He （ ） breakfast yesterday.　① eats　② eating　③ eat　④ ate",
+    "choices": [
+      "eats",
+      "eating",
+      "eat",
+      "ate"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-7",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　This book is （ ） than that one.",
+    "answer": 1,
+    "explanation": "interesting のような長い単語は more を使って比較級にする。",
+    "plain": "次の文の（ ）に入るものを選べ。　This book is （ ） than that one.　① interesting　② more interesting　③ most interesting　④ interestinger",
+    "choices": [
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "interestinger"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-8",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　Do you （ ） any pets?",
+    "answer": 0,
+    "explanation": "Do ～? のあとの動詞は原形。",
+    "plain": "次の文の（ ）に入るものを選べ。　Do you （ ） any pets?　① have　② has　③ having　④ had",
+    "choices": [
+      "have",
+      "has",
+      "having",
+      "had"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-9",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I like music.",
+    "answer": 2,
+    "explanation": "like は「好き」という意味。",
+    "plain": "次の英文の意味として正しいものを選べ。　I like music.　① 私は音楽が嫌いです。　② 私は音楽を作ります。　③ 私は音楽が好きです。　④ 私は音楽を聞きません。",
+    "choices": [
+      "私は音楽が嫌いです。",
+      "私は音楽を作ります。",
+      "私は音楽が好きです。",
+      "私は音楽を聞きません。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-10",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　She can swim well.",
+    "answer": 0,
+    "explanation": "can ～ は「～できる」、well は「上手に」。",
+    "plain": "次の英文の意味として正しいものを選べ。　She can swim well.　① 彼女は上手に泳げます。　② 彼女は上手に歌えます。　③ 彼女は泳いでいます。　④ 彼女は泳ぎたくありません。",
+    "choices": [
+      "彼女は上手に泳げます。",
+      "彼女は上手に歌えます。",
+      "彼女は泳いでいます。",
+      "彼女は泳ぎたくありません。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-11",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　Where is the station?",
+    "answer": 3,
+    "explanation": "Where は「どこ」。",
+    "plain": "次の英文の意味として正しいものを選べ。　Where is the station?　① 駅は大きいですか。　② 駅は誰のものですか。　③ 駅は何時ですか。　④ 駅はどこですか。",
+    "choices": [
+      "駅は大きいですか。",
+      "駅は誰のものですか。",
+      "駅は何時ですか。",
+      "駅はどこですか。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-12",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I'm going to visit Kyoto next week.",
+    "answer": 0,
+    "explanation": "be going to ～ は予定を表す。next week は「来週」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I'm going to visit Kyoto next week.　① 私は来週京都を訪れる予定です。　② 私は来週京都に住みます。　③ 私は昨日京都に着きました。　④ 私は先週京都を訪れました。",
+    "choices": [
+      "私は来週京都を訪れる予定です。",
+      "私は来週京都に住みます。",
+      "私は昨日京都に着きました。",
+      "私は先週京都を訪れました。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-13",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　He didn't come to school.",
+    "answer": 0,
+    "explanation": "didn't は過去の否定。",
+    "plain": "次の英文の意味として正しいものを選べ。　He didn't come to school.　① 彼は学校に来ませんでした。　② 彼は学校に行きたいです。　③ 彼は学校に来ます。　④ 彼は学校で勉強しました。",
+    "choices": [
+      "彼は学校に来ませんでした。",
+      "彼は学校に行きたいです。",
+      "彼は学校に来ます。",
+      "彼は学校で勉強しました。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-14",
+    "category": "eng_sentence",
+    "difficulty": 1,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　What time is it?",
+    "answer": 3,
+    "explanation": "What time は「何時」。",
+    "plain": "次の英文の意味として正しいものを選べ。　What time is it?　① あなたは何時に起きますか。　② 今日は何曜日ですか。　③ それは何ですか。　④ 今何時ですか。",
+    "choices": [
+      "あなたは何時に起きますか。",
+      "今日は何曜日ですか。",
+      "それは何ですか。",
+      "今何時ですか。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-15",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英文の和訳",
+    "body": "次の英文の意味として正しいものを選べ。　I have lived here for ten years.",
+    "answer": 2,
+    "explanation": "have lived は現在完了（継続）。for ten years は「10年間」。",
+    "plain": "次の英文の意味として正しいものを選べ。　I have lived here for ten years.　① 私は10年後にここに住みます。　② 私は10回ここに来たことがあります。　③ 私は10年間ここに住んでいます。　④ 私は10年前にここに来ました。",
+    "choices": [
+      "私は10年後にここに住みます。",
+      "私は10回ここに来たことがあります。",
+      "私は10年間ここに住んでいます。",
+      "私は10年前にここに来ました。"
+    ]
+  },
+  {
+    "id": "s-eng_sentence-16",
+    "category": "eng_sentence",
+    "difficulty": 2,
+    "title": "英語の文法",
+    "body": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, I will stay home.",
+    "answer": 3,
+    "explanation": "時・条件を表す if の中は、未来のことでも現在形を使う。主語 it は三人称単数なので rains。",
+    "plain": "次の文の（ ）に入るものを選べ。　If it （ ） tomorrow, I will stay home.　① will rain　② rain　③ rained　④ rains",
+    "choices": [
+      "will rain",
+      "rain",
+      "rained",
+      "rains"
+    ]
+  },
+  {
+    "id": "s-soc_geo-1",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "日本で、面積が最も大きい都道府県はどれか。",
+    "answer": 0,
+    "explanation": "北海道は、日本の都道府県で最も面積が大きい。",
+    "plain": "日本で、面積が最も大きい都道府県はどれか。　① 北海道　② 長野県　③ 岩手県　④ 福島県",
+    "choices": [
+      "北海道",
+      "長野県",
+      "岩手県",
+      "福島県"
+    ]
+  },
+  {
+    "id": "s-soc_geo-2",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "地理",
+    "body": "日本で最も長い川はどれか。",
+    "answer": 1,
+    "explanation": "信濃川（千曲川）は日本一長い川で、新潟県で日本海に注ぐ。",
+    "plain": "日本で最も長い川はどれか。　① 木曽川　② 信濃川　③ 石狩川　④ 利根川",
+    "choices": [
+      "木曽川",
+      "信濃川",
+      "石狩川",
+      "利根川"
+    ]
+  },
+  {
+    "id": "s-soc_geo-3",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "日本で最も高い山はどれか。",
+    "answer": 0,
+    "explanation": "富士山の標高は 3776 m。",
+    "plain": "日本で最も高い山はどれか。　① 富士山　② 槍ヶ岳　③ 奥穂高岳　④ 北岳",
+    "choices": [
+      "富士山",
+      "槍ヶ岳",
+      "奥穂高岳",
+      "北岳"
+    ]
+  },
+  {
+    "id": "s-soc_geo-4",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "日本で最も面積が大きい湖はどれか。",
+    "answer": 0,
+    "explanation": "琵琶湖は滋賀県にある日本最大の湖。",
+    "plain": "日本で最も面積が大きい湖はどれか。　① 琵琶湖　② 霞ヶ浦　③ 猪苗代湖　④ 浜名湖",
+    "choices": [
+      "琵琶湖",
+      "霞ヶ浦",
+      "猪苗代湖",
+      "浜名湖"
+    ]
+  },
+  {
+    "id": "s-soc_geo-5",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "世界で最も面積が大きい国はどれか。",
+    "answer": 0,
+    "explanation": "ロシアは世界最大の面積をもつ国。",
+    "plain": "世界で最も面積が大きい国はどれか。　① ロシア　② 中国　③ アメリカ　④ カナダ",
+    "choices": [
+      "ロシア",
+      "中国",
+      "アメリカ",
+      "カナダ"
+    ]
+  },
+  {
+    "id": "s-soc_geo-6",
+    "category": "soc_geo",
+    "difficulty": 2,
+    "title": "地理",
+    "body": "オーストラリアの首都はどれか。",
+    "answer": 1,
+    "explanation": "首都はキャンベラ。シドニーは最大の都市。",
+    "plain": "オーストラリアの首都はどれか。　① メルボルン　② キャンベラ　③ パース　④ シドニー",
+    "choices": [
+      "メルボルン",
+      "キャンベラ",
+      "パース",
+      "シドニー"
+    ]
+  },
+  {
+    "id": "s-soc_geo-7",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "ブラジルの公用語はどれか。",
+    "answer": 3,
+    "explanation": "ブラジルはかつてポルトガルの植民地だった。",
+    "plain": "ブラジルの公用語はどれか。　① 英語　② フランス語　③ スペイン語　④ ポルトガル語",
+    "choices": [
+      "英語",
+      "フランス語",
+      "スペイン語",
+      "ポルトガル語"
+    ]
+  },
+  {
+    "id": "s-soc_geo-8",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "経度0度の経線を何というか。",
+    "answer": 1,
+    "explanation": "ロンドンの旧グリニッジ天文台を通る。",
+    "plain": "経度0度の経線を何というか。　① 赤道　② 本初子午線　③ 回帰線　④ 日付変更線",
+    "choices": [
+      "赤道",
+      "本初子午線",
+      "回帰線",
+      "日付変更線"
+    ]
+  },
+  {
+    "id": "s-soc_geo-9",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "日本の標準時の基準となる経線はどれか。",
+    "answer": 2,
+    "explanation": "兵庫県明石市などを通る東経135度の経線。",
+    "plain": "日本の標準時の基準となる経線はどれか。　① 東経140度　② 東経150度　③ 東経135度　④ 東経120度",
+    "choices": [
+      "東経140度",
+      "東経150度",
+      "東経135度",
+      "東経120度"
+    ]
+  },
+  {
+    "id": "s-soc_geo-10",
+    "category": "soc_geo",
+    "difficulty": 1,
+    "title": "地理",
+    "body": "三大洋のうち、最も大きいのはどれか。",
+    "answer": 2,
+    "explanation": "太平洋は地球の表面積の約3分の1を占める。",
+    "plain": "三大洋のうち、最も大きいのはどれか。　① インド洋　② 大西洋　③ 太平洋　④ 北極海",
+    "choices": [
+      "インド洋",
+      "大西洋",
+      "太平洋",
+      "北極海"
+    ]
+  },
+  {
+    "id": "s-soc_hist-1",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "鎌倉幕府を開いたのは誰か。",
+    "answer": 0,
+    "explanation": "源頼朝が1192年ごろ、鎌倉に幕府を開いた。",
+    "plain": "鎌倉幕府を開いたのは誰か。　① 源頼朝　② 足利尊氏　③ 平清盛　④ 徳川家康",
+    "choices": [
+      "源頼朝",
+      "足利尊氏",
+      "平清盛",
+      "徳川家康"
+    ]
+  },
+  {
+    "id": "s-soc_hist-2",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "江戸幕府を開いたのは誰か。",
+    "answer": 2,
+    "explanation": "徳川家康は1603年に征夷大将軍となり、江戸に幕府を開いた。",
+    "plain": "江戸幕府を開いたのは誰か。　① 足利義満　② 豊臣秀吉　③ 徳川家康　④ 織田信長",
+    "choices": [
+      "足利義満",
+      "豊臣秀吉",
+      "徳川家康",
+      "織田信長"
+    ]
+  },
+  {
+    "id": "s-soc_hist-3",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "明治維新で、新政府が成立したのは何年か。",
+    "answer": 0,
+    "explanation": "1868年に明治と改元され、新政府が成立した。",
+    "plain": "明治維新で、新政府が成立したのは何年か。　① 1868年　② 1889年　③ 1912年　④ 1853年",
+    "choices": [
+      "1868年",
+      "1889年",
+      "1912年",
+      "1853年"
+    ]
+  },
+  {
+    "id": "s-soc_hist-4",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "1853年に浦賀に来航したアメリカの使節は誰か。",
+    "answer": 1,
+    "explanation": "ペリーは黒船を率いて開国を求めた。",
+    "plain": "1853年に浦賀に来航したアメリカの使節は誰か。　① ハリス　② ペリー　③ ザビエル　④ ラクスマン",
+    "choices": [
+      "ハリス",
+      "ペリー",
+      "ザビエル",
+      "ラクスマン"
+    ]
+  },
+  {
+    "id": "s-soc_hist-5",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "大化の改新を始めた人物は誰か。",
+    "answer": 3,
+    "explanation": "中大兄皇子と中臣鎌足が、蘇我氏をたおして改革を始めた（645年）。",
+    "plain": "大化の改新を始めた人物は誰か。　① 天武天皇　② 聖徳太子　③ 桓武天皇　④ 中大兄皇子",
+    "choices": [
+      "天武天皇",
+      "聖徳太子",
+      "桓武天皇",
+      "中大兄皇子"
+    ]
+  },
+  {
+    "id": "s-soc_hist-6",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "794年に平安京に都を移した天皇は誰か。",
+    "answer": 2,
+    "explanation": "桓武天皇が平安京に都を移した。",
+    "plain": "794年に平安京に都を移した天皇は誰か。　① 推古天皇　② 聖武天皇　③ 桓武天皇　④ 天智天皇",
+    "choices": [
+      "推古天皇",
+      "聖武天皇",
+      "桓武天皇",
+      "天智天皇"
+    ]
+  },
+  {
+    "id": "s-soc_hist-7",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "関ヶ原の戦いが起こったのは何年か。",
+    "answer": 2,
+    "explanation": "1600年の関ヶ原の戦いで、徳川家康が勝った。",
+    "plain": "関ヶ原の戦いが起こったのは何年か。　① 1582年　② 1615年　③ 1600年　④ 1560年",
+    "choices": [
+      "1582年",
+      "1615年",
+      "1600年",
+      "1560年"
+    ]
+  },
+  {
+    "id": "s-soc_hist-8",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "日本国憲法が公布されたのは何年か。",
+    "answer": 2,
+    "explanation": "公布は1946年11月3日、施行は1947年5月3日。",
+    "plain": "日本国憲法が公布されたのは何年か。　① 1945年　② 1889年　③ 1946年　④ 1947年",
+    "choices": [
+      "1945年",
+      "1889年",
+      "1946年",
+      "1947年"
+    ]
+  },
+  {
+    "id": "s-soc_hist-9",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "第一次世界大戦が始まったのは何年か。",
+    "answer": 1,
+    "explanation": "1914年に始まり、1918年に終わった。",
+    "plain": "第一次世界大戦が始まったのは何年か。　① 1904年　② 1914年　③ 1918年　④ 1939年",
+    "choices": [
+      "1904年",
+      "1914年",
+      "1918年",
+      "1939年"
+    ]
+  },
+  {
+    "id": "s-soc_hist-10",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "室町幕府を開いたのは誰か。",
+    "answer": 0,
+    "explanation": "足利尊氏が京都に室町幕府を開いた。足利義満は3代将軍。",
+    "plain": "室町幕府を開いたのは誰か。　① 足利尊氏　② 北条時宗　③ 源頼朝　④ 足利義満",
+    "choices": [
+      "足利尊氏",
+      "北条時宗",
+      "源頼朝",
+      "足利義満"
+    ]
+  },
+  {
+    "id": "s-soc_hist-11",
+    "category": "soc_hist",
+    "difficulty": 1,
+    "title": "歴史",
+    "body": "太平洋戦争が終わったのは何年か。",
+    "answer": 0,
+    "explanation": "1945年8月に日本がポツダム宣言を受け入れた。",
+    "plain": "太平洋戦争が終わったのは何年か。　① 1945年　② 1939年　③ 1941年　④ 1952年",
+    "choices": [
+      "1945年",
+      "1939年",
+      "1941年",
+      "1952年"
+    ]
+  },
+  {
+    "id": "s-soc_hist-12",
+    "category": "soc_hist",
+    "difficulty": 2,
+    "title": "歴史",
+    "body": "1867年に大政奉還を行った人物は誰か。",
+    "answer": 0,
+    "explanation": "15代将軍の徳川慶喜が、政権を朝廷に返した。",
+    "plain": "1867年に大政奉還を行った人物は誰か。　① 徳川慶喜　② 坂本龍馬　③ 徳川家康　④ 西郷隆盛",
+    "choices": [
+      "徳川慶喜",
+      "坂本龍馬",
+      "徳川家康",
+      "西郷隆盛"
+    ]
+  },
+  {
+    "id": "s-soc_civ-1",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "日本国憲法の三大原則に含まれないものはどれか。",
+    "answer": 0,
+    "explanation": "三大原則は、国民主権・基本的人権の尊重・平和主義。三権分立は政治のしくみ。",
+    "plain": "日本国憲法の三大原則に含まれないものはどれか。　① 三権分立　② 平和主義　③ 基本的人権の尊重　④ 国民主権",
+    "choices": [
+      "三権分立",
+      "平和主義",
+      "基本的人権の尊重",
+      "国民主権"
+    ]
+  },
+  {
+    "id": "s-soc_civ-2",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "国会は、国の唯一の何機関か。",
+    "answer": 0,
+    "explanation": "国会は、法律をつくる唯一の機関。",
+    "plain": "国会は、国の唯一の何機関か。　① 立法　② 行政　③ 監査　④ 司法",
+    "choices": [
+      "立法",
+      "行政",
+      "監査",
+      "司法"
+    ]
+  },
+  {
+    "id": "s-soc_civ-3",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "内閣の長はだれか。",
+    "answer": 1,
+    "explanation": "内閣総理大臣は、国会の議決で指名される。",
+    "plain": "内閣の長はだれか。　① 天皇　② 内閣総理大臣　③ 国会議長　④ 最高裁判所長官",
+    "choices": [
+      "天皇",
+      "内閣総理大臣",
+      "国会議長",
+      "最高裁判所長官"
+    ]
+  },
+  {
+    "id": "s-soc_civ-4",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "裁判所のうち、最も上にある機関はどれか。",
+    "answer": 0,
+    "explanation": "最高裁判所は、終審裁判所で、「憲法の番人」とも呼ばれる。",
+    "plain": "裁判所のうち、最も上にある機関はどれか。　① 最高裁判所　② 地方裁判所　③ 簡易裁判所　④ 高等裁判所",
+    "choices": [
+      "最高裁判所",
+      "地方裁判所",
+      "簡易裁判所",
+      "高等裁判所"
+    ]
+  },
+  {
+    "id": "s-soc_civ-5",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "日本で選挙権をもつのは、満何歳以上か。",
+    "answer": 3,
+    "explanation": "2016年から、選挙権は満18歳以上になった。",
+    "plain": "日本で選挙権をもつのは、満何歳以上か。　① 30歳　② 20歳　③ 25歳　④ 18歳",
+    "choices": [
+      "30歳",
+      "20歳",
+      "25歳",
+      "18歳"
+    ]
+  },
+  {
+    "id": "s-soc_civ-6",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "公民",
+    "body": "衆議院議員の任期は何年か（解散がない場合）。",
+    "answer": 2,
+    "explanation": "衆議院は4年で解散がある。参議院は6年で、3年ごとに半数が改選される。",
+    "plain": "衆議院議員の任期は何年か（解散がない場合）。　① 6年　② 3年　③ 4年　④ 5年",
+    "choices": [
+      "6年",
+      "3年",
+      "4年",
+      "5年"
+    ]
+  },
+  {
+    "id": "s-soc_civ-7",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "公民",
+    "body": "都道府県知事の被選挙権は、満何歳以上か。",
+    "answer": 3,
+    "explanation": "知事は30歳以上、市町村長は25歳以上。",
+    "plain": "都道府県知事の被選挙権は、満何歳以上か。　① 35歳　② 25歳　③ 20歳　④ 30歳",
+    "choices": [
+      "35歳",
+      "25歳",
+      "20歳",
+      "30歳"
+    ]
+  },
+  {
+    "id": "s-soc_civ-8",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "次のうち、間接税はどれか。",
+    "answer": 2,
+    "explanation": "税を納める人と負担する人が別なものを間接税という。",
+    "plain": "次のうち、間接税はどれか。　① 相続税　② 所得税　③ 消費税　④ 法人税",
+    "choices": [
+      "相続税",
+      "所得税",
+      "消費税",
+      "法人税"
+    ]
+  },
+  {
+    "id": "s-soc_civ-9",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "需要が供給より多いとき、価格は一般にどうなるか。",
+    "answer": 1,
+    "explanation": "ほしい人が多いと、価格は上がりやすい。",
+    "plain": "需要が供給より多いとき、価格は一般にどうなるか。　① 変わらない　② 上がる　③ 下がる　④ ゼロになる",
+    "choices": [
+      "変わらない",
+      "上がる",
+      "下がる",
+      "ゼロになる"
+    ]
+  },
+  {
+    "id": "s-soc_civ-10",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "国際連合の本部がある都市はどれか。",
+    "answer": 2,
+    "explanation": "国連本部はアメリカのニューヨークにある。",
+    "plain": "国際連合の本部がある都市はどれか。　① ジュネーブ　② パリ　③ ニューヨーク　④ ロンドン",
+    "choices": [
+      "ジュネーブ",
+      "パリ",
+      "ニューヨーク",
+      "ロンドン"
+    ]
+  },
+  {
+    "id": "s-soc_civ-11",
+    "category": "soc_civ",
+    "difficulty": 2,
+    "title": "公民",
+    "body": "労働三法に含まれないものはどれか。",
+    "answer": 2,
+    "explanation": "労働三法は、労働基準法・労働組合法・労働関係調整法。",
+    "plain": "労働三法に含まれないものはどれか。　① 労働関係調整法　② 労働基準法　③ 民法　④ 労働組合法",
+    "choices": [
+      "労働関係調整法",
+      "労働基準法",
+      "民法",
+      "労働組合法"
+    ]
+  },
+  {
+    "id": "s-soc_civ-12",
+    "category": "soc_civ",
+    "difficulty": 1,
+    "title": "公民",
+    "body": "三権のうち、行政権をもつのはどれか。",
+    "answer": 0,
+    "explanation": "内閣は、法律にもとづいて政治を行う。",
+    "plain": "三権のうち、行政権をもつのはどれか。　① 内閣　② 国会　③ 天皇　④ 裁判所",
+    "choices": [
+      "内閣",
+      "国会",
+      "天皇",
+      "裁判所"
+    ]
+  },
+  {
+    "id": "s-sci_bio-1",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "光合成を行う、植物の細胞の小器官はどれか。",
+    "answer": 3,
+    "explanation": "葉緑体で、光のエネルギーを使って養分がつくられる。",
+    "plain": "光合成を行う、植物の細胞の小器官はどれか。　① ミトコンドリア　② 液胞　③ 核　④ 葉緑体",
+    "choices": [
+      "ミトコンドリア",
+      "液胞",
+      "核",
+      "葉緑体"
+    ]
+  },
+  {
+    "id": "s-sci_bio-2",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "血液中で、酸素を運んでいるのはどれか。",
+    "answer": 3,
+    "explanation": "赤血球に含まれるヘモグロビンが酸素と結びつく。",
+    "plain": "血液中で、酸素を運んでいるのはどれか。　① 血小板　② 白血球　③ 血しょう　④ 赤血球",
+    "choices": [
+      "血小板",
+      "白血球",
+      "血しょう",
+      "赤血球"
+    ]
+  },
+  {
+    "id": "s-sci_bio-3",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "遺伝子（DNA）が含まれる、細胞の部分はどれか。",
+    "answer": 2,
+    "explanation": "DNA は核の中にある。",
+    "plain": "遺伝子（DNA）が含まれる、細胞の部分はどれか。　① 葉緑体　② 細胞壁　③ 核　④ 液胞",
+    "choices": [
+      "葉緑体",
+      "細胞壁",
+      "核",
+      "液胞"
+    ]
+  },
+  {
+    "id": "s-sci_bio-4",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "光合成によってつくられる気体はどれか。",
+    "answer": 2,
+    "explanation": "光合成では、二酸化炭素と水から、養分と酸素ができる。",
+    "plain": "光合成によってつくられる気体はどれか。　① 二酸化炭素　② 窒素　③ 酸素　④ 水素",
+    "choices": [
+      "二酸化炭素",
+      "窒素",
+      "酸素",
+      "水素"
+    ]
+  },
+  {
+    "id": "s-sci_bio-5",
+    "category": "sci_bio",
+    "difficulty": 2,
+    "title": "生物",
+    "body": "だ液に含まれる、デンプンを分解する消化酵素はどれか。",
+    "answer": 0,
+    "explanation": "アミラーゼは、デンプンを糖に分解する。",
+    "plain": "だ液に含まれる、デンプンを分解する消化酵素はどれか。　① アミラーゼ　② ペプシン　③ トリプシン　④ リパーゼ",
+    "choices": [
+      "アミラーゼ",
+      "ペプシン",
+      "トリプシン",
+      "リパーゼ"
+    ]
+  },
+  {
+    "id": "s-sci_bio-6",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "ヒトの心臓にある部屋の数はいくつか。",
+    "answer": 2,
+    "explanation": "2つの心房と2つの心室がある。",
+    "plain": "ヒトの心臓にある部屋の数はいくつか。　① 2つ　② 5つ　③ 4つ　④ 3つ",
+    "choices": [
+      "2つ",
+      "5つ",
+      "4つ",
+      "3つ"
+    ]
+  },
+  {
+    "id": "s-sci_bio-7",
+    "category": "sci_bio",
+    "difficulty": 1,
+    "title": "生物",
+    "body": "食物連鎖で、生産者にあたるのはどれか。",
+    "answer": 3,
+    "explanation": "光合成で養分をつくる植物が、生産者。",
+    "plain": "食物連鎖で、生産者にあたるのはどれか。　① 分解者　② 草食動物　③ 肉食動物　④ 植物",
+    "choices": [
+      "分解者",
+      "草食動物",
+      "肉食動物",
+      "植物"
+    ]
+  },
+  {
+    "id": "s-sci_chem-1",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "水の化学式はどれか。",
+    "answer": 0,
+    "explanation": "水は水素原子2個と酸素原子1個からできている。",
+    "plain": "水の化学式はどれか。　① H₂O　② CO₂　③ O₂　④ NaCl",
+    "choices": [
+      "$\\mathrm{H_2O}$",
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{O_2}$",
+      "$\\mathrm{NaCl}$"
+    ]
+  },
+  {
+    "id": "s-sci_chem-2",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "二酸化炭素の化学式はどれか。",
+    "answer": 1,
+    "explanation": "炭素原子1個と酸素原子2個。",
+    "plain": "二酸化炭素の化学式はどれか。　① H₂O　② CO₂　③ N₂　④ O₂",
+    "choices": [
+      "$\\mathrm{H_2O}$",
+      "$\\mathrm{CO_2}$",
+      "$\\mathrm{N_2}$",
+      "$\\mathrm{O_2}$"
+    ]
+  },
+  {
+    "id": "s-sci_chem-3",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "水素の元素記号はどれか。",
+    "answer": 1,
+    "explanation": "水素は H、ヘリウムは He。",
+    "plain": "水素の元素記号はどれか。　① He　② H　③ O　④ N",
+    "choices": [
+      "$\\mathrm{He}$",
+      "$\\mathrm{H}$",
+      "$\\mathrm{O}$",
+      "$\\mathrm{N}$"
+    ]
+  },
+  {
+    "id": "s-sci_chem-4",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "酸性の水溶液に BTB 液を加えると、何色になるか。",
+    "answer": 0,
+    "explanation": "BTB 液は、酸性で黄色、中性で緑色、アルカリ性で青色。",
+    "plain": "酸性の水溶液に BTB 液を加えると、何色になるか。　① 黄色　② 赤色　③ 青色　④ 緑色",
+    "choices": [
+      "黄色",
+      "赤色",
+      "青色",
+      "緑色"
+    ]
+  },
+  {
+    "id": "s-sci_chem-5",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "中性の水溶液に BTB 液を加えると、何色になるか。",
+    "answer": 1,
+    "explanation": "BTB 液は、中性で緑色。",
+    "plain": "中性の水溶液に BTB 液を加えると、何色になるか。　① 赤色　② 緑色　③ 青色　④ 黄色",
+    "choices": [
+      "赤色",
+      "緑色",
+      "青色",
+      "黄色"
+    ]
+  },
+  {
+    "id": "s-sci_chem-6",
+    "category": "sci_chem",
+    "difficulty": 2,
+    "title": "化学",
+    "body": "鉄が空気中でさびるのは、鉄が何と結びつくからか。",
+    "answer": 1,
+    "explanation": "さびは、鉄が酸素と結びつく酸化によってできる。",
+    "plain": "鉄が空気中でさびるのは、鉄が何と結びつくからか。　① 水素　② 酸素　③ 二酸化炭素　④ 窒素",
+    "choices": [
+      "水素",
+      "酸素",
+      "二酸化炭素",
+      "窒素"
+    ]
+  },
+  {
+    "id": "s-sci_chem-7",
+    "category": "sci_chem",
+    "difficulty": 1,
+    "title": "化学",
+    "body": "1気圧で、水が沸騰する温度は何℃か。",
+    "answer": 2,
+    "explanation": "水の沸点は100℃、凝固点は0℃。",
+    "plain": "1気圧で、水が沸騰する温度は何℃か。　① 0℃　② 120℃　③ 100℃　④ 90℃",
+    "choices": [
+      "0℃",
+      "120℃",
+      "100℃",
+      "90℃"
+    ]
+  },
+  {
+    "id": "s-sci_phys-1",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "物理",
+    "body": "力の大きさを表す単位はどれか。",
+    "answer": 1,
+    "explanation": "力の単位はニュートン。",
+    "plain": "力の大きさを表す単位はどれか。　① ジュール（J）　② ニュートン（N）　③ ボルト（V）　④ ワット（W）",
+    "choices": [
+      "ジュール（J）",
+      "ニュートン（N）",
+      "ボルト（V）",
+      "ワット（W）"
+    ]
+  },
+  {
+    "id": "s-sci_phys-2",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "物理",
+    "body": "電圧の単位はどれか。",
+    "answer": 0,
+    "explanation": "電圧はボルト、電流はアンペア、抵抗はオーム。",
+    "plain": "電圧の単位はどれか。　① ボルト（V）　② ワット（W）　③ アンペア（A）　④ オーム（Ω）",
+    "choices": [
+      "ボルト（V）",
+      "ワット（W）",
+      "アンペア（A）",
+      "オーム（Ω）"
+    ]
+  },
+  {
+    "id": "s-sci_phys-3",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "物理",
+    "body": "電力の単位はどれか。",
+    "answer": 3,
+    "explanation": "電力はワット。電力量はジュールやワット時。",
+    "plain": "電力の単位はどれか。　① ボルト（V）　② ジュール（J）　③ ニュートン（N）　④ ワット（W）",
+    "choices": [
+      "ボルト（V）",
+      "ジュール（J）",
+      "ニュートン（N）",
+      "ワット（W）"
+    ]
+  },
+  {
+    "id": "s-sci_phys-4",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "物理",
+    "body": "音の高さは、音源の何で決まるか。",
+    "answer": 0,
+    "explanation": "振動数が多いほど高い音。振幅が大きいと大きな音。",
+    "plain": "音の高さは、音源の何で決まるか。　① 振動数　② 波の速さ　③ 振幅　④ 音源の大きさ",
+    "choices": [
+      "振動数",
+      "波の速さ",
+      "振幅",
+      "音源の大きさ"
+    ]
+  },
+  {
+    "id": "s-sci_phys-5",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "物理",
+    "body": "仕事の単位はどれか。",
+    "answer": 0,
+    "explanation": "仕事 = 力 × 距離。単位はジュール。",
+    "plain": "仕事の単位はどれか。　① ジュール（J）　② ニュートン（N）　③ ワット（W）　④ パスカル（Pa）",
+    "choices": [
+      "ジュール（J）",
+      "ニュートン（N）",
+      "ワット（W）",
+      "パスカル（Pa）"
+    ]
+  },
+  {
+    "id": "s-sci_earth-1",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "地学",
+    "body": "太陽系の惑星のうち、最も大きいのはどれか。",
+    "answer": 3,
+    "explanation": "木星は太陽系最大の惑星。",
+    "plain": "太陽系の惑星のうち、最も大きいのはどれか。　① 土星　② 地球　③ 海王星　④ 木星",
+    "choices": [
+      "土星",
+      "地球",
+      "海王星",
+      "木星"
+    ]
+  },
+  {
+    "id": "s-sci_earth-2",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "地学",
+    "body": "地球が自転して、1回転するのにかかる時間はどれか。",
+    "answer": 1,
+    "explanation": "地球は約24時間で1回自転する。",
+    "plain": "地球が自転して、1回転するのにかかる時間はどれか。　① 約1か月　② 約24時間　③ 約1年　④ 約12時間",
+    "choices": [
+      "約1か月",
+      "約24時間",
+      "約1年",
+      "約12時間"
+    ]
+  },
+  {
+    "id": "s-sci_earth-3",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "地学",
+    "body": "地球が太陽のまわりを1周する期間はどれか。",
+    "answer": 1,
+    "explanation": "公転周期は約365日。",
+    "plain": "地球が太陽のまわりを1周する期間はどれか。　① 10年　② 1年　③ 1日　④ 1か月",
+    "choices": [
+      "10年",
+      "1年",
+      "1日",
+      "1か月"
+    ]
+  },
+  {
+    "id": "s-sci_earth-4",
+    "category": "sci_earth",
+    "difficulty": 2,
+    "title": "地学",
+    "body": "日本に四季があるおもな理由はどれか。",
+    "answer": 1,
+    "explanation": "地軸が傾いているため、季節によって太陽の高さと昼の長さが変わる。",
+    "plain": "日本に四季があるおもな理由はどれか。　① 太陽の大きさが変わるから　② 地軸が傾いたまま公転しているから　③ 月の引力があるから　④ 地球と太陽の距離が大きく変わるから",
+    "choices": [
+      "太陽の大きさが変わるから",
+      "地軸が傾いたまま公転しているから",
+      "月の引力があるから",
+      "地球と太陽の距離が大きく変わるから"
+    ]
+  },
+  {
+    "id": "s-sci_earth-5",
+    "category": "sci_earth",
+    "difficulty": 2,
+    "title": "地学",
+    "body": "マグマが冷えて固まってできた岩石を何というか。",
+    "answer": 1,
+    "explanation": "火成岩には、火山岩と深成岩がある。",
+    "plain": "マグマが冷えて固まってできた岩石を何というか。　① 変成岩　② 火成岩　③ 化石　④ 堆積岩",
+    "choices": [
+      "変成岩",
+      "火成岩",
+      "化石",
+      "堆積岩"
+    ]
+  },
+  {
+    "id": "s-sci_earth-6",
+    "category": "sci_earth",
+    "difficulty": 1,
+    "title": "地学",
+    "body": "地震で、震源の真上の地表の地点を何というか。",
+    "answer": 3,
+    "explanation": "震源の真上の地点が震央。",
+    "plain": "地震で、震源の真上の地表の地点を何というか。　① 震度　② 断層　③ 震源　④ 震央",
+    "choices": [
+      "震度",
+      "断層",
+      "震源",
+      "震央"
+    ]
+  },
+  {
+    "id": "s-sci_phys-6",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 6\\,\\mathrm{V} $ の電圧を、$ 3\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 2,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 6 \\div 3 = 2\\,\\mathrm{A}$。",
+    "plain": "6 V の電圧を、3 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-7",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 12\\,\\mathrm{V} $ の電圧を、$ 4\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 3,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 12 \\div 4 = 3\\,\\mathrm{A}$。",
+    "plain": "12 V の電圧を、4 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-8",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 9\\,\\mathrm{V} $ の電圧を、$ 3\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 3,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 9 \\div 3 = 3\\,\\mathrm{A}$。",
+    "plain": "9 V の電圧を、3 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-9",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 10\\,\\mathrm{V} $ の電圧を、$ 5\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 2,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 10 \\div 5 = 2\\,\\mathrm{A}$。",
+    "plain": "10 V の電圧を、5 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-10",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 24\\,\\mathrm{V} $ の電圧を、$ 6\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 4,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 24 \\div 6 = 4\\,\\mathrm{A}$。",
+    "plain": "24 V の電圧を、6 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-11",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 12\\,\\mathrm{V} $ の電圧を、$ 2\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 6,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 12 \\div 2 = 6\\,\\mathrm{A}$。",
+    "plain": "12 V の電圧を、2 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-12",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 20\\,\\mathrm{V} $ の電圧を、$ 4\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 5,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 20 \\div 4 = 5\\,\\mathrm{A}$。",
+    "plain": "20 V の電圧を、4 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-13",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "オームの法則",
+    "body": "$ 18\\,\\mathrm{V} $ の電圧を、$ 6\\,\\Omega $ の抵抗にかけたとき、流れる電流は何 $\\mathrm{A}$ か。",
+    "answer": 3,
+    "explanation": "電流 = 電圧 ÷ 抵抗 より $ 18 \\div 6 = 3\\,\\mathrm{A}$。",
+    "plain": "18 V の電圧を、6 Ω の抵抗にかけたとき、流れる電流は何 A か。"
+  },
+  {
+    "id": "s-sci_phys-14",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 120\\,\\mathrm{m} $ を $ 20 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 6,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 120 \\div 20 = 6\\,\\mathrm{m/s}$。",
+    "plain": "120 m を 20 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-15",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 100\\,\\mathrm{m} $ を $ 10 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 10,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 100 \\div 10 = 10\\,\\mathrm{m/s}$。",
+    "plain": "100 m を 10 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-16",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 90\\,\\mathrm{m} $ を $ 15 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 6,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 90 \\div 15 = 6\\,\\mathrm{m/s}$。",
+    "plain": "90 m を 15 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-17",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 200\\,\\mathrm{m} $ を $ 25 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 8,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 200 \\div 25 = 8\\,\\mathrm{m/s}$。",
+    "plain": "200 m を 25 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-18",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 150\\,\\mathrm{m} $ を $ 30 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 5,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 150 \\div 30 = 5\\,\\mathrm{m/s}$。",
+    "plain": "150 m を 30 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-19",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 60\\,\\mathrm{m} $ を $ 12 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 5,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 60 \\div 12 = 5\\,\\mathrm{m/s}$。",
+    "plain": "60 m を 12 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-20",
+    "category": "sci_phys",
+    "difficulty": 1,
+    "title": "速さ",
+    "body": "$ 84\\,\\mathrm{m} $ を $ 12 $ 秒で進む物体の速さは、何 $\\mathrm{m/s}$ か。",
+    "answer": 7,
+    "explanation": "速さ = 距離 ÷ 時間 より $ 84 \\div 12 = 7\\,\\mathrm{m/s}$。",
+    "plain": "84 m を 12 秒で進む物体の速さは、何 m/s か。"
+  },
+  {
+    "id": "s-sci_phys-21",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 80\\,\\mathrm{g} $、体積 $ 10\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 8,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 80 \\div 10 = 8\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 80 g、体積 10 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-22",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 54\\,\\mathrm{g} $、体積 $ 6\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 9,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 54 \\div 6 = 9\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 54 g、体積 6 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-23",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 135\\,\\mathrm{g} $、体積 $ 15\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 9,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 135 \\div 15 = 9\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 135 g、体積 15 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-24",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 100\\,\\mathrm{g} $、体積 $ 20\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 5,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 100 \\div 20 = 5\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 100 g、体積 20 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-25",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 45\\,\\mathrm{g} $、体積 $ 5\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 9,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 45 \\div 5 = 9\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 45 g、体積 5 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-26",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "密度",
+    "body": "質量 $ 63\\,\\mathrm{g} $、体積 $ 9\\,\\mathrm{cm^3} $ の物体の密度は、何 $\\mathrm{g/cm^3}$ か。",
+    "answer": 7,
+    "explanation": "密度 = 質量 ÷ 体積 より $ 63 \\div 9 = 7\\,\\mathrm{g/cm^3}$。",
+    "plain": "質量 63 g、体積 9 cm³ の物体の密度は、何 g/cm³ か。"
+  },
+  {
+    "id": "s-sci_phys-27",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 60\\,\\mathrm{N} $ の力が、$ 2\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 30,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 60 \\div 2 = 30\\,\\mathrm{Pa}$。",
+    "plain": "60 N の力が、2 m² の面を垂直におすとき、圧力は何 Pa か。"
+  },
+  {
+    "id": "s-sci_phys-28",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 100\\,\\mathrm{N} $ の力が、$ 5\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 20,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 100 \\div 5 = 20\\,\\mathrm{Pa}$。",
+    "plain": "100 N の力が、5 m² の面を垂直におすとき、圧力は何 Pa か。"
+  },
+  {
+    "id": "s-sci_phys-29",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 90\\,\\mathrm{N} $ の力が、$ 3\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 30,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 90 \\div 3 = 30\\,\\mathrm{Pa}$。",
+    "plain": "90 N の力が、3 m² の面を垂直におすとき、圧力は何 Pa か。"
+  },
+  {
+    "id": "s-sci_phys-30",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 48\\,\\mathrm{N} $ の力が、$ 4\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 12,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 48 \\div 4 = 12\\,\\mathrm{Pa}$。",
+    "plain": "48 N の力が、4 m² の面を垂直におすとき、圧力は何 Pa か。"
+  },
+  {
+    "id": "s-sci_phys-31",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 200\\,\\mathrm{N} $ の力が、$ 8\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 25,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 200 \\div 8 = 25\\,\\mathrm{Pa}$。",
+    "plain": "200 N の力が、8 m² の面を垂直におすとき、圧力は何 Pa か。"
+  },
+  {
+    "id": "s-sci_phys-32",
+    "category": "sci_phys",
+    "difficulty": 2,
+    "title": "圧力",
+    "body": "$ 150\\,\\mathrm{N} $ の力が、$ 5\\,\\mathrm{m^2} $ の面を垂直におすとき、圧力は何 $\\mathrm{Pa}$ か。",
+    "answer": 30,
+    "explanation": "圧力 = 力 ÷ 面積 より $ 150 \\div 5 = 30\\,\\mathrm{Pa}$。",
+    "plain": "150 N の力が、5 m² の面を垂直におすとき、圧力は何 Pa か。"
   }
 ]

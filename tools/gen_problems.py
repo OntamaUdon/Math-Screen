@@ -96,7 +96,7 @@ def _math_plain(s):
     s = re.sub(r"_\{([^{}]*)\}", r"_(\1)", s)
     s = re.sub(r"_(\d)", lambda m: _SUB[m.group(1)], s)
     for a, b in [("\\cdots", "…"), ("\\cdot", "·"), ("\\times", "×"), ("\\div", "÷"), ("\\leqq", "≦"), ("\\geqq", "≧"),
-                 ("\\pm", "±"), ("\\pi", "π"), ("\\theta", "θ"), ("\\omega", "ω"), ("\\angle", "∠"), ("\\circ", "°"),
+                 ("\\pm", "±"), ("\\pi", "π"), ("\\theta", "θ"), ("\\omega", "ω"), ("\\Omega", "Ω"), ("\\angle", "∠"), ("\\circ", "°"),
                  ("\\infty", "∞"), ("\\to", "→"), ("\\sin", "sin"), ("\\cos", "cos"), ("\\tan", "tan"),
                  ("\\log", "log"), ("\\int", "∫"), ("\\sum", "Σ"), ("\\equiv", "≡"), ("\\pmod", "mod "),
                  ("\\dots", "…"), ("\\mathrm", "")]:

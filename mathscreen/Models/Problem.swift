@@ -20,9 +20,39 @@ struct Problem: Codable, Identifiable, Hashable {
     var difficultyInfo: Difficulty { Difficulty(rawValue: difficulty) ?? .easy }
 }
 
+/// 教科。ルールを作るとき、教科ごとにまとめて選べる。
+enum Subject: String, CaseIterable, Identifiable {
+    case math, english, social, science
+    var id: String { rawValue }
+
+    var label: String {
+        switch self {
+        case .math: "数学"
+        case .english: "英語"
+        case .social: "社会"
+        case .science: "理科"
+        }
+    }
+
+    var categories: [ProblemCategory] { ProblemCategory.allCases.filter { $0.subject == self } }
+}
+
+/// 問題の分野。problems.json の category と同じ文字。
 enum ProblemCategory: String, CaseIterable, Identifiable {
     case junior, math1a, math2b, math3c
+    case eng_word, eng_sentence
+    case soc_geo, soc_hist, soc_civ
+    case sci_bio, sci_chem, sci_phys, sci_earth
     var id: String { rawValue }
+
+    var subject: Subject {
+        switch self {
+        case .junior, .math1a, .math2b, .math3c: .math
+        case .eng_word, .eng_sentence: .english
+        case .soc_geo, .soc_hist, .soc_civ: .social
+        case .sci_bio, .sci_chem, .sci_phys, .sci_earth: .science
+        }
+    }
 
     var label: String {
         switch self {
@@ -30,6 +60,15 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .math1a: "数学I・A"
         case .math2b: "数学II・B"
         case .math3c: "数学III・C"
+        case .eng_word: "英単語"
+        case .eng_sentence: "英文法・和訳"
+        case .soc_geo: "地理"
+        case .soc_hist: "歴史"
+        case .soc_civ: "公民"
+        case .sci_bio: "生物"
+        case .sci_chem: "化学"
+        case .sci_phys: "物理"
+        case .sci_earth: "地学"
         }
     }
 }

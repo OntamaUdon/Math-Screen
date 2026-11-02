@@ -11,6 +11,9 @@ final class DeviceActivityMonitorExtension: DeviceActivityMonitor {
 
         ShieldController.lock(rule)
         SharedStore.markLocked(rule.id)
+        if let p = SharedStore.rulePending(ruleID: rule.id) {      // このルールの分野から選んだ問題
+            SharedStore.setPendingProblem(id: p.id, body: p.body)
+        }
         SharedStore.updateToday { $0.triggers += 1 }
 
         ChallengeNotification.send(
