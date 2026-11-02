@@ -44,11 +44,12 @@ struct ChallengeView: View {
         .scrollIndicators(.hidden)
         .isoBackground()
         .onAppear { if problem == nil { next() } }
-        .confirmationDialog("緊急解除しますか？", isPresented: $confirmEmergency, titleVisibility: .visible) {
-            Button("解除する", role: .destructive) {
+        .alert("緊急解除しますか？", isPresented: $confirmEmergency) {
+            Button("緊急解除する", role: .destructive) {
                 model.emergencyUnlock()
                 dismiss()
             }
+            Button("緊急解除しない", role: .cancel) {}
         } message: {
             Text("問題を解かずにすべての制限を外します。記録には「緊急解除」として残ります。")
         }

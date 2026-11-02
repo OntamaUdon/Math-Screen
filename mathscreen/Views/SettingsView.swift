@@ -4,6 +4,7 @@ import FamilyControls
 struct SettingsView: View {
     @Environment(AppModel.self) private var model
     @State private var confirmEmergency = false
+    @State private var showGuide = false
 
     var body: some View {
         let s = model.settings
@@ -45,6 +46,19 @@ struct SettingsView: View {
                 }
             }
 
+            group("このアプリについて") {
+                Button { showGuide = true } label: {
+                    HStack {
+                        Text("使い方を見る").font(Theme.font(16)).foregroundStyle(Theme.ink)
+                        Spacer()
+                        Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
+                    }
+                    .padding(.horizontal, 18).padding(.vertical, 14)
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+            }
+
             group("診断", footer: "ブロック画面が出ない・普通の画面が出るときに、どの部分が動いたかを確認するための表示です。「まだ動いていません」のままなら、その部分が動いていません。") {
                 diagRow("使用時間の監視", key: "monitor")
                 Divider().padding(.leading, 18)
@@ -74,9 +88,13 @@ struct SettingsView: View {
                 .font(Theme.font(12)).foregroundStyle(Theme.inkFaint)
                 .frame(maxWidth: .infinity)
         }
-        .confirmationDialog("緊急解除しますか？", isPresented: $confirmEmergency, titleVisibility: .visible) {
-            Button("解除する", role: .destructive) { model.emergencyUnlock() }
+        .alert("緊急解除しますか？", isPresented: $confirmEmergency) {
+            Button("緊急解除する", role: .destructive) { model.emergencyUnlock() }
+            Button("緊急解除しない", role: .cancel) {}
+        } message: {
+            Text("問題を解かずにすべての制限を外します。記録には「緊急解除」として残ります。")
         }
+        .sheet(isPresented: $showGuide) { OnboardingView(replay: true) }
     }
 
     private func diagRow(_ title: String, key: String) -> some View {
