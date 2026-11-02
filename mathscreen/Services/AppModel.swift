@@ -86,19 +86,9 @@ final class AppModel {
         prepareImages()
     }
 
-    /// 次に出す問題（ルールごとの問題と、いまの問題）を、LaTeX の画像にしておく。ブロック画面のアイコン欄に使う。
+    /// ブロック画面には問題を出さなくなったので、以前に作った問題の画像を片づけるだけ。
     private func prepareImages() {
-        var ids = Set<String>()
-        if let p = pendingProblem { ids.insert(p.id) }
-        for rule in rules { if let r = SharedStore.rulePending(ruleID: rule.id) { ids.insert(r.id) } }
-        ProblemImageStore.prune(keeping: ids)
-        Task {
-            for id in ids {
-                if let problem = ProblemBank.all.first(where: { $0.id == id }) {
-                    await ProblemImageRenderer.shared.ensureImage(for: problem)
-                }
-            }
-        }
+        ProblemImageStore.prune(keeping: [])
     }
 
     var isLocked: Bool { !lockedRuleIDs.isEmpty }

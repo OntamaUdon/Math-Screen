@@ -20,7 +20,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         make(name: webDomain.domain)
     }
 
-    /// ミントの背景に、「◯◯を◯分使いました。…」、問題文、問題の画像（白い背景）を出す。
+    /// ミントの背景に「◯◯を◯分使いました。…」だけを出す。問題は本体アプリで表示する（ボタン → 通知 → アプリ）。
     /// ボタンの位置は iOS が決めるので、変えられない。
     private func make(name: String?) -> ShieldConfiguration {
         ShieldData.recordDiag("shieldConfig")
@@ -33,20 +33,19 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let intro = minutes > 0
             ? "\(app)を\(minutes)分使いました。問題を解いてロックを解除しましょう！"
             : "\(app)の使用時間になりました。問題を解いてロックを解除しましょう！"
-        let problem = ShieldData.pendingBody ?? "解くロックを開いて問題を解いてください。"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
             backgroundColor: mint,
-            icon: ShieldData.problemImage() ?? Self.blankIcon,      // LaTeX で描いた問題の画像（白い背景）
+            icon: Self.blankIcon,
             title: ShieldConfiguration.Label(text: "問題", color: ink),
-            subtitle: ShieldConfiguration.Label(text: "\(intro)\n\n\(problem)", color: ink),
+            subtitle: ShieldConfiguration.Label(text: intro, color: ink),
             primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
         )
     }
 
-    /// 問題の画像がまだないときの、透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
+    /// 透明な画像（nil だと iOS 既定のアイコンが出る場合があるため）。
     private static let blankIcon: UIImage = UIGraphicsImageRenderer(size: CGSize(width: 1, height: 1)).image { _ in }
 }
