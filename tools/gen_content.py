@@ -456,6 +456,8 @@ def generate():
     gen_content6.generate()
     import gen_content7
     gen_content7.generate()
+    import gen_content8
+    gen_content8.generate()
     return list(OUT)
 
 

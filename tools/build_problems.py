@@ -236,6 +236,8 @@ import gen_math4
 P.extend(gen_math4.generate())
 import gen_math5
 P.extend(gen_math5.generate())
+import gen_math6
+P.extend(gen_math6.generate())
 import gen_content
 P.extend(gen_content.generate())
 
