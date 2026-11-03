@@ -20,6 +20,14 @@ struct DiagnosticsView: View {
                     row("ブロック画面の表示", key: "shieldConfig")
                     Divider().padding(.leading, 18)
                     row("ブロック画面のボタン", key: "shieldAction")
+                    Divider().padding(.leading, 18)
+                    HStack {
+                        Text("ブロック画面の外観").font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
+                        Spacer()
+                        Text(SharedStore.diagNote("shieldStyle") ?? "まだ動いていません")
+                            .font(Theme.font(14, .semibold)).foregroundStyle(Theme.ink)
+                    }
+                    .padding(.horizontal, 18).padding(.vertical, 14)
                 }
                 .card(padding: 0)
 

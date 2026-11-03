@@ -18,6 +18,9 @@ enum ShieldData {
     /// 画面が作られた時刻を残す（設定の「診断」で見る）。
     static func recordDiag(_ key: String) { defaults.set(Date().timeIntervalSince1970, forKey: "diag.\(key)") }
 
+    /// 診断用の一言メモ（外観など）を残す。
+    static func recordNote(_ key: String, _ value: String) { defaults.set(value, forKey: "diagNote.\(key)") }
+
     /// アプリが LaTeX で描いた問題の画像。メモリを使いすぎないよう、縮小しながら読む。
     static func problemImage() -> UIImage? {
         guard let id = pendingID,

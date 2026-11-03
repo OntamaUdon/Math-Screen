@@ -19,7 +19,7 @@ struct RootView: View {
         }
         .sheet(isPresented: $lock.showEntry) { PasscodeEntryView() }
         .onChange(of: scenePhase) { _, phase in if phase != .active { ParentLock.shared.lock() } }
-        .alert("エラー", isPresented: Binding(get: { model.lastError != nil }, set: { if !$0 { model.lastError = nil } })) {
+        .alert(model.alertTitle, isPresented: Binding(get: { model.lastError != nil }, set: { if !$0 { model.lastError = nil; model.alertTitle = "エラー" } })) {
             Button("OK", role: .cancel) {}
         } message: {
             Text(model.lastError ?? "")

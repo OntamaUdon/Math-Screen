@@ -20,6 +20,7 @@ final class AppModel {
     var showChallenge = false
     var notificationStatus: UNAuthorizationStatus = .notDetermined     // 通知がオフだと、ブロック画面からの案内が届かない
     var lastError: String?
+    var alertTitle = "エラー"          // lastError を出すときの見出し
 
     private init() { refresh() }
 
@@ -112,7 +113,21 @@ final class AppModel {
         do {
             try await AuthorizationCenter.shared.requestAuthorization(for: .individual)
         } catch {
-            lastError = "スクリーンタイムへのアクセスが許可されませんでした。（\(error.localizedDescription)）"
+            alertTitle = "アクセスは許可されませんでした"
+            if let e = error as? FamilyControlsError {
+                switch e {
+                case .authorizationCanceled:
+                    lastError = "スクリーンタイムへのアクセスが許可されなかったので、アプリの使用時間を数えられません。\n「設定」タブの「許可する」から、あとでもう一度許可できます。"
+                case .restricted:
+                    lastError = "この端末では、スクリーンタイムの許可が制限されています。保護者の設定などをご確認ください。"
+                case .networkError:
+                    lastError = "通信がうまくいかず、許可できませんでした。電波のいい場所で、もう一度試してください。"
+                default:
+                    lastError = "許可できませんでした。もう一度試してください。\n（\(error.localizedDescription)）"
+                }
+            } else {
+                lastError = "許可できませんでした。もう一度試してください。\n（\(error.localizedDescription)）"
+            }
         }
         _ = try? await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
         authorization = AuthorizationCenter.shared.authorizationStatus
