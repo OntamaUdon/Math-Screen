@@ -61,7 +61,9 @@ struct HomeView: View {
                 Text("見守るアプリ").font(Theme.font(18, .bold)).foregroundStyle(Theme.ink)
                 Spacer()
                 Button {
-                    editing = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 10, questionCount: 1)
+                    ParentLock.shared.request {
+                        editing = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 10, questionCount: 1)
+                    }
                 } label: {
                     Label("追加", systemImage: "plus")
                         .font(Theme.font(14, .semibold))
@@ -69,7 +71,7 @@ struct HomeView: View {
                 }
             }
 
-            if model.authorization != .approved {
+            if model.authorization != .approved && !ParentLock.shared.isActive {   // 保護者モード中は子どもに見せない
                 Text("スクリーンタイムへのアクセスが未許可です。「設定」タブから許可してください。")
                     .font(Theme.font(14)).foregroundStyle(Theme.danger)
                     .padding(14).frame(maxWidth: .infinity, alignment: .leading)
@@ -87,9 +89,9 @@ struct HomeView: View {
                         if i > 0 { Divider().padding(.leading, 16) }
                         RuleRow(rule: rule, locked: model.lockedRuleIDs.contains(rule.id),
                                 used: model.ruleProgress[rule.id] ?? 0,
-                                onToggle: { model.setEnabled(rule, $0) })
+                                onToggle: { on in ParentLock.shared.request { model.setEnabled(rule, on) } })
                             .contentShape(Rectangle())
-                            .onTapGesture { editing = rule }
+                            .onTapGesture { ParentLock.shared.request { editing = rule } }
                     }
                 }
                 .card(padding: 0)

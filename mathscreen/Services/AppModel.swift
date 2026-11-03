@@ -35,6 +35,7 @@ final class AppModel {
         isPremium = SharedStore.isPremium
         ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
+        ParentLock.recordAuthorization(approved: authorization == .approved)
         ensurePendingProblem()
     }
 

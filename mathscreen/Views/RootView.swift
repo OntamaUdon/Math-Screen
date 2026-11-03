@@ -2,9 +2,11 @@ import SwiftUI
 
 struct RootView: View {
     @Environment(AppModel.self) private var model
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         @Bindable var model = model
+        @Bindable var lock = ParentLock.shared
         Group {
             if model.hasOnboarded {
                 MainTabView()
@@ -15,6 +17,8 @@ struct RootView: View {
         .fullScreenCover(isPresented: $model.showChallenge) {
             ChallengeView()
         }
+        .sheet(isPresented: $lock.showEntry) { PasscodeEntryView() }
+        .onChange(of: scenePhase) { _, phase in if phase != .active { ParentLock.shared.lock() } }
         .alert("エラー", isPresented: Binding(get: { model.lastError != nil }, set: { if !$0 { model.lastError = nil } })) {
             Button("OK", role: .cancel) {}
         } message: {
