@@ -27,7 +27,18 @@ enum BookMap {
                     return MapNode(id: "u:\(u.id)", title: u.name,
                                    subtitle: level == .none ? "\(n)問" : "\(n)問 ・ \(level.label)", subject: s)
                 }
-                return MapNode(id: "st:\(s.rawValue):\(st)", title: st, subtitle: "\(list.count)単元", subject: s, children: unitNodes)
+                // 10個を超えるときは、グループ（物理・数学IIなど）に分ける
+                var kids = unitNodes
+                if list.count > 10 {
+                    var order: [String] = []
+                    for u in list { let g = u.group ?? "その他"; if !order.contains(g) { order.append(g) } }
+                    kids = order.map { g in
+                        let members = list.indices.filter { (list[$0].group ?? "その他") == g }
+                        return MapNode(id: "gr:\(s.rawValue):\(st):\(g)", title: g, subtitle: "\(members.count)単元", subject: s,
+                                       children: members.map { unitNodes[$0] })
+                    }
+                }
+                return MapNode(id: "st:\(s.rawValue):\(st)", title: st, subtitle: "\(list.count)単元", subject: s, children: kids)
             }
             subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: "\(units.count)単元", subject: s, children: stageNodes))
         }
@@ -70,7 +81,7 @@ struct ProblemBookView: View {
                 searchField.padding(.horizontal, 20)
 
                 if trimmedQuery.isEmpty {
-                    MindMapView(root: BookMap.browse(premium: model.isPremium)) { node in
+                    MindMapView(root: BookMap.browse(premium: model.isPremium), openPath: ["root"]) { node in
                         if node.id.hasPrefix("u:") { sheet = .unit(String(node.id.dropFirst(2))) }
                         else if node.id == "community" { sheet = .community }
                         else if node.id == "mine" { sheet = .mine }

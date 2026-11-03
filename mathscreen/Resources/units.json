@@ -85,7 +85,8 @@
     "order": 8,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_expr",
@@ -95,7 +96,8 @@
     "order": 9,
     "prereqs": [
       "m_signed"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_linear",
@@ -105,7 +107,8 @@
     "order": 10,
     "prereqs": [
       "m_expr"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_simul",
@@ -115,7 +118,8 @@
     "order": 11,
     "prereqs": [
       "m_linear"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_ineq",
@@ -125,7 +129,8 @@
     "order": 12,
     "prereqs": [
       "m_linear"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_sqrt",
@@ -135,7 +140,8 @@
     "order": 13,
     "prereqs": [
       "m_signed"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_factor",
@@ -145,7 +151,8 @@
     "order": 14,
     "prereqs": [
       "m_expr"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_quad",
@@ -156,7 +163,8 @@
     "prereqs": [
       "m_sqrt",
       "m_factor"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_func2",
@@ -166,7 +174,8 @@
     "order": 16,
     "prereqs": [
       "m_linear"
-    ]
+    ],
+    "group": "関数"
   },
   {
     "id": "m_pythag",
@@ -176,7 +185,8 @@
     "order": 17,
     "prereqs": [
       "m_sqrt"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_polygon",
@@ -186,7 +196,8 @@
     "order": 18,
     "prereqs": [
       "m_linear"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_prob",
@@ -196,7 +207,8 @@
     "order": 19,
     "prereqs": [
       "m_signed"
-    ]
+    ],
+    "group": "データと確率"
   },
   {
     "id": "m_int",
@@ -206,7 +218,8 @@
     "order": 20,
     "prereqs": [
       "m_signed"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_prop",
@@ -216,7 +229,8 @@
     "order": 21,
     "prereqs": [
       "m_expr"
-    ]
+    ],
+    "group": "関数"
   },
   {
     "id": "m_expand",
@@ -226,7 +240,8 @@
     "order": 22,
     "prereqs": [
       "m_factor"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_quad_word",
@@ -236,7 +251,8 @@
     "order": 23,
     "prereqs": [
       "m_quad"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_pythag_use",
@@ -246,7 +262,8 @@
     "order": 24,
     "prereqs": [
       "m_pythag"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_simul_word",
@@ -256,7 +273,8 @@
     "order": 25,
     "prereqs": [
       "m_simul"
-    ]
+    ],
+    "group": "方程式・不等式"
   },
   {
     "id": "m_linfunc",
@@ -267,7 +285,8 @@
     "prereqs": [
       "m_prop",
       "m_linear"
-    ]
+    ],
+    "group": "関数"
   },
   {
     "id": "m_algebra",
@@ -277,7 +296,8 @@
     "order": 27,
     "prereqs": [
       "m_signed"
-    ]
+    ],
+    "group": "数と式"
   },
   {
     "id": "m_similar",
@@ -287,7 +307,8 @@
     "order": 28,
     "prereqs": [
       "m_prop"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_circle",
@@ -297,7 +318,8 @@
     "order": 29,
     "prereqs": [
       "m_polygon"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_space",
@@ -307,7 +329,8 @@
     "order": 30,
     "prereqs": [
       "m_pythag"
-    ]
+    ],
+    "group": "図形"
   },
   {
     "id": "m_data",
@@ -317,7 +340,8 @@
     "order": 31,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "データと確率"
   },
   {
     "id": "h_quadfunc",
@@ -328,7 +352,8 @@
     "prereqs": [
       "m_func2",
       "m_quad"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_quadeq",
@@ -338,7 +363,8 @@
     "order": 33,
     "prereqs": [
       "m_quad"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_trig",
@@ -348,7 +374,8 @@
     "order": 34,
     "prereqs": [
       "m_pythag"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_logic",
@@ -356,7 +383,8 @@
     "stage": "高校",
     "name": "命題と条件",
     "order": 35,
-    "prereqs": []
+    "prereqs": [],
+    "group": "数学I・A"
   },
   {
     "id": "h_abs",
@@ -366,7 +394,8 @@
     "order": 36,
     "prereqs": [
       "m_ineq"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_count",
@@ -376,7 +405,8 @@
     "order": 37,
     "prereqs": [
       "m_prob"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_prob",
@@ -386,7 +416,8 @@
     "order": 38,
     "prereqs": [
       "h_count"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_nt",
@@ -396,7 +427,8 @@
     "order": 39,
     "prereqs": [
       "m_int"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_exp",
@@ -406,7 +438,8 @@
     "order": 40,
     "prereqs": [
       "m_sqrt"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_seq",
@@ -416,7 +449,8 @@
     "order": 41,
     "prereqs": [
       "m_linear"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_binom",
@@ -427,7 +461,8 @@
     "prereqs": [
       "h_count",
       "m_factor"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_circle",
@@ -437,7 +472,8 @@
     "order": 43,
     "prereqs": [
       "m_quad"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_trig2",
@@ -447,7 +483,8 @@
     "order": 44,
     "prereqs": [
       "h_trig"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_diff",
@@ -457,7 +494,8 @@
     "order": 45,
     "prereqs": [
       "h_quadfunc"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_integ",
@@ -467,7 +505,8 @@
     "order": 46,
     "prereqs": [
       "h_diff"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_vec",
@@ -477,7 +516,8 @@
     "order": 47,
     "prereqs": [
       "h_trig"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_limit",
@@ -487,7 +527,8 @@
     "order": 48,
     "prereqs": [
       "h_seq"
-    ]
+    ],
+    "group": "数学III"
   },
   {
     "id": "h_diff3",
@@ -498,7 +539,8 @@
     "prereqs": [
       "h_diff",
       "h_trig2"
-    ]
+    ],
+    "group": "数学III"
   },
   {
     "id": "h_integ3",
@@ -509,7 +551,8 @@
     "prereqs": [
       "h_integ",
       "h_diff3"
-    ]
+    ],
+    "group": "数学III"
   },
   {
     "id": "h_complex",
@@ -520,7 +563,8 @@
     "prereqs": [
       "h_trig2",
       "h_quadeq"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_conic",
@@ -530,7 +574,8 @@
     "order": 52,
     "prereqs": [
       "h_circle"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_space",
@@ -540,7 +585,8 @@
     "order": 53,
     "prereqs": [
       "h_vec"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_seq2",
@@ -550,7 +596,8 @@
     "order": 54,
     "prereqs": [
       "h_seq"
-    ]
+    ],
+    "group": "数学B・C"
   },
   {
     "id": "h_integ_app",
@@ -560,7 +607,8 @@
     "order": 55,
     "prereqs": [
       "h_integ"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_addition",
@@ -570,7 +618,8 @@
     "order": 56,
     "prereqs": [
       "h_trig2"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_diff2",
@@ -580,7 +629,8 @@
     "order": 57,
     "prereqs": [
       "h_diff"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "h_geom",
@@ -590,7 +640,8 @@
     "order": 58,
     "prereqs": [
       "m_similar"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_stat",
@@ -600,7 +651,8 @@
     "order": 59,
     "prereqs": [
       "m_data"
-    ]
+    ],
+    "group": "数学I・A"
   },
   {
     "id": "h_cplx",
@@ -610,7 +662,8 @@
     "order": 60,
     "prereqs": [
       "h_quadeq"
-    ]
+    ],
+    "group": "数学II"
   },
   {
     "id": "w_basic",
@@ -618,7 +671,8 @@
     "stage": "中学",
     "name": "基本の英単語",
     "order": 61,
-    "prereqs": []
+    "prereqs": [],
+    "group": "単語・語形"
   },
   {
     "id": "w_std",
@@ -646,7 +700,8 @@
     "stage": "中学",
     "name": "英語の文法",
     "order": 64,
-    "prereqs": []
+    "prereqs": [],
+    "group": "文法"
   },
   {
     "id": "g_translate",
@@ -656,7 +711,8 @@
     "order": 65,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "和訳・並べかえ"
   },
   {
     "id": "g_order",
@@ -666,7 +722,8 @@
     "order": 66,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "和訳・並べかえ"
   },
   {
     "id": "g_modal",
@@ -676,7 +733,8 @@
     "order": 67,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_infinitive",
@@ -686,7 +744,8 @@
     "order": 68,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_passive",
@@ -697,7 +756,8 @@
     "prereqs": [
       "g_grammar",
       "g_irreg"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_perfect",
@@ -707,7 +767,8 @@
     "order": 70,
     "prereqs": [
       "g_irreg"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_relative",
@@ -717,7 +778,8 @@
     "order": 71,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_subjunctive",
@@ -738,7 +800,8 @@
     "order": 73,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "単語・語形"
   },
   {
     "id": "g_prep",
@@ -748,7 +811,8 @@
     "order": 74,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "文法"
   },
   {
     "id": "g_form",
@@ -758,7 +822,8 @@
     "order": 75,
     "prereqs": [
       "g_grammar"
-    ]
+    ],
+    "group": "単語・語形"
   },
   {
     "id": "w_syn",
@@ -836,7 +901,8 @@
     "stage": "中学",
     "name": "地球と地図",
     "order": 84,
-    "prereqs": []
+    "prereqs": [],
+    "group": "地理"
   },
   {
     "id": "s_geo_world",
@@ -846,7 +912,8 @@
     "order": 85,
     "prereqs": [
       "s_geo_map"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_geo_japan",
@@ -856,7 +923,8 @@
     "order": 86,
     "prereqs": [
       "s_geo_map"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_hist_ancient",
@@ -864,7 +932,8 @@
     "stage": "中学",
     "name": "古代の歴史",
     "order": 87,
-    "prereqs": []
+    "prereqs": [],
+    "group": "歴史"
   },
   {
     "id": "s_hist_medieval",
@@ -874,7 +943,8 @@
     "order": 88,
     "prereqs": [
       "s_hist_ancient"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_hist_early",
@@ -884,7 +954,8 @@
     "order": 89,
     "prereqs": [
       "s_hist_medieval"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_hist_modern",
@@ -894,7 +965,8 @@
     "order": 90,
     "prereqs": [
       "s_hist_early"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_hist_contemp",
@@ -904,7 +976,8 @@
     "order": 91,
     "prereqs": [
       "s_hist_modern"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_geo_asia",
@@ -914,7 +987,8 @@
     "order": 92,
     "prereqs": [
       "s_geo_world"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_geo_europe",
@@ -924,7 +998,8 @@
     "order": 93,
     "prereqs": [
       "s_geo_world"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_geo_americas",
@@ -934,7 +1009,8 @@
     "order": 94,
     "prereqs": [
       "s_geo_world"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_jp_region",
@@ -944,7 +1020,8 @@
     "order": 95,
     "prereqs": [
       "s_geo_japan"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_jp_industry",
@@ -954,7 +1031,8 @@
     "order": 96,
     "prereqs": [
       "s_geo_japan"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_hist_meiji",
@@ -964,7 +1042,8 @@
     "order": 97,
     "prereqs": [
       "s_hist_edo"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_geo_climate",
@@ -974,7 +1053,8 @@
     "order": 98,
     "prereqs": [
       "s_geo_japan"
-    ]
+    ],
+    "group": "地理"
   },
   {
     "id": "s_civ_trade",
@@ -984,7 +1064,8 @@
     "order": 99,
     "prereqs": [
       "s_civ_econ"
-    ]
+    ],
+    "group": "公民"
   },
   {
     "id": "s_hist_edo",
@@ -994,7 +1075,8 @@
     "order": 100,
     "prereqs": [
       "s_hist_early"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_hist_war",
@@ -1004,7 +1086,8 @@
     "order": 101,
     "prereqs": [
       "s_hist_modern"
-    ]
+    ],
+    "group": "歴史"
   },
   {
     "id": "s_civ_local",
@@ -1014,7 +1097,8 @@
     "order": 102,
     "prereqs": [
       "s_civ_gov"
-    ]
+    ],
+    "group": "公民"
   },
   {
     "id": "s_civ_const",
@@ -1022,7 +1106,8 @@
     "stage": "中学",
     "name": "憲法と人権",
     "order": 103,
-    "prereqs": []
+    "prereqs": [],
+    "group": "公民"
   },
   {
     "id": "s_civ_gov",
@@ -1032,7 +1117,8 @@
     "order": 104,
     "prereqs": [
       "s_civ_const"
-    ]
+    ],
+    "group": "公民"
   },
   {
     "id": "s_civ_econ",
@@ -1042,7 +1128,8 @@
     "order": 105,
     "prereqs": [
       "s_civ_gov"
-    ]
+    ],
+    "group": "公民"
   },
   {
     "id": "s_civ_intl",
@@ -1052,7 +1139,8 @@
     "order": 106,
     "prereqs": [
       "s_civ_gov"
-    ]
+    ],
+    "group": "公民"
   },
   {
     "id": "b_cell_plant",
@@ -1060,7 +1148,8 @@
     "stage": "中学",
     "name": "細胞と植物",
     "order": 107,
-    "prereqs": []
+    "prereqs": [],
+    "group": "生物"
   },
   {
     "id": "b_human",
@@ -1070,7 +1159,8 @@
     "order": 108,
     "prereqs": [
       "b_cell_plant"
-    ]
+    ],
+    "group": "生物"
   },
   {
     "id": "b_eco",
@@ -1080,7 +1170,8 @@
     "order": 109,
     "prereqs": [
       "b_cell_plant"
-    ]
+    ],
+    "group": "生物"
   },
   {
     "id": "b_genetic",
@@ -1090,7 +1181,8 @@
     "order": 110,
     "prereqs": [
       "b_cell_plant"
-    ]
+    ],
+    "group": "生物"
   },
   {
     "id": "b_animal",
@@ -1098,7 +1190,8 @@
     "stage": "中学",
     "name": "動物の分類",
     "order": 111,
-    "prereqs": []
+    "prereqs": [],
+    "group": "生物"
   },
   {
     "id": "c_ion",
@@ -1108,7 +1201,8 @@
     "order": 112,
     "prereqs": [
       "c_atom"
-    ]
+    ],
+    "group": "化学"
   },
   {
     "id": "p_energy",
@@ -1118,7 +1212,8 @@
     "order": 113,
     "prereqs": [
       "p_elec"
-    ]
+    ],
+    "group": "物理"
   },
   {
     "id": "c_mass",
@@ -1128,7 +1223,8 @@
     "order": 114,
     "prereqs": [
       "c_reaction"
-    ]
+    ],
+    "group": "化学"
   },
   {
     "id": "c_redox",
@@ -1138,7 +1234,8 @@
     "order": 115,
     "prereqs": [
       "c_reaction"
-    ]
+    ],
+    "group": "化学"
   },
   {
     "id": "p_balance",
@@ -1148,7 +1245,8 @@
     "order": 116,
     "prereqs": [
       "p_force"
-    ]
+    ],
+    "group": "物理"
   },
   {
     "id": "p_magnet",
@@ -1158,7 +1256,8 @@
     "order": 117,
     "prereqs": [
       "p_elec"
-    ]
+    ],
+    "group": "物理"
   },
   {
     "id": "e_front",
@@ -1168,7 +1267,8 @@
     "order": 118,
     "prereqs": [
       "e_weather"
-    ]
+    ],
+    "group": "地学"
   },
   {
     "id": "b_photo",
@@ -1178,7 +1278,8 @@
     "order": 119,
     "prereqs": [
       "b_cell_plant"
-    ]
+    ],
+    "group": "生物"
   },
   {
     "id": "b_digest",
@@ -1188,7 +1289,8 @@
     "order": 120,
     "prereqs": [
       "b_human"
-    ]
+    ],
+    "group": "生物"
   },
   {
     "id": "p_record",
@@ -1198,7 +1300,8 @@
     "order": 121,
     "prereqs": [
       "p_motion"
-    ]
+    ],
+    "group": "物理"
   },
   {
     "id": "c_atom",
@@ -1206,7 +1309,8 @@
     "stage": "中学",
     "name": "物質と原子",
     "order": 122,
-    "prereqs": []
+    "prereqs": [],
+    "group": "化学"
   },
   {
     "id": "c_state",
@@ -1214,7 +1318,8 @@
     "stage": "中学",
     "name": "物質の性質",
     "order": 123,
-    "prereqs": []
+    "prereqs": [],
+    "group": "化学"
   },
   {
     "id": "c_solution",
@@ -1224,7 +1329,8 @@
     "order": 124,
     "prereqs": [
       "c_atom"
-    ]
+    ],
+    "group": "化学"
   },
   {
     "id": "c_reaction",
@@ -1234,7 +1340,8 @@
     "order": 125,
     "prereqs": [
       "c_atom"
-    ]
+    ],
+    "group": "化学"
   },
   {
     "id": "p_elec",
@@ -1242,7 +1349,8 @@
     "stage": "中学",
     "name": "電気",
     "order": 126,
-    "prereqs": []
+    "prereqs": [],
+    "group": "物理"
   },
   {
     "id": "p_force",
@@ -1250,7 +1358,8 @@
     "stage": "中学",
     "name": "力と圧力",
     "order": 127,
-    "prereqs": []
+    "prereqs": [],
+    "group": "物理"
   },
   {
     "id": "p_motion",
@@ -1260,7 +1369,8 @@
     "order": 128,
     "prereqs": [
       "p_force"
-    ]
+    ],
+    "group": "物理"
   },
   {
     "id": "p_wave",
@@ -1268,7 +1378,8 @@
     "stage": "中学",
     "name": "光と音",
     "order": 129,
-    "prereqs": []
+    "prereqs": [],
+    "group": "物理"
   },
   {
     "id": "e_space",
@@ -1276,7 +1387,8 @@
     "stage": "中学",
     "name": "天体",
     "order": 130,
-    "prereqs": []
+    "prereqs": [],
+    "group": "地学"
   },
   {
     "id": "e_land",
@@ -1284,7 +1396,8 @@
     "stage": "中学",
     "name": "大地の変化",
     "order": 131,
-    "prereqs": []
+    "prereqs": [],
+    "group": "地学"
   },
   {
     "id": "e_weather",
@@ -1292,6 +1405,312 @@
     "stage": "中学",
     "name": "天気",
     "order": 132,
-    "prereqs": []
+    "prereqs": [],
+    "group": "地学"
+  },
+  {
+    "id": "hp_motion",
+    "subject": "science",
+    "stage": "高校",
+    "name": "等加速度運動",
+    "order": 133,
+    "prereqs": [
+      "m_func2"
+    ],
+    "group": "物理"
+  },
+  {
+    "id": "hp_force",
+    "subject": "science",
+    "stage": "高校",
+    "name": "運動の法則",
+    "order": 134,
+    "prereqs": [
+      "hp_motion"
+    ],
+    "group": "物理"
+  },
+  {
+    "id": "hp_energy",
+    "subject": "science",
+    "stage": "高校",
+    "name": "仕事とエネルギー",
+    "order": 135,
+    "prereqs": [
+      "hp_force"
+    ],
+    "group": "物理"
+  },
+  {
+    "id": "hp_wave",
+    "subject": "science",
+    "stage": "高校",
+    "name": "波と音",
+    "order": 136,
+    "prereqs": [
+      "hp_motion"
+    ],
+    "group": "物理"
+  },
+  {
+    "id": "hp_circuit",
+    "subject": "science",
+    "stage": "高校",
+    "name": "電気回路",
+    "order": 137,
+    "prereqs": [
+      "p_elec"
+    ],
+    "group": "物理"
+  },
+  {
+    "id": "hc_mol",
+    "subject": "science",
+    "stage": "高校",
+    "name": "物質量と化学反応式",
+    "order": 138,
+    "prereqs": [
+      "c_reaction"
+    ],
+    "group": "化学"
+  },
+  {
+    "id": "hc_acid",
+    "subject": "science",
+    "stage": "高校",
+    "name": "酸・塩基と pH",
+    "order": 139,
+    "prereqs": [
+      "hc_mol"
+    ],
+    "group": "化学"
+  },
+  {
+    "id": "hc_struct",
+    "subject": "science",
+    "stage": "高校",
+    "name": "原子の構造と化学結合",
+    "order": 140,
+    "prereqs": [
+      "c_atom"
+    ],
+    "group": "化学"
+  },
+  {
+    "id": "hc_org",
+    "subject": "science",
+    "stage": "高校",
+    "name": "有機化合物",
+    "order": 141,
+    "prereqs": [
+      "hc_struct"
+    ],
+    "group": "化学"
+  },
+  {
+    "id": "hb_cell",
+    "subject": "science",
+    "stage": "高校",
+    "name": "細胞とエネルギー代謝",
+    "order": 142,
+    "prereqs": [
+      "b_cell_plant"
+    ],
+    "group": "生物"
+  },
+  {
+    "id": "hb_dna",
+    "subject": "science",
+    "stage": "高校",
+    "name": "遺伝子とDNA",
+    "order": 143,
+    "prereqs": [
+      "b_genetic"
+    ],
+    "group": "生物"
+  },
+  {
+    "id": "hb_body",
+    "subject": "science",
+    "stage": "高校",
+    "name": "体内環境の維持",
+    "order": 144,
+    "prereqs": [
+      "b_human"
+    ],
+    "group": "生物"
+  },
+  {
+    "id": "he_earth",
+    "subject": "science",
+    "stage": "高校",
+    "name": "地球のしくみ",
+    "order": 145,
+    "prereqs": [
+      "e_land"
+    ],
+    "group": "地学"
+  },
+  {
+    "id": "he_atmo",
+    "subject": "science",
+    "stage": "高校",
+    "name": "大気・海洋・宇宙",
+    "order": 146,
+    "prereqs": [
+      "e_weather",
+      "e_space"
+    ],
+    "group": "地学"
+  },
+  {
+    "id": "hs_jp_ancmed",
+    "subject": "social",
+    "stage": "高校",
+    "name": "日本史：古代〜中世",
+    "order": 147,
+    "prereqs": [
+      "s_hist_ancient"
+    ],
+    "group": "日本史"
+  },
+  {
+    "id": "hs_jp_early",
+    "subject": "social",
+    "stage": "高校",
+    "name": "日本史：近世",
+    "order": 148,
+    "prereqs": [
+      "hs_jp_ancmed"
+    ],
+    "group": "日本史"
+  },
+  {
+    "id": "hs_jp_modern",
+    "subject": "social",
+    "stage": "高校",
+    "name": "日本史：近代",
+    "order": 149,
+    "prereqs": [
+      "hs_jp_early"
+    ],
+    "group": "日本史"
+  },
+  {
+    "id": "hs_jp_contemp",
+    "subject": "social",
+    "stage": "高校",
+    "name": "日本史：現代",
+    "order": 150,
+    "prereqs": [
+      "hs_jp_modern"
+    ],
+    "group": "日本史"
+  },
+  {
+    "id": "hs_w_ancient",
+    "subject": "social",
+    "stage": "高校",
+    "name": "世界史：古代文明と帝国",
+    "order": 151,
+    "prereqs": [],
+    "group": "世界史"
+  },
+  {
+    "id": "hs_w_medieval",
+    "subject": "social",
+    "stage": "高校",
+    "name": "世界史：中世のヨーロッパ・イスラーム・アジア",
+    "order": 152,
+    "prereqs": [
+      "hs_w_ancient"
+    ],
+    "group": "世界史"
+  },
+  {
+    "id": "hs_w_early",
+    "subject": "social",
+    "stage": "高校",
+    "name": "世界史：近世・革命の時代",
+    "order": 153,
+    "prereqs": [
+      "hs_w_medieval"
+    ],
+    "group": "世界史"
+  },
+  {
+    "id": "hs_w_20c",
+    "subject": "social",
+    "stage": "高校",
+    "name": "世界史：帝国主義と二つの世界大戦・現代",
+    "order": 154,
+    "prereqs": [
+      "hs_w_early"
+    ],
+    "group": "世界史"
+  },
+  {
+    "id": "hs_geo_nature",
+    "subject": "social",
+    "stage": "高校",
+    "name": "地理：地形と気候",
+    "order": 155,
+    "prereqs": [
+      "s_geo_climate"
+    ],
+    "group": "地理"
+  },
+  {
+    "id": "hs_geo_industry",
+    "subject": "social",
+    "stage": "高校",
+    "name": "地理：資源・産業",
+    "order": 156,
+    "prereqs": [
+      "s_jp_industry"
+    ],
+    "group": "地理"
+  },
+  {
+    "id": "hs_geo_pop",
+    "subject": "social",
+    "stage": "高校",
+    "name": "地理：人口・都市・環境問題",
+    "order": 157,
+    "prereqs": [
+      "s_geo_world"
+    ],
+    "group": "地理"
+  },
+  {
+    "id": "hs_civ_politics",
+    "subject": "social",
+    "stage": "高校",
+    "name": "民主政治と日本の政治制度",
+    "order": 158,
+    "prereqs": [
+      "s_civ_gov"
+    ],
+    "group": "公民"
+  },
+  {
+    "id": "hs_civ_econ",
+    "subject": "social",
+    "stage": "高校",
+    "name": "市場経済と国際経済",
+    "order": 159,
+    "prereqs": [
+      "s_civ_econ"
+    ],
+    "group": "公民"
+  },
+  {
+    "id": "hs_ethics",
+    "subject": "social",
+    "stage": "高校",
+    "name": "倫理（思想家）",
+    "order": 160,
+    "prereqs": [],
+    "group": "公民"
   }
 ]

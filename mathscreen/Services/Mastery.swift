@@ -8,6 +8,7 @@ struct UnitInfo: Codable, Identifiable, Hashable {
     let name: String
     let order: Int
     let prereqs: [String]      // 先に身につけたい単元
+    let group: String?         // マップで、段階の下にまとめる名前（物理・数学II など）
 
     var subjectInfo: Subject { Subject(rawValue: subject) ?? .math }
 }

@@ -46,7 +46,7 @@ struct StatsView: View {
         let weeks = model.weeklyCorrect(weeks: model.isPremium ? AppModel.premiumWeeks : 1)
         return VStack(alignment: .leading, spacing: 10) {
             Text(model.isPremium ? "過去の成績" : "今週の成績").font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
-            IsoBarChart(weeks: weeks, caption: model.isPremium ? "正解数（手前が今週、奥が過去。10問ごとに色が変わる）" : "正解数（10問ごとに色が変わる）")
+            IsoBarChart(weeks: weeks, caption: model.isPremium ? "正解数（手前が今週、奥が過去）" : "正解数")
         }
         .card()
     }
@@ -56,7 +56,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 10) {
             Label("過去の成績を見る", systemImage: "lock.fill")
                 .font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
-            Text("Premium にすると、過去の週も、グラフの奥（右上）に並べて見られます。初回7日間無料、そのあと月300円／年2,000円の予定です。")
+            Text("Premium にすると、過去の週も、グラフの奥（右上）に並べて見られます。初回7日間無料、そのあと月300円／年2,400円の予定です。")
                 .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 .fixedSize(horizontal: false, vertical: true)
             Button("仮登録する（0円）") { model.setPremium(true) }

@@ -62,6 +62,14 @@ UNIT_RATE = {
     "s_civ_const": 6.0, "s_civ_gov": 5.5, "s_civ_econ": 5.0, "s_civ_intl": 5.5,
     "b_cell_plant": 5.5, "b_human": 5.5, "b_eco": 6.5, "c_atom": 5.5, "c_state": 6.0, "c_solution": 5.5, "c_reaction": 5.5,
     "p_elec": 5.0, "p_force": 5.0, "p_motion": 5.0, "p_wave": 5.0, "e_space": 6.0, "e_land": 5.0, "e_weather": 5.5,
+    # 高校の理科・社会（高校生くらいの利用者を想像した、はじめの見積もり）
+    "hp_motion": 4.5, "hp_force": 4.0, "hp_energy": 4.0, "hp_wave": 4.5, "hp_circuit": 4.5,
+    "hc_mol": 4.0, "hc_acid": 4.0, "hc_struct": 4.5, "hc_org": 4.0,
+    "hb_cell": 4.5, "hb_dna": 4.5, "hb_body": 4.0, "he_earth": 4.5, "he_atmo": 4.5,
+    "hs_jp_ancmed": 5.0, "hs_jp_early": 5.0, "hs_jp_modern": 4.5, "hs_jp_contemp": 4.5,
+    "hs_w_ancient": 4.5, "hs_w_medieval": 4.0, "hs_w_early": 4.0, "hs_w_20c": 4.0,
+    "hs_geo_nature": 4.5, "hs_geo_industry": 4.0, "hs_geo_pop": 4.5,
+    "hs_civ_politics": 4.5, "hs_civ_econ": 4.0, "hs_ethics": 4.0,
 }
 
 WORD_ENJA = {"w_basic": 8.5, "w_std": 6.0, "w_adv": 4.2}

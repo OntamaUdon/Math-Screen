@@ -147,6 +147,35 @@ UNITS = [
     ("e_space",      "science", "中学", "天体", []),
     ("e_land",       "science", "中学", "大地の変化", []),
     ("e_weather",    "science", "中学", "天気", []),
+    # ── 高校：理科・社会 ──
+    ("hp_motion",  "science", "高校", "等加速度運動", ["m_func2"]),
+    ("hp_force",   "science", "高校", "運動の法則", ["hp_motion"]),
+    ("hp_energy",  "science", "高校", "仕事とエネルギー", ["hp_force"]),
+    ("hp_wave",    "science", "高校", "波と音", ["hp_motion"]),
+    ("hp_circuit", "science", "高校", "電気回路", ["p_elec"]),
+    ("hc_mol",     "science", "高校", "物質量と化学反応式", ["c_reaction"]),
+    ("hc_acid",    "science", "高校", "酸・塩基と pH", ["hc_mol"]),
+    ("hc_struct",  "science", "高校", "原子の構造と化学結合", ["c_atom"]),
+    ("hc_org",     "science", "高校", "有機化合物", ["hc_struct"]),
+    ("hb_cell",    "science", "高校", "細胞とエネルギー代謝", ["b_cell_plant"]),
+    ("hb_dna",     "science", "高校", "遺伝子とDNA", ["b_genetic"]),
+    ("hb_body",    "science", "高校", "体内環境の維持", ["b_human"]),
+    ("he_earth",   "science", "高校", "地球のしくみ", ["e_land"]),
+    ("he_atmo",    "science", "高校", "大気・海洋・宇宙", ["e_weather", "e_space"]),
+    ("hs_jp_ancmed", "social", "高校", "日本史：古代〜中世", ["s_hist_ancient"]),
+    ("hs_jp_early",  "social", "高校", "日本史：近世", ["hs_jp_ancmed"]),
+    ("hs_jp_modern", "social", "高校", "日本史：近代", ["hs_jp_early"]),
+    ("hs_jp_contemp", "social", "高校", "日本史：現代", ["hs_jp_modern"]),
+    ("hs_w_ancient", "social", "高校", "世界史：古代文明と帝国", []),
+    ("hs_w_medieval", "social", "高校", "世界史：中世のヨーロッパ・イスラーム・アジア", ["hs_w_ancient"]),
+    ("hs_w_early",   "social", "高校", "世界史：近世・革命の時代", ["hs_w_medieval"]),
+    ("hs_w_20c",     "social", "高校", "世界史：帝国主義と二つの世界大戦・現代", ["hs_w_early"]),
+    ("hs_geo_nature", "social", "高校", "地理：地形と気候", ["s_geo_climate"]),
+    ("hs_geo_industry", "social", "高校", "地理：資源・産業", ["s_jp_industry"]),
+    ("hs_geo_pop",   "social", "高校", "地理：人口・都市・環境問題", ["s_geo_world"]),
+    ("hs_civ_politics", "social", "高校", "民主政治と日本の政治制度", ["s_civ_gov"]),
+    ("hs_civ_econ",  "social", "高校", "市場経済と国際経済", ["s_civ_econ"]),
+    ("hs_ethics",    "social", "高校", "倫理（思想家）", []),
 ]
 
 # (category, title) → 単元。英単語は難しさで分ける。
@@ -222,6 +251,46 @@ def unit_of(p):
     return TITLE_UNIT[p["title"]]
 
 
+# マップで、段階の下にひとまとめにする名前（枝が10個を超える所で、アプリが使う）
+_GROUPS = {
+    "数と式": "m_signed m_expr m_algebra m_expand m_factor m_sqrt m_int",
+    "方程式・不等式": "m_linear m_simul m_simul_word m_ineq m_quad m_quad_word",
+    "関数": "m_prop m_linfunc m_func2",
+    "図形": "m_polygon m_pythag m_pythag_use m_similar m_circle m_space",
+    "データと確率": "m_prob m_data",
+    "数学I・A": "h_quadfunc h_quadeq h_trig h_logic h_abs h_count h_prob h_nt h_geom h_stat",
+    "数学II": "h_exp h_circle h_trig2 h_addition h_cplx h_binom h_diff h_diff2 h_integ h_integ_app",
+    "数学B・C": "h_seq h_seq2 h_vec h_complex h_conic h_space",
+    "数学III": "h_limit h_diff3 h_integ3",
+    "単語・語形": "w_basic g_irreg g_form",
+    "文法": "g_grammar g_modal g_infinitive g_passive g_perfect g_relative g_prep",
+    "和訳・並べかえ": "g_translate g_order",
+}
+GROUP = {u: g for g, ids in _GROUPS.items() for u in ids.split()}
+_PREFIX_GROUP = {("science", "p"): "物理", ("science", "c"): "化学", ("science", "b"): "生物", ("science", "e"): "地学",
+                 ("social", "geo"): "地理", ("social", "jp"): "地理", ("social", "hist"): "歴史", ("social", "civ"): "公民"}
+
+
+_HS_SCIENCE = {"hp": "物理", "hc": "化学", "hb": "生物", "he": "地学"}
+_HS_SOCIAL = {"jp": "日本史", "w": "世界史", "geo": "地理", "civ": "公民", "ethics": "公民"}
+
+
+def group_of(uid, subject):
+    if uid in GROUP: return GROUP[uid]
+    head = uid.split("_")
+    if subject == "science":
+        return _HS_SCIENCE.get(head[0]) or _PREFIX_GROUP.get((subject, head[0]))
+    if subject == "social":
+        if head[0] == "hs": return _HS_SOCIAL.get(head[1])
+        return _PREFIX_GROUP.get((subject, head[1]))
+    return None
+
+
 def units_json():
-    return [dict(id=i, subject=s, stage=st, name=n, order=k, prereqs=pre)
-            for k, (i, s, st, n, pre) in enumerate(UNITS)]
+    out = []
+    for k, (i, s, st, n, pre) in enumerate(UNITS):
+        d = dict(id=i, subject=s, stage=st, name=n, order=k, prereqs=pre)
+        g = group_of(i, s)
+        if g: d["group"] = g
+        out.append(d)
+    return out

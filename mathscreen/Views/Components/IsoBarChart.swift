@@ -3,7 +3,7 @@ import SwiftUI
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
 /// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。少ない数でも差が見えるよう、平方根で伸ばす。
-/// 色は10問ごとに変わり、数が増えるほど少しずつ華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。
+/// 色は10問ごとに変わり、数が増えるほど少しずつ華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。色の見方は、グラフの下に凡例を並べる。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
     var weeks: [[Int?]]
@@ -24,8 +24,27 @@ struct IsoBarChart: View {
                 .frame(height: height)
                 .accessibilityElement()
                 .accessibilityLabel(Text("\(caption)：今週は " + (weeks.first ?? []).map { $0.map(String.init) ?? "-" }.joined(separator: "、")))
+            legend
             Text(caption).font(Theme.font(12, .bold)).foregroundStyle(Theme.inkSoft)
         }
+    }
+
+    /// 色が何問を表すか。1日の正解数がこの数に届くと、その色になる。
+    private var legend: some View {
+        HStack(spacing: 0) {
+            ForEach(1...10, id: \.self) { tier in
+                VStack(spacing: 2) {
+                    RoundedRectangle(cornerRadius: 3, style: .continuous)
+                        .fill(Self.tierColors(tier).1)
+                        .frame(height: 10)
+                        .overlay(RoundedRectangle(cornerRadius: 3, style: .continuous).stroke(Self.tierColors(tier).2.opacity(0.5), lineWidth: 1))
+                    Text(tier == 10 ? "100~" : "\(tier * 10)").font(Theme.font(9, .semibold)).foregroundStyle(Theme.inkSoft)
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.horizontal, 1.5)
+            }
+        }
+        .accessibilityHidden(true)
     }
 
     /// 10問ごとの色（top, 左の面, 右の面）。10問=水色、20=緑、30=金、40=橙、50=桃、60=紫、70=藍、80=赤、90=銀、100〜=黒と金。

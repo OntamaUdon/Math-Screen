@@ -24,7 +24,7 @@ struct HomeView: View {
     }
 
     private var weekCard: some View {
-        IsoBarChart(weeks: model.weeklyCorrect(weeks: 1), caption: "今週の正解数（10問ごとに色が変わる）")
+        IsoBarChart(weeks: model.weeklyCorrect(weeks: 1), caption: "今週の正解数")
             .padding(.vertical, 4)
     }
 
