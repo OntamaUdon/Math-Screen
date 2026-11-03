@@ -79,10 +79,12 @@ struct ProblemBookView: View {
     @State private var sheet: ProblemListSheet.Source?
     @State private var selected: FeedItem?
     @State private var showPost = false
+    @State private var tick = 0           // 詳細を閉じたとき、印を読み直す
 
     private var trimmedQuery: String { query.trimmingCharacters(in: .whitespacesAndNewlines) }
 
     var body: some View {
+        let _ = tick
         ZStack(alignment: .bottomTrailing) {
             VStack(alignment: .leading, spacing: 10) {
                 VStack(alignment: .leading, spacing: 4) {
@@ -123,7 +125,7 @@ struct ProblemBookView: View {
             if !Task.isCancelled { search() }
         }
         .sheet(item: $sheet) { src in ProblemListSheet(source: src) }
-        .sheet(item: $selected) { item in ProblemDetailView(item: item, isMine: false) {} }
+        .sheet(item: $selected, onDismiss: { tick += 1 }) { item in ProblemDetailView(item: item, isMine: false) {} }
         .sheet(isPresented: $showPost) { PostProblemView() }
     }
 
@@ -158,7 +160,7 @@ struct ProblemBookView: View {
                     Text("該当 \(results.count) 問").font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
                 }
                 ForEach(results) { item in
-                    ProblemCard(item: item, showStatus: false)
+                    ProblemCard(item: item, showStatus: false, mark: ProblemMarkStore.shared.mark(item.problem.id))
                         .contentShape(Rectangle())
                         .onTapGesture { selected = item }
                 }
@@ -199,11 +201,25 @@ enum ProblemBook {
 struct ProblemCard: View {
     let item: FeedItem
     var showStatus: Bool
+    var mark: ProblemMark? = nil          // 解いた結果の印（☆◎〇△）
+
+    private func markColor(_ m: ProblemMark) -> Color {
+        switch m {
+        case .perfect: Theme.gold
+        case .once: Theme.tealDeep
+        case .many: Theme.teal
+        case .skipped: Theme.coral
+        }
+    }
 
     var body: some View {
         let p = item.problem
         VStack(alignment: .leading, spacing: 6) {
             HStack(spacing: 6) {
+                if let mark {
+                    Text(mark.symbol).font(Theme.font(18, .heavy)).foregroundStyle(markColor(mark))
+                        .accessibilityLabel(mark.label)
+                }
                 Text(p.title).font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
                 Spacer(minLength: 4)
                 if showStatus, let r = item.row {
@@ -244,6 +260,7 @@ struct ProblemListSheet: View {
     @State private var error: String?
     @State private var loading = false
     @State private var subject: Subject?
+    @State private var tick = 0
 
     private var title: String {
         switch source {
@@ -259,6 +276,7 @@ struct ProblemListSheet: View {
     }
 
     var body: some View {
+        let _ = tick
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
                 HStack {
@@ -276,6 +294,8 @@ struct ProblemListSheet: View {
                 if case .community = source {
                     TagPicker(items: [Subject?.none] + Subject.allCases.map { Optional($0) }, selection: $subject) { $0?.label ?? "すべて" }
                 }
+                Text("☆ 1発正解　◎ 1回まちがえて正解　〇 2回以上まちがえて正解　△ 解かずに変更")
+                    .font(Theme.font(11)).foregroundStyle(Theme.inkSoft)
                 if let error { Text(error).font(Theme.font(13)).foregroundStyle(Theme.danger) }
                 if shown.isEmpty && !loading {
                     Text(emptyText).font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
@@ -284,7 +304,7 @@ struct ProblemListSheet: View {
                     Text("\(shown.count) 問").font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
                 }
                 ForEach(shown) { item in
-                    ProblemCard(item: item, showStatus: source == .mine)
+                    ProblemCard(item: item, showStatus: source == .mine, mark: ProblemMarkStore.shared.mark(item.problem.id))
                         .contentShape(Rectangle())
                         .onTapGesture { selected = item }
                 }
@@ -294,7 +314,7 @@ struct ProblemListSheet: View {
         .scrollIndicators(.hidden)
         .isoBackground()
         .task { await load() }
-        .sheet(item: $selected) { item in
+        .sheet(item: $selected, onDismiss: { tick += 1 }) { item in
             ProblemDetailView(item: item, isMine: source == .mine) { Task { await load() } }
         }
     }

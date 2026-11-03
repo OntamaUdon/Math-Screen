@@ -50,7 +50,10 @@ struct ProblemSolverView: View {
     @ViewBuilder private var helpButtons: some View {
         if let onSkip {
             Button {
-                if model.isPremium { onSkip() } else { showPremiumAlert = true }
+                if model.isPremium {
+                    ProblemMarkStore.shared.record(problem.id, .skipped)        // 解かずに変えた印（すでに解いた問題には影響しない）
+                    onSkip()
+                } else { showPremiumAlert = true }
             } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "arrow.triangle.2.circlepath")
@@ -140,6 +143,7 @@ struct ProblemSolverView: View {
         if attempts == 1 { MasteryStore.shared.record(problem, firstTryCorrect: correct); let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
         if correct {
             solved = true
+            ProblemMarkStore.shared.record(problem.id, .solved(wrongCount: attempts - 1))
             onCorrect(attempts)
         } else {
             eliminated.insert(i)
@@ -156,6 +160,7 @@ struct ProblemSolverView: View {
         if attempts == 1 { MasteryStore.shared.record(problem, firstTryCorrect: correct); let id = problem.id; Task { await Community.shared.recordFirstAttempt(id, correct: correct) } }
         if correct {
             solved = true
+            ProblemMarkStore.shared.record(problem.id, .solved(wrongCount: attempts - 1))
             onCorrect(attempts)
         } else {
             withAnimation(.default) { wrongCount += 1 }

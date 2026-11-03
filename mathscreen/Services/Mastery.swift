@@ -60,10 +60,23 @@ struct UnitProgress {
 final class MasteryStore {
     static let shared = MasteryStore()
 
+    /// 復習の予定（間隔をあけた反復）。1発正解のたびに間隔がのびて、まちがえると近いうちに戻ってくる。
+    struct Schedule: Codable {
+        var streak: Int        // 連続で1発正解した回数
+        var due: Double        // 次に復習する時刻（1970年からの秒）
+        var last: Double       // 最後に解いた時刻
+    }
+
     private struct Stored: Codable {
         var unit: [String: [Bool]] = [:]
         var problem: [String: [Bool]] = [:]
+        var sched: [String: Schedule]? = nil
     }
+
+    /// 1発正解が続くほど、のびる間隔（日）。
+    static let intervalDays: [Double] = [1, 3, 7, 14, 30, 60, 120]
+    /// まちがえたあと、また出てくるまでの時間（秒）。すぐ同じ問題が出ないよう少しあける。
+    static let relearnDelay: Double = 3600
 
     private static let key = "mastery.v1"
     /// 単元の完成度は、直近これだけの回数の1発正解で決める。
@@ -82,6 +95,19 @@ final class MasteryStore {
         }
         data.problem[problem.id, default: []].append(firstTryCorrect)
         data.problem[problem.id] = Array(data.problem[problem.id]!.suffix(5))
+        // 復習の予定を更新する
+        let now = Date().timeIntervalSince1970
+        var s = data.sched?[problem.id] ?? Schedule(streak: 0, due: now, last: now)
+        if firstTryCorrect {
+            s.streak += 1
+            s.due = now + Self.intervalDays[min(s.streak - 1, Self.intervalDays.count - 1)] * 86400
+        } else {
+            s.streak = 0
+            s.due = now + Self.relearnDelay
+        }
+        s.last = now
+        if data.sched == nil { data.sched = [:] }
+        data.sched?[problem.id] = s
         if let raw = try? JSONEncoder().encode(data) { UserDefaults.standard.set(raw, forKey: Self.key) }
     }
 
@@ -97,6 +123,8 @@ final class MasteryStore {
         return UnitProgress(count: r.count, score: score, level: level)
     }
 
+    func schedule(_ problemID: String) -> Schedule? { data.sched?[problemID] }
+
     func seen(_ problemID: String) -> Bool { !(data.problem[problemID] ?? []).isEmpty }
     func lastWasWrong(_ problemID: String) -> Bool { data.problem[problemID]?.last == false }
 }
@@ -109,8 +137,31 @@ enum Adaptive {
         if pool.isEmpty { pool = ProblemBank.all.filter { categories.contains($0.category) } }
         if pool.isEmpty { return ProblemBank.pick(categories: categories, difficulties: [1, 2, 3], excluding: current) }
 
+        let now = Date().timeIntervalSince1970
+        let lastUnitKey = "adaptive.lastUnit"
+
+        // 0) 復習の時期がきた問題があれば、一定の確率で先に出す（間隔をあけた反復）。
+        //    予定が過ぎているほど、また前回まちがえた問題ほど、出やすい。
+        let due = pool.filter { p in
+            guard p.id != current, let s = store.schedule(p.id) else { return false }
+            return s.due <= now
+        }
+        if !due.isEmpty, Double.random(in: 0..<1) < min(0.5, 0.2 + 0.05 * Double(min(due.count, 6))) {
+            let weighted: [(Problem, Double)] = due.map { p in
+                let s = store.schedule(p.id)!
+                let overdueDays = min((now - s.due) / 86400, 14)
+                return (p, 1 + overdueDays / 7 + (s.streak == 0 ? 1 : 0))
+            }
+            if let c = choose(weighted) {
+                SharedStore.recentProblemIDs.append(c.id)
+                if let u = c.unit { UserDefaults.standard.set(u, forKey: lastUnitKey) }
+                return c
+            }
+        }
+
         let byUnit = Dictionary(grouping: pool, by: { $0.unit ?? "" })
         let auto = units.isEmpty
+        let lastUnit = UserDefaults.standard.string(forKey: lastUnitKey)
 
         // 1) 単元を選ぶ
         var unitWeights: [(String, Double)] = []
@@ -127,22 +178,31 @@ enum Adaptive {
                info.prereqs.contains(where: { byUnit[$0] != nil && store.progress(unit: $0).level.rawValue < MasteryLevel.good.rawValue }) {
                 w *= 0.1
             }
+            // 同じ単元が続かないようにして、いろいろな単元をまぜる（交互練習）
+            if byUnit.count > 1, uid == lastUnit { w *= 0.5 }
             unitWeights.append((uid, w))
         }
         guard let unit = choose(unitWeights), let list = byUnit[unit] else { return nil }
+        UserDefaults.standard.set(unit, forKey: lastUnitKey)
 
         // 2) その単元の中で、いまの力に合う難しさの問題を選ぶ。
         //    難しさは、全員の1発正解率（連続値）。できていないうちは正解率の高い問題、できてきたら正解率の低い問題。
+        //    ちょうどよい難しさ（8割ほど正解できる）を、少し頑張れば解ける問題として狙う。
         let pr = store.progress(unit: unit)
         let ability = pr.count < 3 ? 0.0 : pr.score                // 0...1
-        let targetRate = 0.9 - 0.4 * ability                       // 力が0なら正解率90%の問題、力が1なら50%の問題
+        let targetRate = 0.9 - 0.35 * ability                      // 力が0なら正解率90%の問題、力が1なら55%の問題
         var cands = list.filter { $0.id != current }
         if cands.isEmpty { cands = list }
         let recent = Set(SharedStore.recentProblemIDs)
         let weighted: [(Problem, Double)] = cands.map { p in
             let gap = (DifficultyStore.shared.correctRate(p) - targetRate) / 0.15
             var w = exp(-gap * gap) + 0.02                         // 目標の正解率に近いほど出やすい
-            if store.lastWasWrong(p.id) { w *= 3 } else if !store.seen(p.id) { w *= 1.5 }
+            if let s = store.schedule(p.id) {
+                // 一度解いた問題は、復習の時期がくるまでは出にくくする
+                w *= s.due <= now ? 2 : 0.03
+            } else {
+                w *= 1.5                                           // まだ解いたことがない問題を、少し優先
+            }
             if recent.contains(p.id) { w *= 0.05 }
             return (p, w)
         }
@@ -196,5 +256,50 @@ final class DifficultyStore {
         stats = all
         if let raw = try? JSONEncoder().encode(all) { UserDefaults.standard.set(raw, forKey: Self.cacheKey) }
         UserDefaults.standard.set(Date().timeIntervalSince1970, forKey: Self.stampKey)
+    }
+}
+
+
+/// 問題集に出す、解いた結果の印。いちばんよい結果を残す。
+/// 1発正解＝☆、1回まちがえて正解＝◎、2回以上まちがえて正解＝〇、解かずに変更＝△。
+enum ProblemMark: Int {
+    case skipped = 1, many = 2, once = 3, perfect = 4
+
+    var symbol: String {
+        switch self {
+        case .perfect: "☆"
+        case .once: "◎"
+        case .many: "〇"
+        case .skipped: "△"
+        }
+    }
+
+    var label: String {
+        switch self {
+        case .perfect: "1発正解"
+        case .once: "1回まちがえて正解"
+        case .many: "2回以上まちがえて正解"
+        case .skipped: "解かずに変更"
+        }
+    }
+
+    /// 解いたとき：まちがえた回数から決める。
+    static func solved(wrongCount: Int) -> ProblemMark { wrongCount == 0 ? .perfect : (wrongCount == 1 ? .once : .many) }
+}
+
+final class ProblemMarkStore {
+    static let shared = ProblemMarkStore()
+    private static let key = "problem.marks.v1"
+    private var marks: [String: Int]
+
+    private init() { marks = (UserDefaults.standard.dictionary(forKey: Self.key) as? [String: Int]) ?? [:] }
+
+    func mark(_ id: String) -> ProblemMark? { marks[id].flatMap(ProblemMark.init) }
+
+    /// いままでより良い結果のときだけ、残す。
+    func record(_ id: String, _ mark: ProblemMark) {
+        guard (marks[id] ?? 0) < mark.rawValue else { return }
+        marks[id] = mark.rawValue
+        UserDefaults.standard.set(marks, forKey: Self.key)
     }
 }

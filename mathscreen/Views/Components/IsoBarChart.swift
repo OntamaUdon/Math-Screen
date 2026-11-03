@@ -3,7 +3,8 @@ import SwiftUI
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
 /// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。少ない数でも差が見えるよう、平方根で伸ばす。
-/// 色は10問ごとに変わり、数が増えるほど少しずつ華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。色の見方は、グラフの下に凡例を並べる。
+/// 色は1問ごとに変わり、10問で最も華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。色の見方は、グラフの下に色だけの凡例を並べる。
+/// 今週（手前の列）の棒には、実際の正解数を数字で添える。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
     var weeks: [[Int?]]
@@ -13,7 +14,7 @@ struct IsoBarChart: View {
     private let dayLabels = ["月", "火", "水", "木", "金", "土", "日"]
     private let gap: CGFloat = 1.15        // 棒の間隔（横）
     private let rowGap: CGFloat = 1.9      // 週と週の間隔（奥行き）
-    private let fullAt = 100               // この問数で棒が満タン
+    private let fullAt = 10                // この問数で棒が満タン（1日10問まで評価する）
 
     private var rows: Int { max(weeks.count, 1) }
     private var height: CGFloat { rows == 1 ? 190 : 210 + 28 * CGFloat(rows - 1) }
@@ -29,19 +30,14 @@ struct IsoBarChart: View {
         }
     }
 
-    /// 色が何問を表すか。1日の正解数がこの数に届くと、その色になる。
+    /// 色の凡例。1日の正解数が増えるほど、右の色になる（数字は付けない）。
     private var legend: some View {
-        HStack(spacing: 0) {
+        HStack(spacing: 3) {
             ForEach(1...10, id: \.self) { tier in
-                VStack(spacing: 2) {
-                    RoundedRectangle(cornerRadius: 3, style: .continuous)
-                        .fill(Self.tierColors(tier).1)
-                        .frame(height: 10)
-                        .overlay(RoundedRectangle(cornerRadius: 3, style: .continuous).stroke(Self.tierColors(tier).2.opacity(0.5), lineWidth: 1))
-                    Text(tier == 10 ? "100~" : "\(tier * 10)").font(Theme.font(9, .semibold)).foregroundStyle(Theme.inkSoft)
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.horizontal, 1.5)
+                RoundedRectangle(cornerRadius: 3, style: .continuous)
+                    .fill(Self.tierColors(tier).1)
+                    .frame(height: 10)
+                    .overlay(RoundedRectangle(cornerRadius: 3, style: .continuous).stroke(Self.tierColors(tier).2.opacity(0.5), lineWidth: 1))
             }
         }
         .accessibilityHidden(true)
@@ -111,7 +107,7 @@ struct IsoBarChart: View {
                 guard let value else { continue }
                 let y = -CGFloat(k) * rowGap - 0.3
                 let isToday = k == 0 && i == todayIndex
-                let tier = value / 10
+                let tier = min(value, 10)          // 1問ごとに色が変わり、10問で最も華やか
                 let colors: (Color, Color, Color) =
                     tier >= 1 ? Self.tierColors(tier)
                     : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
@@ -122,14 +118,19 @@ struct IsoBarChart: View {
                     let bx = CGFloat(i) * gap + 0.1
                     box(Box(x: bx, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
                             top: colors.0, left: colors.1, right: colors.2))
-                    if tier >= 5 {          // 50問〜：上の面に光沢
+                    if tier >= 5 {          // 5問〜：上の面に光沢
                         face([(bx + 0.14, y + 0.14, 0.2 + h), (bx + 0.5, y + 0.14, 0.2 + h),
                               (bx + 0.5, y + 0.3, 0.2 + h), (bx + 0.14, y + 0.3, 0.2 + h)], .white.opacity(0.55))
                     }
-                    if tier >= 8 {          // 80問〜：てっぺんに星
+                    if tier >= 8 {          // 8問〜：てっぺんに星
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
                         ctx.draw(Text("✦").font(.system(size: 13, weight: .bold)).foregroundColor(colors.1),
                                  at: CGPoint(x: t.x, y: t.y - 9))
+                    }
+                    if k == 0 && value > 0 {         // 今週の棒には、実際の正解数を添える
+                        let t = p(bx + 0.4, y + 0.4, 0.2 + h)
+                        ctx.draw(Text("\(value)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
+                                 at: CGPoint(x: t.x, y: t.y - (tier >= 8 ? 22 : 10)))
                     }
                 }))
             }
