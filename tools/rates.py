@@ -70,6 +70,9 @@ UNIT_RATE = {
     "hs_w_ancient": 4.5, "hs_w_medieval": 4.0, "hs_w_early": 4.0, "hs_w_20c": 4.0,
     "hs_geo_nature": 4.5, "hs_geo_industry": 4.0, "hs_geo_pop": 4.5,
     "hs_civ_politics": 4.5, "hs_civ_econ": 4.0, "hs_ethics": 4.0,
+    # ノンジャンル（雑学）
+    "tg_animal": 7.0, "tg_food": 7.0, "tg_body": 6.0, "tg_world": 6.0, "tg_culture": 6.0, "tg_life": 7.0,
+    "tm_math": 6.5, "te_eng": 5.5, "ts_soc": 6.0, "tsc_sci": 6.5, "tj_ja": 6.0,
 }
 
 WORD_ENJA = {"w_basic": 8.5, "w_std": 6.0, "w_adv": 4.2}

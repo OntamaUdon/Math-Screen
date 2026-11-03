@@ -221806,5 +221806,4235 @@
     ],
     "unit": "hs_ethics",
     "rate": 3.2
+  },
+  {
+    "id": "u-tg_animal-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "陸上で最も速く走れる動物はどれか。",
+    "answer": 1,
+    "explanation": "短い距離なら時速100 km ほどで走れるとされる。",
+    "plain": "陸上で最も速く走れる動物はどれか。　① シマウマ　② チーター　③ ライオン　④ ウマ",
+    "choices": [
+      "シマウマ",
+      "チーター",
+      "ライオン",
+      "ウマ"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "世界で最も大きい動物はどれか。",
+    "answer": 1,
+    "explanation": "体長は30 m にもなる。",
+    "plain": "世界で最も大きい動物はどれか。　① ジンベエザメ　② シロナガスクジラ　③ キリン　④ アフリカゾウ",
+    "choices": [
+      "ジンベエザメ",
+      "シロナガスクジラ",
+      "キリン",
+      "アフリカゾウ"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-3",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "タコの心臓はいくつあるか。",
+    "answer": 2,
+    "explanation": "全身用が1つ、えら用が2つ。",
+    "plain": "タコの心臓はいくつあるか。　① 2つ　② 8つ　③ 3つ　④ 1つ",
+    "choices": [
+      "2つ",
+      "8つ",
+      "3つ",
+      "1つ"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "昆虫の足は何本か。",
+    "answer": 0,
+    "explanation": "胸に3対ある。",
+    "plain": "昆虫の足は何本か。　① 6本　② 10本　③ 4本　④ 8本",
+    "choices": [
+      "6本",
+      "10本",
+      "4本",
+      "8本"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-5",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "クモの足は何本か。",
+    "answer": 3,
+    "explanation": "クモは昆虫ではなく、クモ類の仲間。",
+    "plain": "クモの足は何本か。　① 4本　② 10本　③ 6本　④ 8本",
+    "choices": [
+      "4本",
+      "10本",
+      "6本",
+      "8本"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-6",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "ペンギンは何類の仲間か。",
+    "answer": 1,
+    "explanation": "飛べないが、鳥の仲間。",
+    "plain": "ペンギンは何類の仲間か。　① 魚類　② 鳥類　③ 哺乳類　④ 爬虫類",
+    "choices": [
+      "魚類",
+      "鳥類",
+      "哺乳類",
+      "爬虫類"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-7",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "コアラが主に食べるものはどれか。",
+    "answer": 0,
+    "explanation": "ユーカリの葉を食べる。",
+    "plain": "コアラが主に食べるものはどれか。　① ユーカリの葉　② 竹　③ 木の実　④ 笹",
+    "choices": [
+      "ユーカリの葉",
+      "竹",
+      "木の実",
+      "笹"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-8",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "ジャイアントパンダが主に食べるものはどれか。",
+    "answer": 3,
+    "explanation": "1日に10 kg 以上も食べる。",
+    "plain": "ジャイアントパンダが主に食べるものはどれか。　① 果物　② ユーカリの葉　③ 肉　④ 竹",
+    "choices": [
+      "果物",
+      "ユーカリの葉",
+      "肉",
+      "竹"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-9",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "現存する動物で最も背が高いのはどれか。",
+    "answer": 2,
+    "explanation": "高さは約5 m。",
+    "plain": "現存する動物で最も背が高いのはどれか。　① ダチョウ　② アフリカゾウ　③ キリン　④ ラクダ",
+    "choices": [
+      "ダチョウ",
+      "アフリカゾウ",
+      "キリン",
+      "ラクダ"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-10",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "世界で最も大きい鳥はどれか。",
+    "answer": 0,
+    "explanation": "飛べないが、走るのが速い。",
+    "plain": "世界で最も大きい鳥はどれか。　① ダチョウ　② ワシ　③ アホウドリ　④ ペンギン",
+    "choices": [
+      "ダチョウ",
+      "ワシ",
+      "アホウドリ",
+      "ペンギン"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-11",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "ミツバチが、巣の仲間にダンスで伝えることはどれか。",
+    "answer": 2,
+    "explanation": "8の字ダンスや円形ダンスを踊る。",
+    "plain": "ミツバチが、巣の仲間にダンスで伝えることはどれか。　① 女王バチの年齢　② 天気の予報　③ 蜜のある場所　④ 敵が来たこと",
+    "choices": [
+      "女王バチの年齢",
+      "天気の予報",
+      "蜜のある場所",
+      "敵が来たこと"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-12",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "カイコ（蚕）が食べる葉はどれか。",
+    "answer": 3,
+    "explanation": "カイコの繭から絹糸がとれる。",
+    "plain": "カイコ（蚕）が食べる葉はどれか。　① サクラの葉　② ウメの葉　③ ササの葉　④ クワ（桑）の葉",
+    "choices": [
+      "サクラの葉",
+      "ウメの葉",
+      "ササの葉",
+      "クワ（桑）の葉"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-13",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "セミの幼虫は、成虫になるまで主にどこで過ごすか。",
+    "answer": 0,
+    "explanation": "数年〜十数年を地中で過ごす種類もある。",
+    "plain": "セミの幼虫は、成虫になるまで主にどこで過ごすか。　① 土の中　② 花の中　③ 水の中　④ 木の上",
+    "choices": [
+      "土の中",
+      "花の中",
+      "水の中",
+      "木の上"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-14",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "カンガルーの赤ちゃんが、生まれてしばらく育つ場所はどこか。",
+    "answer": 0,
+    "explanation": "小さく生まれて、袋の中で育つ。",
+    "plain": "カンガルーの赤ちゃんが、生まれてしばらく育つ場所はどこか。　① 母親の袋（育児嚢）　② 木の上　③ 巣穴　④ 水の中",
+    "choices": [
+      "母親の袋（育児嚢）",
+      "木の上",
+      "巣穴",
+      "水の中"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-15",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "ラクダのこぶには、主に何が蓄えられているか。",
+    "answer": 0,
+    "explanation": "水ではなく、エネルギー源の脂肪。",
+    "plain": "ラクダのこぶには、主に何が蓄えられているか。　① 脂肪　② 空気　③ 水　④ 骨",
+    "choices": [
+      "脂肪",
+      "空気",
+      "水",
+      "骨"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-16",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "卵を産む哺乳類はどれか。",
+    "answer": 3,
+    "explanation": "オーストラリアにすむ。",
+    "plain": "卵を産む哺乳類はどれか。　① コアラ　② カンガルー　③ ナマケモノ　④ カモノハシ",
+    "choices": [
+      "コアラ",
+      "カンガルー",
+      "ナマケモノ",
+      "カモノハシ"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-17",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "空中で止まる（ホバリング）ことができ、後ろ向きにも飛べる鳥はどれか。",
+    "answer": 1,
+    "explanation": "1秒間に数十回も羽ばたく。",
+    "plain": "空中で止まる（ホバリング）ことができ、後ろ向きにも飛べる鳥はどれか。　① ハト　② ハチドリ　③ ワシ　④ ツバメ",
+    "choices": [
+      "ハト",
+      "ハチドリ",
+      "ワシ",
+      "ツバメ"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-18",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "イルカは何類の仲間か。",
+    "answer": 1,
+    "explanation": "肺で呼吸し、子を産んで乳で育てる。",
+    "plain": "イルカは何類の仲間か。　① 爬虫類　② 哺乳類　③ 両生類　④ 魚類",
+    "choices": [
+      "爬虫類",
+      "哺乳類",
+      "両生類",
+      "魚類"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-19",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "鳥の渡りで、1年間に最も長い距離を移動するとされる鳥はどれか。",
+    "answer": 1,
+    "explanation": "北極と南極のあいだを往復する。",
+    "plain": "鳥の渡りで、1年間に最も長い距離を移動するとされる鳥はどれか。　① ツバメ　② キョクアジサシ　③ ガン　④ ハクチョウ",
+    "choices": [
+      "ツバメ",
+      "キョクアジサシ",
+      "ガン",
+      "ハクチョウ"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-20",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "生き物の雑学",
+    "body": "昆虫のからだは、3つの部分に分かれている。その組み合わせはどれか。",
+    "answer": 1,
+    "explanation": "胸に足と羽がつく。",
+    "plain": "昆虫のからだは、3つの部分に分かれている。その組み合わせはどれか。　① 頭・胴・尾　② 頭・胸・腹　③ 頭・首・胴　④ 胸・腹・尾",
+    "choices": [
+      "頭・胴・尾",
+      "頭・胸・腹",
+      "頭・首・胴",
+      "胸・腹・尾"
+    ],
+    "unit": "tg_animal",
+    "rate": 7.3
+  },
+  {
+    "id": "u-tg_animal-21",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "ほとんどの時間を木にぶら下がって過ごす、動きがゆっくりな動物はどれか。",
+    "answer": 3,
+    "explanation": "葉を消化するのに時間がかかる。",
+    "plain": "ほとんどの時間を木にぶら下がって過ごす、動きがゆっくりな動物はどれか。　① サル　② コアラ　③ リス　④ ナマケモノ",
+    "choices": [
+      "サル",
+      "コアラ",
+      "リス",
+      "ナマケモノ"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_animal-22",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "生き物の雑学",
+    "body": "海の中で、サンゴ礁をつくる主な生き物はどれか。",
+    "answer": 3,
+    "explanation": "小さなポリプが石灰質の骨格をつくる。",
+    "plain": "海の中で、サンゴ礁をつくる主な生き物はどれか。　① ウニ　② 海藻　③ 貝　④ サンゴ（刺胞動物）",
+    "choices": [
+      "ウニ",
+      "海藻",
+      "貝",
+      "サンゴ（刺胞動物）"
+    ],
+    "unit": "tg_animal",
+    "rate": 6.5
+  },
+  {
+    "id": "u-tg_food-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "納豆の原料はどれか。",
+    "answer": 3,
+    "explanation": "納豆菌で発酵させる。",
+    "plain": "納豆の原料はどれか。　① トウモロコシ　② 小麦　③ 米　④ 大豆",
+    "choices": [
+      "トウモロコシ",
+      "小麦",
+      "米",
+      "大豆"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "豆腐の原料はどれか。",
+    "answer": 0,
+    "explanation": "豆乳ににがりを加えて固める。",
+    "plain": "豆腐の原料はどれか。　① 大豆　② 米　③ ジャガイモ　④ 小麦",
+    "choices": [
+      "大豆",
+      "米",
+      "ジャガイモ",
+      "小麦"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-3",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "パンをふくらませるはたらきをする微生物はどれか。",
+    "answer": 2,
+    "explanation": "発酵して二酸化炭素を出す。",
+    "plain": "パンをふくらませるはたらきをする微生物はどれか。　① 納豆菌　② 乳酸菌　③ 酵母（イースト）　④ 大腸菌",
+    "choices": [
+      "納豆菌",
+      "乳酸菌",
+      "酵母（イースト）",
+      "大腸菌"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "ヨーグルトをつくる菌はどれか。",
+    "answer": 0,
+    "explanation": "牛乳の乳糖から乳酸をつくる。",
+    "plain": "ヨーグルトをつくる菌はどれか。　① 乳酸菌　② 納豆菌　③ 麹菌　④ 酵母",
+    "choices": [
+      "乳酸菌",
+      "納豆菌",
+      "麹菌",
+      "酵母"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-5",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "トマトの赤い色のもとになっている成分はどれか。",
+    "answer": 1,
+    "explanation": "抗酸化作用で知られる。",
+    "plain": "トマトの赤い色のもとになっている成分はどれか。　① クロロフィル　② リコピン　③ アントシアニン　④ カロテン",
+    "choices": [
+      "クロロフィル",
+      "リコピン",
+      "アントシアニン",
+      "カロテン"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_food-6",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "ニンジンのオレンジ色のもとになっている成分はどれか。",
+    "answer": 0,
+    "explanation": "体の中でビタミンAに変わる。",
+    "plain": "ニンジンのオレンジ色のもとになっている成分はどれか。　① β-カロテン　② クロロフィル　③ リコピン　④ アントシアニン",
+    "choices": [
+      "β-カロテン",
+      "クロロフィル",
+      "リコピン",
+      "アントシアニン"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_food-7",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "酢の主成分はどれか。",
+    "answer": 2,
+    "explanation": "酢酸発酵でつくられる。",
+    "plain": "酢の主成分はどれか。　① 乳酸　② クエン酸　③ 酢酸　④ 塩酸",
+    "choices": [
+      "乳酸",
+      "クエン酸",
+      "酢酸",
+      "塩酸"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_food-8",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "食塩の主成分はどれか。",
+    "answer": 2,
+    "explanation": "NaCl。",
+    "plain": "食塩の主成分はどれか。　① 塩化カルシウム　② ショ糖　③ 塩化ナトリウム　④ 炭酸水素ナトリウム",
+    "choices": [
+      "塩化カルシウム",
+      "ショ糖",
+      "塩化ナトリウム",
+      "炭酸水素ナトリウム"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-9",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "沖縄県で多く栽培され、砂糖の原料になる作物はどれか。",
+    "answer": 0,
+    "explanation": "北海道ではてんさい（砂糖大根）が原料になる。",
+    "plain": "沖縄県で多く栽培され、砂糖の原料になる作物はどれか。　① サトウキビ　② とうもろこし　③ てんさい　④ さつまいも",
+    "choices": [
+      "サトウキビ",
+      "とうもろこし",
+      "てんさい",
+      "さつまいも"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-10",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "うどんの主な原料はどれか。",
+    "answer": 3,
+    "explanation": "小麦粉に塩水を加えてこねる。",
+    "plain": "うどんの主な原料はどれか。　① 米粉　② 片栗粉　③ そば粉　④ 小麦粉",
+    "choices": [
+      "米粉",
+      "片栗粉",
+      "そば粉",
+      "小麦粉"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-11",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "そばの主な原料はどれか。",
+    "answer": 1,
+    "explanation": "そばの実をひいた粉。",
+    "plain": "そばの主な原料はどれか。　① 米粉　② そば粉　③ 小麦粉　④ 片栗粉",
+    "choices": [
+      "米粉",
+      "そば粉",
+      "小麦粉",
+      "片栗粉"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-12",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "かつお節の原料になる魚はどれか。",
+    "answer": 1,
+    "explanation": "煮て、燻して、乾燥・熟成させる。",
+    "plain": "かつお節の原料になる魚はどれか。　① マグロ　② カツオ　③ イワシ　④ サバ",
+    "choices": [
+      "マグロ",
+      "カツオ",
+      "イワシ",
+      "サバ"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-13",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "みそやしょうゆの主な原料はどれか。",
+    "answer": 3,
+    "explanation": "麹と食塩を加えて発酵させる。",
+    "plain": "みそやしょうゆの主な原料はどれか。　① トウモロコシ　② 米　③ 小麦のみ　④ 大豆",
+    "choices": [
+      "トウモロコシ",
+      "米",
+      "小麦のみ",
+      "大豆"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-14",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "チョコレートの原料になる植物はどれか。",
+    "answer": 3,
+    "explanation": "カカオ豆から作られる。",
+    "plain": "チョコレートの原料になる植物はどれか。　① コーヒー　② 茶　③ サトウキビ　④ カカオ",
+    "choices": [
+      "コーヒー",
+      "茶",
+      "サトウキビ",
+      "カカオ"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-15",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "ビタミンCが不足すると起こる、昔の船乗りに多かった病気はどれか。",
+    "answer": 3,
+    "explanation": "果物や野菜に含まれるビタミン C で防げる。",
+    "plain": "ビタミンCが不足すると起こる、昔の船乗りに多かった病気はどれか。　① 夜盲症　② 脚気　③ くる病　④ 壊血病",
+    "choices": [
+      "夜盲症",
+      "脚気",
+      "くる病",
+      "壊血病"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_food-16",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "ビタミンB₁が不足すると起こる病気はどれか。",
+    "answer": 2,
+    "explanation": "玄米や豚肉などに多く含まれる。",
+    "plain": "ビタミンB₁が不足すると起こる病気はどれか。　① 壊血病　② 夜盲症　③ 脚気　④ くる病",
+    "choices": [
+      "壊血病",
+      "夜盲症",
+      "脚気",
+      "くる病"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_food-17",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "骨や歯をつくるために、とくに必要な栄養素はどれか。",
+    "answer": 1,
+    "explanation": "牛乳・小魚・海藻に多い。",
+    "plain": "骨や歯をつくるために、とくに必要な栄養素はどれか。　① 鉄　② カルシウム　③ ヨウ素　④ カリウム",
+    "choices": [
+      "鉄",
+      "カルシウム",
+      "ヨウ素",
+      "カリウム"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-18",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "赤血球のヘモグロビンの材料になる、レバーなどに多い栄養素はどれか。",
+    "answer": 1,
+    "explanation": "不足すると貧血になりやすい。",
+    "plain": "赤血球のヘモグロビンの材料になる、レバーなどに多い栄養素はどれか。　① ヨウ素　② 鉄　③ カルシウム　④ ナトリウム",
+    "choices": [
+      "ヨウ素",
+      "鉄",
+      "カルシウム",
+      "ナトリウム"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-19",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "ごま油の原料はどれか。",
+    "answer": 3,
+    "explanation": "ごまを絞ってつくる。",
+    "plain": "ごま油の原料はどれか。　① 菜の花　② 大豆　③ オリーブ　④ ごま",
+    "choices": [
+      "菜の花",
+      "大豆",
+      "オリーブ",
+      "ごま"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-20",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "お酒の日本酒（清酒）の主な原料はどれか。",
+    "answer": 0,
+    "explanation": "米と米麹、水を原料とする。",
+    "plain": "お酒の日本酒（清酒）の主な原料はどれか。　① 米　② 小麦　③ 大麦　④ ぶどう",
+    "choices": [
+      "米",
+      "小麦",
+      "大麦",
+      "ぶどう"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-21",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "食べ物・料理の雑学",
+    "body": "世界で最も多く飲まれている飲料（水を除く）として、よく挙げられるものはどれか。",
+    "answer": 3,
+    "explanation": "世界中で広く飲まれている。",
+    "plain": "世界で最も多く飲まれている飲料（水を除く）として、よく挙げられるものはどれか。　① コーヒー　② ジュース　③ 牛乳　④ お茶",
+    "choices": [
+      "コーヒー",
+      "ジュース",
+      "牛乳",
+      "お茶"
+    ],
+    "unit": "tg_food",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_food-22",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "食べ物・料理の雑学",
+    "body": "梅干しの酸っぱさのもとになる主な酸はどれか。",
+    "answer": 0,
+    "explanation": "疲労回復に役立つとも言われる。",
+    "plain": "梅干しの酸っぱさのもとになる主な酸はどれか。　① クエン酸　② 酢酸　③ リンゴ酸　④ 乳酸",
+    "choices": [
+      "クエン酸",
+      "酢酸",
+      "リンゴ酸",
+      "乳酸"
+    ],
+    "unit": "tg_food",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_body-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "大人の骨の数は、およそいくつか。",
+    "answer": 1,
+    "explanation": "赤ちゃんのころは約300本あるが、成長でつながる。",
+    "plain": "大人の骨の数は、およそいくつか。　① 約500本　② 約206本　③ 約300本　④ 約100本",
+    "choices": [
+      "約500本",
+      "約206本",
+      "約300本",
+      "約100本"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "人体で最も大きい臓器はどれか。",
+    "answer": 2,
+    "explanation": "面積も重さも最大。",
+    "plain": "人体で最も大きい臓器はどれか。　① 腸　② 肝臓　③ 皮膚　④ 肺",
+    "choices": [
+      "腸",
+      "肝臓",
+      "皮膚",
+      "肺"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-3",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "人体で最も硬い部分はどれか。",
+    "answer": 2,
+    "explanation": "体の中で最も硬い組織。",
+    "plain": "人体で最も硬い部分はどれか。　① 頭蓋骨　② 大腿骨　③ 歯のエナメル質　④ つめ",
+    "choices": [
+      "頭蓋骨",
+      "大腿骨",
+      "歯のエナメル質",
+      "つめ"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "人体で最も長い骨はどれか。",
+    "answer": 3,
+    "explanation": "身長のおよそ4分の1。",
+    "plain": "人体で最も長い骨はどれか。　① 背骨　② 上腕骨　③ すねの骨　④ 大腿骨（太ももの骨）",
+    "choices": [
+      "背骨",
+      "上腕骨",
+      "すねの骨",
+      "大腿骨（太ももの骨）"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-5",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "人体で最も大きい筋肉はどれか。",
+    "answer": 0,
+    "explanation": "歩くときや立ち上がるときに使う。",
+    "plain": "人体で最も大きい筋肉はどれか。　① 大殿筋（お尻の筋肉）　② 上腕二頭筋　③ 大腿四頭筋　④ 腹直筋",
+    "choices": [
+      "大殿筋（お尻の筋肉）",
+      "上腕二頭筋",
+      "大腿四頭筋",
+      "腹直筋"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-6",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "目で光を感じる、眼球の奥にある膜はどれか。",
+    "answer": 1,
+    "explanation": "ここで光が電気信号に変わる。",
+    "plain": "目で光を感じる、眼球の奥にある膜はどれか。　① 水晶体　② 網膜　③ 角膜　④ 虹彩",
+    "choices": [
+      "水晶体",
+      "網膜",
+      "角膜",
+      "虹彩"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-7",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "目に入る光の量を調節する、瞳孔のまわりの部分はどれか。",
+    "answer": 0,
+    "explanation": "「黒目」の色にあたる。",
+    "plain": "目に入る光の量を調節する、瞳孔のまわりの部分はどれか。　① 虹彩　② 角膜　③ 水晶体　④ 網膜",
+    "choices": [
+      "虹彩",
+      "角膜",
+      "水晶体",
+      "網膜"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-8",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "耳の中で、体のバランス（平衡感覚）をつかさどる器官はどれか。",
+    "answer": 0,
+    "explanation": "回転する動きを感じる。",
+    "plain": "耳の中で、体のバランス（平衡感覚）をつかさどる器官はどれか。　① 三半規管　② 耳小骨　③ うずまき管　④ 鼓膜",
+    "choices": [
+      "三半規管",
+      "耳小骨",
+      "うずまき管",
+      "鼓膜"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-9",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "胃液に含まれる、食べ物を消化するのを助ける酸はどれか。",
+    "answer": 1,
+    "explanation": "強い酸性の胃液。",
+    "plain": "胃液に含まれる、食べ物を消化するのを助ける酸はどれか。　① 硫酸　② 塩酸　③ 酢酸　④ クエン酸",
+    "choices": [
+      "硫酸",
+      "塩酸",
+      "酢酸",
+      "クエン酸"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-10",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "だ液に含まれ、デンプンを分解する消化酵素はどれか。",
+    "answer": 0,
+    "explanation": "ご飯をかむと甘くなる。",
+    "plain": "だ液に含まれ、デンプンを分解する消化酵素はどれか。　① アミラーゼ　② ペプシン　③ リパーゼ　④ トリプシン",
+    "choices": [
+      "アミラーゼ",
+      "ペプシン",
+      "リパーゼ",
+      "トリプシン"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-11",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "赤血球の寿命は、およそどれくらいか。",
+    "answer": 1,
+    "explanation": "骨髄でつくられ、脾臓などで壊される。",
+    "plain": "赤血球の寿命は、およそどれくらいか。　① 約1年　② 約120日　③ 約1週間　④ 約1日",
+    "choices": [
+      "約1年",
+      "約120日",
+      "約1週間",
+      "約1日"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-12",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "日光を浴びると、皮膚でつくられるビタミンはどれか。",
+    "answer": 2,
+    "explanation": "カルシウムの吸収を助ける。",
+    "plain": "日光を浴びると、皮膚でつくられるビタミンはどれか。　① ビタミンC　② ビタミンB₁　③ ビタミンD　④ ビタミンA",
+    "choices": [
+      "ビタミンC",
+      "ビタミンB₁",
+      "ビタミンD",
+      "ビタミンA"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-13",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "夢をよく見るといわれる睡眠は、何睡眠か。",
+    "answer": 0,
+    "explanation": "眠りは浅く、眼球が動く。",
+    "plain": "夢をよく見るといわれる睡眠は、何睡眠か。　① レム睡眠　② 仮眠　③ 深い睡眠　④ ノンレム睡眠",
+    "choices": [
+      "レム睡眠",
+      "仮眠",
+      "深い睡眠",
+      "ノンレム睡眠"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-14",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "ヒトの右の肺は、いくつの葉に分かれているか。",
+    "answer": 0,
+    "explanation": "左の肺は2つ。心臓があるため小さい。",
+    "plain": "ヒトの右の肺は、いくつの葉に分かれているか。　① 3つ　② 5つ　③ 1つ　④ 2つ",
+    "choices": [
+      "3つ",
+      "5つ",
+      "1つ",
+      "2つ"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-15",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "成人の体の水分は、体重のおよそ何％か。",
+    "answer": 0,
+    "explanation": "年齢などで少し変わる。",
+    "plain": "成人の体の水分は、体重のおよそ何％か。　① 約60％　② 約10％　③ 約30％　④ 約90％",
+    "choices": [
+      "約60％",
+      "約10％",
+      "約30％",
+      "約90％"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-16",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "ヒトの血液の量は、体重のおよそ何分の1か。",
+    "answer": 0,
+    "explanation": "体重60 kg なら約4.6 L。",
+    "plain": "ヒトの血液の量は、体重のおよそ何分の1か。　① 約13分の1　② 約100分の1　③ 約50分の1　④ 約3分の1",
+    "choices": [
+      "約13分の1",
+      "約100分の1",
+      "約50分の1",
+      "約3分の1"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-17",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "ヒトの指紋について、正しいものはどれか。",
+    "answer": 0,
+    "explanation": "一卵性双生児でも異なる。",
+    "plain": "ヒトの指紋について、正しいものはどれか。　① 人によって異なる　② 年を取ると消える　③ 全員同じ　④ 男女で決まっている",
+    "choices": [
+      "人によって異なる",
+      "年を取ると消える",
+      "全員同じ",
+      "男女で決まっている"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-18",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "安静時の成人の心臓は、1分間に約何回拍動するか。",
+    "answer": 1,
+    "explanation": "運動すると増える。",
+    "plain": "安静時の成人の心臓は、1分間に約何回拍動するか。　① 約300回　② 約60〜80回　③ 約150〜200回　④ 約10〜20回",
+    "choices": [
+      "約300回",
+      "約60〜80回",
+      "約150〜200回",
+      "約10〜20回"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_body-19",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "ヒトの脳の重さは、成人でおよそどれくらいか。",
+    "answer": 2,
+    "explanation": "体重の約2％。",
+    "plain": "ヒトの脳の重さは、成人でおよそどれくらいか。　① 約140 g　② 約14 kg　③ 約1.4 kg　④ 約400 g",
+    "choices": [
+      "約140 g",
+      "約14 kg",
+      "約1.4 kg",
+      "約400 g"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-20",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "からだの雑学",
+    "body": "骨と骨をつなぐ、関節にある丈夫なひものような組織を何というか。",
+    "answer": 3,
+    "explanation": "筋肉と骨をつなぐのは腱。",
+    "plain": "骨と骨をつなぐ、関節にある丈夫なひものような組織を何というか。　① 血管　② 神経　③ 腱　④ 靭帯",
+    "choices": [
+      "血管",
+      "神経",
+      "腱",
+      "靭帯"
+    ],
+    "unit": "tg_body",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_body-21",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "からだの雑学",
+    "body": "血液型のA型・B型・O型・AB型を分けているのは、何の違いか。",
+    "answer": 2,
+    "explanation": "ABO式血液型。",
+    "plain": "血液型のA型・B型・O型・AB型を分けているのは、何の違いか。　① 血液の量　② 血圧　③ 赤血球の表面の目印（抗原）　④ 血液の色",
+    "choices": [
+      "血液の量",
+      "血圧",
+      "赤血球の表面の目印（抗原）",
+      "血液の色"
+    ],
+    "unit": "tg_body",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "世界で最も面積が大きい国はどれか。",
+    "answer": 2,
+    "explanation": "面積は日本の約45倍。",
+    "plain": "世界で最も面積が大きい国はどれか。　① カナダ　② アメリカ　③ ロシア　④ 中国",
+    "choices": [
+      "カナダ",
+      "アメリカ",
+      "ロシア",
+      "中国"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "世界で最も面積が小さい国はどれか。",
+    "answer": 1,
+    "explanation": "ローマ市内にある。",
+    "plain": "世界で最も面積が小さい国はどれか。　① モナコ　② バチカン市国　③ シンガポール　④ サンマリノ",
+    "choices": [
+      "モナコ",
+      "バチカン市国",
+      "シンガポール",
+      "サンマリノ"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-3",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "世界で最も高い山はどれか。",
+    "answer": 2,
+    "explanation": "標高は約8,800 m。",
+    "plain": "世界で最も高い山はどれか。　① キリマンジャロ　② K2　③ エベレスト　④ モンブラン",
+    "choices": [
+      "キリマンジャロ",
+      "K2",
+      "エベレスト",
+      "モンブラン"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "世界最大の暑い砂漠はどれか。",
+    "answer": 0,
+    "explanation": "アフリカ北部に広がる。",
+    "plain": "世界最大の暑い砂漠はどれか。　① サハラ砂漠　② ゴビ砂漠　③ タクラマカン砂漠　④ アタカマ砂漠",
+    "choices": [
+      "サハラ砂漠",
+      "ゴビ砂漠",
+      "タクラマカン砂漠",
+      "アタカマ砂漠"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-5",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "国際連合の本部がある都市はどれか。",
+    "answer": 1,
+    "explanation": "アメリカにある。",
+    "plain": "国際連合の本部がある都市はどれか。　① パリ　② ニューヨーク　③ ジュネーブ　④ ワシントンD.C.",
+    "choices": [
+      "パリ",
+      "ニューヨーク",
+      "ジュネーブ",
+      "ワシントンD.C."
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-6",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "ニューヨークの「自由の女神像」を贈った国はどれか。",
+    "answer": 1,
+    "explanation": "アメリカ独立 100 周年を記念して贈られた。",
+    "plain": "ニューヨークの「自由の女神像」を贈った国はどれか。　① ドイツ　② フランス　③ イギリス　④ スペイン",
+    "choices": [
+      "ドイツ",
+      "フランス",
+      "イギリス",
+      "スペイン"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-7",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "ピラミッドで有名な国はどれか。",
+    "answer": 0,
+    "explanation": "ギザの大ピラミッドなど。",
+    "plain": "ピラミッドで有名な国はどれか。　① エジプト　② ペルー　③ インド　④ ギリシャ",
+    "choices": [
+      "エジプト",
+      "ペルー",
+      "インド",
+      "ギリシャ"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-8",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "万里の長城がある国はどれか。",
+    "answer": 0,
+    "explanation": "北方民族の侵入を防ぐために築かれた。",
+    "plain": "万里の長城がある国はどれか。　① 中国　② モンゴル　③ インド　④ 日本",
+    "choices": [
+      "中国",
+      "モンゴル",
+      "インド",
+      "日本"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-9",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "タージ・マハルがある国はどれか。",
+    "answer": 3,
+    "explanation": "ムガル帝国の皇帝が妃のために造った墓廟。",
+    "plain": "タージ・マハルがある国はどれか。　① イラン　② エジプト　③ トルコ　④ インド",
+    "choices": [
+      "イラン",
+      "エジプト",
+      "トルコ",
+      "インド"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-10",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "コロッセオがある都市はどれか。",
+    "answer": 2,
+    "explanation": "古代ローマの円形闘技場。",
+    "plain": "コロッセオがある都市はどれか。　① アテネ　② ロンドン　③ ローマ　④ パリ",
+    "choices": [
+      "アテネ",
+      "ロンドン",
+      "ローマ",
+      "パリ"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-11",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "オーストラリアの首都はどこか。",
+    "answer": 3,
+    "explanation": "最大の都市はシドニー。",
+    "plain": "オーストラリアの首都はどこか。　① メルボルン　② パース　③ シドニー　④ キャンベラ",
+    "choices": [
+      "メルボルン",
+      "パース",
+      "シドニー",
+      "キャンベラ"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-12",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "カナダの首都はどこか。",
+    "answer": 3,
+    "explanation": "最大の都市はトロント。",
+    "plain": "カナダの首都はどこか。　① トロント　② バンクーバー　③ モントリオール　④ オタワ",
+    "choices": [
+      "トロント",
+      "バンクーバー",
+      "モントリオール",
+      "オタワ"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-13",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "ブラジルの首都はどこか。",
+    "answer": 0,
+    "explanation": "計画的につくられた都市。",
+    "plain": "ブラジルの首都はどこか。　① ブラジリア　② サルバドール　③ サンパウロ　④ リオデジャネイロ",
+    "choices": [
+      "ブラジリア",
+      "サルバドール",
+      "サンパウロ",
+      "リオデジャネイロ"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-14",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "トルコの首都はどこか。",
+    "answer": 1,
+    "explanation": "最大の都市はイスタンブール。",
+    "plain": "トルコの首都はどこか。　① イズミル　② アンカラ　③ イスタンブール　④ アンタルヤ",
+    "choices": [
+      "イズミル",
+      "アンカラ",
+      "イスタンブール",
+      "アンタルヤ"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-15",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "ニュージーランドの首都はどこか。",
+    "answer": 3,
+    "explanation": "最大の都市はオークランド。",
+    "plain": "ニュージーランドの首都はどこか。　① オークランド　② ダニーデン　③ クライストチャーチ　④ ウェリントン",
+    "choices": [
+      "オークランド",
+      "ダニーデン",
+      "クライストチャーチ",
+      "ウェリントン"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-16",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "世界で最も深い湖はどれか。",
+    "answer": 0,
+    "explanation": "ロシアにある。",
+    "plain": "世界で最も深い湖はどれか。　① バイカル湖　② カスピ海　③ 琵琶湖　④ スペリオル湖",
+    "choices": [
+      "バイカル湖",
+      "カスピ海",
+      "琵琶湖",
+      "スペリオル湖"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-17",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "世界・国の雑学",
+    "body": "国名が「赤道」を意味するスペイン語に由来する、南アメリカの国はどれか。",
+    "answer": 2,
+    "explanation": "国内を赤道が通る。",
+    "plain": "国名が「赤道」を意味するスペイン語に由来する、南アメリカの国はどれか。　① ペルー　② ブラジル　③ エクアドル　④ チリ",
+    "choices": [
+      "ペルー",
+      "ブラジル",
+      "エクアドル",
+      "チリ"
+    ],
+    "unit": "tg_world",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_world-18",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "世界で最も小さい大陸はどれか。",
+    "answer": 0,
+    "explanation": "6大陸のうち面積が最小。",
+    "plain": "世界で最も小さい大陸はどれか。　① オーストラリア大陸　② ヨーロッパ　③ 南極大陸　④ 南アメリカ大陸",
+    "choices": [
+      "オーストラリア大陸",
+      "ヨーロッパ",
+      "南極大陸",
+      "南アメリカ大陸"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-19",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "三大洋のうち、最も大きいのはどれか。",
+    "answer": 2,
+    "explanation": "地球の表面積の約3分の1。",
+    "plain": "三大洋のうち、最も大きいのはどれか。　① 大西洋　② インド洋　③ 太平洋　④ 北極海",
+    "choices": [
+      "大西洋",
+      "インド洋",
+      "太平洋",
+      "北極海"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-20",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "エッフェル塔がある都市はどれか。",
+    "answer": 1,
+    "explanation": "1889 年のパリ万国博覧会で建てられた。",
+    "plain": "エッフェル塔がある都市はどれか。　① ローマ　② パリ　③ ロンドン　④ ベルリン",
+    "choices": [
+      "ローマ",
+      "パリ",
+      "ロンドン",
+      "ベルリン"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_world-21",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "世界・国の雑学",
+    "body": "北極と南極を結ぶ線を何というか。",
+    "answer": 2,
+    "explanation": "子午線ともいう。",
+    "plain": "北極と南極を結ぶ線を何というか。　① 日付変更線　② 緯線　③ 経線　④ 赤道",
+    "choices": [
+      "日付変更線",
+      "緯線",
+      "経線",
+      "赤道"
+    ],
+    "unit": "tg_world",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "オリンピックの発祥の地は、古代の何という国か。",
+    "answer": 0,
+    "explanation": "古代オリンピックはオリンピアで開かれた。",
+    "plain": "オリンピックの発祥の地は、古代の何という国か。　① ギリシャ　② エジプト　③ ペルシア　④ ローマ",
+    "choices": [
+      "ギリシャ",
+      "エジプト",
+      "ペルシア",
+      "ローマ"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "サッカーで、1チームが試合中にフィールドに出られる人数は何人か。",
+    "answer": 1,
+    "explanation": "ゴールキーパーを含む。",
+    "plain": "サッカーで、1チームが試合中にフィールドに出られる人数は何人か。　① 12人　② 11人　③ 10人　④ 9人",
+    "choices": [
+      "12人",
+      "11人",
+      "10人",
+      "9人"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-3",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "野球で、守備につく選手は何人か。",
+    "answer": 2,
+    "explanation": "投手、捕手、内野手4人、外野手3人。",
+    "plain": "野球で、守備につく選手は何人か。　① 8人　② 11人　③ 9人　④ 10人",
+    "choices": [
+      "8人",
+      "11人",
+      "9人",
+      "10人"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "バレーボールで、コートに入る1チームの人数は何人か。",
+    "answer": 2,
+    "explanation": "（6人制の場合）。",
+    "plain": "バレーボールで、コートに入る1チームの人数は何人か。　① 5人　② 9人　③ 6人　④ 7人",
+    "choices": [
+      "5人",
+      "9人",
+      "6人",
+      "7人"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-5",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "バスケットボールで、コートに入る1チームの人数は何人か。",
+    "answer": 1,
+    "explanation": "ベンチには交代の選手がいる。",
+    "plain": "バスケットボールで、コートに入る1チームの人数は何人か。　① 7人　② 5人　③ 9人　④ 6人",
+    "choices": [
+      "7人",
+      "5人",
+      "9人",
+      "6人"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-6",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "マラソンの距離は、およそ何 km か。",
+    "answer": 1,
+    "explanation": "ハーフマラソンはその半分。",
+    "plain": "マラソンの距離は、およそ何 km か。　① 50 km　② 42.195 km　③ 21.0975 km　④ 100 km",
+    "choices": [
+      "50 km",
+      "42.195 km",
+      "21.0975 km",
+      "100 km"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-7",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "柔道が生まれた国はどこか。",
+    "answer": 0,
+    "explanation": "嘉納治五郎が創始した。",
+    "plain": "柔道が生まれた国はどこか。　① 日本　② 中国　③ モンゴル　④ 韓国",
+    "choices": [
+      "日本",
+      "中国",
+      "モンゴル",
+      "韓国"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-8",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "相撲で、力士の最高位はどれか。",
+    "answer": 3,
+    "explanation": "番付の最高位。",
+    "plain": "相撲で、力士の最高位はどれか。　① 大関　② 関脇　③ 小結　④ 横綱",
+    "choices": [
+      "大関",
+      "関脇",
+      "小結",
+      "横綱"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-9",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "将棋の駒は、両者合わせて全部で何枚か。",
+    "answer": 3,
+    "explanation": "1人20枚ずつ。",
+    "plain": "将棋の駒は、両者合わせて全部で何枚か。　① 32枚　② 81枚　③ 20枚　④ 40枚",
+    "choices": [
+      "32枚",
+      "81枚",
+      "20枚",
+      "40枚"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-10",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "囲碁の碁盤は、縦横それぞれ何本の線があるのが標準か。",
+    "answer": 3,
+    "explanation": "19路盤。",
+    "plain": "囲碁の碁盤は、縦横それぞれ何本の線があるのが標準か。　① 13本　② 21本　③ 9本　④ 19本",
+    "choices": [
+      "13本",
+      "21本",
+      "9本",
+      "19本"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-11",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "ピアノの鍵盤は、全部で何個か。",
+    "answer": 2,
+    "explanation": "白鍵 52、黒鍵 36。",
+    "plain": "ピアノの鍵盤は、全部で何個か。　① 100個　② 66個　③ 88個　④ 72個",
+    "choices": [
+      "100個",
+      "66個",
+      "88個",
+      "72個"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-12",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "ヴァイオリンの弦は、何本か。",
+    "answer": 1,
+    "explanation": "G・D・A・E 線。",
+    "plain": "ヴァイオリンの弦は、何本か。　① 5本　② 4本　③ 3本　④ 6本",
+    "choices": [
+      "5本",
+      "4本",
+      "3本",
+      "6本"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-13",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "トランプは、ジョーカーを除いて何枚か。",
+    "answer": 3,
+    "explanation": "4種類のマーク × 13 枚。",
+    "plain": "トランプは、ジョーカーを除いて何枚か。　① 60枚　② 48枚　③ 54枚　④ 52枚",
+    "choices": [
+      "60枚",
+      "48枚",
+      "54枚",
+      "52枚"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-14",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "「モナ・リザ」を描いた画家はだれか。",
+    "answer": 3,
+    "explanation": "ルーヴル美術館にある。",
+    "plain": "「モナ・リザ」を描いた画家はだれか。　① ミケランジェロ　② ピカソ　③ ゴッホ　④ レオナルド・ダ・ヴィンチ",
+    "choices": [
+      "ミケランジェロ",
+      "ピカソ",
+      "ゴッホ",
+      "レオナルド・ダ・ヴィンチ"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-15",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "「ひまわり」の連作で知られるオランダ出身の画家はだれか。",
+    "answer": 0,
+    "explanation": "ポスト印象派の画家。",
+    "plain": "「ひまわり」の連作で知られるオランダ出身の画家はだれか。　① ゴッホ　② ゴーギャン　③ モネ　④ ピカソ",
+    "choices": [
+      "ゴッホ",
+      "ゴーギャン",
+      "モネ",
+      "ピカソ"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-16",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "交響曲第9番「合唱付き」を作曲したのはだれか。",
+    "answer": 1,
+    "explanation": "「歓喜の歌」で知られる。",
+    "plain": "交響曲第9番「合唱付き」を作曲したのはだれか。　① バッハ　② ベートーヴェン　③ モーツァルト　④ シューベルト",
+    "choices": [
+      "バッハ",
+      "ベートーヴェン",
+      "モーツァルト",
+      "シューベルト"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-17",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "「冨嶽三十六景」を描いた浮世絵師はだれか。",
+    "answer": 0,
+    "explanation": "「神奈川沖浪裏」が有名。",
+    "plain": "「冨嶽三十六景」を描いた浮世絵師はだれか。　① 葛飾北斎　② 喜多川歌麿　③ 歌川広重　④ 東洲斎写楽",
+    "choices": [
+      "葛飾北斎",
+      "喜多川歌麿",
+      "歌川広重",
+      "東洲斎写楽"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-18",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "能を大成した室町時代の人物はだれか。",
+    "answer": 1,
+    "explanation": "観阿弥の子。『風姿花伝』を著した。",
+    "plain": "能を大成した室町時代の人物はだれか。　① 出雲阿国　② 世阿弥　③ 近松門左衛門　④ 松尾芭蕉",
+    "choices": [
+      "出雲阿国",
+      "世阿弥",
+      "近松門左衛門",
+      "松尾芭蕉"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-19",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "『吾輩は猫である』を書いた作家はだれか。",
+    "answer": 1,
+    "explanation": "ほかに『坊っちゃん』など。",
+    "plain": "『吾輩は猫である』を書いた作家はだれか。　① 森鷗外　② 夏目漱石　③ 芥川龍之介　④ 太宰治",
+    "choices": [
+      "森鷗外",
+      "夏目漱石",
+      "芥川龍之介",
+      "太宰治"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_culture-20",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "文化・スポーツの雑学",
+    "body": "テニスの四大大会のうち、芝のコートで行われるのはどれか。",
+    "answer": 2,
+    "explanation": "ほかは主にハードコートや、赤土のクレーコート。",
+    "plain": "テニスの四大大会のうち、芝のコートで行われるのはどれか。　① 全米オープン　② 全仏オープン　③ 全英オープン（ウィンブルドン）　④ 全豪オープン",
+    "choices": [
+      "全米オープン",
+      "全仏オープン",
+      "全英オープン（ウィンブルドン）",
+      "全豪オープン"
+    ],
+    "unit": "tg_culture",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tg_culture-21",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "文化・スポーツの雑学",
+    "body": "夏のオリンピックは、何年ごとに開かれるか。",
+    "answer": 3,
+    "explanation": "（延期や中止の場合を除く）。",
+    "plain": "夏のオリンピックは、何年ごとに開かれるか。　① 5年ごと　② 2年ごと　③ 3年ごと　④ 4年ごと",
+    "choices": [
+      "5年ごと",
+      "2年ごと",
+      "3年ごと",
+      "4年ごと"
+    ],
+    "unit": "tg_culture",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tg_life-1",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "うるう年の1年は何日か。",
+    "answer": 0,
+    "explanation": "2月が29日まである。",
+    "plain": "うるう年の1年は何日か。　① 366日　② 365日　③ 367日　④ 364日",
+    "choices": [
+      "366日",
+      "365日",
+      "367日",
+      "364日"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-2",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "1時間は何秒か。",
+    "answer": 3,
+    "explanation": "60 × 60 = 3600。",
+    "plain": "1時間は何秒か。　① 360秒　② 86400秒　③ 600秒　④ 3600秒",
+    "choices": [
+      "360秒",
+      "86400秒",
+      "600秒",
+      "3600秒"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-3",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本の郵便番号は、何桁か。",
+    "answer": 3,
+    "explanation": "（ハイフンを除く）。",
+    "plain": "日本の郵便番号は、何桁か。　① 6桁　② 5桁　③ 8桁　④ 7桁",
+    "choices": [
+      "6桁",
+      "5桁",
+      "8桁",
+      "7桁"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-4",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本で、警察への緊急通報の電話番号はどれか。",
+    "answer": 3,
+    "explanation": "119番は消防・救急。",
+    "plain": "日本で、警察への緊急通報の電話番号はどれか。　① 117番　② 118番　③ 119番　④ 110番",
+    "choices": [
+      "117番",
+      "118番",
+      "119番",
+      "110番"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-5",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本で、火事や救急のときの電話番号はどれか。",
+    "answer": 3,
+    "explanation": "消防・救急。",
+    "plain": "日本で、火事や救急のときの電話番号はどれか。　① 118番　② 110番　③ 104番　④ 119番",
+    "choices": [
+      "118番",
+      "110番",
+      "104番",
+      "119番"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-6",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本の硬貨で、最も額面が大きいのはどれか。",
+    "answer": 0,
+    "explanation": "1000円は紙幣。",
+    "plain": "日本の硬貨で、最も額面が大きいのはどれか。　① 500円玉　② 1000円玉　③ 50円玉　④ 100円玉",
+    "choices": [
+      "500円玉",
+      "1000円玉",
+      "50円玉",
+      "100円玉"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-7",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本の国旗の名称は何か。",
+    "answer": 3,
+    "explanation": "白地に赤い円。",
+    "plain": "日本の国旗の名称は何か。　① 旭日旗　② 桜章旗　③ 君が代　④ 日章旗（日の丸）",
+    "choices": [
+      "旭日旗",
+      "桜章旗",
+      "君が代",
+      "日章旗（日の丸）"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-8",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本の都道府県の数はいくつか。",
+    "answer": 1,
+    "explanation": "1都1道2府43県。",
+    "plain": "日本の都道府県の数はいくつか。　① 43　② 47　③ 50　④ 46",
+    "choices": [
+      "43",
+      "47",
+      "50",
+      "46"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-9",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本で最も高い山はどれか。",
+    "answer": 0,
+    "explanation": "標高 3,776 m。",
+    "plain": "日本で最も高い山はどれか。　① 富士山　② 槍ヶ岳　③ 御嶽山　④ 北岳",
+    "choices": [
+      "富士山",
+      "槍ヶ岳",
+      "御嶽山",
+      "北岳"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-10",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本で最も面積が大きい湖はどれか。",
+    "answer": 2,
+    "explanation": "滋賀県にある。",
+    "plain": "日本で最も面積が大きい湖はどれか。　① サロマ湖　② 霞ヶ浦　③ 琵琶湖　④ 浜名湖",
+    "choices": [
+      "サロマ湖",
+      "霞ヶ浦",
+      "琵琶湖",
+      "浜名湖"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-11",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本で最も長い川はどれか。",
+    "answer": 1,
+    "explanation": "長野県では千曲川と呼ばれる。",
+    "plain": "日本で最も長い川はどれか。　① 北上川　② 信濃川　③ 石狩川　④ 利根川",
+    "choices": [
+      "北上川",
+      "信濃川",
+      "石狩川",
+      "利根川"
+    ],
+    "unit": "tg_life",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_life-12",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "干支で、子（ね）の次にくる動物はどれか。",
+    "answer": 0,
+    "explanation": "子→丑→寅→卯…の順。",
+    "plain": "干支で、子（ね）の次にくる動物はどれか。　① 丑（うし）　② 亥（いのしし）　③ 卯（うさぎ）　④ 寅（とら）",
+    "choices": [
+      "丑（うし）",
+      "亥（いのしし）",
+      "卯（うさぎ）",
+      "寅（とら）"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-13",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "七夕は何月何日か。",
+    "answer": 0,
+    "explanation": "（新暦の場合）。",
+    "plain": "七夕は何月何日か。　① 7月7日　② 7月17日　③ 8月7日　④ 7月1日",
+    "choices": [
+      "7月7日",
+      "7月17日",
+      "8月7日",
+      "7月1日"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-14",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "桃の節句（ひな祭り）は何月何日か。",
+    "answer": 3,
+    "explanation": "女の子の成長を祝う。",
+    "plain": "桃の節句（ひな祭り）は何月何日か。　① 2月3日　② 5月5日　③ 7月7日　④ 3月3日",
+    "choices": [
+      "2月3日",
+      "5月5日",
+      "7月7日",
+      "3月3日"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-15",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "端午の節句（こどもの日）は何月何日か。",
+    "answer": 1,
+    "explanation": "男の子の成長を祝う習わしがあった。",
+    "plain": "端午の節句（こどもの日）は何月何日か。　① 3月3日　② 5月5日　③ 7月7日　④ 9月9日",
+    "choices": [
+      "3月3日",
+      "5月5日",
+      "7月7日",
+      "9月9日"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-16",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "暮らし・言葉の雑学",
+    "body": "還暦のお祝いをするのは何歳か。",
+    "answer": 3,
+    "explanation": "干支がひとまわりして生まれ年に戻る。",
+    "plain": "還暦のお祝いをするのは何歳か。　① 70歳　② 77歳　③ 50歳　④ 60歳",
+    "choices": [
+      "70歳",
+      "77歳",
+      "50歳",
+      "60歳"
+    ],
+    "unit": "tg_life",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_life-17",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "暮らし・言葉の雑学",
+    "body": "88歳のお祝いを何というか。",
+    "answer": 0,
+    "explanation": "「米」の字を分けると八十八。",
+    "plain": "88歳のお祝いを何というか。　① 米寿　② 傘寿　③ 喜寿　④ 古希",
+    "choices": [
+      "米寿",
+      "傘寿",
+      "喜寿",
+      "古希"
+    ],
+    "unit": "tg_life",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_life-18",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "暮らし・言葉の雑学",
+    "body": "70歳のお祝いを何というか。",
+    "answer": 2,
+    "explanation": "「人生七十古来稀なり」から。",
+    "plain": "70歳のお祝いを何というか。　① 喜寿　② 米寿　③ 古希　④ 還暦",
+    "choices": [
+      "喜寿",
+      "米寿",
+      "古希",
+      "還暦"
+    ],
+    "unit": "tg_life",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_life-19",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "虹の色は、日本ではふつう何色といわれるか。",
+    "answer": 0,
+    "explanation": "赤・橙・黄・緑・青・藍・紫。",
+    "plain": "虹の色は、日本ではふつう何色といわれるか。　① 7色　② 5色　③ 6色　④ 10色",
+    "choices": [
+      "7色",
+      "5色",
+      "6色",
+      "10色"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tg_life-20",
+    "category": "triv_gen",
+    "difficulty": 2,
+    "title": "暮らし・言葉の雑学",
+    "body": "日本の国鳥とされる鳥はどれか。",
+    "answer": 3,
+    "explanation": "日本鳥学会が国鳥に選んだ。",
+    "plain": "日本の国鳥とされる鳥はどれか。　① タカ　② ツル　③ スズメ　④ キジ",
+    "choices": [
+      "タカ",
+      "ツル",
+      "スズメ",
+      "キジ"
+    ],
+    "unit": "tg_life",
+    "rate": 6.4
+  },
+  {
+    "id": "u-tg_life-21",
+    "category": "triv_gen",
+    "difficulty": 1,
+    "title": "暮らし・言葉の雑学",
+    "body": "節分に、鬼を追い払うためにまくものはどれか。",
+    "answer": 3,
+    "explanation": "「鬼は外、福は内」。",
+    "plain": "節分に、鬼を追い払うためにまくものはどれか。　① 米　② もち　③ 塩　④ 豆",
+    "choices": [
+      "米",
+      "もち",
+      "塩",
+      "豆"
+    ],
+    "unit": "tg_life",
+    "rate": 7.2
+  },
+  {
+    "id": "u-tm_math-1",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "円周率 π（3.14159…）の小数第1位は何か。",
+    "answer": 1,
+    "explanation": "3.1415… の小数第1位は 1。",
+    "plain": "円周率 π（3.14159…）の小数第1位は何か。　① 4　② 1　③ 3　④ 5",
+    "choices": [
+      "4",
+      "1",
+      "3",
+      "5"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-2",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "最小の素数はどれか。",
+    "answer": 3,
+    "explanation": "1 は素数ではない。",
+    "plain": "最小の素数はどれか。　① 3　② 0　③ 1　④ 2",
+    "choices": [
+      "3",
+      "0",
+      "1",
+      "2"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-3",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "素数のうち、唯一の偶数はどれか。",
+    "answer": 2,
+    "explanation": "ほかの偶数は 2 で割り切れるので素数ではない。",
+    "plain": "素数のうち、唯一の偶数はどれか。　① 6　② 4　③ 2　④ 0",
+    "choices": [
+      "6",
+      "4",
+      "2",
+      "0"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-4",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "三角形の内角の和は何度か。",
+    "answer": 2,
+    "explanation": "平面上の三角形では常に 180°。",
+    "plain": "三角形の内角の和は何度か。　① 360度　② 90度　③ 180度　④ 270度",
+    "choices": [
+      "360度",
+      "90度",
+      "180度",
+      "270度"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-5",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "ローマ数字の「X」が表す数はどれか。",
+    "answer": 2,
+    "explanation": "V が 5、L が 50、C が 100。",
+    "plain": "ローマ数字の「X」が表す数はどれか。　① 5　② 100　③ 10　④ 50",
+    "choices": [
+      "5",
+      "100",
+      "10",
+      "50"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-6",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "正多面体は、全部で何種類あるか。",
+    "answer": 0,
+    "explanation": "正四面体・正六面体・正八面体・正十二面体・正二十面体。",
+    "plain": "正多面体は、全部で何種類あるか。　① 5種類　② 6種類　③ 3種類　④ 4種類",
+    "choices": [
+      "5種類",
+      "6種類",
+      "3種類",
+      "4種類"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-7",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "コンピュータが内部で使う二進法で、使われる数字はどれか。",
+    "answer": 3,
+    "explanation": "2 進法。",
+    "plain": "コンピュータが内部で使う二進法で、使われる数字はどれか。　① 1と2　② 0から9　③ 0と2　④ 0と1",
+    "choices": [
+      "1と2",
+      "0から9",
+      "0と2",
+      "0と1"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-8",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "最も小さい完全数（自分自身を除く約数の和が自分に等しい数）はどれか。",
+    "answer": 2,
+    "explanation": "6 = 1 + 2 + 3。",
+    "plain": "最も小さい完全数（自分自身を除く約数の和が自分に等しい数）はどれか。　① 8　② 4　③ 6　④ 12",
+    "choices": [
+      "8",
+      "4",
+      "6",
+      "12"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-9",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "フィボナッチ数列 1, 1, 2, 3, 5, 8 の次の数はどれか。",
+    "answer": 3,
+    "explanation": "前の2つの数の和。5 + 8 = 13。",
+    "plain": "フィボナッチ数列 1, 1, 2, 3, 5, 8 の次の数はどれか。　① 11　② 12　③ 16　④ 13",
+    "choices": [
+      "11",
+      "12",
+      "16",
+      "13"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-10",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "黄金比のおよその値はどれか。",
+    "answer": 1,
+    "explanation": "(1 + √5) / 2 ≈ 1.618。",
+    "plain": "黄金比のおよその値はどれか。　① 1 : 1.414　② 1 : 1.618　③ 1 : 2　④ 1 : 1.732",
+    "choices": [
+      "1 : 1.414",
+      "1 : 1.618",
+      "1 : 2",
+      "1 : 1.732"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-11",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "ネイピア数 e のおよその値はどれか。",
+    "answer": 2,
+    "explanation": "自然対数の底。",
+    "plain": "ネイピア数 e のおよその値はどれか。　① 3.141　② 1.414　③ 2.718　④ 1.732",
+    "choices": [
+      "3.141",
+      "1.414",
+      "2.718",
+      "1.732"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-12",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "虚数単位 i について、正しい式はどれか。",
+    "answer": 3,
+    "explanation": "i は 2 乗すると −1 になる数。",
+    "plain": "虚数単位 i について、正しい式はどれか。　① i² = 1　② i² = 0　③ i = −1　④ i² = −1",
+    "choices": [
+      "i² = 1",
+      "i² = 0",
+      "i = −1",
+      "i² = −1"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-13",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "1 から 100 までの整数をすべて足すと、いくつになるか。",
+    "answer": 0,
+    "explanation": "(1 + 100) × 100 ÷ 2。",
+    "plain": "1 から 100 までの整数をすべて足すと、いくつになるか。　① 5050　② 5100　③ 5000　④ 10100",
+    "choices": [
+      "5050",
+      "5100",
+      "5000",
+      "10100"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-14",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "行列式などの先駆的な研究を行った、江戸時代の和算の大家はだれか。",
+    "answer": 2,
+    "explanation": "和算の発展に大きく貢献した。",
+    "plain": "行列式などの先駆的な研究を行った、江戸時代の和算の大家はだれか。　① 伊能忠敬　② 平賀源内　③ 関孝和　④ 杉田玄白",
+    "choices": [
+      "伊能忠敬",
+      "平賀源内",
+      "関孝和",
+      "杉田玄白"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-15",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "古代ギリシアの数学者で、『原論』を著したのはだれか。",
+    "answer": 3,
+    "explanation": "幾何学を体系化した。",
+    "plain": "古代ギリシアの数学者で、『原論』を著したのはだれか。　① タレス　② ピタゴラス　③ アルキメデス　④ ユークリッド",
+    "choices": [
+      "タレス",
+      "ピタゴラス",
+      "アルキメデス",
+      "ユークリッド"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-16",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "地図を隣り合う領域が違う色になるように塗り分けるとき、必要な色は最大で何色か（四色定理）。",
+    "answer": 3,
+    "explanation": "1976 年にコンピュータを使って証明された。",
+    "plain": "地図を隣り合う領域が違う色になるように塗り分けるとき、必要な色は最大で何色か（四色定理）。　① 3色　② 5色　③ 6色　④ 4色",
+    "choices": [
+      "3色",
+      "5色",
+      "6色",
+      "4色"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-17",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "1億は、10 の何乗か。",
+    "answer": 1,
+    "explanation": "1 億 = 100,000,000。",
+    "plain": "1億は、10 の何乗か。　① 10の9乗　② 10の8乗　③ 10の6乗　④ 10の7乗",
+    "choices": [
+      "10の9乗",
+      "10の8乗",
+      "10の6乗",
+      "10の7乗"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-18",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "1兆は、10 の何乗か。",
+    "answer": 3,
+    "explanation": "1 兆 = 1,000,000,000,000。",
+    "plain": "1兆は、10 の何乗か。　① 10の9乗　② 10の10乗　③ 10の15乗　④ 10の12乗",
+    "choices": [
+      "10の9乗",
+      "10の10乗",
+      "10の15乗",
+      "10の12乗"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-19",
+    "category": "triv_math",
+    "difficulty": 1,
+    "title": "数学の雑学",
+    "body": "直角三角形の3辺の長さの関係を表す定理はどれか。",
+    "answer": 3,
+    "explanation": "a² + b² = c²。",
+    "plain": "直角三角形の3辺の長さの関係を表す定理はどれか。　① 余弦定理　② 正弦定理　③ 中線定理　④ 三平方の定理（ピタゴラスの定理）",
+    "choices": [
+      "余弦定理",
+      "正弦定理",
+      "中線定理",
+      "三平方の定理（ピタゴラスの定理）"
+    ],
+    "unit": "tm_math",
+    "rate": 7.0
+  },
+  {
+    "id": "u-tm_math-20",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "「0」の考え方を、数として本格的に使い始めたのは、どの地域の人々とされるか。",
+    "answer": 0,
+    "explanation": "のちにアラビアを通じてヨーロッパに伝わった。",
+    "plain": "「0」の考え方を、数として本格的に使い始めたのは、どの地域の人々とされるか。　① インド　② ギリシア　③ ローマ　④ エジプト",
+    "choices": [
+      "インド",
+      "ギリシア",
+      "ローマ",
+      "エジプト"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-21",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "無限大を表す記号はどれか。",
+    "answer": 0,
+    "explanation": "横にした 8 の字。",
+    "plain": "無限大を表す記号はどれか。　① ∞　② Σ　③ √　④ π",
+    "choices": [
+      "∞",
+      "Σ",
+      "√",
+      "π"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-tm_math-22",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学の雑学",
+    "body": "正三角形の1つの内角は何度か。",
+    "answer": 3,
+    "explanation": "3 つの角が等しく、合計 180°。",
+    "plain": "正三角形の1つの内角は何度か。　① 30度　② 45度　③ 90度　④ 60度",
+    "choices": [
+      "30度",
+      "45度",
+      "90度",
+      "60度"
+    ],
+    "unit": "tm_math",
+    "rate": 6.2
+  },
+  {
+    "id": "u-te_eng-1",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "英語のアルファベットは何文字か。",
+    "answer": 1,
+    "explanation": "A から Z まで。",
+    "plain": "英語のアルファベットは何文字か。　① 24文字　② 26文字　③ 30文字　④ 27文字",
+    "choices": [
+      "24文字",
+      "26文字",
+      "30文字",
+      "27文字"
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-2",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "英語の文章で最もよく使われる文字は、一般にどれか。",
+    "answer": 1,
+    "explanation": "とくに頻出する文字。",
+    "plain": "英語の文章で最もよく使われる文字は、一般にどれか。　① t　② e　③ s　④ a",
+    "choices": [
+      "t",
+      "e",
+      "s",
+      "a"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-3",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "英語で最もよく使われる単語は、一般にどれか。",
+    "answer": 1,
+    "explanation": "冠詞の the。",
+    "plain": "英語で最もよく使われる単語は、一般にどれか。　① of　② the　③ and　④ a",
+    "choices": [
+      "of",
+      "the",
+      "and",
+      "a"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-4",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "Monday（月曜日）の語源は、何だといわれるか。",
+    "answer": 3,
+    "explanation": "「月の日」。",
+    "plain": "Monday（月曜日）の語源は、何だといわれるか。　① 火星　② 木星　③ 太陽（sun）　④ 月（moon）",
+    "choices": [
+      "火星",
+      "木星",
+      "太陽（sun）",
+      "月（moon）"
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-5",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "英語の dozen は、いくつを表すか。",
+    "answer": 0,
+    "explanation": "1 ダース = 12 個。",
+    "plain": "英語の dozen は、いくつを表すか。　① 12　② 10　③ 100　④ 20",
+    "choices": [
+      "12",
+      "10",
+      "100",
+      "20"
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-6",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "アメリカ英語の elevator は、イギリス英語では何というか。",
+    "answer": 1,
+    "explanation": "エレベーターのこと。",
+    "plain": "アメリカ英語の elevator は、イギリス英語では何というか。　① escalator　② lift　③ stairs　④ ladder",
+    "choices": [
+      "escalator",
+      "lift",
+      "stairs",
+      "ladder"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-7",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "アメリカ英語の cookie は、イギリス英語ではおもに何というか。",
+    "answer": 1,
+    "explanation": "クッキーのこと。",
+    "plain": "アメリカ英語の cookie は、イギリス英語ではおもに何というか。　① cake　② biscuit　③ pie　④ candy",
+    "choices": [
+      "cake",
+      "biscuit",
+      "pie",
+      "candy"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-8",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "イディオム “a piece of cake” の意味はどれか。",
+    "answer": 0,
+    "explanation": "ケーキの一切れのように簡単、ということ。",
+    "plain": "イディオム “a piece of cake” の意味はどれか。　① とても簡単なこと　② おいしいもの　③ 小さなこと　④ ご褒美",
+    "choices": [
+      "とても簡単なこと",
+      "おいしいもの",
+      "小さなこと",
+      "ご褒美"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-9",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“It’s raining cats and dogs.” の意味はどれか。",
+    "answer": 3,
+    "explanation": "猫や犬が降るほどの大雨。",
+    "plain": "“It’s raining cats and dogs.” の意味はどれか。　① 小雨だ　② 雨がやんだ　③ 雪が降っている　④ どしゃ降りの雨だ",
+    "choices": [
+      "小雨だ",
+      "雨がやんだ",
+      "雪が降っている",
+      "どしゃ降りの雨だ"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-10",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“Break a leg!” の意味はどれか。",
+    "answer": 3,
+    "explanation": "舞台に立つ人への激励の言葉。",
+    "plain": "“Break a leg!” の意味はどれか。　① 気をつけて！　② 足を折れ！　③ さようなら！　④ がんばって！（成功を祈る）",
+    "choices": [
+      "気をつけて！",
+      "足を折れ！",
+      "さようなら！",
+      "がんばって！（成功を祈る）"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-11",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“once in a blue moon” の意味はどれか。",
+    "answer": 1,
+    "explanation": "めったにないこと。",
+    "plain": "“once in a blue moon” の意味はどれか。　① 夜中に　② ごくまれに　③ いつも　④ 毎日",
+    "choices": [
+      "夜中に",
+      "ごくまれに",
+      "いつも",
+      "毎日"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-12",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“kill two birds with one stone” に近い意味の日本語はどれか。",
+    "answer": 1,
+    "explanation": "1 つの行動で 2 つの成果を得る。",
+    "plain": "“kill two birds with one stone” に近い意味の日本語はどれか。　① 急がば回れ　② 一石二鳥　③ 花より団子　④ 七転び八起き",
+    "choices": [
+      "急がば回れ",
+      "一石二鳥",
+      "花より団子",
+      "七転び八起き"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-13",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“Let the cat out of the bag.” の意味はどれか。",
+    "answer": 1,
+    "explanation": "秘密をばらしてしまうこと。",
+    "plain": "“Let the cat out of the bag.” の意味はどれか。　① ごほうびをあげる　② うっかり秘密をもらす　③ かばんを開ける　④ 猫を逃がす",
+    "choices": [
+      "ごほうびをあげる",
+      "うっかり秘密をもらす",
+      "かばんを開ける",
+      "猫を逃がす"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-14",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "日本語から英語になった言葉はどれか。",
+    "answer": 3,
+    "explanation": "ほかに karaoke、sushi など。",
+    "plain": "日本語から英語になった言葉はどれか。　① pizza　② tomato　③ chocolate　④ tsunami",
+    "choices": [
+      "pizza",
+      "tomato",
+      "chocolate",
+      "tsunami"
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-15",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "アメリカ合衆国の祝日 Thanksgiving Day がある月はいつか。",
+    "answer": 1,
+    "explanation": "11 月の第 4 木曜日。",
+    "plain": "アメリカ合衆国の祝日 Thanksgiving Day がある月はいつか。　① 12月　② 11月　③ 10月　④ 7月",
+    "choices": [
+      "12月",
+      "11月",
+      "10月",
+      "7月"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-16",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "英語で「ありがとう」を意味する言葉はどれか。",
+    "answer": 0,
+    "explanation": "感謝を伝える言葉。",
+    "plain": "英語で「ありがとう」を意味する言葉はどれか。　① Thank you.　② I’m sorry.　③ Good night.　④ Excuse me.",
+    "choices": [
+      "Thank you.",
+      "I’m sorry.",
+      "Good night.",
+      "Excuse me."
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-17",
+    "category": "triv_eng",
+    "difficulty": 1,
+    "title": "英語の雑学",
+    "body": "英語で「こんにちは」にあたるあいさつはどれか。",
+    "answer": 3,
+    "explanation": "昼間のあいさつに使える。",
+    "plain": "英語で「こんにちは」にあたるあいさつはどれか。　① Goodbye.　② Excuse me.　③ Thank you.　④ Hello.",
+    "choices": [
+      "Goodbye.",
+      "Excuse me.",
+      "Thank you.",
+      "Hello."
+    ],
+    "unit": "te_eng",
+    "rate": 6.1
+  },
+  {
+    "id": "u-te_eng-18",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "英語の a と an の使い分けで、an を使うのはどれか。",
+    "answer": 2,
+    "explanation": "例：an apple。",
+    "plain": "英語の a と an の使い分けで、an を使うのはどれか。　① 子音の音で始まる語の前　② 複数形の前　③ 母音の音で始まる語の前　④ 固有名詞の前",
+    "choices": [
+      "子音の音で始まる語の前",
+      "複数形の前",
+      "母音の音で始まる語の前",
+      "固有名詞の前"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-19",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "“Cheers!” は、おもにどんな場面で使われるか。",
+    "answer": 0,
+    "explanation": "ほかに、イギリスでは「ありがとう」の意味でも使う。",
+    "plain": "“Cheers!” は、おもにどんな場面で使われるか。　① 乾杯のとき　② 別れのとき　③ 試験のとき　④ 謝るとき",
+    "choices": [
+      "乾杯のとき",
+      "別れのとき",
+      "試験のとき",
+      "謝るとき"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-20",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "英語の SOS は、何を表す信号か。",
+    "answer": 2,
+    "explanation": "モールス信号で · · · − − − · · · 。",
+    "plain": "英語の SOS は、何を表す信号か。　① 挨拶　② 天気予報　③ 遭難信号（助けを求める信号）　④ 料金の表示",
+    "choices": [
+      "挨拶",
+      "天気予報",
+      "遭難信号（助けを求める信号）",
+      "料金の表示"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-te_eng-21",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語の雑学",
+    "body": "英語で一週間は何日か。",
+    "answer": 1,
+    "explanation": "Monday から Sunday まで。",
+    "plain": "英語で一週間は何日か。　① 10日　② 7日　③ 6日　④ 5日",
+    "choices": [
+      "10日",
+      "7日",
+      "6日",
+      "5日"
+    ],
+    "unit": "te_eng",
+    "rate": 5.3
+  },
+  {
+    "id": "u-ts_soc-1",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本で、面積が最も大きい都道府県はどれか。",
+    "answer": 2,
+    "explanation": "全国の約 2 割を占める。",
+    "plain": "日本で、面積が最も大きい都道府県はどれか。　① 福島県　② 岩手県　③ 北海道　④ 長野県",
+    "choices": [
+      "福島県",
+      "岩手県",
+      "北海道",
+      "長野県"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-2",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本で、面積が最も小さい都道府県はどれか。",
+    "answer": 0,
+    "explanation": "うどんで有名。",
+    "plain": "日本で、面積が最も小さい都道府県はどれか。　① 香川県　② 沖縄県　③ 大阪府　④ 東京都",
+    "choices": [
+      "香川県",
+      "沖縄県",
+      "大阪府",
+      "東京都"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-3",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本で、人口が最も多い都道府県はどれか。",
+    "answer": 1,
+    "explanation": "約 1,400 万人。",
+    "plain": "日本で、人口が最も多い都道府県はどれか。　① 神奈川県　② 東京都　③ 愛知県　④ 大阪府",
+    "choices": [
+      "神奈川県",
+      "東京都",
+      "愛知県",
+      "大阪府"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-4",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本で、人口が最も少ない都道府県はどれか。",
+    "answer": 1,
+    "explanation": "約 55 万人。",
+    "plain": "日本で、人口が最も少ない都道府県はどれか。　① 高知県　② 鳥取県　③ 福井県　④ 島根県",
+    "choices": [
+      "高知県",
+      "鳥取県",
+      "福井県",
+      "島根県"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-5",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "日本で最初に鉄道が開通したのは、どの区間か。",
+    "answer": 0,
+    "explanation": "1872 年（明治 5 年）。",
+    "plain": "日本で最初に鉄道が開通したのは、どの区間か。　① 新橋〜横浜　② 京都〜大阪　③ 東京〜大阪　④ 神戸〜大阪",
+    "choices": [
+      "新橋〜横浜",
+      "京都〜大阪",
+      "東京〜大阪",
+      "神戸〜大阪"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-6",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "日本で1993年に初めて世界遺産に登録されたものに、含まれないのはどれか。",
+    "answer": 2,
+    "explanation": "富士山の登録は 2013 年。",
+    "plain": "日本で1993年に初めて世界遺産に登録されたものに、含まれないのはどれか。　① 姫路城　② 屋久島　③ 富士山　④ 白神山地",
+    "choices": [
+      "姫路城",
+      "屋久島",
+      "富士山",
+      "白神山地"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-7",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "衆議院議員の任期は何年か。",
+    "answer": 2,
+    "explanation": "解散がある。",
+    "plain": "衆議院議員の任期は何年か。　① 6年　② 5年　③ 4年　④ 3年",
+    "choices": [
+      "6年",
+      "5年",
+      "4年",
+      "3年"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-8",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "参議院議員の任期は何年か。",
+    "answer": 0,
+    "explanation": "3 年ごとに半数が改選される。",
+    "plain": "参議院議員の任期は何年か。　① 6年　② 8年　③ 3年　④ 4年",
+    "choices": [
+      "6年",
+      "8年",
+      "3年",
+      "4年"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-9",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本国憲法が施行された日は、現在、何という祝日か。",
+    "answer": 1,
+    "explanation": "5 月 3 日。",
+    "plain": "日本国憲法が施行された日は、現在、何という祝日か。　① みどりの日　② 憲法記念日　③ 文化の日　④ 建国記念の日",
+    "choices": [
+      "みどりの日",
+      "憲法記念日",
+      "文化の日",
+      "建国記念の日"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-10",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "国際連合の加盟国は、現在およそ何か国か。",
+    "answer": 0,
+    "explanation": "2011 年以降は 193 か国。",
+    "plain": "国際連合の加盟国は、現在およそ何か国か。　① 約190か国　② 約250か国　③ 約100か国　④ 約50か国",
+    "choices": [
+      "約190か国",
+      "約250か国",
+      "約100か国",
+      "約50か国"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-11",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "世界で最初に紙幣が使われたのは、どの国とされるか。",
+    "answer": 1,
+    "explanation": "「交子」などが使われた。",
+    "plain": "世界で最初に紙幣が使われたのは、どの国とされるか。　① イタリア　② 中国（宋）　③ 日本　④ エジプト",
+    "choices": [
+      "イタリア",
+      "中国（宋）",
+      "日本",
+      "エジプト"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-12",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "江戸幕府の最後（15代）の将軍はだれか。",
+    "answer": 1,
+    "explanation": "大政奉還を行った。",
+    "plain": "江戸幕府の最後（15代）の将軍はだれか。　① 徳川家茂　② 徳川慶喜　③ 徳川吉宗　④ 徳川家光",
+    "choices": [
+      "徳川家茂",
+      "徳川慶喜",
+      "徳川吉宗",
+      "徳川家光"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-13",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "日本の標準時の基準となる経線が通る、兵庫県の都市はどこか。",
+    "answer": 2,
+    "explanation": "東経 135 度。",
+    "plain": "日本の標準時の基準となる経線が通る、兵庫県の都市はどこか。　① 姫路市　② 尼崎市　③ 明石市　④ 神戸市",
+    "choices": [
+      "姫路市",
+      "尼崎市",
+      "明石市",
+      "神戸市"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-14",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "日本の北方領土のうち、最も大きな島はどれか。",
+    "answer": 0,
+    "explanation": "日本の島の中でも大きな島の一つ。",
+    "plain": "日本の北方領土のうち、最も大きな島はどれか。　① 択捉島　② 国後島　③ 歯舞群島　④ 色丹島",
+    "choices": [
+      "択捉島",
+      "国後島",
+      "歯舞群島",
+      "色丹島"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-15",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "三大洋のうち、最も大きいのはどれか。",
+    "answer": 1,
+    "explanation": "地球の表面積の約 3 分の 1。",
+    "plain": "三大洋のうち、最も大きいのはどれか。　① 北極海　② 太平洋　③ インド洋　④ 大西洋",
+    "choices": [
+      "北極海",
+      "太平洋",
+      "インド洋",
+      "大西洋"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-16",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本の首都はどこか。",
+    "answer": 3,
+    "explanation": "国会議事堂は東京都千代田区にある。",
+    "plain": "日本の首都はどこか。　① 名古屋　② 京都　③ 大阪　④ 東京",
+    "choices": [
+      "名古屋",
+      "京都",
+      "大阪",
+      "東京"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-17",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "日本の貨幣を発行する銀行はどれか。",
+    "answer": 0,
+    "explanation": "紙幣（日本銀行券）を発行する。",
+    "plain": "日本の貨幣を発行する銀行はどれか。　① 日本銀行　② 財務省　③ ゆうちょ銀行　④ 三菱UFJ銀行",
+    "choices": [
+      "日本銀行",
+      "財務省",
+      "ゆうちょ銀行",
+      "三菱UFJ銀行"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-18",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "選挙権が与えられる年齢は、現在何歳以上か。",
+    "answer": 3,
+    "explanation": "2016 年から。",
+    "plain": "選挙権が与えられる年齢は、現在何歳以上か。　① 20歳以上　② 25歳以上　③ 16歳以上　④ 18歳以上",
+    "choices": [
+      "20歳以上",
+      "25歳以上",
+      "16歳以上",
+      "18歳以上"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-19",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "平安京がおかれた、現在の都市はどこか。",
+    "answer": 0,
+    "explanation": "794 年に遷都された。",
+    "plain": "平安京がおかれた、現在の都市はどこか。　① 京都　② 大阪　③ 鎌倉　④ 奈良",
+    "choices": [
+      "京都",
+      "大阪",
+      "鎌倉",
+      "奈良"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-ts_soc-20",
+    "category": "triv_soc",
+    "difficulty": 1,
+    "title": "社会の雑学",
+    "body": "日本を構成する4つの大きな島のうち、最も大きいのはどれか。",
+    "answer": 1,
+    "explanation": "日本列島の中心。",
+    "plain": "日本を構成する4つの大きな島のうち、最も大きいのはどれか。　① 九州　② 本州　③ 四国　④ 北海道",
+    "choices": [
+      "九州",
+      "本州",
+      "四国",
+      "北海道"
+    ],
+    "unit": "ts_soc",
+    "rate": 6.4
+  },
+  {
+    "id": "u-ts_soc-21",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会の雑学",
+    "body": "国会が開かれる建物は、どこにあるか。",
+    "answer": 1,
+    "explanation": "国会議事堂。",
+    "plain": "国会が開かれる建物は、どこにあるか。　① 東京都新宿区　② 東京都千代田区　③ 東京都港区　④ 京都市",
+    "choices": [
+      "東京都新宿区",
+      "東京都千代田区",
+      "東京都港区",
+      "京都市"
+    ],
+    "unit": "ts_soc",
+    "rate": 5.6
+  },
+  {
+    "id": "u-tsc_sci-1",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "太陽に最も近い惑星はどれか。",
+    "answer": 1,
+    "explanation": "太陽系で最も小さい惑星でもある。",
+    "plain": "太陽に最も近い惑星はどれか。　① 地球　② 水星　③ 金星　④ 火星",
+    "choices": [
+      "地球",
+      "水星",
+      "金星",
+      "火星"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-2",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "太陽系で最も大きい惑星はどれか。",
+    "answer": 1,
+    "explanation": "ガスでできた巨大な惑星。",
+    "plain": "太陽系で最も大きい惑星はどれか。　① 土星　② 木星　③ 地球　④ 天王星",
+    "choices": [
+      "土星",
+      "木星",
+      "地球",
+      "天王星"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-3",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "目立つ環を持つことで知られる惑星はどれか。",
+    "answer": 0,
+    "explanation": "ほかの巨大惑星にも環はあるが、土星が最も目立つ。",
+    "plain": "目立つ環を持つことで知られる惑星はどれか。　① 土星　② 火星　③ 木星　④ 金星",
+    "choices": [
+      "土星",
+      "火星",
+      "木星",
+      "金星"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-4",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "「赤い惑星」と呼ばれるのはどれか。",
+    "answer": 0,
+    "explanation": "酸化鉄を含む地表が赤く見える。",
+    "plain": "「赤い惑星」と呼ばれるのはどれか。　① 火星　② 金星　③ 水星　④ 木星",
+    "choices": [
+      "火星",
+      "金星",
+      "水星",
+      "木星"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-5",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "新月から次の新月まで（月の満ち欠けの周期）は、約何日か。",
+    "answer": 3,
+    "explanation": "朔望月。",
+    "plain": "新月から次の新月まで（月の満ち欠けの周期）は、約何日か。　① 約365日　② 約7日　③ 約15日　④ 約29.5日",
+    "choices": [
+      "約365日",
+      "約7日",
+      "約15日",
+      "約29.5日"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-6",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "光の速さは、およそ毎秒何 km か。",
+    "answer": 3,
+    "explanation": "地球を 1 秒で約 7 周半する。",
+    "plain": "光の速さは、およそ毎秒何 km か。　① 約3万 km　② 約3000 km　③ 約300万 km　④ 約30万 km",
+    "choices": [
+      "約3万 km",
+      "約3000 km",
+      "約300万 km",
+      "約30万 km"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-7",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "1気圧のもとで、水が沸騰する温度は何℃か。",
+    "answer": 3,
+    "explanation": "212 は華氏の値。",
+    "plain": "1気圧のもとで、水が沸騰する温度は何℃か。　① 50℃　② 0℃　③ 212℃　④ 100℃",
+    "choices": [
+      "50℃",
+      "0℃",
+      "212℃",
+      "100℃"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-8",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "理論上の最低温度「絶対零度」は、何℃か。",
+    "answer": 1,
+    "explanation": "−273.15 ℃。",
+    "plain": "理論上の最低温度「絶対零度」は、何℃か。　① 約−100℃　② 約−273℃　③ 約−500℃　④ 約0℃",
+    "choices": [
+      "約−100℃",
+      "約−273℃",
+      "約−500℃",
+      "約0℃"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-9",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "月の重力は、地球の重力のおよそ何分の1か。",
+    "answer": 0,
+    "explanation": "月面ではジャンプが高くなる。",
+    "plain": "月の重力は、地球の重力のおよそ何分の1か。　① 約6分の1　② 約2分の1　③ 約10分の1　④ 約100分の1",
+    "choices": [
+      "約6分の1",
+      "約2分の1",
+      "約10分の1",
+      "約100分の1"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-10",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "雷が光ってから音が聞こえるまでに時間差があるのは、なぜか。",
+    "answer": 3,
+    "explanation": "光はほぼ瞬時、音は秒速約 340 m。",
+    "plain": "雷が光ってから音が聞こえるまでに時間差があるのは、なぜか。　① 光と音が同じ速さだから　② 雲が音をさえぎるから　③ 音のほうが光より速いから　④ 光のほうが音より速いから",
+    "choices": [
+      "光と音が同じ速さだから",
+      "雲が音をさえぎるから",
+      "音のほうが光より速いから",
+      "光のほうが音より速いから"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-11",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "空が青く見える主な理由はどれか。",
+    "answer": 3,
+    "explanation": "レイリー散乱。",
+    "plain": "空が青く見える主な理由はどれか。　① 太陽が青いから　② 海の色が映るから　③ 空気が青いから　④ 青い光が空気の分子に散乱されやすいから",
+    "choices": [
+      "太陽が青いから",
+      "海の色が映るから",
+      "空気が青いから",
+      "青い光が空気の分子に散乱されやすいから"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-12",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "アポロ11号の船長で、人類で初めて月面に降り立った人物はだれか。",
+    "answer": 0,
+    "explanation": "1969 年。",
+    "plain": "アポロ11号の船長で、人類で初めて月面に降り立った人物はだれか。　① ニール・アームストロング　② ユーリ・ガガーリン　③ バズ・オルドリン　④ ジョン・グレン",
+    "choices": [
+      "ニール・アームストロング",
+      "ユーリ・ガガーリン",
+      "バズ・オルドリン",
+      "ジョン・グレン"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-13",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "周期表の1番目の元素はどれか。",
+    "answer": 1,
+    "explanation": "原子番号 1。",
+    "plain": "周期表の1番目の元素はどれか。　① ヘリウム　② 水素　③ 酸素　④ 炭素",
+    "choices": [
+      "ヘリウム",
+      "水素",
+      "酸素",
+      "炭素"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-14",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "水の化学式はどれか。",
+    "answer": 3,
+    "explanation": "水素 2、酸素 1。",
+    "plain": "水の化学式はどれか。　① O₂　② NaCl　③ CO₂　④ H₂O",
+    "choices": [
+      "O₂",
+      "NaCl",
+      "CO₂",
+      "H₂O"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-15",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "空気の体積の約何％が窒素か。",
+    "answer": 2,
+    "explanation": "酸素は約 21％。",
+    "plain": "空気の体積の約何％が窒素か。　① 約1％　② 約50％　③ 約78％　④ 約21％",
+    "choices": [
+      "約1％",
+      "約50％",
+      "約78％",
+      "約21％"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-16",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "ダイヤモンドを構成している元素はどれか。",
+    "answer": 2,
+    "explanation": "黒鉛も炭素でできている。",
+    "plain": "ダイヤモンドを構成している元素はどれか。　① ケイ素　② 鉄　③ 炭素　④ 金",
+    "choices": [
+      "ケイ素",
+      "鉄",
+      "炭素",
+      "金"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-17",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "地球の表面で、海が占める割合は、およそどれくらいか。",
+    "answer": 0,
+    "explanation": "「水の惑星」。",
+    "plain": "地球の表面で、海が占める割合は、およそどれくらいか。　① 約70％　② 約50％　③ 約90％　④ 約30％",
+    "choices": [
+      "約70％",
+      "約50％",
+      "約90％",
+      "約30％"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-18",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "氷が水に浮く理由はどれか。",
+    "answer": 2,
+    "explanation": "水は凍ると体積が約 1 割増える。",
+    "plain": "氷が水に浮く理由はどれか。　① 氷が空気でできているから　② 氷のほうが重いから　③ 氷のほうが水より密度が小さいから　④ 水が凍らないから",
+    "choices": [
+      "氷が空気でできているから",
+      "氷のほうが重いから",
+      "氷のほうが水より密度が小さいから",
+      "水が凍らないから"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-19",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "地球が1回自転する時間は、およそどれくらいか。",
+    "answer": 1,
+    "explanation": "1 日の長さのもと。",
+    "plain": "地球が1回自転する時間は、およそどれくらいか。　① 約365日　② 約24時間　③ 約30日　④ 約12時間",
+    "choices": [
+      "約365日",
+      "約24時間",
+      "約30日",
+      "約12時間"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-20",
+    "category": "triv_sci",
+    "difficulty": 2,
+    "title": "理科の雑学",
+    "body": "常温で液体の金属はどれか。",
+    "answer": 0,
+    "explanation": "体温計などに使われていた。",
+    "plain": "常温で液体の金属はどれか。　① 水銀　② 銅　③ 鉄　④ アルミニウム",
+    "choices": [
+      "水銀",
+      "銅",
+      "鉄",
+      "アルミニウム"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.0
+  },
+  {
+    "id": "u-tsc_sci-21",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "植物が光合成で出す気体はどれか。",
+    "answer": 3,
+    "explanation": "二酸化炭素を吸収して、酸素を出す。",
+    "plain": "植物が光合成で出す気体はどれか。　① 二酸化炭素　② 水素　③ 窒素　④ 酸素",
+    "choices": [
+      "二酸化炭素",
+      "水素",
+      "窒素",
+      "酸素"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tsc_sci-22",
+    "category": "triv_sci",
+    "difficulty": 1,
+    "title": "理科の雑学",
+    "body": "磁石の同じ極どうしを近づけると、どうなるか。",
+    "answer": 2,
+    "explanation": "N 極と S 極は引き合う。",
+    "plain": "磁石の同じ極どうしを近づけると、どうなるか。　① くっつく　② 何も起こらない　③ 反発する　④ 引き合う",
+    "choices": [
+      "くっつく",
+      "何も起こらない",
+      "反発する",
+      "引き合う"
+    ],
+    "unit": "tsc_sci",
+    "rate": 6.8
+  },
+  {
+    "id": "u-tj_ja-1",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "日本語で使われる文字の組み合わせとして正しいものはどれか。",
+    "answer": 2,
+    "explanation": "ほかにローマ字も使われる。",
+    "plain": "日本語で使われる文字の組み合わせとして正しいものはどれか。　① カタカナ・ローマ字のみ　② ひらがな・ハングル・漢字　③ ひらがな・カタカナ・漢字　④ 漢字のみ",
+    "choices": [
+      "カタカナ・ローマ字のみ",
+      "ひらがな・ハングル・漢字",
+      "ひらがな・カタカナ・漢字",
+      "漢字のみ"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-2",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "俳句の音数は、どの組み合わせか。",
+    "answer": 1,
+    "explanation": "季語を入れるのが決まり。",
+    "plain": "俳句の音数は、どの組み合わせか。　① 5・5・5　② 5・7・5　③ 7・7・7　④ 5・7・5・7・7",
+    "choices": [
+      "5・5・5",
+      "5・7・5",
+      "7・7・7",
+      "5・7・5・7・7"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-3",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "短歌の音数は、どの組み合わせか。",
+    "answer": 3,
+    "explanation": "31 音。",
+    "plain": "短歌の音数は、どの組み合わせか。　① 5・5・7　② 5・7・5　③ 7・7・7　④ 5・7・5・7・7",
+    "choices": [
+      "5・5・7",
+      "5・7・5",
+      "7・7・7",
+      "5・7・5・7・7"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-4",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "「いろは歌」の特徴はどれか。",
+    "answer": 1,
+    "explanation": "「いろはにほへと…」。",
+    "plain": "「いろは歌」の特徴はどれか。　① 五・七・五になっている　② すべての仮名を一度ずつ使っている　③ 同じ仮名を何度も使う　④ 漢字だけでできている",
+    "choices": [
+      "五・七・五になっている",
+      "すべての仮名を一度ずつ使っている",
+      "同じ仮名を何度も使う",
+      "漢字だけでできている"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-5",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『源氏物語』の作者はだれか。",
+    "answer": 2,
+    "explanation": "平安時代の物語。",
+    "plain": "『源氏物語』の作者はだれか。　① 清少納言　② 和泉式部　③ 紫式部　④ 紀貫之",
+    "choices": [
+      "清少納言",
+      "和泉式部",
+      "紫式部",
+      "紀貫之"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-6",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『枕草子』の作者はだれか。",
+    "answer": 1,
+    "explanation": "平安時代の随筆。",
+    "plain": "『枕草子』の作者はだれか。　① 紫式部　② 清少納言　③ 小野小町　④ 紀貫之",
+    "choices": [
+      "紫式部",
+      "清少納言",
+      "小野小町",
+      "紀貫之"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-7",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『奥の細道』の作者はだれか。",
+    "answer": 0,
+    "explanation": "江戸時代の俳諧紀行文。",
+    "plain": "『奥の細道』の作者はだれか。　① 松尾芭蕉　② 小林一茶　③ 与謝蕪村　④ 正岡子規",
+    "choices": [
+      "松尾芭蕉",
+      "小林一茶",
+      "与謝蕪村",
+      "正岡子規"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-8",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『坊っちゃん』の作者はだれか。",
+    "answer": 3,
+    "explanation": "『吾輩は猫である』も同じ作者。",
+    "plain": "『坊っちゃん』の作者はだれか。　① 森鷗外　② 太宰治　③ 芥川龍之介　④ 夏目漱石",
+    "choices": [
+      "森鷗外",
+      "太宰治",
+      "芥川龍之介",
+      "夏目漱石"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-9",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『走れメロス』の作者はだれか。",
+    "answer": 2,
+    "explanation": "ほかに『人間失格』など。",
+    "plain": "『走れメロス』の作者はだれか。　① 芥川龍之介　② 川端康成　③ 太宰治　④ 夏目漱石",
+    "choices": [
+      "芥川龍之介",
+      "川端康成",
+      "太宰治",
+      "夏目漱石"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-10",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『羅生門』の作者はだれか。",
+    "answer": 0,
+    "explanation": "『今昔物語集』が題材。",
+    "plain": "『羅生門』の作者はだれか。　① 芥川龍之介　② 夏目漱石　③ 太宰治　④ 宮沢賢治",
+    "choices": [
+      "芥川龍之介",
+      "夏目漱石",
+      "太宰治",
+      "宮沢賢治"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-11",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『銀河鉄道の夜』の作者はだれか。",
+    "answer": 0,
+    "explanation": "ほかに『注文の多い料理店』など。",
+    "plain": "『銀河鉄道の夜』の作者はだれか。　① 宮沢賢治　② 新美南吉　③ 芥川龍之介　④ 夏目漱石",
+    "choices": [
+      "宮沢賢治",
+      "新美南吉",
+      "芥川龍之介",
+      "夏目漱石"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-12",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "『雪国』を書き、日本人で初めてノーベル文学賞を受賞した作家はだれか。",
+    "answer": 0,
+    "explanation": "1968 年の受賞。",
+    "plain": "『雪国』を書き、日本人で初めてノーベル文学賞を受賞した作家はだれか。　① 川端康成　② 三島由紀夫　③ 大江健三郎　④ 谷崎潤一郎",
+    "choices": [
+      "川端康成",
+      "三島由紀夫",
+      "大江健三郎",
+      "谷崎潤一郎"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-13",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "『平家物語』の冒頭に出てくる寺の名はどれか。",
+    "answer": 2,
+    "explanation": "「祇園精舎の鐘の声」。",
+    "plain": "『平家物語』の冒頭に出てくる寺の名はどれか。　① 清水寺　② 金閣寺　③ 祇園精舎　④ 法隆寺",
+    "choices": [
+      "清水寺",
+      "金閣寺",
+      "祇園精舎",
+      "法隆寺"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-14",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "漢字「海」の部首の名前はどれか。",
+    "answer": 1,
+    "explanation": "水に関係する漢字に多い。",
+    "plain": "漢字「海」の部首の名前はどれか。　① きへん　② さんずい　③ にんべん　④ くさかんむり",
+    "choices": [
+      "きへん",
+      "さんずい",
+      "にんべん",
+      "くさかんむり"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-15",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "漢字「田」の画数は何画か。",
+    "answer": 3,
+    "explanation": "口の中に十。",
+    "plain": "漢字「田」の画数は何画か。　① 7画　② 6画　③ 4画　④ 5画",
+    "choices": [
+      "7画",
+      "6画",
+      "4画",
+      "5画"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-16",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "慣用句「猫の手も借りたい」の意味はどれか。",
+    "answer": 2,
+    "explanation": "忙しくてだれでもいいから手伝ってほしい様子。",
+    "plain": "慣用句「猫の手も借りたい」の意味はどれか。　① 猫が好きだ　② とても暇だ　③ とても忙しい　④ 手先が器用だ",
+    "choices": [
+      "猫が好きだ",
+      "とても暇だ",
+      "とても忙しい",
+      "手先が器用だ"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-17",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "四字熟語「五十歩百歩」の意味はどれか。",
+    "answer": 0,
+    "explanation": "どちらも似たようなもの。",
+    "plain": "四字熟語「五十歩百歩」の意味はどれか。　① 大した差がない　② 長く続く　③ とても速い　④ 少しずつ進む",
+    "choices": [
+      "大した差がない",
+      "長く続く",
+      "とても速い",
+      "少しずつ進む"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-18",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "ことわざ「急がば回れ」の意味はどれか。",
+    "answer": 2,
+    "explanation": "近道より確実な道を。",
+    "plain": "ことわざ「急がば回れ」の意味はどれか。　① 回り道は必ず失敗する　② 急げば急ぐほどよい　③ 急ぐときは、安全な方法を選んだほうが結局早い　④ のんびりすべきだ",
+    "choices": [
+      "回り道は必ず失敗する",
+      "急げば急ぐほどよい",
+      "急ぐときは、安全な方法を選んだほうが結局早い",
+      "のんびりすべきだ"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-19",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "「ありがとう」の語源とされる古い言葉はどれか。",
+    "answer": 3,
+    "explanation": "めったにない、という意味から感謝の言葉になった。",
+    "plain": "「ありがとう」の語源とされる古い言葉はどれか。　① 有り余る　② 有り得る　③ 有りの実　④ 有り難し",
+    "choices": [
+      "有り余る",
+      "有り得る",
+      "有りの実",
+      "有り難し"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
+  },
+  {
+    "id": "u-tj_ja-20",
+    "category": "triv_ja",
+    "difficulty": 1,
+    "title": "国語の雑学",
+    "body": "日本で最も古い和歌集とされるのはどれか。",
+    "answer": 3,
+    "explanation": "奈良時代にまとめられた。",
+    "plain": "日本で最も古い和歌集とされるのはどれか。　① 新古今和歌集　② 百人一首　③ 古今和歌集　④ 万葉集",
+    "choices": [
+      "新古今和歌集",
+      "百人一首",
+      "古今和歌集",
+      "万葉集"
+    ],
+    "unit": "tj_ja",
+    "rate": 6.3
+  },
+  {
+    "id": "u-tj_ja-21",
+    "category": "triv_ja",
+    "difficulty": 2,
+    "title": "国語の雑学",
+    "body": "「春はあけぼの」で始まる随筆はどれか。",
+    "answer": 0,
+    "explanation": "清少納言が書いた。",
+    "plain": "「春はあけぼの」で始まる随筆はどれか。　① 枕草子　② 土佐日記　③ 徒然草　④ 方丈記",
+    "choices": [
+      "枕草子",
+      "土佐日記",
+      "徒然草",
+      "方丈記"
+    ],
+    "unit": "tj_ja",
+    "rate": 5.5
   }
 ]

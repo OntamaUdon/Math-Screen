@@ -31,8 +31,8 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let app = name ?? "アプリ"
         let minutes = ShieldData.pendingMinutes
         let intro = minutes > 0
-            ? "\(app)を\(Self.durationText(minutes))使いました。問題を解いてロックを解除しましょう！"
-            : "\(app)の使用時間になりました。問題を解いてロックを解除しましょう！"
+            ? "\(app)を\(Self.durationText(minutes))使いました。\n下の「問題を解く」を押すと通知が届きます。その通知をタップして、問題に答えてください！"
+            : "\(app)の使用時間になりました。\n下の「問題を解く」を押すと通知が届きます。その通知をタップして、問題に答えてください！"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,

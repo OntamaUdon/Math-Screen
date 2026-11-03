@@ -76,7 +76,9 @@ struct IsoBarChart: View {
         let labelMargin: CGFloat = 46
         let s = min((size.width - labelMargin) / ((10.45 + depth) * cos30),
                     (size.height - 16) / ((10.45 + depth) * 0.5 + maxBar + 0.2))
-        let ox = 4 + 1.6 * cos30 * s
+        // 横に余った分は左右に分け、グラフを真ん中に置く
+        let slack = max(0, (size.width - labelMargin - (10.45 + depth) * cos30 * s) / 2)
+        let ox = 4 + 1.6 * cos30 * s + slack
         let oy = 6 + ((0.8 + depth) * 0.5 + maxBar + 0.2) * s
 
         func p(_ x: CGFloat, _ y: CGFloat, _ z: CGFloat) -> CGPoint {

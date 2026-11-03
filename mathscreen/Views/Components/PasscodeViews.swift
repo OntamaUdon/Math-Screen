@@ -50,22 +50,27 @@ struct PasscodeEntryView: View {
     var body: some View {
         TimelineView(.periodic(from: .now, by: 1)) { _ in
             let until = lock.lockedUntil
+            ScrollView {
             VStack(spacing: 18) {
                 Text("保護者のパスコード").font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
                 Text(until.map { "しばらく入力できません。あと\(remaining($0))" } ?? (message ?? "4桁のパスコードを入れてください。"))
                     .font(Theme.font(14)).foregroundStyle(until != nil || message != nil ? Theme.danger : Theme.inkSoft)
                     .multilineTextAlignment(.center)
                 if let w = lock.warning {
-                    Text(w).font(Theme.font(13, .semibold)).foregroundStyle(Theme.danger).multilineTextAlignment(.center)
+                    Text(w).font(Theme.font(16, .bold)).foregroundStyle(Theme.danger).multilineTextAlignment(.center)
                 }
                 if let q = lock.puzzle {
-                    Text(q).font(Theme.font(13)).foregroundStyle(Theme.inkSoft).multilineTextAlignment(.center)
+                    Text(q).font(Theme.font(20, .semibold)).foregroundStyle(Theme.ink).multilineTextAlignment(.center)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
                 PasscodeKeypad(code: $code, disabled: until != nil)
                     .padding(.horizontal, 24)
                 Button("やめる") { lock.cancelEntry() }.buttonStyle(.quiet)
             }
             .padding(24)
+            .frame(maxWidth: .infinity)
+            }
+            .scrollIndicators(.hidden)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .isoBackground()
             .onChange(of: code) { _, new in

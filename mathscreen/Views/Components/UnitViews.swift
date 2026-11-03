@@ -38,7 +38,7 @@ struct UnitListView: View {
     var subjects: [Subject]
     var selection: Binding<Set<String>>? = nil
 
-    private let stages = ["小学", "中学", "高校"]
+    private let stages = ["小学", "中学", "高校", "ノンジャンル"]
 
     var body: some View {
         VStack(alignment: .leading, spacing: 18) {

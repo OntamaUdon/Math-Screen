@@ -25,7 +25,7 @@ final class ShieldActionExtension: ShieldActionDelegate {
         case .primaryButtonPressed:
             ChallengeNotification.send(
                 title: "解くロック：問題が届きました",
-                body: "タップして問題を解こう。正解すると再開できます。"
+                body: "この通知をタップすると問題が開きます。正解すると、またアプリを使えるよ！"
             ) {
                 completionHandler(.close)
             }

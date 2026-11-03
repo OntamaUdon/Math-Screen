@@ -24,6 +24,9 @@ enum UnitCatalog {
     /// 単元ごとの問題数。
     static let problemCount: [String: Int] = Dictionary(grouping: ProblemBank.all, by: { $0.unit ?? "" }).mapValues(\.count)
 
+    /// 単元ごとの、問題の分野（category）。
+    static let categories: [String: Set<String>] = Dictionary(grouping: ProblemBank.all, by: { $0.unit ?? "" }).mapValues { Set($0.map(\.category)) }
+
     /// 問題が1つ以上ある単元だけ（小学の算数などは、問題を足すと自動で出てくる）。
     static let available: [UnitInfo] = all.filter { (problemCount[$0.id] ?? 0) > 0 }
 

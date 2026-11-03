@@ -10,10 +10,10 @@ struct FeedItem: Identifiable, Hashable {
 
 /// マインドマップの木をつくる。
 enum BookMap {
-    static let stages = ["小学", "中学", "高校"]
+    static let stages = ["小学", "中学", "高校", "ノンジャンル"]
 
-    /// 問題集：教科 → 小学・中学・高校 → 単元。ほかに「みんなの問題」「自分の投稿」。
-    static func browse(premium: Bool) -> MapNode {
+    /// 教科 → 小学・中学・高校・ノンジャンル → 単元 の枝。単元の枝のつくりは unitNode で決める。
+    private static func subjectNodes(unitNode: (UnitInfo, Subject) -> MapNode) -> [MapNode] {
         var subjects: [MapNode] = []
         for s in Subject.allCases {
             let units = UnitCatalog.units(in: s)
@@ -21,12 +21,7 @@ enum BookMap {
             let stageNodes: [MapNode] = stages.compactMap { st in
                 let list = units.filter { $0.stage == st }
                 guard !list.isEmpty else { return nil }
-                let unitNodes = list.map { u in
-                    let n = UnitCatalog.problemCount[u.id] ?? 0
-                    let level = MasteryStore.shared.progress(unit: u.id).level
-                    return MapNode(id: "u:\(u.id)", title: u.name,
-                                   subtitle: level == .none ? "\(n)問" : "\(n)問 ・ \(level.label)", subject: s)
-                }
+                let unitNodes = list.map { unitNode($0, s) }
                 // 10個を超えるときは、グループ（物理・数学IIなど）に分ける
                 var kids = unitNodes
                 if list.count > 10 {
@@ -38,13 +33,32 @@ enum BookMap {
                                        children: members.map { unitNodes[$0] })
                     }
                 }
-                return MapNode(id: "st:\(s.rawValue):\(st)", title: st, subtitle: "\(list.count)単元", subject: s, children: kids)
+                return MapNode(id: "st:\(s.rawValue):\(st)", title: st == "ノンジャンル" ? "ノンジャンル（雑学）" : st, subtitle: "\(list.count)単元", subject: s, children: kids)
             }
-            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: "\(units.count)単元", subject: s, children: stageNodes))
+            // 「ノンジャンル」の教科は、段階の枝を省いて単元を直接ぶら下げる
+            let children = s == .general ? (stageNodes.first?.children ?? []) : stageNodes
+            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: "\(units.count)単元", subject: s, children: children))
+        }
+        return subjects
+    }
+
+    /// 問題集：教科 → 小学・中学・高校・ノンジャンル → 単元。ほかに「みんなの問題」「自分の投稿」。
+    static func browse(premium: Bool) -> MapNode {
+        var subjects = subjectNodes { u, s in
+            let n = UnitCatalog.problemCount[u.id] ?? 0
+            let level = MasteryStore.shared.progress(unit: u.id).level
+            return MapNode(id: "u:\(u.id)", title: u.name, subtitle: level == .none ? "\(n)問" : "\(n)問 ・ \(level.label)", subject: s)
         }
         subjects.append(MapNode(id: "community", title: "みんなの問題", subtitle: "投稿された問題", subject: nil))
         if premium { subjects.append(MapNode(id: "mine", title: "自分の投稿", subtitle: "審査の状況も見られる", subject: nil)) }
         return MapNode(id: "root", title: "問題集", children: subjects)
+    }
+
+    /// ルールの出題範囲を選ぶ：問題集と同じ形の枝。単元にチェックを付ける。
+    static func selector() -> MapNode {
+        MapNode(id: "root", title: "出題する範囲", children: subjectNodes { u, s in
+            MapNode(id: "u:\(u.id)", title: u.name, subtitle: "\(UnitCatalog.problemCount[u.id] ?? 0)問", subject: s)
+        })
     }
 
     /// 投稿の分野を選ぶ：教科 → 分野。

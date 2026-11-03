@@ -24,7 +24,7 @@ struct Problem: Codable, Identifiable, Hashable {
 
 /// 教科。ルールを作るとき、教科ごとにまとめて選べる。
 enum Subject: String, CaseIterable, Identifiable {
-    case math, english, social, science, japanese
+    case math, english, social, science, japanese, general
     var id: String { rawValue }
 
     var label: String {
@@ -34,6 +34,7 @@ enum Subject: String, CaseIterable, Identifiable {
         case .social: "社会"
         case .science: "理科"
         case .japanese: "国語"
+        case .general: "ノンジャンル"
         }
     }
 
@@ -47,15 +48,17 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
     case soc_geo, soc_hist, soc_civ
     case sci_bio, sci_chem, sci_phys, sci_earth
     case ja_kanji, ja_idiom, ja_classic, ja_grammar
+    case triv_gen, triv_math, triv_eng, triv_soc, triv_sci, triv_ja      // 雑学（ノンジャンル）
     var id: String { rawValue }
 
     var subject: Subject {
         switch self {
-        case .elem, .junior, .math1a, .math2b, .math3c: .math
-        case .eng_word, .eng_sentence: .english
-        case .soc_geo, .soc_hist, .soc_civ: .social
-        case .sci_bio, .sci_chem, .sci_phys, .sci_earth: .science
-        case .ja_kanji, .ja_idiom, .ja_classic, .ja_grammar: .japanese
+        case .elem, .junior, .math1a, .math2b, .math3c, .triv_math: .math
+        case .eng_word, .eng_sentence, .triv_eng: .english
+        case .soc_geo, .soc_hist, .soc_civ, .triv_soc: .social
+        case .sci_bio, .sci_chem, .sci_phys, .sci_earth, .triv_sci: .science
+        case .ja_kanji, .ja_idiom, .ja_classic, .ja_grammar, .triv_ja: .japanese
+        case .triv_gen: .general
         }
     }
 
@@ -79,6 +82,12 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .ja_idiom: "語句"
         case .ja_classic: "古文"
         case .ja_grammar: "国語文法"
+        case .triv_gen: "雑学"
+        case .triv_math: "数学の雑学"
+        case .triv_eng: "英語の雑学"
+        case .triv_soc: "社会の雑学"
+        case .triv_sci: "理科の雑学"
+        case .triv_ja: "国語の雑学"
         }
     }
 }

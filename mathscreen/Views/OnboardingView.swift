@@ -59,8 +59,8 @@ struct OnboardingView: View {
     private var intro: some View {
         VStack(alignment: .leading, spacing: 16) {
             icon("questionmark")
-            Text("考えて、使いすぎを止める。").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
-            Text("決めた時間だけアプリを使うと、問題が出ます。正解するまで、そのアプリはお休みです。")
+            Text("スマホの使いすぎ止めよう。").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
+            Text("アプリを使い過ぎると、問題が出る。見事問題に正解したら、またアプリを使えるよ！")
                 .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
 
@@ -76,7 +76,7 @@ struct OnboardingView: View {
                     .card(padding: 14)
                 }
             }
-            Text("数学のほか、英語・社会・理科の問題も出せます。出題する問題は、ルールごとに選べます。")
+            Text("数学以外の科目の問題も出題できます。")
                 .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
         }
     }

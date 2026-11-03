@@ -15,6 +15,7 @@ struct MapNode: Identifiable {
         case .social: (Theme.gold, Theme.goldDeep)
         case .science: (Theme.coral, Theme.coralDeep)
         case .japanese: (Color(hex: 0x5B8DEF), Color(hex: 0x3A66C4))
+        case .general: (Color(hex: 0xFF6FA8), Color(hex: 0xD14780))
         case nil: (Theme.ink, Color(hex: 0x0F1020))
         }
     }
@@ -47,7 +48,12 @@ struct MindMapView: View {
     let root: MapNode
     var selectedID: String? = nil
     var openPath: [String] = []             // 最初から開いておく枝
+    /// 枝にチェックを付ける使い方（ルールの出題範囲）。nil なら、ふつうのマップ。
+    var checkState: ((MapNode) -> CheckState)? = nil
+    var onCheck: ((MapNode) -> Void)? = nil
     var onSelect: (MapNode) -> Void
+
+    enum CheckState { case off, partial, on }
 
     @State private var expanded: Set<String> = []
     @State private var offset: CGSize = .zero
@@ -57,8 +63,9 @@ struct MindMapView: View {
     @State private var viewSize: CGSize = .zero
     @State private var started = false
 
-    private let nodeW: CGFloat = 148, nodeH: CGFloat = 50
-    private let colW: CGFloat = 196, rowH: CGFloat = 64, margin: CGFloat = 20
+    private var nodeW: CGFloat { checkState == nil ? 148 : 176 }
+    private var colW: CGFloat { nodeW + 48 }
+    private let nodeH: CGFloat = 50, rowH: CGFloat = 64, margin: CGFloat = 20
 
     private struct Placed: Identifiable {
         var id: String { node.id }
@@ -158,6 +165,14 @@ struct MindMapView: View {
                  depth: 4, radius: 12)
             if !filled { RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(tint.top.opacity(selected ? 1 : 0.6), lineWidth: 2) }
             HStack(spacing: 6) {
+                if let cs = checkState?(n) {
+                    Image(systemName: cs == .on ? "checkmark.square.fill" : (cs == .partial ? "minus.square.fill" : "square"))
+                        .font(.system(size: 24))
+                        .foregroundStyle(cs == .off ? (filled ? Color.white.opacity(0.85) : Theme.inkFaint) : (filled ? Color.white : tint.top))
+                        .frame(width: 34, height: nodeH)
+                        .contentShape(Rectangle())
+                        .onTapGesture { onCheck?(n) }
+                }
                 VStack(alignment: .leading, spacing: 1) {
                     Text(n.title).font(Theme.font(isRoot ? 16 : 14, .bold)).foregroundStyle(ink)
                         .lineLimit(2).minimumScaleFactor(0.8).multilineTextAlignment(.leading)
@@ -173,7 +188,7 @@ struct MindMapView: View {
                     Image(systemName: "checkmark.circle.fill").font(.system(size: 16)).foregroundStyle(tint.side)
                 }
             }
-            .padding(.horizontal, 10)
+            .padding(.leading, checkState == nil ? 10 : 2).padding(.trailing, 10)
         }
         .frame(width: nodeW, height: nodeH)
         .contentShape(Rectangle())

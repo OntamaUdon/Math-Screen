@@ -70,7 +70,7 @@ final class ParentLock {
     }
     /// 6回目の入力のときだけ出す、ちょっとした問題。
     var puzzle: String? {
-        failures == 5 ? "のこりのコードは9995通り、これから1時間に1回ずつ、重複なくコードを入力するとき、正しいパスコード1通りを見つけるまでにかかる時間[hour]の期待値を求めよ。" : nil
+        failures == 5 ? "のこりのコードは9995通り。\nこれから1時間に1回ずつ、重複なくコードを入力するとき、\n正しいパスコード1通りを見つけるまでにかかる時間[hour]の期待値を求めてみましょう。" : nil
     }
     enum Result { case ok, wrong, waiting, puzzleAnswer }
 
