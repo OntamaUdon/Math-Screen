@@ -232266,5 +232266,3929 @@
     ],
     "unit": "hs_ethics",
     "rate": 3.2
+  },
+  {
+    "id": "u-tm_adv-1",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "7¹⁰⁰ を 5 で割った余りはいくつか。",
+    "answer": 1,
+    "explanation": "7 ≡ 2 (mod 5)。2⁴ ≡ 1 なので 2¹⁰⁰ = (2⁴)²⁵ ≡ 1。",
+    "plain": "7¹⁰⁰ を 5 で割った余りはいくつか。　① 4　② 1　③ 2　④ 3",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-2",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "3¹⁰⁰ を 7 で割った余りはいくつか。",
+    "answer": 1,
+    "explanation": "3⁶ ≡ 1 (mod 7)（フェルマーの小定理）。100 = 6×16 + 4 なので 3¹⁰⁰ ≡ 3⁴ = 81 ≡ 4。",
+    "plain": "3¹⁰⁰ を 7 で割った余りはいくつか。　① 5　② 4　③ 2　④ 1",
+    "choices": [
+      "5",
+      "4",
+      "2",
+      "1"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-3",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "2²⁰²⁴ を 7 で割った余りはいくつか。",
+    "answer": 2,
+    "explanation": "2³ ≡ 1 (mod 7)。2024 = 3×674 + 2 なので 2² = 4。",
+    "plain": "2²⁰²⁴ を 7 で割った余りはいくつか。　① 2　② 3　③ 4　④ 1",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-4",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "オイラーのφ関数 φ(36)（36 と互いに素な 1 以上 36 以下の整数の個数）はいくつか。",
+    "answer": 0,
+    "explanation": "36 と互いに素な数を数えると 12 個。",
+    "plain": "オイラーのφ関数 φ(36)（36 と互いに素な 1 以上 36 以下の整数の個数）はいくつか。　① 12　② 10　③ 18　④ 14",
+    "choices": [
+      "12",
+      "10",
+      "18",
+      "14"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-5",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "オイラーのφ関数 φ(100)（100 と互いに素な 1 以上 100 以下の整数の個数）はいくつか。",
+    "answer": 3,
+    "explanation": "100 と互いに素な数を数えると 40 個。",
+    "plain": "オイラーのφ関数 φ(100)（100 と互いに素な 1 以上 100 以下の整数の個数）はいくつか。　① 42　② 38　③ 50　④ 40",
+    "choices": [
+      "42",
+      "38",
+      "50",
+      "40"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-6",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "オイラーのφ関数 φ(45)（45 と互いに素な 1 以上 45 以下の整数の個数）はいくつか。",
+    "answer": 1,
+    "explanation": "45 と互いに素な数を数えると 24 個。",
+    "plain": "オイラーのφ関数 φ(45)（45 と互いに素な 1 以上 45 以下の整数の個数）はいくつか。　① 26　② 24　③ 22　④ 44",
+    "choices": [
+      "26",
+      "24",
+      "22",
+      "44"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-7",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "360 の正の約数の総和はいくつか。",
+    "answer": 0,
+    "explanation": "360 = 2³·3²·5。(1+2+4+8)(1+3+9)(1+5) = 15×13×6 = 1170。",
+    "plain": "360 の正の約数の総和はいくつか。　① 1170　② 810　③ 1080　④ 1530",
+    "choices": [
+      "1170",
+      "810",
+      "1080",
+      "1530"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-8",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "1 から 100 までの整数のうち、2、3、5 の少なくとも 1 つで割り切れる数は何個か。",
+    "answer": 3,
+    "explanation": "包除原理：50 + 33 + 20 − 16 − 10 − 6 + 3 = 74。",
+    "plain": "1 から 100 までの整数のうち、2、3、5 の少なくとも 1 つで割り切れる数は何個か。　① 66　② 103　③ 64　④ 74",
+    "choices": [
+      "66",
+      "103",
+      "64",
+      "74"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-9",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "カタラン数 C₅ = (1/6)·C(10,5) はいくつか。",
+    "answer": 2,
+    "explanation": "C(10,5) = 252。252 ÷ 6 = 42。",
+    "plain": "カタラン数 C₅ = (1/6)·C(10,5) はいくつか。　① 32　② 47　③ 42　④ 252",
+    "choices": [
+      "32",
+      "47",
+      "42",
+      "252"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-10",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "n 組の括弧 ( ) を正しく並べる方法は、n = 4 のとき何通りか（カタラン数）。",
+    "answer": 0,
+    "explanation": "C₄ = C(8,4)/5 = 70/5 = 14。",
+    "plain": "n 組の括弧 ( ) を正しく並べる方法は、n = 4 のとき何通りか（カタラン数）。　① 14　② 12　③ 24　④ 16",
+    "choices": [
+      "14",
+      "12",
+      "24",
+      "16"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-11",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "行列 [[3, 2], [1, 4]] の行列式はいくつか。",
+    "answer": 2,
+    "explanation": "ad − bc = 12 − 2 = 10。",
+    "plain": "行列 [[3, 2], [1, 4]] の行列式はいくつか。　① 5　② 6　③ 10　④ 14",
+    "choices": [
+      "5",
+      "6",
+      "10",
+      "14"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-12",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "行列 A = [[1, 1], [0, 1]] について、A¹⁰ の (1, 2) 成分はいくつか。",
+    "answer": 3,
+    "explanation": "Aⁿ = [[1, n], [0, 1]]。",
+    "plain": "行列 A = [[1, 1], [0, 1]] について、A¹⁰ の (1, 2) 成分はいくつか。　① 1　② 11　③ 55　④ 10",
+    "choices": [
+      "1",
+      "11",
+      "55",
+      "10"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-13",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "行列 [[2, 1], [1, 2]] の固有値のうち、大きいほうはいくつか。",
+    "answer": 0,
+    "explanation": "固有方程式 (λ − 2)² − 1 = 0 より λ = 1, 3。",
+    "plain": "行列 [[2, 1], [1, 2]] の固有値のうち、大きいほうはいくつか。　① 3　② 4　③ 1　④ 2",
+    "choices": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-14",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "微分方程式 y′ = 3y、y(0) = 2 の解について、y(log 2) はいくつか。",
+    "answer": 0,
+    "explanation": "y = 2e³ˣ。y(log 2) = 2·2³ = 16。",
+    "plain": "微分方程式 y′ = 3y、y(0) = 2 の解について、y(log 2) はいくつか。　① 16　② 8　③ 6　④ 12",
+    "choices": [
+      "16",
+      "8",
+      "6",
+      "12"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-15",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "無限級数 Σ (n = 1 から ∞) 1/(n(n + 1)) の和はいくつか。",
+    "answer": 0,
+    "explanation": "1/n − 1/(n+1) と分けると、途中が打ち消し合って 1。",
+    "plain": "無限級数 Σ (n = 1 から ∞) 1/(n(n + 1)) の和はいくつか。　① 1　② 3　③ 2　④ 4",
+    "choices": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-16",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "無限級数 Σ (n = 1 から ∞) n/2ⁿ の和はいくつか。",
+    "answer": 3,
+    "explanation": "S − S/2 = Σ 1/2ⁿ = 1 より S = 2。",
+    "plain": "無限級数 Σ (n = 1 から ∞) n/2ⁿ の和はいくつか。　① 1　② 3　③ 4　④ 2",
+    "choices": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-17",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "二項係数 C(10, 5) はいくつか。",
+    "answer": 1,
+    "explanation": "10! ÷ (5!·5!) = 252。",
+    "plain": "二項係数 C(10, 5) はいくつか。　① 210　② 252　③ 126　④ 120",
+    "choices": [
+      "210",
+      "252",
+      "126",
+      "120"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-18",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "フィボナッチ数列 F₁ = F₂ = 1、Fₙ₊₂ = Fₙ₊₁ + Fₙ で、F₁₀ はいくつか。",
+    "answer": 1,
+    "explanation": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55。",
+    "plain": "フィボナッチ数列 F₁ = F₂ = 1、Fₙ₊₂ = Fₙ₊₁ + Fₙ で、F₁₀ はいくつか。　① 89　② 55　③ 54　④ 34",
+    "choices": [
+      "89",
+      "55",
+      "54",
+      "34"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-19",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "3 進法で 2101 と表される数は、10 進法でいくつか。",
+    "answer": 1,
+    "explanation": "2×27 + 1×9 + 0×3 + 1 = 64。",
+    "plain": "3 進法で 2101 と表される数は、10 進法でいくつか。　① 58　② 64　③ 2101　④ 70",
+    "choices": [
+      "58",
+      "64",
+      "2101",
+      "70"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-20",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "ユークリッドの互除法で、1071 と 462 の最大公約数を求めるといくつか。",
+    "answer": 1,
+    "explanation": "1071 = 2×462 + 147、462 = 3×147 + 21、147 = 7×21。",
+    "plain": "ユークリッドの互除法で、1071 と 462 の最大公約数を求めるといくつか。　① 7　② 21　③ 42　④ 3",
+    "choices": [
+      "7",
+      "21",
+      "42",
+      "3"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-21",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "複素数 (1 + i)⁸ の値はいくつか。",
+    "answer": 3,
+    "explanation": "(1 + i)² = 2i。(2i)⁴ = 16。",
+    "plain": "複素数 (1 + i)⁸ の値はいくつか。　① 256　② 8　③ 32　④ 16",
+    "choices": [
+      "256",
+      "8",
+      "32",
+      "16"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-22",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "6 人が円卓に座る座り方（回転して同じになるものは同じ）は何通りか。",
+    "answer": 3,
+    "explanation": "円順列：(6 − 1)! = 120。",
+    "plain": "6 人が円卓に座る座り方（回転して同じになるものは同じ）は何通りか。　① 24　② 720　③ 60　④ 120",
+    "choices": [
+      "24",
+      "720",
+      "60",
+      "120"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-23",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "x + y + z = 10 を満たす 0 以上の整数の組 (x, y, z) は何組あるか。",
+    "answer": 3,
+    "explanation": "重複組合せ：C(12, 2) = 66。",
+    "plain": "x + y + z = 10 を満たす 0 以上の整数の組 (x, y, z) は何組あるか。　① 100　② 45　③ 36　④ 66",
+    "choices": [
+      "100",
+      "45",
+      "36",
+      "66"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_adv-24",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "100! を 10 進法で書いたとき、末尾に 0 は何個並ぶか。",
+    "answer": 0,
+    "explanation": "5 の因数の個数：⌊100/5⌋ + ⌊100/25⌋ = 24。",
+    "plain": "100! を 10 進法で書いたとき、末尾に 0 は何個並ぶか。　① 24　② 20　③ 10　④ 25",
+    "choices": [
+      "24",
+      "20",
+      "10",
+      "25"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_adv-25",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：発展内容（指導要領の外）",
+    "body": "1 から 10 までの整数から、和が 11 になる 2 つを同時に選ばないとき、最大で何個選べるか。",
+    "answer": 2,
+    "explanation": "(1, 10)、(2, 9)、(3, 8)、(4, 7)、(5, 6) の 5 組から、各組 1 個ずつ。",
+    "plain": "1 から 10 までの整数から、和が 11 になる 2 つを同時に選ばないとき、最大で何個選べるか。　① 6　② 4　③ 5　④ 10",
+    "choices": [
+      "6",
+      "4",
+      "5",
+      "10"
+    ],
+    "unit": "tm_adv",
+    "rate": 3.9
+  },
+  {
+    "id": "u-tm_hard-1",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：入試の難問",
+    "body": "Σ (k = 1 から 20) k² の値はいくつか。",
+    "answer": 0,
+    "explanation": "n(n + 1)(2n + 1)/6 = 20×21×41/6 = 2870。",
+    "plain": "Σ (k = 1 から 20) k² の値はいくつか。　① 2870　② 2850　③ 400　④ 2100",
+    "choices": [
+      "2870",
+      "2850",
+      "400",
+      "2100"
+    ],
+    "unit": "tm_hard",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_hard-2",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "2¹⁰⁰ は 10 進法で何桁か（log₁₀2 = 0.3010）。",
+    "answer": 1,
+    "explanation": "100×0.3010 = 30.10。整数部 + 1 = 31 桁。",
+    "plain": "2¹⁰⁰ は 10 進法で何桁か（log₁₀2 = 0.3010）。　① 100　② 31　③ 32　④ 30",
+    "choices": [
+      "100",
+      "31",
+      "32",
+      "30"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-3",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "3⁵⁰ は 10 進法で何桁か（log₁₀3 = 0.4771）。",
+    "answer": 0,
+    "explanation": "50×0.4771 = 23.855。整数部 + 1 = 24 桁。",
+    "plain": "3⁵⁰ は 10 進法で何桁か（log₁₀3 = 0.4771）。　① 24　② 25　③ 23　④ 50",
+    "choices": [
+      "24",
+      "25",
+      "23",
+      "50"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-4",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：入試の難問",
+    "body": "x² + y² = 50 を満たす正の整数の組 (x, y) は何組あるか。",
+    "answer": 2,
+    "explanation": "(1, 7)、(5, 5)、(7, 1) の 3 組。",
+    "plain": "x² + y² = 50 を満たす正の整数の組 (x, y) は何組あるか。　① 4　② 2　③ 3　④ 6",
+    "choices": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "unit": "tm_hard",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_hard-5",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "1 から 200 までの整数のうち、3 でも 5 でも割り切れない数は何個か。",
+    "answer": 2,
+    "explanation": "200 − 66 − 40 + 13 = 107。",
+    "plain": "1 から 200 までの整数のうち、3 でも 5 でも割り切れない数は何個か。　① 94　② 93　③ 107　④ 120",
+    "choices": [
+      "94",
+      "93",
+      "107",
+      "120"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-6",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "正六角形の 6 個の頂点から 3 点を選んでできる直角三角形は何個か。",
+    "answer": 0,
+    "explanation": "外接円の直径をなす 3 本の対角線それぞれに、残り 4 点のどれかを加える。3×4 = 12。",
+    "plain": "正六角形の 6 個の頂点から 3 点を選んでできる直角三角形は何個か。　① 12　② 8　③ 6　④ 24",
+    "choices": [
+      "12",
+      "8",
+      "6",
+      "24"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-7",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "8 人を 2 人ずつ 4 組に分ける方法は何通りか（組に区別はない）。",
+    "answer": 3,
+    "explanation": "7×5×3×1 = 105。",
+    "plain": "8 人を 2 人ずつ 4 組に分ける方法は何通りか（組に区別はない）。　① 28　② 2520　③ 420　④ 105",
+    "choices": [
+      "28",
+      "2520",
+      "420",
+      "105"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-8",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "循環小数 0.121212… を既約分数で表したとき、分子と分母の和はいくつか。",
+    "answer": 1,
+    "explanation": "12/99 = 4/33。4 + 33 = 37。",
+    "plain": "循環小数 0.121212… を既約分数で表したとき、分子と分母の和はいくつか。　① 45　② 37　③ 111　④ 13",
+    "choices": [
+      "45",
+      "37",
+      "111",
+      "13"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-9",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：入試の難問",
+    "body": "a₁ = 1、aₙ₊₁ = 2aₙ + 1 で定まる数列の a₁₀ はいくつか。",
+    "answer": 1,
+    "explanation": "aₙ + 1 = 2ⁿ。a₁₀ = 2¹⁰ − 1 = 1023。",
+    "plain": "a₁ = 1、aₙ₊₁ = 2aₙ + 1 で定まる数列の a₁₀ はいくつか。　① 512　② 1023　③ 2047　④ 1024",
+    "choices": [
+      "512",
+      "1023",
+      "2047",
+      "1024"
+    ],
+    "unit": "tm_hard",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_hard-10",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "Σ (k = 1 から 6) k·2ᵏ の値はいくつか。",
+    "answer": 3,
+    "explanation": "(n − 1)·2ⁿ⁺¹ + 2 = 5×128 + 2 = 642。",
+    "plain": "Σ (k = 1 から 6) k·2ᵏ の値はいくつか。　① 770　② 384　③ 126　④ 642",
+    "choices": [
+      "770",
+      "384",
+      "126",
+      "642"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-11",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：入試の難問",
+    "body": "2³·3²·5 の正の約数の個数はいくつか。",
+    "answer": 3,
+    "explanation": "(3 + 1)(2 + 1)(1 + 1) = 24。",
+    "plain": "2³·3²·5 の正の約数の個数はいくつか。　① 10　② 12　③ 30　④ 24",
+    "choices": [
+      "10",
+      "12",
+      "30",
+      "24"
+    ],
+    "unit": "tm_hard",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_hard-12",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "x² − 5x + 3 = 0 の 2 つの解を α、β とするとき、α³ + β³ の値はいくつか。",
+    "answer": 3,
+    "explanation": "α + β = 5、αβ = 3。α³ + β³ = 5³ − 3·3·5 = 80。",
+    "plain": "x² − 5x + 3 = 0 の 2 つの解を α、β とするとき、α³ + β³ の値はいくつか。　① 35　② 125　③ 50　④ 80",
+    "choices": [
+      "35",
+      "125",
+      "50",
+      "80"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-13",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "2¹⁰ − 1 と 2⁶ − 1 の最大公約数はいくつか。",
+    "answer": 2,
+    "explanation": "gcd(2ᵃ − 1, 2ᵇ − 1) = 2^gcd(a,b) − 1 = 2² − 1 = 3。",
+    "plain": "2¹⁰ − 1 と 2⁶ − 1 の最大公約数はいくつか。　① 1　② 63　③ 3　④ 7",
+    "choices": [
+      "1",
+      "63",
+      "3",
+      "7"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-14",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "立方体の 8 個の頂点から 4 点を選んで四面体をつくる方法は何通りか（同一平面上の 4 点は除く）。",
+    "answer": 1,
+    "explanation": "C(8, 4) = 70。同じ平面上の 4 点は、面の 6 つと対角面の 6 つで 12。70 − 12 = 58。",
+    "plain": "立方体の 8 個の頂点から 4 点を選んで四面体をつくる方法は何通りか（同一平面上の 4 点は除く）。　① 70　② 58　③ 64　④ 52",
+    "choices": [
+      "70",
+      "58",
+      "64",
+      "52"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-15",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "どの 2 本も平行でなく、どの 3 本も 1 点で交わらない 5 本の直線は、平面を最大何個の領域に分けるか。",
+    "answer": 1,
+    "explanation": "1 + n + C(n, 2) = 1 + 5 + 10 = 16。",
+    "plain": "どの 2 本も平行でなく、どの 3 本も 1 点で交わらない 5 本の直線は、平面を最大何個の領域に分けるか。　① 15　② 16　③ 11　④ 20",
+    "choices": [
+      "15",
+      "16",
+      "11",
+      "20"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-16",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "3 枚の平面は、空間を最大で何個の部分に分けるか。",
+    "answer": 3,
+    "explanation": "3 枚が互いに交わると、空間は 8 個になる。",
+    "plain": "3 枚の平面は、空間を最大で何個の部分に分けるか。　① 7　② 6　③ 9　④ 8",
+    "choices": [
+      "7",
+      "6",
+      "9",
+      "8"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-17",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "3x + 5y = 100 を満たす正の整数の組 (x, y) は何組あるか。",
+    "answer": 0,
+    "explanation": "y ≡ 2 (mod 3)：y = 2, 5, 8, 11, 14, 17 の 6 組。",
+    "plain": "3x + 5y = 100 を満たす正の整数の組 (x, y) は何組あるか。　① 6　② 5　③ 7　④ 8",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-18",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "サイコロを 2 回振るとき、目の和の期待値はいくつか。",
+    "answer": 3,
+    "explanation": "1 回の期待値 7/2 の 2 倍。",
+    "plain": "サイコロを 2 回振るとき、目の和の期待値はいくつか。　① 6　② 8　③ 12　④ 7",
+    "choices": [
+      "6",
+      "8",
+      "12",
+      "7"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-19",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "10 人から 3 人の委員を選び、さらにその 3 人から委員長を 1 人決める方法は何通りか。",
+    "answer": 0,
+    "explanation": "C(10, 3) × 3 = 120 × 3 = 360。",
+    "plain": "10 人から 3 人の委員を選び、さらにその 3 人から委員長を 1 人決める方法は何通りか。　① 360　② 120　③ 1080　④ 720",
+    "choices": [
+      "360",
+      "120",
+      "1080",
+      "720"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-tm_hard-20",
+    "category": "triv_math",
+    "difficulty": 2,
+    "title": "数学：入試の難問",
+    "body": "5 人が 1 列に並ぶとき、A と B が隣り合う並び方は何通りか。",
+    "answer": 1,
+    "explanation": "A と B を 1 組とみて 4! = 24 通り。A と B の順で ×2 = 48。",
+    "plain": "5 人が 1 列に並ぶとき、A と B が隣り合う並び方は何通りか。　① 96　② 48　③ 72　④ 24",
+    "choices": [
+      "96",
+      "48",
+      "72",
+      "24"
+    ],
+    "unit": "tm_hard",
+    "rate": 3.1
+  },
+  {
+    "id": "u-tm_hard-21",
+    "category": "triv_math",
+    "difficulty": 3,
+    "title": "数学：入試の難問",
+    "body": "3 次方程式 x³ − 3x + 1 = 0 は、異なる実数解をいくつ持つか。",
+    "answer": 2,
+    "explanation": "f(−2) = −1、f(−1) = 3、f(1) = −1、f(2) = 3 より、各区間に 1 つずつ。",
+    "plain": "3 次方程式 x³ − 3x + 1 = 0 は、異なる実数解をいくつ持つか。　① 4　② 1　③ 3　④ 2",
+    "choices": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "unit": "tm_hard",
+    "rate": 2.3
+  },
+  {
+    "id": "u-te_adv-1",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接頭辞 pre- が表す意味はどれか。",
+    "answer": 2,
+    "explanation": "predict（予言する）、preview（下見）。",
+    "plain": "接頭辞 pre- が表す意味はどれか。　① 反対　② 後に　③ 前に・あらかじめ　④ 下に",
+    "choices": [
+      "反対",
+      "後に",
+      "前に・あらかじめ",
+      "下に"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-2",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接頭辞 inter- が表す意味はどれか。",
+    "answer": 3,
+    "explanation": "international（国際的な）、interact（影響し合う）。",
+    "plain": "接頭辞 inter- が表す意味はどれか。　① 〜に反して　② 〜の中に　③ 〜の上に　④ 〜の間に・相互に",
+    "choices": [
+      "〜に反して",
+      "〜の中に",
+      "〜の上に",
+      "〜の間に・相互に"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-3",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接頭辞 trans- が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "transport（輸送する）、translate（翻訳する）。",
+    "plain": "接頭辞 trans- が表す意味はどれか。　① 横切って・移して　② 再び　③ 下に　④ 反対に",
+    "choices": [
+      "横切って・移して",
+      "再び",
+      "下に",
+      "反対に"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-4",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接頭辞 anti- が表す意味はどれか。",
+    "answer": 1,
+    "explanation": "antibiotic（抗生物質）、antiwar（反戦の）。",
+    "plain": "接頭辞 anti- が表す意味はどれか。　① 超えて　② 反対・対抗　③ 前　④ 共に",
+    "choices": [
+      "超えて",
+      "反対・対抗",
+      "前",
+      "共に"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-5",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "語根 port が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "transport、import、export。",
+    "plain": "語根 port が表す意味はどれか。　① 運ぶ　② 言う　③ 書く　④ 見る",
+    "choices": [
+      "運ぶ",
+      "言う",
+      "書く",
+      "見る"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-6",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "語根 dict が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "predict、dictionary、dictate。",
+    "plain": "語根 dict が表す意味はどれか。　① 言う　② 見る　③ 聞く　④ 運ぶ",
+    "choices": [
+      "言う",
+      "見る",
+      "聞く",
+      "運ぶ"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-7",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "語根 spect が表す意味はどれか。",
+    "answer": 1,
+    "explanation": "inspect、spectator、respect。",
+    "plain": "語根 spect が表す意味はどれか。　① 言う　② 見る　③ 書く　④ 運ぶ",
+    "choices": [
+      "言う",
+      "見る",
+      "書く",
+      "運ぶ"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-8",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "語根 scrib / script が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "describe、script、manuscript。",
+    "plain": "語根 scrib / script が表す意味はどれか。　① 書く　② 見る　③ 聞く　④ 作る",
+    "choices": [
+      "書く",
+      "見る",
+      "聞く",
+      "作る"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-9",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "語根 aud が表す意味はどれか。",
+    "answer": 1,
+    "explanation": "audience、audio、audition。",
+    "plain": "語根 aud が表す意味はどれか。　① 話す　② 聞く　③ 触れる　④ 見る",
+    "choices": [
+      "話す",
+      "聞く",
+      "触れる",
+      "見る"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-10",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接尾辞 -less が表す意味はどれか。",
+    "answer": 2,
+    "explanation": "useless（役に立たない）、careless（不注意な）。",
+    "plain": "接尾辞 -less が表す意味はどれか。　① 〜できる　② 〜にする　③ 〜のない　④ 〜に満ちた",
+    "choices": [
+      "〜できる",
+      "〜にする",
+      "〜のない",
+      "〜に満ちた"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-11",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接尾辞 -ize が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "modernize（近代化する）、realize（実現する）。",
+    "plain": "接尾辞 -ize が表す意味はどれか。　① 〜にする・〜化する　② 〜の学問　③ 〜の人　④ 〜のない",
+    "choices": [
+      "〜にする・〜化する",
+      "〜の学問",
+      "〜の人",
+      "〜のない"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-12",
+    "category": "triv_eng",
+    "difficulty": 2,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "接尾辞 -ology が表す意味はどれか。",
+    "answer": 0,
+    "explanation": "biology、geology、psychology。",
+    "plain": "接尾辞 -ology が表す意味はどれか。　① 〜学　② 〜に満ちた　③ 〜の人　④ 〜の状態",
+    "choices": [
+      "〜学",
+      "〜に満ちた",
+      "〜の人",
+      "〜の状態"
+    ],
+    "unit": "te_adv",
+    "rate": 4.4
+  },
+  {
+    "id": "u-te_adv-13",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "「もし私があなただったら、そうするだろう」を、倒置を使った仮定法で書くとき、正しいものはどれか。",
+    "answer": 0,
+    "explanation": "if を省略すると、were が文頭に出る。",
+    "plain": "「もし私があなただったら、そうするだろう」を、倒置を使った仮定法で書くとき、正しいものはどれか。　① Were I you, I would do so.　② Was I you, I would do so.　③ If I am you, I would do so.　④ Were I you, I will do so.",
+    "choices": [
+      "Were I you, I would do so.",
+      "Was I you, I would do so.",
+      "If I am you, I would do so.",
+      "Were I you, I will do so."
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-14",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "分詞構文で、「宿題を終えたので、私は映画を見に行った」を完了形を使って表すとき、正しいものはどれか。",
+    "answer": 0,
+    "explanation": "主節より前のことを表すので、having + 過去分詞。",
+    "plain": "分詞構文で、「宿題を終えたので、私は映画を見に行った」を完了形を使って表すとき、正しいものはどれか。　① Having finished my homework, I went to the movies.　② Finished having my homework, I went to the movies.　③ Having finishing my homework, I went to the movies.　④ Finishing my homework, I went to the movies had.",
+    "choices": [
+      "Having finished my homework, I went to the movies.",
+      "Finished having my homework, I went to the movies.",
+      "Having finishing my homework, I went to the movies.",
+      "Finishing my homework, I went to the movies had."
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-15",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "強調構文として正しいものはどれか（「私が昨日会ったのはメアリーだ」）。",
+    "answer": 0,
+    "explanation": "It is / was ～ that … の形。過去の文なので was。",
+    "plain": "強調構文として正しいものはどれか（「私が昨日会ったのはメアリーだ」）。　① It was Mary that I met yesterday.　② It is Mary that I met yesterday.　③ It was Mary what I met yesterday.　④ It was that Mary I met yesterday.",
+    "choices": [
+      "It was Mary that I met yesterday.",
+      "It is Mary that I met yesterday.",
+      "It was Mary what I met yesterday.",
+      "It was that Mary I met yesterday."
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-16",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "“The more you study, the more you learn.” の意味に近いのはどれか。",
+    "answer": 1,
+    "explanation": "the + 比較級, the + 比較級：〜すればするほど…。",
+    "plain": "“The more you study, the more you learn.” の意味に近いのはどれか。　① 勉強しない人ほどよく学ぶ　② 勉強すればするほど、学ぶことが増える　③ 勉強しても学ぶことは増えない　④ 勉強するより学ぶほうが大切だ",
+    "choices": [
+      "勉強しない人ほどよく学ぶ",
+      "勉強すればするほど、学ぶことが増える",
+      "勉強しても学ぶことは増えない",
+      "勉強するより学ぶほうが大切だ"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-17",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "“No matter how hard he tried, he couldn’t open the door.” の No matter how は、どんな意味か。",
+    "answer": 2,
+    "explanation": "譲歩を表す（= However hard he tried）。",
+    "plain": "“No matter how hard he tried, he couldn’t open the door.” の No matter how は、どんな意味か。　① どうしても〜したい　② 〜するときはいつも　③ どんなに〜しても　④ 〜かどうか",
+    "choices": [
+      "どうしても〜したい",
+      "〜するときはいつも",
+      "どんなに〜しても",
+      "〜かどうか"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-18",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "“Not only did he apologize, but he also offered to help.” で、Not only が文頭に出て語順が変わるのはなぜか。",
+    "answer": 3,
+    "explanation": "Not only + 助動詞 + 主語 + 動詞。",
+    "plain": "“Not only did he apologize, but he also offered to help.” で、Not only が文頭に出て語順が変わるのはなぜか。　① 命令文だから　② 仮定法だから　③ 疑問文だから　④ 否定の副詞句が文頭にくると倒置が起こるから",
+    "choices": [
+      "命令文だから",
+      "仮定法だから",
+      "疑問文だから",
+      "否定の副詞句が文頭にくると倒置が起こるから"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-19",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "英語の定冠詞 the の基本的な働きはどれか。",
+    "answer": 2,
+    "explanation": "特定されているものに使う。",
+    "plain": "英語の定冠詞 the の基本的な働きはどれか。　① 初めて出てくるものにつける　② 複数のものにだけつける　③ 話し手と聞き手が、何を指すかわかっているものにつける　④ 数えられないものにつける",
+    "choices": [
+      "初めて出てくるものにつける",
+      "複数のものにだけつける",
+      "話し手と聞き手が、何を指すかわかっているものにつける",
+      "数えられないものにつける"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-20",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "音声学で、英語の “th” の音（think の th）は、舌をどこに置いて出すか。",
+    "answer": 2,
+    "explanation": "歯間音。",
+    "plain": "音声学で、英語の “th” の音（think の th）は、舌をどこに置いて出すか。　① 上の歯の裏　② 唇　③ 上下の歯のあいだ　④ のどの奥",
+    "choices": [
+      "上の歯の裏",
+      "唇",
+      "上下の歯のあいだ",
+      "のどの奥"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-21",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "英語で、動詞の過去形・過去分詞が、原形と同じ形のものはどれか。",
+    "answer": 1,
+    "explanation": "put - put - put（cut、hit、set なども同じ）。",
+    "plain": "英語で、動詞の過去形・過去分詞が、原形と同じ形のものはどれか。　① take　② put　③ break　④ give",
+    "choices": [
+      "take",
+      "put",
+      "break",
+      "give"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-22",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "英語の借用語 “kindergarten”（幼稚園）は、どの言語から入ったか。",
+    "answer": 2,
+    "explanation": "Kinder（子ども）+ Garten（庭）。",
+    "plain": "英語の借用語 “kindergarten”（幼稚園）は、どの言語から入ったか。　① スペイン語　② フランス語　③ ドイツ語　④ ラテン語",
+    "choices": [
+      "スペイン語",
+      "フランス語",
+      "ドイツ語",
+      "ラテン語"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_adv-23",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：発展内容（指導要領の外）",
+    "body": "“Honesty is the best policy.” は、どんな意味のことわざか。",
+    "answer": 0,
+    "explanation": "正直でいることが、結局は得になる。",
+    "plain": "“Honesty is the best policy.” は、どんな意味のことわざか。　① 正直は最善の策　② 急がば回れ　③ 時は金なり　④ 習うより慣れよ",
+    "choices": [
+      "正直は最善の策",
+      "急がば回れ",
+      "時は金なり",
+      "習うより慣れよ"
+    ],
+    "unit": "te_adv",
+    "rate": 3.6
+  },
+  {
+    "id": "u-te_hard-1",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "I wish I ( ) taller. 空所に入る最も適切なものはどれか。",
+    "answer": 1,
+    "explanation": "現在の事実に反する願望は、過去形（be は were）。",
+    "plain": "I wish I ( ) taller. 空所に入る最も適切なものはどれか。　① had been being　② were　③ will be　④ am",
+    "choices": [
+      "had been being",
+      "were",
+      "will be",
+      "am"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-2",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "It is high time you ( ) to bed. 空所に入る最も適切なものはどれか。",
+    "answer": 1,
+    "explanation": "It is (high) time + 主語 + 過去形：〜してもよい時間だ。",
+    "plain": "It is high time you ( ) to bed. 空所に入る最も適切なものはどれか。　① will go　② went　③ go　④ have gone",
+    "choices": [
+      "will go",
+      "went",
+      "go",
+      "have gone"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-3",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "Hardly had I arrived ( ) it began to rain. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "Hardly [Scarcely] ～ when [before] …：〜するとすぐに…。",
+    "plain": "Hardly had I arrived ( ) it began to rain. 空所に入る最も適切なものはどれか。　① when　② that　③ than　④ as soon",
+    "choices": [
+      "when",
+      "that",
+      "than",
+      "as soon"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-4",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "No sooner had he left ( ) the phone rang. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "No sooner ～ than …。",
+    "plain": "No sooner had he left ( ) the phone rang. 空所に入る最も適切なものはどれか。　① than　② then　③ that　④ when",
+    "choices": [
+      "than",
+      "then",
+      "that",
+      "when"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-5",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "Not until he left home ( ) how much he loved his family. 空所に入る最も適切なものはどれか。",
+    "answer": 3,
+    "explanation": "Not until が文頭にくると、倒置になる。",
+    "plain": "Not until he left home ( ) how much he loved his family. 空所に入る最も適切なものはどれか。　① realized he　② he did realize　③ he realized　④ did he realize",
+    "choices": [
+      "realized he",
+      "he did realize",
+      "he realized",
+      "did he realize"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-6",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "She suggested that he ( ) the doctor. 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "提案・要求を表す動詞のあとの that 節では、動詞は原形（または should + 原形）。",
+    "plain": "She suggested that he ( ) the doctor. 空所に入る最も適切なものはどれか。　① sees　② will see　③ see　④ saw",
+    "choices": [
+      "sees",
+      "will see",
+      "see",
+      "saw"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-7",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "I cannot help ( ) when I hear that song. 空所に入る最も適切なものはどれか。",
+    "answer": 3,
+    "explanation": "cannot help ~ing：〜せずにはいられない。",
+    "plain": "I cannot help ( ) when I hear that song. 空所に入る最も適切なものはどれか。　① cry　② cried　③ to cry　④ crying",
+    "choices": [
+      "cry",
+      "cried",
+      "to cry",
+      "crying"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-8",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "He is accustomed ( ) up early. 空所に入る最も適切なものはどれか。",
+    "answer": 3,
+    "explanation": "be accustomed to ~ing：〜に慣れている。この to は前置詞。",
+    "plain": "He is accustomed ( ) up early. 空所に入る最も適切なものはどれか。　① to get　② for getting　③ of getting　④ to getting",
+    "choices": [
+      "to get",
+      "for getting",
+      "of getting",
+      "to getting"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-9",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "I would rather stay home ( ) go out in this rain. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "would rather A than B：BするよりAしたい。",
+    "plain": "I would rather stay home ( ) go out in this rain. 空所に入る最も適切なものはどれか。　① than　② that　③ from　④ to",
+    "choices": [
+      "than",
+      "that",
+      "from",
+      "to"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-10",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "By the time you arrive, I ( ) the report. 空所に入る最も適切なものはどれか。",
+    "answer": 1,
+    "explanation": "by the time の節が現在形で未来を表すとき、主節は未来完了。",
+    "plain": "By the time you arrive, I ( ) the report. 空所に入る最も適切なものはどれか。　① have finished　② will have finished　③ finished　④ will finish",
+    "choices": [
+      "have finished",
+      "will have finished",
+      "finished",
+      "will finish"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-11",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "A ( ) of students are absent today. 空所に入る最も適切なものはどれか。",
+    "answer": 3,
+    "explanation": "a number of + 複数名詞：多くの〜。an amount of は数えられない名詞に使う。",
+    "plain": "A ( ) of students are absent today. 空所に入る最も適切なものはどれか。　① amount　② piece　③ deal　④ number",
+    "choices": [
+      "amount",
+      "piece",
+      "deal",
+      "number"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-12",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "He has ( ) friends, so he feels lonely. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "few は「ほとんどない」という否定的な意味。a few は「少しある」。",
+    "plain": "He has ( ) friends, so he feels lonely. 空所に入る最も適切なものはどれか。　① few　② little　③ a few　④ a little",
+    "choices": [
+      "few",
+      "little",
+      "a few",
+      "a little"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-13",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "The sun ( ) in the east. 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "rise（昇る、自動詞）、raise（上げる、他動詞）。",
+    "plain": "The sun ( ) in the east. 空所に入る最も適切なものはどれか。　① raises　② arises　③ rises　④ lies",
+    "choices": [
+      "raises",
+      "arises",
+      "rises",
+      "lies"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-14",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "She ( ) the book on the table yesterday. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "lay（置く）の過去形は laid。lie（横たわる）の過去形が lay。",
+    "plain": "She ( ) the book on the table yesterday. 空所に入る最も適切なものはどれか。　① laid　② lain　③ lay　④ lied",
+    "choices": [
+      "laid",
+      "lain",
+      "lay",
+      "lied"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-15",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "Every student ( ) required to attend the meeting. 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "every + 単数名詞は、単数扱い。",
+    "plain": "Every student ( ) required to attend the meeting. 空所に入る最も適切なものはどれか。　① are　② were　③ is　④ be",
+    "choices": [
+      "are",
+      "were",
+      "is",
+      "be"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-16",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "She sat there with her eyes ( ). 空所に入る最も適切なものはどれか。",
+    "answer": 1,
+    "explanation": "with + 名詞 + 過去分詞：〜された状態で。",
+    "plain": "She sat there with her eyes ( ). 空所に入る最も適切なものはどれか。　① closing　② closed　③ close　④ to close",
+    "choices": [
+      "closing",
+      "closed",
+      "close",
+      "to close"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-17",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "This is the house ( ) roof was damaged in the storm. 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "所有を表す関係代名詞。",
+    "plain": "This is the house ( ) roof was damaged in the storm. 空所に入る最も適切なものはどれか。　① that　② which　③ whose　④ who",
+    "choices": [
+      "that",
+      "which",
+      "whose",
+      "who"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-18",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "I remember ( ) him at the party last year. 空所に入る最も適切なものはどれか。",
+    "answer": 0,
+    "explanation": "remember ~ing：〜したことを覚えている。remember to ~：忘れずに〜する。",
+    "plain": "I remember ( ) him at the party last year. 空所に入る最も適切なものはどれか。　① meeting　② meet　③ to have meet　④ to meet",
+    "choices": [
+      "meeting",
+      "meet",
+      "to have meet",
+      "to meet"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-19",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "Whatever ( ) happen, we will go ahead. 空所に入る最も適切なものはどれか。",
+    "answer": 1,
+    "explanation": "Whatever + 主語 + may：何が〜しても。",
+    "plain": "Whatever ( ) happen, we will go ahead. 空所に入る最も適切なものはどれか。　① can to　② may　③ is　④ will to",
+    "choices": [
+      "can to",
+      "may",
+      "is",
+      "will to"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-20",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "The book is worth ( ). 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "be worth ~ing：〜する価値がある。",
+    "plain": "The book is worth ( ). 空所に入る最も適切なものはどれか。　① to read　② for reading　③ reading　④ read",
+    "choices": [
+      "to read",
+      "for reading",
+      "reading",
+      "read"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-te_hard-21",
+    "category": "triv_eng",
+    "difficulty": 3,
+    "title": "英語：入試の難問",
+    "body": "The news ( ) surprising to everyone. 空所に入る最も適切なものはどれか。",
+    "answer": 2,
+    "explanation": "news は複数形に見えるが、単数扱いの名詞。",
+    "plain": "The news ( ) surprising to everyone. 空所に入る最も適切なものはどれか。　① were　② have been　③ was　④ are",
+    "choices": [
+      "were",
+      "have been",
+      "was",
+      "are"
+    ],
+    "unit": "te_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-1",
+    "category": "triv_soc",
+    "difficulty": 2,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "ある選択をしたことで、あきらめた選択肢のうち最も価値の高いものを失うことを何というか。",
+    "answer": 1,
+    "explanation": "経済学の基本的な考え方。",
+    "plain": "ある選択をしたことで、あきらめた選択肢のうち最も価値の高いものを失うことを何というか。　① 限界費用　② 機会費用　③ 固定費用　④ 埋没費用",
+    "choices": [
+      "限界費用",
+      "機会費用",
+      "固定費用",
+      "埋没費用"
+    ],
+    "unit": "ts_adv",
+    "rate": 4.3
+  },
+  {
+    "id": "u-ts_adv-2",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "すでに支払って取り戻せない費用を何というか。",
+    "answer": 1,
+    "explanation": "意思決定で考えに入れないのが合理的とされる。",
+    "plain": "すでに支払って取り戻せない費用を何というか。　① 限界費用　② 埋没費用（サンクコスト）　③ 機会費用　④ 変動費用",
+    "choices": [
+      "限界費用",
+      "埋没費用（サンクコスト）",
+      "機会費用",
+      "変動費用"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-3",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "価格が1％上がったときに、需要量が何％変化するかを表す指標を何というか。",
+    "answer": 0,
+    "explanation": "弾力性が大きいほど、価格に敏感。",
+    "plain": "価格が1％上がったときに、需要量が何％変化するかを表す指標を何というか。　① 需要の価格弾力性　② 所得弾力性　③ 需要曲線　④ 限界効用",
+    "choices": [
+      "需要の価格弾力性",
+      "所得弾力性",
+      "需要曲線",
+      "限界効用"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-4",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "ある財を消費する量を増やすほど、追加の1単位から得られる満足が小さくなる法則を何というか。",
+    "answer": 3,
+    "explanation": "たとえば、お腹がすいているときの1杯目の水がいちばんおいしい。",
+    "plain": "ある財を消費する量を増やすほど、追加の1単位から得られる満足が小さくなる法則を何というか。　① 収穫逓減の法則　② 規模の経済　③ グレシャムの法則　④ 限界効用逓減の法則",
+    "choices": [
+      "収穫逓減の法則",
+      "規模の経済",
+      "グレシャムの法則",
+      "限界効用逓減の法則"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-5",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "所得の不平等の度合いを0から1で表す指標を何というか（1に近いほど不平等）。",
+    "answer": 3,
+    "explanation": "ローレンツ曲線から求める。",
+    "plain": "所得の不平等の度合いを0から1で表す指標を何というか（1に近いほど不平等）。　① 景気動向指数　② 物価指数　③ エンゲル係数　④ ジニ係数",
+    "choices": [
+      "景気動向指数",
+      "物価指数",
+      "エンゲル係数",
+      "ジニ係数"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-6",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "お互いが協力すれば有利なのに、個人が合理的に行動すると協力できずに損をしてしまうという、ゲーム理論の例を何というか。",
+    "answer": 3,
+    "explanation": "2人の囚人が自白するかしないかを選ぶ例え話。",
+    "plain": "お互いが協力すれば有利なのに、個人が合理的に行動すると協力できずに損をしてしまうという、ゲーム理論の例を何というか。　① パレート最適　② 市場の失敗　③ ナッシュ均衡　④ 囚人のジレンマ",
+    "choices": [
+      "パレート最適",
+      "市場の失敗",
+      "ナッシュ均衡",
+      "囚人のジレンマ"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-7",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "対価を払わずに利益を受ける人のことを、何というか。",
+    "answer": 2,
+    "explanation": "公共財の提供で問題になる。",
+    "plain": "対価を払わずに利益を受ける人のことを、何というか。　① ステークホルダー　② ロビイスト　③ フリーライダー　④ インサイダー",
+    "choices": [
+      "ステークホルダー",
+      "ロビイスト",
+      "フリーライダー",
+      "インサイダー"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-8",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "利用者が増えても追加の費用がかからず（非競合性）、対価を払わない人も排除できない（非排除性）財を何というか。",
+    "answer": 1,
+    "explanation": "国防、灯台、一般道路などが例。",
+    "plain": "利用者が増えても追加の費用がかからず（非競合性）、対価を払わない人も排除できない（非排除性）財を何というか。　① クラブ財　② 公共財　③ 私的財　④ ぜいたく品",
+    "choices": [
+      "クラブ財",
+      "公共財",
+      "私的財",
+      "ぜいたく品"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-9",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "取引に関わらない第三者に、よい影響や悪い影響を与えることを何というか。",
+    "answer": 3,
+    "explanation": "公害は負の外部性の例。",
+    "plain": "取引に関わらない第三者に、よい影響や悪い影響を与えることを何というか。　① インセンティブ　② 外部委託　③ 規模の経済　④ 外部性（外部効果）",
+    "choices": [
+      "インセンティブ",
+      "外部委託",
+      "規模の経済",
+      "外部性（外部効果）"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-10",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "不況のとき、政府が財政支出を増やして需要を支えるべきだと主張した経済学者はだれか。",
+    "answer": 3,
+    "explanation": "『雇用・利子および貨幣の一般理論』。",
+    "plain": "不況のとき、政府が財政支出を増やして需要を支えるべきだと主張した経済学者はだれか。　① フリードマン　② マルクス　③ アダム・スミス　④ ケインズ",
+    "choices": [
+      "フリードマン",
+      "マルクス",
+      "アダム・スミス",
+      "ケインズ"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-11",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "通貨の供給量をコントロールすることが重要だと主張し、「小さな政府」を支持した経済学者はだれか。",
+    "answer": 0,
+    "explanation": "マネタリズムの代表。",
+    "plain": "通貨の供給量をコントロールすることが重要だと主張し、「小さな政府」を支持した経済学者はだれか。　① フリードマン　② ロールズ　③ ケインズ　④ ガルブレイス",
+    "choices": [
+      "フリードマン",
+      "ロールズ",
+      "ケインズ",
+      "ガルブレイス"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-12",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "自国で相対的に得意な産業に力を入れ、他国と貿易すると、お互いに得をするという考えを説いたのはだれか。",
+    "answer": 1,
+    "explanation": "比較生産費説。",
+    "plain": "自国で相対的に得意な産業に力を入れ、他国と貿易すると、お互いに得をするという考えを説いたのはだれか。　① マルサス　② リカード　③ ケインズ　④ ウェーバー",
+    "choices": [
+      "マルサス",
+      "リカード",
+      "ケインズ",
+      "ウェーバー"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-13",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "「見えざる手」という言葉で、市場の価格調整のはたらきを表した経済学者はだれか。",
+    "answer": 0,
+    "explanation": "『国富論』。",
+    "plain": "「見えざる手」という言葉で、市場の価格調整のはたらきを表した経済学者はだれか。　① アダム・スミス　② マルクス　③ リカード　④ ケインズ",
+    "choices": [
+      "アダム・スミス",
+      "マルクス",
+      "リカード",
+      "ケインズ"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-14",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "国際紛争を法にもとづいて解決することを目的とした、オランダのハーグにある国際連合の司法機関はどれか。",
+    "answer": 1,
+    "explanation": "国家間の紛争を扱う。個人の戦争犯罪を裁くのは国際刑事裁判所。",
+    "plain": "国際紛争を法にもとづいて解決することを目的とした、オランダのハーグにある国際連合の司法機関はどれか。　① 国際刑事裁判所（ICC）　② 国際司法裁判所（ICJ）　③ 常設仲裁裁判所のみ　④ 国際労働機関",
+    "choices": [
+      "国際刑事裁判所（ICC）",
+      "国際司法裁判所（ICJ）",
+      "常設仲裁裁判所のみ",
+      "国際労働機関"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-15",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "国家の領域の外側にあって、海岸線から200海里までの海域で、資源に関する主権的権利が認められる水域を何というか。",
+    "answer": 1,
+    "explanation": "国連海洋法条約で定められた。",
+    "plain": "国家の領域の外側にあって、海岸線から200海里までの海域で、資源に関する主権的権利が認められる水域を何というか。　① 領海　② 排他的経済水域　③ 接続水域　④ 公海",
+    "choices": [
+      "領海",
+      "排他的経済水域",
+      "接続水域",
+      "公海"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-16",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "各国が力のバランスをとることで、平和を保とうとする国際関係の考え方を何というか。",
+    "answer": 2,
+    "explanation": "ウィーン会議後の欧州などで見られた。",
+    "plain": "各国が力のバランスをとることで、平和を保とうとする国際関係の考え方を何というか。　① デタント　② 孤立主義　③ 勢力均衡（バランス・オブ・パワー）　④ 集団安全保障",
+    "choices": [
+      "デタント",
+      "孤立主義",
+      "勢力均衡（バランス・オブ・パワー）",
+      "集団安全保障"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-17",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "国際連合の安全保障理事会の常任理事国の組み合わせとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "5か国が拒否権を持つ。",
+    "plain": "国際連合の安全保障理事会の常任理事国の組み合わせとして正しいものはどれか。　① アメリカ・イギリス・フランス・日本・中国　② アメリカ・イギリス・ドイツ・日本・中国　③ アメリカ・フランス・ロシア・インド・中国　④ アメリカ・イギリス・フランス・ロシア・中国",
+    "choices": [
+      "アメリカ・イギリス・フランス・日本・中国",
+      "アメリカ・イギリス・ドイツ・日本・中国",
+      "アメリカ・フランス・ロシア・インド・中国",
+      "アメリカ・イギリス・フランス・ロシア・中国"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-18",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "民主主義の下で、多数派の考えだけで少数派の権利が侵されるおそれを、何というか。",
+    "answer": 0,
+    "explanation": "トクヴィルなどが指摘した。",
+    "plain": "民主主義の下で、多数派の考えだけで少数派の権利が侵されるおそれを、何というか。　① 多数者の専制　② 政党政治　③ 寡頭制　④ 三権分立",
+    "choices": [
+      "多数者の専制",
+      "政党政治",
+      "寡頭制",
+      "三権分立"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-19",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "都市の中心部から郊外にかけて、同心円状に土地利用が分かれるという都市構造のモデルを何というか。",
+    "answer": 3,
+    "explanation": "バージェスが提唱した。",
+    "plain": "都市の中心部から郊外にかけて、同心円状に土地利用が分かれるという都市構造のモデルを何というか。　① 扇形モデル　② 中心地理論　③ 多核心モデル　④ 同心円モデル",
+    "choices": [
+      "扇形モデル",
+      "中心地理論",
+      "多核心モデル",
+      "同心円モデル"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-20",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "各地の中心地が、財やサービスの供給範囲に応じて階層をなすという理論を何というか。",
+    "answer": 3,
+    "explanation": "クリスタラーが提唱した。",
+    "plain": "各地の中心地が、財やサービスの供給範囲に応じて階層をなすという理論を何というか。　① 立地論　② 同心円モデル　③ 人口転換論　④ 中心地理論",
+    "choices": [
+      "立地論",
+      "同心円モデル",
+      "人口転換論",
+      "中心地理論"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-21",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "出生率・死亡率が高い状態から、死亡率が先に下がり、のちに出生率も下がっていくという人口の変化のモデルを何というか。",
+    "answer": 3,
+    "explanation": "先進国が経験した。",
+    "plain": "出生率・死亡率が高い状態から、死亡率が先に下がり、のちに出生率も下がっていくという人口の変化のモデルを何というか。　① 少子高齢化　② 人口ボーナス　③ 人口爆発　④ 人口転換（人口移行）",
+    "choices": [
+      "少子高齢化",
+      "人口ボーナス",
+      "人口爆発",
+      "人口転換（人口移行）"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_adv-22",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：発展内容（指導要領の外）",
+    "body": "文化の違う人々が、おたがいの文化を認め合って共に生きる考え方を何というか。",
+    "answer": 3,
+    "explanation": "移民や少数民族との関係で議論される。",
+    "plain": "文化の違う人々が、おたがいの文化を認め合って共に生きる考え方を何というか。　① 排外主義　② 同化主義　③ 孤立主義　④ 多文化共生（マルチカルチュラリズム）",
+    "choices": [
+      "排外主義",
+      "同化主義",
+      "孤立主義",
+      "多文化共生（マルチカルチュラリズム）"
+    ],
+    "unit": "ts_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-ts_hard-1",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1297年に鎌倉幕府が、御家人の借金を帳消しにし、土地を取り戻させることを命じた法令はどれか。",
+    "answer": 0,
+    "explanation": "元寇後に、御家人が窮乏したため。",
+    "plain": "1297年に鎌倉幕府が、御家人の借金を帳消しにし、土地を取り戻させることを命じた法令はどれか。　① 永仁の徳政令　② 分国法　③ 建武式目　④ 御成敗式目",
+    "choices": [
+      "永仁の徳政令",
+      "分国法",
+      "建武式目",
+      "御成敗式目"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-2",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1428年に近江国から起こり、「日本開闢以来、土民蜂起これ初めなり」と評された一揆はどれか。",
+    "answer": 3,
+    "explanation": "借金の帳消しを求めた。",
+    "plain": "1428年に近江国から起こり、「日本開闢以来、土民蜂起これ初めなり」と評された一揆はどれか。　① 山城の国一揆　② 島原・天草一揆　③ 加賀の一向一揆　④ 正長の土一揆",
+    "choices": [
+      "山城の国一揆",
+      "島原・天草一揆",
+      "加賀の一向一揆",
+      "正長の土一揆"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-3",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1441年、赤松満祐が6代将軍足利義教を殺害した事件はどれか。",
+    "answer": 1,
+    "explanation": "室町幕府の権威が揺らいだ。",
+    "plain": "1441年、赤松満祐が6代将軍足利義教を殺害した事件はどれか。　① 応仁の乱　② 嘉吉の変　③ 明徳の乱　④ 応永の乱",
+    "choices": [
+      "応仁の乱",
+      "嘉吉の変",
+      "明徳の乱",
+      "応永の乱"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-4",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1019年、九州北部を襲った女真人（刀伊）を、大宰権帥の藤原隆家らが撃退した事件はどれか。",
+    "answer": 0,
+    "explanation": "平安時代の出来事。",
+    "plain": "1019年、九州北部を襲った女真人（刀伊）を、大宰権帥の藤原隆家らが撃退した事件はどれか。　① 刀伊の入寇　② 倭寇　③ 白村江の戦い　④ 元寇",
+    "choices": [
+      "刀伊の入寇",
+      "倭寇",
+      "白村江の戦い",
+      "元寇"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-5",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "10世紀に起こった、関東の平将門と、瀬戸内海の藤原純友の反乱を、合わせて何というか。",
+    "answer": 2,
+    "explanation": "朝廷の武士に対する依存が増した。",
+    "plain": "10世紀に起こった、関東の平将門と、瀬戸内海の藤原純友の反乱を、合わせて何というか。　① 応仁・文明の乱　② 保元・平治の乱　③ 承平・天慶の乱　④ 前九年・後三年の役",
+    "choices": [
+      "応仁・文明の乱",
+      "保元・平治の乱",
+      "承平・天慶の乱",
+      "前九年・後三年の役"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-6",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1555年に、ドイツでルター派とカトリックの共存が認められた和議はどれか。",
+    "answer": 1,
+    "explanation": "諸侯に宗派を選ぶ権利が認められた。",
+    "plain": "1555年に、ドイツでルター派とカトリックの共存が認められた和議はどれか。　① ヴォルムス協約　② アウクスブルクの宗教和議　③ ナントの勅令　④ ウェストファリア条約",
+    "choices": [
+      "ヴォルムス協約",
+      "アウクスブルクの宗教和議",
+      "ナントの勅令",
+      "ウェストファリア条約"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-7",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1598年に、フランス王アンリ4世が出した、プロテスタント（ユグノー）に信仰の自由を認めた勅令はどれか。",
+    "answer": 0,
+    "explanation": "のちにルイ14世が廃止した。",
+    "plain": "1598年に、フランス王アンリ4世が出した、プロテスタント（ユグノー）に信仰の自由を認めた勅令はどれか。　① ナントの勅令　② 権利の章典　③ ヴォルムス協約　④ アウクスブルクの宗教和議",
+    "choices": [
+      "ナントの勅令",
+      "権利の章典",
+      "ヴォルムス協約",
+      "アウクスブルクの宗教和議"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-8",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1773年に、イギリスの茶税に反発した植民地の人々が、ボストンで起こした事件はどれか。",
+    "answer": 0,
+    "explanation": "アメリカ独立戦争のきっかけの一つ。",
+    "plain": "1773年に、イギリスの茶税に反発した植民地の人々が、ボストンで起こした事件はどれか。　① ボストン茶会事件　② レキシントンの戦い　③ 独立宣言　④ タウンゼンド諸法の施行",
+    "choices": [
+      "ボストン茶会事件",
+      "レキシントンの戦い",
+      "独立宣言",
+      "タウンゼンド諸法の施行"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-9",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "アヘン戦争（1840〜42年）のあと、1842年に清とイギリスが結んだ条約はどれか。",
+    "answer": 3,
+    "explanation": "香港島がイギリスに割譲された。",
+    "plain": "アヘン戦争（1840〜42年）のあと、1842年に清とイギリスが結んだ条約はどれか。　① 天津条約　② 北京条約　③ 下関条約　④ 南京条約",
+    "choices": [
+      "天津条約",
+      "北京条約",
+      "下関条約",
+      "南京条約"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-10",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1857年に、インドで東インド会社のインド人傭兵が起こした大反乱はどれか。",
+    "answer": 1,
+    "explanation": "翌年、ムガル帝国は滅亡した。",
+    "plain": "1857年に、インドで東インド会社のインド人傭兵が起こした大反乱はどれか。　① 太平天国の乱　② インド大反乱（セポイの反乱）　③ 義和団事件　④ ミャンマー戦争",
+    "choices": [
+      "太平天国の乱",
+      "インド大反乱（セポイの反乱）",
+      "義和団事件",
+      "ミャンマー戦争"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-11",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1919年に、中国で起こった反日・反帝国主義の民衆運動はどれか。",
+    "answer": 3,
+    "explanation": "ヴェルサイユ条約への抗議が発端。",
+    "plain": "1919年に、中国で起こった反日・反帝国主義の民衆運動はどれか。　① 辛亥革命　② 北伐　③ 義和団事件　④ 五・四運動",
+    "choices": [
+      "辛亥革命",
+      "北伐",
+      "義和団事件",
+      "五・四運動"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-12",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "988年、尾張国の郡司・百姓らが朝廷に訴えた「尾張国郡司百姓等解文」で、暴政を訴えられた国司はだれか。",
+    "answer": 0,
+    "explanation": "受領の不正を訴えた史料として有名。",
+    "plain": "988年、尾張国の郡司・百姓らが朝廷に訴えた「尾張国郡司百姓等解文」で、暴政を訴えられた国司はだれか。　① 藤原元命　② 源頼朝　③ 平清盛　④ 藤原道長",
+    "choices": [
+      "藤原元命",
+      "源頼朝",
+      "平清盛",
+      "藤原道長"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-13",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "江戸時代の中期以降、各藩に取り入れられた、商品作物を専売にして藩の収入を増やす政策を何というか。",
+    "answer": 2,
+    "explanation": "藩の財政再建のために行われた。",
+    "plain": "江戸時代の中期以降、各藩に取り入れられた、商品作物を専売にして藩の収入を増やす政策を何というか。　① 座の制度　② 株仲間　③ 専売制　④ 楽市楽座",
+    "choices": [
+      "座の制度",
+      "株仲間",
+      "専売制",
+      "楽市楽座"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-14",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "寛政の改革のとき、幕府の学問所で朱子学以外の講義を禁止した命令はどれか。",
+    "answer": 0,
+    "explanation": "松平定信が出した。",
+    "plain": "寛政の改革のとき、幕府の学問所で朱子学以外の講義を禁止した命令はどれか。　① 寛政異学の禁　② 蛮社の獄　③ 異国船打払令　④ 上げ米",
+    "choices": [
+      "寛政異学の禁",
+      "蛮社の獄",
+      "異国船打払令",
+      "上げ米"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-15",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "明治政府が1876年に、士族の特権をなくすために行った政策はどれか。",
+    "answer": 3,
+    "explanation": "士族の反乱が起こるきっかけになった。",
+    "plain": "明治政府が1876年に、士族の特権をなくすために行った政策はどれか。　① 廃藩置県　② 版籍奉還　③ 地租改正　④ 秩禄処分（廃刀令・家禄の廃止）",
+    "choices": [
+      "廃藩置県",
+      "版籍奉還",
+      "地租改正",
+      "秩禄処分（廃刀令・家禄の廃止）"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-16",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1877年に、鹿児島の士族らが西郷隆盛を中心に起こした、国内最後の大規模な内戦はどれか。",
+    "answer": 3,
+    "explanation": "近代的な徴兵軍が勝った。",
+    "plain": "1877年に、鹿児島の士族らが西郷隆盛を中心に起こした、国内最後の大規模な内戦はどれか。　① 戊辰戦争　② 神風連の乱　③ 佐賀の乱　④ 西南戦争",
+    "choices": [
+      "戊辰戦争",
+      "神風連の乱",
+      "佐賀の乱",
+      "西南戦争"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-17",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1900年に、立憲政友会を結成した人物はだれか。",
+    "answer": 1,
+    "explanation": "初代の総裁になった。",
+    "plain": "1900年に、立憲政友会を結成した人物はだれか。　① 大隈重信　② 伊藤博文　③ 板垣退助　④ 山県有朋",
+    "choices": [
+      "大隈重信",
+      "伊藤博文",
+      "板垣退助",
+      "山県有朋"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-18",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "1921年のワシントン会議で結ばれ、日英同盟の廃棄が決まった条約はどれか。",
+    "answer": 3,
+    "explanation": "日・米・英・仏の4か国。",
+    "plain": "1921年のワシントン会議で結ばれ、日英同盟の廃棄が決まった条約はどれか。　① ワシントン海軍軍縮条約　② 不戦条約　③ 九か国条約　④ 四か国条約",
+    "choices": [
+      "ワシントン海軍軍縮条約",
+      "不戦条約",
+      "九か国条約",
+      "四か国条約"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-19",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "ケッペンの気候区分で、西ヨーロッパに広く見られる、年間を通じて降水があり冬も比較的温暖な気候の記号はどれか。",
+    "answer": 2,
+    "explanation": "偏西風と暖流の影響。",
+    "plain": "ケッペンの気候区分で、西ヨーロッパに広く見られる、年間を通じて降水があり冬も比較的温暖な気候の記号はどれか。　① Cs（地中海性気候）　② Cfa（温暖湿潤気候）　③ Cfb（西岸海洋性気候）　④ Df（冷帯湿潤気候）",
+    "choices": [
+      "Cs（地中海性気候）",
+      "Cfa（温暖湿潤気候）",
+      "Cfb（西岸海洋性気候）",
+      "Df（冷帯湿潤気候）"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-20",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "インドの農業で、ガンジス川流域に比べて、降水量が少ないデカン高原で盛んに栽培される作物はどれか。",
+    "answer": 2,
+    "explanation": "レグール（黒色綿花土）が広がる。",
+    "plain": "インドの農業で、ガンジス川流域に比べて、降水量が少ないデカン高原で盛んに栽培される作物はどれか。　① ジュート　② 稲　③ 綿花　④ 茶",
+    "choices": [
+      "ジュート",
+      "稲",
+      "綿花",
+      "茶"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-ts_hard-21",
+    "category": "triv_soc",
+    "difficulty": 3,
+    "title": "社会：入試の難問",
+    "body": "アメリカ合衆国の農業で、「小麦ベルト」が広がるのはどこか。",
+    "answer": 2,
+    "explanation": "大規模な企業的農業。",
+    "plain": "アメリカ合衆国の農業で、「小麦ベルト」が広がるのはどこか。　① 東部の沿岸　② メキシコ湾岸　③ グレートプレーンズ（中央平原）　④ 五大湖の北岸",
+    "choices": [
+      "東部の沿岸",
+      "メキシコ湾岸",
+      "グレートプレーンズ（中央平原）",
+      "五大湖の北岸"
+    ],
+    "unit": "ts_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_adv-1",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "熱力学の第一法則は、何の保存を表すか。",
+    "answer": 0,
+    "explanation": "内部エネルギーの変化 = 与えた熱 + された仕事。",
+    "plain": "熱力学の第一法則は、何の保存を表すか。　① エネルギー　② 運動量　③ 質量　④ 電荷",
+    "choices": [
+      "エネルギー",
+      "運動量",
+      "質量",
+      "電荷"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-2",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "孤立系では、時間がたつと増える（または変わらない）とされる量はどれか（熱力学の第二法則）。",
+    "answer": 3,
+    "explanation": "乱雑さの度合いを表す。",
+    "plain": "孤立系では、時間がたつと増える（または変わらない）とされる量はどれか（熱力学の第二法則）。　① 圧力　② 体積　③ 温度　④ エントロピー",
+    "choices": [
+      "圧力",
+      "体積",
+      "温度",
+      "エントロピー"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-3",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "金属に光を当てると電子が飛び出す現象を何というか。アインシュタインが光量子説で説明した。",
+    "answer": 2,
+    "explanation": "光が粒子としての性質を持つことの証拠。",
+    "plain": "金属に光を当てると電子が飛び出す現象を何というか。アインシュタインが光量子説で説明した。　① ドップラー効果　② コンプトン効果　③ 光電効果　④ ゼーマン効果",
+    "choices": [
+      "ドップラー効果",
+      "コンプトン効果",
+      "光電効果",
+      "ゼーマン効果"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-4",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "アインシュタインの式 E = mc² で、1 g の質量が全部エネルギーに変わったとき、およそ何 J か（c = 3.0×10⁸ m/s）。",
+    "answer": 3,
+    "explanation": "E = 1×10⁻³ kg × (3.0×10⁸)² = 9×10¹³ J。",
+    "plain": "アインシュタインの式 E = mc² で、1 g の質量が全部エネルギーに変わったとき、およそ何 J か（c = 3.0×10⁸ m/s）。　① 9×10⁶ J　② 9×10¹⁰ J　③ 9×10¹⁶ J　④ 9×10¹³ J",
+    "choices": [
+      "9×10⁶ J",
+      "9×10¹⁰ J",
+      "9×10¹⁶ J",
+      "9×10¹³ J"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-5",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "コイルを貫く磁束が変化すると、コイルに電圧が生じる法則を何というか。",
+    "answer": 1,
+    "explanation": "発電機や変圧器の原理。",
+    "plain": "コイルを貫く磁束が変化すると、コイルに電圧が生じる法則を何というか。　① オームの法則　② ファラデーの電磁誘導の法則　③ ビオ・サバールの法則　④ クーロンの法則",
+    "choices": [
+      "オームの法則",
+      "ファラデーの電磁誘導の法則",
+      "ビオ・サバールの法則",
+      "クーロンの法則"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-6",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "水素原子で、電子が特定の軌道だけをとるとしたモデルを提案したのはだれか。",
+    "answer": 2,
+    "explanation": "原子模型。",
+    "plain": "水素原子で、電子が特定の軌道だけをとるとしたモデルを提案したのはだれか。　① ラザフォード　② トムソン　③ ボーア　④ ドルトン",
+    "choices": [
+      "ラザフォード",
+      "トムソン",
+      "ボーア",
+      "ドルトン"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-7",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "電子などの粒子も波の性質を持つと提唱した物理学者はだれか。",
+    "answer": 3,
+    "explanation": "物質波。",
+    "plain": "電子などの粒子も波の性質を持つと提唱した物理学者はだれか。　① シュレディンガー　② プランク　③ ハイゼンベルク　④ ド・ブロイ",
+    "choices": [
+      "シュレディンガー",
+      "プランク",
+      "ハイゼンベルク",
+      "ド・ブロイ"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-8",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "平衡状態にある化学反応で、条件を変えると、その変化を打ち消す向きに平衡が移るという原理を何というか。",
+    "answer": 0,
+    "explanation": "温度・圧力・濃度の変化に適用する。",
+    "plain": "平衡状態にある化学反応で、条件を変えると、その変化を打ち消す向きに平衡が移るという原理を何というか。　① ルシャトリエの原理　② ボイルの法則　③ ヘスの法則　④ ファラデーの法則",
+    "choices": [
+      "ルシャトリエの原理",
+      "ボイルの法則",
+      "ヘスの法則",
+      "ファラデーの法則"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-9",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "反応が進むのに越えなければならないエネルギーの壁を何というか。",
+    "answer": 2,
+    "explanation": "触媒はこれを下げる。",
+    "plain": "反応が進むのに越えなければならないエネルギーの壁を何というか。　① 反応熱　② イオン化エネルギー　③ 活性化エネルギー　④ 結合エネルギー",
+    "choices": [
+      "反応熱",
+      "イオン化エネルギー",
+      "活性化エネルギー",
+      "結合エネルギー"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-10",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "半透膜を通して、溶媒が濃度の薄いほうから濃いほうへ移動しようとする圧力を何というか。",
+    "answer": 3,
+    "explanation": "ファントホッフの式 Π = cRT。",
+    "plain": "半透膜を通して、溶媒が濃度の薄いほうから濃いほうへ移動しようとする圧力を何というか。　① 水圧　② 蒸気圧　③ 大気圧　④ 浸透圧",
+    "choices": [
+      "水圧",
+      "蒸気圧",
+      "大気圧",
+      "浸透圧"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-11",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "DNA を特定の塩基配列で切断する酵素で、遺伝子組換えに使われるものはどれか。",
+    "answer": 3,
+    "explanation": "切断した DNA をつなぐのは DNA リガーゼ。",
+    "plain": "DNA を特定の塩基配列で切断する酵素で、遺伝子組換えに使われるものはどれか。　① DNA ポリメラーゼ　② リガーゼ　③ RNA ポリメラーゼ　④ 制限酵素",
+    "choices": [
+      "DNA ポリメラーゼ",
+      "リガーゼ",
+      "RNA ポリメラーゼ",
+      "制限酵素"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-12",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "RNA を鋳型にして DNA を合成する酵素を何というか。",
+    "answer": 1,
+    "explanation": "レトロウイルスが持つ。",
+    "plain": "RNA を鋳型にして DNA を合成する酵素を何というか。　① 制限酵素　② 逆転写酵素　③ DNA ポリメラーゼ　④ RNA ポリメラーゼ",
+    "choices": [
+      "制限酵素",
+      "逆転写酵素",
+      "DNA ポリメラーゼ",
+      "RNA ポリメラーゼ"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-13",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "ラクトース（乳糖）の有無で、遺伝子の発現が調節される仕組みとして知られるのはどれか。",
+    "answer": 3,
+    "explanation": "ジャコブとモノーが提唱した。",
+    "plain": "ラクトース（乳糖）の有無で、遺伝子の発現が調節される仕組みとして知られるのはどれか。　① カルビン回路　② クエン酸回路　③ ヘモグロビン　④ ラクトースオペロン",
+    "choices": [
+      "カルビン回路",
+      "クエン酸回路",
+      "ヘモグロビン",
+      "ラクトースオペロン"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-14",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "遺伝子の機能を、人工的に壊したり書き換えたりする技術として、近年広く使われているものはどれか。",
+    "answer": 3,
+    "explanation": "2020年のノーベル化学賞の対象。",
+    "plain": "遺伝子の機能を、人工的に壊したり書き換えたりする技術として、近年広く使われているものはどれか。　① 電気泳動　② PCR　③ 細胞融合　④ ゲノム編集（CRISPR/Cas9）",
+    "choices": [
+      "電気泳動",
+      "PCR",
+      "細胞融合",
+      "ゲノム編集（CRISPR/Cas9）"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-15",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "恒星のスペクトル型を、表面温度が高いほうから順に並べたものはどれか。",
+    "answer": 0,
+    "explanation": "太陽は G 型。",
+    "plain": "恒星のスペクトル型を、表面温度が高いほうから順に並べたものはどれか。　① O、B、A、F、G、K、M　② M、K、G、F、A、B、O　③ A、B、C、D、E、F、G　④ O、A、B、F、G、K、M",
+    "choices": [
+      "O、B、A、F、G、K、M",
+      "M、K、G、F、A、B、O",
+      "A、B、C、D、E、F、G",
+      "O、A、B、F、G、K、M"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-16",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "惑星の公転周期の2乗は、軌道の長半径の何乗に比例するか（ケプラーの第3法則）。",
+    "answer": 0,
+    "explanation": "T² ∝ a³。",
+    "plain": "惑星の公転周期の2乗は、軌道の長半径の何乗に比例するか（ケプラーの第3法則）。　① 3乗　② 4乗　③ 1乗　④ 2乗",
+    "choices": [
+      "3乗",
+      "4乗",
+      "1乗",
+      "2乗"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-17",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "ブラックホールの境界（事象の地平線）の半径を、何というか。",
+    "answer": 3,
+    "explanation": "光でさえ、その内側から出られない。",
+    "plain": "ブラックホールの境界（事象の地平線）の半径を、何というか。　① ロッシュ限界　② ハッブル半径　③ ヒル球　④ シュバルツシルト半径",
+    "choices": [
+      "ロッシュ限界",
+      "ハッブル半径",
+      "ヒル球",
+      "シュバルツシルト半径"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-18",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "宇宙が膨張していることを示した、遠い銀河ほど速く遠ざかるという法則を何というか。",
+    "answer": 1,
+    "explanation": "後退速度は距離に比例する。",
+    "plain": "宇宙が膨張していることを示した、遠い銀河ほど速く遠ざかるという法則を何というか。　① ケプラーの法則　② ハッブル・ルメートルの法則　③ ボーアの法則　④ ケプラー・ハッブルの法則",
+    "choices": [
+      "ケプラーの法則",
+      "ハッブル・ルメートルの法則",
+      "ボーアの法則",
+      "ケプラー・ハッブルの法則"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-19",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "光が1年間に進む距離を単位にしたものを光年という。太陽から最も近い恒星（太陽系の外）である、プロキシマ・ケンタウリまでの距離は、およそ何光年か。",
+    "answer": 1,
+    "explanation": "ケンタウルス座にある。",
+    "plain": "光が1年間に進む距離を単位にしたものを光年という。太陽から最も近い恒星（太陽系の外）である、プロキシマ・ケンタウリまでの距離は、およそ何光年か。　① 約42光年　② 約4.2光年　③ 約420光年　④ 約0.42光年",
+    "choices": [
+      "約42光年",
+      "約4.2光年",
+      "約420光年",
+      "約0.42光年"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-20",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "太陽系外の恒星のまわりをまわる惑星を何というか。",
+    "answer": 1,
+    "explanation": "1995年に初めて、太陽に似た恒星のまわりで見つかった。",
+    "plain": "太陽系外の恒星のまわりをまわる惑星を何というか。　① 衛星　② 系外惑星　③ 小惑星　④ 準惑星",
+    "choices": [
+      "衛星",
+      "系外惑星",
+      "小惑星",
+      "準惑星"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_adv-21",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：発展内容（指導要領の外）",
+    "body": "超新星爆発のあとに残る、中性子でできた非常に密度の高い天体を何というか。",
+    "answer": 3,
+    "explanation": "原子核のようなサイズ当たりの密度。",
+    "plain": "超新星爆発のあとに残る、中性子でできた非常に密度の高い天体を何というか。　① 赤色巨星　② 褐色わい星　③ 白色わい星　④ 中性子星",
+    "choices": [
+      "赤色巨星",
+      "褐色わい星",
+      "白色わい星",
+      "中性子星"
+    ],
+    "unit": "tsc_adv",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tsc_hard-1",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "質量 2 kg で速さ 3 m/s の物体が、静止している質量 1 kg の物体に衝突して一体となった。衝突後の速さは何 m/s か。",
+    "answer": 0,
+    "explanation": "運動量保存：2×3 = (2 + 1)v より v = 2 m/s。",
+    "plain": "質量 2 kg で速さ 3 m/s の物体が、静止している質量 1 kg の物体に衝突して一体となった。衝突後の速さは何 m/s か。　① 2 m/s　② 1.5 m/s　③ 6 m/s　④ 3 m/s",
+    "choices": [
+      "2 m/s",
+      "1.5 m/s",
+      "6 m/s",
+      "3 m/s"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-2",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "質量が等しい2つの物体が、一直線上で完全弾性衝突した。一方が静止していたとき、衝突後はどうなるか。",
+    "answer": 1,
+    "explanation": "運動量とエネルギーの保存から、速度が入れ替わる。",
+    "plain": "質量が等しい2つの物体が、一直線上で完全弾性衝突した。一方が静止していたとき、衝突後はどうなるか。　① 衝突した物体はそのまま止まらない　② 速度が入れ替わる　③ 両方とも同じ速度で動く　④ 両方とも静止する",
+    "choices": [
+      "衝突した物体はそのまま止まらない",
+      "速度が入れ替わる",
+      "両方とも同じ速度で動く",
+      "両方とも静止する"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-3",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "標準状態（0 ℃、1.013×10⁵ Pa）で、5.6 L の気体は何 mol か。",
+    "answer": 1,
+    "explanation": "5.6 ÷ 22.4 = 0.25。",
+    "plain": "標準状態（0 ℃、1.013×10⁵ Pa）で、5.6 L の気体は何 mol か。　① 2.5 mol　② 0.25 mol　③ 0.025 mol　④ 0.5 mol",
+    "choices": [
+      "2.5 mol",
+      "0.25 mol",
+      "0.025 mol",
+      "0.5 mol"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-4",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "0.10 mol/L の酢酸水溶液（電離定数 Kₐ = 1.0×10⁻⁵ mol/L）の pH はいくつか。",
+    "answer": 0,
+    "explanation": "[H⁺] = √(Kₐ·c) = √(1.0×10⁻⁶) = 1.0×10⁻³。pH = 3。",
+    "plain": "0.10 mol/L の酢酸水溶液（電離定数 Kₐ = 1.0×10⁻⁵ mol/L）の pH はいくつか。　① 3　② 1　③ 7　④ 5",
+    "choices": [
+      "3",
+      "1",
+      "7",
+      "5"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-5",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "0.10 mol/L のシュウ酸（2価の酸）20 mL を中和するのに、0.10 mol/L の水酸化ナトリウム水溶液は何 mL 必要か。",
+    "answer": 3,
+    "explanation": "H⁺ は 0.10×2×20 = 4.0 mmol。OH⁻ も 4.0 mmol なので 40 mL。",
+    "plain": "0.10 mol/L のシュウ酸（2価の酸）20 mL を中和するのに、0.10 mol/L の水酸化ナトリウム水溶液は何 mL 必要か。　① 10 mL　② 80 mL　③ 20 mL　④ 40 mL",
+    "choices": [
+      "10 mL",
+      "80 mL",
+      "20 mL",
+      "40 mL"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-6",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "C（黒鉛）+ O₂ → CO₂ の反応熱が −394 kJ、CO + ½O₂ → CO₂ の反応熱が −283 kJ のとき、C + ½O₂ → CO の反応熱は何 kJ か。",
+    "answer": 3,
+    "explanation": "ヘスの法則：−394 − (−283) = −111 kJ。",
+    "plain": "C（黒鉛）+ O₂ → CO₂ の反応熱が −394 kJ、CO + ½O₂ → CO₂ の反応熱が −283 kJ のとき、C + ½O₂ → CO の反応熱は何 kJ か。　① −283 kJ　② −677 kJ　③ +111 kJ　④ −111 kJ",
+    "choices": [
+      "−283 kJ",
+      "−677 kJ",
+      "+111 kJ",
+      "−111 kJ"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-7",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "2 つの対立遺伝子 A、a をもつ集団で、劣性ホモ (aa) の割合が 4％のとき、ヘテロ (Aa) の割合は何％か（ハーディ・ワインベルグ平衡）。",
+    "answer": 1,
+    "explanation": "q² = 0.04 より q = 0.2、p = 0.8。2pq = 0.32。",
+    "plain": "2 つの対立遺伝子 A、a をもつ集団で、劣性ホモ (aa) の割合が 4％のとき、ヘテロ (Aa) の割合は何％か（ハーディ・ワインベルグ平衡）。　① 48％　② 32％　③ 64％　④ 16％",
+    "choices": [
+      "48％",
+      "32％",
+      "64％",
+      "16％"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-8",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "遺伝子型 AaBbCc の個体と aabbcc の個体を交配し、遺伝子が独立のとき、子のうち、3つともに優性の形質を示すものの割合はいくつか。",
+    "answer": 1,
+    "explanation": "3つとも優性となる確率は (1/2)³ = 1/8。",
+    "plain": "遺伝子型 AaBbCc の個体と aabbcc の個体を交配し、遺伝子が独立のとき、子のうち、3つともに優性の形質を示すものの割合はいくつか。　① 1/16　② 1/8　③ 3/8　④ 1/4",
+    "choices": [
+      "1/16",
+      "1/8",
+      "3/8",
+      "1/4"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-9",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "年周視差が 0.1 秒角の恒星までの距離は何パーセクか。",
+    "answer": 1,
+    "explanation": "距離（パーセク）= 1 ÷ 視差（秒角）。",
+    "plain": "年周視差が 0.1 秒角の恒星までの距離は何パーセクか。　① 100 パーセク　② 10 パーセク　③ 1 パーセク　④ 0.1 パーセク",
+    "choices": [
+      "100 パーセク",
+      "10 パーセク",
+      "1 パーセク",
+      "0.1 パーセク"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-10",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "太陽のまわりを公転する惑星の公転周期が 8 年のとき、軌道の長半径は何天文単位か（ケプラーの第3法則）。",
+    "answer": 3,
+    "explanation": "T² = a³ より a³ = 64、a = 4。",
+    "plain": "太陽のまわりを公転する惑星の公転周期が 8 年のとき、軌道の長半径は何天文単位か（ケプラーの第3法則）。　① 2 天文単位　② 8 天文単位　③ 16 天文単位　④ 4 天文単位",
+    "choices": [
+      "2 天文単位",
+      "8 天文単位",
+      "16 天文単位",
+      "4 天文単位"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-11",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "マグニチュードが 2 大きい地震は、エネルギーが約何倍か。",
+    "answer": 1,
+    "explanation": "マグニチュードが 1 大きいと約 32 倍。2 大きいと約 32² ≈ 1000 倍。",
+    "plain": "マグニチュードが 2 大きい地震は、エネルギーが約何倍か。　① 約100倍　② 約1000倍　③ 約32倍　④ 約10倍",
+    "choices": [
+      "約100倍",
+      "約1000倍",
+      "約32倍",
+      "約10倍"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-12",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "断面積 2 m² の面に、垂直に 600 N の力がかかっている。圧力は何 Pa か。",
+    "answer": 0,
+    "explanation": "圧力 = 力 ÷ 面積 = 600 ÷ 2。",
+    "plain": "断面積 2 m² の面に、垂直に 600 N の力がかかっている。圧力は何 Pa か。　① 300 Pa　② 600 Pa　③ 30 Pa　④ 1200 Pa",
+    "choices": [
+      "300 Pa",
+      "600 Pa",
+      "30 Pa",
+      "1200 Pa"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-13",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "50 ℃ の水 100 g に、20 ℃ の水 100 g を混ぜると、全体の温度は何 ℃ になるか（熱の出入りは混ぜた水の間だけとする）。",
+    "answer": 3,
+    "explanation": "熱量が等しいので、平均の温度になる。",
+    "plain": "50 ℃ の水 100 g に、20 ℃ の水 100 g を混ぜると、全体の温度は何 ℃ になるか（熱の出入りは混ぜた水の間だけとする）。　① 30 ℃　② 70 ℃　③ 40 ℃　④ 35 ℃",
+    "choices": [
+      "30 ℃",
+      "70 ℃",
+      "40 ℃",
+      "35 ℃"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-14",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "2.0 mol/L の水溶液 100 mL に水を加えて、0.50 mol/L にした。水を加えたあとの全体の体積は何 mL か。",
+    "answer": 2,
+    "explanation": "溶質は 0.20 mol。0.20 ÷ 0.50 = 0.40 L。",
+    "plain": "2.0 mol/L の水溶液 100 mL に水を加えて、0.50 mol/L にした。水を加えたあとの全体の体積は何 mL か。　① 200 mL　② 300 mL　③ 400 mL　④ 500 mL",
+    "choices": [
+      "200 mL",
+      "300 mL",
+      "400 mL",
+      "500 mL"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-15",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "光合成で、二酸化炭素 6 mol が吸収されたとき、合成されるブドウ糖は何 mol か。",
+    "answer": 0,
+    "explanation": "6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O。",
+    "plain": "光合成で、二酸化炭素 6 mol が吸収されたとき、合成されるブドウ糖は何 mol か。　① 1 mol　② 6 mol　③ 12 mol　④ 2 mol",
+    "choices": [
+      "1 mol",
+      "6 mol",
+      "12 mol",
+      "2 mol"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-16",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "ある DNA の二本鎖で、アデニン (A) が全塩基の 20％のとき、グアニン (G) は何％か。",
+    "answer": 2,
+    "explanation": "A = T = 20％。G + C = 60％で、G = C = 30％。",
+    "plain": "ある DNA の二本鎖で、アデニン (A) が全塩基の 20％のとき、グアニン (G) は何％か。　① 20％　② 40％　③ 30％　④ 60％",
+    "choices": [
+      "20％",
+      "40％",
+      "30％",
+      "60％"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-17",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "電気抵抗 R の導線を、同じ体積で長さを 2 倍に引きのばしたとき、抵抗は何倍になるか。",
+    "answer": 1,
+    "explanation": "長さが2倍、断面積が1/2倍になるので、抵抗は 2×2 = 4 倍。",
+    "plain": "電気抵抗 R の導線を、同じ体積で長さを 2 倍に引きのばしたとき、抵抗は何倍になるか。　① 8倍　② 4倍　③ 1/2倍　④ 2倍",
+    "choices": [
+      "8倍",
+      "4倍",
+      "1/2倍",
+      "2倍"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-18",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "起電力 6.0 V、内部抵抗 1.0 Ω の電池に 5.0 Ω の抵抗をつないだとき、抵抗の両端の電圧は何 V か。",
+    "answer": 2,
+    "explanation": "I = 6.0 ÷ 6.0 = 1.0 A。V = 1.0×5.0 = 5.0 V。",
+    "plain": "起電力 6.0 V、内部抵抗 1.0 Ω の電池に 5.0 Ω の抵抗をつないだとき、抵抗の両端の電圧は何 V か。　① 4.0 V　② 6.0 V　③ 5.0 V　④ 1.0 V",
+    "choices": [
+      "4.0 V",
+      "6.0 V",
+      "5.0 V",
+      "1.0 V"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-19",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "鉛直上向きに初速度 14.7 m/s で投げ上げた物体が、最高点に達するまでにかかる時間は何秒か（g = 9.8 m/s²）。",
+    "answer": 0,
+    "explanation": "t = v₀ / g = 14.7 ÷ 9.8 = 1.5。",
+    "plain": "鉛直上向きに初速度 14.7 m/s で投げ上げた物体が、最高点に達するまでにかかる時間は何秒か（g = 9.8 m/s²）。　① 1.5 秒　② 3.0 秒　③ 1.0 秒　④ 2.0 秒",
+    "choices": [
+      "1.5 秒",
+      "3.0 秒",
+      "1.0 秒",
+      "2.0 秒"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-20",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "密度 0.8 g/cm³ の油に、体積 50 cm³ の氷（密度 0.9 g/cm³）を入れた。氷はどうなるか。",
+    "answer": 1,
+    "explanation": "氷の密度が油より大きいので、沈む。",
+    "plain": "密度 0.8 g/cm³ の油に、体積 50 cm³ の氷（密度 0.9 g/cm³）を入れた。氷はどうなるか。　① ちょうど水面にとどまる　② 沈む　③ 溶けて消える　④ 浮く",
+    "choices": [
+      "ちょうど水面にとどまる",
+      "沈む",
+      "溶けて消える",
+      "浮く"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tsc_hard-21",
+    "category": "triv_sci",
+    "difficulty": 3,
+    "title": "理科：入試の難問",
+    "body": "標準状態で 11.2 L の水素と 11.2 L の酸素を混ぜて点火し、完全に反応させた。反応後に残る気体は何か。",
+    "answer": 1,
+    "explanation": "2H₂ + O₂ → 2H₂O。水素 0.5 mol に対して酸素は 0.25 mol 必要。酸素 0.5 mol のうち 0.25 mol が余る（5.6 L）。",
+    "plain": "標準状態で 11.2 L の水素と 11.2 L の酸素を混ぜて点火し、完全に反応させた。反応後に残る気体は何か。　① 残らない　② 酸素が 5.6 L 残る　③ 水素と酸素が両方残る　④ 水素が 5.6 L 残る",
+    "choices": [
+      "残らない",
+      "酸素が 5.6 L 残る",
+      "水素と酸素が両方残る",
+      "水素が 5.6 L 残る"
+    ],
+    "unit": "tsc_hard",
+    "rate": 3.0
+  },
+  {
+    "id": "u-tj_adv-1",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "古文の係り結びで、「ぞ」「なむ」「や」「か」を受ける文末の活用形は何か。",
+    "answer": 0,
+    "explanation": "「こそ」は已然形で結ぶ。",
+    "plain": "古文の係り結びで、「ぞ」「なむ」「や」「か」を受ける文末の活用形は何か。　① 連体形　② 已然形　③ 終止形　④ 未然形",
+    "choices": [
+      "連体形",
+      "已然形",
+      "終止形",
+      "未然形"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-2",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "古文の係り結びで、「こそ」を受ける文末の活用形は何か。",
+    "answer": 2,
+    "explanation": "「ぞ・なむ・や・か」は連体形。",
+    "plain": "古文の係り結びで、「こそ」を受ける文末の活用形は何か。　① 連体形　② 終止形　③ 已然形　④ 連用形",
+    "choices": [
+      "連体形",
+      "終止形",
+      "已然形",
+      "連用形"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-3",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "和歌の技法で、同じ音で二つの意味を持たせることを何というか。",
+    "answer": 2,
+    "explanation": "「松」と「待つ」など。",
+    "plain": "和歌の技法で、同じ音で二つの意味を持たせることを何というか。　① 縁語　② 序詞　③ 掛詞　④ 枕詞",
+    "choices": [
+      "縁語",
+      "序詞",
+      "掛詞",
+      "枕詞"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-4",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "和歌で、特定の語を導くために、その前に置く五音の決まった言葉を何というか。",
+    "answer": 0,
+    "explanation": "「あしひきの」→山、「ひさかたの」→光など。",
+    "plain": "和歌で、特定の語を導くために、その前に置く五音の決まった言葉を何というか。　① 枕詞　② 歌枕　③ 掛詞　④ 序詞",
+    "choices": [
+      "枕詞",
+      "歌枕",
+      "掛詞",
+      "序詞"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-5",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "古文の歴史的仮名遣いで、語頭以外の「は・ひ・ふ・へ・ほ」は、ふつうどう読むか。",
+    "answer": 1,
+    "explanation": "「川」→かわ、「言ふ」→いう。",
+    "plain": "古文の歴史的仮名遣いで、語頭以外の「は・ひ・ふ・へ・ほ」は、ふつうどう読むか。　① あ・い・う・え・お　② わ・い・う・え・お　③ ば・び・ぶ・べ・ぼ　④ は・ひ・ふ・へ・ほ",
+    "choices": [
+      "あ・い・う・え・お",
+      "わ・い・う・え・お",
+      "ば・び・ぶ・べ・ぼ",
+      "は・ひ・ふ・へ・ほ"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-6",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "漢文の返り点で、一字返って読む記号はどれか。",
+    "answer": 0,
+    "explanation": "「レ」の字形。",
+    "plain": "漢文の返り点で、一字返って読む記号はどれか。　① レ点　② 甲乙点　③ 上下点　④ 一二点",
+    "choices": [
+      "レ点",
+      "甲乙点",
+      "上下点",
+      "一二点"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-7",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "漢文の再読文字「未」の読み方はどれか。",
+    "answer": 1,
+    "explanation": "「まだ〜ない」の意味。",
+    "plain": "漢文の再読文字「未」の読み方はどれか。　① すべからク〜ベし　② いまダ〜ず　③ まさニ〜ントす　④ ごとシ",
+    "choices": [
+      "すべからク〜ベし",
+      "いまダ〜ず",
+      "まさニ〜ントす",
+      "ごとシ"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-8",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "漢文の再読文字「将」の読み方はどれか。",
+    "answer": 1,
+    "explanation": "「いまにも〜しようとする」の意味。",
+    "plain": "漢文の再読文字「将」の読み方はどれか。　① いまダ〜ず　② まさニ〜ントす　③ すべからク〜ベし　④ なホ〜ノごとシ",
+    "choices": [
+      "いまダ〜ず",
+      "まさニ〜ントす",
+      "すべからク〜ベし",
+      "なホ〜ノごとシ"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-9",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "漢文の句法「不如」の読み方と意味はどれか。",
+    "answer": 2,
+    "explanation": "AはBに如かず：AはBに及ばない。",
+    "plain": "漢文の句法「不如」の読み方と意味はどれか。　① 〜をもって（〜によって）　② 〜ごとし（〜のようだ）　③ 〜にしかず（〜に及ばない）　④ 〜ずんばあらず（〜しないではいられない）",
+    "choices": [
+      "〜をもって（〜によって）",
+      "〜ごとし（〜のようだ）",
+      "〜にしかず（〜に及ばない）",
+      "〜ずんばあらず（〜しないではいられない）"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-10",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "『古今和歌集』の序文（仮名序）を書いたのはだれか。",
+    "answer": 0,
+    "explanation": "平安時代前期の歌人。",
+    "plain": "『古今和歌集』の序文（仮名序）を書いたのはだれか。　① 紀貫之　② 紫式部　③ 在原業平　④ 藤原定家",
+    "choices": [
+      "紀貫之",
+      "紫式部",
+      "在原業平",
+      "藤原定家"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-11",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "『新古今和歌集』を編集した中心人物はだれか。",
+    "answer": 1,
+    "explanation": "鎌倉時代初期。",
+    "plain": "『新古今和歌集』を編集した中心人物はだれか。　① 小野小町　② 藤原定家　③ 西行　④ 紀貫之",
+    "choices": [
+      "小野小町",
+      "藤原定家",
+      "西行",
+      "紀貫之"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-12",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "『土佐日記』は、どんな特徴を持つ作品か。",
+    "answer": 3,
+    "explanation": "紀貫之が書いた、仮名日記の初期の作品。",
+    "plain": "『土佐日記』は、どんな特徴を持つ作品か。　① 俳句だけの作品　② 女性が書いた物語　③ 漢文で書かれた日記　④ 男性が女性のふりをして仮名で書いた日記",
+    "choices": [
+      "俳句だけの作品",
+      "女性が書いた物語",
+      "漢文で書かれた日記",
+      "男性が女性のふりをして仮名で書いた日記"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-13",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "『徒然草』の作者はだれか。",
+    "answer": 0,
+    "explanation": "鎌倉時代末期の随筆。",
+    "plain": "『徒然草』の作者はだれか。　① 兼好法師（吉田兼好）　② 松尾芭蕉　③ 清少納言　④ 鴨長明",
+    "choices": [
+      "兼好法師（吉田兼好）",
+      "松尾芭蕉",
+      "清少納言",
+      "鴨長明"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-14",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "『方丈記』の作者はだれか。",
+    "answer": 3,
+    "explanation": "「ゆく河の流れは絶えずして」で始まる。",
+    "plain": "『方丈記』の作者はだれか。　① 清少納言　② 紫式部　③ 兼好法師　④ 鴨長明",
+    "choices": [
+      "清少納言",
+      "紫式部",
+      "兼好法師",
+      "鴨長明"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-15",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "二重敬語として、ふつう適切でないとされるのはどれか。",
+    "answer": 0,
+    "explanation": "「おっしゃる」にさらに「れる」が付いている。",
+    "plain": "二重敬語として、ふつう適切でないとされるのはどれか。　① 社長がおっしゃられました。　② 社長がいらっしゃいました。　③ 社長が話されました。　④ 社長がおっしゃいました。",
+    "choices": [
+      "社長がおっしゃられました。",
+      "社長がいらっしゃいました。",
+      "社長が話されました。",
+      "社長がおっしゃいました。"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-16",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "「見れる」「食べれる」のような、「ら」を抜いた言い方を何というか。",
+    "answer": 1,
+    "explanation": "本来は「見られる」「食べられる」。",
+    "plain": "「見れる」「食べれる」のような、「ら」を抜いた言い方を何というか。　① さ入れ言葉　② ら抜き言葉　③ れ足す言葉　④ い抜き言葉",
+    "choices": [
+      "さ入れ言葉",
+      "ら抜き言葉",
+      "れ足す言葉",
+      "い抜き言葉"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-17",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "用言の活用で、「静かだ」「きれいだ」などは、何活用の語か。",
+    "answer": 1,
+    "explanation": "古文のナリ活用・タリ活用につながる。",
+    "plain": "用言の活用で、「静かだ」「きれいだ」などは、何活用の語か。　① 形容詞　② 形容動詞（ナリ活用・タリ活用）　③ 動詞　④ 助動詞",
+    "choices": [
+      "形容詞",
+      "形容動詞（ナリ活用・タリ活用）",
+      "動詞",
+      "助動詞"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-18",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "言葉の意味の変化で、本来の意味と異なる意味が広く使われるようになった例は、どれか。",
+    "answer": 1,
+    "explanation": "本来は「一時しのぎ」の意味。",
+    "plain": "言葉の意味の変化で、本来の意味と異なる意味が広く使われるようになった例は、どれか。　① 「歩く」を「あるく」と読む　② 「姑息」を、「ひきょう」の意味で使う　③ 「雨」を「あめ」と読む　④ 「学校」を「がっこう」と読む",
+    "choices": [
+      "「歩く」を「あるく」と読む",
+      "「姑息」を、「ひきょう」の意味で使う",
+      "「雨」を「あめ」と読む",
+      "「学校」を「がっこう」と読む"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-19",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "音便のうち、「書きて」が「書いて」になるような変化を何というか。",
+    "answer": 1,
+    "explanation": "動詞の連用形に起こる。",
+    "plain": "音便のうち、「書きて」が「書いて」になるような変化を何というか。　① ウ音便　② イ音便　③ 促音便　④ 撥音便",
+    "choices": [
+      "ウ音便",
+      "イ音便",
+      "促音便",
+      "撥音便"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-20",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "「走った」「読んだ」のように、「て・た」の前で連用形が「っ・ん」に変わるものを、それぞれ何音便というか。",
+    "answer": 0,
+    "explanation": "走る → 走った（促音便）、読む → 読んだ（撥音便）。",
+    "plain": "「走った」「読んだ」のように、「て・た」の前で連用形が「っ・ん」に変わるものを、それぞれ何音便というか。　① 促音便・撥音便　② ウ音便・促音便　③ イ音便・ウ音便　④ 撥音便・イ音便",
+    "choices": [
+      "促音便・撥音便",
+      "ウ音便・促音便",
+      "イ音便・ウ音便",
+      "撥音便・イ音便"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_adv-21",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：発展内容（指導要領の外）",
+    "body": "俳句の「切れ字」として挙げられるものはどれか。",
+    "answer": 0,
+    "explanation": "句の切れ目で、感動を表す。",
+    "plain": "俳句の「切れ字」として挙げられるものはどれか。　① や・かな・けり　② の・に・を　③ が・は・も　④ て・で・と",
+    "choices": [
+      "や・かな・けり",
+      "の・に・を",
+      "が・は・も",
+      "て・で・と"
+    ],
+    "unit": "tj_adv",
+    "rate": 4.0
+  },
+  {
+    "id": "u-tj_hard-1",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「蘊蓄」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "深い知識。「蘊蓄を傾ける」。",
+    "plain": "「蘊蓄」の読みとして正しいものはどれか。　① おんじゅく　② おんちく　③ うんしゅう　④ うんちく",
+    "choices": [
+      "おんじゅく",
+      "おんちく",
+      "うんしゅう",
+      "うんちく"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-2",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「齟齬」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "食いちがい。",
+    "plain": "「齟齬」の読みとして正しいものはどれか。　① しご　② そがい　③ さご　④ そご",
+    "choices": [
+      "しご",
+      "そがい",
+      "さご",
+      "そご"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-3",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「軋轢」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "人間関係の不和。",
+    "plain": "「軋轢」の読みとして正しいものはどれか。　① さつれき　② あつりょく　③ れきあつ　④ あつれき",
+    "choices": [
+      "さつれき",
+      "あつりょく",
+      "れきあつ",
+      "あつれき"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-4",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「顰蹙」の読みとして正しいものはどれか。",
+    "answer": 1,
+    "explanation": "「顰蹙を買う」。",
+    "plain": "「顰蹙」の読みとして正しいものはどれか。　① ひんぞく　② ひんしゅく　③ きんしゅく　④ ひんしゅうく",
+    "choices": [
+      "ひんぞく",
+      "ひんしゅく",
+      "きんしゅく",
+      "ひんしゅうく"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-5",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「憚る」の読みとして正しいものはどれか。",
+    "answer": 0,
+    "explanation": "遠慮する、人目を気にする。",
+    "plain": "「憚る」の読みとして正しいものはどれか。　① はばかる　② ためらる　③ ひるむ　④ いとう",
+    "choices": [
+      "はばかる",
+      "ためらる",
+      "ひるむ",
+      "いとう"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-6",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「悉く」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "すべて。",
+    "plain": "「悉く」の読みとして正しいものはどれか。　① あまねく　② ことごとに　③ つぶさに　④ ことごとく",
+    "choices": [
+      "あまねく",
+      "ことごとに",
+      "つぶさに",
+      "ことごとく"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-7",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「綻びる」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "縫い目が解ける。つぼみが開く。",
+    "plain": "「綻びる」の読みとして正しいものはどれか。　① ときびる　② ひらびる　③ あらわれる　④ ほころびる",
+    "choices": [
+      "ときびる",
+      "ひらびる",
+      "あらわれる",
+      "ほころびる"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-8",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「蔑ろ」の読みとして正しいものはどれか。",
+    "answer": 0,
+    "explanation": "軽んじること。",
+    "plain": "「蔑ろ」の読みとして正しいものはどれか。　① ないがしろ　② あなどろ　③ ひがしろ　④ さげすろ",
+    "choices": [
+      "ないがしろ",
+      "あなどろ",
+      "ひがしろ",
+      "さげすろ"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-9",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「疎か」の読みとして正しいものはどれか。",
+    "answer": 1,
+    "explanation": "いい加減なさま。",
+    "plain": "「疎か」の読みとして正しいものはどれか。　① うとか　② おろそか　③ あらか　④ ほろか",
+    "choices": [
+      "うとか",
+      "おろそか",
+      "あらか",
+      "ほろか"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-10",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「概ね」の読みとして正しいものはどれか。",
+    "answer": 3,
+    "explanation": "だいたい。",
+    "plain": "「概ね」の読みとして正しいものはどれか。　① おおね　② おおよね　③ がいね　④ おおむね",
+    "choices": [
+      "おおね",
+      "おおよね",
+      "がいね",
+      "おおむね"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-11",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「偏に」の読みとして正しいものはどれか。",
+    "answer": 2,
+    "explanation": "もっぱら。",
+    "plain": "「偏に」の読みとして正しいものはどれか。　① ひとつに　② かたよに　③ ひとえに　④ へんに",
+    "choices": [
+      "ひとつに",
+      "かたよに",
+      "ひとえに",
+      "へんに"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-12",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「須く」の読みとして正しいものはどれか。",
+    "answer": 2,
+    "explanation": "「〜べきだ」と呼応する。",
+    "plain": "「須く」の読みとして正しいものはどれか。　① すくなく　② すべて　③ すべからく　④ もとより",
+    "choices": [
+      "すくなく",
+      "すべて",
+      "すべからく",
+      "もとより"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-13",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「聊か」の読みとして正しいものはどれか。",
+    "answer": 0,
+    "explanation": "少し。",
+    "plain": "「聊か」の読みとして正しいものはどれか。　① いささか　② いかほど　③ ささやか　④ わずか",
+    "choices": [
+      "いささか",
+      "いかほど",
+      "ささやか",
+      "わずか"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-14",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「頗る」の読みとして正しいものはどれか。",
+    "answer": 2,
+    "explanation": "非常に。",
+    "plain": "「頗る」の読みとして正しいものはどれか。　① ことごとく　② かなり　③ すこぶる　④ はなはだ",
+    "choices": [
+      "ことごとく",
+      "かなり",
+      "すこぶる",
+      "はなはだ"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-15",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「恰も」の読みとして正しいものはどれか。",
+    "answer": 1,
+    "explanation": "まるで。",
+    "plain": "「恰も」の読みとして正しいものはどれか。　① まさに　② あたかも　③ ちょうど　④ かえって",
+    "choices": [
+      "まさに",
+      "あたかも",
+      "ちょうど",
+      "かえって"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-16",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "四字熟語「臥薪嘗胆」の意味はどれか。",
+    "answer": 0,
+    "explanation": "故事成語から。",
+    "plain": "四字熟語「臥薪嘗胆」の意味はどれか。　① 目的を達成するため、苦労に耐えること　② わずかな時間も惜しむこと　③ のんびりと暮らすこと　④ 思いがけない幸運にあうこと",
+    "choices": [
+      "目的を達成するため、苦労に耐えること",
+      "わずかな時間も惜しむこと",
+      "のんびりと暮らすこと",
+      "思いがけない幸運にあうこと"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-17",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "四字熟語「温故知新」の意味はどれか。",
+    "answer": 3,
+    "explanation": "『論語』から。",
+    "plain": "四字熟語「温故知新」の意味はどれか。　① 新しいものを次々に取り入れる　② 古い習慣を守り通す　③ 昔のことは忘れる　④ 古いことを学んで、新しい知識を得る",
+    "choices": [
+      "新しいものを次々に取り入れる",
+      "古い習慣を守り通す",
+      "昔のことは忘れる",
+      "古いことを学んで、新しい知識を得る"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-18",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "四字熟語「画竜点睛」の意味はどれか。",
+    "answer": 2,
+    "explanation": "「睛」は瞳。",
+    "plain": "四字熟語「画竜点睛」の意味はどれか。　① 的外れなこと　② 何度も失敗すること　③ 最後に、肝心なところを仕上げる　④ 見かけだけ立派なこと",
+    "choices": [
+      "的外れなこと",
+      "何度も失敗すること",
+      "最後に、肝心なところを仕上げる",
+      "見かけだけ立派なこと"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-19",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "故事成語「杞憂」の意味はどれか。",
+    "answer": 2,
+    "explanation": "杞の国の人が天が落ちてくるのを心配した話。",
+    "plain": "故事成語「杞憂」の意味はどれか。　① 悲しい別れ　② 大きな夢　③ 無用な心配　④ ぬか喜び",
+    "choices": [
+      "悲しい別れ",
+      "大きな夢",
+      "無用な心配",
+      "ぬか喜び"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-20",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "故事成語「蛇足」の意味はどれか。",
+    "answer": 1,
+    "explanation": "蛇の絵に足を描き足した話。",
+    "plain": "故事成語「蛇足」の意味はどれか。　① 危険な行い　② 余計なもの　③ 素早い行動　④ 足りないもの",
+    "choices": [
+      "危険な行い",
+      "余計なもの",
+      "素早い行動",
+      "足りないもの"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-21",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「役不足」の正しい意味はどれか。",
+    "answer": 3,
+    "explanation": "「力不足」と混同されやすい。",
+    "plain": "「役不足」の正しい意味はどれか。　① 役目を果たせないこと　② その人の力が、与えられた役目に足りない　③ 役に立たないこと　④ 与えられた役目が、その人の力に比べて軽すぎる",
+    "choices": [
+      "役目を果たせないこと",
+      "その人の力が、与えられた役目に足りない",
+      "役に立たないこと",
+      "与えられた役目が、その人の力に比べて軽すぎる"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
+  },
+  {
+    "id": "u-tj_hard-22",
+    "category": "triv_ja",
+    "difficulty": 3,
+    "title": "国語：入試の難問",
+    "body": "「確信犯」の本来の意味はどれか。",
+    "answer": 1,
+    "explanation": "誤用が広まっている言葉の一つ。",
+    "plain": "「確信犯」の本来の意味はどれか。　① 何度も繰り返す犯罪　② 政治的・宗教的な信念にもとづいて行う犯罪　③ 悪いことだと知りながら行う犯罪　④ 計画的な犯罪",
+    "choices": [
+      "何度も繰り返す犯罪",
+      "政治的・宗教的な信念にもとづいて行う犯罪",
+      "悪いことだと知りながら行う犯罪",
+      "計画的な犯罪"
+    ],
+    "unit": "tj_hard",
+    "rate": 3.5
   }
 ]

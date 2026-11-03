@@ -462,6 +462,8 @@ def generate():
     gen_content9.generate()
     import gen_content10
     gen_content10.generate()
+    import gen_content12
+    gen_content12.generate()
     return list(OUT)
 
 

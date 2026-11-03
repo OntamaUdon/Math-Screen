@@ -70,6 +70,9 @@ UNIT_RATE = {
     "hs_w_ancient": 4.5, "hs_w_medieval": 4.0, "hs_w_early": 4.0, "hs_w_20c": 4.0,
     "hs_geo_nature": 4.5, "hs_geo_industry": 4.0, "hs_geo_pop": 4.5,
     "hs_civ_politics": 4.5, "hs_civ_econ": 4.0, "hs_ethics": 4.0,
+    # ノンジャンル：発展内容と入試の難問（正解しにくい見積もり）
+    "tm_adv": 3.5, "tm_hard": 2.5, "te_adv": 4.0, "te_hard": 3.5, "ts_adv": 3.5, "ts_hard": 3.0,
+    "tsc_adv": 3.5, "tsc_hard": 3.0, "tj_adv": 4.0, "tj_hard": 3.5,
 }
 
 WORD_ENJA = {"w_basic": 8.5, "w_std": 6.0, "w_adv": 4.2}
