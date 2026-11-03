@@ -15,6 +15,7 @@ struct PostProblemView: View {
     @State private var error: String?
     @State private var done = false
     @State private var showGuide = false
+    @State private var showMap = false
 
     private var plain: String { bodyText.replacingOccurrences(of: "$", with: "") }
 
@@ -40,12 +41,17 @@ struct PostProblemView: View {
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
 
                 section("分野") {
-                    ForEach(Subject.allCases) { s in
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text(s.label).font(Theme.font(13, .bold)).foregroundStyle(Theme.inkSoft)
-                            TagPicker(items: s.categories, selection: $category) { $0.label }
+                    Button { showMap = true } label: {
+                        HStack {
+                            Image(systemName: "point.3.connected.trianglepath.dotted").foregroundStyle(Theme.tealDeep)
+                            Text("\(category.subject.label) ・ \(category.label)").font(Theme.font(16, .semibold)).foregroundStyle(Theme.ink)
+                            Spacer()
+                            Text("マップから選ぶ").font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
+                            Image(systemName: "chevron.right").font(.system(size: 12, weight: .semibold)).foregroundStyle(Theme.inkFaint)
                         }
+                        .padding(14).well()
                     }
+                    .buttonStyle(.plain)
                 }
                 section("答え方") { TagPicker(items: [false, true], selection: $isChoice) { $0 ? "4択" : "整数で答える" } }
 
@@ -97,6 +103,22 @@ struct PostProblemView: View {
         }
         .isoBackground()
         .sheet(isPresented: $showGuide) { LaTeXGuideView() }
+        .sheet(isPresented: $showMap) {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Text("分野を選ぶ").font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
+                    Spacer()
+                    Button("閉じる") { showMap = false }.font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
+                }
+                .padding(.horizontal, 20).padding(.top, 24)
+                Text("教科の枝を広げて、分野をタップ。").font(Theme.font(13)).foregroundStyle(Theme.inkSoft).padding(.horizontal, 20)
+                MindMapView(root: BookMap.picker(), selectedID: "c:\(category.rawValue)",
+                            openPath: ["root", "sub:\(category.subject.rawValue)"]) { node in
+                    if node.id.hasPrefix("c:"), let c = ProblemCategory(rawValue: String(node.id.dropFirst(2))) { category = c; showMap = false }
+                }
+            }
+            .isoBackground()
+        }
         .alert("投稿しました", isPresented: $done) {
             Button("OK") { dismiss() }
         } message: {
