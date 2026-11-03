@@ -56,7 +56,7 @@ struct StatsView: View {
         VStack(alignment: .leading, spacing: 10) {
             Label("過去の成績を見る", systemImage: "lock.fill")
                 .font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
-            Text("Premium にすると、過去の週も、グラフの奥（右上）に並べて見られます。初回7日間無料、そのあと月300円／年2,400円の予定です。")
+            Text("Premium にすると、過去の週も、グラフの奥（右上）に並べて見られます。月300円／年2,400円の予定です。")
                 .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 .fixedSize(horizontal: false, vertical: true)
             Button("仮登録する（0円）") { model.setPremium(true) }

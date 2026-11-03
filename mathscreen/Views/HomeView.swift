@@ -79,6 +79,21 @@ struct HomeView: View {
                     .well()
             }
 
+            if model.notificationStatus == .denied {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text("通知がオフになっています。ブロック画面の「問題を解く」から問題を開くには、通知が必要です。")
+                        .font(Theme.font(14)).foregroundStyle(Theme.danger)
+                    Text("通知をオンにするか、ロック中に「解くロック」のアプリを直接開いてください。")
+                        .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
+                    Button("通知の設定を開く") {
+                        if let url = URL(string: UIApplication.openNotificationSettingsURLString) { UIApplication.shared.open(url) }
+                    }
+                    .font(Theme.font(14, .semibold)).foregroundStyle(Theme.tealDeep)
+                }
+                .padding(14).frame(maxWidth: .infinity, alignment: .leading)
+                .well()
+            }
+
             if model.rules.isEmpty {
                 Text("「追加」から、使いすぎたくないアプリと時間を決めましょう。")
                     .font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
@@ -141,7 +156,8 @@ struct RuleRow: View {
     /// 例：「数学・英語」
     private var subjectNames: String {
         let names = Subject.allCases.filter { s in s.categories.contains { rule.categories.contains($0.rawValue) } }.map(\.label)
-        return names.count == Subject.allCases.count ? "すべての教科" : names.joined(separator: "・")
+        let main = Subject.allCases.filter { $0 != .general }
+        return main.allSatisfy({ s in names.contains(s.label) }) ? "すべての教科" : names.joined(separator: "・")
     }
 
     var body: some View {

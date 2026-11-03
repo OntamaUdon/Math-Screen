@@ -59,8 +59,8 @@ struct OnboardingView: View {
     private var intro: some View {
         VStack(alignment: .leading, spacing: 16) {
             icon("questionmark")
-            Text("スマホの使いすぎ止めよう。").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
-            Text("アプリを使い過ぎると、問題が出る。見事問題に正解したら、またアプリを使えるよ！")
+            Text("スマホの使い過ぎをとめよう").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
+            Text("アプリを使い過ぎるとロックされ、問題が出題されます。見事問題に正解したら、またアプリを使えるようになります！")
                 .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
 
@@ -71,7 +71,7 @@ struct OnboardingView: View {
                         Text(p.categoryInfo.label)
                             .font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
                         MathText(source: p.body, fontSize: 16, spoken: p.plain)
-                        Text("答え：\(p.answer)").font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)
+                        Text("答え：\(p.answerText)").font(Theme.font(13, .semibold)).foregroundStyle(Theme.tealDeep)
                     }
                     .card(padding: 14)
                 }
@@ -150,8 +150,8 @@ struct OnboardingView: View {
 struct SolveFlowDiagram: View {
     private let steps: [(icon: String, title: String, detail: String)] = [
         ("lock.fill", "ブロック画面が出る", "「問題を解く」ボタンを押す"),
-        ("bell.fill", "通知が届く", "通知をタップして、解くロックを開く"),
-        ("pencil", "問題に答える", "整数を入力して「こたえる」"),
+        ("bell.fill", "通知が届く", "通知をタップして、アプリを開く"),
+        ("pencil", "問題に答える", "答えを入力（または選択）して「こたえる」"),
         ("checkmark", "正解すると再開", "アプリがまた使えるようになる"),
     ]
 

@@ -18,6 +18,7 @@ struct ProblemSolverView: View {
     @State private var wrongCount = 0
     @State private var showWrong = false
     @State private var eliminated: Set<Int> = []      // 4択で、まちがえて消した選択肢
+    @State private var picked: Int?                   // 4択で、いま選んでいる選択肢
     @State private var showPremiumAlert = false
 
     var body: some View {
@@ -72,7 +73,7 @@ struct ProblemSolverView: View {
                 .font(Theme.font(13, .semibold))
                 .foregroundStyle(Theme.inkSoft)
             MathText(source: problem.body, fontSize: 19, spoken: problem.plain)
-            Text(problem.isChoice ? "正しいものを1つ選ぶ" : "答えは整数で入力")
+            Text(problem.isChoice ? "正しいものを選んで「こたえる」を押す" : "答えを入力して「こたえる」を押す")
                 .font(Theme.font(12))
                 .foregroundStyle(Theme.inkFaint)
         }
@@ -113,19 +114,24 @@ struct ProblemSolverView: View {
         .card()
     }
 
-    /// 4択：押した選択肢が、そのまま答えになる。まちがえた選択肢は薄くなる。
+    /// 4択：選択肢を選んで、「こたえる」を押す。まちがえた選択肢は薄くなる。
     private func choiceList(_ choices: [String]) -> some View {
         VStack(spacing: 10) {
             ForEach(Array(choices.enumerated()), id: \.offset) { i, c in
-                Button { submitChoice(i) } label: {
+                Button { picked = i } label: {
                     HStack(spacing: 12) {
-                        Text(Problem.choiceMarks[i]).font(Theme.font(18, .bold)).foregroundStyle(Theme.tealDeep)
+                        if picked == i {
+                            Image(systemName: "checkmark.circle.fill").font(.system(size: 20)).foregroundStyle(Theme.tealDeep)
+                        } else {
+                            Text(Problem.choiceMarks[i]).font(Theme.font(18, .bold)).foregroundStyle(Theme.tealDeep)
+                        }
                         MathText(source: c, fontSize: 17)
                         Spacer(minLength: 0)
                     }
                     .padding(.horizontal, 14)
                 }
                 .buttonStyle(IsoButtonStyle(kind: .secondary))
+                .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(picked == i ? Theme.tealDeep : .clear, lineWidth: 2.5))
                 .disabled(eliminated.contains(i))
                 .opacity(eliminated.contains(i) ? 0.4 : 1)
             }
@@ -133,6 +139,11 @@ struct ProblemSolverView: View {
                 Text("ちがうみたい。もう一度選んでください。")
                     .font(Theme.font(14, .semibold)).foregroundStyle(Theme.danger)
             }
+            Button("こたえる") { if let i = picked { submitChoice(i) } }
+                .buttonStyle(.primary)
+                .disabled(picked == nil)
+                .opacity(picked == nil ? 0.5 : 1)
+                .padding(.top, 4)
         }
     }
 
@@ -147,6 +158,7 @@ struct ProblemSolverView: View {
             onCorrect(attempts)
         } else {
             eliminated.insert(i)
+            picked = nil
             withAnimation(.default) { wrongCount += 1 }
             showWrong = true
         }

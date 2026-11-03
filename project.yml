@@ -50,7 +50,7 @@ targets:
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIUserInterfaceStyle: Light
         ITSAppUsesNonExemptEncryption: false
-        NSFamilyControlsUsageDescription: 指定したアプリの利用時間を見守り、使いすぎたときに数学の問題を出すために使います。
+        NSFamilyControlsUsageDescription: 指定したアプリの利用時間を見守り、使いすぎたときに問題を出すために使います。
     dependencies:
       - target: MonitorExtension
       - target: ShieldConfigurationExtension

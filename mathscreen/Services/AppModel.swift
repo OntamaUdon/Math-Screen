@@ -18,6 +18,7 @@ final class AppModel {
     var ruleProgress: [UUID: Int] = [:]     // ルールごとの、使った時間の目安（分）
     var isPremium = false          // 仮登録（0円）。本物の課金に差し替える予定
     var showChallenge = false
+    var notificationStatus: UNAuthorizationStatus = .notDetermined     // 通知がオフだと、ブロック画面からの案内が届かない
     var lastError: String?
 
     private init() { refresh() }
@@ -37,6 +38,7 @@ final class AppModel {
         ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
         ParentLock.recordAuthorization(approved: authorization == .approved)
+        Task { notificationStatus = await UNUserNotificationCenter.current().notificationSettings().authorizationStatus }
         ensurePendingProblem()
     }
 

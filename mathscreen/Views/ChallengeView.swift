@@ -58,7 +58,7 @@ struct ChallengeView: View {
     private var header: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 4) {
-                Text("1問解いて再開").font(Theme.font(24, .bold)).foregroundStyle(Theme.ink)
+                Text("\(model.requiredCorrect)問解いて再開").font(Theme.font(24, .bold)).foregroundStyle(Theme.ink)
                 if model.isLocked {
                     Text("正解 \(solvedCount) / \(model.requiredCorrect)")
                         .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
