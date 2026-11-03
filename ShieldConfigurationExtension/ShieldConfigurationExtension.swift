@@ -24,9 +24,14 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
     /// ボタンの位置は iOS が決めるので、変えられない。
     private func make(name: String?) -> ShieldConfiguration {
         ShieldData.recordDiag("shieldConfig")
-        let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
-        let mint = UIColor(red: 0.498, green: 0.878, blue: 0.827, alpha: 1)       // #7FE0D3
-        let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
+        // ライトでもダークでも読めるように、外観に合わせて色を切りかえる。
+        func dyn(light: UIColor, dark: UIColor) -> UIColor {
+            UIColor { $0.userInterfaceStyle == .dark ? dark : light }
+        }
+        func rgb(_ r: CGFloat, _ g: CGFloat, _ b: CGFloat) -> UIColor { UIColor(red: r, green: g, blue: b, alpha: 1) }
+        let ink = dyn(light: rgb(0.137, 0.149, 0.227), dark: rgb(0.96, 0.97, 0.99))        // 文字：#23263A ／ ほぼ白
+        let mint = dyn(light: rgb(0.498, 0.878, 0.827), dark: rgb(0.10, 0.17, 0.20))       // 背景：ミント ／ 濃い紺
+        let gray = dyn(light: rgb(0.890, 0.906, 0.949), dark: rgb(0.22, 0.30, 0.34))        // ボタン：薄いグレー ／ 暗いグレー
 
         let app = name ?? "アプリ"
         let minutes = ShieldData.pendingMinutes

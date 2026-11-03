@@ -144,7 +144,7 @@ actor Community {
 
         let data: Data, resp: URLResponse
         do { (data, resp) = try await URLSession.shared.data(for: req) }
-        catch { throw CommunityError(message: "通信できませんでした。電波の良いところで、もう一度お試しください。") }
+        catch { throw CommunityError(message: "通信できませんでした。電波のいい場所で、もう一度試してください。") }
 
         let code = (resp as? HTTPURLResponse)?.statusCode ?? 0
         guard (200..<300).contains(code) else {

@@ -26,13 +26,6 @@ struct StatsView: View {
             weekChart
             if !model.isPremium { premiumCard }
 
-            VStack(alignment: .leading, spacing: 8) {
-                Text("単元ごとの完成度").font(Theme.font(18, .bold)).foregroundStyle(Theme.ink)
-                Text("直近3回の1発正解で決まります。3回中2回以上で「得意」、3回とも正解で「完成」。")
-                    .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
-                UnitListView(subjects: Subject.allCases)
-            }
-
             VStack(spacing: 0) {
                 row("問題で解除した回数", "\(total.unlocks) 回")
                 Divider()

@@ -51,10 +51,10 @@ enum BookMap {
         var subjects = subjectNodes { u, s in
             let n = UnitCatalog.problemCount[u.id] ?? 0
             let level = MasteryStore.shared.progress(unit: u.id).level
-            return MapNode(id: "u:\(u.id)", title: u.name, subtitle: level == .none ? "\(n)問" : "\(n)問 ・ \(level.label)", subject: s)
+            return MapNode(id: "u:\(u.id)", title: u.name, subtitle: level == .none ? "\(n)問" : "\(n)問 ・ \(level.label)", subject: s,
+                           progress: MasteryStore.shared.progress(unit: u.id))
         }
-        subjects.append(MapNode(id: "community", title: "みんなの問題", subtitle: "投稿された問題", subject: nil))
-        if premium { subjects.append(MapNode(id: "mine", title: "自分の投稿", subtitle: "審査の状況も見られる", subject: nil)) }
+        subjects.append(MapNode(id: "posts", title: "投稿", subtitle: premium ? "みんなの投稿・自分の投稿" : "みんなの投稿", subject: nil))
         return MapNode(id: "root", title: "問題集", children: subjects)
     }
 
@@ -64,7 +64,7 @@ enum BookMap {
                 children: subjectNodes(unitNode: { u, s in
                     MapNode(id: "u:\(u.id)", title: u.name, subtitle: "\(UnitCatalog.problemCount[u.id] ?? 0)問", subject: s)
                 }, communityNode: { s in
-                    MapNode(id: "u:\(CommunityCache.prefix)\(s.rawValue)", title: "みんなの問題", subtitle: "承認された投稿", subject: s)
+                    MapNode(id: "u:\(CommunityCache.prefix)\(s.rawValue)", title: "投稿された問題", subtitle: "承認された投稿", subject: s)
                 }))
     }
 
@@ -106,8 +106,7 @@ struct ProblemBookView: View {
                 if trimmedQuery.isEmpty {
                     MindMapView(root: BookMap.browse(premium: model.isPremium), openPath: ["root"]) { node in
                         if node.id.hasPrefix("u:") { sheet = .unit(String(node.id.dropFirst(2))) }
-                        else if node.id == "community" { sheet = .community }
-                        else if node.id == "mine" { sheet = .mine }
+                        else if node.id == "posts" { sheet = .community }
                     }
                     .id(model.isPremium)
                 } else {
@@ -160,7 +159,7 @@ struct ProblemBookView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 14) {
                 if results.isEmpty {
-                    Text("条件に合う問題が見つかりません。キーワードを変えてみてください。")
+                    Text("見つかりませんでした。ほかのキーワードで探してみてください。")
                         .font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
                         .padding(20).frame(maxWidth: .infinity, alignment: .leading).well()
                 } else {
@@ -247,7 +246,7 @@ struct ProblemCard: View {
     }
 }
 
-/// マップで選んだ単元・「みんなの問題」・「自分の投稿」の問題一覧。
+/// マップで選んだ単元・「投稿」（みんなの投稿と自分の投稿）の問題一覧。
 struct ProblemListSheet: View {
     enum Source: Identifiable, Hashable {
         case unit(String), community, mine
@@ -262,6 +261,8 @@ struct ProblemListSheet: View {
 
     let source: Source
     @Environment(\.dismiss) private var dismiss
+    @Environment(AppModel.self) private var model
+    @State private var showMine = false           // 「投稿」で、自分の投稿を見ているとき（Premium）
     @State private var items: [FeedItem] = []
     @State private var selected: FeedItem?
     @State private var error: String?
@@ -272,10 +273,12 @@ struct ProblemListSheet: View {
     private var title: String {
         switch source {
         case .unit(let u): UnitCatalog.info(u)?.name ?? "単元"
-        case .community: "みんなの問題"
+        case .community: "投稿"
         case .mine: "自分の投稿"
         }
     }
+
+    private var viewingMine: Bool { source == .mine || (source == .community && showMine) }
 
     private var shown: [FeedItem] {
         guard let subject else { return items }
@@ -298,7 +301,14 @@ struct ProblemListSheet: View {
                 }
                 .padding(.top, 24)
 
-                if case .community = source {
+                if case .community = source, model.isPremium {
+                    Picker("表示", selection: $showMine) {
+                        Text("みんなの投稿").tag(false)
+                        Text("自分の投稿").tag(true)
+                    }
+                    .pickerStyle(.segmented)
+                }
+                if case .community = source, !showMine {
                     TagPicker(items: [Subject?.none] + Subject.allCases.map { Optional($0) }, selection: $subject) { $0?.label ?? "すべて" }
                 }
                 Text("☆ 1発正解　◎ 1回まちがえて正解　〇 2回以上まちがえて正解　△ 解かずに変更")
@@ -311,7 +321,7 @@ struct ProblemListSheet: View {
                     Text("\(shown.count) 問").font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
                 }
                 ForEach(shown) { item in
-                    ProblemCard(item: item, showStatus: source == .mine, mark: ProblemMarkStore.shared.mark(item.problem.id))
+                    ProblemCard(item: item, showStatus: viewingMine, mark: ProblemMarkStore.shared.mark(item.problem.id))
                         .contentShape(Rectangle())
                         .onTapGesture { selected = item }
                 }
@@ -321,16 +331,17 @@ struct ProblemListSheet: View {
         .scrollIndicators(.hidden)
         .isoBackground()
         .task { await load() }
+        .onChange(of: showMine) { _, _ in Task { await load() } }
         .sheet(item: $selected, onDismiss: { tick += 1 }) { item in
-            ProblemDetailView(item: item, isMine: source == .mine) { Task { await load() } }.roomySheet()
+            ProblemDetailView(item: item, isMine: viewingMine) { Task { await load() } }.roomySheet()
         }
     }
 
     private var emptyText: String {
         switch source {
         case .unit: "この単元には、まだ問題がありません。"
-        case .community: "公開されている投稿はまだありません。"
-        case .mine: "まだ投稿がありません。右下の + から投稿できます。"
+        case .community: showMine ? "まだ投稿がありません。問題集の右下の + から投稿できます。" : "公開されている投稿は、まだありません。"
+        case .mine: "まだ投稿がありません。問題集の右下の + から投稿できます。"
         }
     }
 
@@ -342,10 +353,14 @@ struct ProblemListSheet: View {
             items = ProblemBank.all.filter { $0.unit == u }
                 .enumerated().sorted { ($0.element.rate ?? 5, -$0.offset) > ($1.element.rate ?? 5, -$1.offset) }
                 .map { FeedItem(id: "b-\($0.element.id)", problem: $0.element, row: nil) }
+        case .community where showMine:
+            loading = true; defer { loading = false }
+            do { items = try await Community.shared.mine().compactMap { r in r.problem.map { FeedItem(id: "m-\(r.id)", problem: $0, row: r) } } }
+            catch { items = []; self.error = "投稿を読み込めませんでした。" }
         case .community:
             loading = true; defer { loading = false }
             do { items = try await Community.shared.approved().compactMap { r in r.problem.map { FeedItem(id: "c-\(r.id)", problem: $0, row: r) } } }
-            catch { items = []; self.error = "みんなの問題を読み込めませんでした。" }
+            catch { items = []; self.error = "投稿を読み込めませんでした。" }
         case .mine:
             loading = true; defer { loading = false }
             do { items = try await Community.shared.mine().compactMap { r in r.problem.map { FeedItem(id: "m-\(r.id)", problem: $0, row: r) } } }

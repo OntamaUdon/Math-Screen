@@ -7,6 +7,7 @@ struct MapNode: Identifiable {
     var subtitle: String? = nil
     var subject: Subject? = nil
     var children: [MapNode] = []
+    var progress: UnitProgress? = nil         // 単元の完成度（問題集のマップで、メーターに出す）
 
     var tint: (top: Color, side: Color) {
         switch subject {
@@ -65,7 +66,7 @@ struct MindMapView: View {
 
     private var nodeW: CGFloat { checkState == nil ? 148 : 176 }
     private var colW: CGFloat { nodeW + 48 }
-    private let nodeH: CGFloat = 50, rowH: CGFloat = 64, margin: CGFloat = 20
+    private let nodeH: CGFloat = 64, rowH: CGFloat = 76, margin: CGFloat = 20
 
     private struct Placed: Identifiable {
         var id: String { node.id }
@@ -179,6 +180,7 @@ struct MindMapView: View {
                     if let s = n.subtitle {
                         Text(s).font(Theme.font(11)).foregroundStyle(filled ? Color.white.opacity(0.85) : Theme.inkSoft).lineLimit(1)
                     }
+                    if let pr = n.progress { MasteryMeter(progress: pr).padding(.top, 3) }
                 }
                 Spacer(minLength: 0)
                 if !isLeaf {

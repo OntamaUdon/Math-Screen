@@ -2,7 +2,7 @@ import SwiftUI
 
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
-/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。少ない数でも差が見えるよう、平方根で伸ばす。
+/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。1問ごとに同じだけ伸びる。
 /// 色は1問ごとに変わり、10問で最も華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。色の見方は、グラフの下に色だけの凡例を並べる。
 /// 今週（手前の列）の棒には、実際の正解数を数字で添える。
 struct IsoBarChart: View {
@@ -113,7 +113,7 @@ struct IsoBarChart: View {
                     : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
                     : k == 0 ? (Theme.tealLight, Theme.teal, Theme.tealDeep)
                     : (Color(hex: 0xBFEFE8), Color(hex: 0x8ADBD0), Color(hex: 0x5EBFB2))
-                let h = max(0.12, sqrt(min(CGFloat(value) / full, 1)) * maxBar)
+                let h = max(0.12, min(CGFloat(value) / full, 1) * maxBar)
                 items.append((CGFloat(i) * gap + 0.1 + y + 10, {
                     let bx = CGFloat(i) * gap + 0.1
                     box(Box(x: bx, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
@@ -127,7 +127,7 @@ struct IsoBarChart: View {
                         ctx.draw(Text("✦").font(.system(size: 13, weight: .bold)).foregroundColor(colors.1),
                                  at: CGPoint(x: t.x, y: t.y - 9))
                     }
-                    if k == 0 && value > 0 {         // 今週の棒には、実際の正解数を添える
+                    if k == 0 && value > 0 && i != todayIndex {         // 今週の棒には、実際の正解数を添える（今日の棒は「今日 N」で示す）
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
                         ctx.draw(Text("\(value)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
                                  at: CGPoint(x: t.x, y: t.y - (tier >= 8 ? 22 : 10)))
@@ -150,10 +150,10 @@ struct IsoBarChart: View {
         }
         // 今日の数
         if let ti = todayIndex, let v = weeks[0][ti] {
-            let h = max(0.12, sqrt(min(CGFloat(v) / full, 1)) * maxBar)
+            let h = max(0.12, min(CGFloat(v) / full, 1) * maxBar)
             let top = p(CGFloat(ti) * gap + 0.5, -0.3 + 0.4, 0.2 + h)
             ctx.draw(Text("今日 \(v)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
-                     at: CGPoint(x: top.x, y: top.y - 12))
+                     at: CGPoint(x: top.x, y: top.y - (v >= 8 ? 26 : 12)))
         }
     }
 }

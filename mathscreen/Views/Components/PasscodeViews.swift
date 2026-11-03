@@ -108,7 +108,7 @@ struct PasscodeSetupView: View {
         VStack(spacing: 18) {
             Text(first == nil ? "新しいパスコード" : "もう一度入れてください")
                 .font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
-            Text(message ?? "子どもが知らない4桁の数字にしてください。忘れたときは、アプリを入れ直すしかありません（ルールも消えます）。")
+            Text(message ?? "お子さんが知らない4桁の数字にしてください。忘れると、アプリを入れ直すしかなく、ルールも消えます。")
                 .font(Theme.font(14)).foregroundStyle(message == nil ? Theme.inkSoft : Theme.danger)
                 .multilineTextAlignment(.center)
             PasscodeKeypad(code: $code).padding(.horizontal, 24)

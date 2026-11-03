@@ -23,7 +23,7 @@ struct DiagnosticsView: View {
                 }
                 .card(padding: 0)
 
-                Text("最後に動いた時刻です。「まだ動いていません」のままなら、その部分が動いていません。")
+                Text("最後に動いた時刻です。「まだ動いていません」のままなら、その部分はまだ動いていません。")
                     .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
             }
             .padding(.horizontal, 20)

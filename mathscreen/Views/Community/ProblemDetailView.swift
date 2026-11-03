@@ -34,7 +34,7 @@ struct ProblemDetailView: View {
             stats = await Community.shared.stats(for: item.problem.id)
             myID = try? await Community.shared.userID()
         }
-        .confirmationDialog("この人の投稿とコメントを、今後表示しませんか？", isPresented: Binding(
+        .confirmationDialog("この人の投稿を、今後表示しませんか？", isPresented: Binding(
             get: { blockTarget != nil }, set: { if !$0 { blockTarget = nil } }), titleVisibility: .visible) {
             Button("ブロックする", role: .destructive) {
                 if let a = blockTarget { run { try await Community.shared.block(a); onChanged() } }

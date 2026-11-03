@@ -98,7 +98,7 @@ struct OnboardingView: View {
         VStack(alignment: .leading, spacing: 16) {
             icon("hourglass")
             Text("スクリーンタイムの許可").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
-            Text("使用時間を見守るために、スクリーンタイムと通知へのアクセスを許可してください。")
+            Text("使った時間を数えるために、スクリーンタイムと通知の許可が必要です。")
                 .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
         }

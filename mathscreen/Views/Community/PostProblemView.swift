@@ -37,7 +37,7 @@ struct PostProblemView: View {
                 }
                 .padding(.top, 24)
 
-                Text("投稿した問題は、確認のあとに公開されます。不適切な内容や、答えがまちがっている問題は公開されません。")
+                Text("投稿した問題は、確認してから公開します。内容が不適切だったり、答えがまちがっていたりすると、公開されません。")
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
 
                 section("分野") {
@@ -123,7 +123,7 @@ struct PostProblemView: View {
         .alert("投稿しました", isPresented: $done) {
             Button("OK") { dismiss() }
         } message: {
-            Text("確認のあとに公開されます。「みんなの問題」の「自分の投稿」で状況を見られます。")
+            Text("確認してから公開します。状況は、問題集の「投稿」で見られます。")
         }
     }
 

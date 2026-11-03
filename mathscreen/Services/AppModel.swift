@@ -164,7 +164,7 @@ final class AppModel {
         do {
             if rule.isEnabled { try MonitorScheduler.start(rule) } else { MonitorScheduler.stop(rule) }
         } catch {
-            lastError = "監視を開始できませんでした。（\(error.localizedDescription)）"
+            lastError = "見守りを始められませんでした。（\(error.localizedDescription)）"
         }
     }
 

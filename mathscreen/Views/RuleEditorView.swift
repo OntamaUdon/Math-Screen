@@ -98,14 +98,14 @@ struct RuleEditorView: View {
                         }
                         .buttonStyle(.plain)
                         Text(rule.units.isEmpty
-                             ? "教科ごとにまるごと選ぶと、できていない単元を優先して出します。できてきたら、むずかしい問題や次の単元へ進みます。"
+                             ? "教科をまるごと選ぶと、苦手な単元から出します。慣れてきたら、むずかしい問題や次の単元にも進みます。"
                              : "選んだ単元だけが出ます。")
                             .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
                             .fixedSize(horizontal: false, vertical: true)
                     }
                 }
 
-                Text("対象のアプリを合計 \(GuardRule.durationText(rule.thresholdMinutes)) 使うとロックされ、\(rule.questionCount)問に正解すると再開できます。そこから、また \(GuardRule.durationText(rule.thresholdMinutes)) たつとロックされます。同じ条件（時間と問題数）のルールは、自動で1つにまとめます。")
+                Text("選んだアプリを合計 \(GuardRule.durationText(rule.thresholdMinutes)) 使うとロックされます。\(rule.questionCount)問に正解すれば、また使えます。そのあと \(GuardRule.durationText(rule.thresholdMinutes)) 使うと、またロックされます。（時間と問題数が同じルールは、ひとつにまとまります）")
                     .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
 
@@ -241,7 +241,7 @@ struct RangeMapSheet: View {
                 .frame(minHeight: 44)
             }
             .padding(.horizontal, 20).padding(.top, 24)
-            Text(selected.isEmpty ? "チェックを付けて、出したい教科・単元を選んでください。" : "選んだ単元：\(selected.count)")
+            Text(selected.isEmpty ? "出したい教科や単元に、チェックを付けてください。" : "選んだ単元：\(selected.count)")
                 .font(Theme.font(13, .semibold)).foregroundStyle(selected.isEmpty ? Theme.danger : Theme.tealDeep)
                 .padding(.horizontal, 20)
             MindMapView(root: root, openPath: ["root"],
