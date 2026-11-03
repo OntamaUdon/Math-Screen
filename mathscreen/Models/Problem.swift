@@ -11,6 +11,7 @@ struct Problem: Codable, Identifiable, Hashable {
     let explanation: String
     let choices: [String]? // 4択問題の選択肢（LaTeX 混じり）。整数で答える問題は nil
     let unit: String?      // 単元の id（units.json）。みんなの問題は nil
+    var family: String? = nil   // 酷似した問題のまとまり（数字だけ違う問題、同じ単語の英→和・和→英）。しばらく続けて出さない
     let rate: Double?      // 10人中、何人が1発で正解できそうか（作成時の見積もり、0〜10）。実際の正解率が集まるまでの目安
 
     var isChoice: Bool { choices != nil }
@@ -48,7 +49,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
     case soc_geo, soc_hist, soc_civ
     case sci_bio, sci_chem, sci_phys, sci_earth
     case ja_kanji, ja_idiom, ja_classic, ja_grammar
-    case triv_gen, triv_math, triv_eng, triv_soc, triv_sci, triv_ja      // 雑学（ノンジャンル）
+    case triv_gen, triv_math, triv_eng, triv_soc, triv_sci, triv_ja      // ノンジャンル（発展内容・難問・分野に当てはまらない投稿）
     var id: String { rawValue }
 
     var subject: Subject {
@@ -82,12 +83,8 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
         case .ja_idiom: "語句"
         case .ja_classic: "古文"
         case .ja_grammar: "国語文法"
-        case .triv_gen: "雑学"
-        case .triv_math: "数学の雑学"
-        case .triv_eng: "英語の雑学"
-        case .triv_soc: "社会の雑学"
-        case .triv_sci: "理科の雑学"
-        case .triv_ja: "国語の雑学"
+        case .triv_gen: "どれにも当てはまらない"
+        case .triv_math, .triv_eng, .triv_soc, .triv_sci, .triv_ja: "ノンジャンル"
         }
     }
 }
@@ -115,6 +112,12 @@ enum ProblemBank {
               let problems = try? JSONDecoder().decode([Problem].self, from: data) else { return [] }
         return problems
     }()
+
+    /// id から問題を探す。内蔵の問題のほか、保存してある「みんなの問題」も探す。
+    static func find(_ id: String) -> Problem? {
+        if let p = all.first(where: { $0.id == id }) { return p }
+        return id.hasPrefix("c-") ? CommunityCache.shared.problem(id: id) : nil
+    }
 
     static func candidates(categories: Set<String>, difficulties: Set<Int>) -> [Problem] {
         all.filter { categories.contains($0.category) && difficulties.contains($0.difficulty) }

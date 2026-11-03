@@ -33,6 +33,13 @@ struct CommunityRow: Codable, Identifiable, Hashable {
                        plain: plain, answer: a, explanation: explanation, choices: choices, unit: nil, rate: nil)
     }
 
+    /// ルールの出題に使うときの形。単元は「community:教科」にする。
+    func problem(unit: String) -> Problem? {
+        guard let a = Int(answer) else { return nil }
+        return Problem(id: "c-" + id, category: genre, difficulty: difficulty, title: title, body: body,
+                       plain: plain, answer: a, explanation: explanation, choices: choices, unit: unit, rate: nil)
+    }
+
     var statusLabel: String {
         switch status {
         case "approved": "公開中"

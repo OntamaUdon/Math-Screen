@@ -176,18 +176,6 @@ UNITS = [
     ("hs_civ_politics", "social", "高校", "民主政治と日本の政治制度", ["s_civ_gov"]),
     ("hs_civ_econ",  "social", "高校", "市場経済と国際経済", ["s_civ_econ"]),
     ("hs_ethics",    "social", "高校", "倫理（思想家）", []),
-    # ── ノンジャンル（雑学）──
-    ("tg_animal",  "general", "ノンジャンル", "生き物の雑学", []),
-    ("tg_food",    "general", "ノンジャンル", "食べ物・料理の雑学", []),
-    ("tg_body",    "general", "ノンジャンル", "からだの雑学", []),
-    ("tg_world",   "general", "ノンジャンル", "世界・国の雑学", []),
-    ("tg_culture", "general", "ノンジャンル", "文化・スポーツの雑学", []),
-    ("tg_life",    "general", "ノンジャンル", "暮らし・言葉の雑学", []),
-    ("tm_math",    "math", "ノンジャンル", "数学の雑学", []),
-    ("te_eng",     "english", "ノンジャンル", "英語の雑学", []),
-    ("ts_soc",     "social", "ノンジャンル", "社会の雑学", []),
-    ("tsc_sci",    "science", "ノンジャンル", "理科の雑学", []),
-    ("tj_ja",      "japanese", "ノンジャンル", "国語の雑学", []),
 ]
 
 # (category, title) → 単元。英単語は難しさで分ける。

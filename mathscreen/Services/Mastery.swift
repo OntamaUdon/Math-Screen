@@ -71,6 +71,7 @@ final class MasteryStore {
         var unit: [String: [Bool]] = [:]
         var problem: [String: [Bool]] = [:]
         var sched: [String: Schedule]? = nil
+        var fam: [String: Double]? = nil      // 酷似した問題のまとまり → 最後に解いた時刻
     }
 
     /// 1発正解が続くほど、のびる間隔（日）。
@@ -106,6 +107,10 @@ final class MasteryStore {
             s.due = now + Self.relearnDelay
         }
         s.last = now
+        if let f = problem.family {
+            if data.fam == nil { data.fam = [:] }
+            data.fam?[f] = now
+        }
         if data.sched == nil { data.sched = [:] }
         data.sched?[problem.id] = s
         if let raw = try? JSONEncoder().encode(data) { UserDefaults.standard.set(raw, forKey: Self.key) }
@@ -123,6 +128,12 @@ final class MasteryStore {
         return UnitProgress(count: r.count, score: score, level: level)
     }
 
+    /// 酷似した問題を最後に解いてから、何秒たったか（解いたことがなければ nil）。
+    func familyAge(of problem: Problem) -> Double? {
+        guard let f = problem.family, let t = data.fam?[f] else { return nil }
+        return Date().timeIntervalSince1970 - t
+    }
+
     func schedule(_ problemID: String) -> Schedule? { data.sched?[problemID] }
 
     func seen(_ problemID: String) -> Bool { !(data.problem[problemID] ?? []).isEmpty }
@@ -131,9 +142,12 @@ final class MasteryStore {
 
 /// 出す問題の選び方：できていない単元を優先し、できてきたら難しい問題へ、先に身につけたい単元ができたら次の単元へ。
 enum Adaptive {
-    static func pick(categories: Set<String>, units: Set<String>, excluding current: String? = nil) -> Problem? {
+    /// `units` に「community:教科」が入っているか、`community` で渡されると、承認された「みんなの問題」もまぜる。
+    static func pick(categories: Set<String>, units: Set<String>, community: Set<String> = [], excluding current: String? = nil) -> Problem? {
         let store = MasteryStore.shared
+        let commIDs = community.union(units.filter(CommunityCache.isCommunity))
         var pool = ProblemBank.all.filter { categories.contains($0.category) && (units.isEmpty || units.contains($0.unit ?? "")) }
+        pool += CommunityCache.shared.problems(for: commIDs)
         if pool.isEmpty { pool = ProblemBank.all.filter { categories.contains($0.category) } }
         if pool.isEmpty { return ProblemBank.pick(categories: categories, difficulties: [1, 2, 3], excluding: current) }
 
@@ -204,6 +218,10 @@ enum Adaptive {
                 w *= 1.5                                           // まだ解いたことがない問題を、少し優先
             }
             if recent.contains(p.id) { w *= 0.05 }
+            // 解いたばかりの問題に酷似した問題は、しばらく出しにくくする（1日以内は強く、1週間かけてもとに戻る）
+            if let age = store.familyAge(of: p) {
+                if age < 86400 { w *= 0.08 } else if age < 3 * 86400 { w *= 0.3 } else if age < 7 * 86400 { w *= 0.6 }
+            }
             return (p, w)
         }
         let chosen = choose(weighted)
@@ -301,5 +319,48 @@ final class ProblemMarkStore {
         guard (marks[id] ?? 0) < mark.rawValue else { return }
         marks[id] = mark.rawValue
         UserDefaults.standard.set(marks, forKey: Self.key)
+    }
+}
+
+
+/// 承認された「みんなの問題」を端末に保存しておく。ルールの出題範囲で選ばれたときに使う。
+final class CommunityCache {
+    static let shared = CommunityCache()
+    static let prefix = "community:"
+    private static let key = "community.cache.v1"
+    private static let stampKey = "community.cache.at"
+    private var rows: [CommunityRow]
+
+    private init() {
+        if let raw = UserDefaults.standard.data(forKey: Self.key),
+           let r = try? JSONDecoder().decode([CommunityRow].self, from: raw) { rows = r } else { rows = [] }
+    }
+
+    static func isCommunity(_ unitID: String) -> Bool { unitID.hasPrefix(prefix) }
+
+    /// 「community:math」のような単元の指定に合う、承認済みの問題。
+    func problems(for ids: Set<String>) -> [Problem] {
+        guard !ids.isEmpty else { return [] }
+        return rows.compactMap { row in
+            let subject = ProblemCategory(rawValue: row.genre)?.subject.rawValue ?? Subject.general.rawValue
+            let unit = Self.prefix + subject
+            return ids.contains(unit) ? row.problem(unit: unit) : nil
+        }
+    }
+
+    func problem(id: String) -> Problem? {
+        guard let row = rows.first(where: { "c-" + $0.id == id }) else { return nil }
+        let subject = ProblemCategory(rawValue: row.genre)?.subject.rawValue ?? Subject.general.rawValue
+        return row.problem(unit: Self.prefix + subject)
+    }
+
+    /// 6時間に1回、サーバーから取り直す（ネットにつながらないときは、前回のものを使う）。
+    func refreshIfNeeded() async {
+        let last = UserDefaults.standard.double(forKey: Self.stampKey)
+        guard Date().timeIntervalSince1970 - last > 6 * 3600 else { return }
+        guard let fresh = try? await Community.shared.approved() else { return }
+        rows = fresh
+        if let raw = try? JSONEncoder().encode(fresh) { UserDefaults.standard.set(raw, forKey: Self.key) }
+        UserDefaults.standard.set(Date().timeIntervalSince1970, forKey: Self.stampKey)
     }
 }

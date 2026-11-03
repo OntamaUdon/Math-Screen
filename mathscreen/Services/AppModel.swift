@@ -24,7 +24,8 @@ final class AppModel {
 
     // MARK: 状態の読み込み（拡張が書き換えるので前面に来るたびに呼ぶ）
     func refresh() {
-        Task { await DifficultyStore.shared.refreshIfNeeded() }      // 問題の難しさ（全員の正解率）を、1日1回取り直す
+        Task { await DifficultyStore.shared.refreshIfNeeded() }
+        Task { await CommunityCache.shared.refreshIfNeeded() }      // 問題の難しさ（全員の正解率）を、1日1回取り直す
         rules = SharedStore.loadRules()
         lockedRuleIDs = SharedStore.lockedRuleIDs
         settings = SharedStore.settings
@@ -47,7 +48,7 @@ final class AppModel {
             prepareImages()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
             return
         }
-        if let first = rules.first, let p = SharedStore.rulePending(ruleID: first.id).flatMap({ r in ProblemBank.all.first { $0.id == r.id } }) {
+        if let first = rules.first, let p = SharedStore.rulePending(ruleID: first.id).flatMap({ r in ProblemBank.find(r.id) }) {
             setPendingProblem(p)
         } else {
             setPendingProblem(Adaptive.pick(categories: settings.categories, units: []))
@@ -57,7 +58,7 @@ final class AppModel {
     /// ルールの分野から、次に出す問題を用意する（まだなければ、または分野が変わっていれば）。
     private func ensureRulePending(_ rule: GuardRule) {
         if let r = SharedStore.rulePending(ruleID: rule.id),
-           let p = ProblemBank.all.first(where: { $0.id == r.id }),
+           let p = ProblemBank.find(r.id),
            rule.categories.contains(p.category), rule.units.isEmpty || rule.units.contains(p.unit ?? "") { return }
         refreshRulePending(rule)
     }
@@ -73,6 +74,11 @@ final class AppModel {
         return lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.units) }
     }
 
+    /// ロック中のルールで選ばれている「みんなの問題」（community:教科）。
+    var challengeCommunity: Set<String> {
+        lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.units.filter(CommunityCache.isCommunity)) }
+    }
+
     /// 2問目以降に出す問題の分野。ロック中のルールの分野をまとめたもの。
     var challengeCategories: Set<String> {
         let cats = lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.categories) }
@@ -80,7 +86,7 @@ final class AppModel {
     }
 
     var pendingProblem: Problem? {
-        SharedStore.pendingProblemID.flatMap { id in ProblemBank.all.first { $0.id == id } }
+        SharedStore.pendingProblemID.flatMap { ProblemBank.find($0) }
     }
 
     func setPendingProblem(_ problem: Problem?) {

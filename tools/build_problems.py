@@ -257,6 +257,24 @@ for p in P:
 for u in _units.UNITS:
     assert all(q in _known for q in u[4]), u
 
+# ── 「酷似した問題」のまとまり（family）──
+# 数字だけを変えて作った問題は、同じ単元・同じ種類（title）が1つのまとまり。英単語は、英→和と和→英が同じ単語のまとまり。
+# 手で書いた4択問題は、1問ごとに別の内容なので、まとまりを付けない。アプリは、解いたばかりの問題と同じまとまりの問題を、しばらく出しにくくする。
+def _family(p):
+    b = p["body"]
+    if p["category"] == "eng_word" and "choices" in p:
+        if b.endswith("の意味として正しいものを選べ。") and b.startswith("「"):
+            return "w:" + b[1:b.index("」")]
+        if b.endswith("を英語にしたものを選べ。"):
+            return "w:" + p["choices"][p["answer"]]
+    if not p["id"].startswith("u-") and p["category"] != "eng_word":
+        return f"{p['unit']}|{p['title']}"
+    return None
+
+for p in P:
+    f = _family(p)
+    if f: p["family"] = f
+
 import rates as _rates
 _rates.assign(P)                 # 各問題に、10人中の正解見込み（rate）を付ける
 

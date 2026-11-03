@@ -158,10 +158,15 @@ struct RuleEditorView: View {
     /// 選んだ単元が、その分野の単元すべてなら「おまかせ」（単元は指定しない）。
     private func apply(_ s: Set<String>) {
         guard !s.isEmpty else { return }
-        let cats = s.reduce(into: Set<String>()) { $0.formUnion(UnitCatalog.categories[$1] ?? []) }
+        let comm = s.filter(CommunityCache.isCommunity)            // 「みんなの問題」の指定
+        let real = s.subtracting(comm)
+        var cats = real.reduce(into: Set<String>()) { $0.formUnion(UnitCatalog.categories[$1] ?? []) }
+        if cats.isEmpty {                                           // みんなの問題だけのときは、その教科の分野を入れておく
+            for id in comm { if let sub = Subject(rawValue: String(id.dropFirst(CommunityCache.prefix.count))) { cats.formUnion(sub.categories.map(\.rawValue)) } }
+        }
         let closure = Set(UnitCatalog.available.filter { (UnitCatalog.categories[$0.id] ?? []).isSubset(of: cats) }.map(\.id))
         rule.categories = cats
-        rule.units = s == closure ? [] : s
+        rule.units = (comm.isEmpty && real == closure) ? [] : s
     }
 
     /// 例：「数学（すべて）・英語（3単元）」
@@ -170,8 +175,10 @@ struct RuleEditorView: View {
         let parts = Subject.allCases.compactMap { s -> String? in
             let all = UnitCatalog.units(in: s).map(\.id)
             let n = all.filter { sel.contains($0) }.count
-            if n == 0 { return nil }
-            return n == all.count ? "\(s.label)（すべて）" : "\(s.label)（\(n)単元）"
+            let comm = sel.contains(CommunityCache.prefix + s.rawValue)
+            if n == 0 && !comm { return nil }
+            let body = all.isEmpty ? "みんなの問題" : (n == all.count ? "すべて" : "\(n)単元")
+            return "\(s.label)（\(body)\(comm && !all.isEmpty ? "＋みんなの問題" : "")）"
         }
         return parts.joined(separator: "・")
     }

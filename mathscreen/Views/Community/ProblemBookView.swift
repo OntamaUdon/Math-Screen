@@ -13,14 +13,18 @@ enum BookMap {
     static let stages = ["小学", "中学", "高校", "ノンジャンル"]
 
     /// 教科 → 小学・中学・高校・ノンジャンル → 単元 の枝。単元の枝のつくりは unitNode で決める。
-    private static func subjectNodes(unitNode: (UnitInfo, Subject) -> MapNode) -> [MapNode] {
+    /// communityNode を渡すと、各教科の「ノンジャンル」に「みんなの問題」の枝を足す。
+    private static func subjectNodes(unitNode: (UnitInfo, Subject) -> MapNode,
+                                     communityNode: ((Subject) -> MapNode)? = nil) -> [MapNode] {
         var subjects: [MapNode] = []
         for s in Subject.allCases {
             let units = UnitCatalog.units(in: s)
-            guard !units.isEmpty else { continue }
+            let comm = communityNode?(s)
+            if units.isEmpty && comm == nil { continue }
             let stageNodes: [MapNode] = stages.compactMap { st in
                 let list = units.filter { $0.stage == st }
-                guard !list.isEmpty else { return nil }
+                let extra: [MapNode] = (st == "ノンジャンル") ? [comm].compactMap { $0 } : []
+                guard !list.isEmpty || !extra.isEmpty else { return nil }
                 let unitNodes = list.map { unitNode($0, s) }
                 // 10個を超えるときは、グループ（物理・数学IIなど）に分ける
                 var kids = unitNodes
@@ -33,11 +37,11 @@ enum BookMap {
                                        children: members.map { unitNodes[$0] })
                     }
                 }
-                return MapNode(id: "st:\(s.rawValue):\(st)", title: st == "ノンジャンル" ? "ノンジャンル（雑学）" : st, subtitle: "\(list.count)単元", subject: s, children: kids)
+                return MapNode(id: "st:\(s.rawValue):\(st)", title: st, subtitle: "\(list.count)単元", subject: s, children: kids + extra)
             }
-            // 「ノンジャンル」の教科は、段階の枝を省いて単元を直接ぶら下げる
+            // 「ノンジャンル」の教科は、段階の枝を省いて直接ぶら下げる
             let children = s == .general ? (stageNodes.first?.children ?? []) : stageNodes
-            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: "\(units.count)単元", subject: s, children: children))
+            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: units.isEmpty ? nil : "\(units.count)単元", subject: s, children: children))
         }
         return subjects
     }
@@ -54,11 +58,14 @@ enum BookMap {
         return MapNode(id: "root", title: "問題集", children: subjects)
     }
 
-    /// ルールの出題範囲を選ぶ：問題集と同じ形の枝。単元にチェックを付ける。
+    /// ルールの出題範囲を選ぶ：問題集と同じ形の枝。単元にチェックを付ける。「ノンジャンル」には「みんなの問題」もある。
     static func selector() -> MapNode {
-        MapNode(id: "root", title: "出題する範囲", children: subjectNodes { u, s in
-            MapNode(id: "u:\(u.id)", title: u.name, subtitle: "\(UnitCatalog.problemCount[u.id] ?? 0)問", subject: s)
-        })
+        MapNode(id: "root", title: "出題する範囲",
+                children: subjectNodes(unitNode: { u, s in
+                    MapNode(id: "u:\(u.id)", title: u.name, subtitle: "\(UnitCatalog.problemCount[u.id] ?? 0)問", subject: s)
+                }, communityNode: { s in
+                    MapNode(id: "u:\(CommunityCache.prefix)\(s.rawValue)", title: "みんなの問題", subtitle: "承認された投稿", subject: s)
+                }))
     }
 
     /// 投稿の分野を選ぶ：教科 → 分野。
