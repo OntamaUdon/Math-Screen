@@ -55,6 +55,12 @@ struct PasscodeEntryView: View {
                 Text(until.map { "しばらく入力できません。あと\(remaining($0))" } ?? (message ?? "4桁のパスコードを入れてください。"))
                     .font(Theme.font(14)).foregroundStyle(until != nil || message != nil ? Theme.danger : Theme.inkSoft)
                     .multilineTextAlignment(.center)
+                if let w = lock.warning {
+                    Text(w).font(Theme.font(13, .semibold)).foregroundStyle(Theme.danger).multilineTextAlignment(.center)
+                }
+                if let q = lock.puzzle {
+                    Text(q).font(Theme.font(13)).foregroundStyle(Theme.inkSoft).multilineTextAlignment(.center)
+                }
                 PasscodeKeypad(code: $code, disabled: until != nil)
                     .padding(.horizontal, 24)
                 Button("やめる") { lock.cancelEntry() }.buttonStyle(.quiet)
@@ -64,9 +70,15 @@ struct PasscodeEntryView: View {
             .isoBackground()
             .onChange(of: code) { _, new in
                 guard new.count == 4 else { return }
-                if !lock.verify(new) {
+                switch lock.verify(new) {
+                case .ok: break
+                case .wrong:
                     code = ""
                     message = lock.lockedUntil == nil ? "パスコードが違います。" : nil
+                case .waiting: code = ""
+                case .puzzleAnswer:
+                    code = ""
+                    message = "この問題が解けるなら、あなたは十分に勉強している証拠。現実的な別のやり方を考えよう。"
                 }
             }
         }

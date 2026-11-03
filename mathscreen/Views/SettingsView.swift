@@ -57,7 +57,7 @@ struct SettingsView: View {
             }
 
             if model.isPremium {
-                group("保護者用パスコード", footer: "ルールの変更・設定・Premium の管理を、パスコードで守ります。3回まちがえると、しばらく入力できなくなります。パスコードは、この端末の中だけに保存されます。") {
+                group("保護者用パスコード", footer: "ルールの変更・設定・Premium の管理を、パスコードで守ります。4回まちがえると、しばらく入力できなくなります（最後の入力から6時間たつと元に戻ります）。パスコードは、この端末の中だけに保存されます。") {
                     row("パスコード", value: ParentLock.shared.hasPasscode ? "設定済み" : "未設定",
                         valueColor: ParentLock.shared.hasPasscode ? Theme.tealDeep : Theme.inkSoft)
                     Divider().padding(.leading, 18)
