@@ -102,7 +102,7 @@ struct PostProblemView: View {
             .padding(.horizontal, 20).padding(.bottom, 40)
         }
         .isoBackground()
-        .sheet(isPresented: $showGuide) { LaTeXGuideView() }
+        .sheet(isPresented: $showGuide) { LaTeXGuideView().roomySheet() }
         .sheet(isPresented: $showMap) {
             VStack(alignment: .leading, spacing: 8) {
                 HStack {
@@ -118,6 +118,7 @@ struct PostProblemView: View {
                 }
             }
             .isoBackground()
+            .roomySheet()
         }
         .alert("投稿しました", isPresented: $done) {
             Button("OK") { dismiss() }

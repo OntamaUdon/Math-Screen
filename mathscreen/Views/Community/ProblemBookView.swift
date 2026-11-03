@@ -131,9 +131,9 @@ struct ProblemBookView: View {
             try? await Task.sleep(for: .milliseconds(300))
             if !Task.isCancelled { search() }
         }
-        .sheet(item: $sheet) { src in ProblemListSheet(source: src) }
-        .sheet(item: $selected, onDismiss: { tick += 1 }) { item in ProblemDetailView(item: item, isMine: false) {} }
-        .sheet(isPresented: $showPost) { PostProblemView() }
+        .sheet(item: $sheet) { src in ProblemListSheet(source: src).roomySheet() }
+        .sheet(item: $selected, onDismiss: { tick += 1 }) { item in ProblemDetailView(item: item, isMine: false) {}.roomySheet() }
+        .sheet(isPresented: $showPost) { PostProblemView().roomySheet() }
     }
 
     /// 検索欄。問題文・単元名・分野名に、キーワードがすべて含まれる問題を探す。
@@ -322,7 +322,7 @@ struct ProblemListSheet: View {
         .isoBackground()
         .task { await load() }
         .sheet(item: $selected, onDismiss: { tick += 1 }) { item in
-            ProblemDetailView(item: item, isMine: source == .mine) { Task { await load() } }
+            ProblemDetailView(item: item, isMine: source == .mine) { Task { await load() } }.roomySheet()
         }
     }
 

@@ -65,6 +65,13 @@ struct Slab: View {
 }
 
 extension View {
+    /// 下から出てくる画面（シート）の高さを、画面の9割ほどにする。上に余白が残るので、
+    /// 端末によらず、上の余白をタップするか、下へ引いて戻せる。
+    func roomySheet() -> some View {
+        presentationDetents([.fraction(0.9)])
+            .presentationDragIndicator(.visible)
+    }
+
     /// 白いブロックのカード。
     func card(padding: CGFloat = 18, top: Color = Theme.surface, side: Color = Theme.surfaceSide, depth: CGFloat = 6) -> some View {
         self.padding(padding)

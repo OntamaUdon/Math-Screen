@@ -20,6 +20,7 @@ struct HomeView: View {
         }
         .sheet(item: $editing) { rule in
             RuleEditorView(rule: rule, isNew: !model.rules.contains { $0.id == rule.id })
+                .roomySheet()
         }
     }
 

@@ -87,7 +87,7 @@ struct PasscodeEntryView: View {
                 }
             }
         }
-        .presentationDetents([.large])
+        .presentationDetents([.fraction(0.9)])
         .interactiveDismissDisabled()
     }
 

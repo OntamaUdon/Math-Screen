@@ -23,7 +23,8 @@ struct GuardRule: Codable, Identifiable {
     static let mathCategories: Set<String> = ["elem", "junior", "math1a", "math2b", "math3c"]
     static let allCategories: Set<String> = mathCategories.union(
         ["eng_word", "eng_sentence", "soc_geo", "soc_hist", "soc_civ", "sci_bio", "sci_chem", "sci_phys", "sci_earth",
-         "ja_kanji", "ja_idiom", "ja_classic", "ja_grammar"])
+         "ja_kanji", "ja_idiom", "ja_classic", "ja_grammar",
+         "triv_math", "triv_eng", "triv_soc", "triv_sci", "triv_ja"])        // ノンジャンル（発展内容・難問）も、新しいルールの初期状態に入れる
 
     init(id: UUID = UUID(), selection: FamilyActivitySelection, thresholdMinutes: Int,
          questionCount: Int = 1, categories: Set<String> = GuardRule.allCategories,

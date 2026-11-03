@@ -208,6 +208,7 @@ struct RuleEditorView: View {
 struct RangeMapSheet: View {
     @Binding var selected: Set<String>
     @Environment(\.dismiss) private var dismiss
+    @State private var initial: Set<String> = []       // 開いたときの選択（空のまま閉じたときに戻す）
 
     private let root = BookMap.selector()
 
@@ -232,8 +233,12 @@ struct RangeMapSheet: View {
             HStack {
                 Text("出題する範囲").font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
                 Spacer()
-                Button("完了") { dismiss() }.font(Theme.font(16, .bold)).foregroundStyle(selected.isEmpty ? Theme.inkFaint : Theme.tealDeep)
-                    .disabled(selected.isEmpty)
+                Button(selected.isEmpty ? "もとに戻す" : "完了") {
+                    if selected.isEmpty { selected = initial }          // 何も選ばずに閉じたら、開いたときの選択に戻す
+                    dismiss()
+                }
+                .font(Theme.font(16, .bold)).foregroundStyle(Theme.tealDeep)
+                .frame(minHeight: 44)
             }
             .padding(.horizontal, 20).padding(.top, 24)
             Text(selected.isEmpty ? "チェックを付けて、出したい教科・単元を選んでください。" : "選んだ単元：\(selected.count)")
@@ -243,5 +248,6 @@ struct RangeMapSheet: View {
                         checkState: { state($0) }, onCheck: { toggle($0) }) { node in toggle(node) }
         }
         .isoBackground()
+        .onAppear { initial = selected }
     }
 }

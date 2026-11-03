@@ -192,6 +192,8 @@ enum Adaptive {
                info.prereqs.contains(where: { byUnit[$0] != nil && store.progress(unit: $0).level.rawValue < MasteryLevel.good.rawValue }) {
                 w *= 0.1
             }
+            // おまかせでは、ノンジャンル（発展内容・難問）は、ほかの単元よりやや出にくくする
+            if auto, UnitCatalog.info(uid)?.stage == "ノンジャンル" { w *= 0.25 }
             // 同じ単元が続かないようにして、いろいろな単元をまぜる（交互練習）
             if byUnit.count > 1, uid == lastUnit { w *= 0.5 }
             unitWeights.append((uid, w))

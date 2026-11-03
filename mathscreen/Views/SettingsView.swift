@@ -33,9 +33,9 @@ struct SettingsView: View {
         .confirmationDialog("パスコードを消しますか？", isPresented: $confirmClearPasscode, titleVisibility: .visible) {
             Button("消す", role: .destructive) { ParentLock.shared.clearPasscode() }
         }
-        .sheet(isPresented: $showGuide) { OnboardingView(replay: true) }
-        .sheet(isPresented: $showDiagnostics) { DiagnosticsView() }
-        .sheet(isPresented: $showPasscodeSetup) { PasscodeSetupView() }
+        .sheet(isPresented: $showGuide) { OnboardingView(replay: true).roomySheet() }
+        .sheet(isPresented: $showDiagnostics) { DiagnosticsView().roomySheet() }
+        .sheet(isPresented: $showPasscodeSetup) { PasscodeSetupView().roomySheet() }
     }
 
     private var lockedView: some View {
