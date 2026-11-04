@@ -39,11 +39,11 @@ struct ProblemSolverView: View {
         .animation(.easeOut(duration: 0.2), value: solved)
         .sensoryFeedback(.success, trigger: solved)
         .sensoryFeedback(.error, trigger: wrongCount)
-        .alert("Premium の機能です", isPresented: $showPremiumAlert) {
+        .alert("解くロックプランの機能です", isPresented: $showPremiumAlert) {
             Button("仮登録する（0円）") { model.setPremium(true) }
             Button("やめる", role: .cancel) {}
         } message: {
-            Text("問題の変更は、Premium で使えます。いまは、お金のかからない仮登録で試せます。")
+            Text("問題の変更は、解くロックプランで使えます。いまは、お金のかからない仮登録で試せます。")
         }
     }
 

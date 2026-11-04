@@ -48,8 +48,8 @@ struct SettingsView: View {
     }
 
     @ViewBuilder private var content: some View {
-            group("Premium", footer: "いまは、お金のかからない仮登録です。Premium では、過去の成績・問題の投稿・保護者用パスコードが使えます。") {
-                row("いまのプラン", value: model.isPremium ? "Premium（仮登録中）" : "無料",
+            group("解くロックプラン", footer: "いまは、お金のかからない仮登録です。解くロックプランでは、過去の成績・問題の投稿・保護者用パスコードが使えます。") {
+                row("いまのプラン", value: model.isPremium ? "解くロックプラン（仮登録中）" : "無料",
                     valueColor: model.isPremium ? Theme.tealDeep : Theme.inkSoft)
                 Divider().padding(.leading, 18)
                 action(model.isPremium ? "仮登録を解除する" : "仮登録する（0円）",
@@ -57,7 +57,7 @@ struct SettingsView: View {
             }
 
             if model.isPremium {
-                group("保護者用パスコード", footer: "ルールの変更・設定・Premium の管理を、パスコードで守ります。4回まちがえると、しばらく入力できなくなります（最後の入力から6時間たつと元に戻ります）。パスコードは、この端末の中だけに保存されます。") {
+                group("保護者用パスコード", footer: "ルールの変更・設定・プランの管理を、パスコードで守ります。4回まちがえると、しばらく入力できなくなります（最後の入力から6時間たつと元に戻ります）。パスコードは、この端末の中だけに保存されます。") {
                     row("パスコード", value: ParentLock.shared.hasPasscode ? "設定済み" : "未設定",
                         valueColor: ParentLock.shared.hasPasscode ? Theme.tealDeep : Theme.inkSoft)
                     Divider().padding(.leading, 18)

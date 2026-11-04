@@ -1,7 +1,7 @@
 import Foundation
 import StoreKit
 
-/// Premium の課金（StoreKit 2）。まだ画面にはつないでいない（設定の「仮登録」のまま）。
+/// 解くロックプランの課金（StoreKit 2）。まだ画面にはつないでいない（設定の「仮登録」のまま）。
 /// App Store Connect に下の商品を登録してから、設定画面とつなぐ。手順は docs/BILLING.md。
 @MainActor
 @Observable
@@ -9,8 +9,8 @@ final class Purchases {
     static let shared = Purchases()
 
     /// App Store Connect に登録する商品ID（自動更新サブスクリプション。同じグループに入れる）。
-    static let monthlyID = "com.ontamaudon.qlock.premium.monthly"      // 月300円
-    static let yearlyID = "com.ontamaudon.qlock.premium.yearly"        // 年2,400円
+    static let monthlyID = "com.ontamaudon.qlock.plan.monthly"      // 月300円
+    static let yearlyID = "com.ontamaudon.qlock.plan.yearly"        // 年2,400円
     private static let ids = [monthlyID, yearlyID]
 
     private(set) var products: [Product] = []
