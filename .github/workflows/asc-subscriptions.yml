@@ -1,0 +1,36 @@
+# コミットメッセージに [asc-check] を含めて push すると、App Store Connect を読むだけで調べる。
+# [asc-create] を含めて push すると、サブスクリプション（解くロックプラン）を作る。
+# Secrets は TestFlight と同じ（ASC_KEY_ID, ASC_ISSUER_ID, ASC_PRIVATE_KEY）。
+name: ASC subscriptions
+
+on:
+  push:
+    branches: ["claude/**"]
+
+jobs:
+  subscriptions:
+    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') }}
+    runs-on: ubuntu-latest
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Write API key
+        env:
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s' "$ASC_PRIVATE_KEY" > "$RUNNER_TEMP/keys/AuthKey.p8"
+          echo "KEY_PATH=$RUNNER_TEMP/keys/AuthKey.p8" >> "$GITHUB_ENV"
+          pip install --quiet pyjwt cryptography
+          python tools/normalize_key.py
+      - name: Check (read only)
+        if: ${{ contains(github.event.head_commit.message, '[asc-check]') }}
+        run: python tools/asc_subscriptions.py check
+      - name: Create subscriptions
+        if: ${{ contains(github.event.head_commit.message, '[asc-create]') }}
+        run: python tools/asc_subscriptions.py create
