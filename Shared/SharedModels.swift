@@ -220,6 +220,11 @@ enum SharedStore {
     }
 
     // MARK: 診断（拡張機能が動いたかどうかを、アプリの設定画面で確認するため）
+    /// 診断用の一言メモを、時刻つきで残す。
+    static func setDiagNote(_ key: String, _ text: String) {
+        let f = DateFormatter(); f.dateFormat = "M/d HH:mm:ss"
+        d.set("\(f.string(from: Date()))　\(text)", forKey: "diagNote.\(key)")
+    }
     static func diagNote(_ key: String) -> String? { d.string(forKey: "diagNote.\(key)") }
     static func recordDiag(_ key: String) { d.set(Date().timeIntervalSince1970, forKey: "diag.\(key)") }
     static func diagDate(_ key: String) -> Date? {

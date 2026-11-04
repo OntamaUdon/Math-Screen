@@ -7,12 +7,14 @@ final class DeviceActivityMonitorExtension: DeviceActivityMonitor {
     /// 毎日 0 時に監視の期間が始まる。進み具合を 0 に戻す。
     override func intervalDidStart(for activity: DeviceActivityName) {
         super.intervalDidStart(for: activity)
+        SharedStore.setDiagNote("monitorInterval", "今日の見守りが始まりました")
         if let rule = SharedStore.rule(forActivity: activity) { SharedStore.clearRuleProgress(ruleID: rule.id) }
     }
 
     override func eventDidReachThreshold(_ event: DeviceActivityEvent.Name, activity: DeviceActivityName) {
         super.eventDidReachThreshold(event, activity: activity)
         SharedStore.recordDiag("monitor")
+        SharedStore.setDiagNote("monitorEvent", "しきい値に達しました：\(event.rawValue.suffix(8))")
         guard let rule = SharedStore.rule(forActivity: activity), rule.isEnabled else { return }
 
         // 途中の節目（…p6 など）なら、進み具合を記録するだけで、ロックはかけない

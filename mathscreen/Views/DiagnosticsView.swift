@@ -1,4 +1,6 @@
 import SwiftUI
+import DeviceActivity
+import FamilyControls
 
 /// 診断：ブロック画面が出ないときに、どの部分が動いたかを確認する画面。
 struct DiagnosticsView: View {
@@ -31,12 +33,37 @@ struct DiagnosticsView: View {
                 }
                 .card(padding: 0)
 
+                VStack(spacing: 0) {
+                    note("許可", AuthorizationCenter.shared.authorizationStatus == .approved ? "許可済み" : "許可されていません")
+                    Divider().padding(.leading, 18)
+                    note("オンのルール", "\(AppModel.shared.rules.filter(\.isEnabled).count) 件")
+                    Divider().padding(.leading, 18)
+                    note("見守り中の数（iOS側）", "\(DeviceActivityCenter().activities.count) 件")
+                    Divider().padding(.leading, 18)
+                    note("見守りの開始", SharedStore.diagNote("monitorStart") ?? "まだ開始していません")
+                    Divider().padding(.leading, 18)
+                    note("今日の開始", SharedStore.diagNote("monitorInterval") ?? "まだ動いていません")
+                    Divider().padding(.leading, 18)
+                    note("しきい値", SharedStore.diagNote("monitorEvent") ?? "まだ動いていません")
+                }
+                .card(padding: 0)
+
                 Text("最後に動いた時刻です。「まだ動いていません」のままなら、その部分はまだ動いていません。")
                     .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
             }
             .padding(.horizontal, 20)
         }
         .isoBackground()
+    }
+
+    private func note(_ title: String, _ value: String) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(title).font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
+            Text(value).font(Theme.font(14, .semibold)).foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(.horizontal, 18).padding(.vertical, 12)
     }
 
     private func row(_ title: String, key: String) -> some View {

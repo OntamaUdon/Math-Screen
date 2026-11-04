@@ -47,7 +47,14 @@ enum MonitorScheduler {
         // ロックの本番のイベントに加えて、途中の節目（進み具合の表示用）のイベントも登録する
         var events: [DeviceActivityEvent.Name: DeviceActivityEvent] = [rule.eventName: event(minutes)]
         for m in progressMarks(minutes) { events[progressEventName(rule.id, m)] = event(m) }
-        try center.startMonitoring(rule.activityName, during: schedule, events: events)
+        do {
+            try center.startMonitoring(rule.activityName, during: schedule, events: events)
+            let sel = rule.selection
+            SharedStore.setDiagNote("monitorStart", "見守りを始めました：アプリ\(sel.applicationTokens.count)・カテゴリ\(sel.categoryTokens.count)・サイト\(sel.webDomainTokens.count)、\(minutes)分")
+        } catch {
+            SharedStore.setDiagNote("monitorStart", "見守りを始められませんでした：\(error.localizedDescription)")
+            throw error
+        }
     }
 
     /// 制限の10分の1ずつの節目（分）。例：60分なら 6, 12, …, 54。5分なら 1, 2, 3, 4。1分は無し。
