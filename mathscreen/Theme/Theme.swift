@@ -41,8 +41,10 @@ enum Theme {
 
     static let radius: CGFloat = 8
 
+    /// iPhone の「文字サイズ」設定に合わせて大きさを変える。画面が崩れないよう、大きくなるのは 1.3 倍まで。
     static func font(_ size: CGFloat, _ weight: Font.Weight = .regular) -> Font {
-        .system(size: size, weight: weight, design: .rounded)
+        let scaled = min(UIFontMetrics.default.scaledValue(for: size), size * 1.3)
+        return .system(size: scaled, weight: weight, design: .rounded)
     }
 }
 

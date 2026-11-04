@@ -26,6 +26,12 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
         UNUserNotificationCenter.current().delegate = self
+        // 問題データ（約7MB）の読み込みを、画面を出しながら裏で始める
+        Task.detached(priority: .utility) {
+            _ = ProblemBank.all
+            _ = UnitCatalog.problemCount
+            _ = UnitCatalog.categories
+        }
         return true
     }
 

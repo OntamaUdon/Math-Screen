@@ -86,6 +86,18 @@ struct SettingsView: View {
                     .disabled(!model.isLocked)
             }
 
+            if LegalLinks.privacy != nil || LegalLinks.terms != nil {
+                group("規約など") {
+                    if let url = LegalLinks.terms {
+                        link("利用規約") { UIApplication.shared.open(url) }
+                    }
+                    if LegalLinks.terms != nil && LegalLinks.privacy != nil { Divider().padding(.leading, 18) }
+                    if let url = LegalLinks.privacy {
+                        link("プライバシーポリシー") { UIApplication.shared.open(url) }
+                    }
+                }
+            }
+
             group("このアプリについて") {
                 link("使い方を見る") { showGuide = true }
                 Divider().padding(.leading, 18)

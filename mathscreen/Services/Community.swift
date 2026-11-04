@@ -163,15 +163,24 @@ actor Community {
 
     // MARK: 機能
     /// 公開済みの問題。ブロックした人の投稿は除く。
+    /// 承認された投稿をすべて取る。100件ずつ、最大2,000件まで。
     func approved() async throws -> [CommunityRow] {
-        let data = try await send("GET", "rest/v1/community_problems", query: [
-            URLQueryItem(name: "select", value: "*"),
-            URLQueryItem(name: "status", value: "eq.approved"),
-            URLQueryItem(name: "order", value: "created_at.desc"),
-            URLQueryItem(name: "limit", value: "100"),
-        ])
+        var all: [CommunityRow] = []
+        let pageSize = 100
+        for page in 0..<20 {
+            let data = try await send("GET", "rest/v1/community_problems", query: [
+                URLQueryItem(name: "select", value: "*"),
+                URLQueryItem(name: "status", value: "eq.approved"),
+                URLQueryItem(name: "order", value: "created_at.desc,id.desc"),
+                URLQueryItem(name: "limit", value: "\(pageSize)"),
+                URLQueryItem(name: "offset", value: "\(page * pageSize)"),
+            ])
+            let rows = try decodeRows(data)
+            all += rows
+            if rows.count < pageSize { break }
+        }
         let blocked = Set(try await blockedAuthors())
-        return try decodeRows(data).filter { !blocked.contains($0.author) }
+        return all.filter { !blocked.contains($0.author) }
     }
 
     func mine() async throws -> [CommunityRow] {
