@@ -4,13 +4,32 @@ import ManagedSettings
 import DeviceActivity
 import UserNotifications
 
+/// 「解くロック」自身（と、その拡張機能）は、ロックの対象にしない。
+/// ロックされると、問題を解くためにアプリを開けなくなってしまうため。
+enum SelfExclusion {
+    static let bundleID = "com.ontamaudon.qlock"
+
+    /// 自分のアプリのトークン（取れたら）。カテゴリを選んだときに、その中から自分を除くのに使う。
+    static var ownToken: ApplicationToken? { Application(bundleIdentifier: bundleID).token }
+
+    /// 選んだアプリのうち、自分のものを取りのぞく。
+    static func strip(_ tokens: Set<ApplicationToken>) -> Set<ApplicationToken> {
+        tokens.filter { token in
+            guard let id = Application(token: token).bundleIdentifier else { return true }
+            return !id.hasPrefix(bundleID)
+        }
+    }
+}
+
 /// 対象アプリへのシールド（ブロック画面）の付け外し。
 enum ShieldController {
     static func lock(_ rule: GuardRule) {
         let store = ManagedSettingsStore(named: rule.storeName)
         let s = rule.selection
-        store.shield.applications = s.applicationTokens.isEmpty ? nil : s.applicationTokens
-        store.shield.applicationCategories = s.categoryTokens.isEmpty ? nil : .specific(s.categoryTokens)
+        let apps = SelfExclusion.strip(s.applicationTokens)
+        let own: Set<ApplicationToken> = SelfExclusion.ownToken.map { [$0] } ?? []
+        store.shield.applications = apps.isEmpty ? nil : apps
+        store.shield.applicationCategories = s.categoryTokens.isEmpty ? nil : .specific(s.categoryTokens, except: own)
         store.shield.webDomains = s.webDomainTokens.isEmpty ? nil : s.webDomainTokens
         store.shield.webDomainCategories = s.categoryTokens.isEmpty ? nil : .specific(s.categoryTokens)
     }

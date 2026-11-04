@@ -141,6 +141,7 @@ final class AppModel {
     // MARK: ルール
     func save(_ rule: GuardRule) {
         var rule = rule
+        rule.selection.applicationTokens = SelfExclusion.strip(rule.selection.applicationTokens)      // 解くロック自身は対象にしない
         // 同じ条件（時間・問題数・出題する分野・難しさ）のルールがすでにあれば、アプリを足して1つにまとめる
         if let i = rules.firstIndex(where: { $0.id != rule.id && $0.thresholdMinutes == rule.thresholdMinutes
                                               && $0.questionCount == rule.questionCount && $0.categories == rule.categories

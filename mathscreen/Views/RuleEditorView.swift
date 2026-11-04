@@ -46,6 +46,8 @@ struct RuleEditorView: View {
                         .padding(.horizontal, 16).padding(.vertical, 8)
                     }
                     .buttonStyle(IsoButtonStyle(kind: rule.itemCount == 0 ? .alert : .primary))
+                    Text("「解くロック」自身は、選んでも対象になりません。")
+                        .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
                     if !rule.selection.applicationTokens.isEmpty {
                         ScrollView(.horizontal) {
                             HStack(spacing: 10) {
