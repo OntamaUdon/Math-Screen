@@ -1,0 +1,10 @@
+# GitHub Pages（このフォルダを公開）用の設定。
+# 公開するのは、index.html・privacy.html・terms.html だけ。内部のメモ（.md）は公開しない。
+title: 解くロック
+exclude:
+  - BACKEND.md
+  - BILLING.md
+  - PRIVACY.md
+  - SETUP.md
+  - TERMS.md
+  - UNITS.md
