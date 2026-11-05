@@ -194,6 +194,24 @@ def japan_only():
         print(f"{pid}: 販売地域を {len(before)} か国・地域から、日本だけにしました")
 
 
+def all_territories():
+    """すべての商品の販売地域を、すべての国・地域にそろえる（新しく増える国・地域にも自動で広げる）。"""
+    app_id = find_app()
+    groups, subs = existing(app_id)
+    terr = [t["id"] for t in get_all("/territories?limit=200")]
+    for pid, *_ in PLANS:
+        if pid not in subs:
+            print(f"商品がありません: {pid}"); continue
+        sid = subs[pid][0]
+        av = parts(sid)["availability"]
+        before = [t["id"] for t in get_all(f"/subscriptionAvailabilities/{av['id']}/availableTerritories?limit=200")] if av else []
+        must(*call("POST", "/subscriptionAvailabilities", {"data": {"type": "subscriptionAvailabilities",
+            "attributes": {"availableInNewTerritories": True},
+            "relationships": {"subscription": {"data": {"type": "subscriptions", "id": sid}},
+                              "availableTerritories": {"data": [{"type": "territories", "id": t} for t in terr]}}}}), f"販売地域を全地域に {pid}")
+        print(f"{pid}: 販売地域を {len(before)} か国・地域から、{len(terr)} か国・地域（全地域）にしました")
+
+
 def create():
     app_id = find_app()
     groups, subs = existing(app_id)
@@ -296,4 +314,4 @@ def all_prices():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
-    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot, "all-prices": all_prices}[mode]()
+    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot, "all-prices": all_prices, "all-territories": all_territories}[mode]()
