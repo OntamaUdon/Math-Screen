@@ -135,6 +135,12 @@ def review_shot():
         if pid not in subs:
             print(f"商品がありません: {pid}"); continue
         sid = subs[pid][0]
+        # 日本語の説明を、いまの文に合わせる
+        for loc in get_all(f"/subscriptions/{sid}/subscriptionLocalizations"):
+            if loc["attributes"]["locale"] == "ja":
+                desc = next(p[5] for p in PLANS if p[0] == pid)
+                must(*call("PATCH", f"/subscriptionLocalizations/{loc['id']}", {"data": {"type": "subscriptionLocalizations",
+                    "id": loc["id"], "attributes": {"description": desc}}}), f"説明 {pid}")
         # 審査メモ
         must(*call("PATCH", f"/subscriptions/{sid}", {"data": {"type": "subscriptions", "id": sid,
             "attributes": {"reviewNote": REVIEW_NOTE}}}), f"審査メモ {pid}")
