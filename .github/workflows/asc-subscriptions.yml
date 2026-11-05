@@ -25,7 +25,8 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/keys"
           printf '%s' "$ASC_PRIVATE_KEY" > "$RUNNER_TEMP/keys/AuthKey.p8"
-          echo "KEY_PATH=$RUNNER_TEMP/keys/AuthKey.p8" >> "$GITHUB_ENV"
+          export KEY_PATH="$RUNNER_TEMP/keys/AuthKey.p8"
+          echo "KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
           pip install --quiet pyjwt cryptography
           python tools/normalize_key.py
       - name: Check (read only)
