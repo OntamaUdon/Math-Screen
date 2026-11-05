@@ -84,6 +84,10 @@ def detail(sid):
     pr = parts(sid)
     print("  日本語の表示名:", [(l["attributes"]["locale"], l["attributes"]["name"]) for l in pr["localizations"]] or "なし")
     print(f"  価格の設定: {len(pr['prices'])} 件")
+    st2, rs = call("GET", f"/subscriptions/{sid}/appStoreReviewScreenshot")
+    shot = rs.get("data") if st2 == 200 else None
+    print("  審査用の画像:", (shot["attributes"].get("assetDeliveryState") or {}).get("state") if shot else "なし",
+          "／ 審査メモ:", "あり" if a.get("reviewNote") else "なし", "／ 家族共有:", a.get("familySharable"), "／ 段階:", a.get("groupLevel"))
     print("  無料トライアル:", [(o["attributes"].get("offerMode"), o["attributes"].get("duration")) for o in pr["offers"]] or "なし")
     av = pr["availability"]
     if av:
