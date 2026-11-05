@@ -9,7 +9,7 @@ on:
 
 jobs:
   subscriptions:
-    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') || contains(github.event.head_commit.message, '[asc-listing]') || contains(github.event.head_commit.message, '[asc-shots]') || contains(github.event.head_commit.message, '[asc-listing-check]') }}
+    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') || contains(github.event.head_commit.message, '[asc-prices]') || contains(github.event.head_commit.message, '[asc-listing]') || contains(github.event.head_commit.message, '[asc-shots]') || contains(github.event.head_commit.message, '[asc-listing-check]') }}
     runs-on: ubuntu-latest
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
@@ -38,6 +38,9 @@ jobs:
       - name: Upload review screenshot and note
         if: ${{ contains(github.event.head_commit.message, '[asc-review-shot]') }}
         run: python tools/asc_subscriptions.py review-shot
+      - name: Add prices for all territories (availability unchanged)
+        if: ${{ contains(github.event.head_commit.message, '[asc-prices]') }}
+        run: python tools/asc_subscriptions.py all-prices
       - name: Check (read only)
         if: ${{ contains(github.event.head_commit.message, '[asc-check]') }}
         run: python tools/asc_subscriptions.py check

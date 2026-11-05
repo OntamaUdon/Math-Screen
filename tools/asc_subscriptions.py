@@ -259,6 +259,41 @@ def create():
     print("完了しました。審査用のスクリーンショットは、まだ入っていません。")
 
 
+def all_prices():
+    """年額など、日本の価格しか入っていない商品に、ほかの国・地域の価格も入れる（月額と同じ状態にする）。
+    ほかの国の価格は、日本の価格に相当する金額を、Apple の対応表（equalizations）から取る。販売地域は変えない。"""
+    app_id = find_app()
+    groups, subs = existing(app_id)
+    for pid, _, _, yen, *_ in PLANS:
+        if pid not in subs:
+            continue
+        sid = subs[pid][0]
+        have = {p["relationships"]["territory"]["data"]["id"] for p in get_all(f"/subscriptions/{sid}/prices?limit=200&include=territory")
+                if p.get("relationships", {}).get("territory", {}).get("data")}
+        if len(have) > 1:
+            print(f"{pid}: すでに {len(have)} か国・地域の価格があります。何もしません")
+            continue
+        jp = price_point(sid, yen)
+        if not jp:
+            print(f"::error::日本の {yen} 円の価格が見つかりません（{pid}）"); sys.exit(1)
+        points = get_all(f"/subscriptionPricePoints/{jp}/equalizations?limit=200&include=territory")
+        done = 0
+        for pt in points:
+            t = pt.get("relationships", {}).get("territory", {}).get("data", {}).get("id")
+            if not t or t in have:
+                continue
+            st, res = call("POST", "/subscriptionPrices", {"data": {"type": "subscriptionPrices",
+                "attributes": {"preserveCurrentPrice": False},
+                "relationships": {"subscription": {"data": {"type": "subscriptions", "id": sid}},
+                                  "subscriptionPricePoint": {"data": {"type": "subscriptionPricePoints", "id": pt["id"]}},
+                                  "territory": {"data": {"type": "territories", "id": t}}}}})
+            if st in (200, 201):
+                done += 1
+            else:
+                print(f"  {t}: 入れられませんでした（{st}）")
+        print(f"{pid}: {done} か国・地域の価格を足しました")
+
+
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
-    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot}[mode]()
+    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot, "all-prices": all_prices}[mode]()
