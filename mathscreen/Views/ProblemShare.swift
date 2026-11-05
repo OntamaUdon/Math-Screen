@@ -12,7 +12,7 @@ import UIKit
     static func set(_ on: Bool) { UserDefaults.standard.set(on, forKey: key) }
 
     /// 共有する文に入れるアプリの URL。App Store の URL が決まったら、ここに入れる。空なら入れない。
-    static let appURL = ""
+    nonisolated static let appURL = ""
 }
 
 enum ShareKind {
