@@ -52,4 +52,4 @@
 
 ## 8. お問い合わせ
 
-（連絡先を入れる）
+白井貫太　tokulock.app.dev@gmail.com

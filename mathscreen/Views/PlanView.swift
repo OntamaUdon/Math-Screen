@@ -5,6 +5,8 @@ import StoreKit
 struct PlanView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(AppModel.self) private var model
+    /// スクリーンショット用：商品の情報を読み込まずに、見本の価格を出す（審査用の画像を撮るときだけ）。
+    var sample = false
     private let purchases = Purchases.shared
 
     var body: some View {
@@ -74,7 +76,12 @@ struct PlanView: View {
     }
 
     @ViewBuilder private var products: some View {
-        if purchases.products.isEmpty {
+        if sample {
+            VStack(spacing: 14) {
+                sampleButton("月額　¥300 / 月", "最初の7日間は無料", primary: false)
+                sampleButton("年額　¥2,400 / 年", "最初の7日間は無料（月あたり約200円）", primary: true)
+            }
+        } else if purchases.products.isEmpty {
             VStack(alignment: .leading, spacing: 10) {
                 Text(purchases.message == nil ? "プランの情報を読み込み中です…" : "プランの情報を読み込めませんでした。")
                     .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
@@ -96,6 +103,17 @@ struct PlanView: View {
                 }
             }
         }
+    }
+
+    private func sampleButton(_ title: String, _ detail: String, primary: Bool) -> some View {
+        Button {} label: {
+            VStack(spacing: 2) {
+                Text(title).font(Theme.font(17, .bold))
+                Text(detail).font(Theme.font(13)).opacity(0.9)
+            }
+            .frame(maxWidth: .infinity)
+        }
+        .buttonStyle(primary ? .primary : .secondary)
     }
 
     private func title(_ p: Product) -> String {

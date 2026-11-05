@@ -9,8 +9,10 @@ struct MathScreenApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environment(model)
+            Group {
+                if ScreenshotMode.scene == "plan" { PlanView(sample: true) } else { RootView() }
+            }
+            .environment(model)
                 .preferredColorScheme(.light)
                 .task { Purchases.shared.start() }
                 .onOpenURL { url in
