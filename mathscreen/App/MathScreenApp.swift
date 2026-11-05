@@ -7,10 +7,19 @@ struct MathScreenApp: App {
     @Environment(\.scenePhase) private var scenePhase
     @State private var model = AppModel.shared
 
+    init() { ScreenshotMode.seed() }
+
     var body: some Scene {
         WindowGroup {
             Group {
-                if ScreenshotMode.scene == "plan" { PlanView(sample: true) } else { RootView() }
+                switch ScreenshotMode.scene {
+                case "plan": PlanView(sample: true)
+                case "home": MainTabView(initial: 0)
+                case "book": MainTabView(initial: 1)
+                case "stats": MainTabView(initial: 2)
+                case "solve": ScreenshotSolveView()
+                default: RootView()
+                }
             }
             .environment(model)
                 .preferredColorScheme(.light)

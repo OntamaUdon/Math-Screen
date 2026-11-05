@@ -37,7 +37,7 @@ final class AppModel {
         bestStreak = SharedStore.bestStreak
         hasOnboarded = SharedStore.hasOnboarded
         // 契約中か。TestFlight のときだけ、設定の「テスト用：無料で使う」でも使える。
-        isPremium = Purchases.shared.isSubscribed || (Purchases.isTestFlight && SharedStore.isPremium)
+        isPremium = Purchases.shared.isSubscribed || (Purchases.isTestFlight && SharedStore.isPremium) || ScreenshotMode.active
         ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
         ParentLock.recordAuthorization(approved: authorization == .approved)

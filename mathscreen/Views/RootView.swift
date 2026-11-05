@@ -29,12 +29,15 @@ struct RootView: View {
 }
 
 struct MainTabView: View {
+    @State private var tab: Int
+    init(initial: Int = 0) { _tab = State(initialValue: initial) }
+
     var body: some View {
-        TabView {
-            HomeView().tabItem { Label("ホーム", systemImage: "house") }
-            ProblemBookView().tabItem { Label("問題集", systemImage: "books.vertical") }
-            StatsView().tabItem { Label("記録", systemImage: "chart.bar") }
-            SettingsView().tabItem { Label("設定", systemImage: "gearshape") }
+        TabView(selection: $tab) {
+            HomeView().tabItem { Label("ホーム", systemImage: "house") }.tag(0)
+            ProblemBookView().tabItem { Label("問題集", systemImage: "books.vertical") }.tag(1)
+            StatsView().tabItem { Label("記録", systemImage: "chart.bar") }.tag(2)
+            SettingsView().tabItem { Label("設定", systemImage: "gearshape") }.tag(3)
         }
         .tint(Theme.tealDeep)
     }

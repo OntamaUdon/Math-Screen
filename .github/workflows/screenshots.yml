@@ -41,10 +41,13 @@ jobs:
           echo "app: $APP"
           xcrun simctl install "$UDID" "$APP"
           mkdir -p store/screenshots
-          xcrun simctl launch "$UDID" com.ontamaudon.qlock -screenshot plan
-          sleep 8
-          xcrun simctl io "$UDID" screenshot store/screenshots/plan.png
-          sips -g pixelWidth -g pixelHeight store/screenshots/plan.png
+          for scene in home book solve stats plan; do
+            xcrun simctl terminate "$UDID" com.ontamaudon.qlock 2>/dev/null || true
+            xcrun simctl launch "$UDID" com.ontamaudon.qlock -screenshot "$scene"
+            sleep 10
+            xcrun simctl io "$UDID" screenshot "store/screenshots/$scene.png"
+            sips -g pixelWidth -g pixelHeight "store/screenshots/$scene.png" | tail -2
+          done
       - name: Commit the images
         run: |
           git config user.name "github-actions"

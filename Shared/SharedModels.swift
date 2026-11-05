@@ -194,6 +194,10 @@ enum SharedStore {
         return v
     }
 
+    static func saveDaily(_ all: [String: DailyStats]) {
+        if let data = try? JSONEncoder().encode(all) { d.set(data, forKey: Key.daily) }
+    }
+
     static func updateToday(_ change: (inout DailyStats) -> Void) {
         var all = loadDaily()
         let key = dayKey()

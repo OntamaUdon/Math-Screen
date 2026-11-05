@@ -104,7 +104,8 @@ struct ProblemBookView: View {
                 searchField.padding(.horizontal, 20)
 
                 if trimmedQuery.isEmpty {
-                    MindMapView(root: BookMap.browse(premium: model.isPremium), openPath: ["root"]) { node in
+                    MindMapView(root: BookMap.browse(premium: model.isPremium),
+                                openPath: ScreenshotMode.scene == "book" ? ["root", "sub:math", "st:math:中学"] : ["root"]) { node in
                         if node.id.hasPrefix("u:") { sheet = .unit(String(node.id.dropFirst(2))) }
                         else if node.id == "posts" { sheet = .community }
                     }
