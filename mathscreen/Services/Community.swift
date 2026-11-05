@@ -1,6 +1,6 @@
 import Foundation
 
-/// コミュニティ投稿（Supabase）への接続設定。公開前提の値（publishable key）なのでアプリに入れてよい。
+/// 正答率の集計（Supabase）への接続設定。公開前提の値（publishable key）なのでアプリに入れてよい。
 enum CommunityConfig {
     static let baseURL = URL(string: "https://htimtxhdxbzmohgwqtyj.supabase.co")!
     static let key = "sb_publishable_hioC3yo3fUazs_5rG6ORZw_w0jmXNWd"
@@ -11,57 +11,7 @@ struct CommunityError: LocalizedError {
     var errorDescription: String? { message }
 }
 
-/// サーバーに保存された投稿1件。
-struct CommunityRow: Codable, Identifiable, Hashable {
-    let id: String
-    let author: String
-    let genre: String
-    let difficulty: Int
-    let title: String
-    let body: String
-    let plain: String
-    let answer: String
-    let explanation: String
-    let choices: [String]?
-    let status: String
-    let reviewNote: String?
-
-    /// アプリ内の問題として解くための形に変換。
-    var problem: Problem? {
-        guard let a = Int(answer) else { return nil }
-        return Problem(id: "c-" + id, category: genre, difficulty: difficulty, title: title, body: body,
-                       plain: plain, answer: a, explanation: explanation, choices: choices, unit: nil, rate: nil)
-    }
-
-    /// ルールの出題に使うときの形。単元は「community:教科」にする。
-    func problem(unit: String) -> Problem? {
-        guard let a = Int(answer) else { return nil }
-        return Problem(id: "c-" + id, category: genre, difficulty: difficulty, title: title, body: body,
-                       plain: plain, answer: a, explanation: explanation, choices: choices, unit: unit, rate: nil)
-    }
-
-    var statusLabel: String {
-        switch status {
-        case "approved": "公開中"
-        case "rejected": "却下"
-        case "flagged": "非公開（通報）"
-        default: "審査待ち"
-        }
-    }
-}
-
-struct NewPost: Encodable {
-    var genre: String
-    var difficulty: Int
-    var title: String
-    var body: String
-    var plain: String
-    var answer: String
-    var explanation: String
-    var choices: [String]?
-}
-
-/// 匿名ログインで始める、Supabase の REST への小さなクライアント。
+/// 匿名ログインで始める、正答率の集計用の Supabase REST クライアント。
 actor Community {
     static let shared = Community()
 
@@ -126,8 +76,6 @@ actor Community {
         return try await signUp()
     }
 
-    func userID() async throws -> String { try await validSession().userID }
-
     // MARK: 通信
     private func send(_ method: String, _ path: String, query: [URLQueryItem] = [], body: Data? = nil,
                       auth: Bool = true, prefer: String? = nil) async throws -> Data {
@@ -153,64 +101,6 @@ actor Community {
             throw CommunityError(message: "うまくいきませんでした（コード \(code)）\(detail.isEmpty ? "" : "：" + detail)")
         }
         return data
-    }
-
-    private func decodeRows(_ data: Data) throws -> [CommunityRow] {
-        let d = JSONDecoder()
-        d.keyDecodingStrategy = .convertFromSnakeCase
-        return try d.decode([CommunityRow].self, from: data)
-    }
-
-    // MARK: 機能
-    /// 公開済みの問題。ブロックした人の投稿は除く。
-    /// 承認された投稿をすべて取る。100件ずつ、最大2,000件まで。
-    func approved() async throws -> [CommunityRow] {
-        var all: [CommunityRow] = []
-        let pageSize = 100
-        for page in 0..<20 {
-            let data = try await send("GET", "rest/v1/community_problems", query: [
-                URLQueryItem(name: "select", value: "*"),
-                URLQueryItem(name: "status", value: "eq.approved"),
-                URLQueryItem(name: "order", value: "created_at.desc,id.desc"),
-                URLQueryItem(name: "limit", value: "\(pageSize)"),
-                URLQueryItem(name: "offset", value: "\(page * pageSize)"),
-            ])
-            let rows = try decodeRows(data)
-            all += rows
-            if rows.count < pageSize { break }
-        }
-        let blocked = Set(try await blockedAuthors())
-        return all.filter { !blocked.contains($0.author) }
-    }
-
-    func mine() async throws -> [CommunityRow] {
-        let uid = try await userID()
-        let data = try await send("GET", "rest/v1/community_problems", query: [
-            URLQueryItem(name: "select", value: "*"),
-            URLQueryItem(name: "author", value: "eq.\(uid)"),
-            URLQueryItem(name: "order", value: "created_at.desc"),
-        ])
-        return try decodeRows(data)
-    }
-
-    func post(_ p: NewPost) async throws {
-        let e = JSONEncoder()
-        e.keyEncodingStrategy = .convertToSnakeCase
-        _ = try await send("POST", "rest/v1/community_problems", body: try e.encode(p), prefer: "return=minimal")
-    }
-
-    func deletePost(_ id: String) async throws {
-        _ = try await send("DELETE", "rest/v1/community_problems", query: [URLQueryItem(name: "id", value: "eq.\(id)")])
-    }
-
-    func report(_ problemID: String, reason: String) async throws {
-        let body = try JSONSerialization.data(withJSONObject: ["problem_id": problemID, "reason": reason])
-        _ = try await send("POST", "rest/v1/problem_reports", body: body, prefer: "return=minimal")
-    }
-
-    func block(_ author: String) async throws {
-        let body = try JSONSerialization.data(withJSONObject: ["blocked": author])
-        _ = try await send("POST", "rest/v1/user_blocks", body: body, prefer: "return=minimal")
     }
 
     // MARK: 正答率の集計（問題ごと。1回目の解答だけを数える）
@@ -248,17 +138,5 @@ actor Community {
         let rows = (try? JSONSerialization.jsonObject(with: data) as? [[String: Int]]) ?? []
         guard let r = rows.first, let s = r["shown"], let c = r["correct"] else { return nil }
         return (s, c)
-    }
-
-    private func blockedAuthors() async throws -> [String] {
-        let data = try await send("GET", "rest/v1/user_blocks", query: [URLQueryItem(name: "select", value: "blocked")])
-        let rows = (try? JSONSerialization.jsonObject(with: data) as? [[String: String]]) ?? []
-        return rows.compactMap { $0["blocked"] }
-    }
-
-    /// 自分の投稿・通報・ブロックをサーバーから消し、この端末の匿名アカウントも手放す。
-    func deleteMyData() async throws {
-        _ = try await send("POST", "rest/v1/rpc/delete_my_data", body: Data("{}".utf8))
-        store(nil)
     }
 }

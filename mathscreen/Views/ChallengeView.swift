@@ -89,6 +89,6 @@ struct ChallengeView: View {
             problem = pending
             return
         }
-        problem = Adaptive.pick(categories: model.challengeCategories, units: model.challengeUnits, community: model.challengeCommunity, excluding: problem?.id)
+        problem = Adaptive.pick(categories: model.challengeCategories, units: model.challengeUnits, excluding: problem?.id)
     }
 }

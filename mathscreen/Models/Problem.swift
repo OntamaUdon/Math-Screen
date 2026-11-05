@@ -113,11 +113,8 @@ enum ProblemBank {
         return problems
     }()
 
-    /// id から問題を探す。内蔵の問題のほか、保存してある「みんなの問題」も探す。
-    static func find(_ id: String) -> Problem? {
-        if let p = all.first(where: { $0.id == id }) { return p }
-        return id.hasPrefix("c-") ? CommunityCache.shared.problem(id: id) : nil
-    }
+    /// id から問題を探す。
+    static func find(_ id: String) -> Problem? { all.first(where: { $0.id == id }) }
 
     static func candidates(categories: Set<String>, difficulties: Set<Int>) -> [Problem] {
         all.filter { categories.contains($0.category) && difficulties.contains($0.difficulty) }

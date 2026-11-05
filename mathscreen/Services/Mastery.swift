@@ -142,12 +142,9 @@ final class MasteryStore {
 
 /// 出す問題の選び方：できていない単元を優先し、できてきたら難しい問題へ、先に身につけたい単元ができたら次の単元へ。
 enum Adaptive {
-    /// `units` に「community:教科」が入っているか、`community` で渡されると、承認された「みんなの問題」もまぜる。
-    static func pick(categories: Set<String>, units: Set<String>, community: Set<String> = [], excluding current: String? = nil) -> Problem? {
+    static func pick(categories: Set<String>, units: Set<String>, excluding current: String? = nil) -> Problem? {
         let store = MasteryStore.shared
-        let commIDs = community.union(units.filter(CommunityCache.isCommunity))
         var pool = ProblemBank.all.filter { categories.contains($0.category) && (units.isEmpty || units.contains($0.unit ?? "")) }
-        pool += CommunityCache.shared.problems(for: commIDs)
         if pool.isEmpty { pool = ProblemBank.all.filter { categories.contains($0.category) } }
         if pool.isEmpty { return ProblemBank.pick(categories: categories, difficulties: [1, 2, 3], excluding: current) }
 
@@ -260,7 +257,7 @@ final class DifficultyStore {
 
     /// 全員の1発正解率の見積もり（0...1）。大きいほど易しい。
     func correctRate(_ p: Problem) -> Double {
-        let prior: Double = p.rate.map { $0 / 10 } ?? 0.6          // 見積もりがない問題（みんなの投稿）は 6 割
+        let prior: Double = p.rate.map { $0 / 10 } ?? 0.6          // 見積もりがない問題は 6 割
         let s = stats[p.id] ?? [0, 0]
         return (Double(s[1]) + 5 * prior) / (Double(s[0]) + 5)
     }
@@ -321,48 +318,5 @@ final class ProblemMarkStore {
         guard (marks[id] ?? 0) < mark.rawValue else { return }
         marks[id] = mark.rawValue
         UserDefaults.standard.set(marks, forKey: Self.key)
-    }
-}
-
-
-/// 承認された「みんなの問題」を端末に保存しておく。ルールの出題範囲で選ばれたときに使う。
-final class CommunityCache {
-    static let shared = CommunityCache()
-    static let prefix = "community:"
-    private static let key = "community.cache.v1"
-    private static let stampKey = "community.cache.at"
-    private var rows: [CommunityRow]
-
-    private init() {
-        if let raw = UserDefaults.standard.data(forKey: Self.key),
-           let r = try? JSONDecoder().decode([CommunityRow].self, from: raw) { rows = r } else { rows = [] }
-    }
-
-    static func isCommunity(_ unitID: String) -> Bool { unitID.hasPrefix(prefix) }
-
-    /// 「community:math」のような単元の指定に合う、承認済みの問題。
-    func problems(for ids: Set<String>) -> [Problem] {
-        guard !ids.isEmpty else { return [] }
-        return rows.compactMap { row in
-            let subject = ProblemCategory(rawValue: row.genre)?.subject.rawValue ?? Subject.general.rawValue
-            let unit = Self.prefix + subject
-            return ids.contains(unit) ? row.problem(unit: unit) : nil
-        }
-    }
-
-    func problem(id: String) -> Problem? {
-        guard let row = rows.first(where: { "c-" + $0.id == id }) else { return nil }
-        let subject = ProblemCategory(rawValue: row.genre)?.subject.rawValue ?? Subject.general.rawValue
-        return row.problem(unit: Self.prefix + subject)
-    }
-
-    /// 6時間に1回、サーバーから取り直す（ネットにつながらないときは、前回のものを使う）。
-    func refreshIfNeeded() async {
-        let last = UserDefaults.standard.double(forKey: Self.stampKey)
-        guard Date().timeIntervalSince1970 - last > 6 * 3600 else { return }
-        guard let fresh = try? await Community.shared.approved() else { return }
-        rows = fresh
-        if let raw = try? JSONEncoder().encode(fresh) { UserDefaults.standard.set(raw, forKey: Self.key) }
-        UserDefaults.standard.set(Date().timeIntervalSince1970, forKey: Self.stampKey)
     }
 }

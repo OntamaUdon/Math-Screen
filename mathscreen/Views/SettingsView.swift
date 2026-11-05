@@ -6,8 +6,6 @@ struct SettingsView: View {
     @State private var confirmEmergency = false
     @State private var showGuide = false
     @State private var showDiagnostics = false
-    @State private var confirmDeleteData = false
-    @State private var dataMessage: String?
     @State private var showPasscodeSetup = false
     @State private var confirmClearPasscode = false
 
@@ -21,14 +19,6 @@ struct SettingsView: View {
             Button("緊急解除しない", role: .cancel) {}
         } message: {
             Text("問題を解かずにすべての制限を外します。記録には「緊急解除」として残ります。")
-        }
-        .confirmationDialog("投稿したデータをすべて削除しますか？", isPresented: $confirmDeleteData, titleVisibility: .visible) {
-            Button("削除する", role: .destructive) {
-                Task {
-                    do { try await Community.shared.deleteMyData(); dataMessage = "削除しました。" }
-                    catch { dataMessage = error.localizedDescription }
-                }
-            }
         }
         .confirmationDialog("パスコードを消しますか？", isPresented: $confirmClearPasscode, titleVisibility: .visible) {
             Button("消す", role: .destructive) { ParentLock.shared.clearPasscode() }
@@ -111,10 +101,6 @@ struct SettingsView: View {
                         }
                     }
                 }
-            }
-
-            group("コミュニティ", footer: dataMessage ?? "投稿した問題・通報・ブロックの記録をサーバーから消します。ほかの人の画面からも消えます。") {
-                action("投稿したデータをすべて削除", color: Theme.danger) { confirmDeleteData = true }
             }
 
             group("もしものとき", footer: "制限中でも、電話などの iOS の基本機能は使えます。どうしても必要なときは、問題を解かずに解除できます（記録に残ります）。") {

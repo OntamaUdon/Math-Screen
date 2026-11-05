@@ -30,7 +30,6 @@ final class AppModel {
     // MARK: 状態の読み込み（拡張が書き換えるので前面に来るたびに呼ぶ）
     func refresh() {
         Task { await DifficultyStore.shared.refreshIfNeeded() }
-        Task { await CommunityCache.shared.refreshIfNeeded() }      // 問題の難しさ（全員の正解率）を、1日1回取り直す
         rules = SharedStore.loadRules()
         lockedRuleIDs = SharedStore.lockedRuleIDs
         settings = SharedStore.settings
@@ -107,11 +106,6 @@ final class AppModel {
     var challengeUnits: Set<String> {
         if lockedRules.contains(where: { $0.units.isEmpty }) { return [] }
         return lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.units) }
-    }
-
-    /// ロック中のルールで選ばれている「みんなの問題」（community:教科）。
-    var challengeCommunity: Set<String> {
-        lockedRules.reduce(into: Set<String>()) { $0.formUnion($1.units.filter(CommunityCache.isCommunity)) }
     }
 
     /// 2問目以降に出す問題の分野。ロック中のルールの分野をまとめたもの。
