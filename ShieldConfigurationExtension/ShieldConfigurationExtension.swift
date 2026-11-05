@@ -24,9 +24,13 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
     /// ボタンの位置は iOS が決めるので、変えられない。
     private func make(name: String?) -> ShieldConfiguration {
         ShieldData.recordDiag("shieldConfig")
-        let ink = UIColor(red: 0.137, green: 0.149, blue: 0.227, alpha: 1)        // #23263A
-        let mint = UIColor(red: 0.498, green: 0.878, blue: 0.827, alpha: 1)       // #7FE0D3
-        let gray = UIColor(red: 0.890, green: 0.906, blue: 0.949, alpha: 1)       // #E3E7F2
+        // iPhone がダークのときは、ブロック画面の背景が暗くなる。そのとき文字も白くなるように、ライト用とダーク用を持たせる。
+        func pair(light: UInt32, dark: UInt32) -> UIColor {
+            UIColor { $0.userInterfaceStyle == .dark ? Self.color(dark) : Self.color(light) }
+        }
+        let ink = pair(light: 0x23263A, dark: 0xFFFFFF)          // 文字
+        let mint = pair(light: 0x7FE0D3, dark: 0x1B2B28)         // 背景
+        let gray = pair(light: 0xE3E7F2, dark: 0x3C4F4B)         // ボタンの背景
         // 「暗くて読めない」原因を調べるため、この画面が作られたときの外観（ライト／ダーク）を残す。設定の「診断」で見られる。
         ShieldData.recordNote("shieldStyle", Self.styleName(UITraitCollection.current.userInterfaceStyle))
 
@@ -46,6 +50,11 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
         )
+    }
+
+    private static func color(_ hex: UInt32) -> UIColor {
+        UIColor(red: CGFloat((hex >> 16) & 0xFF) / 255, green: CGFloat((hex >> 8) & 0xFF) / 255,
+                blue: CGFloat(hex & 0xFF) / 255, alpha: 1)
     }
 
     private static func styleName(_ s: UIUserInterfaceStyle) -> String {
