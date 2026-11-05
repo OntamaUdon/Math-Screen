@@ -33,8 +33,8 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         let app = name ?? "アプリ"
         let minutes = ShieldData.pendingMinutes
         let intro = minutes > 0
-            ? "\(app)を\(Self.durationText(minutes))使いました。\n「問題を解く」を押すと通知が届きます。通知をタップしてアプリを開いてください！\n（通知がオフのときは、解くロックのアプリを直接開いてください）"
-            : "\(app)の使用時間になりました。\n「問題を解く」を押すと通知が届きます。通知をタップしてアプリを開いてください！\n（通知がオフのときは、解くロックのアプリを直接開いてください）"
+            ? "\(app)を\(Self.durationText(minutes))使いました。\n「通知を送る」を押すと、通知が届きます。通知をタップしてアプリを開いてください！\n（通知がオフのときは、解くロックのアプリを直接開いてください）"
+            : "\(app)の使用時間になりました。\n「通知を送る」を押すと、通知が届きます。通知をタップしてアプリを開いてください！\n（通知がオフのときは、解くロックのアプリを直接開いてください）"
 
         return ShieldConfiguration(
             backgroundBlurStyle: nil,
@@ -42,7 +42,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
             icon: ShieldArt.lockIcon,
             title: ShieldConfiguration.Label(text: "ロック中", color: ink),
             subtitle: ShieldConfiguration.Label(text: intro, color: ink),
-            primaryButtonLabel: ShieldConfiguration.Label(text: "問題を解く", color: ink),
+            primaryButtonLabel: ShieldConfiguration.Label(text: "通知を送る", color: ink),
             primaryButtonBackgroundColor: gray,
             secondaryButtonLabel: nil
         )

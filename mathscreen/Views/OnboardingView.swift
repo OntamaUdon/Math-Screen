@@ -110,7 +110,7 @@ struct OnboardingView: View {
         VStack(alignment: .leading, spacing: 16) {
             icon("bell")
             Text("通知の許可").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
-            Text("ロックされたとき、ブロック画面の「問題を解く」を押すと、通知が届きます。その通知をタップして、アプリを開きます。")
+            Text("ロックされたとき、ブロック画面の「通知を送る」を押すと、通知が届きます。その通知をタップして、アプリを開きます。")
                 .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
             Text("通知がオフでも、アプリを直接開けば、問題は解けます。")
@@ -175,7 +175,7 @@ struct OnboardingView: View {
 /// 解くときの手順：ブロック画面 → 通知 → 問題 → 再開。
 struct SolveFlowDiagram: View {
     private let steps: [(icon: String, title: String, detail: String)] = [
-        ("lock.fill", "ブロック画面が出る", "「問題を解く」ボタンを押す"),
+        ("lock.fill", "ブロック画面が出る", "「通知を送る」ボタンを押す"),
         ("bell.fill", "通知が届く", "通知をタップして、アプリを開く"),
         ("pencil", "問題に答える", "答えを入力（または選択）して「こたえる」"),
         ("checkmark", "正解すると再開", "アプリがまた使えるようになる"),

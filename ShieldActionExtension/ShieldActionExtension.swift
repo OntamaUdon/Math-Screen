@@ -2,7 +2,7 @@ import ManagedSettings
 import Foundation
 
 /// シールドのボタンが押されたときの処理。
-/// iOS ではシールドから直接アプリを開けないため、通知を送ってからシールドを閉じる（Opal / ScreenZen と同じ方式）。
+/// iOS ではシールドから直接アプリを開けないため、通知を送る（ブロック画面は、閉じない）（Opal / ScreenZen と同じ方式）。
 final class ShieldActionExtension: ShieldActionDelegate {
     override func handle(action: ShieldAction, for application: ApplicationToken,
                          completionHandler: @escaping (ShieldActionResponse) -> Void) {
@@ -27,7 +27,7 @@ final class ShieldActionExtension: ShieldActionDelegate {
                 title: "解くロック：問題が届きました",
                 body: "この通知をタップしてアプリを開き、問題に答えてください。正解すると、またアプリを使えます！"
             ) {
-                completionHandler(.close)
+                completionHandler(.none)        // ブロック画面は閉じない。届いた通知をタップして、アプリを開いてもらう
             }
         case .secondaryButtonPressed:
             completionHandler(.close)
