@@ -1,4 +1,5 @@
 import SwiftUI
+import FamilyControls
 
 /// App Store 用のスクリーンショットを、シミュレータで撮るための起動引数。
 /// 例：`-screenshot home`（ほかに book / solve / stats / plan）。普段の起動では何も起きない。
@@ -32,6 +33,13 @@ enum ScreenshotMode {
         _ = wd
         SharedStore.saveDaily(daily)
         SharedStore.currentStreak = 8
+        // ホームに出す、見本のルール（アプリの選択は、スクリーンタイムの許可がないと作れないので、件数だけを見本にする）
+        if scene == "home" {
+            let a = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 30, questionCount: 1)
+            let b = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 60, questionCount: 2)
+            SharedStore.saveRules([a, b])
+            SharedStore.markLocked(a.id)
+        }
         // 単元の習熟度（メーター）を、いくつか進めておく
         let plan: [(String, Int, [Bool])] = [("e_calc", 3, [true, true, true]), ("e_decfrac", 3, [true, true, false]), ("m_signed", 3, [true, true, true]),
                                              ("m_linear", 3, [true, false, true]), ("m_sqrt", 2, [true, false])]

@@ -176,7 +176,7 @@ struct RuleRow: View {
                     ForEach(Array(rule.selection.applicationTokens.prefix(4)), id: \.self) { token in
                         Label(token).labelStyle(.iconOnly).frame(width: 18, height: 18)
                     }
-                    Text("\(rule.itemCount)件 ・ \(subjectNames)")
+                    Text("\(ScreenshotMode.active ? 3 : rule.itemCount)件 ・ \(subjectNames)")
                         .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
                 }
                 if rule.isEnabled { progress.padding(.top, 2) }
