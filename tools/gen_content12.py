@@ -48,15 +48,12 @@ def english():
         (3, "By the time you arrive, I ( ) the report. 空所に入る最も適切なものはどれか。", "will have finished", ["finished", "have finished", "will finish"], "by the time の節が現在形で未来を表すとき、主節は未来完了。"),
         (3, "A ( ) of students are absent today. 空所に入る最も適切なものはどれか。", "number", ["amount", "deal", "piece"], "a number of + 複数名詞：多くの〜。an amount of は数えられない名詞に使う。"),
         (3, "He has ( ) friends, so he feels lonely. 空所に入る最も適切なものはどれか。", "few", ["a few", "little", "a little"], "few は「ほとんどない」という否定的な意味。a few は「少しある」。"),
-        (3, "The sun ( ) in the east. 空所に入る最も適切なものはどれか。", "rises", ["raises", "arises", "lies"], "rise（昇る、自動詞）、raise（上げる、他動詞）。"),
         (3, "She ( ) the book on the table yesterday. 空所に入る最も適切なものはどれか。", "laid", ["lay", "lain", "lied"], "lay（置く）の過去形は laid。lie（横たわる）の過去形が lay。"),
-        (3, "Every student ( ) required to attend the meeting. 空所に入る最も適切なものはどれか。", "is", ["are", "were", "be"], "every + 単数名詞は、単数扱い。"),
         (3, "She sat there with her eyes ( ). 空所に入る最も適切なものはどれか。", "closed", ["close", "closing", "to close"], "with + 名詞 + 過去分詞：〜された状態で。"),
         (3, "This is the house ( ) roof was damaged in the storm. 空所に入る最も適切なものはどれか。", "whose", ["which", "who", "that"], "所有を表す関係代名詞。"),
         (3, "I remember ( ) him at the party last year. 空所に入る最も適切なものはどれか。", "meeting", ["to meet", "meet", "to have meet"], "remember ~ing：〜したことを覚えている。remember to ~：忘れずに〜する。"),
         (3, "Whatever ( ) happen, we will go ahead. 空所に入る最も適切なものはどれか。", "may", ["will to", "is", "can to"], "Whatever + 主語 + may：何が〜しても。"),
         (3, "The book is worth ( ). 空所に入る最も適切なものはどれか。", "reading", ["to read", "read", "for reading"], "be worth ~ing：〜する価値がある。"),
-        (3, "The news ( ) surprising to everyone. 空所に入る最も適切なものはどれか。", "was", ["were", "are", "have been"], "news は複数形に見えるが、単数扱いの名詞。"),
     ])
 
 
@@ -195,13 +192,7 @@ def japanese():
         (3, "「悉く」の読みとして正しいものはどれか。", "ことごとく", ["つぶさに", "あまねく", "ことごとに"], "すべて。"),
         (3, "「綻びる」の読みとして正しいものはどれか。", "ほころびる", ["ひらびる", "あらわれる", "ときびる"], "縫い目が解ける。つぼみが開く。"),
         (3, "「蔑ろ」の読みとして正しいものはどれか。", "ないがしろ", ["あなどろ", "ひがしろ", "さげすろ"], "軽んじること。"),
-        (3, "「疎か」の読みとして正しいものはどれか。", "おろそか", ["うとか", "ほろか", "あらか"], "いい加減なさま。"),
-        (3, "「概ね」の読みとして正しいものはどれか。", "おおむね", ["がいね", "おおね", "おおよね"], "だいたい。"),
-        (3, "「偏に」の読みとして正しいものはどれか。", "ひとえに", ["へんに", "かたよに", "ひとつに"], "もっぱら。"),
         (3, "「須く」の読みとして正しいものはどれか。", "すべからく", ["すくなく", "すべて", "もとより"], "「〜べきだ」と呼応する。"),
-        (3, "「聊か」の読みとして正しいものはどれか。", "いささか", ["わずか", "いかほど", "ささやか"], "少し。"),
-        (3, "「頗る」の読みとして正しいものはどれか。", "すこぶる", ["かなり", "はなはだ", "ことごとく"], "非常に。"),
-        (3, "「恰も」の読みとして正しいものはどれか。", "あたかも", ["かえって", "ちょうど", "まさに"], "まるで。"),
         (3, "四字熟語「臥薪嘗胆」の意味はどれか。", "目的を達成するため、苦労に耐えること", ["のんびりと暮らすこと", "思いがけない幸運にあうこと", "わずかな時間も惜しむこと"], "故事成語から。"),
         (3, "四字熟語「温故知新」の意味はどれか。", "古いことを学んで、新しい知識を得る", ["新しいものを次々に取り入れる", "昔のことは忘れる", "古い習慣を守り通す"], "『論語』から。"),
         (3, "四字熟語「画竜点睛」の意味はどれか。", "最後に、肝心なところを仕上げる", ["見かけだけ立派なこと", "何度も失敗すること", "的外れなこと"], "「睛」は瞳。"),
@@ -219,3 +210,5 @@ def generate():
     social()
     science()
     japanese()
+    import gen_content13
+    gen_content13.generate()
