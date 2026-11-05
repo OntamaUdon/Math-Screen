@@ -85,7 +85,12 @@ def detail(sid):
     print("  日本語の表示名:", [(l["attributes"]["locale"], l["attributes"]["name"]) for l in pr["localizations"]] or "なし")
     print(f"  価格の設定: {len(pr['prices'])} 件")
     print("  無料トライアル:", [(o["attributes"].get("offerMode"), o["attributes"].get("duration")) for o in pr["offers"]] or "なし")
-    print("  販売地域の設定:", "あり" if pr["availability"] else "なし")
+    av = pr["availability"]
+    if av:
+        terr = [t["id"] for t in get_all(f"/subscriptionAvailabilities/{av['id']}/availableTerritories?limit=200")]
+        print(f"  販売地域: {len(terr)} か国・地域", "（日本だけ）" if terr == [TERRITORY] else "")
+    else:
+        print("  販売地域の設定: なし")
 
 
 def check():
@@ -102,6 +107,25 @@ def check():
             print(f"  日本の {yen} 円の価格（選べるか）: {'あり' if pp else '見つかりません'}")
             detail(subs[pid][0])
     print("確認は終わりました（確認だけで、何も変えていません）。")
+
+
+def japan_only():
+    """すべての商品の販売地域を、日本だけにそろえる。"""
+    app_id = find_app()
+    groups, subs = existing(app_id)
+    for pid, *_ in PLANS:
+        if pid not in subs:
+            print(f"商品がありません: {pid}"); continue
+        sid = subs[pid][0]
+        av = parts(sid)["availability"]
+        before = [t["id"] for t in get_all(f"/subscriptionAvailabilities/{av['id']}/availableTerritories?limit=200")] if av else []
+        if before == [TERRITORY]:
+            print(f"{pid}: すでに日本だけです"); continue
+        must(*call("POST", "/subscriptionAvailabilities", {"data": {"type": "subscriptionAvailabilities",
+            "attributes": {"availableInNewTerritories": False},
+            "relationships": {"subscription": {"data": {"type": "subscriptions", "id": sid}},
+                              "availableTerritories": {"data": [{"type": "territories", "id": TERRITORY}]}}}}), f"販売地域を日本だけに {pid}")
+        print(f"{pid}: 販売地域を {len(before)} か国・地域から、日本だけにしました")
 
 
 def create():
@@ -171,4 +195,4 @@ def create():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
-    {"check": check, "create": create}[mode]()
+    {"check": check, "create": create, "japan": japan_only}[mode]()
