@@ -9,7 +9,7 @@ on:
 
 jobs:
   subscriptions:
-    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') }}
+    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') || contains(github.event.head_commit.message, '[asc-listing]') || contains(github.event.head_commit.message, '[asc-shots]') || contains(github.event.head_commit.message, '[asc-listing-check]') }}
     runs-on: ubuntu-latest
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
@@ -41,3 +41,12 @@ jobs:
       - name: Check (read only)
         if: ${{ contains(github.event.head_commit.message, '[asc-check]') }}
         run: python tools/asc_subscriptions.py check
+      - name: Store listing (description, keywords, URLs, category)
+        if: ${{ contains(github.event.head_commit.message, '[asc-listing]') }}
+        run: python tools/asc_listing.py listing
+      - name: Store screenshots
+        if: ${{ contains(github.event.head_commit.message, '[asc-shots]') }}
+        run: python tools/asc_listing.py shots
+      - name: Store listing check (read only)
+        if: ${{ contains(github.event.head_commit.message, '[asc-listing-check]') }}
+        run: python tools/asc_listing.py check
