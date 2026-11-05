@@ -6,7 +6,7 @@
 作り直しても重複しないように、すでにあるものは作らない（製品IDで見分ける）。
 環境変数: KEY_PATH（.p8 のパス）, ASC_KEY_ID, ASC_ISSUER_ID
 """
-import json, os, sys, urllib.parse
+import hashlib, json, os, sys, urllib.error, urllib.parse, urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ci_signing import call, must
 
@@ -109,6 +109,52 @@ def check():
     print("確認は終わりました（確認だけで、何も変えていません）。")
 
 
+REVIEW_NOTE = ("購入画面の見つけかた：アプリを開いて、設定タブの「プランを見る」、またはホームの「プランを見る」を押すと、"
+               "解くロックプラン（月額300円・年額2,400円、初回7日間無料）の購入画面が開きます。"
+               "無料で使えるのは、問題集（見る・解く）と記録です。アプリロックなどは、プランで使えます。")
+
+
+def put_bytes(op, data):
+    chunk = data[op["offset"]: op["offset"] + op["length"]]
+    req = urllib.request.Request(op["url"], data=chunk, method=op["method"],
+                                 headers={h["name"]: h["value"] for h in op.get("requestHeaders", [])})
+    try:
+        with urllib.request.urlopen(req) as r:
+            return r.status
+    except urllib.error.HTTPError as e:
+        print(f"::error::アップロードに失敗しました（{e.code}）"); sys.exit(1)
+
+
+def review_shot():
+    """審査用のスクリーンショット（store/screenshots/plan.png）と審査メモを、すべての商品に入れる。すでにあれば入れ替える。"""
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "store", "screenshots", "plan.png")
+    data = open(path, "rb").read()
+    app_id = find_app()
+    groups, subs = existing(app_id)
+    for pid, *_ in PLANS:
+        if pid not in subs:
+            print(f"商品がありません: {pid}"); continue
+        sid = subs[pid][0]
+        # 審査メモ
+        must(*call("PATCH", f"/subscriptions/{sid}", {"data": {"type": "subscriptions", "id": sid,
+            "attributes": {"reviewNote": REVIEW_NOTE}}}), f"審査メモ {pid}")
+        # すでにある画像は消して入れ替える
+        st, res = call("GET", f"/subscriptions/{sid}/appStoreReviewScreenshot")
+        old = res.get("data") if st == 200 else None
+        if old:
+            must(*call("DELETE", f"/subscriptionAppStoreReviewScreenshots/{old['id']}"), f"古い画像の削除 {pid}")
+        res = must(*call("POST", "/subscriptionAppStoreReviewScreenshots", {"data": {"type": "subscriptionAppStoreReviewScreenshots",
+            "attributes": {"fileName": "plan.png", "fileSize": len(data)},
+            "relationships": {"subscription": {"data": {"type": "subscriptions", "id": sid}}}}}), f"画像の予約 {pid}")
+        shot = res["data"]
+        for op in shot["attributes"]["uploadOperations"]:
+            put_bytes(op, data)
+        must(*call("PATCH", f"/subscriptionAppStoreReviewScreenshots/{shot['id']}", {"data": {
+            "type": "subscriptionAppStoreReviewScreenshots", "id": shot["id"],
+            "attributes": {"uploaded": True, "sourceFileChecksum": hashlib.md5(data).hexdigest()}}}), f"画像の確定 {pid}")
+        print(f"{pid}: 審査用の画像と審査メモを入れました")
+
+
 def japan_only():
     """すべての商品の販売地域を、日本だけにそろえる。"""
     app_id = find_app()
@@ -195,4 +241,4 @@ def create():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
-    {"check": check, "create": create, "japan": japan_only}[mode]()
+    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot}[mode]()
