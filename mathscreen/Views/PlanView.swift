@@ -19,6 +19,10 @@ struct PlanView: View {
                 }
                 .padding(.top, 24)
 
+                Image("PlanLock").resizable().scaledToFit()
+                    .frame(maxWidth: .infinity).frame(height: 150)
+                    .accessibilityHidden(true)
+
                 if purchases.isSubscribed {
                     VStack(alignment: .leading, spacing: 10) {
                         Label("プランを利用中です", systemImage: "checkmark.circle.fill")

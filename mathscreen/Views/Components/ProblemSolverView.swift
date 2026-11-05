@@ -22,6 +22,7 @@ struct ProblemSolverView: View {
     @State private var cardFrame: CGRect = .zero
     @State private var shareItem: ShareItem?
     @State private var showHelp = false
+    @State private var confirmSkip = false
     @State private var shareFailed = false
 
     var body: some View {
@@ -42,6 +43,13 @@ struct ProblemSolverView: View {
         .animation(.easeOut(duration: 0.2), value: solved)
         .sensoryFeedback(.success, trigger: solved)
         .sensoryFeedback(.error, trigger: wrongCount)
+        .alert("別の問題にしますか？", isPresented: $confirmSkip) {
+            Button("はい") {
+                ProblemMarkStore.shared.record(problem.id, .skipped)        // 解かずに変えた印（すでに解いた問題には影響しない）
+                onSkip?()
+            }
+            Button("いいえ", role: .cancel) {}
+        }
         .sheet(item: $shareItem) { ActivityView(item: $0).presentationDetents([.medium, .large]) }
         .alert("画像をつくれませんでした", isPresented: $shareFailed) { Button("OK", role: .cancel) {} }
     }
@@ -65,18 +73,15 @@ struct ProblemSolverView: View {
             .confirmationDialog("分からないとき", isPresented: $showHelp, titleVisibility: .visible) {
                 if let onSkip {
                     Button(model.isPremium ? "問題を変える" : "問題を変える（プランで使えます）") {
-                        if model.isPremium { ProblemMarkStore.shared.record(problem.id, .skipped); onSkip() } else { model.showPlan = true }
+                        if model.isPremium { confirmSkip = true } else { model.showPlan = true }
                     }
                 }
                 Button("共有してヒントをもらう") { share(.ask) }
                 Button("やめる", role: .cancel) {}
             }
-        } else if let onSkip {
+        } else if onSkip != nil {
             Button {
-                if model.isPremium {
-                    ProblemMarkStore.shared.record(problem.id, .skipped)        // 解かずに変えた印（すでに解いた問題には影響しない）
-                    onSkip()
-                } else { model.showPlan = true }
+                if model.isPremium { confirmSkip = true } else { model.showPlan = true }
             } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "arrow.triangle.2.circlepath")

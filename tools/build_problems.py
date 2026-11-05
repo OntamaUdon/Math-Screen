@@ -275,6 +275,14 @@ for p in P:
     f = _family(p)
     if f: p["family"] = f
 
+# ── 文字だけで書いた式（A¹⁰、H₂O、行列、C(10,5) など）を LaTeX にする（plain は直さない）──
+from texify import texify
+for p in P:
+    p["body"] = texify(p["body"])
+    p["explanation"] = texify(p["explanation"])
+    if "choices" in p:
+        p["choices"] = [texify(c) for c in p["choices"]]
+
 import rates as _rates
 _rates.assign(P)                 # 各問題に、10人中の正解見込み（rate）を付ける
 

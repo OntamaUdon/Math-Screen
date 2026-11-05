@@ -17,7 +17,7 @@ enum ShieldArt {
             let g = ctx.cgContext
             // 立体の座標 (x, y, z) を画面の点に直す（30°の等角投影）。
             func P(_ x: CGFloat, _ y: CGFloat, _ z: CGFloat) -> CGPoint {
-                CGPoint(x: side / 2 + (x - y) * 0.866, y: side * 0.64 + (x + y) * 0.5 - z)
+                CGPoint(x: side / 2 + (x - y) * 0.866, y: side * 0.62 + (x + y) * 0.5 - z)
             }
             func poly(_ pts: [CGPoint], _ c: UIColor) {
                 g.setFillColor(c.cgColor)
@@ -35,34 +35,50 @@ enum ShieldArt {
             }
 
             // 土台（白とグレーの板）
-            box(-70, -70, 0, 140, 140, 14, top: .white, left: color(0xC7CCDA), right: color(0xDDE1EC))
+            box(-84, -62, 0, 168, 124, 14, top: .white, left: color(0xC7CCDA), right: color(0xDDE1EC))
             // 奥のティールの小さなブロック
-            box(32, -62, 14, 28, 28, 26, top: color(0x7FE0D3), left: color(0x26968A), right: color(0x3CC5B5))
-            // 錠の本体（コーラル）
-            box(-32, -32, 14, 64, 64, 52, top: color(0xFFB29D), left: color(0xD2553A), right: color(0xFF7A59))
+            box(34, -54, 14, 30, 30, 28, top: color(0x7FE0D3), left: color(0x26968A), right: color(0x3CC5B5))
+            // 錠の本体（コーラル。横長で、大きい面を手前に）
+            let bx: CGFloat = -42, by: CGFloat = -22, bz: CGFloat = 14, bw: CGFloat = 84, bd: CGFloat = 44, bh: CGFloat = 62
+            box(bx, by, bz, bw, bd, bh, top: color(0xFFB29D), left: color(0xD2553A), right: color(0xFF7A59))
+            let top = bz + bh
 
-            // つる（U字）
-            let c = P(0, 0, 66)
-            let shackle = UIBezierPath()
-            shackle.move(to: CGPoint(x: c.x - 24, y: c.y))
-            shackle.addLine(to: CGPoint(x: c.x - 24, y: c.y - 38))
-            shackle.addArc(withCenter: CGPoint(x: c.x, y: c.y - 38), radius: 24,
-                           startAngle: .pi, endAngle: 0, clockwise: true)
-            shackle.addLine(to: CGPoint(x: c.x + 24, y: c.y))
-            shackle.lineWidth = 12
-            shackle.lineCapStyle = .round
-            color(0x6B7088).setStroke()
-            shackle.stroke()
+            // つる：x-z 平面の U 字を、厚みのある管として描く（奥行き→手前の順に重ねる）
+            let ym = by + bd / 2, r: CGFloat = 25
+            var path: [(CGFloat, CGFloat)] = [(-r, top), (-r, top + 22)]
+            for i in 0...36 {
+                let a = CGFloat.pi - CGFloat.pi * CGFloat(i) / 36
+                path.append((r * cos(a), top + 22 + r * sin(a)))
+            }
+            path += [(r, top + 22), (r, top)]
+            func stroke(_ offsetY: CGFloat, _ c: UIColor, _ width: CGFloat) {
+                let b = UIBezierPath()
+                for (n, q) in path.enumerated() {
+                    let pt = P(q.0, ym + offsetY, q.1)
+                    if n == 0 { b.move(to: pt) } else { b.addLine(to: pt) }
+                }
+                b.lineWidth = width
+                b.lineCapStyle = .round
+                b.lineJoinStyle = .round
+                c.setStroke()
+                b.stroke()
+            }
+            for off in [6, 4.5, 3, 1.5] as [CGFloat] { stroke(off, color(0x4E5370), 13) }
+            stroke(0, color(0x8E94AD), 13)
+            stroke(-1.5, color(0xB8BED3), 7)
 
-            // 鍵穴（左の面に、面の傾きに合わせて描く）
-            g.saveGState()
-            let k = P(0, 32, 40)
-            g.translateBy(x: k.x, y: k.y)
-            g.concatenate(CGAffineTransform(a: 0.866, b: 0.5, c: 0, d: 1, tx: 0, ty: 0))
+            // 鍵穴（大きい面＝左の面に、面の傾きに合わせて描く）
+            let c = P(0, by + bd, bz + bh * 0.52)
+            func face(_ px: CGFloat, _ py: CGFloat) -> CGPoint {
+                CGPoint(x: c.x + px * 0.866, y: c.y + px * 0.5 - py)
+            }
             g.setFillColor(color(0x23263A).cgColor)
-            g.fillEllipse(in: CGRect(x: -8, y: -12, width: 16, height: 16))
-            g.fill(CGRect(x: -4, y: -2, width: 8, height: 18))
-            g.restoreGState()
+            let ring = (0...36).map { i -> CGPoint in
+                let t = CGFloat(i) * .pi / 18
+                return face(8 * cos(t), 8 * sin(t) + 5)
+            }
+            g.addLines(between: ring); g.closePath(); g.fillPath()
+            g.addLines(between: [face(-3.6, 6), face(3.6, 6), face(5, -14), face(-5, -14)]); g.closePath(); g.fillPath()
         }
     }
 }
