@@ -103,12 +103,13 @@ struct PasscodeSetupView: View {
     @State private var first: String?
     @State private var code = ""
     @State private var message: String?
+    @State private var showIntro = true
 
     var body: some View {
         VStack(spacing: 18) {
             Text(first == nil ? "新しいパスコード" : "もう一度入れてください")
                 .font(Theme.font(22, .bold)).foregroundStyle(Theme.ink)
-            Text(message ?? "お子さんが知らない4桁の数字にしてください。忘れると、アプリを入れ直すしかなく、ルールも消えます。")
+            Text(message ?? "使う人が知らない4桁の数字にしてください。忘れると、アプリを入れ直すしかなく、ルールも消えます。")
                 .font(Theme.font(14)).foregroundStyle(message == nil ? Theme.inkSoft : Theme.danger)
                 .multilineTextAlignment(.center)
             PasscodeKeypad(code: $code).padding(.horizontal, 24)
@@ -117,6 +118,11 @@ struct PasscodeSetupView: View {
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .isoBackground()
+        .alert("新しいパスコードを設定してください", isPresented: $showIntro) {
+            Button("OK") {}
+        } message: {
+            Text("これから使うパスコードを、新しく決めます。前に決めたパスコードを入れる画面ではありません。")
+        }
         .onChange(of: code) { _, new in
             guard new.count == 4 else { return }
             if let f = first {
