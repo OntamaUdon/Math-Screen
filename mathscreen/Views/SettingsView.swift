@@ -85,6 +85,21 @@ struct SettingsView: View {
                 }
             }
 
+            group("通知", footer: "ロック中に、ブロック画面から問題を開くために使います。") {
+                row("通知", value: model.notificationStatus == .authorized ? "許可済み" : (model.notificationStatus == .denied ? "オフ" : "未設定"),
+                    valueColor: model.notificationStatus == .authorized ? Theme.tealDeep : Theme.inkSoft)
+                if model.notificationStatus != .authorized {
+                    Divider().padding(.leading, 18)
+                    action(model.notificationStatus == .denied ? "通知の設定を開く" : "許可する", color: Theme.tealDeep) {
+                        if model.notificationStatus == .denied {
+                            if let url = URL(string: UIApplication.openNotificationSettingsURLString) { UIApplication.shared.open(url) }
+                        } else {
+                            Task { await model.requestNotifications() }
+                        }
+                    }
+                }
+            }
+
             group("コミュニティ", footer: dataMessage ?? "投稿した問題・通報・ブロックの記録をサーバーから消します。ほかの人の画面からも消えます。") {
                 action("投稿したデータをすべて削除", color: Theme.danger) { confirmDeleteData = true }
             }

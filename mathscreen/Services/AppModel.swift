@@ -149,8 +149,13 @@ final class AppModel {
                 lastError = "許可できませんでした。もう一度試してください。\n（\(error.localizedDescription)）"
             }
         }
-        _ = try? await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
         authorization = AuthorizationCenter.shared.authorizationStatus
+    }
+
+    /// 通知の許可。スクリーンタイムの許可と同時に出ないように、別の場面で求める。
+    func requestNotifications() async {
+        _ = try? await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge])
+        notificationStatus = await UNUserNotificationCenter.current().notificationSettings().authorizationStatus
     }
 
     func finishOnboarding() {

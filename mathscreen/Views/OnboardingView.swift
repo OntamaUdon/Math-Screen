@@ -1,13 +1,13 @@
 import SwiftUI
 
-/// はじめの説明（3画面）。設定の「使い方を見る」から、あとで見直せる（replay = true）。
+/// はじめの説明（4画面）。設定の「使い方を見る」から、あとで見直せる（replay = true）。
 struct OnboardingView: View {
     @Environment(AppModel.self) private var model
     @Environment(\.dismiss) private var dismiss
     var replay = false
     @State private var page = 0
 
-    private let lastPage = 2
+    private let lastPage = 3
     private let exampleIDs = ["j06", "b07"]     // 例題として見せる問題（中学・高校）
 
     var body: some View {
@@ -18,7 +18,8 @@ struct OnboardingView: View {
                     switch page {
                     case 0: intro
                     case 1: howToSolve
-                    default: permission
+                    case 2: permission
+                    default: notificationPermission
                     }
                 }
                 .padding(.bottom, 12)
@@ -98,9 +99,22 @@ struct OnboardingView: View {
         VStack(alignment: .leading, spacing: 16) {
             icon("hourglass")
             Text("スクリーンタイムの許可").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
-            Text("使った時間を数えるために、スクリーンタイムと通知の許可が必要です。")
+            Text("使った時間を数えるために、スクリーンタイムの許可が必要です。許可しないと、アプリを制限できません。")
                 .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
                 .fixedSize(horizontal: false, vertical: true)
+        }
+    }
+
+    // MARK: 4. 通知の許可（スクリーンタイムの許可とは、別の画面で）
+    private var notificationPermission: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            icon("bell")
+            Text("通知の許可").font(Theme.font(26, .bold)).foregroundStyle(Theme.ink)
+            Text("ロックされたとき、ブロック画面の「問題を解く」を押すと、通知が届きます。その通知をタップして、アプリを開きます。")
+                .font(Theme.font(16)).foregroundStyle(Theme.inkSoft).lineSpacing(4)
+                .fixedSize(horizontal: false, vertical: true)
+            Text("通知がオフでも、アプリを直接開けば、問題は解けます。")
+                .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
         }
     }
 
@@ -125,14 +139,26 @@ struct OnboardingView: View {
 
     // MARK: 下のボタン
     @ViewBuilder private var buttons: some View {
-        if page < lastPage {
+        if replay {
+            if page < lastPage { Button("つぎへ") { go(page + 1) }.buttonStyle(.primary) }
+            else { Button("とじる") { dismiss() }.buttonStyle(.primary) }
+        } else if page < 2 {
             Button("つぎへ") { go(page + 1) }.buttonStyle(.primary)
-        } else if replay {
-            Button("とじる") { dismiss() }.buttonStyle(.primary)
-        } else {
-            Button("許可してはじめる") {
+        } else if page == 2 {
+            Button("スクリーンタイムを許可する") {
                 Task {
                     await model.requestAuthorization()
+                    go(3)
+                }
+            }
+            .buttonStyle(.primary)
+            Button("あとで") { go(3) }
+                .font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
+                .frame(maxWidth: .infinity)
+        } else {
+            Button("通知を許可してはじめる") {
+                Task {
+                    await model.requestNotifications()
                     model.finishOnboarding()
                 }
             }
