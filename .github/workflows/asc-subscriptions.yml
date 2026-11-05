@@ -29,9 +29,9 @@ jobs:
           echo "KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
           pip install --quiet pyjwt cryptography
           python tools/normalize_key.py
-      - name: Check (read only)
-        if: ${{ contains(github.event.head_commit.message, '[asc-check]') }}
-        run: python tools/asc_subscriptions.py check
       - name: Create subscriptions
         if: ${{ contains(github.event.head_commit.message, '[asc-create]') }}
         run: python tools/asc_subscriptions.py create
+      - name: Check (read only)
+        if: ${{ contains(github.event.head_commit.message, '[asc-check]') }}
+        run: python tools/asc_subscriptions.py check
