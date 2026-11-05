@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 /// 問題の共有（X や LINE など）。保護者用設定がオンの家庭では、初期状態ではオフ。
-enum ShareSetting {
+@MainActor enum ShareSetting {
     private static let key = "share.allowed"
     /// 共有を使えるか。保護者が決めていなければ、保護者用設定がオフのときだけ使える。
     static var isAllowed: Bool {
