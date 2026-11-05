@@ -1,7 +1,7 @@
 """App Store Connect に、掲載情報（説明・キーワード・サポートURL など）とスクリーンショットを入れる。
 
   python tools/asc_listing.py listing  … store/LISTING_DRAFT.md の内容を、バージョン 1.0 に入れる（なければ作る）
-  python tools/asc_listing.py shots    … store/screenshots の5枚を、6.9インチ用として入れる（すでにあれば入れ替える）
+  python tools/asc_listing.py shots    … store/screenshots の5枚を、6.9インチ（API の名前は APP_IPHONE_67）用として入れる（すでにあれば入れ替える）
   python tools/asc_listing.py check    … 読むだけ
 
 審査には出さない。審査担当者への連絡先（氏名・電話番号など）は、個人情報なので入れない（本人が入力する）。
@@ -112,10 +112,10 @@ def shots():
     if not loc:
         print("::error::言語の情報がありません。先に listing を実行してください"); sys.exit(1)
     sets = get_all(f"/appStoreVersionLocalizations/{loc['id']}/appScreenshotSets")
-    s = next((x for x in sets if x["attributes"]["screenshotDisplayType"] == "APP_IPHONE_69"), None)
+    s = next((x for x in sets if x["attributes"]["screenshotDisplayType"] == "APP_IPHONE_67"), None)
     if not s:
         s = must(*call("POST", "/appScreenshotSets", {"data": {"type": "appScreenshotSets",
-            "attributes": {"screenshotDisplayType": "APP_IPHONE_69"},
+            "attributes": {"screenshotDisplayType": "APP_IPHONE_67"},
             "relationships": {"appStoreVersionLocalization": {"data": {"type": "appStoreVersionLocalizations", "id": loc["id"]}}}}}), "画像のセット")["data"]
     for old in get_all(f"/appScreenshotSets/{s['id']}/appScreenshots"):
         must(*call("DELETE", f"/appScreenshots/{old['id']}"), "古い画像の削除")
