@@ -131,6 +131,16 @@ def review_shot():
     data = open(path, "rb").read()
     app_id = find_app()
     groups, subs = existing(app_id)
+    # グループの日本語の表示名（なければ足す。ないと「メタデータ不足」のままになる）
+    gid = groups.get(GROUP_NAME)
+    if gid:
+        if not get_all(f"/subscriptionGroups/{gid}/subscriptionGroupLocalizations"):
+            must(*call("POST", "/subscriptionGroupLocalizations", {"data": {"type": "subscriptionGroupLocalizations",
+                "attributes": {"name": GROUP_NAME, "customAppName": "解くロック", "locale": "ja"},
+                "relationships": {"subscriptionGroup": {"data": {"type": "subscriptionGroups", "id": gid}}}}}), "グループの表示名")
+            print("グループの日本語の表示名を入れました")
+        else:
+            print("グループの日本語の表示名は、すでにあります")
     for pid, *_ in PLANS:
         if pid not in subs:
             print(f"商品がありません: {pid}"); continue
