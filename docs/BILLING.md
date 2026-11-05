@@ -81,3 +81,9 @@
 - サブスクの料金・期間・自動更新・解約方法が、購入前の画面にわかりやすく書かれていること。
 - 利用規約とプライバシーポリシーへのリンクが、アプリ内にあること。
 - 課金で解除される機能が、説明どおりに動くこと。
+
+## 審査用のスクリーンショット（できていること）
+
+- `store/screenshots/plan.png`：シミュレータ（iPhone Pro Max、1320×2868）で撮った、購入画面の本物の画面。価格は見本（実際の価格と同じ）。
+- 撮りかた：コミットメッセージに `[screenshots]` を入れて push（`.github/workflows/screenshots.yml`）。
+- App Store Connect への入れかた：コミットメッセージに `[asc-review-shot]` を入れて push（`tools/asc_subscriptions.py review-shot`）。審査メモも入る。
