@@ -73,7 +73,7 @@ struct HomeView: View {
                 }
             }
 
-            if model.authorization != .approved && !ParentLock.shared.isActive {   // 保護者モード中は子どもに見せない
+            if model.authorization != .approved && !ParentLock.shared.isActive && !ScreenshotMode.active {   // 保護者モード中は子どもに見せない
                 Text("スクリーンタイムへのアクセスが未許可です。「設定」タブから許可してください。")
                     .font(Theme.font(14)).foregroundStyle(Theme.danger)
                     .padding(14).frame(maxWidth: .infinity, alignment: .leading)

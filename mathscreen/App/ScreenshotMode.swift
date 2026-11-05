@@ -14,15 +14,22 @@ enum ScreenshotMode {
     /// 見本の成績と習熟度を入れる。
     static func seed() {
         guard active else { return }
-        let counts = [3, 7, 5, 10, 8, 4, 6]               // 月〜日（今日までのぶん）
+        // 過去8週間ぶんの、見本の正解数（今週は今日まで）
+        let pattern = [3, 7, 5, 10, 8, 4, 6, 9, 2, 10, 7, 5, 8, 6, 10, 4, 9, 7, 3, 8, 10, 5, 6]
         var daily: [String: DailyStats] = [:]
         let cal = Calendar(identifier: .gregorian)
         let today = Date()
         let wd = (cal.component(.weekday, from: today) + 5) % 7        // 月曜=0
-        for k in 0...wd {
-            let date = cal.date(byAdding: .day, value: -(wd - k), to: today) ?? today
-            daily[SharedStore.dayKey(date)] = DailyStats(triggers: 2, unlocks: 2, correct: counts[k], attempts: counts[k] + 2, emergencyUnlocks: 0)
+        var n = 0
+        for back in stride(from: 7 * 8 - 1, through: 0, by: -1) {
+            // 今週の、まだ来ていない日は入れない
+            let date = cal.date(byAdding: .day, value: -back, to: today) ?? today
+            let c = pattern[n % pattern.count] - (back > 7 * 4 ? 2 : 0)
+            n += 1
+            guard c > 0 else { continue }
+            daily[SharedStore.dayKey(date)] = DailyStats(triggers: 2, unlocks: 2, correct: c, attempts: c + 2, emergencyUnlocks: 0)
         }
+        _ = wd
         SharedStore.saveDaily(daily)
         SharedStore.currentStreak = 8
         // 単元の習熟度（メーター）を、いくつか進めておく

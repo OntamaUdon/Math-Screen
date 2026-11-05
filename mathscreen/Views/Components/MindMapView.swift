@@ -49,6 +49,7 @@ struct MindMapView: View {
     let root: MapNode
     var selectedID: String? = nil
     var openPath: [String] = []             // 最初から開いておく枝
+    var initialScale: CGFloat = 1           // 最初の拡大率（スクリーンショット用に小さくできる）
     /// 枝にチェックを付ける使い方（ルールの出題範囲）。nil なら、ふつうのマップ。
     var checkState: ((MapNode) -> CheckState)? = nil
     var onCheck: ((MapNode) -> Void)? = nil
@@ -239,13 +240,13 @@ struct MindMapView: View {
 
     /// 根を左端の中央に置く。選択中の枝があるときは、そこが見えるようにする。
     private func recenter(animated: Bool) {
-        scale = 1; scaleStart = 1
+        scale = initialScale; scaleStart = initialScale
         let l = layout(expanded)
         let target = selectedID.flatMap { id in l.items.first { $0.id == id } } ?? l.items.first { $0.depth == 0 }
         guard let t = target else { return }
         let c = center(t)
-        let x: CGFloat = t.depth == 0 ? 0 : -(c.x - viewSize.width + nodeW + 40)
-        let new = CGSize(width: min(x, 0), height: viewSize.height / 2 - c.y)
+        let x: CGFloat = t.depth == 0 ? 0 : -((c.x + nodeW) * scale - viewSize.width + 40)
+        let new = CGSize(width: min(x, 0), height: viewSize.height / 2 - c.y * scale)
         if animated { withAnimation(.snappy) { offset = new } } else { offset = new }
         dragStart = new
     }
