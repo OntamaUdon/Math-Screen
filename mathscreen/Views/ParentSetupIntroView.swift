@@ -15,9 +15,9 @@ struct ParentSetupIntroView: View {
             .padding(.top, 24)
 
             VStack(alignment: .leading, spacing: 12) {
-                Label("お子さんが、勝手に変えられないようにします", systemImage: "lock.fill")
+                Label("ルールや設定を、パスコードで守れます", systemImage: "lock.fill")
                     .font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
-                Text("ルールの変更、設定、プランの管理に、パスコードが必要になります。お子さんが知らない4桁の数字を、決めてください。")
+                Text("オンにすると、ルールの変更・設定・プランの管理に、4桁のパスコードが必要になります。使う人が知らない数字にしておくと、勝手に変えられません。")
                     .font(Theme.font(14)).foregroundStyle(Theme.inkSoft)
                     .fixedSize(horizontal: false, vertical: true)
                 Text("あとから、設定の「保護者用設定」で、オン・オフを切りかえられます（オフにするにも、パスコードが必要です）。")
