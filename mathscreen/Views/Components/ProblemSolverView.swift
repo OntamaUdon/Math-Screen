@@ -19,6 +19,10 @@ struct ProblemSolverView: View {
     @State private var showWrong = false
     @State private var eliminated: Set<Int> = []      // 4択で、まちがえて消した選択肢
     @State private var picked: Int?                   // 4択で、いま選んでいる選択肢
+    @State private var cardFrame: CGRect = .zero
+    @State private var shareItem: ShareItem?
+    @State private var showHelp = false
+    @State private var shareFailed = false
 
     var body: some View {
         VStack(spacing: 16) {
@@ -38,11 +42,36 @@ struct ProblemSolverView: View {
         .animation(.easeOut(duration: 0.2), value: solved)
         .sensoryFeedback(.success, trigger: solved)
         .sensoryFeedback(.error, trigger: wrongCount)
+        .sheet(item: $shareItem) { ActivityView(item: $0).presentationDetents([.medium, .large]) }
+        .alert("画像をつくれませんでした", isPresented: $shareFailed) { Button("OK", role: .cancel) {} }
+    }
+
+    private func share(_ kind: ShareKind) {
+        if let img = ShareImage.make(cardFrame: cardFrame, kind: kind) { shareItem = ShareItem(image: img, text: kind.message) }
+        else { shareFailed = true }
     }
 
     // MARK: 問題の変更（Premium）
     @ViewBuilder private var helpButtons: some View {
-        if let onSkip {
+        if ShareSetting.isAllowed {
+            Button { showHelp = true } label: {
+                HStack(spacing: 6) {
+                    Image(systemName: "questionmark.circle")
+                    Text("分からない")
+                }
+                .font(Theme.font(15, .semibold))
+            }
+            .buttonStyle(.quiet)
+            .confirmationDialog("分からないとき", isPresented: $showHelp, titleVisibility: .visible) {
+                if let onSkip {
+                    Button(model.isPremium ? "問題を変える" : "問題を変える（プランで使えます）") {
+                        if model.isPremium { ProblemMarkStore.shared.record(problem.id, .skipped); onSkip() } else { model.showPlan = true }
+                    }
+                }
+                Button("共有してヒントをもらう") { share(.ask) }
+                Button("やめる", role: .cancel) {}
+            }
+        } else if let onSkip {
             Button {
                 if model.isPremium {
                     ProblemMarkStore.shared.record(problem.id, .skipped)        // 解かずに変えた印（すでに解いた問題には影響しない）
@@ -71,6 +100,7 @@ struct ProblemSolverView: View {
                 .foregroundStyle(Theme.inkFaint)
         }
         .card()
+        .modifier(FrameReader(frame: $cardFrame))
     }
 
     private var answerField: some View {
@@ -100,6 +130,13 @@ struct ProblemSolverView: View {
                 .foregroundStyle(Theme.tealDeep)
             SectionLabel("解説")
             MathText(source: problem.explanation, fontSize: 16)
+            if ShareSetting.isAllowed {
+                Button { share(.solved) } label: {
+                    HStack(spacing: 6) { Image(systemName: "square.and.arrow.up"); Text("この問題を共有する") }
+                        .font(Theme.font(15, .semibold))
+                }
+                .buttonStyle(.quiet)
+            }
             Button(continueLabel, action: onContinue)
                 .buttonStyle(.primary)
                 .padding(.top, 6)

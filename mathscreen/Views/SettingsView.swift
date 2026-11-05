@@ -7,6 +7,7 @@ struct SettingsView: View {
     @State private var showGuide = false
     @State private var showDiagnostics = false
     @State private var showPasscodeSetup = false
+    @State private var shareTick = 0
     @State private var confirmClearPasscode = false
 
     var body: some View {
@@ -78,6 +79,17 @@ struct SettingsView: View {
                         action("パスコードを決める", color: Theme.tealDeep) { showPasscodeSetup = true }
                     }
                 }
+            }
+
+            group("問題の共有", footer: "「分からない」や、正解したあとに、問題の画像を X や LINE などで共有できます。答えと解説は入りません。保護者用設定をオンにすると、最初はオフになります。") {
+                HStack {
+                    Text("問題を共有できる").font(Theme.font(16)).foregroundStyle(Theme.ink)
+                    Spacer()
+                    Toggle("", isOn: Binding(get: { ShareSetting.isAllowed }, set: { ShareSetting.set($0); shareTick += 1 }))
+                        .labelsHidden().tint(Theme.tealDeep)
+                }
+                .padding(.horizontal, 18).padding(.vertical, 10)
+                .id(shareTick)
             }
 
             group("スクリーンタイム", footer: checkedFooter) {
