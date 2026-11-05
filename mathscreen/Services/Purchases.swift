@@ -1,24 +1,35 @@
 import Foundation
 import StoreKit
+import UIKit
 
-/// 解くロックプランの課金（StoreKit 2）。まだ画面にはつないでいない（設定の「仮登録」のまま）。
-/// App Store Connect に下の商品を登録してから、設定画面とつなぐ。手順は docs/BILLING.md。
+/// 解くロックプランの課金（StoreKit 2）。月額300円・年額2,400円。初めての購入には7日間の無料トライアルが付く
+/// （トライアルや価格は、App Store Connect の商品の設定で決まる）。
 @MainActor
 @Observable
 final class Purchases {
     static let shared = Purchases()
 
-    /// App Store Connect に登録する商品ID（自動更新サブスクリプション。同じグループに入れる）。
-    static let monthlyID = "com.ontamaudon.qlock.plan.monthly"      // 月300円
-    static let yearlyID = "com.ontamaudon.qlock.plan.yearly"        // 年2,400円
+    /// App Store Connect の商品ID（自動更新サブスクリプション。同じグループに入っている）。
+    static let monthlyID = "com.ontamaudon.qlock.plan.monthly"
+    static let yearlyID = "com.ontamaudon.qlock.plan.yearly"
     private static let ids = [monthlyID, yearlyID]
 
+    enum State { case unknown, subscribed, notSubscribed }
+
+    /// まだ確かめていない間は .unknown。このあいだは、ロックを止めない（起動直後に一瞬だけ「未契約」に見えるのを防ぐ）。
+    private(set) var state: State = .unknown
+    var isSubscribed: Bool { state == .subscribed }
     private(set) var products: [Product] = []
-    private(set) var isSubscribed = false
+    private(set) var introEligible = false
     private(set) var message: String?
+    private(set) var busy = false
     private var updates: Task<Void, Never>?
 
     private init() {}
+
+    /// TestFlight（サンドボックス）のビルドか。App Store の本番では false。
+    /// TestFlight のときだけ、設定に「テスト用：無料で使う」を出す（商品の審査が終わる前に、自分で試すため）。
+    static var isTestFlight: Bool { Bundle.main.appStoreReceiptURL?.lastPathComponent == "sandboxReceipt" }
 
     /// アプリの起動時に1回。購入の更新を受け取り、いまの状態と商品を読み込む。
     func start() {
@@ -29,21 +40,23 @@ final class Purchases {
                 await self?.refresh()
             }
         }
-        Task { await load(); await refresh() }
+        Task { await refresh(); await load() }
     }
 
     func load() async {
         do {
             products = try await Product.products(for: Self.ids).sorted { $0.price < $1.price }
+            if let p = products.first { introEligible = await p.subscription?.isEligibleForIntroOffer ?? false }
+            if products.isEmpty { message = "プランの情報を読み込めませんでした。しばらくしてから、もう一度お試しください。" }
         } catch {
-            message = "商品を読み込めませんでした。"
+            message = "プランの情報を読み込めませんでした。通信を確かめて、もう一度お試しください。"
         }
     }
 
-    /// 購入する。成功したら true（ユーザーが取り消したときは false）。
+    /// 購入する。成功したら true（取り消したときは false）。
     @discardableResult
     func purchase(_ product: Product) async -> Bool {
-        message = nil
+        message = nil; busy = true; defer { busy = false }
         do {
             switch try await product.purchase() {
             case .success(let result):
@@ -54,25 +67,26 @@ final class Purchases {
             case .userCancelled:
                 return false
             case .pending:
-                message = "購入の承認待ちです。"
+                message = "購入の承認待ちです。承認されると、使えるようになります。"
                 return false
             @unknown default:
                 return false
             }
         } catch {
-            message = "購入できませんでした。"
+            message = "購入できませんでした。もう一度お試しください。"
             return false
         }
     }
 
     /// 「購入を復元」。App Store と同期して、いまの状態を調べ直す。
     func restore() async {
-        message = nil
-        do { try await AppStore.sync() } catch { message = "復元できませんでした。" }
+        message = nil; busy = true; defer { busy = false }
+        do { try await AppStore.sync() } catch { message = "復元できませんでした。通信を確かめて、もう一度お試しください。" }
         await refresh()
+        if !isSubscribed && message == nil { message = "復元できる購入が見つかりませんでした。" }
     }
 
-    /// 有効なサブスクリプションがあるかを調べる（解約・返金されたものは含まない）。
+    /// 有効なサブスクリプション（無料トライアル中を含む）があるかを調べる。解約・返金されたものは含まない。
     func refresh() async {
         var active = false
         for await result in Transaction.currentEntitlements {
@@ -81,6 +95,12 @@ final class Purchases {
                 active = true
             }
         }
-        isSubscribed = active
+        state = active ? .subscribed : .notSubscribed
+        AppModel.shared.refresh()
+    }
+
+    /// 解約・管理の画面（Apple のサブスクリプションの画面）を開く。
+    func openManage() {
+        if let url = URL(string: "https://apps.apple.com/account/subscriptions") { UIApplication.shared.open(url) }
     }
 }

@@ -48,12 +48,20 @@ struct SettingsView: View {
     }
 
     @ViewBuilder private var content: some View {
-            group("解くロックプラン", footer: "いまは、お金のかからない仮登録です。解くロックプランでは、過去の成績・問題の投稿・保護者用パスコードが使えます。") {
-                row("いまのプラン", value: model.isPremium ? "解くロックプラン（仮登録中）" : "無料",
+            group("解くロックプラン", footer: "問題を見る・解くことと、記録は無料です。アプリロックなどは、解くロックプランで使えます。初めての方は、7日間無料です。") {
+                row("いまのプラン", value: model.isPremium ? "解くロックプラン" : "無料",
                     valueColor: model.isPremium ? Theme.tealDeep : Theme.inkSoft)
                 Divider().padding(.leading, 18)
-                action(model.isPremium ? "仮登録を解除する" : "仮登録する（0円）",
-                       color: model.isPremium ? Theme.danger : Theme.tealDeep) { model.setPremium(!model.isPremium) }
+                action(Purchases.shared.isSubscribed ? "プランの管理（解約など）" : "プランを見る", color: Theme.tealDeep) {
+                    if Purchases.shared.isSubscribed { Purchases.shared.openManage() } else { model.showPlan = true }
+                }
+                Divider().padding(.leading, 18)
+                action("購入を復元", color: Theme.tealDeep) { Task { await Purchases.shared.restore() } }
+                if Purchases.isTestFlight {        // TestFlight のときだけ。商品の審査が終わる前に、自分で試すため
+                    Divider().padding(.leading, 18)
+                    action(SharedStore.isPremium ? "テスト用：無料で使うをやめる" : "テスト用：無料で使う（TestFlight だけ）",
+                           color: Theme.inkSoft) { model.setPremium(!SharedStore.isPremium) }
+                }
             }
 
             if model.isPremium {

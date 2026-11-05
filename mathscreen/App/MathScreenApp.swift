@@ -12,6 +12,7 @@ struct MathScreenApp: App {
             RootView()
                 .environment(model)
                 .preferredColorScheme(.light)
+                .task { Purchases.shared.start() }
                 .onOpenURL { url in
                     if url.absoluteString.hasPrefix("mathscreen://challenge") { model.showChallenge = true }
                 }

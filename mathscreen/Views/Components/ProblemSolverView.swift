@@ -19,7 +19,6 @@ struct ProblemSolverView: View {
     @State private var showWrong = false
     @State private var eliminated: Set<Int> = []      // 4択で、まちがえて消した選択肢
     @State private var picked: Int?                   // 4択で、いま選んでいる選択肢
-    @State private var showPremiumAlert = false
 
     var body: some View {
         VStack(spacing: 16) {
@@ -39,12 +38,6 @@ struct ProblemSolverView: View {
         .animation(.easeOut(duration: 0.2), value: solved)
         .sensoryFeedback(.success, trigger: solved)
         .sensoryFeedback(.error, trigger: wrongCount)
-        .alert("解くロックプランの機能です", isPresented: $showPremiumAlert) {
-            Button("仮登録する（0円）") { model.setPremium(true) }
-            Button("やめる", role: .cancel) {}
-        } message: {
-            Text("問題の変更は、解くロックプランで使えます。いまは、お金のかからない仮登録で試せます。")
-        }
     }
 
     // MARK: 問題の変更（Premium）
@@ -54,7 +47,7 @@ struct ProblemSolverView: View {
                 if model.isPremium {
                     ProblemMarkStore.shared.record(problem.id, .skipped)        // 解かずに変えた印（すでに解いた問題には影響しない）
                     onSkip()
-                } else { showPremiumAlert = true }
+                } else { model.showPlan = true }
             } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "arrow.triangle.2.circlepath")

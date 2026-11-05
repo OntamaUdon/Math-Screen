@@ -62,6 +62,7 @@ struct HomeView: View {
                 Text("見守るアプリ").font(Theme.font(18, .bold)).foregroundStyle(Theme.ink)
                 Spacer()
                 Button {
+                    if !model.isPremium { model.showPlan = true; return }
                     ParentLock.shared.request {
                         editing = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 10, questionCount: 1)
                     }
@@ -77,6 +78,17 @@ struct HomeView: View {
                     .font(Theme.font(14)).foregroundStyle(Theme.danger)
                     .padding(14).frame(maxWidth: .infinity, alignment: .leading)
                     .well()
+            }
+
+            if !model.isPremium {
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(model.rules.isEmpty ? "アプリロックは、解くロックプランで使えます。" : "プランが終わっているので、ロックは止まっています。")
+                        .font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
+                    Text(model.rules.isEmpty ? "初めての方は、7日間無料です。" : "もう一度始めると、ルールはそのまま、また動きます。")
+                        .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
+                    Button("プランを見る") { model.showPlan = true }.buttonStyle(.primary)
+                }
+                .card()
             }
 
             if model.notificationStatus == .denied {
@@ -105,9 +117,15 @@ struct HomeView: View {
                         if i > 0 { Divider().padding(.leading, 16) }
                         RuleRow(rule: rule, locked: model.lockedRuleIDs.contains(rule.id),
                                 used: model.ruleProgress[rule.id] ?? 0,
-                                onToggle: { on in ParentLock.shared.request { model.setEnabled(rule, on) } })
+                                onToggle: { on in
+                                    if !model.isPremium { model.showPlan = true; return }
+                                    ParentLock.shared.request { model.setEnabled(rule, on) }
+                                })
                             .contentShape(Rectangle())
-                            .onTapGesture { ParentLock.shared.request { editing = rule } }
+                            .onTapGesture {
+                                if !model.isPremium { model.showPlan = true; return }
+                                ParentLock.shared.request { editing = rule }
+                            }
                     }
                 }
                 .card(padding: 0)

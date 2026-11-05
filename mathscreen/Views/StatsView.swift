@@ -24,7 +24,6 @@ struct StatsView: View {
             .card(padding: 0)
 
             weekChart
-            if !model.isPremium { premiumCard }
 
             VStack(spacing: 0) {
                 row("問題で解除した回数", "\(total.unlocks) 回")
@@ -36,26 +35,10 @@ struct StatsView: View {
     }
 
     private var weekChart: some View {
-        let weeks = model.weeklyCorrect(weeks: model.isPremium ? AppModel.premiumWeeks : 1)
+        let weeks = model.weeklyCorrect(weeks: AppModel.premiumWeeks)
         return VStack(alignment: .leading, spacing: 10) {
-            Text(model.isPremium ? "過去の成績" : "今週の成績").font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
-            IsoBarChart(weeks: weeks, caption: model.isPremium ? "正解数（手前が今週、奥が過去）" : "正解数")
-        }
-        .card()
-    }
-
-    /// 無料のとき：過去の成績は Premium、という案内。
-    private var premiumCard: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Label("過去の成績を見る", systemImage: "lock.fill")
-                .font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
-            Text("解くロックプランにすると、過去の週も、グラフの奥（右上）に並べて見られます。月300円／年2,400円の予定です。")
-                .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
-                .fixedSize(horizontal: false, vertical: true)
-            Button("仮登録する（0円）") { model.setPremium(true) }
-                .buttonStyle(.primary)
-            Text("課金の仕組みができるまでの、仮の登録です。お金はかかりません。")
-                .font(Theme.font(12)).foregroundStyle(Theme.inkFaint)
+            Text("過去の成績").font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
+            IsoBarChart(weeks: weeks, caption: "正解数（手前が今週、奥が過去）")
         }
         .card()
     }

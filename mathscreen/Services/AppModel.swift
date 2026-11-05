@@ -18,6 +18,7 @@ final class AppModel {
     var ruleProgress: [UUID: Int] = [:]     // ルールごとの、使った時間の目安（分）
     var isPremium = false          // 仮登録（0円）。本物の課金に差し替える予定
     var showChallenge = false
+    var showPlan = false                 // 解くロックプランの画面を出す
     var notificationStatus: UNAuthorizationStatus = .notDetermined     // 通知がオフだと、ブロック画面からの案内が届かない
     var lastError: String?
     var alertTitle = "エラー"          // lastError を出すときの見出し
@@ -35,12 +36,31 @@ final class AppModel {
         currentStreak = SharedStore.currentStreak
         bestStreak = SharedStore.bestStreak
         hasOnboarded = SharedStore.hasOnboarded
-        isPremium = SharedStore.isPremium
+        // 契約中か。TestFlight のときだけ、設定の「テスト用：無料で使う」でも使える。
+        isPremium = Purchases.shared.isSubscribed || (Purchases.isTestFlight && SharedStore.isPremium)
         ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
         ParentLock.recordAuthorization(approved: authorization == .approved)
         Task { notificationStatus = await UNUserNotificationCenter.current().notificationSettings().authorizationStatus }
         ensurePendingProblem()
+        enforcePlan()
+    }
+
+    /// 契約が切れていたら、すべてのロックを外して、見守りを止める（ルールは残す）。契約が戻ったら、見守りを再開する。
+    /// 契約の状態をまだ確かめていない間は、何もしない。
+    private func enforcePlan() {
+        guard Purchases.shared.state != .unknown else { return }
+        let key = "plan.suspended"
+        let suspended = UserDefaults.standard.bool(forKey: key)
+        if !isPremium {
+            if !suspended || !lockedRuleIDs.isEmpty {
+                for rule in rules { MonitorScheduler.stop(rule); release(rule.id) }
+                UserDefaults.standard.set(true, forKey: key)
+            }
+        } else if suspended {
+            for rule in rules where rule.isEnabled { restartMonitoring(rule) }
+            UserDefaults.standard.set(false, forKey: key)
+        }
     }
 
     // MARK: 次に出す問題
@@ -238,7 +258,7 @@ final class AppModel {
         }
     }
 
-    // MARK: Premium（仮登録）
+    // MARK: テスト用（TestFlight だけ）
     func setPremium(_ on: Bool) {
         SharedStore.isPremium = on
         isPremium = on
