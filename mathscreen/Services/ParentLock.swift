@@ -1,7 +1,7 @@
 import SwiftUI
 import CryptoKit
 
-/// 保護者用パスコード（Premium の機能）。ルールの変更・設定画面・Premium の管理を守る。
+/// 保護者用設定（解くロックプランの機能）。ルールの変更・設定画面・Premium の管理を守る。
 /// パスコードはこの端末の中だけに、ソルト付きのハッシュで保存する（サーバーには送らない）。
 /// アプリを入れ直すと消える。
 @MainActor
@@ -11,23 +11,38 @@ final class ParentLock {
 
     private let d = UserDefaults.standard
     private enum Key {
-        static let hash = "parent.hash", salt = "parent.salt"
+        static let hash = "parent.hash", salt = "parent.salt", enabled = "parent.enabled"
         static let failures = "parent.failures", lockedUntil = "parent.lockedUntil", lastAttempt = "parent.lastAttempt"
     }
     /// 解除したあと、この時間が過ぎるか、アプリを閉じると、また閉まる。
     static let openSeconds: TimeInterval = 180
 
     private(set) var hasPasscode: Bool
+    /// 保護者用設定がオンか。オフでも、決めたパスコードは残る（もう一度オンにすると、同じパスコードで守る）。
+    private(set) var isEnabled: Bool
     private var openUntil: Date = .distantPast
     var showEntry = false
     private var pending: (() -> Void)?
 
-    private init() { hasPasscode = UserDefaults.standard.string(forKey: Key.hash) != nil }
+    private init() {
+        let has = UserDefaults.standard.string(forKey: Key.hash) != nil
+        hasPasscode = has
+        // 以前の版でパスコードを決めていた人は、オンのまま引きつぐ
+        isEnabled = (UserDefaults.standard.object(forKey: Key.enabled) as? Bool) ?? has
+    }
+
+    /// オン・オフを切りかえる。設定の画面の中だけにあるので、パスコードで閉まっている間は、子どもは触れない。
+    /// パスコードがまだなければ、オンにできない（先に決める）。
+    func setEnabled(_ on: Bool) {
+        guard !on || hasPasscode else { return }
+        isEnabled = on
+        UserDefaults.standard.set(on, forKey: Key.enabled)
+    }
 
     /// パスコードが設定されていて、Premium で、いま閉まっている。
     var needsLock: Bool { isActive && Date() >= openUntil }
     /// 保護者モードが有効か（無料に戻ったら効かない）。
-    var isActive: Bool { hasPasscode && AppModel.shared.isPremium }
+    var isActive: Bool { isEnabled && hasPasscode && AppModel.shared.isPremium }
 
     /// 守られた操作を実行する。閉まっていれば、パスコード入力を出して、通ったら実行する。
     func request(_ action: @escaping () -> Void) {
@@ -106,6 +121,8 @@ final class ParentLock {
         d.set(0, forKey: Key.failures)
         d.removeObject(forKey: Key.lockedUntil)
         hasPasscode = true
+        isEnabled = true
+        d.set(true, forKey: Key.enabled)
         openUntil = Date().addingTimeInterval(Self.openSeconds)
     }
 
@@ -115,6 +132,8 @@ final class ParentLock {
         d.set(0, forKey: Key.failures)
         d.removeObject(forKey: Key.lockedUntil)
         hasPasscode = false
+        isEnabled = false
+        d.set(false, forKey: Key.enabled)
     }
 
     private func hash(_ code: String) -> String {

@@ -65,14 +65,27 @@ struct SettingsView: View {
             }
 
             if model.isPremium {
-                group("保護者用パスコード", footer: "ルールの変更・設定・プランの管理を、パスコードで守ります。4回まちがえると、しばらく入力できなくなります（最後の入力から6時間たつと元に戻ります）。パスコードは、この端末の中だけに保存されます。") {
-                    row("パスコード", value: ParentLock.shared.hasPasscode ? "設定済み" : "未設定",
-                        valueColor: ParentLock.shared.hasPasscode ? Theme.tealDeep : Theme.inkSoft)
-                    Divider().padding(.leading, 18)
-                    action(ParentLock.shared.hasPasscode ? "パスコードを変える" : "パスコードを決める", color: Theme.tealDeep) { showPasscodeSetup = true }
+                group("保護者用設定", footer: "オンにすると、ルールの変更・設定・プランの管理に、パスコードが必要になります。お子さんが知らない4桁の数字にしてください。この設定は、設定の画面の中にあるので、パスコードを知らないと、オフにできません。4回まちがえると、しばらく入力できなくなります。パスコードは、この端末の中だけに保存されます。") {
+                    HStack {
+                        Text("保護者用設定").font(Theme.font(16)).foregroundStyle(Theme.ink)
+                        Spacer()
+                        Toggle("", isOn: Binding(
+                            get: { ParentLock.shared.isEnabled },
+                            set: { on in
+                                if on { if ParentLock.shared.hasPasscode { ParentLock.shared.setEnabled(true) } else { showPasscodeSetup = true } }
+                                else { ParentLock.shared.setEnabled(false) }
+                            }))
+                            .labelsHidden().tint(Theme.tealDeep)
+                    }
+                    .padding(.horizontal, 18).padding(.vertical, 10)
                     if ParentLock.shared.hasPasscode {
                         Divider().padding(.leading, 18)
+                        action("パスコードを変える", color: Theme.tealDeep) { showPasscodeSetup = true }
+                        Divider().padding(.leading, 18)
                         action("パスコードを消す", color: Theme.danger) { confirmClearPasscode = true }
+                    } else {
+                        Divider().padding(.leading, 18)
+                        action("パスコードを決める", color: Theme.tealDeep) { showPasscodeSetup = true }
                     }
                 }
             }

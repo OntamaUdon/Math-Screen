@@ -19,6 +19,10 @@ struct RootView: View {
         }
         .sheet(isPresented: $lock.showEntry) { PasscodeEntryView() }
         .sheet(isPresented: $model.showPlan) { PlanView().roomySheet() }
+        .sheet(isPresented: $model.showParentSetup) { ParentSetupIntroView().roomySheet() }
+        .onChange(of: model.showPlan) { _, shown in
+            if !shown && model.parentSetupPending { model.parentSetupPending = false; model.showParentSetup = true }
+        }
         .onChange(of: scenePhase) { _, phase in if phase != .active { ParentLock.shared.lock() } }
         .alert(model.alertTitle, isPresented: Binding(get: { model.lastError != nil }, set: { if !$0 { model.lastError = nil; model.alertTitle = "エラー" } })) {
             Button("OK", role: .cancel) {}

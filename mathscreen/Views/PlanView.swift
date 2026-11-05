@@ -48,7 +48,9 @@ struct PlanView: View {
         .scrollIndicators(.hidden)
         .isoBackground()
         .task { if purchases.products.isEmpty { await purchases.load() } }
-        .onChange(of: purchases.isSubscribed) { _, on in if on { model.refresh() } }
+        .onChange(of: purchases.isSubscribed) { _, on in
+            if on { model.refresh(); dismiss() }          // 購入できたら閉じる。そのあと、保護者用設定の案内が出る
+        }
     }
 
     private var what: some View {
@@ -62,7 +64,7 @@ struct PlanView: View {
                 feature("アプリロック（使いすぎたら問題が出て、解くまでロック）")
                 feature("ロック中の「別の問題」")
                 feature("問題の投稿")
-                feature("保護者用のパスコード")
+                feature("保護者用設定（ルールや設定を、パスコードで守る）")
             }
         }
         .card()

@@ -19,6 +19,8 @@ final class AppModel {
     var isPremium = false          // 仮登録（0円）。本物の課金に差し替える予定
     var showChallenge = false
     var showPlan = false                 // 解くロックプランの画面を出す
+    var showParentSetup = false          // 保護者用設定の案内を出す（プランを始めたあと、1回だけ）
+    var parentSetupPending = false       // プランの画面が閉じるのを待っている
     var notificationStatus: UNAuthorizationStatus = .notDetermined     // 通知がオフだと、ブロック画面からの案内が届かない
     var lastError: String?
     var alertTitle = "エラー"          // lastError を出すときの見出し
@@ -44,6 +46,16 @@ final class AppModel {
         Task { notificationStatus = await UNUserNotificationCenter.current().notificationSettings().authorizationStatus }
         ensurePendingProblem()
         enforcePlan()
+        offerParentSetup()
+    }
+
+    /// プランが始まったあと、保護者用設定をまだ決めていなければ、1回だけ案内する。
+    private func offerParentSetup() {
+        let key = "parent.offered"
+        guard isPremium, hasOnboarded, !ScreenshotMode.active, !ParentLock.shared.hasPasscode,
+              !UserDefaults.standard.bool(forKey: key) else { return }
+        UserDefaults.standard.set(true, forKey: key)
+        if showPlan { parentSetupPending = true } else { showParentSetup = true }
     }
 
     /// 契約が切れていたら、すべてのロックを外して、見守りを止める（ルールは残す）。契約が戻ったら、見守りを再開する。
