@@ -119,6 +119,8 @@ jobs:
           mkdir -p "$RUNNER_TEMP/ipa" && cd "$RUNNER_TEMP/ipa"
           unzip -q "$RUNNER_TEMP"/export/*.ipa
           APP=$(ls -d Payload/*.app)
+          echo "=== $APP（本体）"
+          codesign -d --entitlements :- "$APP" 2>/dev/null | /usr/bin/plutil -p - || true
           for X in "$APP"/PlugIns/*.appex; do
             echo "=== $X"
             /usr/libexec/PlistBuddy -c "Print :NSExtension" "$X/Info.plist" || true
