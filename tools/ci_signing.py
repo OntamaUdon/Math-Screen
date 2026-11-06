@@ -66,6 +66,25 @@ def setup():
                 if p["attributes"]["name"] == name:
                     call("DELETE", f"/profiles/{p['id']}")
 
+    # 前回までの CI 用の証明書を片づける。最新の1つだけは残す
+    # （直前のビルドの署名が、審査の提出時に失効扱いにならないようにするため）
+    st, res = call("GET", "/certificates?" + urllib.parse.urlencode({"filter[certificateType]": "IOS_DISTRIBUTION", "limit": 50}))
+    if st == 200:
+        mine = []
+        for c in res.get("data", []):
+            try:
+                der = base64.b64decode(c["attributes"]["certificateContent"])
+                out = subprocess.run([OPENSSL, "x509", "-inform", "der", "-noout", "-subject", "-enddate"],
+                                     input=der, capture_output=True, check=True).stdout.decode()
+            except Exception:
+                continue
+            if "QLock CI" in out:
+                mine.append((c["id"], c["attributes"].get("expirationDate") or "", out))
+        mine.sort(key=lambda x: x[1])
+        for cid, _, _ in mine[:-1]:
+            st2, _ = call("DELETE", f"/certificates/{cid}")
+            print("古い CI 用の証明書を削除:", cid, st2)
+
     # 1. 鍵と CSR
     key, csr = os.path.join(TEMP, "ci.key"), os.path.join(TEMP, "ci.csr")
     sh(OPENSSL, "req", "-new", "-newkey", "rsa:2048", "-nodes", "-keyout", key, "-out", csr,
@@ -122,9 +141,10 @@ def cleanup():
     for pid in state.get("profiles", []):
         st, _ = call("DELETE", f"/profiles/{pid}")
         print("プロファイル削除:", pid, st)
+    # 証明書は消さない。審査の提出のときに、署名が有効である必要があるため。
+    # 古いものは、次のビルドの setup が片づける。
     if state.get("certificate"):
-        st, _ = call("DELETE", f"/certificates/{state['certificate']}")
-        print("証明書削除:", state["certificate"], st)
+        print("証明書は残します:", state["certificate"])
     subprocess.run(["security", "delete-keychain", KEYCHAIN], check=False)
 
 
