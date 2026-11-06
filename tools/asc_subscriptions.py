@@ -277,6 +277,19 @@ def create():
     print("完了しました。審査用のスクリーンショットは、まだ入っていません。")
 
 
+def capabilities():
+    """4つの Bundle ID に付いている機能（Family Controls など）を読む。読むだけ。"""
+    for bid in ["com.ontamaudon.qlock", "com.ontamaudon.qlock.monitor", "com.ontamaudon.qlock.shieldconfig", "com.ontamaudon.qlock.shieldaction"]:
+        st, res = call("GET", "/bundleIds?" + urllib.parse.urlencode({"filter[identifier]": bid}))
+        must(st, res, f"Bundle ID {bid}")
+        if not res.get("data"):
+            print(f"{bid}: 見つかりません"); continue
+        bi = res["data"][0]["id"]
+        caps = get_all(f"/bundleIds/{bi}/bundleIdCapabilities")
+        kinds = sorted(c["attributes"]["capabilityType"] for c in caps)
+        print(f"{bid}: {kinds}")
+
+
 def all_prices():
     """年額など、日本の価格しか入っていない商品に、ほかの国・地域の価格も入れる（月額と同じ状態にする）。
     ほかの国の価格は、日本の価格に相当する金額を、Apple の対応表（equalizations）から取る。販売地域は変えない。"""
@@ -314,4 +327,4 @@ def all_prices():
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
-    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot, "all-prices": all_prices, "all-territories": all_territories}[mode]()
+    {"check": check, "create": create, "japan": japan_only, "review-shot": review_shot, "all-prices": all_prices, "all-territories": all_territories, "capabilities": capabilities}[mode]()

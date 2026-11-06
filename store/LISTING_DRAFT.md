@@ -39,6 +39,11 @@
 ・月額 300円、または年額 2,400円（税込）。初めての方は、7日間無料です。
 ・解約は、iPhone の「設定」→ Apple ID →「サブスクリプション」から、いつでもできます。
 
+【利用規約・プライバシーポリシー】
+・利用規約（Apple 標準の使用許諾契約）：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+・アプリの利用条件：https://ontamaudon.github.io/Math-Screen/terms.html
+・プライバシーポリシー：https://ontamaudon.github.io/Math-Screen/privacy.html
+
 【お知らせ】
 ・アプリをロックする機能は、iOS の「スクリーンタイム」の仕組みを使っています。制限するアプリの選択や使用状況は、iPhone の中だけに保存され、開発者には送られません。
 ・問題の内容は、できるだけ正確にするよう努めていますが、正確さや、試験での得点を保証するものではありません。
