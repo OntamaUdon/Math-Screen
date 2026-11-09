@@ -19,7 +19,10 @@ object GuardEngine {
     private var lastLaunch = 0L
 
     /** 前に出ているアプリが変わった。 */
+    private fun log(msg: String) { if (com.ontamaudon.qlock.BuildConfig.DEBUG) android.util.Log.d("Qlock", msg) }
+
     fun onForeground(ctx: Context, pkg: String) {
+        log("前のアプリ：$pkg（画面 ${if (screenOn) "オン" else "オフ"}）")
         if (pkg == current) { flush(ctx); return }
         flush(ctx)
         current = pkg
@@ -32,6 +35,7 @@ object GuardEngine {
     fun onScreen(ctx: Context, on: Boolean) {
         flush(ctx)
         screenOn = on
+        log("画面：${if (on) "オン" else "オフ"}")
         since = SystemClock.elapsedRealtime()
         val pkg = current
         if (on && pkg != null && isBlocked(ctx, pkg)) launchChallenge(ctx, fromLockScreen = false)
@@ -43,12 +47,18 @@ object GuardEngine {
      */
     fun restore(ctx: Context) {
         val pm = ctx.getSystemService(android.os.PowerManager::class.java)
-        val km = ctx.getSystemService(android.app.KeyguardManager::class.java)
-        screenOn = pm?.isInteractive == true && km?.isKeyguardLocked != true
+        // 画面がついていれば数える（ロック画面が出ているかどうかは、ここでは確かめない。
+        // 確かめると、端末によっては、アプリが前に出ていても「ロック中」と返り、数えなくなるため）
+        screenOn = pm?.isInteractive != false
         current = Store.lastForeground
         since = SystemClock.elapsedRealtime()
         val pkg = current
         if (screenOn && pkg != null && isBlocked(ctx, pkg)) launchChallenge(ctx, fromLockScreen = false)
+    }
+
+    /** 見守りのサービスが止まる。それまでの時間を足しておく（画面の状態は変えない）。 */
+    fun pause(ctx: Context) {
+        flush(ctx)
     }
 
     /** 数え始めの時刻を、いまにする（正解してロックが外れたとき）。 */
@@ -96,7 +106,7 @@ object GuardEngine {
                 newlyLocked = rule
             }
         }
-        if (changed) Store.saveUsage(usage)
+        if (changed) { Store.saveUsage(usage); log("数えた：$pkg +${dt}ms → ${usage}") }
         AppModel.refresh()
         if (newlyLocked != null) {
             ChallengeNotification.send(ctx,

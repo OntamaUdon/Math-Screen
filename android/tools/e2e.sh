@@ -110,6 +110,8 @@ if echo "$PREFS" | grep -q 'emergencyUnlocks&quot;:1\|emergencyUnlocks\\":1'; th
 adb shell locksettings clear --old 1234 >/dev/null 2>&1 || true
 echo "---- 診断のメモ ----"
 echo "$PREFS" | grep -o 'diagNote[^<]*<' | head
+echo "---- 見守りのログ ----"
+adb logcat -d -s Qlock:D | tail -60
 echo "---- アプリのエラー（あれば） ----"
 adb logcat -d -t 2000 AndroidRuntime:E '*:S' | tail -40
 for f in "$OUT"/*.png; do echo "==BEGIN $(basename "$f")=="; base64 -w 0 "$f"; echo; echo "==END=="; done

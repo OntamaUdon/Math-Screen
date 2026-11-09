@@ -33,6 +33,9 @@ class GuardService : AccessibilityService() {
             when (intent.action) {
                 Intent.ACTION_SCREEN_OFF -> GuardEngine.onScreen(c, false)
                 Intent.ACTION_SCREEN_ON -> {
+                    // 端末にロック画面がない人には「ロックが外れた」の合図が来ないので、ここで数え始める
+                    val kg = getSystemService(KeyguardManager::class.java)
+                    if (kg?.isKeyguardLocked != true) { GuardEngine.onScreen(c, true); restartTicker() }
                     // ロック中に画面をつけたら、ロック画面の上に問題を出す（設定でオフにできる）
                     val km = getSystemService(KeyguardManager::class.java)
                     if (km?.isKeyguardLocked == true && AppModel.isPremium && Store.lockedRuleIDs.isNotEmpty() && Store.lockScreenChallenge) {
@@ -93,7 +96,7 @@ class GuardService : AccessibilityService() {
     override fun onDestroy() {
         handler.removeCallbacks(ticker)
         runCatching { unregisterReceiver(screenReceiver) }
-        GuardEngine.onScreen(this, false)
+        GuardEngine.pause(this)
         Store.setDiagNote("service", "見守りが止まりました")
         super.onDestroy()
     }
