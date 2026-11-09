@@ -73,6 +73,12 @@ def resubmit():
     if not target:
         print("::error::再提出できる提出物が見つかりません。状態:", [s["attributes"].get("state") for s in subs]); sys.exit(1)
     print("再提出する提出物:", target["id"], target["attributes"].get("state"))
+    # 却下された項目（アプリのバージョン）を「対応済み」にする（画面の「審査内容を更新」にあたる）
+    for it in get_all(f"/reviewSubmissions/{target['id']}/items"):
+        if it["attributes"].get("state") == "REJECTED":
+            st, res = call("PATCH", f"/reviewSubmissionItems/{it['id']}", {"data": {"type": "reviewSubmissionItems", "id": it["id"],
+                "attributes": {"resolved": True}}})
+            print("却下された項目を対応済みにする:", it["id"], st, "" if st < 400 else res)
     must(*call("PATCH", f"/reviewSubmissions/{target['id']}", {"data": {"type": "reviewSubmissions", "id": target["id"],
         "attributes": {"submitted": True}}}), "審査への再提出")
     print("審査に再提出しました")
