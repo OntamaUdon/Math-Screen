@@ -101,7 +101,9 @@ def assign(problems):
         diffs[(p["unit"], p["title"])].append(p["difficulty"])
     mean = {k: sum(v) / len(v) for k, v in diffs.items()}
     for p in problems:
-        if p.get("_from"):                        # 「入試の難問」から移した問題
+        if "rate_hint" in p:                      # tools/gen_math7.py の問題（難易度ごとの見積もり）
+            r = p.pop("rate_hint")
+        elif p.get("_from"):                        # 「入試の難問」から移した問題
             r = UNIT_RATE[p.pop("_from")] + (3 - p["difficulty"]) * 0.8
         elif p["category"] == "eng_word" and p["unit"] in WORD_ENJA:
             r = _word(p)
