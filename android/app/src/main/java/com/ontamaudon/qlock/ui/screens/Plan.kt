@@ -101,7 +101,7 @@ fun PlanScreen(onClose: () -> Unit) {
                 }
             }
         }
-        Billing.message?.let { T(it, 13, W.semibold, Theme.danger) }
+        if (!sample) Billing.message?.let { T(it, 13, W.semibold, Theme.danger) }
         IsoTextButton("購入を復元", { Billing.restore() }, kind = Kind.quiet, enabled = !Billing.busy)
 
         // 購入の前に見せる説明（Google Play のサブスクのルールに合わせる）
