@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">解くロック</string>
+    <string name="guard_service_label">解くロック（見守り）</string>
+    <string name="guard_service_summary">決めたアプリを使った時間を数えて、時間になったら問題を出します。</string>
+    <string name="guard_service_description">解くロックは、この機能で「いま前に出ているアプリの名前」だけを受け取ります。決めたアプリを使った時間を数えて、時間になったら、その上に問題の画面を出すためです。画面に表示されている文字や、入力した内容は読み取りません。受け取った情報は、この端末の中だけで使い、外へは送りません。</string>
+</resources>
