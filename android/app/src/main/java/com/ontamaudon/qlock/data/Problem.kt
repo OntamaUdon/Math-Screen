@@ -2,6 +2,7 @@ package com.ontamaudon.qlock.data
 
 import com.ontamaudon.qlock.QlockApp
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
 /** 問題（problems.json の1件）。iPhone 版と同じデータ。 */

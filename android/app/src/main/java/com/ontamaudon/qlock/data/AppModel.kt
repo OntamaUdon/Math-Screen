@@ -21,23 +21,34 @@ import java.util.Calendar
 object AppModel {
     val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
-    var rules by mutableStateOf<List<GuardRule>>(emptyList()); private set
-    var lockedRuleIDs by mutableStateOf<Set<String>>(emptySet()); private set
-    var daily by mutableStateOf<Map<String, DailyStats>>(emptyMap()); private set
-    var currentStreak by mutableIntStateOf(0); private set
-    var bestStreak by mutableIntStateOf(0); private set
-    var hasOnboarded by mutableStateOf(false); private set
-    var usage by mutableStateOf<Map<String, Long>>(emptyMap()); private set
-    var isPremium by mutableStateOf(false); private set
-    var guardEnabled by mutableStateOf(false); private set       // ユーザー補助サービスがオンか
-    var notificationsAllowed by mutableStateOf(false); private set
+    var rules by mutableStateOf<List<GuardRule>>(emptyList())
+        private set
+    var lockedRuleIDs by mutableStateOf<Set<String>>(emptySet())
+        private set
+    var daily by mutableStateOf<Map<String, DailyStats>>(emptyMap())
+        private set
+    var currentStreak by mutableIntStateOf(0)
+        private set
+    var bestStreak by mutableIntStateOf(0)
+        private set
+    var hasOnboarded by mutableStateOf(false)
+        private set
+    var usage by mutableStateOf<Map<String, Long>>(emptyMap())
+        private set
+    var isPremium by mutableStateOf(false)
+        private set
+    var guardEnabled by mutableStateOf(false)
+        private set       // ユーザー補助サービスがオンか
+    var notificationsAllowed by mutableStateOf(false)
+        private set
     var showPlan by mutableStateOf(false)
     var showParentSetup by mutableStateOf(false)
     var parentSetupPending = false
     var lastError by mutableStateOf<String?>(null)
     var alertTitle by mutableStateOf("エラー")
     /** 画面の読み直し用（記録や印が変わったとき）。 */
-    var tick by mutableIntStateOf(0); private set
+    var tick by mutableIntStateOf(0)
+        private set
 
     fun refresh() {
         scope.launch(Dispatchers.IO) { runCatching { DifficultyStore.refreshIfNeeded() } }

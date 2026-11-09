@@ -81,7 +81,9 @@ fun Sheet(onDismiss: () -> Unit, content: @Composable ColumnScope.() -> Unit) {
                     // つまみ（下へ引くと閉じる）
                     Box(Modifier.fillMaxWidth().height(28.dp)
                         .draggable(rememberDraggableState { drag += it }, Orientation.Vertical,
-                            onDragStopped = { if (drag > with(density) { 120.dp.toPx() }) onDismiss() else drag = 0f }),
+                            onDragStopped = {
+                                if (drag > with(density) { 120.dp.toPx() }) { onDismiss() } else { drag = 0f }
+                            }),
                         contentAlignment = Alignment.TopCenter) {
                         Box(Modifier.padding(top = 6.dp).width(36.dp).height(5.dp).clip(CircleShape).background(Theme.inkFaint.copy(alpha = 0.5f)))
                     }
@@ -170,7 +172,7 @@ fun Confirm(title: String, message: String? = null, buttons: List<Pair<String, (
         onDismissRequest = onDismiss,
         containerColor = Theme.surface,
         title = { T(title, 18, W.bold) },
-        text = message?.let { { T(it, 14, color = Theme.inkSoft) } },
+        text = if (message != null) { { T(message, 14, color = Theme.inkSoft) } } else null,
         confirmButton = {
             Column(horizontalAlignment = Alignment.End) {
                 buttons.forEachIndexed { i, (label, run) ->
@@ -180,8 +182,8 @@ fun Confirm(title: String, message: String? = null, buttons: List<Pair<String, (
                 }
             }
         },
-        dismissButton = if (cancel.isEmpty()) null else ({
-            TextButton(onClick = onDismiss) { T(cancel, 15, W.semibold, Theme.inkSoft) }
-        }),
+        dismissButton = if (cancel.isEmpty()) null else {
+            { TextButton(onClick = onDismiss) { T(cancel, 15, W.semibold, Theme.inkSoft) } }
+        },
     )
 }

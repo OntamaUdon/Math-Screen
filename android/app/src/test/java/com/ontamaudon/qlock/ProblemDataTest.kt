@@ -4,6 +4,7 @@ import com.ontamaudon.qlock.data.GuardRule
 import com.ontamaudon.qlock.data.Problem
 import com.ontamaudon.qlock.data.ProblemCategory
 import com.ontamaudon.qlock.data.UnitInfo
+import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

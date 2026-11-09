@@ -41,12 +41,17 @@ object Billing {
     /** 画面に出す、1つのプラン。 */
     data class Plan(val basePlanId: String, val price: String, val priceMicros: Long, val hasTrial: Boolean, val offerToken: String)
 
-    var state by mutableStateOf(State.unknown); private set
+    var state by mutableStateOf(State.unknown)
+        private set
     val isSubscribed: Boolean get() = state == State.subscribed
-    var plans by mutableStateOf<List<Plan>>(emptyList()); private set
-    var message by mutableStateOf<String?>(null); private set
-    var busy by mutableStateOf(false); private set
-    var loading by mutableStateOf(false); private set
+    var plans by mutableStateOf<List<Plan>>(emptyList())
+        private set
+    var message by mutableStateOf<String?>(null)
+        private set
+    var busy by mutableStateOf(false)
+        private set
+    var loading by mutableStateOf(false)
+        private set
 
     private var details: ProductDetails? = null
     private var client: BillingClient? = null
