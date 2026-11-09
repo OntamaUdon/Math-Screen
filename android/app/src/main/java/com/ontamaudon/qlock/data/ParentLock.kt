@@ -26,7 +26,7 @@ object ParentLock {
     var showEntry by mutableStateOf(false)
     private var pending: (() -> Unit)? = null
 
-    fun setEnabled(on: Boolean) {
+    fun switchEnabled(on: Boolean) {
         if (on && !hasPasscode) return
         isEnabled = on
         d.edit().putBoolean("parent.enabled", on).apply()

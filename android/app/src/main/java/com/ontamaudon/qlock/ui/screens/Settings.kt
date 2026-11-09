@@ -109,8 +109,8 @@ fun SettingsScreen() {
         if (m.isPremium) {
             Group("保護者用設定", "オンにすると、ルールの変更・設定・プランの管理に、パスコードが必要になります。お子さんが知らない4桁の数字にしてください。この設定は、設定の画面の中にあるので、パスコードを知らないと、オフにできません。4回まちがえると、しばらく入力できなくなります。パスコードは、この端末の中だけに保存されます。") {
                 ToggleRow("保護者用設定", ParentLock.isEnabled) { on ->
-                    if (on) { if (ParentLock.hasPasscode) ParentLock.setEnabled(true) else showPasscodeSetup = true }
-                    else ParentLock.setEnabled(false)
+                    if (on) { if (ParentLock.hasPasscode) ParentLock.switchEnabled(true) else showPasscodeSetup = true }
+                    else ParentLock.switchEnabled(false)
                 }
                 Divider(Modifier.padding(start = 18.dp))
                 if (ParentLock.hasPasscode) {

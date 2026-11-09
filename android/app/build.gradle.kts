@@ -29,7 +29,8 @@ android {
         applicationId = "com.ontamaudon.qlock"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
+        // Play に送るたびに増やす番号。GitHub Actions では、実行の番号を使う
+        versionCode = (project.findProperty("versionCode") as String?)?.toInt() ?: 1
         versionName = "1.0"
     }
 

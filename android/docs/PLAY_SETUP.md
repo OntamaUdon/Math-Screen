@@ -54,13 +54,44 @@ Play Console の「アプリを作成」で、次のように入れます。
 
 Google Play には「アップロード鍵」で署名したファイルを送ります。鍵は、あなたのパソコンで作って、GitHub の Secrets に入れてください。**鍵のファイルとパスワードは、私に送らないでください。**
 
-手順は、ビルドの仕組みを用意したときに、別に書きます（Windows で Android Studio を使う方法）。
+### 3-1. 鍵を作る（Windows、Android Studio を入れたあと）
 
-Secrets に入れる名前（予定）：
-- `QLOCK_KEYSTORE_BASE64`（鍵のファイルを文字にしたもの）
-- `QLOCK_KEYSTORE_PASSWORD`
-- `QLOCK_KEY_ALIAS`
-- `QLOCK_KEY_PASSWORD`
+1. スタートメニューで「PowerShell」を開く。
+2. 次の1行を貼って、Enter を押す（Android Studio に入っている keytool という道具を使います。入れた場所が違うときは、`C:\Program Files\Android\Android Studio` の部分を変えてください）。
+
+```
+& "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkeypair -v -keystore "$HOME\qlock-upload.jks" -alias upload -keyalg RSA -keysize 2048 -validity 10000
+```
+
+3. パスワードを2回聞かれるので、決めて入れる（画面には表示されません）。**このパスワードは、紙など、パソコンの外にも控えてください。** 名前や組織は、空のまま Enter でも構いません。最後に「正しいですか」と聞かれたら `y`。
+4. ユーザーのフォルダ（`C:\Users\あなたの名前`）に `qlock-upload.jks` ができます。**このファイルは、なくさないように、USB メモリなどにも控えてください。**（なくしても、Google に連絡すれば鍵を変えられますが、手間がかかります）
+
+### 3-2. GitHub の Secrets に入れる
+
+1. PowerShell で次の1行を実行する。鍵のファイルが文字に変わって、コピーされた状態になります（画面には何も出ません）。
+
+```
+[Convert]::ToBase64String([IO.File]::ReadAllBytes("$HOME\qlock-upload.jks")) | Set-Clipboard
+```
+
+2. ブラウザで GitHub のリポジトリ →「Settings」→「Secrets and variables」→「Actions」→「New repository secret」。
+3. 次の4つを、1つずつ作る。
+
+| Name | Secret に入れるもの |
+|---|---|
+| `QLOCK_KEYSTORE_BASE64` | 1 でコピーしたもの（貼り付ける） |
+| `QLOCK_KEYSTORE_PASSWORD` | 3-1 で決めたパスワード |
+| `QLOCK_KEY_ALIAS` | `upload` |
+| `QLOCK_KEY_PASSWORD` | 3-1 で決めたパスワード（同じもの） |
+
+4. 入れ終わったら、私に「入れた」とだけ伝えてください（中身は送らないでください）。コミットメッセージに `[android-release]` を付けて push すると、Play に送るファイル（`.aab`）ができます。
+
+### 3-3. Play Console に送る（最初の1回は手で）
+
+1. GitHub の「Actions」→ 最新の「Android」→ 下の「Artifacts」の `qlock-release-aab` をダウンロードして、zip を開く。
+2. Play Console →「解くロック」→「テスト」→「内部テスト」→「新しいリリースを作成」。
+3. 「Google Play でアプリの署名鍵を管理する」（Play アプリ署名）を使う、を選ぶ。
+4. `.aab` ファイルをアップロードして、保存 → 確認 → 公開（内部テストなので、テスターだけに配られます）。
 
 ---
 

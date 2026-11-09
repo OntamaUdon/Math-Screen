@@ -83,3 +83,47 @@ jobs:
           name: qlock-android-screenshots
           path: android/build-screenshots/
           retention-days: 14
+
+  # リリース版（Google Play に送る .aab）。コミットメッセージに [android-release] を含めるか、手動で実行する。
+  # アップロード用の鍵は、GitHub の Secrets から読む（docs/PLAY_SETUP.md の 3）。鍵がなければ、このジョブは止まる。
+  release:
+    needs: build
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[android-release]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: android
+    env:
+      KEYSTORE_B64: ${{ secrets.QLOCK_KEYSTORE_BASE64 }}
+      QLOCK_KEYSTORE_PASSWORD: ${{ secrets.QLOCK_KEYSTORE_PASSWORD }}
+      QLOCK_KEY_ALIAS: ${{ secrets.QLOCK_KEY_ALIAS }}
+      QLOCK_KEY_PASSWORD: ${{ secrets.QLOCK_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Restore upload key
+        run: |
+          if [ -z "$KEYSTORE_B64" ]; then echo "QLOCK_KEYSTORE_BASE64 が Secrets にありません"; exit 1; fi
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+          echo "QLOCK_KEYSTORE_PATH=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+
+      - name: Build (release .aab)
+        run: ./gradlew --no-daemon bundleRelease -PversionCode=${{ github.run_number }}
+
+      - name: Remove upload key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/upload.jks"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qlock-release-aab
+          path: android/app/build/outputs/bundle/release/*.aab
+          retention-days: 30
