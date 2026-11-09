@@ -147,6 +147,11 @@ object Store {
         get() = prefs.getBoolean("lockScreenChallenge", true)
         set(v) { prefs.edit().putBoolean("lockScreenChallenge", v).apply() }
 
+    /** 最後に前に出ていたアプリ（見守りのサービスが動き出し直したとき、そこから数え直すため）。 */
+    var lastForeground: String?
+        get() = prefs.getString("lastForeground", null)
+        set(v) { prefs.edit().putString("lastForeground", v).apply() }
+
     /** 出題の初期設定（ルールがないときに使う分野）。 */
     val defaultCategories: Set<String> get() = GuardRule.MATH_CATEGORIES
 

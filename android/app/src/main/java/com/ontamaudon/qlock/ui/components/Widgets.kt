@@ -106,10 +106,11 @@ fun FullScreen(onDismiss: () -> Unit, content: @Composable () -> Unit) {
 @Composable
 fun Toggle(on: Boolean, onChange: (Boolean) -> Unit, enabled: Boolean = true) {
     val x by animateDpAsState(if (on) 22.dp else 2.dp, tween(150), label = "toggle")
+    val density = LocalDensity.current
     Box(Modifier.width(51.dp).height(31.dp).clip(CircleShape)
         .background(if (on) Theme.tealDeep else hexGray)
         .clickable(enabled = enabled) { onChange(!on) }) {
-        Box(Modifier.offset(x = x, y = 2.dp).size(27.dp).clip(CircleShape).background(Color.White))
+        Box(Modifier.offset { with(density) { IntOffset(x.roundToPx(), 2.dp.roundToPx()) } }.size(27.dp).clip(CircleShape).background(Color.White))
     }
 }
 

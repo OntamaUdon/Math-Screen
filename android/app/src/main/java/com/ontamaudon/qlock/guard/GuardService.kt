@@ -59,6 +59,8 @@ class GuardService : AccessibilityService() {
         registerReceiver(screenReceiver, f)
         Store.setDiagNote("service", "見守りを始めました")
         AppModel.refresh()
+        GuardEngine.restore(this)
+        restartTicker()
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {

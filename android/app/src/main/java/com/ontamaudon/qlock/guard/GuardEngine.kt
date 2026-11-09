@@ -23,6 +23,7 @@ object GuardEngine {
         if (pkg == current) { flush(ctx); return }
         flush(ctx)
         current = pkg
+        Store.lastForeground = pkg
         since = SystemClock.elapsedRealtime()
         if (isBlocked(ctx, pkg)) launchChallenge(ctx, fromLockScreen = false)
     }
@@ -34,6 +35,20 @@ object GuardEngine {
         since = SystemClock.elapsedRealtime()
         val pkg = current
         if (on && pkg != null && isBlocked(ctx, pkg)) launchChallenge(ctx, fromLockScreen = false)
+    }
+
+    /**
+     * 見守りのサービスが動き出した（オンにした直後や、端末が止めたあとに動き出し直したとき）。
+     * 前に出ているアプリは、次に画面が変わるまで分からないので、最後に前にいたアプリから数え始める。
+     */
+    fun restore(ctx: Context) {
+        val pm = ctx.getSystemService(android.os.PowerManager::class.java)
+        val km = ctx.getSystemService(android.app.KeyguardManager::class.java)
+        screenOn = pm?.isInteractive == true && km?.isKeyguardLocked != true
+        current = Store.lastForeground
+        since = SystemClock.elapsedRealtime()
+        val pkg = current
+        if (screenOn && pkg != null && isBlocked(ctx, pkg)) launchChallenge(ctx, fromLockScreen = false)
     }
 
     /** 数え始めの時刻を、いまにする（正解してロックが外れたとき）。 */

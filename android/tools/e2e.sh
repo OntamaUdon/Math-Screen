@@ -39,7 +39,12 @@ adb shell am start -W -n $PKG/.MainActivity --es e2e_rule_pkg $TARGET --ei e2e_m
 sleep 3
 adb shell settings put secure enabled_accessibility_services $PKG/$PKG.guard.GuardService
 adb shell settings put secure accessibility_enabled 1
-sleep 3
+# 見守りのサービスが動き出すまで待つ（動き出すと、診断のメモが残る）
+for i in $(seq 1 30); do
+  adb shell run-as $PKG cat shared_prefs/qlock.xml 2>/dev/null | grep -q 'diagNote.service' && break
+  sleep 1
+done
+echo "  見守りが動き出すまで：約${i}秒"
 if adb shell settings get secure enabled_accessibility_services | grep -q GuardService; then ok "見守り（ユーザー補助）をオンにできた"; else ng "見守りをオンにできない"; fi
 adb shell input keyevent KEYCODE_HOME; sleep 2
 
@@ -81,11 +86,11 @@ if has "この問題を共有する" || has "分からない"; then ng "ロッ�
 answer right
 shot 5-right
 if has "解除してアプリに戻る"; then ok "正しく答えると「解除してアプリに戻る」が出た"; else ng "正解のあとのボタンが出ない"; fi
-tap "解除してアプリに戻る" exact || true
+SOLVED=0; tap "解除してアプリに戻る" exact && SOLVED=1
 sleep 2
 adb shell input text 1234; adb shell input keyevent KEYCODE_ENTER; sleep 4
 shot 6-after-solve
-if top | grep -q "$TARGET"; then ok "正解して解除すると、設定アプリに戻れた"; else ng "正解して解除したあとの画面：$(top)"; fi
+if [ "$SOLVED" = 1 ] && top | grep -q "$TARGET"; then ok "正解して解除すると、設定アプリに戻れた"; else ng "正解して解除したあとの画面：$(top)"; fi
 PREFS=$(adb shell run-as $PKG cat shared_prefs/qlock.xml 2>/dev/null | tr -d '\r')
 if echo "$PREFS" | grep -q 'unlocks&quot;:1\|unlocks\\":1'; then ok "「問題で解除」が記録に残った"; else ng "「問題で解除」の記録が見つからない"; fi
 
