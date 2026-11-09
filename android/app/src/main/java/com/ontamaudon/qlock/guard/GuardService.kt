@@ -69,7 +69,28 @@ class GuardService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         if (event?.eventType != AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED) return
         val pkg = event.packageName?.toString() ?: return
+        // 裏にいるアプリ（ホーム画面など）も、ときどき合図を出す。アプリの本当の画面（Activity）が前に来たときだけ受け取る
+        val cls = event.className?.toString()
+        if (cls != null && pkg !in ignored && !isActivity(pkg, cls)) {
+            if (com.ontamaudon.qlock.BuildConfig.DEBUG) android.util.Log.d("Qlock", "無視：$pkg / $cls（Activity でない）")
+            return
+        }
         onPackage(pkg)
+    }
+
+    private val activityCache = HashMap<String, Boolean>()
+
+    /** その画面が、アプリの Activity か。調べられないアプリ（一覧に出ないアプリ）は、Activity と見なす。 */
+    private fun isActivity(pkg: String, cls: String): Boolean = activityCache.getOrPut("$pkg/$cls") {
+        try {
+            packageManager.getActivityInfo(android.content.ComponentName(pkg, cls), 0)
+            true
+        } catch (e: android.content.pm.PackageManager.NameNotFoundException) {
+            // パッケージは見えるのに、その名前の Activity がない → ダイアログや部品の合図
+            runCatching { packageManager.getPackageInfo(pkg, 0) }.isFailure
+        } catch (e: Exception) {
+            true
+        }
     }
 
     private fun onPackage(pkg: String) {
