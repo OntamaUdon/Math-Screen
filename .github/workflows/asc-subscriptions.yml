@@ -9,7 +9,7 @@ on:
 
 jobs:
   subscriptions:
-    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') || contains(github.event.head_commit.message, '[asc-caps]') || contains(github.event.head_commit.message, '[asc-prices]') || contains(github.event.head_commit.message, '[asc-worldwide]') || contains(github.event.head_commit.message, '[asc-listing]') || contains(github.event.head_commit.message, '[asc-shots]') || contains(github.event.head_commit.message, '[asc-listing-check]') }}
+    if: ${{ contains(github.event.head_commit.message, '[asc-check]') || contains(github.event.head_commit.message, '[asc-create]') || contains(github.event.head_commit.message, '[asc-japan]') || contains(github.event.head_commit.message, '[asc-review-shot]') || contains(github.event.head_commit.message, '[asc-caps]') || contains(github.event.head_commit.message, '[asc-prices]') || contains(github.event.head_commit.message, '[asc-worldwide]') || contains(github.event.head_commit.message, '[asc-listing]') || contains(github.event.head_commit.message, '[asc-shots]') || contains(github.event.head_commit.message, '[asc-listing-check]') || contains(github.event.head_commit.message, '[asc-review-status]') || contains(github.event.head_commit.message, '[asc-resubmit]') }}
     runs-on: ubuntu-latest
     env:
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
@@ -59,3 +59,9 @@ jobs:
       - name: Store listing check (read only)
         if: ${{ contains(github.event.head_commit.message, '[asc-listing-check]') }}
         run: python tools/asc_listing.py check
+      - name: Resubmit for review (attach the newest processed build)
+        if: ${{ contains(github.event.head_commit.message, '[asc-resubmit]') }}
+        run: python tools/asc_review.py resubmit
+      - name: Review status (read only)
+        if: ${{ contains(github.event.head_commit.message, '[asc-review-status]') }}
+        run: python tools/asc_review.py status
