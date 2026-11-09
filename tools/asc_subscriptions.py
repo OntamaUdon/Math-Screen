@@ -169,7 +169,10 @@ def review_shot():
         st, res = call("GET", f"/subscriptions/{sid}/appStoreReviewScreenshot")
         old = res.get("data") if st == 200 else None
         if old:
-            must(*call("DELETE", f"/subscriptionAppStoreReviewScreenshots/{old['id']}"), f"古い画像の削除 {pid}")
+            st, res = call("DELETE", f"/subscriptionAppStoreReviewScreenshots/{old['id']}")
+            if st >= 400:
+                print(f"::warning::{pid} の審査用の画像は、いまの状態では入れ替えられませんでした（{st}）")
+                continue
         res = must(*call("POST", "/subscriptionAppStoreReviewScreenshots", {"data": {"type": "subscriptionAppStoreReviewScreenshots",
             "attributes": {"fileName": "plan.png", "fileSize": len(data)},
             "relationships": {"subscription": {"data": {"type": "subscriptions", "id": sid}}}}}), f"画像の予約 {pid}")
