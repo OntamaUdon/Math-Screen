@@ -67,6 +67,10 @@ android {
         compose = true
         buildConfig = true
     }
+    lint {
+        abortOnError = false
+        xmlReport = true
+    }
     androidResources {
         noCompress += listOf("json")
     }

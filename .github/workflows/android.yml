@@ -28,12 +28,29 @@ jobs:
           java-version: "17"
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          # このブランチでも、ダウンロードした部品をとっておく（GitHub 側の一時的な通信エラーで失敗しにくくする）
+          cache-read-only: false
 
       - name: Build (debug APK)
-        run: ./gradlew --no-daemon assembleDebug
+        run: ./gradlew --no-daemon assembleDebug || (sleep 30 && ./gradlew --no-daemon assembleDebug)
 
       - name: Unit tests
-        run: ./gradlew --no-daemon testDebugUnitTest
+        run: ./gradlew --no-daemon testDebugUnitTest || (sleep 30 && ./gradlew --no-daemon testDebugUnitTest)
+
+      - name: Lint（問題がありそうな書き方を探す。結果はログに出す）
+        continue-on-error: true
+        run: |
+          ./gradlew --no-daemon lintDebug || true
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET, glob
+          for f in glob.glob("app/build/reports/lint-results-debug.xml"):
+              for i in ET.parse(f).getroot().iter("issue"):
+                  if i.get("severity") in ("Error", "Fatal", "Warning"):
+                      loc = i.find("location")
+                      where = (loc.get("file", "").split("/app/src/")[-1] + ":" + loc.get("line", "")) if loc is not None else ""
+                      print(f"LINT {i.get('severity')} {i.get('id')} {where} {i.get('message')}")
+          PY
 
       - uses: actions/upload-artifact@v4
         with:
@@ -55,10 +72,13 @@ jobs:
           java-version: "17"
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          # このブランチでも、ダウンロードした部品をとっておく（GitHub 側の一時的な通信エラーで失敗しにくくする）
+          cache-read-only: false
 
       - name: Build (debug APK)
         working-directory: android
-        run: ./gradlew --no-daemon assembleDebug
+        run: ./gradlew --no-daemon assembleDebug || (sleep 30 && ./gradlew --no-daemon assembleDebug)
 
       - name: Enable KVM (emulator speed)
         run: |
@@ -99,10 +119,13 @@ jobs:
           java-version: "17"
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          # このブランチでも、ダウンロードした部品をとっておく（GitHub 側の一時的な通信エラーで失敗しにくくする）
+          cache-read-only: false
 
       - name: Build (debug APK)
         working-directory: android
-        run: ./gradlew --no-daemon assembleDebug
+        run: ./gradlew --no-daemon assembleDebug || (sleep 30 && ./gradlew --no-daemon assembleDebug)
 
       - name: Enable KVM (emulator speed)
         run: |
@@ -152,6 +175,9 @@ jobs:
           java-version: "17"
 
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          # このブランチでも、ダウンロードした部品をとっておく（GitHub 側の一時的な通信エラーで失敗しにくくする）
+          cache-read-only: false
 
       - name: Restore upload key
         run: |

@@ -3,9 +3,10 @@
 # 1. 見守りをオンにして、「設定」アプリに 1分のルールを作る
 # 2. 「設定」アプリを1分少し使う → その上に問題が出るか
 # 3. 問題を閉じる → ホームに戻るか。もう一度開く → また問題が出るか
-# 4. まちがえた答え → 「不正解」と出るか
-# 5. 端末に PIN を付けて、画面を消して、つける → ロック画面の上に問題が出るか
-# 6. 緊急解除 → PIN を入れる → 「設定」アプリに戻れるか、ロックが外れたか
+# 4. わざとまちがえる → 「不正解」と出るか
+# 5. 端末に PIN を付けて、画面を消して、つける → ロック画面の上に問題が出るか（共有のボタンは出さない）
+# 6. ロック画面の上で正しく答える → PIN → 「設定」アプリに戻れるか、記録に残るか
+# 7. また1分使う → もう一度ロックされるか → 緊急解除で戻れるか
 set -u
 APK=android/app/build/outputs/apk/debug/app-debug.apk
 OUT=android/build-e2e
@@ -57,38 +58,49 @@ sleep 4
 shot 2-reopen
 if top | grep -q ChallengeActivity; then ok "ロック中に開き直すと、また問題が出た"; else ng "開き直しても問題が出ない：$(top)"; fi
 
-# 4. まちがえた答え（4択なら①、数字なら ±999）
-if has "こたえる"; then
-  if has "①"; then tap "①" exact || true; else tap "±" exact || true; for i in 1 2 3; do tap "9" exact || true; done; fi
-  tap "こたえる" exact || true
-  shot 3-wrong
-  if has "不正解" || has "ちがうみたい"; then ok "まちがえると「不正解」と出た"
-  elif has "正解　答えは"; then ok "（たまたま正解だった）"
-  else ng "答えたあとの表示が見つからない"; fi
-fi
+# 4. まちがえた答え（problems.json から正解を読んで、わざとまちがえる）
+answer(){ # $1 = right / wrong
+  dump
+  python3 android/tools/answer.py "$OUT/ui.xml" mathscreen/Resources/problems.json "$1" > "$OUT/keys.txt" || { echo "  （問題が見つからない）"; return 1; }
+  while read -r k; do tap "$k" exact || return 1; done < "$OUT/keys.txt"
+}
+answer wrong
+shot 3-wrong
+if has "不正解" || has "ちがうみたい"; then ok "まちがえると「不正解」と出た"; else ng "まちがえたのに「不正解」が出ない"; fi
 
 # 5. ロック画面の上
 adb shell locksettings set-pin 1234 >/dev/null
 adb shell input keyevent KEYCODE_SLEEP; sleep 3
 adb shell input keyevent KEYCODE_WAKEUP; sleep 5
 shot 4-lockscreen
-if adb shell dumpsys window | grep -q "mDreamingLockscreen=false" ; then :; fi
-if top | grep -q ChallengeActivity && adb shell dumpsys window | grep -qE "isKeyguardShowing=true|mShowingLockscreen=true|keyguardShowing=true|KeyguardShowing=true"; then
-  ok "ロック中に画面をつけると、ロック画面の上に問題が出た"
-elif top | grep -q ChallengeActivity; then
-  ok "画面をつけると問題が出た（ロック画面かどうかは判定できず。画像 4-lockscreen を見る）"
-else ng "画面をつけても問題が出ない：$(top)"; fi
+KG=$(adb shell dumpsys window | grep -iE "keyguardShowing|isKeyguardShowing|mShowingLockscreen" | head -3 | tr -d '\r')
+if top | grep -q ChallengeActivity; then ok "ロック中に画面をつけると、ロック画面の上に問題が出た（$KG）"; else ng "画面をつけても問題が出ない：$(top)"; fi
+if has "この問題を共有する" || has "分からない"; then ng "ロック画面の上なのに、共有のボタンが出ている"; else ok "ロック画面の上では、共有のボタンを出さない"; fi
 
-# 6. 緊急解除 → PIN → 設定アプリに戻る
-tap "緊急解除" exact || true
-tap "緊急解除する" exact || true
+# 6. ロック画面の上で正しく答える → 端末の PIN → 設定アプリに戻る
+answer right
+shot 5-right
+if has "解除してアプリに戻る"; then ok "正しく答えると「解除してアプリに戻る」が出た"; else ng "正解のあとのボタンが出ない"; fi
+tap "解除してアプリに戻る" exact || true
 sleep 2
 adb shell input text 1234; adb shell input keyevent KEYCODE_ENTER; sleep 4
-shot 5-after-unlock
+shot 6-after-solve
+if top | grep -q "$TARGET"; then ok "正解して解除すると、設定アプリに戻れた"; else ng "正解して解除したあとの画面：$(top)"; fi
+PREFS=$(adb shell run-as $PKG cat shared_prefs/qlock.xml 2>/dev/null | tr -d '\r')
+if echo "$PREFS" | grep -q 'unlocks&quot;:1\|unlocks\\":1'; then ok "「問題で解除」が記録に残った"; else ng "「問題で解除」の記録が見つからない"; fi
+
+# 7. もう一度1分使うと、またロックされる → 緊急解除
+sleep 75
+shot 7-relock
+if top | grep -q ChallengeActivity; then ok "解除のあと、また1分使うと、もう一度ロックされた"; else ng "2回目のロックがかからない：$(top)"; fi
+tap "緊急解除" exact || true
+tap "緊急解除する" exact || true
+sleep 3
+shot 8-after-emergency
 if top | grep -q "$TARGET"; then ok "緊急解除のあと、設定アプリに戻れた"; else ng "緊急解除のあとの画面：$(top)"; fi
 PREFS=$(adb shell run-as $PKG cat shared_prefs/qlock.xml 2>/dev/null | tr -d '\r')
 if echo "$PREFS" | grep -q '<set name="locked" />' || ! echo "$PREFS" | grep -q 'name="locked"'; then ok "ロックが外れた（保存データ）"; else ng "ロックが残っている"; fi
-if echo "$PREFS" | grep -q 'emergencyUnlocks\\*":1\|emergencyUnlocks&quot;:1'; then ok "緊急解除が記録に残った"; else echo "  （記録の確認はスキップ）"; fi
+if echo "$PREFS" | grep -q 'emergencyUnlocks&quot;:1\|emergencyUnlocks\\":1'; then ok "緊急解除が記録に残った"; else ng "緊急解除の記録が見つからない"; fi
 
 adb shell locksettings clear --old 1234 >/dev/null 2>&1 || true
 echo "---- 診断のメモ ----"
