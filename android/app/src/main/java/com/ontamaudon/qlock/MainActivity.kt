@@ -37,6 +37,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         ScreenshotMode.start(intent.getStringExtra("screenshot"))
+        DebugHooks.apply(intent)
         AppModel.refresh()
         setContent {
             when (ScreenshotMode.scene) {
