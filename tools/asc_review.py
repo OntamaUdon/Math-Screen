@@ -48,7 +48,7 @@ def status():
     for s in submissions(app_id):
         a = s["attributes"]
         print(f"提出物 {s['id']}: {a.get('state')} / 提出日時 {a.get('submittedDate')}")
-        for it in get_all(f"/reviewSubmissions/{s['id']}/items?include=appStoreVersion,subscription,subscriptionGroup"):
+        for it in get_all(f"/reviewSubmissions/{s['id']}/items"):
             kind = next((k for k, r in (it.get("relationships") or {}).items() if (r.get("data") if isinstance(r, dict) else None)), "")
             print("   項目:", it["attributes"].get("state"), kind)
 
