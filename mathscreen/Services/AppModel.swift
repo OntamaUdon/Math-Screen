@@ -39,6 +39,7 @@ final class AppModel {
         hasOnboarded = SharedStore.hasOnboarded
         // 契約中か。TestFlight のときだけ、設定の「テスト用：無料で使う」でも使える。
         isPremium = Purchases.shared.isSubscribed || (Purchases.isTestFlight && SharedStore.isPremium) || ScreenshotMode.active
+        Access.premium = isPremium
         ruleProgress = Dictionary(uniqueKeysWithValues: rules.map { ($0.id, SharedStore.ruleProgress(ruleID: $0.id)) })
         authorization = AuthorizationCenter.shared.authorizationStatus
         ParentLock.recordAuthorization(approved: authorization == .approved)
@@ -57,27 +58,19 @@ final class AppModel {
         if showPlan { parentSetupPending = true } else { showParentSetup = true }
     }
 
-    /// 契約が切れていたら、すべてのロックを外して、見守りを止める（ルールは残す）。契約が戻ったら、見守りを再開する。
-    /// 契約の状態をまだ確かめていない間は、何もしない。
+    /// アプリロックは無料で使える。以前の版で、契約が切れて止めていた見守りがあれば、再開する（ルールは残っている）。
     private func enforcePlan() {
-        guard Purchases.shared.state != .unknown else { return }
         let key = "plan.suspended"
-        let suspended = UserDefaults.standard.bool(forKey: key)
-        if !isPremium {
-            if !suspended || !lockedRuleIDs.isEmpty {
-                for rule in rules { MonitorScheduler.stop(rule); release(rule.id) }
-                UserDefaults.standard.set(true, forKey: key)
-            }
-        } else if suspended {
-            for rule in rules where rule.isEnabled { restartMonitoring(rule) }
-            UserDefaults.standard.set(false, forKey: key)
-        }
+        guard UserDefaults.standard.bool(forKey: key) else { return }
+        for rule in rules where rule.isEnabled { restartMonitoring(rule) }
+        UserDefaults.standard.set(false, forKey: key)
     }
 
     // MARK: 次に出す問題
     /// ブロック画面に表示する問題を、まだ決まっていなければ決めておく。
     func ensurePendingProblem() {
         for rule in rules { ensureRulePending(rule) }
+        if Purchases.shared.state != .unknown, let p = pendingProblem, !Access.isOpen(p) { SharedStore.setPendingProblem(id: nil, body: nil) }   // プランが切れたら、数学の問題に変える
         guard pendingProblem == nil else {
             prepareImages()      // 問題は決まっているが画像がまだ（更新直後・起動直後など）
             return
@@ -93,7 +86,8 @@ final class AppModel {
     private func ensureRulePending(_ rule: GuardRule) {
         if let r = SharedStore.rulePending(ruleID: rule.id),
            let p = ProblemBank.find(r.id),
-           rule.categories.contains(p.category), rule.units.isEmpty || rule.units.contains(p.unit ?? "") { return }
+           rule.categories.contains(p.category), rule.units.isEmpty || rule.units.contains(p.unit ?? ""),
+           Purchases.shared.state == .unknown || Access.isOpen(p) { return }
         refreshRulePending(rule)
     }
 
@@ -273,6 +267,8 @@ final class AppModel {
     func setPremium(_ on: Bool) {
         SharedStore.isPremium = on
         isPremium = on
+        Access.premium = on
+        ensurePendingProblem()
     }
 
     // MARK: 集計

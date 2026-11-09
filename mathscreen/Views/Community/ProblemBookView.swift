@@ -35,7 +35,10 @@ enum BookMap {
             }
             // 「ノンジャンル」の教科は、段階の枝を省いて直接ぶら下げる
             let children = s == .general ? (stageNodes.first?.children ?? []) : stageNodes
-            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label, subtitle: units.isEmpty ? nil : "\(units.count)単元", subject: s, children: children))
+            let open = Access.isOpen(s)
+            subjects.append(MapNode(id: "sub:\(s.rawValue)", title: s.label,
+                                    subtitle: open ? "\(units.count)単元" : "\(units.count)単元 ・ プラン",
+                                    subject: s, children: children, locked: !open))
         }
         return subjects
     }
@@ -88,6 +91,7 @@ struct ProblemBookView: View {
                     MindMapView(root: BookMap.browse(),
                                 openPath: ScreenshotMode.scene == "book" ? ["root", "sub:math", "st:math:中学", "gr:math:中学:数と式"] : ["root"],
                                 initialScale: ScreenshotMode.scene == "book" ? 0.6 : 1) { node in
+                        if node.locked { model.showPlan = true; return }
                         if node.id.hasPrefix("u:") { sheet = .unit(String(node.id.dropFirst(2))) }
                     }
                 } else {
@@ -138,7 +142,9 @@ struct ProblemBookView: View {
                 ForEach(results) { item in
                     ProblemCard(item: item, mark: ProblemMarkStore.shared.mark(item.problem.id))
                         .contentShape(Rectangle())
-                        .onTapGesture { selected = item }
+                        .onTapGesture {
+                            if Access.isOpen(item.problem) { selected = item } else { model.showPlan = true }
+                        }
                 }
             }
             .padding(.horizontal, 20).padding(.bottom, 96)
@@ -192,8 +198,12 @@ struct ProblemCard: View {
                 }
                 Text(p.title).font(Theme.font(16, .bold)).foregroundStyle(Theme.ink)
                 Spacer(minLength: 4)
+                if !Access.isOpen(p) {
+                    Image(systemName: "lock.fill").font(.system(size: 13)).foregroundStyle(Theme.inkSoft)
+                        .accessibilityLabel("解くロックプランで使えます")
+                }
             }
-            Text(p.categoryInfo.label)
+            Text("\(p.categoryInfo.label) ・ \(p.difficultyInfo.label)")
                 .font(Theme.font(12, .semibold)).foregroundStyle(Theme.inkSoft)
             Text(p.plain).font(Theme.font(14)).foregroundStyle(Theme.inkSoft).lineLimit(2)
         }

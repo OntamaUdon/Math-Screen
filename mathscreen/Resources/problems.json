@@ -232647,9 +232647,9 @@
   },
   {
     "id": "u-tm_hard-1",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "指数・対数（応用）",
     "body": "$2^{100}$ は 10 進法で何桁か（$\\log_{10}2$ = 0.3010）。",
     "answer": 3,
     "explanation": "100×0.3010 = 30.10。整数部 + 1 = 31 桁。",
@@ -232660,14 +232660,14 @@
       "32",
       "31"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_exp",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-2",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "指数・対数（応用）",
     "body": "$3^{50}$ は 10 進法で何桁か（$\\log_{10}3$ = 0.4771）。",
     "answer": 3,
     "explanation": "50×0.4771 = 23.855。整数部 + 1 = 24 桁。",
@@ -232678,14 +232678,14 @@
       "25",
       "24"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_exp",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-3",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "$x^{2}$ + $y^{2}$ = 50 を満たす正の整数の組 (x, y) は何組あるか。",
     "answer": 0,
     "explanation": "(1, 7)、(5, 5)、(7, 1) の 3 組。",
@@ -232696,14 +232696,14 @@
       "6",
       "4"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_nt",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-4",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "場合の数（応用）",
     "body": "1 から 200 までの整数のうち、3 でも 5 でも割り切れない数は何個か。",
     "answer": 2,
     "explanation": "200 − 66 − 40 + 13 = 107。",
@@ -232714,14 +232714,14 @@
       "107",
       "93"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_count",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-5",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "場合の数（応用）",
     "body": "正六角形の 6 個の頂点から 3 点を選んでできる直角三角形は何個か。",
     "answer": 0,
     "explanation": "外接円の直径をなす 3 本の対角線それぞれに、残り 4 点のどれかを加える。3×4 = 12。",
@@ -232732,14 +232732,14 @@
       "24",
       "6"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_count",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-6",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "場合の数（応用）",
     "body": "8 人を 2 人ずつ 4 組に分ける方法は何通りか（組に区別はない）。",
     "answer": 1,
     "explanation": "7×5×3×1 = 105。",
@@ -232750,14 +232750,14 @@
       "420",
       "28"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_count",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-7",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "循環小数 0.121212… を既約分数で表したとき、分子と分母の和はいくつか。",
     "answer": 0,
     "explanation": "12/99 = 4/33。4 + 33 = 37。",
@@ -232768,14 +232768,14 @@
       "111",
       "13"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-8",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "数列の応用（応用）",
     "body": "$a_{1}$ = 1、$a_{n+1}$ = $2a_{n}$ + 1 で定まる数列の $a_{10}$ はいくつか。",
     "answer": 2,
     "explanation": "$a_{n}$ + 1 = $2^{n}$。$a_{10}$ = $2^{10}$ − 1 = 1023。",
@@ -232786,14 +232786,14 @@
       "1023",
       "2047"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_seq2",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-9",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "数列の応用（応用）",
     "body": "Σ (k = 1 から 6) k·2ᵏ の値はいくつか。",
     "answer": 2,
     "explanation": "(n − 1)·$2^{n+1}$ + 2 = 5×128 + 2 = 642。",
@@ -232804,14 +232804,14 @@
       "642",
       "126"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_seq2",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-10",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "複素数と方程式（応用）",
     "body": "$x^{2}$ − 5x + 3 = 0 の 2 つの解を α、β とするとき、$α^{3}$ + $β^{3}$ の値はいくつか。",
     "answer": 0,
     "explanation": "α + β = 5、αβ = 3。$α^{3}$ + $β^{3}$ = $5^{3}$ − 3·3·5 = 80。",
@@ -232822,14 +232822,14 @@
       "125",
       "35"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_cplx",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-11",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "$2^{10}$ − 1 と $2^{6}$ − 1 の最大公約数はいくつか。",
     "answer": 3,
     "explanation": "gcd(2ᵃ − 1, 2ᵇ − 1) = 2^gcd(a,b) − 1 = $2^{2}$ − 1 = 3。",
@@ -232840,14 +232840,14 @@
       "7",
       "3"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-12",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "場合の数（応用）",
     "body": "立方体の 8 個の頂点から 4 点を選んで四面体をつくる方法は何通りか（同一平面上の 4 点は除く）。",
     "answer": 1,
     "explanation": "${}_{8}C_{4}$ = 70。同じ平面上の 4 点は、面の 6 つと対角面の 6 つで 12。70 − 12 = 58。",
@@ -232858,14 +232858,14 @@
       "70",
       "52"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_count",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-13",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "数列の応用（応用）",
     "body": "どの 2 本も平行でなく、どの 3 本も 1 点で交わらない 5 本の直線は、平面を最大何個の領域に分けるか。",
     "answer": 1,
     "explanation": "1 + n + C(n, 2) = 1 + 5 + 10 = 16。",
@@ -232876,14 +232876,14 @@
       "20",
       "11"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_seq2",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-14",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "空間図形（応用）",
     "body": "3 枚の平面は、空間を最大で何個の部分に分けるか。",
     "answer": 3,
     "explanation": "3 枚が互いに交わると、空間は 8 個になる。",
@@ -232894,14 +232894,14 @@
       "7",
       "8"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_space",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-15",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "3x + 5y = 100 を満たす正の整数の組 (x, y) は何組あるか。",
     "answer": 3,
     "explanation": "y ≡ 2 (mod 3)：y = 2, 5, 8, 11, 14, 17 の 6 組。",
@@ -232912,14 +232912,14 @@
       "8",
       "6"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-16",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "確率（高校）（応用）",
     "body": "サイコロを 2 回振るとき、目の和の期待値はいくつか。",
     "answer": 3,
     "explanation": "1 回の期待値 7/2 の 2 倍。",
@@ -232930,14 +232930,14 @@
       "8",
       "7"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_prob",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-17",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "微分の応用（応用）",
     "body": "3 次方程式 $x^{3}$ − 3x + 1 = 0 は、異なる実数解をいくつ持つか。",
     "answer": 2,
     "explanation": "f(−2) = −1、f(−1) = 3、f(1) = −1、f(2) = 3 より、各区間に 1 つずつ。",
@@ -232948,8 +232948,8 @@
       "3",
       "2"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_diff2",
+    "rate": 2.5
   },
   {
     "id": "u-te_adv-1",
@@ -233367,9 +233367,9 @@
   },
   {
     "id": "u-te_hard-1",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "仮定法（応用）",
     "body": "I wish I ( ) taller. 空所に入る最も適切なものはどれか。",
     "answer": 1,
     "explanation": "現在の事実に反する願望は、過去形（be は were）。",
@@ -233380,14 +233380,14 @@
       "will be",
       "am"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_subjunctive",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-2",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "仮定法（応用）",
     "body": "It is high time you ( ) to bed. 空所に入る最も適切なものはどれか。",
     "answer": 2,
     "explanation": "It is (high) time + 主語 + 過去形：〜してもよい時間だ。",
@@ -233398,14 +233398,14 @@
       "went",
       "have gone"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_subjunctive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-3",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "Hardly had I arrived ( ) it began to rain. 空所に入る最も適切なものはどれか。",
     "answer": 3,
     "explanation": "Hardly [Scarcely] ～ when [before] …：〜するとすぐに…。",
@@ -233416,14 +233416,14 @@
       "than",
       "when"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-4",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "No sooner had he left ( ) the phone rang. 空所に入る最も適切なものはどれか。",
     "answer": 2,
     "explanation": "No sooner ～ than …。",
@@ -233434,14 +233434,14 @@
       "than",
       "when"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-5",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "Not until he left home ( ) how much he loved his family. 空所に入る最も適切なものはどれか。",
     "answer": 2,
     "explanation": "Not until が文頭にくると、倒置になる。",
@@ -233452,14 +233452,14 @@
       "did he realize",
       "he did realize"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-6",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "仮定法（応用）",
     "body": "She suggested that he ( ) the doctor. 空所に入る最も適切なものはどれか。",
     "answer": 1,
     "explanation": "提案・要求を表す動詞のあとの that 節では、動詞は原形（または should + 原形）。",
@@ -233470,14 +233470,14 @@
       "will see",
       "saw"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_subjunctive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-7",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "I cannot help ( ) when I hear that song. 空所に入る最も適切なものはどれか。",
     "answer": 2,
     "explanation": "cannot help ~ing：〜せずにはいられない。",
@@ -233488,14 +233488,14 @@
       "crying",
       "cry"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_infinitive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-8",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "He is accustomed ( ) up early. 空所に入る最も適切なものはどれか。",
     "answer": 0,
     "explanation": "be accustomed to ~ing：〜に慣れている。この to は前置詞。",
@@ -233506,14 +233506,14 @@
       "for getting",
       "of getting"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_infinitive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-9",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "I would rather stay home ( ) go out in this rain. 空所に入る最も適切なものはどれか。",
     "answer": 1,
     "explanation": "would rather A than B：BするよりAしたい。",
@@ -233524,14 +233524,14 @@
       "from",
       "to"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-10",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "現在完了（応用）",
     "body": "By the time you arrive, I ( ) the report. 空所に入る最も適切なものはどれか。",
     "answer": 1,
     "explanation": "by the time の節が現在形で未来を表すとき、主節は未来完了。",
@@ -233542,14 +233542,14 @@
       "finished",
       "will finish"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_perfect",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-11",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "A ( ) of students are absent today. 空所に入る最も適切なものはどれか。",
     "answer": 0,
     "explanation": "a number of + 複数名詞：多くの〜。an amount of は数えられない名詞に使う。",
@@ -233560,14 +233560,14 @@
       "amount",
       "piece"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-12",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "He has ( ) friends, so he feels lonely. 空所に入る最も適切なものはどれか。",
     "answer": 0,
     "explanation": "few は「ほとんどない」という否定的な意味。a few は「少しある」。",
@@ -233578,14 +233578,14 @@
       "little",
       "a few"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-13",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "不規則動詞（応用）",
     "body": "She ( ) the book on the table yesterday. 空所に入る最も適切なものはどれか。",
     "answer": 3,
     "explanation": "lay（置く）の過去形は laid。lie（横たわる）の過去形が lay。",
@@ -233596,14 +233596,14 @@
       "lay",
       "laid"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_irreg",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-14",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "She sat there with her eyes ( ). 空所に入る最も適切なものはどれか。",
     "answer": 2,
     "explanation": "with + 名詞 + 過去分詞：〜された状態で。",
@@ -233614,14 +233614,14 @@
       "closed",
       "closing"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-15",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "関係代名詞（応用）",
     "body": "This is the house ( ) roof was damaged in the storm. 空所に入る最も適切なものはどれか。",
     "answer": 3,
     "explanation": "所有を表す関係代名詞。",
@@ -233632,14 +233632,14 @@
       "which",
       "whose"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_relative",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-16",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "I remember ( ) him at the party last year. 空所に入る最も適切なものはどれか。",
     "answer": 3,
     "explanation": "remember ~ing：〜したことを覚えている。remember to ~：忘れずに〜する。",
@@ -233650,14 +233650,14 @@
       "to have meet",
       "meeting"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_infinitive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-17",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "助動詞（応用）",
     "body": "Whatever ( ) happen, we will go ahead. 空所に入る最も適切なものはどれか。",
     "answer": 0,
     "explanation": "Whatever + 主語 + may：何が〜しても。",
@@ -233668,14 +233668,14 @@
       "is",
       "will to"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_modal",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-18",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "The book is worth ( ). 空所に入る最も適切なものはどれか。",
     "answer": 1,
     "explanation": "be worth ~ing：〜する価値がある。",
@@ -233686,8 +233686,8 @@
       "to read",
       "for reading"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_infinitive",
+    "rate": 4.3
   },
   {
     "id": "u-ts_adv-1",
@@ -234087,9 +234087,9 @@
   },
   {
     "id": "u-ts_hard-1",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "1297年に鎌倉幕府が、御家人の借金を帳消しにし、土地を取り戻させることを命じた法令はどれか。",
     "answer": 1,
     "explanation": "元寇後に、御家人が窮乏したため。",
@@ -234100,14 +234100,14 @@
       "御成敗式目",
       "分国法"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_ancmed",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-2",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "1428年に近江国から起こり、「日本開闢以来、土民蜂起これ初めなり」と評された一揆はどれか。",
     "answer": 0,
     "explanation": "借金の帳消しを求めた。",
@@ -234118,14 +234118,14 @@
       "山城の国一揆",
       "島原・天草一揆"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_ancmed",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-3",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "1441年、赤松満祐が6代将軍足利義教を殺害した事件はどれか。",
     "answer": 1,
     "explanation": "室町幕府の権威が揺らいだ。",
@@ -234136,14 +234136,14 @@
       "応永の乱",
       "明徳の乱"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_jp_ancmed",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-4",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "1019年、九州北部を襲った女真人（刀伊）を、大宰権帥の藤原隆家らが撃退した事件はどれか。",
     "answer": 1,
     "explanation": "平安時代の出来事。",
@@ -234154,14 +234154,14 @@
       "倭寇",
       "白村江の戦い"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_ancmed",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-5",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "10世紀に起こった、関東の平将門と、瀬戸内海の藤原純友の反乱を、合わせて何というか。",
     "answer": 2,
     "explanation": "朝廷の武士に対する依存が増した。",
@@ -234172,14 +234172,14 @@
       "承平・天慶の乱",
       "保元・平治の乱"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_ancmed",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-6",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "1555年に、ドイツでルター派とカトリックの共存が認められた和議はどれか。",
     "answer": 3,
     "explanation": "諸侯に宗派を選ぶ権利が認められた。",
@@ -234190,14 +234190,14 @@
       "ナントの勅令",
       "アウクスブルクの宗教和議"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-7",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "1598年に、フランス王アンリ4世が出した、プロテスタント（ユグノー）に信仰の自由を認めた勅令はどれか。",
     "answer": 0,
     "explanation": "のちにルイ14世が廃止した。",
@@ -234208,14 +234208,14 @@
       "権利の章典",
       "ヴォルムス協約"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-8",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "1773年に、イギリスの茶税に反発した植民地の人々が、ボストンで起こした事件はどれか。",
     "answer": 3,
     "explanation": "アメリカ独立戦争のきっかけの一つ。",
@@ -234226,14 +234226,14 @@
       "レキシントンの戦い",
       "ボストン茶会事件"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-9",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "アヘン戦争（1840〜42年）のあと、1842年に清とイギリスが結んだ条約はどれか。",
     "answer": 3,
     "explanation": "香港島がイギリスに割譲された。",
@@ -234244,14 +234244,14 @@
       "下関条約",
       "南京条約"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-10",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1857年に、インドで東インド会社のインド人傭兵が起こした大反乱はどれか。",
     "answer": 3,
     "explanation": "翌年、ムガル帝国は滅亡した。",
@@ -234262,14 +234262,14 @@
       "太平天国の乱",
       "インド大反乱（セポイの反乱）"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-11",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1919年に、中国で起こった反日・反帝国主義の民衆運動はどれか。",
     "answer": 3,
     "explanation": "ヴェルサイユ条約への抗議が発端。",
@@ -234280,14 +234280,14 @@
       "北伐",
       "五・四運動"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-12",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：古代〜中世（応用）",
     "body": "988年、尾張国の郡司・百姓らが朝廷に訴えた「尾張国郡司百姓等解文」で、暴政を訴えられた国司はだれか。",
     "answer": 0,
     "explanation": "受領の不正を訴えた史料として有名。",
@@ -234298,14 +234298,14 @@
       "平清盛",
       "藤原道長"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_ancmed",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-13",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：近世（応用）",
     "body": "江戸時代の中期以降、各藩に取り入れられた、商品作物を専売にして藩の収入を増やす政策を何というか。",
     "answer": 3,
     "explanation": "藩の財政再建のために行われた。",
@@ -234316,14 +234316,14 @@
       "株仲間",
       "専売制"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-14",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "日本史：近世（応用）",
     "body": "寛政の改革のとき、幕府の学問所で朱子学以外の講義を禁止した命令はどれか。",
     "answer": 1,
     "explanation": "松平定信が出した。",
@@ -234334,14 +234334,14 @@
       "上げ米",
       "異国船打払令"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_jp_early",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-15",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：近代（応用）",
     "body": "明治政府が1876年に、士族の特権をなくすために行った政策はどれか。",
     "answer": 0,
     "explanation": "士族の反乱が起こるきっかけになった。",
@@ -234352,14 +234352,14 @@
       "地租改正",
       "版籍奉還"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_modern",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-16",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：近代（応用）",
     "body": "1877年に、鹿児島の士族らが西郷隆盛を中心に起こした、国内最後の大規模な内戦はどれか。",
     "answer": 2,
     "explanation": "近代的な徴兵軍が勝った。",
@@ -234370,14 +234370,14 @@
       "西南戦争",
       "佐賀の乱"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_modern",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-17",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "日本史：近代（応用）",
     "body": "1900年に、立憲政友会を結成した人物はだれか。",
     "answer": 1,
     "explanation": "初代の総裁になった。",
@@ -234388,14 +234388,14 @@
       "大隈重信",
       "板垣退助"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_jp_modern",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-18",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：近代（応用）",
     "body": "1921年のワシントン会議で結ばれ、日英同盟の廃棄が決まった条約はどれか。",
     "answer": 0,
     "explanation": "日・米・英・仏の4か国。",
@@ -234406,14 +234406,14 @@
       "ワシントン海軍軍縮条約",
       "九か国条約"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_modern",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-19",
-    "category": "triv_soc",
+    "category": "soc_geo",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "地理：地形と気候（応用）",
     "body": "ケッペンの気候区分で、西ヨーロッパに広く見られる、年間を通じて降水があり冬も比較的温暖な気候の記号はどれか。",
     "answer": 0,
     "explanation": "偏西風と暖流の影響。",
@@ -234424,14 +234424,14 @@
       "Df（冷帯湿潤気候）",
       "Cfa（温暖湿潤気候）"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_geo_nature",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-20",
-    "category": "triv_soc",
+    "category": "soc_geo",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "地理：資源・産業（応用）",
     "body": "インドの農業で、ガンジス川流域に比べて、降水量が少ないデカン高原で盛んに栽培される作物はどれか。",
     "answer": 3,
     "explanation": "レグール（黒色綿花土）が広がる。",
@@ -234442,14 +234442,14 @@
       "ジュート",
       "綿花"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_geo_industry",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-21",
-    "category": "triv_soc",
+    "category": "soc_geo",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "地理：資源・産業（応用）",
     "body": "アメリカ合衆国の農業で、「小麦ベルト」が広がるのはどこか。",
     "answer": 1,
     "explanation": "大規模な企業的農業。",
@@ -234460,8 +234460,8 @@
       "五大湖の北岸",
       "メキシコ湾岸"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_geo_industry",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_adv-1",
@@ -234843,9 +234843,9 @@
   },
   {
     "id": "u-tsc_hard-1",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "仕事とエネルギー（応用）",
     "body": "質量 2 kg で速さ 3 m/s の物体が、静止している質量 1 kg の物体に衝突して一体となった。衝突後の速さは何 m/s か。",
     "answer": 3,
     "explanation": "運動量保存：2×3 = (2 + 1)v より v = 2 m/s。",
@@ -234856,14 +234856,14 @@
       "6 m/s",
       "2 m/s"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_energy",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-2",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "仕事とエネルギー（応用）",
     "body": "質量が等しい2つの物体が、一直線上で完全弾性衝突した。一方が静止していたとき、衝突後はどうなるか。",
     "answer": 1,
     "explanation": "運動量とエネルギーの保存から、速度が入れ替わる。",
@@ -234874,14 +234874,14 @@
       "両方とも同じ速度で動く",
       "衝突した物体はそのまま止まらない"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_energy",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-3",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "標準状態（0 ℃、$1.013\\times10^{5}$ Pa）で、5.6 L の気体は何 mol か。",
     "answer": 3,
     "explanation": "5.6 ÷ 22.4 = 0.25。",
@@ -234892,14 +234892,14 @@
       "0.025 mol",
       "0.25 mol"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hc_mol",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-4",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "酸・塩基と pH（応用）",
     "body": "0.10 mol/L の酢酸水溶液（電離定数 $\\mathrm{K_{a}}$ = $1.0\\times10^{-5}$ mol/L）の pH はいくつか。",
     "answer": 3,
     "explanation": "[$\\mathrm{H^{+}}$] = $\\sqrt{\\mathrm{K_{a}}·c}$ = $\\sqrt{1.0\\times10^{-6}}$ = $1.0\\times10^{-3}$。pH = 3。",
@@ -234910,14 +234910,14 @@
       "7",
       "3"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_acid",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-5",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "酸・塩基と pH（応用）",
     "body": "0.10 mol/L のシュウ酸（2価の酸）20 mL を中和するのに、0.10 mol/L の水酸化ナトリウム水溶液は何 mL 必要か。",
     "answer": 0,
     "explanation": "$\\mathrm{H^{+}}$ は 0.10×2×20 = 4.0 mmol。$\\mathrm{OH^{-}}$ も 4.0 mmol なので 40 mL。",
@@ -234928,14 +234928,14 @@
       "20 mL",
       "80 mL"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_acid",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-6",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "C（黒鉛）+ $\\mathrm{O_{2}}$ → $\\mathrm{CO_{2}}$ の反応熱が −394 kJ、CO + ½$\\mathrm{O_{2}}$ → $\\mathrm{CO_{2}}$ の反応熱が −283 kJ のとき、C + ½$\\mathrm{O_{2}}$ → CO の反応熱は何 kJ か。",
     "answer": 0,
     "explanation": "ヘスの法則：−394 − (−283) = −111 kJ。",
@@ -234946,14 +234946,14 @@
       "+111 kJ",
       "−677 kJ"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-7",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "遺伝子とDNA（応用）",
     "body": "2 つの対立遺伝子 A、a をもつ集団で、劣性ホモ (aa) の割合が 4％のとき、ヘテロ (Aa) の割合は何％か（ハーディ・ワインベルグ平衡）。",
     "answer": 3,
     "explanation": "$q^{2}$ = 0.04 より q = 0.2、p = 0.8。2pq = 0.32。",
@@ -234964,14 +234964,14 @@
       "64％",
       "32％"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_dna",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-8",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "遺伝子とDNA（応用）",
     "body": "遺伝子型 AaBbCc の個体と aabbcc の個体を交配し、遺伝子が独立のとき、子のうち、3つともに優性の形質を示すものの割合はいくつか。",
     "answer": 1,
     "explanation": "3つとも優性となる確率は $(1/2)^{3}$ = 1/8。",
@@ -234982,14 +234982,14 @@
       "3/8",
       "1/16"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_dna",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-9",
-    "category": "triv_sci",
+    "category": "sci_earth",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "大気・海洋・宇宙（応用）",
     "body": "年周視差が 0.1 秒角の恒星までの距離は何パーセクか。",
     "answer": 1,
     "explanation": "距離（パーセク）= 1 ÷ 視差（秒角）。",
@@ -235000,14 +235000,14 @@
       "100 パーセク",
       "0.1 パーセク"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "he_atmo",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-10",
-    "category": "triv_sci",
+    "category": "sci_earth",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "大気・海洋・宇宙（応用）",
     "body": "太陽のまわりを公転する惑星の公転周期が 8 年のとき、軌道の長半径は何天文単位か（ケプラーの第3法則）。",
     "answer": 1,
     "explanation": "$\\mathrm{T^{2}}$ = $a^{3}$ より $a^{3}$ = 64、a = 4。",
@@ -235018,14 +235018,14 @@
       "16 天文単位",
       "2 天文単位"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "he_atmo",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-11",
-    "category": "triv_sci",
+    "category": "sci_earth",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "地球のしくみ（応用）",
     "body": "マグニチュードが 2 大きい地震は、エネルギーが約何倍か。",
     "answer": 3,
     "explanation": "マグニチュードが 1 大きいと約 32 倍。2 大きいと約 $32^{2}$ ≈ 1000 倍。",
@@ -235036,14 +235036,14 @@
       "約10倍",
       "約1000倍"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "he_earth",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-12",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "力と圧力（応用）",
     "body": "断面積 2 $m^{2}$ の面に、垂直に 600 N の力がかかっている。圧力は何 Pa か。",
     "answer": 0,
     "explanation": "圧力 = 力 ÷ 面積 = 600 ÷ 2。",
@@ -235054,14 +235054,14 @@
       "30 Pa",
       "600 Pa"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "p_force",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-13",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "エネルギー（応用）",
     "body": "50 ℃ の水 100 g に、20 ℃ の水 100 g を混ぜると、全体の温度は何 ℃ になるか（熱の出入りは混ぜた水の間だけとする）。",
     "answer": 1,
     "explanation": "熱量が等しいので、平均の温度になる。",
@@ -235072,14 +235072,14 @@
       "30 ℃",
       "70 ℃"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "p_energy",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-14",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "2.0 mol/L の水溶液 100 mL に水を加えて、0.50 mol/L にした。水を加えたあとの全体の体積は何 mL か。",
     "answer": 1,
     "explanation": "溶質は 0.20 mol。0.20 ÷ 0.50 = 0.40 L。",
@@ -235090,14 +235090,14 @@
       "500 mL",
       "200 mL"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-15",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "細胞とエネルギー代謝（応用）",
     "body": "光合成で、二酸化炭素 6 mol が吸収されたとき、合成されるブドウ糖は何 mol か。",
     "answer": 0,
     "explanation": "$\\mathrm{6CO_{2}}$ + $\\mathrm{12H_{2}O}$ → $\\mathrm{C_{6}H_{12}O_{6}}$ + $\\mathrm{6O_{2}}$ + $\\mathrm{6H_{2}O}$。",
@@ -235108,14 +235108,14 @@
       "12 mol",
       "2 mol"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_cell",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-16",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "遺伝子とDNA（応用）",
     "body": "ある DNA の二本鎖で、アデニン (A) が全塩基の 20％のとき、グアニン (G) は何％か。",
     "answer": 3,
     "explanation": "A = T = 20％。G + C = 60％で、G = C = 30％。",
@@ -235126,14 +235126,14 @@
       "40％",
       "30％"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_dna",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-17",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "電気回路（応用）",
     "body": "電気抵抗 R の導線を、同じ体積で長さを 2 倍に引きのばしたとき、抵抗は何倍になるか。",
     "answer": 3,
     "explanation": "長さが2倍、断面積が1/2倍になるので、抵抗は 2×2 = 4 倍。",
@@ -235144,14 +235144,14 @@
       "8倍",
       "4倍"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_circuit",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-18",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "電気回路（応用）",
     "body": "起電力 6.0 V、内部抵抗 1.0 Ω の電池に 5.0 Ω の抵抗をつないだとき、抵抗の両端の電圧は何 V か。",
     "answer": 1,
     "explanation": "I = 6.0 ÷ 6.0 = 1.0 A。V = 1.0×5.0 = 5.0 V。",
@@ -235162,14 +235162,14 @@
       "4.0 V",
       "6.0 V"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_circuit",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-19",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "等加速度運動（応用）",
     "body": "鉛直上向きに初速度 14.7 m/s で投げ上げた物体が、最高点に達するまでにかかる時間は何秒か（g = 9.8 m/$s^{2}$）。",
     "answer": 1,
     "explanation": "t = $v_{0}$ / g = 14.7 ÷ 9.8 = 1.5。",
@@ -235180,14 +235180,14 @@
       "3.0 秒",
       "1.0 秒"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_motion",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-20",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "力と圧力（応用）",
     "body": "密度 0.8 g/$cm^{3}$ の油に、体積 50 $cm^{3}$ の氷（密度 0.9 g/$cm^{3}$）を入れた。氷はどうなるか。",
     "answer": 1,
     "explanation": "氷の密度が油より大きいので、沈む。",
@@ -235198,14 +235198,14 @@
       "ちょうど水面にとどまる",
       "浮く"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "p_force",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-21",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "標準状態で 11.2 L の水素と 11.2 L の酸素を混ぜて点火し、完全に反応させた。反応後に残る気体は何か。",
     "answer": 3,
     "explanation": "$\\mathrm{2H_{2}}$ + $\\mathrm{O_{2}}$ → $\\mathrm{2H_{2}O}$。水素 0.5 mol に対して酸素は 0.25 mol 必要。酸素 0.5 mol のうち 0.25 mol が余る（5.6 L）。",
@@ -235216,8 +235216,8 @@
       "水素と酸素が両方残る",
       "酸素が 5.6 L 残る"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tj_adv-1",
@@ -235599,9 +235599,9 @@
   },
   {
     "id": "u-tj_hard-1",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「蘊蓄」の読みとして正しいものはどれか。",
     "answer": 1,
     "explanation": "深い知識。「蘊蓄を傾ける」。",
@@ -235612,14 +235612,14 @@
       "うんしゅう",
       "おんちく"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_read",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-2",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「齟齬」の読みとして正しいものはどれか。",
     "answer": 3,
     "explanation": "食いちがい。",
@@ -235630,14 +235630,14 @@
       "そがい",
       "そご"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-3",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「軋轢」の読みとして正しいものはどれか。",
     "answer": 0,
     "explanation": "人間関係の不和。",
@@ -235648,14 +235648,14 @@
       "さつれき",
       "あつりょく"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-4",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「顰蹙」の読みとして正しいものはどれか。",
     "answer": 3,
     "explanation": "「顰蹙を買う」。",
@@ -235666,14 +235666,14 @@
       "ひんぞく",
       "ひんしゅく"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-5",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「憚る」の読みとして正しいものはどれか。",
     "answer": 0,
     "explanation": "遠慮する、人目を気にする。",
@@ -235684,14 +235684,14 @@
       "いとう",
       "ためらる"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_read",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-6",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「悉く」の読みとして正しいものはどれか。",
     "answer": 1,
     "explanation": "すべて。",
@@ -235702,14 +235702,14 @@
       "ことごとに",
       "つぶさに"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-7",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「綻びる」の読みとして正しいものはどれか。",
     "answer": 1,
     "explanation": "縫い目が解ける。つぼみが開く。",
@@ -235720,14 +235720,14 @@
       "あらわれる",
       "ときびる"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_read",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-8",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「蔑ろ」の読みとして正しいものはどれか。",
     "answer": 1,
     "explanation": "軽んじること。",
@@ -235738,14 +235738,14 @@
       "あなどろ",
       "ひがしろ"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-9",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「須く」の読みとして正しいものはどれか。",
     "answer": 1,
     "explanation": "「〜べきだ」と呼応する。",
@@ -235756,14 +235756,14 @@
       "もとより",
       "すべて"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_read",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-10",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "四字熟語（応用）",
     "body": "四字熟語「臥薪嘗胆」の意味はどれか。",
     "answer": 0,
     "explanation": "故事成語から。",
@@ -235774,14 +235774,14 @@
       "のんびりと暮らすこと",
       "わずかな時間も惜しむこと"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_idiom",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-11",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "四字熟語（応用）",
     "body": "四字熟語「温故知新」の意味はどれか。",
     "answer": 0,
     "explanation": "『論語』から。",
@@ -235792,14 +235792,14 @@
       "古い習慣を守り通す",
       "昔のことは忘れる"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_idiom",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-12",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "四字熟語（応用）",
     "body": "四字熟語「画竜点睛」の意味はどれか。",
     "answer": 3,
     "explanation": "「睛」は瞳。",
@@ -235810,14 +235810,14 @@
       "何度も失敗すること",
       "最後に、肝心なところを仕上げる"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_idiom",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-13",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "故事成語「杞憂」の意味はどれか。",
     "answer": 3,
     "explanation": "杞の国の人が天が落ちてくるのを心配した話。",
@@ -235828,14 +235828,14 @@
       "ぬか喜び",
       "無用な心配"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-14",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "故事成語「蛇足」の意味はどれか。",
     "answer": 3,
     "explanation": "蛇の絵に足を描き足した話。",
@@ -235846,14 +235846,14 @@
       "危険な行い",
       "余計なもの"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-15",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「役不足」の正しい意味はどれか。",
     "answer": 1,
     "explanation": "「力不足」と混同されやすい。",
@@ -235864,14 +235864,14 @@
       "役に立たないこと",
       "役目を果たせないこと"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-16",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「確信犯」の本来の意味はどれか。",
     "answer": 0,
     "explanation": "誤用が広まっている言葉の一つ。",
@@ -235882,8 +235882,8 @@
       "計画的な犯罪",
       "何度も繰り返す犯罪"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tm_adv-22",
@@ -236319,9 +236319,9 @@
   },
   {
     "id": "u-tm_hard-18",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "いろいろな積分（応用）",
     "body": "$\\int_0^{\\pi} x\\sin x\\,dx$ の値はいくつか。",
     "answer": 0,
     "explanation": "部分積分：$[-x\\cos x]_0^{\\pi} + \\int_0^{\\pi}\\cos x\\,dx = \\pi + 0 = \\pi$。",
@@ -236332,14 +236332,14 @@
       "$\\dfrac{\\pi}{2}$",
       "0"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_integ3",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-19",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "いろいろな積分（応用）",
     "body": "$\\int_1^{e} \\log x\\,dx$ の値はいくつか。",
     "answer": 2,
     "explanation": "部分積分：$[x\\log x - x]_1^{e} = 0 - (-1) = 1$。",
@@ -236350,14 +236350,14 @@
       "1",
       "3"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_integ3",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-20",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "極限（応用）",
     "body": "$\\lim_{n \\to \\infty}\\left(1 + \\dfrac{3}{n}\\right)^n$ の値はいくつか。",
     "answer": 1,
     "explanation": "$\\left(1 + \\dfrac{3}{n}\\right)^{n} = \\left\\{\\left(1 + \\dfrac{3}{n}\\right)^{n/3}\\right\\}^{3} \\to e^3$。",
@@ -236368,14 +236368,14 @@
       "$e$",
       "$e^{1/3}$"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_limit",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-21",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "いろいろな微分（応用）",
     "body": "関数 $y = xe^{-x}$（$x \\ge 0$）の最大値はいくつか。",
     "answer": 3,
     "explanation": "$y' = (1 - x)e^{-x}$。$x = 1$ で最大になり、$y = e^{-1}$。",
@@ -236386,14 +236386,14 @@
       "$1$",
       "$\\dfrac{1}{e}$"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_diff3",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-22",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "いろいろな積分（応用）",
     "body": "$\\int_0^{\\pi/2} \\sin^3 x\\,dx$ の値はいくつか。",
     "answer": 2,
     "explanation": "$\\sin^3 x = (1 - \\cos^2 x)\\sin x$。$\\cos x = t$ とおいて $\\int_0^1 (1 - t^2)\\,dt = \\dfrac{2}{3}$。",
@@ -236404,14 +236404,14 @@
       "2/3",
       "1"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_integ3",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-23",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "いろいろな積分（応用）",
     "body": "曲線 $y = \\sin x$（$0 \\le x \\le \\pi$）と $x$ 軸で囲まれた部分を、$x$ 軸のまわりに 1 回転させてできる立体の体積はいくつか。",
     "answer": 0,
     "explanation": "$\\pi\\int_0^{\\pi}\\sin^2 x\\,dx = \\pi \\cdot \\dfrac{\\pi}{2}$。",
@@ -236422,14 +236422,14 @@
       "$2\\pi$",
       "$\\pi^2$"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_integ3",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-24",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "微分の応用（応用）",
     "body": "3 次方程式 $x^3 - 3x + k = 0$ が、異なる 3 つの実数解をもつような整数 $k$ はいくつあるか。",
     "answer": 2,
     "explanation": "$f(x) = x^3 - 3x$ の極大値 2、極小値 $-2$。$-2 < -k < 2$ より、$k = -1, 0, 1$。",
@@ -236440,14 +236440,14 @@
       "3",
       "5"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_diff2",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-25",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "数列の応用（応用）",
     "body": "$a_1 = 1$、$a_{n+1} = 2a_n + n$ で定まる数列の $a_5$ はいくつか。",
     "answer": 3,
     "explanation": "順に $a_2 = 3$、$a_3 = 8$、$a_4 = 19$、$a_5 = 42$。",
@@ -236458,14 +236458,14 @@
       "48",
       "42"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_seq2",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-26",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "$7^{2024}$ の下 2 桁は何か。",
     "answer": 3,
     "explanation": "$7^4 = 2401 \\equiv 1 \\pmod{100}$。2024 は 4 の倍数なので、$7^{2024} \\equiv 1$。",
@@ -236476,14 +236476,14 @@
       "07",
       "01"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-27",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "確率（高校）（応用）",
     "body": "サイコロを 3 個同時に振るとき、目の積が 4 の倍数になる確率はいくつか。",
     "answer": 0,
     "explanation": "余事象を考える。積が 4 の倍数でないのは、「3 個とも奇数」か「偶数がちょうど 1 個で、それが 2 か 6」のとき。$\\dfrac{27 + 3 \\cdot 2 \\cdot 9}{216} = \\dfrac{3}{8}$。よって $1 - \\dfrac{3}{8} = \\dfrac{5}{8}$。",
@@ -236494,14 +236494,14 @@
       "1/2",
       "3/8"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_prob",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-28",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "確率（高校）（応用）",
     "body": "正四面体 ABCD の頂点 A から出発し、1 回ごとに、いまいる頂点以外の 3 頂点のどれかへ、同じ確率で移動する。4 回移動したあと A にいる確率はいくつか。",
     "answer": 1,
     "explanation": "A にいる確率を $p_n$ とすると $p_{n+1} = \\dfrac{1 - p_n}{3}$。$p_1 = 0$、$p_2 = \\dfrac13$、$p_3 = \\dfrac29$、$p_4 = \\dfrac{7}{27}$。",
@@ -236512,14 +236512,14 @@
       "8/27",
       "1/9"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_prob",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-29",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "図形と方程式（応用）",
     "body": "円 $x^2 + y^2 = 25$ 上の点 (3, 4) における接線が、$x$ 軸と交わる点の $x$ 座標はいくつか。",
     "answer": 1,
     "explanation": "接線は $3x + 4y = 25$。$y = 0$ として $x = \\dfrac{25}{3}$。",
@@ -236530,14 +236530,14 @@
       "4",
       "5"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_circle",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-30",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "三角比（応用）",
     "body": "三角形 ABC で、AB = 5、BC = 7、CA = 8 のとき、角 A は何度か。",
     "answer": 1,
     "explanation": "余弦定理：$\\cos A = \\dfrac{25 + 64 - 49}{2 \\cdot 5 \\cdot 8} = \\dfrac{1}{2}$。",
@@ -236548,14 +236548,14 @@
       "45",
       "120"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_trig",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-31",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "三角比（応用）",
     "body": "3 辺が 13、14、15 の三角形の面積はいくつか。",
     "answer": 0,
     "explanation": "ヘロンの公式：$s = 21$、$\\sqrt{21 \\cdot 8 \\cdot 7 \\cdot 6} = 84$。",
@@ -236566,14 +236566,14 @@
       "96",
       "90"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_trig",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-32",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "三角比（応用）",
     "body": "3 辺が 13、14、15 の三角形の内接円の半径はいくつか。",
     "answer": 0,
     "explanation": "面積 $84 = r \\cdot s$（$s = 21$）より、$r = 4$。",
@@ -236584,14 +236584,14 @@
       "5",
       "6"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_trig",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-33",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "微積の応用（応用）",
     "body": "放物線 $y = x^2$ と直線 $y = x + 2$ で囲まれた部分の面積はいくつか。",
     "answer": 0,
     "explanation": "交点は $x = -1, 2$。$\\dfrac{|2 - (-1)|^3}{6} = \\dfrac{27}{6} = \\dfrac{9}{2}$。",
@@ -236602,14 +236602,14 @@
       "3",
       "11/2"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_integ_app",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-34",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "微分の応用（応用）",
     "body": "$x > 0$、$y > 0$、$x + y = 6$ のとき、$x^2 y$ の最大値はいくつか。",
     "answer": 2,
     "explanation": "$f(x) = x^2(6 - x)$。$f'(x) = 3x(4 - x)$ より $x = 4$ で最大。$f(4) = 32$。",
@@ -236620,14 +236620,14 @@
       "32",
       "48"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_diff2",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-35",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "複素数と方程式（応用）",
     "body": "$\\alpha + \\beta = 3$、$\\alpha\\beta = 1$ のとき、$\\alpha^4 + \\beta^4$ の値はいくつか。",
     "answer": 0,
     "explanation": "$\\alpha^2 + \\beta^2 = 9 - 2 = 7$。$\\alpha^4 + \\beta^4 = 7^2 - 2 \\cdot 1^2 = 47$。",
@@ -236638,14 +236638,14 @@
       "49",
       "81"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_cplx",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-36",
-    "category": "triv_math",
+    "category": "math2b",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "複素数と方程式（応用）",
     "body": "整式 $P(x)$ を $x - 1$ で割ると 3 余り、$x - 2$ で割ると 5 余る。$P(x)$ を $(x-1)(x-2)$ で割った余りに $x = 3$ を入れた値はいくつか。",
     "answer": 3,
     "explanation": "余りを $ax + b$ とおくと $a + b = 3$、$2a + b = 5$。$a = 2$、$b = 1$。$x = 3$ で $7$。",
@@ -236656,14 +236656,14 @@
       "11",
       "7"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_cplx",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-37",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "$n^2 + n + 41$ が素数にならない、最小の 0 以上の整数 $n$ はいくつか。",
     "answer": 1,
     "explanation": "$n = 40$ のとき $40^2 + 40 + 41 = 1681 = 41^2$。$n = 0, \\dots, 39$ では素数になる。",
@@ -236674,14 +236674,14 @@
       "41",
       "42"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-38",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 3,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "1 から 20 までの整数から、どの 2 つを選んでも一方が他方の約数にならないように選ぶとき、最大で何個選べるか。",
     "answer": 3,
     "explanation": "11 から 20 までの 10 個は、どれも他の倍数にならない。11 個以上選ぶと、$k$ と $2k$ のような組が必ずできる。",
@@ -236692,14 +236692,14 @@
       "12",
       "10"
     ],
-    "unit": "tm_hard",
-    "rate": 2.3
+    "unit": "h_nt",
+    "rate": 2.5
   },
   {
     "id": "u-tm_hard-39",
-    "category": "triv_math",
+    "category": "math1a",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "整数の性質（高校）（応用）",
     "body": "連続する 5 つの正の整数の積は、つねに何の倍数か。",
     "answer": 2,
     "explanation": "5 個の連続する整数の積は $5!$ の倍数。$120$ で割り切れる。",
@@ -236710,14 +236710,14 @@
       "120",
       "240"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_nt",
+    "rate": 3.3
   },
   {
     "id": "u-tm_hard-40",
-    "category": "triv_math",
+    "category": "math3c",
     "difficulty": 2,
-    "title": "数学：入試の難問",
+    "title": "複素数平面（応用）",
     "body": "$z = \\cos\\dfrac{\\pi}{7} + i\\sin\\dfrac{\\pi}{7}$ のとき、$z^{14} + z^{7}$ の値はいくつか。",
     "answer": 2,
     "explanation": "$z^7 = \\cos\\pi + i\\sin\\pi = -1$、$z^{14} = 1$。$1 + (-1) = 0$。",
@@ -236728,8 +236728,8 @@
       "0",
       "1"
     ],
-    "unit": "tm_hard",
-    "rate": 3.1
+    "unit": "h_complex",
+    "rate": 3.3
   },
   {
     "id": "u-te_adv-24",
@@ -237093,9 +237093,9 @@
   },
   {
     "id": "u-te_hard-19",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "次のうち、文法的に誤りを含む文はどれか。",
     "answer": 2,
     "explanation": "look forward to のあとは動名詞。正しくは looking forward to seeing you。",
@@ -237106,14 +237106,14 @@
       "I am looking forward to see you.",
       "She is used to living alone."
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-20",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "関係代名詞（応用）",
     "body": "次のうち、文法的に誤りを含む文はどれか。",
     "answer": 1,
     "explanation": "関係代名詞 which が目的語の働きをしているので、it は不要。",
@@ -237124,14 +237124,14 @@
       "The book that I bought yesterday was interesting.",
       "The book I bought yesterday was interesting."
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_relative",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-21",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "“He is too young to drive.” とほぼ同じ意味の文はどれか。",
     "answer": 1,
     "explanation": "too 〜 to ... = so 〜 that + 否定。",
@@ -237142,14 +237142,14 @@
       "He is not young to drive.",
       "He is young enough to drive."
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_infinitive",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-22",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "“Unless you hurry, you will miss the train.” と同じ意味の文はどれか。",
     "answer": 0,
     "explanation": "unless = if 〜 not。",
@@ -237160,14 +237160,14 @@
       "If you hurry, you will not miss the train.",
       "If you do not hurry, you will not miss the train."
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-23",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "英語の文法（応用）",
     "body": "He studied hard. ( ), he failed the exam. 空所に入る最も適切なものはどれか。",
     "answer": 3,
     "explanation": "前後が逆の内容なので、逆接の However。",
@@ -237178,14 +237178,14 @@
       "Moreover",
       "However"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_grammar",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-24",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“How about going for a walk?” への返事として最も適切なものはどれか。",
     "answer": 3,
     "explanation": "提案に同意する定番の返事。",
@@ -237196,14 +237196,14 @@
       "You are welcome.",
       "That sounds good."
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_translate",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-25",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“She takes after her mother.” の take after の意味はどれか。",
     "answer": 0,
     "explanation": "take after は、親などに似ていること。look after が「世話をする」。",
@@ -237214,14 +237214,14 @@
       "〜に反対する",
       "〜の世話をする"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_translate",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-26",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“We ran out of milk.” の意味はどれか。",
     "answer": 0,
     "explanation": "run out of は「〜を使い果たす」。",
@@ -237232,14 +237232,14 @@
       "牛乳を買いに走った。",
       "牛乳があふれた。"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_translate",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-27",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“I can’t put up with this noise.” の put up with の意味はどれか。",
     "answer": 1,
     "explanation": "put up with = tolerate。",
@@ -237250,14 +237250,14 @@
       "〜を置いておく",
       "〜を持ち上げる"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-28",
-    "category": "triv_eng",
+    "category": "eng_word",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "同意語・反意語（応用）",
     "body": "“reluctant” に最も意味が近い語はどれか。",
     "answer": 1,
     "explanation": "reluctant は「気が進まない」。",
@@ -237268,14 +237268,14 @@
       "eager",
       "ordinary"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "w_syn",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-29",
-    "category": "triv_eng",
+    "category": "eng_word",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "上級の英単語（応用）",
     "body": "“ubiquitous” の意味はどれか。",
     "answer": 2,
     "explanation": "例：ubiquitous smartphones（どこにでもあるスマートフォン）。",
@@ -237286,14 +237286,14 @@
       "どこにでもある",
       "目に見えない"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "w_adv",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-30",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "次の文章を読んで、答えなさい。“The museum is closed on Mondays. If Monday is a national holiday, it opens that day and closes on the following Tuesday instead.” 月曜日が祝日のとき、この博物館が休みなのはいつか。",
     "answer": 2,
     "explanation": "祝日の月曜日は開き、翌日の火曜日が休みになる。",
@@ -237304,14 +237304,14 @@
       "火曜日",
       "月曜日"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-31",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“This room is twice as large as that one.” とほぼ同じ意味の文はどれか。",
     "answer": 2,
     "explanation": "倍数 + as 〜 as = 倍数 + the + 名詞 + of。",
@@ -237322,14 +237322,14 @@
       "This room is twice the size of that one.",
       "That room is twice as large as this one."
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-32",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“Generally speaking, women live longer than men.” の Generally speaking の意味はどれか。",
     "answer": 3,
     "explanation": "独立分詞構文の慣用表現。",
@@ -237340,14 +237340,14 @@
       "一般的に話すと",
       "一般的に言えば"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-33",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "不定詞・動名詞（応用）",
     "body": "“I remember locking the door.” の意味はどれか。",
     "answer": 3,
     "explanation": "remember + 動名詞は過去のこと、remember + to 不定詞はこれからのこと。",
@@ -237358,14 +237358,14 @@
       "ドアに鍵をかけるのを忘れずにいる。",
       "ドアに鍵をかけたことを覚えている。"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_infinitive",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-34",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“It is no use crying over spilt milk.” の意味に最も近い日本語のことわざはどれか。",
     "answer": 1,
     "explanation": "こぼれた牛乳を嘆いても仕方がない、過ぎたことを悔やんでも無駄だという意味。",
@@ -237376,14 +237376,14 @@
       "急がば回れ",
       "石の上にも三年"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-35",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "助動詞（応用）",
     "body": "“You need not have come.” の意味はどれか。",
     "answer": 1,
     "explanation": "need not have + 過去分詞：必要がなかったのにしてしまったこと。",
@@ -237394,14 +237394,14 @@
       "来たほうがよかった。",
       "来なくてもよかったので、来なかった。"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_modal",
+    "rate": 3.5
   },
   {
     "id": "u-te_hard-36",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 2,
-    "title": "英語：入試の難問",
+    "title": "仮定法（応用）",
     "body": "“I wish I had known the truth.” の意味はどれか。",
     "answer": 0,
     "explanation": "wish + 仮定法過去完了は、過去の事実への後悔。",
@@ -237412,14 +237412,14 @@
       "真実を知っているのが嬉しい。",
       "真実を知っていればよいと思う。"
     ],
-    "unit": "te_hard",
-    "rate": 4.1
+    "unit": "g_subjunctive",
+    "rate": 4.3
   },
   {
     "id": "u-te_hard-37",
-    "category": "triv_eng",
+    "category": "eng_sentence",
     "difficulty": 3,
-    "title": "英語：入試の難問",
+    "title": "英文の和訳（応用）",
     "body": "“I have no idea what he means.” の意味として最も適切なものはどれか。",
     "answer": 1,
     "explanation": "have no idea は「全く分からない」。",
@@ -237430,8 +237430,8 @@
       "彼にはよい考えがない。",
       "私は彼の意見に賛成だ。"
     ],
-    "unit": "te_hard",
-    "rate": 3.3
+    "unit": "g_translate",
+    "rate": 3.5
   },
   {
     "id": "u-ts_adv-23",
@@ -237777,9 +237777,9 @@
   },
   {
     "id": "u-ts_hard-22",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "古代の歴史（応用）",
     "body": "743年に出され、新しく開墾した土地の私有を永久に認めた法令はどれか。",
     "answer": 3,
     "explanation": "のちに荘園が広がるきっかけとなった。",
@@ -237790,14 +237790,14 @@
       "三世一身法",
       "墾田永年私財法"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "s_hist_ancient",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-23",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "近世の歴史（応用）",
     "body": "1588年に出され、農民から武器を取り上げた法令を出した人物はだれか。",
     "answer": 3,
     "explanation": "刀狩令。一揆を防ぎ、兵農分離を進めた。",
@@ -237808,14 +237808,14 @@
       "明智光秀",
       "豊臣秀吉"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "s_hist_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-24",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "江戸時代の文化と政治（応用）",
     "body": "裁判の基準となる法典「公事方御定書」を定めた将軍はだれか。",
     "answer": 2,
     "explanation": "享保の改革の一つ。",
@@ -237826,14 +237826,14 @@
       "徳川吉宗",
       "徳川綱吉"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "s_hist_edo",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-25",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "江戸時代の文化と政治（応用）",
     "body": "天保の改革を行った老中はだれか。",
     "answer": 1,
     "explanation": "株仲間の解散などを行った。",
@@ -237844,14 +237844,14 @@
       "井伊直弼",
       "松平定信"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "s_hist_edo",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-26",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "明治維新（応用）",
     "body": "1858年に、日米修好通商条約を結んだときの大老はだれか。",
     "answer": 3,
     "explanation": "のち、桜田門外の変で暗殺された。",
@@ -237862,14 +237862,14 @@
       "阿部正弘",
       "井伊直弼"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "s_hist_meiji",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-27",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "明治維新（応用）",
     "body": "1867年に、政権を朝廷に返した将軍はだれか。",
     "answer": 3,
     "explanation": "大政奉還。江戸幕府の最後の将軍。",
@@ -237880,14 +237880,14 @@
       "徳川家慶",
       "徳川慶喜"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "s_hist_meiji",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-28",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "日本史：近代（応用）",
     "body": "1925年に、普通選挙法と治安維持法を成立させた内閣の首相はだれか。",
     "answer": 3,
     "explanation": "満25歳以上のすべての男子に選挙権が与えられた。",
@@ -237898,14 +237898,14 @@
       "原敬",
       "加藤高明"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_jp_modern",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-29",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "戦争と民主化（応用）",
     "body": "1932年の五・一五事件で、暗殺された首相はだれか。",
     "answer": 1,
     "explanation": "海軍の青年将校らが首相官邸を襲った。",
@@ -237916,14 +237916,14 @@
       "斎藤実",
       "原敬"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "s_hist_war",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-30",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "戦争と民主化（応用）",
     "body": "1937年に起こり、日中戦争のきっかけとなった事件はどれか。",
     "answer": 2,
     "explanation": "北京郊外で、日中両軍が衝突した。",
@@ -237934,14 +237934,14 @@
       "盧溝橋事件",
       "満州事変"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "s_hist_war",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-31",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "1789年に、パリの民衆が襲撃して、フランス革命のきっかけとなった牢獄はどれか。",
     "answer": 3,
     "explanation": "7月14日。",
@@ -237952,14 +237952,14 @@
       "ヴェルサイユ宮殿",
       "バスティーユ牢獄"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_early",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-32",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "ナポレオンが皇帝に即位したのは、何年か。",
     "answer": 1,
     "explanation": "1815年のワーテルローの戦いで敗れた。",
@@ -237970,14 +237970,14 @@
       "1789年",
       "1799年"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_w_early",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-33",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "世界史：近世・革命の時代（応用）",
     "body": "産業革命が、世界で最初に始まった国はどこか。",
     "answer": 3,
     "explanation": "18世紀後半、綿工業と蒸気機関から始まった。",
@@ -237988,14 +237988,14 @@
       "ドイツ",
       "イギリス"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_w_early",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-34",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1917年に、ロシア革命を指導し、世界初の社会主義政権をつくった人物はだれか。",
     "answer": 0,
     "explanation": "ボリシェビキの指導者。",
@@ -238006,14 +238006,14 @@
       "スターリン",
       "トロツキー"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-35",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1945年のヤルタ会談に参加した3首脳の組み合わせはどれか。",
     "answer": 1,
     "explanation": "ソ連の対日参戦などが決められた。",
@@ -238024,14 +238024,14 @@
       "ローズヴェルト・アトリー・スターリン",
       "ローズヴェルト・チャーチル・ド・ゴール"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-36",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1914年に、第一次世界大戦のきっかけとなった事件はどれか。",
     "answer": 3,
     "explanation": "オーストリアの皇太子夫妻が暗殺された。",
@@ -238042,14 +238042,14 @@
       "ミュンヘン会談",
       "サライェヴォ事件"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-37",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "「ベルリンの壁」が崩壊したのは、何年か。",
     "answer": 0,
     "explanation": "翌1990年に東西ドイツが統一された。",
@@ -238060,14 +238060,14 @@
       "1991年",
       "1961年"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "hs_w_20c",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-38",
-    "category": "triv_soc",
+    "category": "soc_hist",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "世界史：帝国主義と二つの世界大戦・現代（応用）",
     "body": "1929年に、世界恐慌のきっかけとなった株価の暴落が起こったのは、どこか。",
     "answer": 2,
     "explanation": "ニューヨーク株式市場の株価が大暴落した。",
@@ -238078,14 +238078,14 @@
       "ニューヨークのウォール街",
       "ロンドン"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_w_20c",
+    "rate": 3.0
   },
   {
     "id": "u-ts_hard-39",
-    "category": "triv_soc",
+    "category": "soc_civ",
     "difficulty": 2,
-    "title": "社会：入試の難問",
+    "title": "国際社会（応用）",
     "body": "国際連合の本部があるのはどこか。",
     "answer": 1,
     "explanation": "ジュネーブには、国連の事務所などがある。",
@@ -238096,14 +238096,14 @@
       "ワシントンD.C.",
       "ジュネーブ"
     ],
-    "unit": "ts_hard",
-    "rate": 3.6
+    "unit": "s_civ_intl",
+    "rate": 3.8
   },
   {
     "id": "u-ts_hard-40",
-    "category": "triv_soc",
+    "category": "soc_geo",
     "difficulty": 3,
-    "title": "社会：入試の難問",
+    "title": "地理：地形と気候（応用）",
     "body": "赤道直下にあるが、標高が高いため年間を通して涼しい高山気候の都市はどれか。",
     "answer": 1,
     "explanation": "エクアドルの首都。標高約2800 m。",
@@ -238114,8 +238114,8 @@
       "リマ",
       "リオデジャネイロ"
     ],
-    "unit": "ts_hard",
-    "rate": 2.8
+    "unit": "hs_geo_nature",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_adv-22",
@@ -238461,9 +238461,9 @@
   },
   {
     "id": "u-tsc_hard-22",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "運動の法則（応用）",
     "body": "質量 0.50 kg の物体に 2.0 m/$s^{2}$ の加速度が生じるとき、物体にはたらく力は何 N か。",
     "answer": 0,
     "explanation": "運動方程式 F = ma = 0.50 × 2.0。",
@@ -238474,14 +238474,14 @@
       "2.5 N",
       "0.25 N"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_force",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-23",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "等加速度運動（応用）",
     "body": "物体を静かに落とす。5.0 秒後の速さは何 m/s か（重力加速度 9.8 m/$s^{2}$）。",
     "answer": 2,
     "explanation": "v = gt = 9.8 × 5.0。",
@@ -238492,14 +238492,14 @@
       "49 m/s",
       "9.8 m/s"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_motion",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-24",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "波と音（応用）",
     "body": "長さ 1.2 m の弦に基本振動の定常波ができているとき、波長は何 m か。",
     "answer": 3,
     "explanation": "弦の長さが半波長にあたる。波長は 1.2 × 2。",
@@ -238510,14 +238510,14 @@
       "4.8 m",
       "2.4 m"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_wave",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-25",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "波と音（応用）",
     "body": "音速 340 m/s の空気中を、振動数 680 Hz の音が伝わるとき、波長は何 m か。",
     "answer": 2,
     "explanation": "波長 = 速さ ÷ 振動数 = 340 ÷ 680。",
@@ -238528,14 +238528,14 @@
       "0.50 m",
       "2.0 m"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_wave",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-26",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "電気回路（応用）",
     "body": "2.0 Ω と 3.0 Ω の抵抗を並列につないだ合成抵抗は何 Ω か。",
     "answer": 1,
     "explanation": "1/R = 1/2.0 + 1/3.0 = 5/6。R = 1.2。",
@@ -238546,14 +238546,14 @@
       "5.0 Ω",
       "0.8 Ω"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "hp_circuit",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-27",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "電気（応用）",
     "body": "100 V の電源に接続して、消費電力が 200 W の電気器具に流れる電流は何 A か。",
     "answer": 0,
     "explanation": "P = IV より I = 200 ÷ 100。",
@@ -238564,14 +238564,14 @@
       "20 A",
       "200 A"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "p_elec",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-28",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "2.0 L の気体を、温度を一定にして 0.50 L まで圧縮した。はじめの圧力が $1.0\\times10^{5}$ Pa のとき、圧縮後の圧力は何 Pa か。",
     "answer": 0,
     "explanation": "ボイルの法則 PV = 一定。体積が 1/4 になるので、圧力は 4 倍。",
@@ -238582,14 +238582,14 @@
       "$2.0\\times10^{5}$ Pa",
       "$8.0\\times10^{5}$ Pa"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-29",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "1.0 A の電流を 9650 秒流したとき、移動した電子は何 mol か（ファラデー定数 $9.65\\times10^{4}$ C/mol）。",
     "answer": 0,
     "explanation": "電気量 = 1.0 × 9650 = 9650 C。9650 ÷ 96500 = 0.10 mol。",
@@ -238600,14 +238600,14 @@
       "0.010 mol",
       "9.65 mol"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-30",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 2,
-    "title": "理科：入試の難問",
+    "title": "水溶液と酸・アルカリ（応用）",
     "body": "水 90 g に食塩 10 g を溶かした水溶液の質量パーセント濃度は何％か。",
     "answer": 1,
     "explanation": "10 ÷ (90 + 10) × 100。",
@@ -238618,14 +238618,14 @@
       "100％",
       "9％"
     ],
-    "unit": "tsc_hard",
-    "rate": 3.6
+    "unit": "c_solution",
+    "rate": 3.8
   },
   {
     "id": "u-tsc_hard-31",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "物質量と化学反応式（応用）",
     "body": "標準状態で、二酸化炭素（$\\mathrm{CO_{2}}$ = 44）22 g の体積は何 L か。",
     "answer": 2,
     "explanation": "22 ÷ 44 = 0.50 mol。0.50 × 22.4 = 11.2 L。",
@@ -238636,14 +238636,14 @@
       "11.2 L",
       "5.6 L"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_mol",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-32",
-    "category": "triv_sci",
+    "category": "sci_chem",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "酸・塩基と pH（応用）",
     "body": "0.20 mol/L の塩酸 25 mL を中和するのに必要な 0.10 mol/L の水酸化ナトリウム水溶液は何 mL か。",
     "answer": 1,
     "explanation": "$\\mathrm{H^{+}}$ の物質量 0.20 × 0.025 = 0.0050 mol。0.0050 ÷ 0.10 = 0.050 L。",
@@ -238654,14 +238654,14 @@
       "25 mL",
       "100 mL"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hc_acid",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-33",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "仕事とエネルギー（応用）",
     "body": "水 200 g の温度を 10 K 上げるのに必要な熱量は何 J か（水の比熱 4.2 J/(g·K)）。",
     "answer": 2,
     "explanation": "Q = mcΔT = 200 × 4.2 × 10。",
@@ -238672,14 +238672,14 @@
       "8400 J",
       "42000 J"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_energy",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-34",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "遺伝子とDNA（応用）",
     "body": "ある二本鎖 DNA の全塩基数が 200 で、アデニン（A）が 30 個のとき、グアニン（G）は何個か。",
     "answer": 1,
     "explanation": "A = T = 30。G + C = 200 − 60 = 140。G = C = 70。",
@@ -238690,14 +238690,14 @@
       "40 個",
       "30 個"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_dna",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-35",
-    "category": "triv_sci",
+    "category": "sci_bio",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "遺伝子とDNA（応用）",
     "body": "AaBb どうし（2 つの遺伝子は独立）を交配したとき、子が aabb になる割合はいくつか。",
     "answer": 0,
     "explanation": "aa が 1/4、bb が 1/4。1/4 × 1/4 = 1/16。",
@@ -238708,14 +238708,14 @@
       "9/16",
       "1/8"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hb_dna",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-36",
-    "category": "triv_sci",
+    "category": "sci_earth",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "大地の変化（応用）",
     "body": "P 波の速さ 6.0 km/s、S 波の速さ 3.5 km/s の地域で、初期微動継続時間が 10 秒だった。震源までの距離は何 km か。",
     "answer": 1,
     "explanation": "d/3.5 − d/6.0 = 10。d × 2.5/21 = 10 より d = 84。",
@@ -238726,14 +238726,14 @@
       "210 km",
       "35 km"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "e_land",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-37",
-    "category": "triv_sci",
+    "category": "sci_earth",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "大気・海洋・宇宙（応用）",
     "body": "太陽から地球まで $1.5\\times10^{11}$ m。光の速さを $3.0\\times10^{8}$ m/s とすると、太陽の光が地球に届くまで何秒かかるか。",
     "answer": 2,
     "explanation": "$1.5\\times10^{11}$ ÷ $3.0\\times10^{8}$ = 500。約 8 分 20 秒。",
@@ -238744,14 +238744,14 @@
       "500 秒",
       "5000 秒"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "he_atmo",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-38",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "仕事とエネルギー（応用）",
     "body": "質量 1 kg、速さ 4 m/s の物体が、静止している質量 3 kg の物体に衝突して一体となった。衝突後の速さは何 m/s か。",
     "answer": 2,
     "explanation": "運動量保存：1 × 4 = (1 + 3) × v。",
@@ -238762,14 +238762,14 @@
       "1 m/s",
       "3 m/s"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "hp_energy",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-39",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "エネルギー（応用）",
     "body": "質量 2 kg の物体を、基準から 5 m の高さに置いたときの位置エネルギーは何 J か（重力加速度 9.8 m/$s^{2}$）。",
     "answer": 3,
     "explanation": "U = mgh = 2 × 9.8 × 5。",
@@ -238780,14 +238780,14 @@
       "49 J",
       "98 J"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "p_energy",
+    "rate": 3.0
   },
   {
     "id": "u-tsc_hard-40",
-    "category": "triv_sci",
+    "category": "sci_phys",
     "difficulty": 3,
-    "title": "理科：入試の難問",
+    "title": "運動と仕事（応用）",
     "body": "質量 10 kg の物体を、4.0 秒で 2.0 m 持ち上げた。仕事率は何 W か（重力加速度 9.8 m/$s^{2}$）。",
     "answer": 1,
     "explanation": "仕事 = 10 × 9.8 × 2.0 = 196 J。196 ÷ 4.0 = 49 W。",
@@ -238798,8 +238798,8 @@
       "98 W",
       "196 W"
     ],
-    "unit": "tsc_hard",
-    "rate": 2.8
+    "unit": "p_motion",
+    "rate": 3.0
   },
   {
     "id": "u-tj_adv-22",
@@ -239145,9 +239145,9 @@
   },
   {
     "id": "u-tj_hard-17",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「情けは人のためならず」の本来の意味はどれか。",
     "answer": 1,
     "explanation": "「ならず」は断定「なり」の否定。",
@@ -239158,14 +239158,14 @@
       "人に情けをかけることは、その人のためにならない",
       "他人に頼らず、自分でやるべきだ"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-18",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「煮詰まる」の本来の意味はどれか。",
     "answer": 2,
     "explanation": "料理の水分がなくなる、から。",
@@ -239176,14 +239176,14 @@
       "議論が出尽くして、結論が出せる状態になる",
       "あきらめて、議論を打ち切る"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-19",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「破天荒」の本来の意味はどれか。",
     "answer": 0,
     "explanation": "「天荒」は未開の地を表す。",
@@ -239194,14 +239194,14 @@
       "豪快で、常識にとらわれない",
       "乱暴で、手がつけられない"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-20",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「姑息」の本来の意味はどれか。",
     "answer": 0,
     "explanation": "もとは「しばらく息をつくこと」。",
@@ -239212,14 +239212,14 @@
       "ずるい",
       "のろい"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-21",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「憮然」の本来の意味はどれか。",
     "answer": 1,
     "explanation": "怒ったさまの意味で使うのは本来は誤り。",
@@ -239230,14 +239230,14 @@
       "あきれて笑うさま",
       "平然としているさま"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-22",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「敷居が高い」の本来の意味はどれか。",
     "answer": 1,
     "explanation": "「ハードルが高い」の意味に使うのは本来は誤り。",
@@ -239248,14 +239248,14 @@
       "その家の入口が高くて、入りにくい",
       "その家が高級すぎて、入りにくい"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-23",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「琴線に触れる」の意味はどれか。",
     "answer": 0,
     "explanation": "「琴線」は心の奥の感じやすい部分。",
@@ -239266,14 +239266,14 @@
       "気に障る",
       "怒りをかう"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-24",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の書き取り（応用）",
     "body": "「上司の（　）を買う」の（　）に入る漢字を含む語として正しいものはどれか。",
     "answer": 1,
     "explanation": "「歓心を買う」は、相手に気に入られようとすること。",
@@ -239284,14 +239284,14 @@
       "肝心",
       "感心"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_write",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-25",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の書き取り（応用）",
     "body": "「提案に（　）を唱える」の（　）に入る語として正しいものはどれか。",
     "answer": 2,
     "explanation": "「異議を唱える」は、反対の意見を出すこと。",
@@ -239302,14 +239302,14 @@
       "異議",
       "異義"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_write",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-26",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「抽象」の対義語はどれか。",
     "answer": 2,
     "explanation": "抽象は、共通する性質を取り出して考えること。具体は、はっきりした形や内容をもつこと。",
@@ -239320,14 +239320,14 @@
       "具体",
       "概念"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-27",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「寛容」の対義語はどれか。",
     "answer": 0,
     "explanation": "心が広いことの反対は、度量が狭いこと。",
@@ -239338,14 +239338,14 @@
       "謙虚",
       "従順"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-28",
-    "category": "triv_ja",
+    "category": "ja_classic",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "古文単語（応用）",
     "body": "「男もすなる日記といふものを」の「なる」は、何の助動詞か。",
     "answer": 0,
     "explanation": "終止形「す」に接続しているので、伝聞・推定。",
@@ -239356,14 +239356,14 @@
       "完了の助動詞「ぬ」",
       "断定の助動詞「なり」"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_classic",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-29",
-    "category": "triv_ja",
+    "category": "ja_grammar",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "国語の文法（応用）",
     "body": "「雪のように白い」の「ように」は、どんな意味を表しているか。",
     "answer": 0,
     "explanation": "助動詞「ようだ」の連用形。",
@@ -239374,14 +239374,14 @@
       "不確かな断定",
       "例示"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_grammar",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-30",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「推敲」の語源になった故事は、どんな話か。",
     "answer": 0,
     "explanation": "唐の詩人、賈島の話。",
@@ -239392,14 +239392,14 @@
       "詩を何度も書き写した話",
       "詩の競争で勝った話"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_proverb",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-31",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "ことわざ・慣用句（応用）",
     "body": "「五十歩百歩」の出典はどれか。",
     "answer": 2,
     "explanation": "戦場で逃げた兵のたとえ。",
@@ -239410,14 +239410,14 @@
       "孟子",
       "荘子"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_proverb",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-32",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "四字熟語（応用）",
     "body": "四字熟語「呉越同舟」の意味はどれか。",
     "answer": 0,
     "explanation": "呉と越の仲が悪かったことから。",
@@ -239428,14 +239428,14 @@
       "大きな争いが終わること",
       "敵味方が入れ替わること"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_idiom",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-33",
-    "category": "triv_ja",
+    "category": "ja_idiom",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "四字熟語（応用）",
     "body": "四字熟語「朝三暮四」の意味はどれか。",
     "answer": 1,
     "explanation": "猿にトチの実を与える話。",
@@ -239446,14 +239446,14 @@
       "短い時間にたくさん働くこと",
       "毎日同じことを繰り返すこと"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_idiom",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-34",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「十八番」の読みとして正しいものはどれか。",
     "answer": 2,
     "explanation": "得意なこと。",
@@ -239464,14 +239464,14 @@
       "おはこ",
       "じゅうはちはん"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   },
   {
     "id": "u-tj_hard-35",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 3,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「完遂」の読みとして正しいものはどれか。",
     "answer": 0,
     "explanation": "最後までやりとげること。",
@@ -239482,14 +239482,14 @@
       "かんどう",
       "かんつい"
     ],
-    "unit": "tj_hard",
-    "rate": 3.3
+    "unit": "j_kanji_read",
+    "rate": 3.5
   },
   {
     "id": "u-tj_hard-36",
-    "category": "triv_ja",
+    "category": "ja_kanji",
     "difficulty": 2,
-    "title": "国語：入試の難問",
+    "title": "漢字の読み（応用）",
     "body": "「出納」の読みとして正しいものはどれか。",
     "answer": 0,
     "explanation": "金銭の出し入れ。",
@@ -239500,7 +239500,7 @@
       "しゅつのう",
       "しゅつとう"
     ],
-    "unit": "tj_hard",
-    "rate": 4.1
+    "unit": "j_kanji_read",
+    "rate": 4.3
   }
 ]

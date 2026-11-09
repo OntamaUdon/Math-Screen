@@ -39,7 +39,7 @@ struct SettingsView: View {
     }
 
     @ViewBuilder private var content: some View {
-            group("解くロックプラン", footer: "問題を見る・解くことと、記録は無料です。アプリロックなどは、解くロックプランで使えます。初めての方は、7日間無料です。") {
+            group("解くロックプラン", footer: "アプリロックと数学の問題、記録は無料です。英語・理科・社会・国語の問題などは、解くロックプランで使えます。初めての方は、7日間無料です。") {
                 row("いまのプラン", value: model.isPremium ? "解くロックプラン" : "無料",
                     valueColor: model.isPremium ? Theme.tealDeep : Theme.inkSoft)
                 Divider().padding(.leading, 18)
@@ -56,7 +56,7 @@ struct SettingsView: View {
             }
 
             if model.isPremium {
-                group("保護者用設定", footer: "オンにすると、ルールの変更・設定・プランの管理に、パスコードが必要になります。お子さんが知らない4桁の数字にしてください。この設定は、設定の画面の中にあるので、パスコードを知らないと、オフにできません。4回まちがえると、しばらく入力できなくなります。パスコードは、この端末の中だけに保存されます。") {
+                group("保護者用設定", footer: "オンにすると、ルールの変更・設定・プランの管理に、パスコードが必要になります。使う人が知らない4桁の数字にしてください。この設定は、設定の画面の中にあるので、パスコードを知らないと、オフにできません。4回まちがえると、しばらく入力できなくなります。パスコードは、この端末の中だけに保存されます。") {
                     HStack {
                         Text("保護者用設定").font(Theme.font(16)).foregroundStyle(Theme.ink)
                         Spacer()

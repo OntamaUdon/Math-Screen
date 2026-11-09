@@ -62,7 +62,6 @@ struct HomeView: View {
                 Text("見守るアプリ").font(Theme.font(18, .bold)).foregroundStyle(Theme.ink)
                 Spacer()
                 Button {
-                    if !model.isPremium { model.showPlan = true; return }
                     ParentLock.shared.request {
                         editing = GuardRule(selection: FamilyActivitySelection(), thresholdMinutes: 10, questionCount: 1)
                     }
@@ -80,17 +79,6 @@ struct HomeView: View {
                     .well()
             }
 
-            if !model.isPremium {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text(model.rules.isEmpty ? "アプリロックは、解くロックプランで使えます。" : "プランが終わっているので、ロックは止まっています。")
-                        .font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
-                    Text(model.rules.isEmpty ? "初めての方は、7日間無料です。" : "もう一度始めると、ルールはそのまま、また動きます。")
-                        .font(Theme.font(13)).foregroundStyle(Theme.inkSoft)
-                    Button("プランを見る") { model.showPlan = true }.buttonStyle(.primary)
-                }
-                .card()
-            }
-
             if model.rules.isEmpty {
                 Text("「追加」から、使いすぎたくないアプリと時間を決めましょう。")
                     .font(Theme.font(15)).foregroundStyle(Theme.inkSoft)
@@ -103,12 +91,10 @@ struct HomeView: View {
                         RuleRow(rule: rule, locked: model.lockedRuleIDs.contains(rule.id),
                                 used: model.ruleProgress[rule.id] ?? 0,
                                 onToggle: { on in
-                                    if !model.isPremium { model.showPlan = true; return }
                                     ParentLock.shared.request { model.setEnabled(rule, on) }
                                 })
                             .contentShape(Rectangle())
                             .onTapGesture {
-                                if !model.isPremium { model.showPlan = true; return }
                                 ParentLock.shared.request { editing = rule }
                             }
                     }

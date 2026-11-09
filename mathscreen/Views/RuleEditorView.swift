@@ -123,9 +123,12 @@ struct RuleEditorView: View {
         .isoBackground()
         .onAppear {
             // いまのルールから、チェックされている単元を求める（単元の指定がなければ、分野に入る単元すべて）
-            sel = rule.units.isEmpty
+            let s = rule.units.isEmpty
                 ? Set(UnitCatalog.available.filter { (UnitCatalog.categories[$0.id] ?? []).isSubset(of: rule.categories) }.map(\.id))
                 : rule.units
+            // 無料のときは、数学の単元だけ（ほかの教科は、プランで使える）
+            let open = s.filter { Access.isOpen(unit: $0) }
+            sel = open.isEmpty ? Set(UnitCatalog.units(in: Access.freeSubject).map(\.id)) : open
         }
         .onChange(of: sel) { _, new in apply(new) }
         .fullScreenCover(isPresented: $showRangeMap) { RangeMapSheet(selected: $sel) }
@@ -206,6 +209,7 @@ struct RangeMapSheet: View {
     @Binding var selected: Set<String>
     @Environment(\.dismiss) private var dismiss
     @State private var initial: Set<String> = []       // 開いたときの選択（空のまま閉じたときに戻す）
+    @State private var showPlan = false
 
     private let root = BookMap.selector()
 
@@ -221,6 +225,7 @@ struct RangeMapSheet: View {
     }
 
     private func toggle(_ n: MapNode) {
+        if n.locked { showPlan = true; return }            // 数学以外の科目は、プランで使える
         let ids = Set(leaves(n))
         if state(n) == .on { selected.subtract(ids) } else { selected.formUnion(ids) }
     }
@@ -241,10 +246,16 @@ struct RangeMapSheet: View {
             Text(selected.isEmpty ? "出したい教科や単元に、チェックを付けてください。" : "選んだ単元：\(selected.count)")
                 .font(Theme.font(13, .semibold)).foregroundStyle(selected.isEmpty ? Theme.danger : Theme.tealDeep)
                 .padding(.horizontal, 20)
+            if !Access.premium {
+                Text("数学は無料で使えます。ほかの教科（鍵マーク）は、解くロックプランで使えます。")
+                    .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
+                    .padding(.horizontal, 20)
+            }
             MindMapView(root: root, openPath: ["root"],
                         checkState: { state($0) }, onCheck: { toggle($0) }) { node in toggle(node) }
         }
         .isoBackground()
         .onAppear { initial = selected }
+        .sheet(isPresented: $showPlan) { PlanView().roomySheet() }
     }
 }

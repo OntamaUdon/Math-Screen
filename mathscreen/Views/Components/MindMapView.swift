@@ -8,6 +8,7 @@ struct MapNode: Identifiable {
     var subject: Subject? = nil
     var children: [MapNode] = []
     var progress: UnitProgress? = nil         // 単元の完成度（問題集のマップで、メーターに出す）
+    var locked = false                        // プランで使える枝（鍵マーク）。タップすると onSelect が呼ばれる（プランの案内）
 
     var tint: (top: Color, side: Color) {
         switch subject {
@@ -167,7 +168,7 @@ struct MindMapView: View {
                  depth: 4, radius: 12)
             if !filled { RoundedRectangle(cornerRadius: 12, style: .continuous).stroke(tint.top.opacity(selected ? 1 : 0.6), lineWidth: 2) }
             HStack(spacing: 6) {
-                if let cs = checkState?(n) {
+                if let cs = checkState?(n), !n.locked {
                     Image(systemName: cs == .on ? "checkmark.square.fill" : (cs == .partial ? "minus.square.fill" : "square"))
                         .font(.system(size: 24))
                         .foregroundStyle(cs == .off ? (filled ? Color.white.opacity(0.85) : Theme.inkFaint) : (filled ? Color.white : tint.top))
@@ -184,7 +185,10 @@ struct MindMapView: View {
                     if let pr = n.progress { MasteryMeter(progress: pr).padding(.top, 3) }
                 }
                 Spacer(minLength: 0)
-                if !isLeaf {
+                if n.locked {
+                    Image(systemName: "lock.fill")
+                        .font(.system(size: 14)).foregroundStyle(filled ? Color.white.opacity(0.9) : Theme.inkSoft)
+                } else if !isLeaf {
                     Image(systemName: item.open ? "minus.circle.fill" : "plus.circle.fill")
                         .font(.system(size: 16)).foregroundStyle(filled ? Color.white.opacity(0.9) : tint.top)
                 } else if selected {
@@ -198,11 +202,12 @@ struct MindMapView: View {
         .onTapGesture { tap(item) }
         .accessibilityElement(children: .combine)
         .accessibilityAddTraits(.isButton)
+        .accessibilityHint(n.locked ? "解くロックプランで使えます" : "")
     }
 
     // MARK: 動き
     private func tap(_ item: Placed) {
-        guard !item.node.children.isEmpty else { onSelect(item.node); return }
+        guard !item.node.children.isEmpty, !item.node.locked else { onSelect(item.node); return }
         var next = expanded
         if next.contains(item.id) {
             for id in item.node.allIDs { next.remove(id) }

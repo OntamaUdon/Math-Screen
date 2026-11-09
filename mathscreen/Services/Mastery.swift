@@ -142,11 +142,13 @@ final class MasteryStore {
 
 /// 出す問題の選び方：できていない単元を優先し、できてきたら難しい問題へ、先に身につけたい単元ができたら次の単元へ。
 enum Adaptive {
-    static func pick(categories: Set<String>, units: Set<String>, excluding current: String? = nil) -> Problem? {
+    static func pick(categories requestedCategories: Set<String>, units requestedUnits: Set<String>, excluding current: String? = nil) -> Problem? {
         let store = MasteryStore.shared
+        // 無料のときは、数学だけから出す（プランが切れたあとの、ほかの科目のルールも）
+        let (categories, units) = Access.filter(categories: requestedCategories, units: requestedUnits)
         var pool = ProblemBank.all.filter { categories.contains($0.category) && (units.isEmpty || units.contains($0.unit ?? "")) }
         if pool.isEmpty { pool = ProblemBank.all.filter { categories.contains($0.category) } }
-        if pool.isEmpty { return ProblemBank.pick(categories: categories, difficulties: [1, 2, 3], excluding: current) }
+        if pool.isEmpty { return ProblemBank.pick(categories: categories, difficulties: [1, 2, 3, 4], excluding: current) }
 
         let now = Date().timeIntervalSince1970
         let lastUnitKey = "adaptive.lastUnit"

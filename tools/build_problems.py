@@ -238,6 +238,7 @@ import gen_math5
 P.extend(gen_math5.generate())
 import gen_math6
 P.extend(gen_math6.generate())
+import collections
 import gen_content
 P.extend(gen_content.generate())
 
@@ -252,8 +253,21 @@ for p in P:
 import units as _units
 _known = {u[0] for u in _units.UNITS}
 for p in P:
+    if p.get("unit", "").endswith("_hard"):
+        p["_from"] = p["unit"]                          # 正解見込み（rate）は、もとの単元の見積もりを使う
+        p["unit"] = _units.HARD_REMAP[p["id"]]          # 「入試の難問」の単元はなくした。内容に合う単元へ移す
+        p["_moved"] = True
     p["unit"] = _units.unit_of(p)
     assert p["unit"] in _known, p["id"]
+# 移した問題は、移した先の単元の分野（category）と名前（title）にそろえる
+_ucat = collections.defaultdict(collections.Counter)
+for p in P:
+    if not p.get("_moved"): _ucat[p["unit"]][p["category"]] += 1
+_uname = {u[0]: u[3] for u in _units.UNITS}
+for p in P:
+    if p.pop("_moved", False):
+        p["category"] = _ucat[p["unit"]].most_common(1)[0][0]
+        p["title"] = _uname[p["unit"]] + "（応用）"
 for u in _units.UNITS:
     assert all(q in _known for q in u[4]), u
 

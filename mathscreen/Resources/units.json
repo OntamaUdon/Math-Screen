@@ -688,7 +688,7 @@
     "id": "w_adv",
     "subject": "english",
     "stage": "高校",
-    "name": "入試レベルの英単語",
+    "name": "上級の英単語",
     "order": 63,
     "prereqs": [
       "w_std"
@@ -1722,27 +1722,11 @@
     "prereqs": []
   },
   {
-    "id": "tm_hard",
-    "subject": "math",
-    "stage": "ノンジャンル",
-    "name": "入試の難問",
-    "order": 162,
-    "prereqs": []
-  },
-  {
     "id": "te_adv",
     "subject": "english",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 163,
-    "prereqs": []
-  },
-  {
-    "id": "te_hard",
-    "subject": "english",
-    "stage": "ノンジャンル",
-    "name": "入試の難問",
-    "order": 164,
+    "order": 162,
     "prereqs": []
   },
   {
@@ -1750,15 +1734,7 @@
     "subject": "social",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 165,
-    "prereqs": []
-  },
-  {
-    "id": "ts_hard",
-    "subject": "social",
-    "stage": "ノンジャンル",
-    "name": "入試の難問",
-    "order": 166,
+    "order": 163,
     "prereqs": []
   },
   {
@@ -1766,15 +1742,7 @@
     "subject": "science",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 167,
-    "prereqs": []
-  },
-  {
-    "id": "tsc_hard",
-    "subject": "science",
-    "stage": "ノンジャンル",
-    "name": "入試の難問",
-    "order": 168,
+    "order": 164,
     "prereqs": []
   },
   {
@@ -1782,15 +1750,7 @@
     "subject": "japanese",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 169,
-    "prereqs": []
-  },
-  {
-    "id": "tj_hard",
-    "subject": "japanese",
-    "stage": "ノンジャンル",
-    "name": "入試の難問",
-    "order": 170,
+    "order": 165,
     "prereqs": []
   }
 ]

@@ -60,13 +60,16 @@ struct PlanView: View {
     private var what: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("無料で使えるもの").font(Theme.font(14, .bold)).foregroundStyle(Theme.inkSoft)
-            Text("問題集（見る・探す・解く）と、記録。")
-                .font(Theme.font(15)).foregroundStyle(Theme.ink)
+            VStack(alignment: .leading, spacing: 6) {
+                feature("アプリロック（使いすぎたら問題が出て、解くまでロック）")
+                feature("数学の問題（小学算数〜数学III・C）")
+                feature("問題集と記録")
+            }
             Divider()
             Text("プランで使えるもの").font(Theme.font(14, .bold)).foregroundStyle(Theme.inkSoft)
             VStack(alignment: .leading, spacing: 6) {
-                feature("アプリロック（使いすぎたら問題が出て、解くまでロック）")
-                feature("ロック中の「別の問題」")
+                feature("英語・理科・社会・国語の問題（問題集でも、ロックの問題でも）")
+                feature("解いている問題を変える「問題を変える」")
                 feature("保護者用設定（ルールや設定を、パスコードで守る）")
             }
         }

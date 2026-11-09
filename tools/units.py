@@ -74,7 +74,7 @@ UNITS = [
     # ── 英語 ──
     ("w_basic",    "english", "中学", "基本の英単語", []),
     ("w_std",      "english", "高校", "標準の英単語", ["w_basic"]),
-    ("w_adv",      "english", "高校", "入試レベルの英単語", ["w_std"]),
+    ("w_adv",      "english", "高校", "上級の英単語", ["w_std"]),
     ("g_grammar",  "english", "中学", "英語の文法", []),
     ("g_translate", "english", "中学", "英文の和訳", ["g_grammar"]),
     ("g_order",    "english", "中学", "英文の並べかえ", ["g_grammar"]),
@@ -176,17 +176,12 @@ UNITS = [
     ("hs_civ_politics", "social", "高校", "民主政治と日本の政治制度", ["s_civ_gov"]),
     ("hs_civ_econ",  "social", "高校", "市場経済と国際経済", ["s_civ_econ"]),
     ("hs_ethics",    "social", "高校", "倫理（思想家）", []),
-    # ── ノンジャンル：発展内容（指導要領の外）と、入試の難問 ──
+    # ── ノンジャンル：発展内容（指導要領の外）──
     ("tm_adv",   "math", "ノンジャンル", "発展内容（指導要領の外）", []),
-    ("tm_hard",  "math", "ノンジャンル", "入試の難問", []),
     ("te_adv",   "english", "ノンジャンル", "発展内容（指導要領の外）", []),
-    ("te_hard",  "english", "ノンジャンル", "入試の難問", []),
     ("ts_adv",   "social", "ノンジャンル", "発展内容（指導要領の外）", []),
-    ("ts_hard",  "social", "ノンジャンル", "入試の難問", []),
     ("tsc_adv",  "science", "ノンジャンル", "発展内容（指導要領の外）", []),
-    ("tsc_hard", "science", "ノンジャンル", "入試の難問", []),
     ("tj_adv",   "japanese", "ノンジャンル", "発展内容（指導要領の外）", []),
-    ("tj_hard",  "japanese", "ノンジャンル", "入試の難問", []),
 ]
 
 # (category, title) → 単元。英単語は難しさで分ける。
@@ -305,3 +300,34 @@ def units_json():
         if g: d["group"] = g
         out.append(d)
     return out
+
+
+# 「入試の難問」の単元はなくした（本物の入試問題ではなく自作のため）。その問題は、内容に合う単元へ移す。
+def _r(prefix, units):
+    return {f"u-{prefix}-{i+1}": u for i, u in enumerate(units.split())}
+HARD_REMAP = {}
+HARD_REMAP.update(_r("tm_hard", """
+h_exp h_exp h_nt h_count h_count h_count h_nt h_seq2 h_seq2 h_cplx
+h_nt h_count h_seq2 h_space h_nt h_prob h_diff2 h_integ3 h_integ3 h_limit
+h_diff3 h_integ3 h_integ3 h_diff2 h_seq2 h_nt h_prob h_prob h_circle h_trig
+h_trig h_trig h_integ_app h_diff2 h_cplx h_cplx h_nt h_nt h_nt h_complex"""))
+HARD_REMAP.update(_r("te_hard", """
+g_subjunctive g_subjunctive g_grammar g_grammar g_grammar g_subjunctive g_infinitive g_infinitive g_grammar g_perfect
+g_grammar g_grammar g_irreg g_grammar g_relative g_infinitive g_modal g_infinitive g_grammar g_relative
+g_infinitive g_grammar g_grammar g_translate g_translate g_translate g_translate w_syn w_adv g_translate
+g_translate g_translate g_infinitive g_translate g_modal g_subjunctive g_translate"""))
+HARD_REMAP.update(_r("ts_hard", """
+hs_jp_ancmed hs_jp_ancmed hs_jp_ancmed hs_jp_ancmed hs_jp_ancmed hs_w_early hs_w_early hs_w_early hs_w_20c hs_w_20c
+hs_w_20c hs_jp_ancmed hs_jp_early hs_jp_early hs_jp_modern hs_jp_modern hs_jp_modern hs_jp_modern hs_geo_nature hs_geo_industry
+hs_geo_industry s_hist_ancient s_hist_early s_hist_edo s_hist_edo s_hist_meiji s_hist_meiji hs_jp_modern s_hist_war s_hist_war
+hs_w_early hs_w_early hs_w_early hs_w_20c hs_w_20c hs_w_20c hs_w_20c hs_w_20c s_civ_intl hs_geo_nature"""))
+HARD_REMAP.update(_r("tsc_hard", """
+hp_energy hp_energy hc_mol hc_acid hc_acid hc_mol hb_dna hb_dna he_atmo he_atmo
+he_earth p_force p_energy hc_mol hb_cell hb_dna hp_circuit hp_circuit hp_motion p_force
+hc_mol hp_force hp_motion hp_wave hp_wave hp_circuit p_elec hc_mol hc_mol c_solution
+hc_mol hc_acid hp_energy hb_dna hb_dna e_land he_atmo hp_energy p_energy p_motion"""))
+HARD_REMAP.update(_r("tj_hard", """
+j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_kanji_read j_idiom
+j_idiom j_idiom j_proverb j_proverb j_proverb j_proverb j_proverb j_proverb j_proverb j_proverb
+j_proverb j_proverb j_proverb j_kanji_write j_kanji_write j_proverb j_proverb j_classic j_grammar j_proverb
+j_proverb j_idiom j_idiom j_kanji_read j_kanji_read j_kanji_read"""))

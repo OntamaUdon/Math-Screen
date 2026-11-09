@@ -90,7 +90,7 @@ enum ProblemCategory: String, CaseIterable, Identifiable {
 }
 
 enum Difficulty: Int, CaseIterable, Identifiable {
-    case easy = 1, medium = 2, hard = 3
+    case easy = 1, medium = 2, hard = 3, expert = 4
     var id: Int { rawValue }
 
     var label: String {
@@ -98,10 +98,11 @@ enum Difficulty: Int, CaseIterable, Identifiable {
         case .easy: "初級"
         case .medium: "中級"
         case .hard: "上級"
+        case .expert: "最上級"
         }
     }
 
-    var dots: String { String(repeating: "●", count: rawValue) + String(repeating: "○", count: 3 - rawValue) }
+    var dots: String { String(repeating: "●", count: rawValue) + String(repeating: "○", count: Difficulty.allCases.count - rawValue) }
 }
 
 /// アプリ内蔵の問題データベース（Resources/problems.json）。
@@ -122,8 +123,8 @@ enum ProblemBank {
 
     /// 最近出した問題をなるべく避けてランダムに1問選ぶ。
     static func pick(categories: Set<String>, difficulties: Set<Int>, excluding current: String? = nil) -> Problem? {
-        var pool = candidates(categories: categories, difficulties: difficulties)
-        if pool.isEmpty { pool = all }
+        var pool = candidates(categories: categories, difficulties: difficulties).filter { Access.isOpen($0) }
+        if pool.isEmpty { pool = all.filter { Access.isOpen($0) } }
         let recent = Set(SharedStore.recentProblemIDs)
         let fresh = pool.filter { !recent.contains($0.id) && $0.id != current }
         let chosen = (fresh.isEmpty ? pool.filter { $0.id != current } : fresh).randomElement() ?? pool.randomElement()
