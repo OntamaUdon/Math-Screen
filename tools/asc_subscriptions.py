@@ -153,11 +153,18 @@ def review_shot():
         for loc in get_all(f"/subscriptions/{sid}/subscriptionLocalizations"):
             if loc["attributes"]["locale"] == "ja":
                 desc = next(p[5] for p in PLANS if p[0] == pid)
-                must(*call("PATCH", f"/subscriptionLocalizations/{loc['id']}", {"data": {"type": "subscriptionLocalizations",
-                    "id": loc["id"], "attributes": {"description": desc}}}), f"説明 {pid}")
+                st, res = call("PATCH", f"/subscriptionLocalizations/{loc['id']}", {"data": {"type": "subscriptionLocalizations",
+                    "id": loc["id"], "attributes": {"description": desc}}})
+                if st >= 400:
+                    print(f"::warning::説明 {pid} は、いまの状態では変えられませんでした（{st}）。いまの説明: {loc['attributes'].get('description')}")
+                else:
+                    print(f"説明 {pid} を入れました")
         # 審査メモ
-        must(*call("PATCH", f"/subscriptions/{sid}", {"data": {"type": "subscriptions", "id": sid,
-            "attributes": {"reviewNote": REVIEW_NOTE}}}), f"審査メモ {pid}")
+        st, res = call("PATCH", f"/subscriptions/{sid}", {"data": {"type": "subscriptions", "id": sid,
+            "attributes": {"reviewNote": REVIEW_NOTE}}})
+        print(f"審査メモ {pid}:", "入れました" if st < 400 else f"変えられませんでした（{st}）")
+        if st >= 400:
+            continue                                          # 審査中で変えられない状態なら、画像も入れ替えない
         # すでにある画像は消して入れ替える
         st, res = call("GET", f"/subscriptions/{sid}/appStoreReviewScreenshot")
         old = res.get("data") if st == 200 else None
