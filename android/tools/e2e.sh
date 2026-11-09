@@ -67,7 +67,10 @@ if top | grep -q ChallengeActivity; then ok "ロック中に開き直すと、�
 answer(){ # $1 = right / wrong
   dump
   python3 android/tools/answer.py "$OUT/ui.xml" mathscreen/Resources/problems.json "$1" > "$OUT/keys.txt" || { echo "  （問題が見つからない）"; return 1; }
-  while read -r k; do tap "$k" exact || return 1; done < "$OUT/keys.txt"
+  # （adb が標準入力を読んでしまうので、先に配列に読み込んでから押す）
+  mapfile -t KEYS < "$OUT/keys.txt"
+  echo "  押す：${KEYS[*]}"
+  for k in "${KEYS[@]}"; do tap "$k" exact || return 1; done
 }
 answer wrong
 shot 3-wrong

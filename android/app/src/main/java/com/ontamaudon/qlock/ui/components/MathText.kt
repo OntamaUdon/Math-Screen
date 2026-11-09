@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -30,20 +31,24 @@ import org.json.JSONObject
 @Composable
 fun MathText(source: String, fontSize: Int = 19, color: Color = Theme.ink, spoken: String? = null, modifier: Modifier = Modifier) {
     var height by remember { mutableIntStateOf(48) }
+    // 数式を描く部品（WebView）が、端末に止められたときは、作り直す
+    var generation by remember { mutableIntStateOf(0) }
     val css = String.format("#%06X", color.toArgb() and 0xFFFFFF)
     Box(modifier.fillMaxWidth().height(height.dp).semantics { contentDescription = spoken ?: source.replace("$", "") }) {
-        AndroidView(
-            modifier = Modifier.fillMaxWidth().height(height.dp),
-            factory = { ctx -> KatexView(ctx) { h -> if (h > 0 && h != height) height = h } },
-            update = { it.show(source, fontSize, css) },
-        )
+        key(generation) {
+            AndroidView(
+                modifier = Modifier.fillMaxWidth().height(height.dp),
+                factory = { ctx -> KatexView(ctx, onGone = { generation++ }) { h -> if (h > 0 && h != height) height = h } },
+                update = { it.show(source, fontSize, css) },
+            )
+        }
         // 指の操作は、数式の上ではなく、外側（ボタンなど）で受ける
         Box(Modifier.matchParentSize().pointerInput(Unit) {})
     }
 }
 
 @SuppressLint("SetJavaScriptEnabled", "ViewConstructor")
-private class KatexView(ctx: android.content.Context, val onHeight: (Int) -> Unit) : WebView(ctx) {
+private class KatexView(ctx: android.content.Context, val onGone: () -> Unit, val onHeight: (Int) -> Unit) : WebView(ctx) {
     private var loaded = false
     private var pending: Triple<String, Int, String>? = null
     private var applied: String? = null
@@ -66,6 +71,12 @@ private class KatexView(ctx: android.content.Context, val onHeight: (Int) -> Uni
             override fun onPageFinished(view: WebView?, url: String?) {
                 loaded = true
                 apply()
+            }
+
+            // 画面を消している間などに、WebView の描画の仕組みが止められた。アプリごと落ちないように受け止めて、作り直す
+            override fun onRenderProcessGone(view: WebView?, detail: android.webkit.RenderProcessGoneDetail?): Boolean {
+                main.post { onGone() }
+                return true
             }
         }
         loadUrl("file:///android_asset/katex/android.html")

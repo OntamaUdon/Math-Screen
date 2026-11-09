@@ -25,6 +25,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode|density|fontScale"
             android:exported="true"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustResize">
@@ -37,6 +38,7 @@
         <!-- 問題の画面。制限したアプリの上や、ロック画面の上に出す。別のタスクにして、解いたら元のアプリに戻れるようにする -->
         <activity
             android:name=".ChallengeActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|navigation|uiMode|density|fontScale"
             android:exported="false"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"

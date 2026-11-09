@@ -26,6 +26,8 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.saveable.rememberSaveable
+import com.ontamaudon.qlock.data.ProblemBank
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -50,15 +52,16 @@ import com.ontamaudon.qlock.ui.components.ProblemSolver
 @Composable
 fun ChallengeScreen(onLockScreen: Boolean, onLeave: () -> Unit, onUnlocked: () -> Unit) {
     val m = AppModel
-    var problem by remember { mutableStateOf<Problem?>(null) }
-    var solvedCount by remember { mutableIntStateOf(0) }
+    // 画面が作り直されても、出していた問題と、解いた数を覚えておく
+    var problemID by rememberSaveable { mutableStateOf<String?>(null) }
+    var solvedCount by rememberSaveable { mutableIntStateOf(0) }
     var confirmEmergency by remember { mutableStateOf(false) }
     fun next() {
-        val p = problem
-        if (p == null && solvedCount == 0) m.pendingProblem?.let { problem = it; return }
-        problem = Adaptive.pick(m.challengeCategories, m.challengeUnits, p?.id)
+        val current = problemID
+        if (current == null && solvedCount == 0) m.pendingProblem?.let { problemID = it.id; return }
+        problemID = Adaptive.pick(m.challengeCategories, m.challengeUnits, current)?.id
     }
-    LaunchedEffect(Unit) { if (problem == null) next() }
+    LaunchedEffect(Unit) { if (problemID == null) next() }
 
     IsoBackground {
         Column(Modifier.fillMaxSize().statusBarsPadding().navigationBarsPadding().verticalScroll(rememberScrollState())
@@ -72,7 +75,7 @@ fun ChallengeScreen(onLockScreen: Boolean, onLeave: () -> Unit, onUnlocked: () -
                     Icon(Icons.Filled.Close, "閉じる", tint = Theme.inkSoft, modifier = Modifier.size(16.dp))
                 }
             }
-            val p = problem
+            val p: Problem? = problemID?.let { ProblemBank.find(it) }
             if (!m.isLocked) {
                 Card {
                     Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
