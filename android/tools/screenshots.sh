@@ -21,3 +21,11 @@ for scene in onboarding home book stats settings plan solve challenge; do
 done
 # 起動に失敗したときの手がかり
 adb logcat -d -t 400 '*:E' > "$OUT/logcat-errors.txt" || true
+echo "---- アプリのエラー（あれば） ----"
+grep -E "AndroidRuntime|FATAL|qlock" "$OUT/logcat-errors.txt" | head -60 || true
+# 画像を文字（base64）にしてログにも出す（Actions のファイル置き場に届かない環境から、ログだけで画像を取り出すため）
+for f in "$OUT"/*.png; do
+  echo "==BEGIN $(basename "$f")=="
+  base64 -w 0 "$f"; echo
+  echo "==END=="
+done
