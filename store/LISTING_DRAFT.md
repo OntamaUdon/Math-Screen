@@ -87,7 +87,9 @@ https://ontamaudon.github.io/Math-Screen/terms.html
 【前回の審査でのご指摘への対応】
 ・4.10：スクリーンタイムの機能（アプリのロック）は、無料で使えるようにしました。有料（解くロックプラン）なのは、本アプリが独自に作った学習コンテンツ（英語・国語・社会・理科の問題）、「問題を変える」、保護者用設定です。
 ・5.1.1(iv)：スクリーンタイムと通知の許可の前の説明画面で、ボタンを「つぎへ」「はじめる」に変え、「あとで」のボタンをなくしました。説明のあとは、必ず許可の確認に進みます。
+・サブスクリプションの説明文（「アプリロックなど、すべての機能が使えます。」）と、サブスクリプションの審査用の画像は、提出中のため変更できませんでした。プランの実際の内容は、アプリのプラン画面と、上記のとおりです（アプリロックは、プランに入っていない人も使えます）。
 
 (English summary)
 - Guideline 4.10: Screen Time features (app locking) are now free for everyone. The subscription only unlocks the app's own learning content (English, Japanese, social studies and science questions), the "change question" feature, and the passcode-protected settings.
 - Guideline 5.1.1(iv): The screens shown before the Screen Time and notification permission requests now use "Next" (つぎへ) / "Start" (はじめる) buttons, and the "Later" (あとで) buttons were removed. Users always proceed to the system permission request.
+- The subscription description and the subscription review screenshot could not be edited while they are part of this submission (the API returned "can not be modified in the current state"). They still show the previous wording. The current plan contents are as described above and on the in-app plan screen; app locking is available to everyone without the subscription.
