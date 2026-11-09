@@ -145,27 +145,22 @@ struct OnboardingView: View {
         } else if page < 2 {
             Button("つぎへ") { go(page + 1) }.buttonStyle(.primary)
         } else if page == 2 {
-            Button("スクリーンタイムを許可する") {
+            // 許可の前の説明では、「つぎへ」で必ず許可の確認に進む（審査ガイドライン 5.1.1(iv)）
+            Button("つぎへ") {
                 Task {
                     await model.requestAuthorization()
                     go(3)
                 }
             }
             .buttonStyle(.primary)
-            Button("あとで") { go(3) }
-                .font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
-                .frame(maxWidth: .infinity)
         } else {
-            Button("通知を許可してはじめる") {
+            Button("はじめる") {
                 Task {
                     await model.requestNotifications()
                     model.finishOnboarding()
                 }
             }
             .buttonStyle(.primary)
-            Button("あとで") { model.finishOnboarding() }
-                .font(Theme.font(15, .semibold)).foregroundStyle(Theme.inkSoft)
-                .frame(maxWidth: .infinity)
         }
     }
 
