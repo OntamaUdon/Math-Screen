@@ -2,8 +2,10 @@ import SwiftUI
 
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
-/// 10進法のように表す：棒（直方体）が1の位、てっぺんの星が10の位。
-/// 棒の高さと色は1の位（1〜9問）で決まり、10問ごとに星が1つ増える（0〜9問は星なし）。例：23問 → 3問ぶんの棒と、星2つ。
+/// 10進法のように表す：棒（直方体）が1の位、てっぺんの星の色が10の位。
+/// 棒の高さと色は1の位（1〜9問）で決まる。10問以上になると星が付き、星の色は10の位の数（棒と同じ色の順）。0〜9問は星なし。
+/// 100問以上では星が2つ（左が100の位、右が10の位）、1000問以上では3つ…と、位ごとに1つずつ増える。0の位の星は灰色。
+/// 例：23問 → 3問の色の棒と、2問の色の星1つ。
 /// 色は1問ごとに変わる（水色→緑→金→橙→桃→紫→藍→赤→銀）。色の見方は、グラフの下に色だけの凡例を並べる。
 /// 今週（手前の列）の棒には、実際の正解数を数字で添える。
 struct IsoBarChart: View {
@@ -40,7 +42,7 @@ struct IsoBarChart: View {
                     .frame(height: 10)
                     .overlay(RoundedRectangle(cornerRadius: 3, style: .continuous).stroke(Self.tierColors(tier).2.opacity(0.5), lineWidth: 1))
             }
-            Text("✦ = 10").font(Theme.font(10, .bold)).foregroundStyle(Theme.inkSoft).fixedSize()
+            Text("✦ = 10の位").font(Theme.font(10, .bold)).foregroundStyle(Theme.inkSoft).fixedSize()
         }
         .accessibilityHidden(true)
     }
@@ -58,6 +60,15 @@ struct IsoBarChart: View {
         case 8: return (Color(hex: 0xFF9AA0), Color(hex: 0xE0323F), Color(hex: 0xA81F2B))
         case 9: return (Color(hex: 0xFFFFFF), Color(hex: 0xD5DAE6), Color(hex: 0x9AA3B8))
         default: return (Color(hex: 0xFFD25E), Color(hex: 0x3A3E58), Color(hex: 0x23263A))
+        }
+    }
+
+    /// 10の位より上の数を、星の並びにする。左が上の位。星の色はその位の数（1〜9）、0は灰色。
+    private static func starText(_ upper: Int) -> Text {
+        let digits = String(upper).compactMap { $0.wholeNumberValue }
+        return digits.reduce(Text("")) { acc, d in
+            acc + Text("✦").font(.system(size: 13, weight: .heavy))
+                .foregroundColor(d == 0 ? Color(hex: 0xB8BECC) : tierColors(d).1)
         }
     }
 
@@ -110,7 +121,7 @@ struct IsoBarChart: View {
                 let y = -CGFloat(k) * rowGap - 0.3
                 let isToday = k == 0 && i == todayIndex
                 let tier = value % 10              // 1の位：棒の高さと色
-                let stars = value / 10             // 10の位：星の数
+                let stars = value / 10             // 10の位より上：星（位ごとに1つ、色はその位の数）
                 let colors: (Color, Color, Color) =
                     tier >= 1 ? Self.tierColors(tier)
                     : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
@@ -125,11 +136,9 @@ struct IsoBarChart: View {
                         face([(bx + 0.14, y + 0.14, 0.2 + h), (bx + 0.5, y + 0.14, 0.2 + h),
                               (bx + 0.5, y + 0.3, 0.2 + h), (bx + 0.14, y + 0.3, 0.2 + h)], .white.opacity(0.55))
                     }
-                    if stars > 0 {          // 10問ごとに星1つ（多いときは「✦×数」）
+                    if stars > 0 {
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
-                        let mark = stars <= 3 ? String(repeating: "✦", count: stars) : "✦×\(stars)"
-                        ctx.draw(Text(mark).font(.system(size: 12, weight: .bold)).foregroundColor(Color(hex: 0xE0A800)),
-                                 at: CGPoint(x: t.x, y: t.y - 9))
+                        ctx.draw(Self.starText(stars), at: CGPoint(x: t.x, y: t.y - 9))
                     }
                     if k == 0 && value > 0 && i != todayIndex {         // 今週の棒には、実際の正解数を添える（今日の棒は「今日 N」で示す）
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
