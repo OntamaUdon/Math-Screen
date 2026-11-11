@@ -92,6 +92,17 @@ struct SettingsView: View {
                 .id(shareTick)
             }
 
+            group("レビューのお願い", footer: "ロックを解除できたあと、App Store のレビューをお願いする画面が出ることがあります（数回までです）。オフにすると、今後は出しません。") {
+                HStack {
+                    Text("レビューのお願いを出す").font(Theme.font(16)).foregroundStyle(Theme.ink)
+                    Spacer()
+                    Toggle("", isOn: Binding(get: { !ReviewPrompt.optedOut }, set: { ReviewPrompt.optedOut = !$0; shareTick += 1 }))
+                        .labelsHidden().tint(Theme.tealDeep)
+                }
+                .padding(.horizontal, 18).padding(.vertical, 10)
+                .id(shareTick)
+            }
+
             group("スクリーンタイム", footer: checkedFooter) {
                 row("アクセス", value: authLabel, valueColor: model.authorization == .approved ? Theme.tealDeep : Theme.danger)
                 if model.authorization != .approved {
