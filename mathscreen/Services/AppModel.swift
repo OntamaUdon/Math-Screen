@@ -231,6 +231,7 @@ final class AppModel {
         SharedStore.updateToday { $0.unlocks += 1 }
         refresh()
         showChallenge = false
+        ReviewPrompt.afterUnlock()
     }
 
     /// 緊急解除（記録には残る）。
