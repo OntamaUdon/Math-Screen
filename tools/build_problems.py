@@ -247,6 +247,8 @@ import gen_math8
 P.extend(gen_math8.generate())       # 最上級を、1問ずつ手で書いたもの
 import gen_math9
 P.extend(gen_math9.generate())       # これまで入っていなかった単元（図の問題を含む）
+import gen_math10
+P.extend(gen_math10.generate())      # 図形の問題（問題ごとに図を作る）
 
 assert len({p["id"] for p in P}) == len(P), "問題の id が重複しています"
 for p in P:
