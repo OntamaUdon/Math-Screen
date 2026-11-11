@@ -83,6 +83,7 @@ def detail(sid):
     print(f"  状態: {a.get('state')} ／ 期間: {a.get('subscriptionPeriod')} ／ 参照名: {a.get('name')}")
     pr = parts(sid)
     print("  日本語の表示名:", [(l["attributes"]["locale"], l["attributes"]["name"]) for l in pr["localizations"]] or "なし")
+    print("  日本語の説明:", [(l["attributes"]["locale"], l["attributes"].get("description")) for l in pr["localizations"]] or "なし")
     print(f"  価格の設定: {len(pr['prices'])} 件")
     st2, rs = call("GET", f"/subscriptions/{sid}/appStoreReviewScreenshot")
     shot = rs.get("data") if st2 == 200 else None
