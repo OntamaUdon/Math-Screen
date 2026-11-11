@@ -764,7 +764,7 @@
     "plain": "四面体 OABC で |ベクトルOA| = |ベクトルOB| = |ベクトルOC| = 1、ベクトルOA·ベクトルOB = ベクトルOB·ベクトルOC = ベクトルOC·ベクトルOA = 1/2 のとき、体積を a√b / c（a と c は互いに素、b は平方因子をもたない）で表す。a + b + c を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 3.3
+    "rate": 2.5
   },
   {
     "id": "c15",
@@ -247464,7 +247464,7 @@
   {
     "id": "x7-h_circle-13",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 17$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 57,
@@ -247472,12 +247472,12 @@
     "plain": "不等式 x² + y² ≦ 17 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-14",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 50$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 161,
@@ -247485,12 +247485,12 @@
     "plain": "不等式 x² + y² ≦ 50 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-15",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 60$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 185,
@@ -247498,12 +247498,12 @@
     "plain": "不等式 x² + y² ≦ 60 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-16",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 33$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 101,
@@ -247511,12 +247511,12 @@
     "plain": "不等式 x² + y² ≦ 33 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-17",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 30$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 97,
@@ -247524,12 +247524,12 @@
     "plain": "不等式 x² + y² ≦ 30 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-18",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 39$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 121,
@@ -247537,12 +247537,12 @@
     "plain": "不等式 x² + y² ≦ 39 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-19",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 16$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 49,
@@ -247550,12 +247550,12 @@
     "plain": "不等式 x² + y² ≦ 16 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-20",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 54$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 177,
@@ -247563,12 +247563,12 @@
     "plain": "不等式 x² + y² ≦ 54 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-21",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 36$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 113,
@@ -247576,12 +247576,12 @@
     "plain": "不等式 x² + y² ≦ 36 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-22",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 23$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 69,
@@ -247589,12 +247589,12 @@
     "plain": "不等式 x² + y² ≦ 23 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-23",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 29$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 97,
@@ -247602,12 +247602,12 @@
     "plain": "不等式 x² + y² ≦ 29 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-24",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 55$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 177,
@@ -247615,12 +247615,12 @@
     "plain": "不等式 x² + y² ≦ 55 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-25",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 12$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 37,
@@ -247628,12 +247628,12 @@
     "plain": "不等式 x² + y² ≦ 12 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-26",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 11$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 37,
@@ -247641,12 +247641,12 @@
     "plain": "不等式 x² + y² ≦ 11 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-27",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 40$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 129,
@@ -247654,12 +247654,12 @@
     "plain": "不等式 x² + y² ≦ 40 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_circle-28",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "円の内部の格子点",
     "body": "不等式 $x^2 + y^2 \\le 59$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 185,
@@ -247667,7 +247667,7 @@
     "plain": "不等式 x² + y² ≦ 59 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_circle",
     "family": "h_circle|円の内部の格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-30",
@@ -249466,7 +249466,7 @@
   {
     "id": "x7-h_abs-1",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 3| + |x - 5| \\le 14$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249474,12 +249474,12 @@
     "plain": "不等式 |x + 3| + |x - 5| ≦ 14 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-2",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 6| + |x - 2| \\le 16$ を満たす整数 $x$ は何個あるか。",
     "answer": 17,
@@ -249487,12 +249487,12 @@
     "plain": "不等式 |x + 6| + |x - 2| ≦ 16 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-3",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 6| + |x - 5| \\le 19$ を満たす整数 $x$ は何個あるか。",
     "answer": 20,
@@ -249500,12 +249500,12 @@
     "plain": "不等式 |x + 6| + |x - 5| ≦ 19 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-4",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 5| + |x - 5| \\le 14$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249513,12 +249513,12 @@
     "plain": "不等式 |x + 5| + |x - 5| ≦ 14 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-5",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 1| + |x - 1| \\le 14$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249526,12 +249526,12 @@
     "plain": "不等式 |x + 1| + |x - 1| ≦ 14 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-6",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 6| + |x - 2| \\le 11$ を満たす整数 $x$ は何個あるか。",
     "answer": 11,
@@ -249539,12 +249539,12 @@
     "plain": "不等式 |x + 6| + |x - 2| ≦ 11 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-7",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 2| + |x - 4| \\le 12$ を満たす整数 $x$ は何個あるか。",
     "answer": 13,
@@ -249552,12 +249552,12 @@
     "plain": "不等式 |x + 2| + |x - 4| ≦ 12 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-8",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 2| + |x - 6| \\le 14$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249565,12 +249565,12 @@
     "plain": "不等式 |x + 2| + |x - 6| ≦ 14 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-9",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 5| + |x - 7| \\le 14$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249578,12 +249578,12 @@
     "plain": "不等式 |x + 5| + |x - 7| ≦ 14 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-10",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 5| + |x - 5| \\le 15$ を満たす整数 $x$ は何個あるか。",
     "answer": 15,
@@ -249591,12 +249591,12 @@
     "plain": "不等式 |x + 5| + |x - 5| ≦ 15 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-11",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 4| + |x - 2| \\le 12$ を満たす整数 $x$ は何個あるか。",
     "answer": 13,
@@ -249604,12 +249604,12 @@
     "plain": "不等式 |x + 4| + |x - 2| ≦ 12 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-12",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 5| + |x - 4| \\le 18$ を満たす整数 $x$ は何個あるか。",
     "answer": 18,
@@ -249617,12 +249617,12 @@
     "plain": "不等式 |x + 5| + |x - 4| ≦ 18 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-13",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 1| + |x - 1| \\le 20$ を満たす整数 $x$ は何個あるか。",
     "answer": 21,
@@ -249630,12 +249630,12 @@
     "plain": "不等式 |x + 1| + |x - 1| ≦ 20 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-14",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 0| + |x - 2| \\le 10$ を満たす整数 $x$ は何個あるか。",
     "answer": 11,
@@ -249643,12 +249643,12 @@
     "plain": "不等式 |x + 0| + |x - 2| ≦ 10 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-15",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 6| + |x - 7| \\le 17$ を満たす整数 $x$ は何個あるか。",
     "answer": 18,
@@ -249656,12 +249656,12 @@
     "plain": "不等式 |x + 6| + |x - 7| ≦ 17 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_abs-16",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "絶対値の和の不等式",
     "body": "不等式 $|x + 2| + |x - 1| \\le 17$ を満たす整数 $x$ は何個あるか。",
     "answer": 18,
@@ -249669,7 +249669,7 @@
     "plain": "不等式 |x + 2| + |x - 1| ≦ 17 を満たす整数 x は何個あるか。",
     "unit": "h_abs",
     "family": "h_abs|絶対値の和の不等式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_vec-13",
@@ -249830,7 +249830,7 @@
   {
     "id": "x7-h_space-15",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(-1, 1, -1)、B(-2, -3, 2)、C(-2, 4, -3) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 3,
@@ -249838,12 +249838,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(-1, 1, -1)、B(-2, -3, 2)、C(-2, 4, -3) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-16",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(2, 0, -2)、B(4, -1, -3)、C(4, -2, 2) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 7,
@@ -249851,12 +249851,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(2, 0, -2)、B(4, -1, -3)、C(4, -2, 2) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-17",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(2, 3, 1)、B(0, 1, -2)、C(0, -1, -3) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 8,
@@ -249864,12 +249864,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(2, 3, 1)、B(0, 1, -2)、C(0, -1, -3) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-18",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(0, -3, -3)、B(-3, 1, -3)、C(0, 4, 1) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 11,
@@ -249877,12 +249877,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(0, -3, -3)、B(-3, 1, -3)、C(0, 4, 1) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-19",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(4, 1, 2)、B(0, 3, 3)、C(1, 3, -2) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 23,
@@ -249890,12 +249890,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(4, 1, 2)、B(0, 3, 3)、C(1, 3, -2) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-20",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(1, 2, -1)、B(4, 0, -3)、C(1, -2, -1) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 5,
@@ -249903,12 +249903,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(1, 2, -1)、B(4, 0, -3)、C(1, -2, -1) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-21",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(3, 0, 1)、B(4, -1, 2)、C(0, 2, 0) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 5,
@@ -249916,12 +249916,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(3, 0, 1)、B(4, -1, 2)、C(0, 2, 0) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-22",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(-2, -3, 3)、B(3, -2, 1)、C(2, 4, 3) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 95,
@@ -249929,12 +249929,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(-2, -3, 3)、B(3, -2, 1)、C(2, 4, 3) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-23",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(2, 0, -2)、B(3, 1, -2)、C(-3, 0, -2) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 8,
@@ -249942,12 +249942,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(2, 0, -2)、B(3, 1, -2)、C(-3, 0, -2) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-24",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(-1, 0, 0)、B(-2, -1, 1)、C(4, 1, 0) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 7,
@@ -249955,12 +249955,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(-1, 0, 0)、B(-2, -1, 1)、C(4, 1, 0) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-25",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(0, -3, 4)、B(4, -2, -1)、C(-1, -1, 0) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 11,
@@ -249968,12 +249968,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(0, -3, 4)、B(4, -2, -1)、C(-1, -1, 0) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-26",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(1, -1, 0)、B(4, 0, 3)、C(3, 3, 4) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 4,
@@ -249981,12 +249981,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(1, -1, 0)、B(4, 0, 3)、C(3, 3, 4) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-27",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(0, -2, -3)、B(3, 4, -1)、C(1, 2, 3) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 10,
@@ -249994,12 +249994,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(0, -2, -3)、B(3, 4, -1)、C(1, 2, 3) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-28",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(2, -1, 1)、B(4, 4, 0)、C(1, 0, 3) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 19,
@@ -250007,12 +250007,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(2, -1, 1)、B(4, 4, 0)、C(1, 0, 3) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-29",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(1, -1, 2)、B(2, 1, -1)、C(-2, -1, 0) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 3,
@@ -250020,12 +250020,12 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(1, -1, 2)、B(2, 1, -1)、C(-2, -1, 0) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_space-30",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "四面体の体積",
     "body": "空間の 4 点 O(0, 0, 0)、A(-1, 0, -3)、B(4, 2, -3)、C(1, -3, 4) を頂点とする四面体の体積を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 49,
@@ -250033,7 +250033,7 @@
     "plain": "空間の 4 点 O(0, 0, 0)、A(-1, 0, -3)、B(4, 2, -3)、C(1, -3, 4) を頂点とする四面体の体積を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_space",
     "family": "h_space|四面体の体積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_limit-11",
@@ -250675,7 +250675,7 @@
   {
     "id": "x7-h_geom-1",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 14、15、13 の三角形の内接円の半径を答えよ。",
     "answer": 4,
@@ -250683,12 +250683,12 @@
     "plain": "3 辺の長さが 14、15、13 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_geom-2",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 13、12、5 の三角形の内接円の半径を答えよ。",
     "answer": 2,
@@ -250696,12 +250696,12 @@
     "plain": "3 辺の長さが 13、12、5 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_geom-3",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 8、17、15 の三角形の内接円の半径を答えよ。",
     "answer": 3,
@@ -250709,12 +250709,12 @@
     "plain": "3 辺の長さが 8、17、15 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_geom-4",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 9、10、17 の三角形の内接円の半径を答えよ。",
     "answer": 2,
@@ -250722,12 +250722,12 @@
     "plain": "3 辺の長さが 9、10、17 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_geom-5",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 5、13、12 の三角形の内接円の半径を答えよ。",
     "answer": 2,
@@ -250735,12 +250735,12 @@
     "plain": "3 辺の長さが 5、13、12 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_geom-6",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "内接円の半径",
     "body": "3 辺の長さが 10、17、9 の三角形の内接円の半径を答えよ。",
     "answer": 2,
@@ -250748,12 +250748,12 @@
     "plain": "3 辺の長さが 10、17、9 の三角形の内接円の半径を答えよ。",
     "unit": "h_geom",
     "family": "h_geom|内接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-21",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 20、12、16 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 100,
@@ -250761,12 +250761,12 @@
     "plain": "3 辺の長さが 20、12、16 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-22",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 15、15、15 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 75,
@@ -250774,12 +250774,12 @@
     "plain": "3 辺の長さが 15、15、15 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-23",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 9、9、9 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 27,
@@ -250787,12 +250787,12 @@
     "plain": "3 辺の長さが 9、9、9 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-24",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 6、6、6 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 12,
@@ -250800,12 +250800,12 @@
     "plain": "3 辺の長さが 6、6、6 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-25",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 12、12、12 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 48,
@@ -250813,12 +250813,12 @@
     "plain": "3 辺の長さが 12、12、12 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig-26",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "外接円の半径",
     "body": "3 辺の長さが 8、6、10 の三角形の外接円の半径を $R$ とする。$R^2$ を答えよ。",
     "answer": 25,
@@ -250826,7 +250826,7 @@
     "plain": "3 辺の長さが 8、6、10 の三角形の外接円の半径を R とする。R² を答えよ。",
     "unit": "h_trig",
     "family": "h_trig|外接円の半径",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_trig2-1",
@@ -251039,7 +251039,7 @@
   {
     "id": "x7-h_diff2-17",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-2 \\le x \\le 4$ における関数 $f(x) = x^3 - 6x$ の最大値を答えよ。",
     "answer": 40,
@@ -251047,12 +251047,12 @@
     "plain": "-2 ≦ x ≦ 4 における関数 f(x) = x³ - 6x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-18",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-1 \\le x \\le 1$ における関数 $f(x) = x^3 - 18x$ の最大値を答えよ。",
     "answer": 17,
@@ -251060,12 +251060,12 @@
     "plain": "-1 ≦ x ≦ 1 における関数 f(x) = x³ - 18x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-19",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-2 \\le x \\le 3$ における関数 $f(x) = x^3 - 3x$ の最大値を答えよ。",
     "answer": 18,
@@ -251073,12 +251073,12 @@
     "plain": "-2 ≦ x ≦ 3 における関数 f(x) = x³ - 3x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-20",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-1 \\le x \\le 3$ における関数 $f(x) = x^3 - 12x$ の最大値を答えよ。",
     "answer": 11,
@@ -251086,12 +251086,12 @@
     "plain": "-1 ≦ x ≦ 3 における関数 f(x) = x³ - 12x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-21",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-3 \\le x \\le 4$ における関数 $f(x) = x^3 - 6x$ の最大値を答えよ。",
     "answer": 40,
@@ -251099,12 +251099,12 @@
     "plain": "-3 ≦ x ≦ 4 における関数 f(x) = x³ - 6x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-22",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-3 \\le x \\le 3$ における関数 $f(x) = x^3 - 12x$ の最大値を答えよ。",
     "answer": 16,
@@ -251112,12 +251112,12 @@
     "plain": "-3 ≦ x ≦ 3 における関数 f(x) = x³ - 12x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-23",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-4 \\le x \\le 1$ における関数 $f(x) = x^3 - 3x$ の最大値を答えよ。",
     "answer": 2,
@@ -251125,12 +251125,12 @@
     "plain": "-4 ≦ x ≦ 1 における関数 f(x) = x³ - 3x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-24",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$0 \\le x \\le 4$ における関数 $f(x) = x^3 - 12x$ の最大値を答えよ。",
     "answer": 16,
@@ -251138,12 +251138,12 @@
     "plain": "0 ≦ x ≦ 4 における関数 f(x) = x³ - 12x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-25",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$-2 \\le x \\le 3$ における関数 $f(x) = x^3 - 18x$ の最大値を答えよ。",
     "answer": 28,
@@ -251151,12 +251151,12 @@
     "plain": "-2 ≦ x ≦ 3 における関数 f(x) = x³ - 18x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_diff2-26",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "区間での最大値",
     "body": "$0 \\le x \\le 3$ における関数 $f(x) = x^3 - 15x$ の最大値を答えよ。",
     "answer": 0,
@@ -251164,7 +251164,7 @@
     "plain": "0 ≦ x ≦ 3 における関数 f(x) = x³ - 15x の最大値を答えよ。",
     "unit": "h_diff2",
     "family": "h_diff2|区間での最大値",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_binom-16",
@@ -251611,7 +251611,7 @@
   {
     "id": "x7-h_count-57",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 15 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 7,
@@ -251619,12 +251619,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 15 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-58",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 21 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 12,
@@ -251632,12 +251632,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 21 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-59",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 37 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 33,
@@ -251645,12 +251645,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 37 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-60",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 20 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 8,
@@ -251658,12 +251658,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 20 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-61",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 30 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 19,
@@ -251671,12 +251671,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 30 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-62",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 25 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 16,
@@ -251684,12 +251684,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 25 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-63",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 27 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 19,
@@ -251697,12 +251697,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 27 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-64",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 24 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 12,
@@ -251710,12 +251710,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 24 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-65",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 29 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 21,
@@ -251723,12 +251723,12 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 29 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-66",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "周の長さが決まった三角形",
     "body": "3 辺の長さがすべて整数で、周の長さが 18 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "answer": 7,
@@ -251736,7 +251736,7 @@
     "plain": "3 辺の長さがすべて整数で、周の長さが 18 の三角形は何種類あるか（合同なものは同じとみなす）。",
     "unit": "h_count",
     "family": "h_count|周の長さが決まった三角形",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-75",
@@ -251871,7 +251871,7 @@
   {
     "id": "x7-h_prob-42",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{4}$ で $+1$、確率 $\\dfrac{3}{4}$ で $-1$ だけ動く。5 回動いたあと、P が座標 $1$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 557,
@@ -251879,12 +251879,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/4 で +1、確率 3/4 で -1 だけ動く。5 回動いたあと、P が座標 1 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-43",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{4}$ で $+1$、確率 $\\dfrac{3}{4}$ で $-1$ だけ動く。4 回動いたあと、P が座標 $4$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 257,
@@ -251892,12 +251892,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/4 で +1、確率 3/4 で -1 だけ動く。4 回動いたあと、P が座標 4 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-44",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{2}$ で $+1$、確率 $\\dfrac{1}{2}$ で $-1$ だけ動く。5 回動いたあと、P が座標 $1$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 21,
@@ -251905,12 +251905,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/2 で +1、確率 1/2 で -1 だけ動く。5 回動いたあと、P が座標 1 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-45",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{2}{3}$ で $+1$、確率 $\\dfrac{1}{3}$ で $-1$ だけ動く。4 回動いたあと、P が座標 $0$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 35,
@@ -251918,12 +251918,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 2/3 で +1、確率 1/3 で -1 だけ動く。4 回動いたあと、P が座標 0 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-46",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{2}{3}$ で $+1$、確率 $\\dfrac{1}{3}$ で $-1$ だけ動く。6 回動いたあと、P が座標 $6$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 793,
@@ -251931,12 +251931,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 2/3 で +1、確率 1/3 で -1 だけ動く。6 回動いたあと、P が座標 6 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-47",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{2}$ で $+1$、確率 $\\dfrac{1}{2}$ で $-1$ だけ動く。8 回動いたあと、P が座標 $2$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 39,
@@ -251944,12 +251944,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/2 で +1、確率 1/2 で -1 だけ動く。8 回動いたあと、P が座標 2 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-48",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{3}$ で $+1$、確率 $\\dfrac{2}{3}$ で $-1$ だけ動く。6 回動いたあと、P が座標 $2$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 263,
@@ -251957,12 +251957,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/3 で +1、確率 2/3 で -1 だけ動く。6 回動いたあと、P が座標 2 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-49",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{3}{4}$ で $+1$、確率 $\\dfrac{1}{4}$ で $-1$ だけ動く。7 回動いたあと、P が座標 $1$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 19219,
@@ -251970,12 +251970,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 3/4 で +1、確率 1/4 で -1 だけ動く。7 回動いたあと、P が座標 1 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-50",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{2}{3}$ で $+1$、確率 $\\dfrac{1}{3}$ で $-1$ だけ動く。7 回動いたあと、P が座標 $1$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 2747,
@@ -251983,12 +251983,12 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 2/3 で +1、確率 1/3 で -1 だけ動く。7 回動いたあと、P が座標 1 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-51",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "数直線上を動く点",
     "body": "数直線上の原点にある点 P が、1 回ごとに確率 $\\dfrac{1}{3}$ で $+1$、確率 $\\dfrac{2}{3}$ で $-1$ だけ動く。6 回動いたあと、P が座標 $0$ にある確率を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 889,
@@ -251996,7 +251996,7 @@
     "plain": "数直線上の原点にある点 P が、1 回ごとに確率 1/3 で +1、確率 2/3 で -1 だけ動く。6 回動いたあと、P が座標 0 にある確率を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_prob",
     "family": "h_prob|数直線上を動く点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-52",
@@ -252196,7 +252196,7 @@
   {
     "id": "x7-h_quadfunc-21",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 4$、$y \\le x + 4$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 38,
@@ -252204,12 +252204,12 @@
     "plain": "連立不等式 y ≧ x² - 4、y ≦ x + 4 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-22",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 2$、$y \\le 4x + 2$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 35,
@@ -252217,12 +252217,12 @@
     "plain": "連立不等式 y ≧ x² - 2、y ≦ 4x + 2 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-23",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 3$、$y \\le 2x + 3$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 30,
@@ -252230,12 +252230,12 @@
     "plain": "連立不等式 y ≧ x² - 3、y ≦ 2x + 3 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-24",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 5$、$y \\le 2x + 5$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 56,
@@ -252243,12 +252243,12 @@
     "plain": "連立不等式 y ≧ x² - 5、y ≦ 2x + 5 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-25",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 3$、$y \\le 3x + 3$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 38,
@@ -252256,12 +252256,12 @@
     "plain": "連立不等式 y ≧ x² - 3、y ≦ 3x + 3 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-26",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 6$、$y \\le 3x + 6$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 80,
@@ -252269,12 +252269,12 @@
     "plain": "連立不等式 y ≧ x² - 6、y ≦ 3x + 6 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-27",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 6$、$y \\le x + 6$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 64,
@@ -252282,12 +252282,12 @@
     "plain": "連立不等式 y ≧ x² - 6、y ≦ x + 6 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-28",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 2$、$y \\le x + 2$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 16,
@@ -252295,12 +252295,12 @@
     "plain": "連立不等式 y ≧ x² - 2、y ≦ x + 2 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-29",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 5$、$y \\le 3x + 5$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 64,
@@ -252308,12 +252308,12 @@
     "plain": "連立不等式 y ≧ x² - 5、y ≦ 3x + 5 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_quadfunc-30",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "放物線と直線で囲まれた格子点",
     "body": "連立不等式 $y \\ge x^2 - 4$、$y \\le 3x + 4$ を満たす整数の組 $(x, y)$ は何組あるか。",
     "answer": 50,
@@ -252321,12 +252321,12 @@
     "plain": "連立不等式 y ≧ x² - 4、y ≦ 3x + 4 を満たす整数の組 (x, y) は何組あるか。",
     "unit": "h_quadfunc",
     "family": "h_quadfunc|放物線と直線で囲まれた格子点",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-67",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 200 までの整数のうち、2、3、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 94,
@@ -252334,12 +252334,12 @@
     "plain": "1 から 200 までの整数のうち、2、3、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-68",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 1000 までの整数のうち、2、3、5 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 468,
@@ -252347,12 +252347,12 @@
     "plain": "1 から 1000 までの整数のうち、2、3、5 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-69",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 100 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 49,
@@ -252360,12 +252360,12 @@
     "plain": "1 から 100 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-70",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 300 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 146,
@@ -252373,12 +252373,12 @@
     "plain": "1 から 300 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-71",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 100 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 43,
@@ -252386,12 +252386,12 @@
     "plain": "1 から 100 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-72",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 500 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 244,
@@ -252399,12 +252399,12 @@
     "plain": "1 から 500 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-73",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 1000 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 486,
@@ -252412,12 +252412,12 @@
     "plain": "1 から 1000 までの整数のうち、2、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-74",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 300 までの整数のうち、2、3、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 143,
@@ -252425,12 +252425,12 @@
     "plain": "1 から 300 までの整数のうち、2、3、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-75",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 300 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 124,
@@ -252438,12 +252438,12 @@
     "plain": "1 から 300 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_count-76",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "ちょうど 1 つで割り切れる数",
     "body": "1 から 1000 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "answer": 420,
@@ -252451,12 +252451,12 @@
     "plain": "1 から 1000 までの整数のうち、3、5、7 のうちちょうど 1 つだけで割り切れるものは何個あるか。",
     "unit": "h_count",
     "family": "h_count|ちょうど 1 つで割り切れる数",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-53",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{9} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 137,
@@ -252464,12 +252464,12 @@
     "plain": "Σ_(k=1)⁹ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-54",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{25} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 877,
@@ -252477,12 +252477,12 @@
     "plain": "Σ_(k=1)²⁵ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-55",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{5} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 26,
@@ -252490,12 +252490,12 @@
     "plain": "Σ_(k=1)⁵ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-56",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{12} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 227,
@@ -252503,12 +252503,12 @@
     "plain": "Σ_(k=1)¹² 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-57",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{29} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 581,
@@ -252516,12 +252516,12 @@
     "plain": "Σ_(k=1)²⁹ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-58",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{30} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 2479,
@@ -252529,12 +252529,12 @@
     "plain": "Σ_(k=1)³⁰ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-59",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{14} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 599,
@@ -252542,12 +252542,12 @@
     "plain": "Σ_(k=1)¹⁴ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_seq-60",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "部分分数分解と和",
     "body": "$\\displaystyle\\sum_{k=1}^{6} \\dfrac{1}{k(k+1)(k+2)}$ を既約分数 $\\dfrac{a}{b}$ で表す。$a + b$ を答えよ。",
     "answer": 139,
@@ -252555,7 +252555,7 @@
     "plain": "Σ_(k=1)⁶ 1/(k(k+1)(k+2)) を既約分数 a/b で表す。a + b を答えよ。",
     "unit": "h_seq",
     "family": "h_seq|部分分数分解と和",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-85",
@@ -252924,7 +252924,7 @@
   {
     "id": "x7-h_nt-93",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 2x + y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 2,
@@ -252932,12 +252932,12 @@
     "plain": "xy = 2x + y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-94",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 3x + 3y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 3,
@@ -252945,12 +252945,12 @@
     "plain": "xy = 3x + 3y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-95",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 2x + 8y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 5,
@@ -252958,12 +252958,12 @@
     "plain": "xy = 2x + 8y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-96",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 11x + 3y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 4,
@@ -252971,12 +252971,12 @@
     "plain": "xy = 11x + 3y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-97",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 8x + 4y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 6,
@@ -252984,12 +252984,12 @@
     "plain": "xy = 8x + 4y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-98",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 5x + 5y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 3,
@@ -252997,12 +252997,12 @@
     "plain": "xy = 5x + 5y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-99",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 3x + 5y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 4,
@@ -253010,12 +253010,12 @@
     "plain": "xy = 3x + 5y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-100",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 4x + 7y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 6,
@@ -253023,12 +253023,12 @@
     "plain": "xy = 4x + 7y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-101",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 12x + 8y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 12,
@@ -253036,12 +253036,12 @@
     "plain": "xy = 12x + 8y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_nt-102",
     "category": "math1a",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "積の形にする不定方程式",
     "body": "$xy = 10x + 11y$ を満たす正の整数の組 $(x, y)$ は何組あるか。",
     "answer": 8,
@@ -253049,12 +253049,12 @@
     "plain": "xy = 10x + 11y を満たす正の整数の組 (x, y) は何組あるか。",
     "unit": "h_nt",
     "family": "h_nt|積の形にする不定方程式",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-24",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 3)(x - 3)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 83,
@@ -253062,12 +253062,12 @@
     "plain": "曲線 y = x(x + 3)(x - 3) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-25",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 2)(x - 3)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 265,
@@ -253075,12 +253075,12 @@
     "plain": "曲線 y = x(x + 2)(x - 3) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-26",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 1)(x - 4)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 135,
@@ -253088,12 +253088,12 @@
     "plain": "曲線 y = x(x + 1)(x - 4) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-27",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 4)(x - 2)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 151,
@@ -253101,12 +253101,12 @@
     "plain": "曲線 y = x(x + 4)(x - 2) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-28",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 1)(x - 1)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 3,
@@ -253114,12 +253114,12 @@
     "plain": "曲線 y = x(x + 1)(x - 1) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-29",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 4)(x - 1)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 135,
@@ -253127,12 +253127,12 @@
     "plain": "曲線 y = x(x + 4)(x - 1) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-30",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 1)(x - 2)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 49,
@@ -253140,12 +253140,12 @@
     "plain": "曲線 y = x(x + 1)(x - 2) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_integ_app-31",
     "category": "math2b",
-    "difficulty": 4,
+    "difficulty": 3,
     "title": "3 次関数と x 軸で囲む面積",
     "body": "曲線 $y = x(x + 3)(x - 1)$ と $x$ 軸で囲まれた 2 つの部分の面積の和を既約分数 $\\dfrac{p}{q}$ で表す。$p + q$ を答えよ。",
     "answer": 77,
@@ -253153,7 +253153,7 @@
     "plain": "曲線 y = x(x + 3)(x - 1) と x 軸で囲まれた 2 つの部分の面積の和を既約分数 p/q で表す。p + q を答えよ。",
     "unit": "h_integ_app",
     "family": "h_integ_app|3 次関数と x 軸で囲む面積",
-    "rate": 2.3
+    "rate": 3.8
   },
   {
     "id": "x7-h_prob-55",
@@ -253219,5 +253219,799 @@
     "unit": "h_prob",
     "family": "h_prob|連続して表が出る確率",
     "rate": 2.3
+  },
+  {
+    "id": "x8-h_nt-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "階乗の末尾の 0",
+    "body": "$n!$ の末尾に並ぶ 0 の個数が、ちょうど 100 個になる最小の正の整数 $n$ を答えよ。",
+    "answer": 405,
+    "explanation": "末尾の 0 の個数は $\\left[\\dfrac{n}{5}\\right] + \\left[\\dfrac{n}{25}\\right] + \\left[\\dfrac{n}{125}\\right] + \\cdots$。$n = 400$ で 99 個、$n = 405$ で 100 個になる。",
+    "plain": "n! の末尾に並ぶ 0 の個数が、ちょうど 100 個になる最小の正の整数 n を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|階乗の末尾の 0",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-2",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "2 で何回割り切れるか",
+    "body": "$3^n - 1$ が $2^{10}$ で割り切れるような、最小の正の整数 $n$ を答えよ。",
+    "answer": 256,
+    "explanation": "$n$ が偶数のとき、$3^n - 1$ が 2 で割り切れる回数は、$n$ が 2 で割り切れる回数より 2 多い（$3^{2m} - 1 = (3^m - 1)(3^m + 1)$ をくり返す）。$n$ が奇数なら 1 回だけ。よって $n$ は $2^8 = 256$ の倍数。",
+    "plain": "3^n - 1 が 2¹⁰ で割り切れるような、最小の正の整数 n を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|2 で何回割り切れるか",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-3",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "1 が並んだ数",
+    "body": "1 を $n$ 個並べた数 $11\\cdots1$ が 41 で割り切れるような、最小の正の整数 $n$ を答えよ。",
+    "answer": 5,
+    "explanation": "$11\\cdots1 = \\dfrac{10^n - 1}{9}$。$10^5 = 100000 = 41 \\times 2439 + 1$ より、$10^5 \\equiv 1 \\pmod{41}$ で、5 より小さい $n$ では成り立たない。",
+    "plain": "1 を n 個並べた数 11…1 が 41 で割り切れるような、最小の正の整数 n を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|1 が並んだ数",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-4",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "平方数になる条件",
+    "body": "$n^2 + 2n + 12$ が平方数になるような正の整数 $n$ を答えよ。",
+    "answer": 4,
+    "explanation": "$(n + 1)^2 + 11 = m^2$ より $(m - n - 1)(m + n + 1) = 11$。11 は素数なので $m - n - 1 = 1$、$m + n + 1 = 11$。$n = 4$。",
+    "plain": "n² + 2n + 12 が平方数になるような正の整数 n を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|平方数になる条件",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-5",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "根号が整数になる条件",
+    "body": "$\\sqrt{n^2 + 120}$ が整数となるような、すべての正の整数 $n$ の和を答えよ。",
+    "answer": 50,
+    "explanation": "$m^2 - n^2 = 120$、$(m - n)(m + n) = 120$。2 つの因数は偶奇が同じなので、ともに偶数。$(2, 60), (4, 30), (6, 20), (10, 12)$ から $n = 29, 13, 7, 1$。",
+    "plain": "√(n² + 120) が整数となるような、すべての正の整数 n の和を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|根号が整数になる条件",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-6",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "素数の方程式",
+    "body": "素数 $p$、$q$ が $p^2 - 2q^2 = 1$ を満たすとき、$p + q$ を答えよ。",
+    "answer": 5,
+    "explanation": "$p$ は奇数。$2q^2 = (p - 1)(p + 1)$ の右辺は 8 の倍数なので、$q^2$ は偶数で $q = 2$。このとき $p = 3$。",
+    "plain": "素数 p、q が p² - 2q² = 1 を満たすとき、p + q を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|素数の方程式",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-7",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "2 つの平方数の和",
+    "body": "$a^2 + b^2 = 2025$ を満たす整数の組 $(a, b)$ は何組あるか。",
+    "answer": 12,
+    "explanation": "$2025 = 3^4 \\cdot 5^2$。$3$ は 2 つの平方数の和に分けにくい素数なので、$a$、$b$ はともに 9 の倍数になる。$a = 9a'$、$b = 9b'$ として $a'^2 + b'^2 = 25$。整数解は 12 組。",
+    "plain": "a² + b² = 2025 を満たす整数の組 (a, b) は何組あるか。",
+    "unit": "h_nt",
+    "family": "h_nt|2 つの平方数の和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-8",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "互いに素な数の和",
+    "body": "100 以下の正の整数のうち、100 と互いに素なものすべての和を答えよ。",
+    "answer": 2000,
+    "explanation": "100 と互いに素な数は 40 個あり、$m$ と $100 - m$ が組になる。和は $40 \\times 50 = 2000$。",
+    "plain": "100 以下の正の整数のうち、100 と互いに素なものすべての和を答えよ。",
+    "unit": "h_nt",
+    "family": "h_nt|互いに素な数の和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "和の分け方",
+    "body": "$a + b + c = 20$、$1 \\le a \\le b \\le c$ を満たす整数の組 $(a, b, c)$ は何組あるか。",
+    "answer": 33,
+    "explanation": "$a$ の値ごとに数える。$a = 1$ で 9 組、$a = 2$ で 8 組、$a = 3$ で 6 組、$a = 4$ で 5 組、$a = 5$ で 3 組、$a = 6$ で 2 組。合計 33 組。",
+    "plain": "a + b + c = 20、1 ≦ a ≦ b ≦ c を満たす整数の組 (a, b, c) は何組あるか。",
+    "unit": "h_count",
+    "family": "h_count|和の分け方",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_nt-9",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "平方の差",
+    "body": "$a^2 - b^2 = 2025$ を満たす正の整数の組 $(a, b)$ は何組あるか。",
+    "answer": 7,
+    "explanation": "$(a - b)(a + b) = 2025$。2025 は奇数なので、約数の組 $(d, \\tfrac{2025}{d})$（$d < 45$）がそのまま使える。2025 の約数は 15 個で、$d < 45$ は 7 個。",
+    "plain": "a² - b² = 2025 を満たす正の整数の組 (a, b) は何組あるか。",
+    "unit": "h_nt",
+    "family": "h_nt|平方の差",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-2",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "立方体の塗り分け",
+    "body": "立方体の 6 つの面を、6 色すべてを 1 回ずつ使って塗る。回転して重なるものは同じとみなすと、何通りあるか。",
+    "answer": 30,
+    "explanation": "1 つの色を上に固定すると、下の色は 5 通り。横の 4 面は円順列で $3! = 6$ 通り。$5 \\times 6 = 30$ 通り。",
+    "plain": "立方体の 6 つの面を、6 色すべてを 1 回ずつ使って塗る。回転して重なるものは同じとみなすと、何通りあるか。",
+    "unit": "h_count",
+    "family": "h_count|立方体の塗り分け",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-3",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "正四面体の塗り分け",
+    "body": "異なる 6 色から 4 色を選び、正四面体の 4 つの面を 1 色ずつ塗る。回転して重なるものは同じとみなすと、何通りあるか。",
+    "answer": 30,
+    "explanation": "4 色の選び方は ${}_{6}C_{4} = 15$ 通り。4 色の塗り方は、1 面を下に固定して残り 3 面の円順列 $2! = 2$ 通り。$15 \\times 2 = 30$ 通り。",
+    "plain": "異なる 6 色から 4 色を選び、正四面体の 4 つの面を 1 色ずつ塗る。回転して重なるものは同じとみなすと、何通りあるか。",
+    "unit": "h_count",
+    "family": "h_count|正四面体の塗り分け",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_prob-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "交互に投げるさいころ",
+    "body": "A、B が A から交互にさいころを投げ、先に 6 を出した人の勝ちとする。A が勝つ確率を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 17,
+    "explanation": "A が $k$ 回目に勝つ確率は $\\left(\\dfrac{25}{36}\\right)^{k-1} \\cdot \\dfrac{1}{6}$。無限等比級数の和で $\\dfrac{1/6}{1 - 25/36} = \\dfrac{6}{11}$。",
+    "plain": "A、B が A から交互にさいころを投げ、先に 6 を出した人の勝ちとする。A が勝つ確率を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_prob",
+    "family": "h_prob|交互に投げるさいころ",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_prob-2",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "表が 3 回続かない確率",
+    "body": "硬貨を 10 回投げる。表が 3 回以上続けて出ることが一度もない確率を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 191,
+    "explanation": "表が続かない列の数 $a_n$ は $a_n = a_{n-1} + a_{n-2} + a_{n-3}$（最後の裏の位置で分ける）を満たす。$a_{10} = 504$。$\\dfrac{504}{1024} = \\dfrac{63}{128}$。",
+    "plain": "硬貨を 10 回投げる。表が 3 回以上続けて出ることが一度もない確率を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_prob",
+    "family": "h_prob|表が 3 回続かない確率",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-4",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "完全順列",
+    "body": "1 から 7 の番号のついた 7 枚のカードを、1 から 7 の番号のついた 7 つの箱に 1 枚ずつ入れる。どのカードも、同じ番号の箱に入らない入れ方は何通りか。",
+    "answer": 1854,
+    "explanation": "完全順列の数 $W_n$ は $W_n = (n - 1)(W_{n-1} + W_{n-2})$、$W_1 = 0$、$W_2 = 1$。$W_7 = 1854$。",
+    "plain": "1 から 7 の番号のついた 7 枚のカードを、1 から 7 の番号のついた 7 つの箱に 1 枚ずつ入れる。どのカードも、同じ番号の箱に入らない入れ方は何通りか。",
+    "unit": "h_count",
+    "family": "h_count|完全順列",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-5",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "上限のある分け方",
+    "body": "$x + y + z + w = 12$、$0 \\le x, y, z, w \\le 5$ を満たす整数の組は何組あるか。",
+    "answer": 125,
+    "explanation": "上限なしで ${}_{15}C_{3} = 455$。1 つが 6 以上の場合 $4 \\times {}_{9}C_{3} = 336$、2 つが 6 以上の場合 $6 \\times {}_{3}C_{3} = 6$。包除原理で $455 - 336 + 6 = 125$。",
+    "plain": "x + y + z + w = 12、0 ≦ x, y, z, w ≦ 5 を満たす整数の組は何組あるか。",
+    "unit": "h_count",
+    "family": "h_count|上限のある分け方",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-6",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "正多角形と長方形",
+    "body": "正十二角形の 12 個の頂点から 4 個を選んで四角形をつくる。長方形になるものは何個あるか。",
+    "answer": 15,
+    "explanation": "長方形の対角線は、外接円の直径。直径は 6 本あり、そのうち 2 本を選ぶと長方形が 1 つ決まる。${}_{6}C_{2} = 15$ 個。",
+    "plain": "正十二角形の 12 個の頂点から 4 個を選んで四角形をつくる。長方形になるものは何個あるか。",
+    "unit": "h_count",
+    "family": "h_count|正多角形と長方形",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_count-7",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "対角線を越えない道順",
+    "body": "座標平面で、点 $(0, 0)$ から点 $(6, 6)$ まで、$x$ 軸方向か $y$ 軸方向に 1 ずつ進む最短の道順のうち、途中で直線 $y = x$ より上（$y > x$ の部分）に出ないものは何通りあるか。",
+    "answer": 132,
+    "explanation": "カタラン数。全体 ${}_{12}C_{6}$ から、$y = x + 1$ に触れる道（折り返すと $(5, 7)$ への道 ${}_{12}C_{5}$ 通り）を引く。$924 - 792 = 132$。",
+    "plain": "座標平面で、点 (0, 0) から点 (6, 6) まで、x 軸方向か y 軸方向に 1 ずつ進む最短の道順のうち、途中で直線 y = x より上（y > x の部分）に出ないものは何通りあるか。",
+    "unit": "h_count",
+    "family": "h_count|対角線を越えない道順",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_prob-3",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "和が 6 以上になるまで",
+    "body": "さいころを投げ、出た目の合計が 6 以上になったらやめる。投げる回数の期待値を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 24583,
+    "explanation": "合計が $s$ のときの、あと何回投げるかの期待値を $E_s$ とすると、$E_s = 1 + \\dfrac{1}{6}\\sum E_{s+k}$（$s + k \\ge 6$ なら 0）。$s = 5$ から順に求めると $E_0 = \\dfrac{16807}{7776}$。",
+    "plain": "さいころを投げ、出た目の合計が 6 以上になったらやめる。投げる回数の期待値を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_prob",
+    "family": "h_prob|和が 6 以上になるまで",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_prob-4",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "3 けたの数が 3 の倍数",
+    "body": "1 から 9 の数字が書かれた 9 枚のカードから 3 枚を取り出して並べ、3 けたの数をつくる。それが 3 の倍数になる確率を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 19,
+    "explanation": "3 で割った余りが 0、1、2 のカードは 3 枚ずつ。和が 3 の倍数になるのは、余りが全部同じ（$3 \\times {}_{3}C_{3}$）か、全部ちがう（$3^3$）選び方で、30 通り。全体 ${}_{9}C_{3} = 84$ で $\\dfrac{30}{84} = \\dfrac{5}{14}$。",
+    "plain": "1 から 9 の数字が書かれた 9 枚のカードから 3 枚を取り出して並べ、3 けたの数をつくる。それが 3 の倍数になる確率を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_prob",
+    "family": "h_prob|3 けたの数が 3 の倍数",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ3-1",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "sin の 4 乗の積分",
+    "body": "$\\displaystyle\\int_0^{\\pi/2} \\sin^4 x\\,dx = a\\pi$ とする。$a$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 19,
+    "explanation": "$\\sin^4 x = \\dfrac{3 - 4\\cos 2x + \\cos 4x}{8}$。積分すると $\\dfrac{3}{8} \\cdot \\dfrac{\\pi}{2} = \\dfrac{3\\pi}{16}$。",
+    "plain": "∫₀^π/2 sin⁴ x dx = aπ とする。a を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_integ3",
+    "family": "h_integ3|sin の 4 乗の積分",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ3-2",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "置換積分",
+    "body": "$\\displaystyle\\int_0^{1} x^2\\sqrt{1 - x^2}\\,dx = a\\pi$ とする。$a$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 17,
+    "explanation": "$x = \\sin\\theta$ とおくと $\\displaystyle\\int_0^{\\pi/2} \\sin^2\\theta\\cos^2\\theta\\,d\\theta = \\dfrac{1}{4}\\int_0^{\\pi/2}\\sin^2 2\\theta\\,d\\theta = \\dfrac{\\pi}{16}$。",
+    "plain": "∫₀¹ x²√(1 - x²) dx = aπ とする。a を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_integ3",
+    "family": "h_integ3|置換積分",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_limit-1",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "区分求積法",
+    "body": "$\\displaystyle\\lim_{n \\to \\infty} \\sum_{k=1}^{n} \\dfrac{n}{n^2 + k^2}$ の値はどれか。",
+    "answer": 2,
+    "explanation": "$\\dfrac{1}{n}\\sum \\dfrac{1}{1 + (k/n)^2} \\to \\displaystyle\\int_0^1 \\dfrac{dx}{1 + x^2} = \\dfrac{\\pi}{4}$。",
+    "plain": "lim_(n → ∞) Σ_(k=1)^n n/(n² + k²) の値はどれか。　① 1　② (π)/2　③ (π)/4　④ log 2",
+    "unit": "h_limit",
+    "choices": [
+      "$1$",
+      "$\\dfrac{\\pi}{2}$",
+      "$\\dfrac{\\pi}{4}$",
+      "$\\log 2$"
+    ],
+    "family": "h_limit|区分求積法",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ_app-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "曲線と接線と y 軸",
+    "body": "曲線 $y = e^x$ と、その上の点 $(1, e)$ における接線、および $y$ 軸で囲まれた部分の面積はどれか。",
+    "answer": 0,
+    "explanation": "接線は $y = ex$。$\\displaystyle\\int_0^1 (e^x - ex)\\,dx = (e - 1) - \\dfrac{e}{2} = \\dfrac{e}{2} - 1$。",
+    "plain": "曲線 y = e^x と、その上の点 (1, e) における接線、および y 軸で囲まれた部分の面積はどれか。　① e/2 - 1　② e - 1　③ e - 2　④ (e - 1)/2",
+    "unit": "h_integ_app",
+    "choices": [
+      "$\\dfrac{e}{2} - 1$",
+      "$e - 1$",
+      "$e - 2$",
+      "$\\dfrac{e - 1}{2}$"
+    ],
+    "family": "h_integ_app|曲線と接線と y 軸",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ3-3",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "絶対値の積分",
+    "body": "$\\displaystyle\\int_0^{\\pi} |\\sin x - \\cos x|\\,dx$ の値はどれか。",
+    "answer": 0,
+    "explanation": "$x = \\dfrac{\\pi}{4}$ で符号が変わる。$\\left[\\sin x + \\cos x\\right]_0^{\\pi/4} + \\left[-\\cos x - \\sin x\\right]_{\\pi/4}^{\\pi} = (\\sqrt{2} - 1) + (1 + \\sqrt{2}) = 2\\sqrt{2}$。",
+    "plain": "∫₀^π |sin x - cos x| dx の値はどれか。　① 2√2　② 2　③ 2√2 - 1　④ √2",
+    "unit": "h_integ3",
+    "choices": [
+      "$2\\sqrt{2}$",
+      "$2$",
+      "$2\\sqrt{2} - 1$",
+      "$\\sqrt{2}$"
+    ],
+    "family": "h_integ3|絶対値の積分",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ3-4",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "log の 2 乗の積分",
+    "body": "$\\displaystyle\\int_1^{e} (\\log x)^2\\,dx$ の値はどれか。",
+    "answer": 3,
+    "explanation": "部分積分を 2 回。$\\left[x(\\log x)^2\\right]_1^e - 2\\displaystyle\\int_1^e \\log x\\,dx = e - 2 \\cdot 1 = e - 2$。",
+    "plain": "∫₁^e (log x)² dx の値はどれか。　① 2e - 3　② 1　③ e - 1　④ e - 2",
+    "unit": "h_integ3",
+    "choices": [
+      "$2e - 3$",
+      "$1$",
+      "$e - 1$",
+      "$e - 2$"
+    ],
+    "family": "h_integ3|log の 2 乗の積分",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_diff3-1",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "曲線と直線の距離",
+    "body": "曲線 $y = \\log x$ 上の点と、直線 $y = x$ の距離の最小値はどれか。",
+    "answer": 3,
+    "explanation": "接線の傾きが 1 になるのは $x = 1$、点 $(1, 0)$。直線 $x - y = 0$ との距離は $\\dfrac{|1 - 0|}{\\sqrt{2}} = \\dfrac{\\sqrt{2}}{2}$。",
+    "plain": "曲線 y = log x 上の点と、直線 y = x の距離の最小値はどれか。　① √2　② 1/2　③ 1　④ √2/2",
+    "unit": "h_diff3",
+    "choices": [
+      "$\\sqrt{2}$",
+      "$\\dfrac{1}{2}$",
+      "$1$",
+      "$\\dfrac{\\sqrt{2}}{2}$"
+    ],
+    "family": "h_diff3|曲線と直線の距離",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_quadfunc-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "放物線と直線の距離",
+    "body": "放物線 $y = x^2$ 上の点と、直線 $y = 2x - 5$ の距離の最小値を $d$ とする。$d^2$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 21,
+    "explanation": "接線の傾きが 2 になる点は $(1, 1)$。直線 $2x - y - 5 = 0$ との距離は $\\dfrac{|2 - 1 - 5|}{\\sqrt{5}} = \\dfrac{4}{\\sqrt{5}}$。$d^2 = \\dfrac{16}{5}$。",
+    "plain": "放物線 y = x² 上の点と、直線 y = 2x - 5 の距離の最小値を d とする。d² を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_quadfunc",
+    "family": "h_quadfunc|放物線と直線の距離",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_limit-2",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "テイラー展開の考え方",
+    "body": "$\\displaystyle\\lim_{x \\to 0} \\dfrac{e^x - 1 - x}{x^2}$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 3,
+    "explanation": "ロピタルの定理を 2 回（または $e^x = 1 + x + \\dfrac{x^2}{2} + \\cdots$）で $\\dfrac{1}{2}$。",
+    "plain": "lim_(x → 0) (e^x - 1 - x)/(x²) を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_limit",
+    "family": "h_limit|テイラー展開の考え方",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "絶対値を含む関数の最小値",
+    "body": "$f(a) = \\displaystyle\\int_0^1 |x - a|\\,dx$ の最小値を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 5,
+    "explanation": "$0 \\le a \\le 1$ のとき $f(a) = a^2 - a + \\dfrac{1}{2}$。$a = \\dfrac{1}{2}$ で最小値 $\\dfrac{1}{4}$。範囲の外では $f(a)$ はもっと大きい。",
+    "plain": "f(a) = ∫₀¹ |x - a| dx の最小値を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_integ",
+    "family": "h_integ|絶対値を含む関数の最小値",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_integ3-5",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "y 軸のまわりの回転体",
+    "body": "曲線 $y = \\sin x$（$0 \\le x \\le \\pi$）と $x$ 軸で囲まれた部分を、$y$ 軸のまわりに 1 回転させてできる立体の体積はどれか。",
+    "answer": 1,
+    "explanation": "バウムクーヘン型：$\\displaystyle 2\\pi\\int_0^{\\pi} x\\sin x\\,dx = 2\\pi \\cdot \\pi = 2\\pi^2$。",
+    "plain": "曲線 y = sin x（0 ≦ x ≦ π）と x 軸で囲まれた部分を、y 軸のまわりに 1 回転させてできる立体の体積はどれか。　① 4π　② 2π²　③ (π²)/2　④ π²",
+    "unit": "h_integ3",
+    "choices": [
+      "$4\\pi$",
+      "$2\\pi^2$",
+      "$\\dfrac{\\pi^2}{2}$",
+      "$\\pi^2$"
+    ],
+    "family": "h_integ3|y 軸のまわりの回転体",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_diff3-2",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "解の個数と定数の範囲",
+    "body": "方程式 $e^x = kx$ が、異なる 2 つの実数解をもつような定数 $k$ の範囲はどれか。",
+    "answer": 0,
+    "explanation": "$x \\neq 0$ で $k = \\dfrac{e^x}{x}$。右辺は $x > 0$ で $x = 1$ のとき最小値 $e$、$x < 0$ では負。$k > e$ で 2 つ。",
+    "plain": "方程式 e^x = kx が、異なる 2 つの実数解をもつような定数 k の範囲はどれか。　① k > e　② 0 < k < e　③ k ≧ e　④ k > 1",
+    "unit": "h_diff3",
+    "choices": [
+      "$k > e$",
+      "$0 < k < e$",
+      "$k \\ge e$",
+      "$k > 1$"
+    ],
+    "family": "h_diff3|解の個数と定数の範囲",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_diff3-3",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "最大となる点",
+    "body": "$x > 0$ のとき、関数 $y = x^{\\frac{1}{x}}$ が最大になる $x$ の値はどれか。",
+    "answer": 1,
+    "explanation": "対数をとると $\\log y = \\dfrac{\\log x}{x}$。微分すると $\\dfrac{1 - \\log x}{x^2}$ で、$x = e$ で最大。",
+    "plain": "x > 0 のとき、関数 y = x¹/x が最大になる x の値はどれか。　① 1/e　② e　③ 1　④ 2",
+    "unit": "h_diff3",
+    "choices": [
+      "$\\dfrac{1}{e}$",
+      "$e$",
+      "$1$",
+      "$2$"
+    ],
+    "family": "h_diff3|最大となる点",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_addition-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "積の値",
+    "body": "$\\sin 10^\\circ \\sin 50^\\circ \\sin 70^\\circ$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 9,
+    "explanation": "$\\sin\\theta\\sin(60^\\circ - \\theta)\\sin(60^\\circ + \\theta) = \\dfrac{1}{4}\\sin 3\\theta$ を使う。$\\theta = 10^\\circ$ で $\\dfrac{1}{4}\\sin 30^\\circ = \\dfrac{1}{8}$。",
+    "plain": "sin 10° sin 50° sin 70° を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_addition",
+    "family": "h_addition|積の値",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_complex-1",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "cos の和",
+    "body": "$\\cos\\dfrac{2\\pi}{7} + \\cos\\dfrac{4\\pi}{7} + \\cos\\dfrac{6\\pi}{7}$ の値はどれか。",
+    "answer": 1,
+    "explanation": "$\\omega = \\cos\\dfrac{2\\pi}{7} + i\\sin\\dfrac{2\\pi}{7}$ とすると $1 + \\omega + \\cdots + \\omega^6 = 0$。実部をとると $1 + 2(\\text{求める和}) = 0$。",
+    "plain": "cos(2π)/7 + cos(4π)/7 + cos(6π)/7 の値はどれか。　① 0　② -1/2　③ 1/2　④ -1",
+    "unit": "h_complex",
+    "choices": [
+      "$0$",
+      "$-\\dfrac{1}{2}$",
+      "$\\dfrac{1}{2}$",
+      "$-1$"
+    ],
+    "family": "h_complex|cos の和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_addition-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "tan の積",
+    "body": "$\\tan 20^\\circ \\tan 40^\\circ \\tan 80^\\circ$ の値はどれか。",
+    "answer": 2,
+    "explanation": "$\\tan\\theta\\tan(60^\\circ - \\theta)\\tan(60^\\circ + \\theta) = \\tan 3\\theta$。$\\theta = 20^\\circ$ で $\\tan 60^\\circ = \\sqrt{3}$。",
+    "plain": "tan 20° tan 40° tan 80° の値はどれか。　① 1/8　② √3/3　③ √3　④ 1",
+    "unit": "h_addition",
+    "choices": [
+      "$\\dfrac{1}{8}$",
+      "$\\dfrac{\\sqrt{3}}{3}$",
+      "$\\sqrt{3}$",
+      "$1$"
+    ],
+    "family": "h_addition|tan の積",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_geom-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "角の二等分線の長さ",
+    "body": "三角形 ABC で AB = 7、BC = 8、CA = 5 とする。角 B の二等分線と辺 CA の交点を D とするとき、BD$^2$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 457,
+    "explanation": "AD : DC = 7 : 8。スチュワートの定理（または余弦定理を 2 回）で、BD$^2 = $ AB・BC $- $ AD・DC $= 56 - \\dfrac{7}{3} \\cdot \\dfrac{8}{3} = \\dfrac{448}{9}$。",
+    "plain": "三角形 ABC で AB = 7、BC = 8、CA = 5 とする。角 B の二等分線と辺 CA の交点を D とするとき、BD² を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_geom",
+    "family": "h_geom|角の二等分線の長さ",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_space-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "正四面体の内接球",
+    "body": "1 辺の長さが 6 の正四面体に内接する球の半径を $r$ とする。$r^2$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 5,
+    "explanation": "高さは $6 \\cdot \\sqrt{\\dfrac{2}{3}} = 2\\sqrt{6}$。内接球の中心は高さを 3 : 1 に分けるので、$r = \\dfrac{2\\sqrt{6}}{4} = \\dfrac{\\sqrt{6}}{2}$。$r^2 = \\dfrac{3}{2}$。",
+    "plain": "1 辺の長さが 6 の正四面体に内接する球の半径を r とする。r² を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_space",
+    "family": "h_space|正四面体の内接球",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_space-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "平面までの距離",
+    "body": "空間に 3 点 A$(1, 0, 0)$、B$(0, 1, 0)$、C$(0, 0, 1)$ がある。原点 O から平面 ABC までの距離を $h$ とするとき、$h^2$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 4,
+    "explanation": "平面 ABC は $x + y + z = 1$。距離は $\\dfrac{1}{\\sqrt{3}}$ で、$h^2 = \\dfrac{1}{3}$。",
+    "plain": "空間に 3 点 A(1, 0, 0)、B(0, 1, 0)、C(0, 0, 1) がある。原点 O から平面 ABC までの距離を h とするとき、h² を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_space",
+    "family": "h_space|平面までの距離",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_trig2-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "円の上での最大値",
+    "body": "実数 $x$、$y$ が $x^2 + y^2 = 1$ を満たすとき、$x^2 + 4xy + y^2$ の最大値を答えよ。",
+    "answer": 3,
+    "explanation": "$x = \\cos\\theta$、$y = \\sin\\theta$ とおくと $1 + 2\\sin 2\\theta$。最大値は 3。",
+    "plain": "実数 x、y が x² + y² = 1 を満たすとき、x² + 4xy + y² の最大値を答えよ。",
+    "unit": "h_trig2",
+    "family": "h_trig2|円の上での最大値",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_quadeq-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "対称式と実数条件",
+    "body": "実数 $x$、$y$ が $x^2 + xy + y^2 = 3$ を満たすとき、$x + y$ の最大値を答えよ。",
+    "answer": 2,
+    "explanation": "$x + y = s$、$xy = p$ とおくと $s^2 - p = 3$。$x$、$y$ が実数なので $s^2 - 4p \\ge 0$、$s^2 - 4(s^2 - 3) \\ge 0$、$s^2 \\le 4$。最大値は 2。",
+    "plain": "実数 x、y が x² + xy + y² = 3 を満たすとき、x + y の最大値を答えよ。",
+    "unit": "h_quadeq",
+    "family": "h_quadeq|対称式と実数条件",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_abs-1",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "コーシー・シュワルツの不等式",
+    "body": "正の数 $a$、$b$、$c$ が $a + b + c = 1$ を満たすとき、$\\dfrac{1}{a} + \\dfrac{4}{b} + \\dfrac{9}{c}$ の最小値を答えよ。",
+    "answer": 36,
+    "explanation": "$(a + b + c)\\left(\\dfrac{1}{a} + \\dfrac{4}{b} + \\dfrac{9}{c}\\right) \\ge (1 + 2 + 3)^2 = 36$。等号は $a : b : c = 1 : 2 : 3$。",
+    "plain": "正の数 a、b、c が a + b + c = 1 を満たすとき、1/a + 4/b + 9/c の最小値を答えよ。",
+    "unit": "h_abs",
+    "family": "h_abs|コーシー・シュワルツの不等式",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_complex-2",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "複素数の絶対値の最大",
+    "body": "$|z| = 1$ を満たす複素数 $z$ について、$|z^2 + z + 1|$ の最大値を答えよ。",
+    "answer": 3,
+    "explanation": "$|z^2 + z + 1| = |z|\\,|z + 1 + \\overline{z}| = |1 + 2\\cos\\theta|$（$z = \\cos\\theta + i\\sin\\theta$）。最大値は 3。",
+    "plain": "|z| = 1 を満たす複素数 z について、|z² + z + 1| の最大値を答えよ。",
+    "unit": "h_complex",
+    "family": "h_complex|複素数の絶対値の最大",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_complex-3",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "1 の 5 乗根と積",
+    "body": "$z^5 = 1$ の解のうち、1 以外の 4 つを $\\alpha$、$\\beta$、$\\gamma$、$\\delta$ とする。$(2 - \\alpha)(2 - \\beta)(2 - \\gamma)(2 - \\delta)$ の値を答えよ。",
+    "answer": 31,
+    "explanation": "$z^4 + z^3 + z^2 + z + 1 = (z - \\alpha)(z - \\beta)(z - \\gamma)(z - \\delta)$。$z = 2$ を代入して $16 + 8 + 4 + 2 + 1 = 31$。",
+    "plain": "z⁵ = 1 の解のうち、1 以外の 4 つを α、β、gamma、delta とする。(2 - α)(2 - β)(2 - gamma)(2 - delta) の値を答えよ。",
+    "unit": "h_complex",
+    "family": "h_complex|1 の 5 乗根と積",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_complex-4",
+    "category": "math3c",
+    "difficulty": 4,
+    "title": "円の上の点と原点",
+    "body": "複素数 $z$ が $|z - 3 - 4i| = 1$ を満たすとき、$|z|$ の最大値を答えよ。",
+    "answer": 6,
+    "explanation": "$z$ は中心 $3 + 4i$、半径 1 の円の上。中心と原点の距離は 5 なので、最大値は $5 + 1 = 6$。",
+    "plain": "複素数 z が |z - 3 - 4i| = 1 を満たすとき、|z| の最大値を答えよ。",
+    "unit": "h_complex",
+    "family": "h_complex|円の上の点と原点",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_seq2-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "逆数をとる漸化式",
+    "body": "$a_1 = 1$、$a_{n+1} = \\dfrac{a_n}{1 + a_n}$ で定まる数列の $a_{100}$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 101,
+    "explanation": "逆数をとると $\\dfrac{1}{a_{n+1}} = \\dfrac{1}{a_n} + 1$。$\\dfrac{1}{a_n} = n$ なので $a_{100} = \\dfrac{1}{100}$。",
+    "plain": "a₁ = 1、a_(n+1) = a_n/(1 + a_n) で定まる数列の a₁₀₀ を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_seq2",
+    "family": "h_seq2|逆数をとる漸化式",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_seq-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "有理化して打ち消す和",
+    "body": "$\\displaystyle\\sum_{k=1}^{49} \\dfrac{1}{\\sqrt{k} + \\sqrt{k + 1}}$ の値はどれか。",
+    "answer": 0,
+    "explanation": "有理化すると $\\sqrt{k + 1} - \\sqrt{k}$。打ち消し合って $\\sqrt{50} - 1 = 5\\sqrt{2} - 1$。",
+    "plain": "Σ_(k=1)⁴⁹ 1/(√k + √(k + 1)) の値はどれか。　① 5√2 - 1　② 7　③ 5√2　④ 5√2 + 1",
+    "unit": "h_seq",
+    "choices": [
+      "$5\\sqrt{2} - 1$",
+      "$7$",
+      "$5\\sqrt{2}$",
+      "$5\\sqrt{2} + 1$"
+    ],
+    "family": "h_seq|有理化して打ち消す和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_seq2-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "2 のべきを含む漸化式",
+    "body": "$a_1 = 1$、$a_{n+1} = 2a_n + 2^n$ で定まる数列の $a_{10}$ を答えよ。",
+    "answer": 5120,
+    "explanation": "両辺を $2^{n+1}$ で割ると $\\dfrac{a_{n+1}}{2^{n+1}} = \\dfrac{a_n}{2^n} + \\dfrac{1}{2}$。$\\dfrac{a_n}{2^n} = \\dfrac{n}{2}$ より $a_n = n \\cdot 2^{n-1}$。$a_{10} = 5120$。",
+    "plain": "a₁ = 1、a_(n+1) = 2a_n + 2^n で定まる数列の a₁₀ を答えよ。",
+    "unit": "h_seq2",
+    "family": "h_seq2|2 のべきを含む漸化式",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_seq-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "群数列の項",
+    "body": "数列 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, …（$k$ が $k$ 個並ぶ）の第 100 項を答えよ。",
+    "answer": 14,
+    "explanation": "$k$ までで $\\dfrac{k(k + 1)}{2}$ 項。$k = 13$ で 91 項、$k = 14$ で 105 項なので、第 100 項は 14。",
+    "plain": "数列 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, …（k が k 個並ぶ）の第 100 項を答えよ。",
+    "unit": "h_seq",
+    "family": "h_seq|群数列の項",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_seq-3",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "群数列の和",
+    "body": "数列 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, …（$k$ が $k$ 個並ぶ）の、第 1 項から第 100 項までの和を答えよ。",
+    "answer": 945,
+    "explanation": "13 までの和は $\\sum k^2 = 819$。残りの 9 項は 14 で 126。合計 945。",
+    "plain": "数列 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, …（k が k 個並ぶ）の、第 1 項から第 100 項までの和を答えよ。",
+    "unit": "h_seq",
+    "family": "h_seq|群数列の和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_exp-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "対数の積",
+    "body": "$\\log_2 3 \\cdot \\log_3 4 \\cdot \\log_4 5 \\cdots \\log_{63} 64$ の値を答えよ。",
+    "answer": 6,
+    "explanation": "底の変換で $\\dfrac{\\log 3}{\\log 2} \\cdot \\dfrac{\\log 4}{\\log 3} \\cdots \\dfrac{\\log 64}{\\log 63} = \\dfrac{\\log 64}{\\log 2} = 6$。",
+    "plain": "log₂ 3 · log₃ 4 · log₄ 5 … log₆₃ 64 の値を答えよ。",
+    "unit": "h_exp",
+    "family": "h_exp|対数の積",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_exp-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "最高位の数字",
+    "body": "$3^{100}$ の最高位の数字を答えよ（$\\log_{10} 2 = 0.3010$、$\\log_{10} 3 = 0.4771$ とする）。",
+    "answer": 5,
+    "explanation": "$\\log_{10} 3^{100} = 47.71$。$\\log_{10} 5 = 0.6990 < 0.71 < \\log_{10} 6 = 0.7781$ なので、最高位は 5。",
+    "plain": "3¹⁰⁰ の最高位の数字を答えよ（log₁₀ 2 = 0.3010、log₁₀ 3 = 0.4771 とする）。",
+    "unit": "h_exp",
+    "family": "h_exp|最高位の数字",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_cplx-1",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "4 次方程式の実数解",
+    "body": "方程式 $x^4 - 4x^3 + 6x^2 - 4x - 15 = 0$ の実数解の和を答えよ。",
+    "answer": 2,
+    "explanation": "左辺は $(x - 1)^4 - 16$。$(x - 1)^2 = 4$ より実数解は $x = 3, -1$（$(x - 1)^2 = -4$ は虚数解）。和は 2。",
+    "plain": "方程式 x⁴ - 4x³ + 6x² - 4x - 15 = 0 の実数解の和を答えよ。",
+    "unit": "h_cplx",
+    "family": "h_cplx|4 次方程式の実数解",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_cplx-2",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "x + 1/x から求める",
+    "body": "$x + \\dfrac{1}{x} = 3$ のとき、$x^5 + \\dfrac{1}{x^5}$ の値を答えよ。",
+    "answer": 123,
+    "explanation": "$x^2 + \\dfrac{1}{x^2} = 7$、$x^3 + \\dfrac{1}{x^3} = 18$。$\\left(x^2 + \\dfrac{1}{x^2}\\right)\\left(x^3 + \\dfrac{1}{x^3}\\right) = x^5 + \\dfrac{1}{x^5} + x + \\dfrac{1}{x}$ より $126 - 3 = 123$。",
+    "plain": "x + 1/x = 3 のとき、x⁵ + 1/(x⁵) の値を答えよ。",
+    "unit": "h_cplx",
+    "family": "h_cplx|x + 1/x から求める",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_cplx-3",
+    "category": "math2b",
+    "difficulty": 4,
+    "title": "解の 5 乗の和",
+    "body": "$x^3 - 3x - 1 = 0$ の 3 つの解を $\\alpha$、$\\beta$、$\\gamma$ とする。$\\alpha^5 + \\beta^5 + \\gamma^5$ の値を答えよ。",
+    "answer": 15,
+    "explanation": "$s_k = \\alpha^k + \\beta^k + \\gamma^k$ とすると $s_{k+3} = 3s_{k+1} + s_k$。$s_0 = 3$、$s_1 = 0$、$s_2 = 6$ から $s_3 = 3$、$s_4 = 18$、$s_5 = 15$。",
+    "plain": "x³ - 3x - 1 = 0 の 3 つの解を α、β、gamma とする。α⁵ + β⁵ + gamma⁵ の値を答えよ。",
+    "unit": "h_cplx",
+    "family": "h_cplx|解の 5 乗の和",
+    "rate": 2.0
+  },
+  {
+    "id": "x8-h_quadeq-2",
+    "category": "math1a",
+    "difficulty": 4,
+    "title": "解の配置（範囲）",
+    "body": "二次方程式 $x^2 - 2ax + a + 2 = 0$ が、$1 < x < 4$ の範囲に異なる 2 つの実数解をもつような $a$ の範囲は $2 < a < c$ となる。$c$ を既約分数 $\\dfrac{p}{q}$ で表したとき、$p + q$ を答えよ。",
+    "answer": 25,
+    "explanation": "$f(x) = x^2 - 2ax + a + 2$ として、判別式 $a^2 - a - 2 > 0$、軸 $1 < a < 4$、$f(1) = 3 - a > 0$、$f(4) = 18 - 7a > 0$。まとめて $2 < a < \\dfrac{18}{7}$。",
+    "plain": "二次方程式 x² - 2ax + a + 2 = 0 が、1 < x < 4 の範囲に異なる 2 つの実数解をもつような a の範囲は 2 < a < c となる。c を既約分数 p/q で表したとき、p + q を答えよ。",
+    "unit": "h_quadeq",
+    "family": "h_quadeq|解の配置（範囲）",
+    "rate": 2.0
   }
 ]
