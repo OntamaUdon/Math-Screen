@@ -2,8 +2,9 @@ import SwiftUI
 
 /// アイソメトリックの棒グラフ。手前の1列が今週（月〜日）、過去の週は奥（右上）へ1週ずつ並ぶ。
 /// 今日の棒はコーラル、今週は濃い緑、過去の週は薄い緑。
-/// 棒の高さは固定の目盛り（`fullAt` 問で満タン）。1問ごとに同じだけ伸びる。
-/// 色は1問ごとに変わり、10問で最も華やかになる（水色→緑→金→橙→桃→紫→藍→赤→銀→黒金）。色の見方は、グラフの下に色だけの凡例を並べる。
+/// 10進法のように表す：棒（直方体）が1の位、てっぺんの星が10の位。
+/// 棒の高さと色は1の位（1〜9問）で決まり、10問ごとに星が1つ増える（0〜9問は星なし）。例：23問 → 3問ぶんの棒と、星2つ。
+/// 色は1問ごとに変わる（水色→緑→金→橙→桃→紫→藍→赤→銀）。色の見方は、グラフの下に色だけの凡例を並べる。
 /// 今週（手前の列）の棒には、実際の正解数を数字で添える。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
@@ -14,7 +15,7 @@ struct IsoBarChart: View {
     private let dayLabels = ["月", "火", "水", "木", "金", "土", "日"]
     private let gap: CGFloat = 1.15        // 棒の間隔（横）
     private let rowGap: CGFloat = 1.9      // 週と週の間隔（奥行き）
-    private let fullAt = 10                // この問数で棒が満タン（1日10問まで評価する）
+    private let fullAt = 9                 // 1の位の最大（9問）で棒が満タン
 
     private var rows: Int { max(weeks.count, 1) }
     private var height: CGFloat { rows == 1 ? 190 : 210 + 28 * CGFloat(rows - 1) }
@@ -33,12 +34,13 @@ struct IsoBarChart: View {
     /// 色の凡例。1日の正解数が増えるほど、右の色になる（数字は付けない）。
     private var legend: some View {
         HStack(spacing: 3) {
-            ForEach(1...10, id: \.self) { tier in
+            ForEach(1...9, id: \.self) { tier in
                 RoundedRectangle(cornerRadius: 3, style: .continuous)
                     .fill(Self.tierColors(tier).1)
                     .frame(height: 10)
                     .overlay(RoundedRectangle(cornerRadius: 3, style: .continuous).stroke(Self.tierColors(tier).2.opacity(0.5), lineWidth: 1))
             }
+            Text("✦ = 10").font(Theme.font(10, .bold)).foregroundStyle(Theme.inkSoft).fixedSize()
         }
         .accessibilityHidden(true)
     }
@@ -107,13 +109,14 @@ struct IsoBarChart: View {
                 guard let value else { continue }
                 let y = -CGFloat(k) * rowGap - 0.3
                 let isToday = k == 0 && i == todayIndex
-                let tier = min(value, 10)          // 1問ごとに色が変わり、10問で最も華やか
+                let tier = value % 10              // 1の位：棒の高さと色
+                let stars = value / 10             // 10の位：星の数
                 let colors: (Color, Color, Color) =
                     tier >= 1 ? Self.tierColors(tier)
                     : isToday ? (Theme.coralLight, Theme.coral, Theme.coralDeep)
                     : k == 0 ? (Theme.tealLight, Theme.teal, Theme.tealDeep)
                     : (Color(hex: 0xBFEFE8), Color(hex: 0x8ADBD0), Color(hex: 0x5EBFB2))
-                let h = max(0.12, min(CGFloat(value) / full, 1) * maxBar)
+                let h = max(0.12, min(CGFloat(tier) / full, 1) * maxBar)
                 items.append((CGFloat(i) * gap + 0.1 + y + 10, {
                     let bx = CGFloat(i) * gap + 0.1
                     box(Box(x: bx, y: y, z: 0.2, w: 0.8, d: 0.8, h: h,
@@ -122,15 +125,16 @@ struct IsoBarChart: View {
                         face([(bx + 0.14, y + 0.14, 0.2 + h), (bx + 0.5, y + 0.14, 0.2 + h),
                               (bx + 0.5, y + 0.3, 0.2 + h), (bx + 0.14, y + 0.3, 0.2 + h)], .white.opacity(0.55))
                     }
-                    if tier >= 8 {          // 8問〜：てっぺんに星
+                    if stars > 0 {          // 10問ごとに星1つ（多いときは「✦×数」）
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
-                        ctx.draw(Text("✦").font(.system(size: 13, weight: .bold)).foregroundColor(colors.1),
+                        let mark = stars <= 3 ? String(repeating: "✦", count: stars) : "✦×\(stars)"
+                        ctx.draw(Text(mark).font(.system(size: 12, weight: .bold)).foregroundColor(Color(hex: 0xE0A800)),
                                  at: CGPoint(x: t.x, y: t.y - 9))
                     }
                     if k == 0 && value > 0 && i != todayIndex {         // 今週の棒には、実際の正解数を添える（今日の棒は「今日 N」で示す）
                         let t = p(bx + 0.4, y + 0.4, 0.2 + h)
                         ctx.draw(Text("\(value)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
-                                 at: CGPoint(x: t.x, y: t.y - (tier >= 8 ? 22 : 10)))
+                                 at: CGPoint(x: t.x, y: t.y - (stars > 0 ? 22 : 10)))
                     }
                 }))
             }
@@ -150,10 +154,10 @@ struct IsoBarChart: View {
         }
         // 今日の数
         if let ti = todayIndex, let v = weeks[0][ti] {
-            let h = max(0.12, min(CGFloat(v) / full, 1) * maxBar)
+            let h = max(0.12, min(CGFloat(v % 10) / full, 1) * maxBar)
             let top = p(CGFloat(ti) * gap + 0.5, -0.3 + 0.4, 0.2 + h)
             ctx.draw(Text("今日 \(v)").font(Theme.font(11, .heavy)).foregroundColor(Theme.ink),
-                     at: CGPoint(x: top.x, y: top.y - (v >= 8 ? 26 : 12)))
+                     at: CGPoint(x: top.x, y: top.y - (v >= 10 ? 26 : 12)))
         }
     }
 }
