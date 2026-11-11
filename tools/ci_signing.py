@@ -69,22 +69,15 @@ def setup():
     # 前回までの CI 用の証明書を片づける（配布用の証明書は数に上限があり、残っていると新しく作れない）。
     # 注意：審査に出したビルドの証明書を、審査が終わる前に消すと、署名が無効と判断されることがある。
     #       審査中は、新しいビルドを作らないこと。公開済みのアプリは Apple が署名し直すので、消しても影響しない。
-    st, res = call("GET", "/certificates?" + urllib.parse.urlencode({"filter[certificateType]": "IOS_DISTRIBUTION", "limit": 50}))
-    if st == 200:
-        mine = []
+    # Apple が証明書の名前を付け直すので、CI で作ったものかは名前で見分けられない。
+    # このアカウントの配布用の証明書は、すべて CI が作ったもの（Mac で作ったものはない。2026年11月にご本人に確認済み）なので、すべて片づける。
+    for ctype in ("IOS_DISTRIBUTION", "DISTRIBUTION"):
+        st, res = call("GET", "/certificates?" + urllib.parse.urlencode({"filter[certificateType]": ctype, "limit": 50}))
+        if st != 200:
+            continue
         for c in res.get("data", []):
-            try:
-                der = base64.b64decode(c["attributes"]["certificateContent"])
-                out = subprocess.run([OPENSSL, "x509", "-inform", "der", "-noout", "-subject", "-enddate"],
-                                     input=der, capture_output=True, check=True).stdout.decode()
-            except Exception:
-                continue
-            if "QLock CI" in out:
-                mine.append((c["id"], c["attributes"].get("expirationDate") or "", out))
-        mine.sort(key=lambda x: x[1])
-        for cid, _, _ in mine:
-            st2, _ = call("DELETE", f"/certificates/{cid}")
-            print("古い CI 用の証明書を削除:", cid, st2)
+            st2, _ = call("DELETE", f"/certificates/{c['id']}")
+            print("前の配布用の証明書を削除:", c["id"], ctype, c["attributes"].get("displayName"), c["attributes"].get("expirationDate"), st2)
 
     # 1. 鍵と CSR
     key, csr = os.path.join(TEMP, "ci.key"), os.path.join(TEMP, "ci.csr")
