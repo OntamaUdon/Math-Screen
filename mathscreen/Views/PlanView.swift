@@ -62,13 +62,14 @@ struct PlanView: View {
             Text("無料で使えるもの").font(Theme.font(14, .bold)).foregroundStyle(Theme.inkSoft)
             VStack(alignment: .leading, spacing: 6) {
                 feature("アプリロック（使いすぎたら問題が出て、解くまでロック）")
-                feature("数学の問題（小学算数〜数学III・C）")
+                feature("数学の問題（小学算数〜数学III・C。ロックでは、数学からおまかせで出ます）")
                 feature("問題集と記録")
             }
             Divider()
             Text("プランで使えるもの").font(Theme.font(14, .bold)).foregroundStyle(Theme.inkSoft)
             VStack(alignment: .leading, spacing: 6) {
                 feature("英語・理科・社会・国語の問題（問題集でも、ロックの問題でも）")
+                feature("ロックで出す問題の範囲（教科・単元）を選ぶ")
                 feature("解いている問題を変える「問題を変える」")
                 feature("保護者用設定（ルールや設定を、パスコードで守る）")
             }

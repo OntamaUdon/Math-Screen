@@ -85,16 +85,17 @@ struct RuleEditorView: View {
 
                 section("出題する範囲") {
                     VStack(alignment: .leading, spacing: 10) {
-                        Button { showRangeMap = true } label: {
+                        Button { if model.isPremium { showRangeMap = true } else { model.showPlan = true } } label: {
                             HStack(spacing: 10) {
                                 Image(systemName: "point.3.connected.trianglepath.dotted").font(.system(size: 22)).foregroundStyle(Theme.tealDeep)
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text(rangeSummary).font(Theme.font(15, .bold)).foregroundStyle(Theme.ink)
                                         .multilineTextAlignment(.leading)
-                                    Text("マップで教科・単元を選ぶ").font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
+                                    Text(model.isPremium ? "マップで教科・単元を選ぶ" : "出題範囲を選ぶのは、解くロックプランで使えます（いまは、数学からおまかせで出ます）")
+                                        .font(Theme.font(12)).foregroundStyle(Theme.inkSoft)
                                 }
                                 Spacer()
-                                Image(systemName: "chevron.right").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
+                                Image(systemName: model.isPremium ? "chevron.right" : "lock.fill").font(.system(size: 13, weight: .semibold)).foregroundStyle(Theme.inkFaint)
                             }
                             .card(padding: 14)
                         }
