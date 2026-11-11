@@ -100,6 +100,13 @@ struct ProblemSolverView: View {
                 .font(Theme.font(13, .semibold))
                 .foregroundStyle(Theme.inkSoft)
             MathText(source: problem.body, fontSize: 19, spoken: problem.plain)
+            if let fig = problem.figureImage {
+                Image(uiImage: fig)
+                    .resizable().scaledToFit()
+                    .frame(maxWidth: .infinity, maxHeight: 260)
+                    .background(Color.white, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    .accessibilityLabel("問題の図")
+            }
             Text(problem.isChoice ? "正しいものを選んで「こたえる」を押す" : "答えを入力して「こたえる」を押す")
                 .font(Theme.font(12))
                 .foregroundStyle(Theme.inkFaint)

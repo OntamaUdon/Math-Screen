@@ -5,7 +5,8 @@
     "stage": "小学",
     "name": "四則計算",
     "order": 0,
-    "prereqs": []
+    "prereqs": [],
+    "group": "数と計算"
   },
   {
     "id": "e_decfrac",
@@ -15,7 +16,8 @@
     "order": 1,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "数と計算"
   },
   {
     "id": "e_divmult",
@@ -25,7 +27,8 @@
     "order": 2,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "数と計算"
   },
   {
     "id": "e_ratio",
@@ -35,7 +38,8 @@
     "order": 3,
     "prereqs": [
       "e_decfrac"
-    ]
+    ],
+    "group": "変化と関係・データ"
   },
   {
     "id": "e_speed",
@@ -45,7 +49,8 @@
     "order": 4,
     "prereqs": [
       "e_ratio"
-    ]
+    ],
+    "group": "量と図形"
   },
   {
     "id": "e_geom",
@@ -55,7 +60,8 @@
     "order": 5,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "量と図形"
   },
   {
     "id": "e_count",
@@ -65,7 +71,8 @@
     "order": 6,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "変化と関係・データ"
   },
   {
     "id": "e_avg",
@@ -75,7 +82,8 @@
     "order": 7,
     "prereqs": [
       "e_calc"
-    ]
+    ],
+    "group": "変化と関係・データ"
   },
   {
     "id": "m_signed",
@@ -666,11 +674,198 @@
     "group": "数学II"
   },
   {
+    "id": "e_round",
+    "subject": "math",
+    "stage": "小学",
+    "name": "概数と見積もり",
+    "order": 61,
+    "prereqs": [
+      "e_calc"
+    ],
+    "group": "数と計算"
+  },
+  {
+    "id": "e_unit",
+    "subject": "math",
+    "stage": "小学",
+    "name": "単位量あたりの大きさ",
+    "order": 62,
+    "prereqs": [
+      "e_decfrac"
+    ],
+    "group": "量と図形"
+  },
+  {
+    "id": "e_shape",
+    "subject": "math",
+    "stage": "小学",
+    "name": "合同・対称・拡大図",
+    "order": 63,
+    "prereqs": [
+      "e_geom"
+    ],
+    "group": "量と図形"
+  },
+  {
+    "id": "m_parallel",
+    "subject": "math",
+    "stage": "中学",
+    "name": "平行線と線分の比",
+    "order": 64,
+    "prereqs": [
+      "m_similar"
+    ],
+    "group": "図形"
+  },
+  {
+    "id": "m_boxplot",
+    "subject": "math",
+    "stage": "中学",
+    "name": "箱ひげ図と標本調査",
+    "order": 65,
+    "prereqs": [
+      "m_data"
+    ],
+    "group": "データと確率"
+  },
+  {
+    "id": "h_sine",
+    "subject": "math",
+    "stage": "高校",
+    "name": "正弦定理と三角形の面積",
+    "order": 66,
+    "prereqs": [
+      "h_trig"
+    ],
+    "group": "数学I・A"
+  },
+  {
+    "id": "h_center",
+    "subject": "math",
+    "stage": "高校",
+    "name": "三角形の五心とチェバ・メネラウス",
+    "order": 67,
+    "prereqs": [
+      "h_geom"
+    ],
+    "group": "数学I・A"
+  },
+  {
+    "id": "h_condprob",
+    "subject": "math",
+    "stage": "高校",
+    "name": "条件付き確率",
+    "order": 68,
+    "prereqs": [
+      "h_prob"
+    ],
+    "group": "数学I・A"
+  },
+  {
+    "id": "h_nbase",
+    "subject": "math",
+    "stage": "高校",
+    "name": "n 進法",
+    "order": 69,
+    "prereqs": [
+      "h_nt"
+    ],
+    "group": "数学I・A"
+  },
+  {
+    "id": "h_remainder",
+    "subject": "math",
+    "stage": "高校",
+    "name": "剰余の定理と解と係数の関係",
+    "order": 70,
+    "prereqs": [
+      "h_cplx"
+    ],
+    "group": "数学II"
+  },
+  {
+    "id": "h_line",
+    "subject": "math",
+    "stage": "高校",
+    "name": "点と直線・軌跡と領域",
+    "order": 71,
+    "prereqs": [
+      "h_circle"
+    ],
+    "group": "数学II"
+  },
+  {
+    "id": "h_compose",
+    "subject": "math",
+    "stage": "高校",
+    "name": "三角関数の合成",
+    "order": 72,
+    "prereqs": [
+      "h_addition"
+    ],
+    "group": "数学II"
+  },
+  {
+    "id": "h_divpt",
+    "subject": "math",
+    "stage": "高校",
+    "name": "内分点・外分点とベクトル",
+    "order": 73,
+    "prereqs": [
+      "h_vec"
+    ],
+    "group": "数学B・C"
+  },
+  {
+    "id": "h_statinf",
+    "subject": "math",
+    "stage": "高校",
+    "name": "確率分布と統計的な推測",
+    "order": 74,
+    "prereqs": [
+      "h_prob"
+    ],
+    "group": "数学B・C"
+  },
+  {
+    "id": "h_curve",
+    "subject": "math",
+    "stage": "高校",
+    "name": "媒介変数と極座標",
+    "order": 75,
+    "prereqs": [
+      "h_conic"
+    ],
+    "group": "数学B・C"
+  },
+  {
+    "id": "h_func3",
+    "subject": "math",
+    "stage": "高校",
+    "name": "いろいろな関数（分数・無理・逆関数）",
+    "order": 76,
+    "prereqs": [
+      "h_quadfunc"
+    ],
+    "group": "数学III"
+  },
+  {
+    "id": "h_graph",
+    "subject": "math",
+    "stage": "高校",
+    "name": "グラフの凹凸と漸近線",
+    "order": 77,
+    "prereqs": [
+      "h_diff3"
+    ],
+    "group": "数学III"
+  },
+  {
     "id": "w_basic",
     "subject": "english",
     "stage": "中学",
     "name": "基本の英単語",
-    "order": 61,
+    "order": 78,
     "prereqs": [],
     "group": "単語・語形"
   },
@@ -679,7 +874,7 @@
     "subject": "english",
     "stage": "高校",
     "name": "標準の英単語",
-    "order": 62,
+    "order": 79,
     "prereqs": [
       "w_basic"
     ]
@@ -689,7 +884,7 @@
     "subject": "english",
     "stage": "高校",
     "name": "上級の英単語",
-    "order": 63,
+    "order": 80,
     "prereqs": [
       "w_std"
     ]
@@ -699,7 +894,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "英語の文法",
-    "order": 64,
+    "order": 81,
     "prereqs": [],
     "group": "文法"
   },
@@ -708,7 +903,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "英文の和訳",
-    "order": 65,
+    "order": 82,
     "prereqs": [
       "g_grammar"
     ],
@@ -719,7 +914,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "英文の並べかえ",
-    "order": 66,
+    "order": 83,
     "prereqs": [
       "g_grammar"
     ],
@@ -730,7 +925,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "助動詞",
-    "order": 67,
+    "order": 84,
     "prereqs": [
       "g_grammar"
     ],
@@ -741,7 +936,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "不定詞・動名詞",
-    "order": 68,
+    "order": 85,
     "prereqs": [
       "g_grammar"
     ],
@@ -752,7 +947,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "受け身",
-    "order": 69,
+    "order": 86,
     "prereqs": [
       "g_grammar",
       "g_irreg"
@@ -764,7 +959,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "現在完了",
-    "order": 70,
+    "order": 87,
     "prereqs": [
       "g_irreg"
     ],
@@ -775,7 +970,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "関係代名詞",
-    "order": 71,
+    "order": 88,
     "prereqs": [
       "g_grammar"
     ],
@@ -786,7 +981,7 @@
     "subject": "english",
     "stage": "高校",
     "name": "仮定法",
-    "order": 72,
+    "order": 89,
     "prereqs": [
       "g_modal",
       "g_perfect"
@@ -797,7 +992,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "不規則動詞",
-    "order": 73,
+    "order": 90,
     "prereqs": [
       "g_grammar"
     ],
@@ -808,7 +1003,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "前置詞と冠詞",
-    "order": 74,
+    "order": 91,
     "prereqs": [
       "g_grammar"
     ],
@@ -819,7 +1014,7 @@
     "subject": "english",
     "stage": "中学",
     "name": "語形変化",
-    "order": 75,
+    "order": 92,
     "prereqs": [
       "g_grammar"
     ],
@@ -830,7 +1025,7 @@
     "subject": "english",
     "stage": "高校",
     "name": "同意語・反意語",
-    "order": 76,
+    "order": 93,
     "prereqs": [
       "w_basic"
     ]
@@ -840,7 +1035,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "漢字の読み",
-    "order": 77,
+    "order": 94,
     "prereqs": []
   },
   {
@@ -848,7 +1043,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "漢字の書き取り",
-    "order": 78,
+    "order": 95,
     "prereqs": []
   },
   {
@@ -856,7 +1051,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "四字熟語",
-    "order": 79,
+    "order": 96,
     "prereqs": []
   },
   {
@@ -864,7 +1059,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "ことわざ・慣用句",
-    "order": 80,
+    "order": 97,
     "prereqs": []
   },
   {
@@ -872,7 +1067,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "国語の文法",
-    "order": 81,
+    "order": 98,
     "prereqs": []
   },
   {
@@ -880,7 +1075,7 @@
     "subject": "japanese",
     "stage": "中学",
     "name": "敬語",
-    "order": 82,
+    "order": 99,
     "prereqs": [
       "j_grammar"
     ]
@@ -890,7 +1085,7 @@
     "subject": "japanese",
     "stage": "高校",
     "name": "古文単語",
-    "order": 83,
+    "order": 100,
     "prereqs": [
       "j_grammar"
     ]
@@ -900,7 +1095,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "地球と地図",
-    "order": 84,
+    "order": 101,
     "prereqs": [],
     "group": "地理"
   },
@@ -909,7 +1104,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "世界の国々",
-    "order": 85,
+    "order": 102,
     "prereqs": [
       "s_geo_map"
     ],
@@ -920,7 +1115,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "日本の地理",
-    "order": 86,
+    "order": 103,
     "prereqs": [
       "s_geo_map"
     ],
@@ -931,7 +1126,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "古代の歴史",
-    "order": 87,
+    "order": 104,
     "prereqs": [],
     "group": "歴史"
   },
@@ -940,7 +1135,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "中世の歴史",
-    "order": 88,
+    "order": 105,
     "prereqs": [
       "s_hist_ancient"
     ],
@@ -951,7 +1146,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "近世の歴史",
-    "order": 89,
+    "order": 106,
     "prereqs": [
       "s_hist_medieval"
     ],
@@ -962,7 +1157,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "近代の歴史",
-    "order": 90,
+    "order": 107,
     "prereqs": [
       "s_hist_early"
     ],
@@ -973,7 +1168,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "現代の歴史",
-    "order": 91,
+    "order": 108,
     "prereqs": [
       "s_hist_modern"
     ],
@@ -984,7 +1179,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "アジア州",
-    "order": 92,
+    "order": 109,
     "prereqs": [
       "s_geo_world"
     ],
@@ -995,7 +1190,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "ヨーロッパ・アフリカ",
-    "order": 93,
+    "order": 110,
     "prereqs": [
       "s_geo_world"
     ],
@@ -1006,7 +1201,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "南北アメリカ・オセアニア",
-    "order": 94,
+    "order": 111,
     "prereqs": [
       "s_geo_world"
     ],
@@ -1017,7 +1212,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "日本の諸地域",
-    "order": 95,
+    "order": 112,
     "prereqs": [
       "s_geo_japan"
     ],
@@ -1028,7 +1223,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "日本の産業",
-    "order": 96,
+    "order": 113,
     "prereqs": [
       "s_geo_japan"
     ],
@@ -1039,7 +1234,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "明治維新",
-    "order": 97,
+    "order": 114,
     "prereqs": [
       "s_hist_edo"
     ],
@@ -1050,7 +1245,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "日本の気候区分",
-    "order": 98,
+    "order": 115,
     "prereqs": [
       "s_geo_japan"
     ],
@@ -1061,7 +1256,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "貿易と為替・金融",
-    "order": 99,
+    "order": 116,
     "prereqs": [
       "s_civ_econ"
     ],
@@ -1072,7 +1267,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "江戸時代の文化と政治",
-    "order": 100,
+    "order": 117,
     "prereqs": [
       "s_hist_early"
     ],
@@ -1083,7 +1278,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "戦争と民主化",
-    "order": 101,
+    "order": 118,
     "prereqs": [
       "s_hist_modern"
     ],
@@ -1094,7 +1289,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "地方自治",
-    "order": 102,
+    "order": 119,
     "prereqs": [
       "s_civ_gov"
     ],
@@ -1105,7 +1300,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "憲法と人権",
-    "order": 103,
+    "order": 120,
     "prereqs": [],
     "group": "公民"
   },
@@ -1114,7 +1309,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "政治のしくみ",
-    "order": 104,
+    "order": 121,
     "prereqs": [
       "s_civ_const"
     ],
@@ -1125,7 +1320,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "経済のしくみ",
-    "order": 105,
+    "order": 122,
     "prereqs": [
       "s_civ_gov"
     ],
@@ -1136,7 +1331,7 @@
     "subject": "social",
     "stage": "中学",
     "name": "国際社会",
-    "order": 106,
+    "order": 123,
     "prereqs": [
       "s_civ_gov"
     ],
@@ -1147,7 +1342,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "細胞と植物",
-    "order": 107,
+    "order": 124,
     "prereqs": [],
     "group": "生物"
   },
@@ -1156,7 +1351,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "人体のつくり",
-    "order": 108,
+    "order": 125,
     "prereqs": [
       "b_cell_plant"
     ],
@@ -1167,7 +1362,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "生態系",
-    "order": 109,
+    "order": 126,
     "prereqs": [
       "b_cell_plant"
     ],
@@ -1178,7 +1373,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "遺伝と進化",
-    "order": 110,
+    "order": 127,
     "prereqs": [
       "b_cell_plant"
     ],
@@ -1189,7 +1384,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "動物の分類",
-    "order": 111,
+    "order": 128,
     "prereqs": [],
     "group": "生物"
   },
@@ -1198,7 +1393,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "イオンと電池",
-    "order": 112,
+    "order": 129,
     "prereqs": [
       "c_atom"
     ],
@@ -1209,7 +1404,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "エネルギー",
-    "order": 113,
+    "order": 130,
     "prereqs": [
       "p_elec"
     ],
@@ -1220,7 +1415,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "化学変化と質量",
-    "order": 114,
+    "order": 131,
     "prereqs": [
       "c_reaction"
     ],
@@ -1231,7 +1426,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "酸化と還元",
-    "order": 115,
+    "order": 132,
     "prereqs": [
       "c_reaction"
     ],
@@ -1242,7 +1437,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "力のつり合い",
-    "order": 116,
+    "order": 133,
     "prereqs": [
       "p_force"
     ],
@@ -1253,7 +1448,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "電流と磁界",
-    "order": 117,
+    "order": 134,
     "prereqs": [
       "p_elec"
     ],
@@ -1264,7 +1459,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "前線と気団",
-    "order": 118,
+    "order": 135,
     "prereqs": [
       "e_weather"
     ],
@@ -1275,7 +1470,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "光合成と呼吸",
-    "order": 119,
+    "order": 136,
     "prereqs": [
       "b_cell_plant"
     ],
@@ -1286,7 +1481,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "消化と吸収",
-    "order": 120,
+    "order": 137,
     "prereqs": [
       "b_human"
     ],
@@ -1297,7 +1492,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "運動の記録",
-    "order": 121,
+    "order": 138,
     "prereqs": [
       "p_motion"
     ],
@@ -1308,7 +1503,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "物質と原子",
-    "order": 122,
+    "order": 139,
     "prereqs": [],
     "group": "化学"
   },
@@ -1317,7 +1512,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "物質の性質",
-    "order": 123,
+    "order": 140,
     "prereqs": [],
     "group": "化学"
   },
@@ -1326,7 +1521,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "水溶液と酸・アルカリ",
-    "order": 124,
+    "order": 141,
     "prereqs": [
       "c_atom"
     ],
@@ -1337,7 +1532,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "化学変化",
-    "order": 125,
+    "order": 142,
     "prereqs": [
       "c_atom"
     ],
@@ -1348,7 +1543,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "電気",
-    "order": 126,
+    "order": 143,
     "prereqs": [],
     "group": "物理"
   },
@@ -1357,7 +1552,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "力と圧力",
-    "order": 127,
+    "order": 144,
     "prereqs": [],
     "group": "物理"
   },
@@ -1366,7 +1561,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "運動と仕事",
-    "order": 128,
+    "order": 145,
     "prereqs": [
       "p_force"
     ],
@@ -1377,7 +1572,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "光と音",
-    "order": 129,
+    "order": 146,
     "prereqs": [],
     "group": "物理"
   },
@@ -1386,7 +1581,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "天体",
-    "order": 130,
+    "order": 147,
     "prereqs": [],
     "group": "地学"
   },
@@ -1395,7 +1590,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "大地の変化",
-    "order": 131,
+    "order": 148,
     "prereqs": [],
     "group": "地学"
   },
@@ -1404,7 +1599,7 @@
     "subject": "science",
     "stage": "中学",
     "name": "天気",
-    "order": 132,
+    "order": 149,
     "prereqs": [],
     "group": "地学"
   },
@@ -1413,7 +1608,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "等加速度運動",
-    "order": 133,
+    "order": 150,
     "prereqs": [
       "m_func2"
     ],
@@ -1424,7 +1619,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "運動の法則",
-    "order": 134,
+    "order": 151,
     "prereqs": [
       "hp_motion"
     ],
@@ -1435,7 +1630,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "仕事とエネルギー",
-    "order": 135,
+    "order": 152,
     "prereqs": [
       "hp_force"
     ],
@@ -1446,7 +1641,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "波と音",
-    "order": 136,
+    "order": 153,
     "prereqs": [
       "hp_motion"
     ],
@@ -1457,7 +1652,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "電気回路",
-    "order": 137,
+    "order": 154,
     "prereqs": [
       "p_elec"
     ],
@@ -1468,7 +1663,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "物質量と化学反応式",
-    "order": 138,
+    "order": 155,
     "prereqs": [
       "c_reaction"
     ],
@@ -1479,7 +1674,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "酸・塩基と pH",
-    "order": 139,
+    "order": 156,
     "prereqs": [
       "hc_mol"
     ],
@@ -1490,7 +1685,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "原子の構造と化学結合",
-    "order": 140,
+    "order": 157,
     "prereqs": [
       "c_atom"
     ],
@@ -1501,7 +1696,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "有機化合物",
-    "order": 141,
+    "order": 158,
     "prereqs": [
       "hc_struct"
     ],
@@ -1512,7 +1707,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "細胞とエネルギー代謝",
-    "order": 142,
+    "order": 159,
     "prereqs": [
       "b_cell_plant"
     ],
@@ -1523,7 +1718,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "遺伝子とDNA",
-    "order": 143,
+    "order": 160,
     "prereqs": [
       "b_genetic"
     ],
@@ -1534,7 +1729,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "体内環境の維持",
-    "order": 144,
+    "order": 161,
     "prereqs": [
       "b_human"
     ],
@@ -1545,7 +1740,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "地球のしくみ",
-    "order": 145,
+    "order": 162,
     "prereqs": [
       "e_land"
     ],
@@ -1556,7 +1751,7 @@
     "subject": "science",
     "stage": "高校",
     "name": "大気・海洋・宇宙",
-    "order": 146,
+    "order": 163,
     "prereqs": [
       "e_weather",
       "e_space"
@@ -1568,7 +1763,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "日本史：古代〜中世",
-    "order": 147,
+    "order": 164,
     "prereqs": [
       "s_hist_ancient"
     ],
@@ -1579,7 +1774,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "日本史：近世",
-    "order": 148,
+    "order": 165,
     "prereqs": [
       "hs_jp_ancmed"
     ],
@@ -1590,7 +1785,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "日本史：近代",
-    "order": 149,
+    "order": 166,
     "prereqs": [
       "hs_jp_early"
     ],
@@ -1601,7 +1796,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "日本史：現代",
-    "order": 150,
+    "order": 167,
     "prereqs": [
       "hs_jp_modern"
     ],
@@ -1612,7 +1807,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "世界史：古代文明と帝国",
-    "order": 151,
+    "order": 168,
     "prereqs": [],
     "group": "世界史"
   },
@@ -1621,7 +1816,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "世界史：中世のヨーロッパ・イスラーム・アジア",
-    "order": 152,
+    "order": 169,
     "prereqs": [
       "hs_w_ancient"
     ],
@@ -1632,7 +1827,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "世界史：近世・革命の時代",
-    "order": 153,
+    "order": 170,
     "prereqs": [
       "hs_w_medieval"
     ],
@@ -1643,7 +1838,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "世界史：帝国主義と二つの世界大戦・現代",
-    "order": 154,
+    "order": 171,
     "prereqs": [
       "hs_w_early"
     ],
@@ -1654,7 +1849,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "地理：地形と気候",
-    "order": 155,
+    "order": 172,
     "prereqs": [
       "s_geo_climate"
     ],
@@ -1665,7 +1860,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "地理：資源・産業",
-    "order": 156,
+    "order": 173,
     "prereqs": [
       "s_jp_industry"
     ],
@@ -1676,7 +1871,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "地理：人口・都市・環境問題",
-    "order": 157,
+    "order": 174,
     "prereqs": [
       "s_geo_world"
     ],
@@ -1687,7 +1882,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "民主政治と日本の政治制度",
-    "order": 158,
+    "order": 175,
     "prereqs": [
       "s_civ_gov"
     ],
@@ -1698,7 +1893,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "市場経済と国際経済",
-    "order": 159,
+    "order": 176,
     "prereqs": [
       "s_civ_econ"
     ],
@@ -1709,7 +1904,7 @@
     "subject": "social",
     "stage": "高校",
     "name": "倫理（思想家）",
-    "order": 160,
+    "order": 177,
     "prereqs": [],
     "group": "公民"
   },
@@ -1718,7 +1913,7 @@
     "subject": "math",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 161,
+    "order": 178,
     "prereqs": []
   },
   {
@@ -1726,7 +1921,7 @@
     "subject": "english",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 162,
+    "order": 179,
     "prereqs": []
   },
   {
@@ -1734,7 +1929,7 @@
     "subject": "social",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 163,
+    "order": 180,
     "prereqs": []
   },
   {
@@ -1742,7 +1937,7 @@
     "subject": "science",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 164,
+    "order": 181,
     "prereqs": []
   },
   {
@@ -1750,7 +1945,7 @@
     "subject": "japanese",
     "stage": "ノンジャンル",
     "name": "発展内容（指導要領の外）",
-    "order": 165,
+    "order": 182,
     "prereqs": []
   }
 ]

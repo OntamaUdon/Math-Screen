@@ -245,6 +245,8 @@ import gen_math7
 P.extend(gen_math7.generate())       # 数学を約1,000問（4段階の難易度。4 は最上級）
 import gen_math8
 P.extend(gen_math8.generate())       # 最上級を、1問ずつ手で書いたもの
+import gen_math9
+P.extend(gen_math9.generate())       # これまで入っていなかった単元（図の問題を含む）
 
 assert len({p["id"] for p in P}) == len(P), "問題の id が重複しています"
 for p in P:

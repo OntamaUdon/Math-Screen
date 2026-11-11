@@ -13,6 +13,13 @@ struct Problem: Codable, Identifiable, Hashable {
     let unit: String?      // 単元の id（units.json）。みんなの問題は nil
     var family: String? = nil   // 酷似した問題のまとまり（数字だけ違う問題、同じ単語の英→和・和→英）。しばらく続けて出さない
     let rate: Double?      // 10人中、何人が1発で正解できそうか（作成時の見積もり、0〜10）。実際の正解率が集まるまでの目安
+    var figure: String? = nil   // 図の画像（Resources/figures の PNG のファイル名、拡張子なし）。図形の問題など
+
+    /// 図の画像。なければ nil。
+    var figureImage: UIImage? {
+        guard let figure, let url = Bundle.main.url(forResource: figure, withExtension: "png") else { return nil }
+        return UIImage(contentsOfFile: url.path)
+    }
 
     var isChoice: Bool { choices != nil }
     static let choiceMarks = ["①", "②", "③", "④"]
