@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ci_signing import call, must
 from asc_subscriptions import find_app, get_all
 
-VERSION = "1.0"
+VERSION = "1.0.1"
 
 
 def version(app_id):

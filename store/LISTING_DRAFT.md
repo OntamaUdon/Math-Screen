@@ -25,14 +25,14 @@
 
 【無料で使えるもの】
 ・アプリのロック（使いすぎたら問題が出て、解くまでロック）
-・算数・数学の問題、約3,000問。小学算数から数学III・Cまでの範囲です。
-・難しさは、初級・中級・上級・最上級の4段階。最上級は、大学入試レベルの自作問題です。
+・算数・数学の問題、約3,700問。小学算数から数学III・Cまでの範囲です。図形の問題は、図つきで出ます。
+・難しさは、初級・中級・上級・最上級の4段階。最上級は、発想を工夫すると解ける、大学入試レベルの自作問題です。
 ・問題集：単元ごとに、解いた結果（1発で正解、まちがえて正解、など）が印で残ります。
 ・学習の記録：解いた問題の数と、正解した数を、グラフで見られます。
 ・できていない単元を優先して出題します。
 
 【解くロックプラン】
-・英語・国語・社会・理科の問題、約11,000問（問題集でも、ロックの問題でも使えます）
+・英語・国語・社会・理科の問題、約11,300問（問題集でも、ロックの問題でも使えます）
 ・解いている問題を変える「問題を変える」
 ・保護者用設定（ルールや設定を、パスコードで守る）
 ・月額 300円、または年額 2,400円（税込）。初めての方は、7日間無料です。
@@ -47,10 +47,18 @@
 ・アプリをロックする機能は、iOS の「スクリーンタイム」の仕組みを使っています。制限するアプリの選択や使用状況は、iPhone の中だけに保存され、開発者には送られません。
 ・問題の内容は、できるだけ正確にするよう努めていますが、正確さや、試験での得点を保証するものではありません。
 
+## このバージョンの最新情報（アップデートのときに表示される）
+・数学の問題を増やしました（約3,700問）。概数、箱ひげ図、正弦定理、条件付き確率、統計的な推測など、教科書の単元を広げました。
+・図形の問題は、図つきで出るようになりました。
+・難しさに「最上級」を足しました。
+・記録のグラフで、10問ごとに棒の上の星の色が変わるようになりました。
+・ロック画面の案内を見直しました。
+・問題を共有するときに、App Store へのリンクが付くようになりました。
+
 ## キーワード（100字まで。カンマで区切る。スペースは入れない）
 > アプリ名とサブタイトルの言葉（スマホ・使いすぎ・勉強・解くロック）は、それだけで検索に使われるので、ここには入れません（入れると、字数の無駄になります）。
 > 「ロック」は、アプリ名の「解くロック」とは別の単語として拾われるので入れています。「子供」と「子ども」は、どちらでも探されるので、ひとつにしています。
-スクリーンタイム,アプリ制限,スマホ依存,時間制限,ペアレンタルコントロール,小学生,中学生,高校生,算数,受験,問題集,英単語,数学,計算,子供,家庭学習,ロック,学習記録
+スクリーンタイム,アプリ制限,スマホ依存,時間制限,小学生,中学生,高校生,算数,中学受験,高校受験,大学受験,英単語,数学,計算,家庭学習,学習記録,自習,勉強アプリ,脱スマホ,集中
 
 ## サポートURL
 https://ontamaudon.github.io/Math-Screen/
@@ -87,9 +95,7 @@ https://ontamaudon.github.io/Math-Screen/terms.html
 【前回の審査でのご指摘への対応】
 ・4.10：スクリーンタイムの機能（アプリのロック）は、無料で使えるようにしました。有料（解くロックプラン）なのは、本アプリが独自に作った学習コンテンツ（英語・国語・社会・理科の問題）、「問題を変える」、保護者用設定です。
 ・5.1.1(iv)：スクリーンタイムと通知の許可の前の説明画面で、ボタンを「つぎへ」「はじめる」に変え、「あとで」のボタンをなくしました。説明のあとは、必ず許可の確認に進みます。
-・サブスクリプションの説明文（「アプリロックなど、すべての機能が使えます。」）と、サブスクリプションの審査用の画像は、提出中のため変更できませんでした。プランの実際の内容は、アプリのプラン画面と、上記のとおりです（アプリロックは、プランに入っていない人も使えます）。
 
 (English summary)
 - Guideline 4.10: Screen Time features (app locking) are now free for everyone. The subscription only unlocks the app's own learning content (English, Japanese, social studies and science questions), the "change question" feature, and the passcode-protected settings.
 - Guideline 5.1.1(iv): The screens shown before the Screen Time and notification permission requests now use "Next" (つぎへ) / "Start" (はじめる) buttons, and the "Later" (あとで) buttons were removed. Users always proceed to the system permission request.
-- The subscription description and the subscription review screenshot could not be edited while they are part of this submission (the API returned "can not be modified in the current state"). They still show the previous wording. The current plan contents are as described above and on the in-app plan screen; app locking is available to everyone without the subscription.

@@ -13,8 +13,8 @@ from ci_signing import call, must
 from asc_subscriptions import find_app, get_all, put_bytes
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-VERSION = "1.0"
-SHOTS = ["solve", "home", "book", "stats", "plan"]       # 見せる順番
+VERSION = "1.0.1"
+SHOTS = ["1_home", "2_book", "3_lock", "4_solve", "5_stats", "6_home2"]       # 見せる順番（store/screenshots_new）
 
 
 def sections():
@@ -62,6 +62,8 @@ def listing():
     loc = next((l for l in locs if l["attributes"]["locale"] == loc_name), None)
     attrs = {"description": sec["説明"], "keywords": sec["キーワード"].replace("\n", ""), "promotionalText": sec["プロモーション用テキスト"],
              "supportUrl": sec["サポートURL"], "marketingUrl": sec["サポートURL"]}
+    if VERSION != "1.0":
+        attrs["whatsNew"] = sec["このバージョンの最新情報"]
     if loc:
         must(*call("PATCH", f"/appStoreVersionLocalizations/{loc['id']}", {"data": {"type": "appStoreVersionLocalizations", "id": loc["id"],
             "attributes": attrs}}), "説明など")
@@ -72,16 +74,20 @@ def listing():
     print("説明・キーワード・プロモーション用テキスト・サポートURL・著作権を入れました")
     # アプリ情報：サブタイトル・プライバシーポリシーのURL・カテゴリ
     infos = get_all(f"/apps/{app_id}/appInfos")
-    info = infos[0]
+    # 公開中のアプリ情報は変えられないので、編集中のもの（新しいバージョン用）を選ぶ
+    live = {"READY_FOR_SALE", "READY_FOR_DISTRIBUTION"}
+    editable = [i for i in infos if (i["attributes"].get("state") or i["attributes"].get("appStoreState")) not in live]
+    info = editable[0] if editable else infos[0]
+    print("アプリ情報:", [(i["id"], i["attributes"].get("state") or i["attributes"].get("appStoreState")) for i in infos])
     il = get_all(f"/appInfos/{info['id']}/appInfoLocalizations")
     cur = next((l for l in il if l["attributes"]["locale"] == loc_name), None)
-    ia = {"subtitle": sec["サブタイトル"], "privacyPolicyUrl": sec["プライバシーポリシーのURL"]}
+    ia = {"name": sec["アプリ名"], "subtitle": sec["サブタイトル"], "privacyPolicyUrl": sec["プライバシーポリシーのURL"]}
     if cur:
         must(*call("PATCH", f"/appInfoLocalizations/{cur['id']}", {"data": {"type": "appInfoLocalizations", "id": cur["id"],
             "attributes": ia}}), "サブタイトル")
     else:
         must(*call("POST", "/appInfoLocalizations", {"data": {"type": "appInfoLocalizations",
-            "attributes": dict(ia, locale=loc_name, name=sec["アプリ名"]),
+            "attributes": dict(ia, locale=loc_name),
             "relationships": {"appInfo": {"data": {"type": "appInfos", "id": info["id"]}}}}}), "サブタイトルの作成")
     must(*call("PATCH", f"/appInfos/{info['id']}", {"data": {"type": "appInfos", "id": info["id"], "relationships": {
         "primaryCategory": {"data": {"type": "appCategories", "id": "EDUCATION"}},
@@ -120,7 +126,7 @@ def shots():
     for old in get_all(f"/appScreenshotSets/{s['id']}/appScreenshots"):
         must(*call("DELETE", f"/appScreenshots/{old['id']}"), "古い画像の削除")
     for name in SHOTS:
-        data = open(os.path.join(ROOT, "store", "screenshots", f"{name}.png"), "rb").read()
+        data = open(os.path.join(ROOT, "store", "screenshots_new", f"{name}.png"), "rb").read()
         shot = must(*call("POST", "/appScreenshots", {"data": {"type": "appScreenshots",
             "attributes": {"fileName": f"{name}.png", "fileSize": len(data)},
             "relationships": {"appScreenshotSet": {"data": {"type": "appScreenshotSets", "id": s["id"]}}}}}), f"画像の予約 {name}")["data"]
