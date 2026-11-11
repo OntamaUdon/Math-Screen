@@ -6,7 +6,7 @@ import SwiftUI
 /// 棒の高さと色は1の位（1〜9問）で決まる。10問以上になると星が付き、星の色は10の位の数（棒と同じ色の順）。0〜9問は星なし。
 /// 100問以上では星が2つ（左が100の位、右が10の位）、1000問以上では3つ…と、位ごとに1つずつ増える。0の位の星は灰色。
 /// 例：23問 → 3問の色の棒と、2問の色の星1つ。
-/// 色は1問ごとに変わる（水色→緑→金→橙→桃→紫→藍→赤→銀）。色の見方は、グラフの下に色だけの凡例を並べる。
+/// 色は1問ごとに変わる（水色→緑→金→橙→桃→紫→藍→赤→黒金）。色の見方は、グラフの下に色だけの凡例を並べる。
 /// 今週（手前の列）の棒には、実際の正解数を数字で添える。
 struct IsoBarChart: View {
     /// weeks[0] が今週、weeks[1] が1週前…。値は日ごとの正解数。まだ来ていない日は nil。
@@ -58,7 +58,7 @@ struct IsoBarChart: View {
         case 6: return (Color(hex: 0xCDB6FF), Color(hex: 0x9B7BF0), Color(hex: 0x6B4FC0))
         case 7: return (Color(hex: 0xA9B8FF), Color(hex: 0x4A5FE0), Color(hex: 0x2B3AA8))
         case 8: return (Color(hex: 0xFF9AA0), Color(hex: 0xE0323F), Color(hex: 0xA81F2B))
-        case 9: return (Color(hex: 0xFFFFFF), Color(hex: 0xD5DAE6), Color(hex: 0x9AA3B8))
+        case 9: return (Color(hex: 0xFFD25E), Color(hex: 0x3A3E58), Color(hex: 0x23263A))     // 黒と金（いちばん豪華）
         default: return (Color(hex: 0xFFD25E), Color(hex: 0x3A3E58), Color(hex: 0x23263A))
         }
     }
@@ -68,7 +68,7 @@ struct IsoBarChart: View {
         let digits = String(upper).compactMap { $0.wholeNumberValue }
         return digits.reduce(Text("")) { acc, d in
             acc + Text("✦").font(.system(size: 13, weight: .heavy))
-                .foregroundColor(d == 0 ? Color(hex: 0xB8BECC) : tierColors(d).1)
+                .foregroundColor(d == 0 ? Color(hex: 0xB8BECC) : d == 9 ? Color(hex: 0x23263A) : tierColors(d).1)
         }
     }
 
