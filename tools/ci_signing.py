@@ -66,8 +66,9 @@ def setup():
                 if p["attributes"]["name"] == name:
                     call("DELETE", f"/profiles/{p['id']}")
 
-    # 前回までの CI 用の証明書を片づける。最新の1つだけは残す
-    # （直前のビルドの署名が、審査の提出時に失効扱いにならないようにするため）
+    # 前回までの CI 用の証明書を片づける（配布用の証明書は数に上限があり、残っていると新しく作れない）。
+    # 注意：審査に出したビルドの証明書を、審査が終わる前に消すと、署名が無効と判断されることがある。
+    #       審査中は、新しいビルドを作らないこと。公開済みのアプリは Apple が署名し直すので、消しても影響しない。
     st, res = call("GET", "/certificates?" + urllib.parse.urlencode({"filter[certificateType]": "IOS_DISTRIBUTION", "limit": 50}))
     if st == 200:
         mine = []
@@ -81,7 +82,7 @@ def setup():
             if "QLock CI" in out:
                 mine.append((c["id"], c["attributes"].get("expirationDate") or "", out))
         mine.sort(key=lambda x: x[1])
-        for cid, _, _ in mine[:-1]:
+        for cid, _, _ in mine:
             st2, _ = call("DELETE", f"/certificates/{cid}")
             print("古い CI 用の証明書を削除:", cid, st2)
 
