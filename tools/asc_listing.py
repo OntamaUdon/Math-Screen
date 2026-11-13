@@ -141,6 +141,12 @@ def check():
     app_id = find_app()
     vid, state = version_id(app_id)
     print("バージョン", VERSION, ":", vid or "まだありません", state or "")
+    if vid:
+        st_, rv = call("GET", f"/appStoreVersions/{vid}")
+        at = rv.get("data", {}).get("attributes", {}) if st_ == 200 else {}
+        print("  公開の方法:", at.get("releaseType"), "／ 状態:", at.get("appStoreState"), "／ 公開された日時:", at.get("createdDate"))
+        for v in get_all(f"/apps/{app_id}/appStoreVersions?filter[platform]=IOS&limit=50"):
+            print("  ・", v["attributes"]["versionString"], v["attributes"]["appStoreState"], v["attributes"].get("releaseType"))
     if not vid:
         return
     for l in get_all(f"/appStoreVersions/{vid}/appStoreVersionLocalizations"):
