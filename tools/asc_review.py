@@ -85,5 +85,48 @@ def resubmit():
     status()
 
 
+def items_detail():
+    """提出物の項目が、何（アプリ本体・サブスクなど）かを調べる（読むだけ）。"""
+    app_id = find_app()
+    for s in submissions(app_id):
+        print(f"提出物 {s['id']}: {s['attributes'].get('state')}")
+        for it in get_all(f"/reviewSubmissions/{s['id']}/items"):
+            rel = it.get("relationships") or {}
+            kinds = []
+            for k, r in rel.items():
+                d = r.get("data") if isinstance(r, dict) else None
+                if d: kinds.append(f"{k}={d.get('type')}:{d.get('id')}")
+                elif isinstance(r, dict) and r.get("links", {}).get("related"):
+                    st, res = call("GET", r["links"]["related"].replace("https://api.appstoreconnect.apple.com", ""))
+                    dd = res.get("data") if st == 200 else None
+                    if isinstance(dd, dict) and dd.get("id"): kinds.append(f"{k}={dd.get('type')}:{dd.get('id')}")
+            print("   項目:", it["attributes"].get("state"), kinds)
+
+
+def submit_version():
+    """アプリ本体（バージョン）を、新しい提出物に入れて、審査に出す。"""
+    app_id = find_app()
+    v = version(app_id)
+    if not v: print("::error::バージョンがありません"); sys.exit(1)
+    print("バージョン:", v["attributes"]["versionString"], v["attributes"]["appStoreState"], "付いているビルド:", attached_build(v["id"]))
+    if attached_build(v["id"]) is None:
+        print("::error::ビルドが付いていません"); sys.exit(1)
+    # すでに下書きの提出物（READY_FOR_REVIEW）があれば使う。なければ作る
+    draft = next((s for s in submissions(app_id) if s["attributes"].get("state") == "READY_FOR_REVIEW"), None)
+    if draft:
+        sid = draft["id"]
+    else:
+        res = must(*call("POST", "/reviewSubmissions", {"data": {"type": "reviewSubmissions", "attributes": {"platform": "IOS"},
+              "relationships": {"app": {"data": {"type": "apps", "id": app_id}}}}}), "提出物の作成")
+        sid = res["data"]["id"]
+    print("提出物:", sid)
+    must(*call("POST", "/reviewSubmissionItems", {"data": {"type": "reviewSubmissionItems",
+          "relationships": {"reviewSubmission": {"data": {"type": "reviewSubmissions", "id": sid}},
+                            "appStoreVersion": {"data": {"type": "appStoreVersions", "id": v["id"]}}}}}), "アプリ本体を提出物に入れる")
+    must(*call("PATCH", f"/reviewSubmissions/{sid}", {"data": {"type": "reviewSubmissions", "id": sid, "attributes": {"submitted": True}}}), "審査への提出")
+    print("アプリ本体を審査に出しました")
+    status()
+
+
 if __name__ == "__main__":
-    {"status": status, "resubmit": resubmit}[sys.argv[1] if len(sys.argv) > 1 else "status"]()
+    {"status": status, "resubmit": resubmit, "items": items_detail, "submit-version": submit_version}[sys.argv[1] if len(sys.argv) > 1 else "status"]()
