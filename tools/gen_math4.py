@@ -306,10 +306,13 @@ def t_max_quad():
 
 
 def t_bisector():
-    a, b = R.randint(2, 7), R.randint(2, 7); k = R.randint(1, 4)
-    if a == b: return False
-    return add(491, "math1a", 2, "角の二等分線", fmt("三角形 $\\mathrm{ABC}$ で、$\\angle \\mathrm{A}$ の二等分線が辺 $\\mathrm{BC}$ と点 $\\mathrm{D}$ で交わる。$\\mathrm{AB} = «a»$、$\\mathrm{AC} = «b»$、$\\mathrm{BC} = «bc»$ のとき、$\\mathrm{BD}$ の長さを答えよ。", a=a, b=b, bc=(a + b) * k), a * k,
-               fmt("$\\mathrm{BD} : \\mathrm{DC} = \\mathrm{AB} : \\mathrm{AC} = «a» : «b»$。$\\mathrm{BD} = «bc» \\times \\dfrac{«a»}{«ab»} = «bd»$。", a=a, b=b, bc=(a + b) * k, ab=a + b, bd=a * k))
+    # 三角形が成り立つ（|AB − AC| < BC < AB + AC）ように BC を選び、BD = BC · AB ÷ (AB + AC) が整数になる組だけを使う
+    cands = [(a, b, bc) for a in range(2, 13) for b in range(2, 13) if a != b
+             for bc in range(abs(a - b) + 1, a + b) if (bc * a) % (a + b) == 0]
+    a, b, bc = R.choice(cands)
+    bd = bc * a // (a + b)
+    return add(491, "math1a", 2, "角の二等分線", fmt("三角形 $\\mathrm{ABC}$ で、$\\angle \\mathrm{A}$ の二等分線が辺 $\\mathrm{BC}$ と点 $\\mathrm{D}$ で交わる。$\\mathrm{AB} = «a»$、$\\mathrm{AC} = «b»$、$\\mathrm{BC} = «bc»$ のとき、$\\mathrm{BD}$ の長さを答えよ。", a=a, b=b, bc=bc), bd,
+               fmt("$\\mathrm{BD} : \\mathrm{DC} = \\mathrm{AB} : \\mathrm{AC} = «a» : «b»$。$\\mathrm{BD} = «bc» \\times \\dfrac{«a»}{«ab»} = «bd»$。", a=a, b=b, bc=bc, ab=a + b, bd=bd))
 
 
 def t_power_pt():

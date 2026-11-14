@@ -273,9 +273,10 @@ def m_par_mid():
 
 
 def m_par_bis():
-    ab_, ac_ = R.randint(3, 9), R.randint(3, 9)
-    if ab_ == ac_: return False
-    bc = (ab_ + ac_) * R.randint(1, 3)
+    # 三角形が成り立つ（|AB − AC| < BC < AB + AC）ように BC を選び、BD が整数になる組だけを使う
+    cands = [(a, b, bc) for a in range(3, 13) for b in range(3, 13) if a != b
+             for bc in range(abs(a - b) + 1, a + b) if (bc * a) % (a + b) == 0]
+    ab_, ac_, bc = R.choice(cands)
     bd = bc * ab_ // (ab_ + ac_)
     return add("m_parallel", 2, "角の二等分線と比", f"図で AD は角 A の二等分線で、AB = {ab_}、AC = {ac_}、BC = {bc} である。BD の長さを答えよ。", bd,
                f"角の二等分線の性質より BD : DC = AB : AC = {ab_} : {ac_}。BD $= {bc} \\times \\dfrac{{{ab_}}}{{{ab_ + ac_}}} = {bd}$。", figure="fig_bisector")
