@@ -21,6 +21,7 @@ jobs:
           python -m pip install --quiet sympy matplotlib
           python tools/build_problems.py
           git diff --exit-code -- mathscreen/Resources/problems.json mathscreen/Resources/units.json preview/problems.js
+          python tools/audit_problems.py        # 三角形が成り立たない、など、問題として成り立たない条件がないか
 
       - name: Install XcodeGen
         run: brew install xcodegen
